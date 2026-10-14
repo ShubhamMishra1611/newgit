@@ -1,0 +1,6 @@
+f(x)/(2 sinh x) = x**11/57600 - x**9/6048 + x**7/480 + x**3/2
+v^4/r^7: series coeff a_3 = 1/2,  potential coefficient C = 15/16
+v^6/r^11: series coeff a_5 = 0,  potential coefficient C = 0
+v^8/r^15: series coeff a_7 = 1/480,  potential coefficient C = 9009/4096
+v^10/r^19: series coeff a_9 = -1/6048,  potential coefficient C = -182325/16384
+CHECK: v^4/r^7 coefficient = 15/16 (BBPT hep-th/9706072 eq.13) and v^6/r^11 coefficient = 0 (BBPT remark) -- PASSED

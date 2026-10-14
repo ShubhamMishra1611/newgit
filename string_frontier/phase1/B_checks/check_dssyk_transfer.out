@@ -1,0 +1,8 @@
+lam=0.3: max eig=3.928500, 2/sqrt(1-q)=3.928509, weight-normalization=1.000000
+  moments matrix  : [ 1.          2.74081822 11.49791389]
+  moments q-Herm  : [ 1.          2.74081822 11.49791389]
+  moments chords  : [ 1.          2.74081822 11.49791389]
+lam=1.0: max eig=2.515528, 2/sqrt(1-q)=2.515533, weight-normalization=1.000000
+  moments matrix  : [1.         2.36787944 7.66306957]
+  moments q-Herm  : [1.         2.36787944 7.66306957]
+  moments chords  : [1.         2.36787944 7.66306957]

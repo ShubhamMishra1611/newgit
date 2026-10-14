@@ -1,0 +1,52 @@
+======================================================================
+1. Bousso-Polchinski spacing, hep-th/0004134 eq. (2.26)
+  J=   4 D=1   : uniform charge needed q = 10^-29.601  (q^(1/2)=10^-14.800)
+  J=   4 D=2^J : uniform charge needed q = 10^-29.902  (q^(1/2)=10^-14.951)
+  J=   6 D=1   : uniform charge needed q = 10^-19.651  (q^(1/2)=10^-9.826)
+  J=   6 D=2^J : uniform charge needed q = 10^-19.952  (q^(1/2)=10^-9.976)
+  J=  20 D=1   : uniform charge needed q = 10^ -5.879  (q^(1/2)=10^-2.939)
+  J=  20 D=2^J : uniform charge needed q = 10^ -6.180  (q^(1/2)=10^-3.090)
+  J= 100 D=1   : uniform charge needed q = 10^ -1.429  (q^(1/2)=10^-0.714)
+  J= 100 D=2^J : uniform charge needed q = 10^ -1.730  (q^(1/2)=10^-0.865)
+  J= 300 D=1   : uniform charge needed q = 10^ -0.870  (q^(1/2)=10^-0.435)
+  J= 300 D=2^J : uniform charge needed q = 10^ -1.171  (q^(1/2)=10^-0.585)
+
+   Brute-force check of the shell-volume estimate (2.24) at small J
+  J=3: lattice points in shell =     80, volume estimate =      74.6, ratio = 1.073
+  J=4: lattice points in shell =    776, volume estimate =     893.5, ratio = 0.869
+  J=5: lattice points in shell =   7944, volume estimate =    8069.3, ratio = 0.984
+======================================================================
+2. Rigid CY toy (Denef-Douglas hep-th/0404116 sec. 5.1): W = A tau + B, A,B in Z[i],
+   tadpole 0 < Im(conj(A) B) <= L; SL(2,Z) reps a2=0, 0<=b1<a1, a1*b2 = n  ->  #orbits(n) = sigma_1(n)
+  L=   50: exact N(L)=     2080  pi^2 L^2/12=      2056.2  ratio=1.0116   continuum AD(1.5)/DD(3.15) eval = pi^2 L^2/6 -> ratio 0.5058
+  L=  150: exact N(L)=    18604  pi^2 L^2/12=     18505.5  ratio=1.0053   continuum AD(1.5)/DD(3.15) eval = pi^2 L^2/6 -> ratio 0.5027
+  L=  500: exact N(L)=   205883  pi^2 L^2/12=    205616.8  ratio=1.0013   continuum AD(1.5)/DD(3.15) eval = pi^2 L^2/6 -> ratio 0.5006
+  L= 1000: exact N(L)=   823081  pi^2 L^2/12=    822467.0  ratio=1.0007   continuum AD(1.5)/DD(3.15) eval = pi^2 L^2/6 -> ratio 0.5004
+  L= 3000: exact N(L)=  7405170  pi^2 L^2/12=   7402203.3  ratio=1.0004   continuum AD(1.5)/DD(3.15) eval = pi^2 L^2/6 -> ratio 0.5002
+  L=150: enumerated 18604 vacua (should equal sum sigma_1 = 18604)
+  all Im(tau) > 0 after reduction: True
+   fraction with Im tau > 1.5: 0.6323  vs uniform hyperbolic prediction 3/(pi y) = 0.6366
+   fraction with Im tau > 2.0: 0.4734  vs uniform hyperbolic prediction 3/(pi y) = 0.4775
+   fraction with Im tau > 4.0: 0.2341  vs uniform hyperbolic prediction 3/(pi y) = 0.2387
+   vacua exactly at tau=i: 120, at tau=rho: 0 (out of 18604)
+======================================================================
+3. Exponential quintessence vs swampland slopes (d=4)
+  TCC average  2/sqrt((d-1)(d-2)) [1909.11063]: 0.8165; DESI fit lambda=0.698(+0.173): (bound - lambda)/sigma_up = +0.68
+  strong dS    2/sqrt(d-2)       [2101.11617]: 1.4142; DESI fit lambda=0.698(+0.173): (bound - lambda)/sigma_up = +4.14
+   attractor w_inf = -1 + lambda^2/3 (1806.08362 eq.1.3) at lambda=0.698: w=-0.838
+   attractor w_inf = -1 + lambda^2/3 (1806.08362 eq.1.3) at lambda=0.816: w=-0.778
+   attractor w_inf = -1 + lambda^2/3 (1806.08362 eq.1.3) at lambda=1.414: w=-0.333
+======================================================================
+4. Dark dimension numerics (2205.12293 eqs. (2.1),(3.2)-(3.5))
+  Lambda^-1/4 = 85.4 micron  (paper: ~88 micron)
+  Lambda/Mpl^4 = 8.10e-121
+  lambda=1e-01: m=0.0231 eV, l=1/m=8.54 micron, species scale Mhat=5.15e+08 GeV
+  lambda=1e-02: m=0.231 eV, l=1/m=0.854 micron, species scale Mhat=1.11e+09 GeV
+  lambda=1e-03: m=2.31 eV, l=1/m=0.0854 micron, species scale Mhat=2.39e+09 GeV
+======================================================================
+5. Size of the Ashok-Douglas prefactor (2 pi L)^K / K!  (hep-th/0307049 eq. (1.5)), log10
+  K=b3= 100, L=  100: log10[(2 pi L)^K/K!] =    121.8
+  K=b3= 300, L=  300: log10[(2 pi L)^K/K!] =    368.1
+  K=b3= 300, L= 1000: log10[(2 pi L)^K/K!] =    525.0
+  K=b3= 300, L= 3000: log10[(2 pi L)^K/K!] =    668.1
+  K=b3= 600, L= 1000: log10[(2 pi L)^K/K!] =    870.8

@@ -1,0 +1,33 @@
+=== (1a) Riemann normal coordinates: g_ij = delta_ij - (1/3) R_ikjl x^k x^l + O(x^3) ===
+  S^2 radius r0: g_RNC - [delta - R x x/3] through O(x^2) = [[0, 0], [0, 0]]
+  H^2 radius r0: g_RNC - [delta - R x x/3] through O(x^2) = [[0, 0], [0, 0]]
+
+=== (1b) coincident propagator on a 2D lattice: coefficient of -log m^2 ===
+  L=4096: tadpole vs m^2 = [(0.01, 0.64156), (0.004, 0.714861), (0.001, 0.825403), (0.0004, 0.898371)]
+  fitted d(tadpole)/d(log m^2) = -0.079776;   -1/(4 pi) = -0.079577
+  constant: tadpole + log(m^2)/(4pi) = [0.27509, 0.27548, 0.2757, 0.27575] vs log(32)/(4pi) = 0.27579
+  => int d^2k/(2pi)^2 1/k^2 = (1/2pi) log(Lambda/mu); with S = (1/4pi a') int (d xi)^2 the propagator is
+     2 pi a'/k^2, so <xi^a xi^b> = delta^ab a' log(Lambda/mu).
+
+=== (1c) beta^G = a' R_mn, and Polyakov's O(N) beta function ===
+  second-order background-field action: (1/4pi a') int R_{m a b n} xi^a xi^b dX^m dX^n  (RNC, from (1a))
+  <...> -> (1/4pi a') a' log(Lambda/mu) R_{m a a n} dX dX = -(1/4pi a') a' log(Lambda/mu) R_mn dX dX
+  => G_mn(mu) = G_mn - a' R_mn log(Lambda/mu),  mu dG/dmu = a' R_mn.
+  O(3) model, target S^2: R_mn = 1/r^2 G_mn ;  with g = 2 pi a'/r^2:  beta(g) = -g**2/(2*pi)   (Polyakov: -g**2/(2*pi))
+  O(4) model, target S^3: R_mn = 2/r^2 G_mn ;  with g = 2 pi a'/r^2:  beta(g) = -g**2/pi   (Polyakov: -g**2/pi)
+  O(5) model, target S^4: R_mn = 3/r^2 G_mn ;  with g = 2 pi a'/r^2:  beta(g) = -3*g**2/(2*pi)   (Polyakov: -3*g**2/(2*pi))
+
+=== (2) exact backgrounds solve the one-loop beta equations ===
+  linear dilaton (flat G, Phi = V.X): beta^G = 2a' d d Phi = 0;  beta^Phi = (D-26)/6 + a' V^2 = 0 => D = -6*V**2*alpha' + 26
+  2D cigar ds^2 = k(dr^2 + tanh^2 r dth^2), Phi = -log cosh r:
+    R_mn + 2 D_m D_n Phi = [[0, 0], [0, 0]]
+    -(1/2) D^2 Phi + (D Phi)^2 = 1/k  (constant)  => (D-26)/6 + a'/k = 0, D=2 => k = [alpha'/4]
+  S^3 radius R with H = (h/R^3) vol:  R_mn - H_mpq H_n^pq/4 = [-(-2*R**2 + h)*(2*R**2 + h)/(2*R**4), -(-2*R**2 + h)*(2*R**2 + h)*sin(psi)**2/(2*R**4), -(-2*R**2 + h)*(2*R**2 + h)*sin(psi)**2*sin(theta2)**2/(2*R**4)] (diag) => h = [2*R**2]
+    (H proportional to the covariantly-constant volume form => D^p H_pmn = 0, so beta^B = 0 with const Phi)
+    H^2 = 24/R**2;  beta^Phi = (D-26)/6 - a' H^2/24 = (D-26)/6 - a'/R^2  (const, fixes the CFT c)
+
+=== (3) beta functions as Euler-Lagrange equations of the spacetime action (2D, H=0) ===
+  dL/dPhi (Euler-Lagrange) / [sqrt(G) e^(-2Phi) (G^mn beta^G_mn - 4 beta^Phi)/a'] = -2
+  => the dilaton equation of motion IS the stated combination of one-loop beta functions.
+  dL/dw / (sqrt(G)e^(-2Phi)) = 2*(-Lambda0*exp(2*w(u, v)) - 4*Derivative(P(u, v), u)**2 + 2*Derivative(P(u, v), (u, 2)) - 4*Derivative(P(u, v), v)**2 + 2*Derivative(P(u, v), (v, 2)))*exp(-2*w(u, v))
+  compare  -8*beta^Phi/a' = 2*(-Lambda0*exp(2*w(u, v)) - 4*Derivative(P(u, v), u)**2 + 2*Derivative(P(u, v), (u, 2)) - 4*Derivative(P(u, v), v)**2 + 2*Derivative(P(u, v), (v, 2)))*exp(-2*w(u, v))  -> difference = 0

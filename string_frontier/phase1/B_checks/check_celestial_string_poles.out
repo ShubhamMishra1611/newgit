@@ -1,0 +1,12 @@
+convergence check N=300 vs 600, beta=1: -0.962423650119207 -0.962423650119207
+r=2.0, beta=1:  residue-sum S = -0.962423650119
+r=2.0, beta=2:  residue-sum S = -1.97392088022
+r=2.0, beta=3:  residue-sum S = -3.98217976474
+r=2.0, beta=-2:  S = -0.03577708764
+r=2.0, beta=-4:  S = 0.050087922696
+convergence check N=300 vs 600, beta=1: -1.24961562526825 -1.24961562526825
+r=3.7, beta=1:  residue-sum S = -1.24961562527
+r=3.7, beta=2:  residue-sum S = -4.15742538479
+r=3.7, beta=3:  residue-sum S = -14.5222693668
+r=3.7, beta=-2:  S = -0.0387311053863
+r=3.7, beta=-4:  S = 0.0254183511065
