@@ -1,0 +1,978 @@
+# Celestial strings: field theory, conformally soft limits, and mapping the worldsheet onto the celestial sphere
+URL: https://arxiv.org/pdf/2405.01643
+Published: 2024-05-02
+Author: Lina Castiblanco, Gastón E. Giribet, Gabriel Marin, Francisco Rojas
+
+# Celestial strings: field theory, conformally soft limits, and mapping the worldsheet onto the celestial sphere
+
+arXiv (Cornell University). Published: 2024-05-02. Preprint. 0 citations.
+
+## Authors
+
+- Lina Castiblanco: h-index 7; 721 citations
+- Gastón E. Giribet: h-index 30; 3,736 citations
+- Gabriel Marin: h-index 2; 41 citations
+- Francisco Rojas: h-index 6; 147 citations
+
+## Topics
+
+- Computational Physics and Python Applications
+
+---
+
+# Celestial strings: field theory, conformally soft limits, and mapping the worldsheet onto the
+
+Lina Castiblanco a, Gaston Giribet b, Gabriel Marin c, and Francisco Rojas d aSchool of Mathematics, Statistics and Physics, Newcastle University, Herschel Building, NE1 7RU Newcastle-upon-Tyne, U.K. bDepartment of Physics, New York University. 726 Broadway, New York, NY10003, USA. cDepartamento de F´ısica, FCFM, Universidad de Chile, Blanco Encalada 2008, Santiago, Chile. dFacultad de Ingenier´ıa y Ciencias, Universidad Adolfo Ib´a˜nez, Santiago, Chile.
+
+## Abstract
+
+We compute the celestial correlators corresponding to tree-level 5-gluon amplitudes in the type I superstring theory. Since celestial correlation functions are obtained by integrating over the full range of energies, there is no obvious analog of the α ′ → 0 limit in this basis. This is manifestly shown by a factorization of the α ′ dependence in the celestial string amplitudes. Consequently, the question arises as to how the field theory limit is recovered from string theory in the celestial basis. This problem has been addressed in the literature for the case of 4-gluon amplitudes at tree level, where the forward scattering limit of the stringy factor was identified as a limit in which celestial Yang-Mills 4-point function is recovered. Here, we extend the analysis to the case with five gluons, for which the string moduli space allows for more types of limits, thus allowing to investigate this aspect in more detail. Based on celestial data only, we study the regime in which one arrives at the correct celestial field theory limit. We also study other properties of the celestial string amplitudes, namely, the conformally soft theorem, effective field theory expansion in the conformal basis, and a map that arises in the regime of high-energy/large-scaling dimension that connects the punctured string worldsheet to the insertion of primary operators in the celestial CFT for the massless n-point string amplitude.
+
+1 Introduction 3 2 Celestial amplitudes for type I superstrings 5 2.1 Preliminary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 2.2 4-gluon superstring amplitude . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 2.2.1 4-gluon string amplitude in momentum basis . . . . . . . . . . . . . . . . . . . 6 2.2.2 4-gluon string amplitude in celestial basis . . . . . . . . . . . . . . . . . . . . . 7 2.3 5-gluon superstring amplitude . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 2.3.1 The 5-gluon string amplitude in momentum basis . . . . . . . . . . . . . . . . . 8 2.3.2 The 5-gluon string amplitude in celestial basis . . . . . . . . . . . . . . . . . . 10 3 The celestial field theory limit 11 3.1 4-gluon limit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 3.2 5-gluon limit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 3.2.1 Single Regge limit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 3.2.2 The z12 → 0 limit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 3.2.3 Collinear limits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 4 Conformally soft theorem 18
+
+5 Mapping the string worldsheet to the CCFT 20 6 Concluding remarks 24
+
+## 1. Introduction
+
+The celestial holography program [1–7] is predominantly a bottom-up approach 1 to reformulate scattering amplitudes in asymptotically flat spacetimes in terms of correlators on a 2D CFT living on the Celestial Sphere, thus aiming to provide a holographic description of gravitational and gauge theories. The program gives a precise prescription to transform scattering amplitudes in asymptotically Minkowski space into correlation functions of a putative two-dimensional conformal field theory (CFT) on the celestial sphere, referred to as the celestial CFT (or CCFT for short). For massless particles, the precise relation between the observables of both theories is mediated by a Mellin transform. Concretely, the bulk scattering amplitudes of massless states in flat space can be expressed in the form of CCFT correlators by mapping the set of wave packets in the bulk into the Mellin transformed plane waves. This produces amplitudes of states that are eigenfunctions of the boost operators, with the eigenvalues translating into the conformal dimensions of dual primary operators. The action of the Lorentz group on constant-time sections of Minkowski null infinity represent M¨obius transformations on the celestial sphere, and the operator product expansion (OPE) in the CCFT can be studied by analyzing the collinear limit of the amplitudes [11]. A salient feature of the symmetry analysis in celestial holography is that the soft theorems of the bulk theory can be interpreted as Ward identities of the dual CFT corresponding to asymptotic symmetries that emerge near the conformal boundary of flat space [12, 13]. Despite many recent efforts to understand the nature of CCFTs from a large variety of points of view, there are still basic questions that remain open. For example, while there are strong reasons to think that CCFTs might be non-unitary, it is still unclear to which extent they resemble or differ from standard or non-unitary CFTs. For instance, there has been an ongoing discussion about whether the theory having a vanishing central charge. The current status of flat space holography certainly contrasts with the one of the AdS/CFT correspondence, where the pair of theories involved in the duality can be explicitly identified and the holographic dictionary accurately formulated. This is basically because in AdS/CFT one has access to a string theory formulation and, consequently, to a top-down derivation. One is thus immediately tempted to ask whether in the case of celestial holography a stringy realization is also possible. This is of course one important motivation to study celestial holography in the context of string theory. In relation to this point, it is natural to wonder whether there exists a celestial counterpart of the 1/N expansion of AdS/CFT. This question is related to the one alluded above regarding the fundamental structure of the CCFT since, for example, non-analytic dependencies in correlation functions, similar to those present in logarithmic CFTs [14, 15], may appear in 1 However, see [8–10] for very interesting recent proposals for top-down constructions in the context of twisted holography.
+
+OPEs as an artifact of a perturbative truncation. All these are questions that, to be adequately addressed, would require a better knowledge of the theory. Celestial holography was first studied in the context of string theory by Stieberger and Taylor in [16], where tree-level scattering amplitudes in type I superstring theory and heterotic superstring were analyzed in the Mellin basis. Celestial tree-level amplitudes and OPEs were also studied in the context of string theories in [17–24]. In [16], the authors studied the string scattering amplitudes in the celestial basis, focusing on the tree-level processes involving 4 gluons. One of the features observed when transforming the string amplitudes into the Mellin basis is that the dependence on α ′ factorizes out. This factorization does not happen in other holographic proposals such as the Carrollian theory, cf. [25]. In the case of celestial holography, the factorization of the dependence on α ′ turns out to be a direct consequence of the mix of energy regimes, and raises the question of how the field theory limit should be understood in this context. The authors of [16] made a proposal, showing that the string amplitudes do reproduce the correct limit at certain points of the moduli space: In contrast to what happens in string theory in momentum basis, where quantum field theory is recovered in the α ′ → 0 limit, in the celestial basis the field theory is recovered for the kinematic configurations that correspond to the forward scattering limit. This is arguably expected as in such a limit the processes turn out to be dominated by the exchanges of massless states. At the same time, this raises the question of what are exactly all the corners of the moduli space in which celestial string amplitudes reproduce the proper field theory limits. Motivated by this question, in [24] the authors continued the study of string celestial holography by exploring the structure of string amplitudes at 1-loop in the Mellin basis. Focusing on the case of 4-gluon processes, it was shown how the field theory limit of string theory does commute with the Mellin machinery that mixes the IR and UV regimes, which makes the analysis of the limit quite tractable. It was then observed that, as in the case of tree-level amplitudes, the 1-loop amplitudes, when translated into the celestial basis, also exhibit a simple dependence on α ′, given by a simple overall factor; consequently, the correct field theory limit involves a careful analysis of the different limits in the moduli space. Here, interested as we are in further exploring the moduli space of celestial string amplitudes, we will go back to the problem of tree-level processes and consider five gluon scattering amplitudes. The paper is organized as follows: In section 2, we review the celestial amplitudes in type I superstring theory. We discuss the 4- and 5-gluon scattering amplitudes both in momentum and in celestial basis. In section 3, we study the field theory limit. That is to say, we investigate the limits in which the celestial string amplitudes reduce to the YM analogs. In section 4, we discuss the conformally soft theorem for the case of the 5-gluons in the type I superstring. In Section 5 we investigate a map between the string worldsheet CFT and the celestial CFT that seems to emerge in the limit of high-energy/high-scaling-dimension for a general n-point string amplitude in momentum/conformal basis respectively. Section 6 contains a few remarks regarding the effective field theory expansion of string amplitudes in the conformal basis, and we finalize with closing words for future work.
+
+2 Celestial amplitudes for type I superstrings
+
+2.1 Preliminary Let us discuss the 4- and 5-gluon celestial scattering amplitudes for type I superstring theory. The n-point celestial amplitude Ae n({ ∆j, ~zj} ) is obtained from the momentum space amplitude A n({ pj} ) by evaluating the Mellin transform with respect to the external frequencies [4–7]; namely
+
+Ae n({ ∆j, ~zj} ) = Y n j=1Z ∞ 0 ω ∆j−1 j dωj! δ (D) X
+
+4
+
+j=1 p
+
+µ j!A n({ pj} ), (2.1)
+
+where ∆j = d/2 + iλj is the scaling dimension. The D-dimensional momentum p
+
+µ j of the j th external gluon (j = 1, 2, ..., n; µ = 0, 1, ..., D − 1) is parameterized in the celestial basis in terms of the corresponding positive frequency ωj and the complex coordinates ~zj of a point on the d = D − 2 dimensional celestial sphere as follows
+
+p µ j(ωj, ~zj ) = ηjωjq µ(~zj ), (2.2) where ηj = ± 1 represents the outgoing and incoming particles, respectively; and where q µ(~zj ) = (1 + | ~zj| 2, 2~zj, 1 − | ~zj| 2), (2.3)
+
+is a null vector pointing towards the celestial sphere. In d = D − 2 = 2 dimensions, we use complex variables ~zj = (zj, z¯j ). In this work, we study the scattering of five gluons with momenta p1, . . . , p5, in the maxi mally helicity violating (MHV) configuration, where two gluons carry negative helicities, while the rest carry positive helicities. For the MHV configuration, the tree-level scattering amplitude for n = 4 and n = 5 gluons, in the type I superstring (A tree I ), can be written as the product of the color-ordered YM amplitude (A tree YM) and the type I string form factor (F tree I ) [26]; that is,
+
+A tree I (− , − , +, . . . , +) = A tree YM(− , − , +, . . . , +) F tree I ({ sij} ). (2.4)
+
+This factorization has been shown to hold for the cases n = 4 and n = 5 [26], and it is believed to be a general feature for higher points (see e.g., [27]). The YM amplitude contains all the helicity information of the colliding gluons, while the form factor F tree I encodes the stringy structure in terms of the Mandelstam invariants only, defined as 2 sij = − (pi + pj ) 2 = ηiηjωiωjzijz¯ij , (2.5) with zij ≡ zi − zj. The color-ordered YM amplitude is given by [28, 29]
+
+A tree YM(− , − , +, . . . , +) = ig n−2 Tr(T 1 · · · T n) h 12i
+
+4
+
+h 12ih 23i · · · h n1i , (2.6)
+
+where the T a are the algebra generators in the fundamental representation of the gauge group; g is the YM coupling constant. Also, using the parametrization (2.2) for the momenta, the spinor products become
+
+h iji =√ωiωjzijz¯ij , [ij] = −√ωiωjzijz¯ij . (2.7)
+
+2.2 4-gluon superstring amplitude Let us start by reviewing the 4-gluon scattering amplitude in the type-I theory in both, mo mentum basis [26, 30], and celestial basis [16, 24].
+
+2.2.1 4-gluon string amplitude in momentum basis
+
+At tree-level, the MHV string amplitude with four external gluons reads
+
+A tree I (− , − , +, +) = A tree YM(− , − , +, +)F tree I (s, t), (2.8)
+
+where the color-ordered YM 4-gluon amplitude is given by
+
+A tree YM(− , − , +, +) = ω1ω2 ω3ω4 z 3
+12
+z23z34z41 = r z12z¯34
+z¯12z34
+
+, (2.9) where r is the conformally invariant cross ratio
+
+r = z12z34
+z23z41
+
+. (2.10)
+
+In the last equality of (2.9) we have used the total momentum conservation, which cancels out all the energy factors ωi from it. Our convention for the Mandelstam variables will be
+
+s = − (p1 + p2) 2, (2.11) t = − (p2 + p3) 2, (2.12) u = − (p1 + p3) 2. (2.13)
+
+2 In this article we use the mostly-plus metric ηµν = diag(− , +, . . . , +).
+
+The invariant cross-ratio and Maldelstam variables are related to the scattering angle θ in the centre-of-mass frame through
+
+r = − s t = csc 2 θ 2
+
+. (2.14) For 4-gluons, the tree-level string form factor is written in terms of the Euler beta function B(x, y), namely
+
+F tree I (s, t) = − α ′ sB(− α ′ s, 1 + α ′ t). (2.15) The scattering angle θ is crucial in the discussion of the field theory limit in the celestial basis [31]. We review the amplitudes in the celestial basis in the next subsection.
+
+2.2.2 4-gluon string amplitude in celestial basis Here we review [16]. The celestial amplitude is obtained by Mellin transforming (2.8); namely,
+
+A
+
+˜tree
+
+I (λi, zi, z¯i) = Y
+
+4
+
+i=1Z ∞
+
+0
+
+dωi ω iλi i! δ 4(ω1q1 + ω2q2 − ω3q3 − ω4q4) r z12z¯34 z¯12z34 F tree I (s, u).
+
+(2.16)
+
+Expressing the total momentum conserving δ-function as δ (4)(ω1q1 + ω2q2 − ω3q3 − ω4q4) = 4 ω4| z14|
+
+2
+
+| z23| 2δ(r − r¯) × δ ω1 −
+z24z¯34
+z12z¯13
+ω4 δ ω2 −
+z14z¯34
+z12z¯32
+ω4 δ ω3 − z42z¯14
+z23z¯13 ω4 , (2.17)
+
+it is possible to eliminate (localize) three integrals, obtaining
+
+A ˜tree I (λi, zi, z¯i) = 4r 3
+z¯ 2 12z 2
+34
+δ(r − r¯) z¯34
+z12
+iλ1
+z34
+z¯12
+iλ2
+z24
+z¯13 i(λ1+λ3)
+
+z¯14
+z23
+
+i(λ2+λ3) × Θ(r − 1) Z ∞ 0 ω 2iβ−1
+4 F tree
+I (s, u) dω4 , (2.18) where the step function Θ(r − 1) simply enforces the condition for physical scattering r > 1, and β ≡ − i
+
+4 i=1 λi. One can further simplify the last equation by using the new integration variable w ≡ s/r such that
+
+ω 2 4 = r| z13| 2w (r − 1)| z14|
+
+2
+
+| z34|
+
+2 , (2.19) and the tree-level open string amplitude in the celestial basis becomes
+
+A ˜tree I (λi, zi, z¯i) = 4δ(r − r¯) z¯34
+
+z12
+
+iλ1
+z34
+z¯12
+iλ2
+z24
+z¯13 i(λ1+λ3)
+
+z¯14
+z23
+
+i(λ2+λ3) × Θ(r − 1) r 3 z¯ 2 12z 2 34 r| z13| (r − 1)| z14| | z34| −β I(r, β), (2.20)
+
+where
+
+∞ w −β−1F tree I (rw, − w) dw . (2.21) I(r, β) =
+
+0
+
+This can be rewritten as the 4-point CFT correlator 4
+
+˜tree
+
+h ¯
+3 −h¯i−h¯j
+ji , (2.22) h 3 −hi−hj ji z¯ z A I (λi, zi, z¯i) = f(r, r¯)Y i<j 4 i=1 h¯i, together with the weights 4 i=1 hi, h¯ = with h = P P λ1 , h¯1 = 1 + λ1 , h1 = i 2 i 2
+
+|  |  |  | i |  |  |  |  | i |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  | h2 | , = λ2 |  | h¯2 |  | = 1 + | , λ2 |  |
+|  |  |  | 2 |  |  |  |  | 2 |  |
+|  |  |  |  |  |  |  |  |  | (2.23) |
+|  |  |  | i |  |  |  |  | i |  |
+|  |  | h3 | = 1 + λ3 | , |  |  | h¯ = 3 | , λ3 |  |
+|  |  |  | 2 |  |  |  |  | 2 |  |
+|  |  |  | i |  |  |  |  | i |  |
+|  |  | h4 | = 1 + λ4 | , |  |  | = h¯4 | . λ4 |  |
+|  |  |  | 2 |  |  |  |  | 2 |  |
+| and | f(r, with r¯) | being a function | that only | depends |  |  | on | the conformally invariant | cross-ratios |
+
+and with f(r, r¯) being a function that only depends on the conformally invariant cross-ratios (r, r¯). Explicitly,
+
+) βδ(r − r¯)Θ(r − 1)r 5−β 3 (r − 1) ′ 2−β 3 I(r, β). (2.24) f(r, r¯) = 4(α
+
+The careful analysis of this function is required to explore the limits in which the string theory amplitude of 4 gluons in the celestial basis yields the YM analog. As said, this has been explored in detail for 4 gluons in [16] and [24]. Here, we are going to explore the case of five gluons whose moduli space exhibits more structure and, therefore, more limits are possible.
+
+2.3 5-gluon superstring amplitude We now consider the 5-gluon string amplitude in both bases. Since the number of independent Mandelstam invariants for an n-point amplitude is 3n− 10, for the n = 5 case it suffices to define five invariants which, according to (2.5), can be conveniently chosen to be si,i+1 ≡ si, with the identification i + n ∼ i. We will start reviewing the known literature of this amplitude in momentum basis.
+
+2.3.1 The 5-gluon string amplitude in momentum basis
+
+The 5-gluon MHV scattering amplitude in type I superstring theory is given by [26, 32] tree YM(− , − , +, +, +) V (5)(si) − 2iP (5)(si)ǫ(1, 2, 3, 4) , (2.25)
+
+tree I (− , − , +, +, +) = A A
+
+with
+
+P (5)(si) = Z
+
+1
+
+0 dx Z
+
+1 0
+
+dy x α ′ s2 y α ′ s5 (1 − x) α ′ s3 (1 − y) α ′ s4 (1 − xy) α ′ (s1−s3−s4)−1, (2.26) V (5)(si) = α ′2s2s5Z
+
+1 0 dx Z 1 0
+
+dy x α ′ s2−1y α ′ s5−1(1 − x) α ′ s3 (1 − y) α ′ s4 (1 − xy) α ′ (s1−s3−s4) + 1 2α ′2(s2s3 + s4s5 − s1s2 − s3s4 − s1s5) P (5)(si), (2.27)
+
+and
+
+ǫ(1, 2, 3, 4) = α ′2ǫαβµν p α 1 p β 2 p µ
+3 p ν
+4 = α ′2 Y
+
+4
+
+j=1 ηjωj ǫαβµν q α 1q β 2q µ
+3q ν
+4 . (2.28)
+
+The color-ordered YM 5-gluon amplitude can be expressed as
+
+A tree YM(− , − , +, +, +) = i 4 (1 − r4)(1 − r¯4) r4 − r¯4 f15f25
+ω5f35f45 z 3 12 z23z34z45z51| z14|
+
+2
+
+| z23| 2Y
+
+4
+
+i=1 δ(ωi − ω ∗ i). (2.29)
+
+In the last line, we used the 5-point momentum δ-function given by [33]
+
+δ (4) X 5 i=1 ηiωiqi! = i 4 (1 − r4)(1 − r¯4) r4 − r¯4 1 | z14|
+
+2
+
+| z23| 2Y
+
+4
+
+i=1 δ(ωi − ω ∗ i), (2.30) where ω ∗ i = fi5 ω5, and fi5 are functions of the celestial coordinates (zi, z¯i) defined as follows f15 = η1η5r4
+z24
+z12
+2 (1 − r4)(1 − r¯4) r4 − r¯4 r5 − r¯5 (1 − r5)(1 − r¯5) z15
+z14
+2 − η1η5r5 z25 z12
+
+2 , (2.31)
+
+f25 = − η1η5
+η1η2
+1 − r4
+r4
+z34
+z23
+2 (1 − r4)(1 − r¯4) r4 − r¯4 r5 − r¯5 (1 − r5)(1 − r¯5) z15
+z14
+2 + η1η5
+η1η2
+1 − r5
+r5
+z35
+z23
+2
+
+, (2.32)
+
+f35 = η1η5
+η1η3
+(1 − r4) z24
+z23
+2 (1 − r4)(1 − r¯4) r4 − r¯4 r5 − r¯5 (1 − r5)(1 − r¯5) z15
+z14
+2 − η1η5
+η1η3
+(1 − r5) z25
+z23
+2
+
+, (2.33)
+
+f45 = − η1η5
+η1η4 (1 − r4)(1 − r¯4) r4 − r¯4 r5 − r¯5 (1 − r5)(1 − r¯5) z15
+z14
+2
+
+, (2.34) and the two cross-ratios suitable for five particles,
+
+r4 = z12z34
+z13z24 , r5 = z12z35
+z13z25
+
+. (2.35)
+
+Therefore, the 5-gluon superstring amplitude in momentum basis reads
+
+A tree I (− , − , +, +, +) = i 4 (1 − r4)(1 − r¯4) r4 − r¯4 f15f25
+f35f45 z 3 12 z23z34z45z51| z14|
+
+2
+
+| z23| 2ω −1
+5
+
+× V (5) − 2iP (5)ǫ(1, 2, 3, 4) (ωi, zi). (2.36) In the next section, we will derive the celestial counterpart of this expression.
+
+2.3.2 The 5-gluon string amplitude in celestial basis To translate the 5-gluon superstring amplitude from the momentum basis to the celestial one, we perform the Mellin transformation of equation (2.36) as in (2.1); namely
+
+A
+
+˜tree
+
+I (λi, zi, z¯i) = Y
+
+5
+
+j=1Z ∞ 0 ω iλj j dωj! δ (4) X
+
+5
+
+i=1 ηiωiqi!A tree I ({ ωj, ~zj} ). (2.37)
+
+Thus, by employing the δ-function we can eliminate all integrals except the one on ω5. This results in the following expression
+
+A ˜tree I (λi, zi, z¯i) = i 4 (1 − r4)(1 − r¯4) r4 − r¯4 z 3
+12 | z14| 2 | z23| 2z23z34z45z51 × f iλ1+1 15 f iλ2+1 25 f iλ3−1 35 f iλ4−1 45 Z ∞
+
+0
+
+dω5 ω −2β−1 5 V (5)(si) − 2iP (5)(si)ǫ(1, 2, 3, 4) , (2.38) where now β = − i
+
+5 i=1 λi. In order to perform the integral above, we need to find out how ω5 depends on the 5 kinematic invariants. This can be determined by using (2.30). This yields s1 = η1η2f15f25| z12| 2ω 2 5, s2 = η2η3f25f35| z23| 2ω 2 5, s3 = η3η4f35f45| z34| 2ω 2 5, s4 = η4η5f45| z45| 2ω 2 5, s5 = η1η5f15| z51| 2ω 2 5. (2.39) Similarly, for the pseudoscalar we have ǫ(1, 2, 3, 4) = α ′2ω 4 5η1η2η3η4f15f25f35f45ǫαβµν q α 1q
+
+β 2q µ 3q ν 4 ≡ α ′2ω 4 5c3 . (2.40) At this stage, it is convenient to write P (5)(si) and V (5)(si) as follows P (5)(si) = Z
+
+1
+
+0 dx Z
+
+1 0
+
+dy (1 − xy) −1e −α ′ A(zi,z¯i)ω 2 5 , (2.41) V (5)(si) = α ′2
+
+1 0 dx Z 1 0
+
+dy (xy) −1e −α ′ A(zi,z¯i)ω 2 5 + c2P (5)(si) ω 4 5, (2.42)
+
+where
+
+A(zi, z¯i) = − η2η3f25f35| z23| 2log x + η5η1f15| z51| 2log y + η3η4f35f45| z34| 2log(1 − x) + η4η5f45| z45| 2log(1 − y) + (η1η2f15f25| z12|
+
+2
+
+− η3η4f35f45| z34| 2 − η4η5f45| z45| 2) log(1 − xy) , (2.43)
+
+and where the coefficients c1 and c2, which depend on (zi, z¯i), are
+
+c1 = η1η2η3η5f25f35f15| z23| 2 | z51| 2, (2.44) c2 = 1 2 η2η4f25f 2 35f45| z23| | z34| 2 + η1η4f45f15| z45| | z51| − η1η3f15f 2 25f35| z12| | z23| 2 − η3η5f35f 2 45| z34| | z45| 2 − η2η5f 2 15f25| z12|
+
+2
+
+| z51|
+
+2 . (2.45)
+
+By using the previous definitions, the ω5 integral in (2.38) is shown to yield
+
+Z ∞ 0 ω −2β−1 5 V
+
+(5)
+
+(si) − 2iP (5) (si)ǫ(1, 2, 3, 4) dω5 = 1 2α ′βΓ(2 − β)Z
+
+1 0 dx Z 1 0
+
+dy c1(xy) −1 + (c2 − 2ic3)(1 − xy) −1 A β−2, (2.46) with Re(β) < 2 and Re(A) > 0. Therefore, the tree-level 5-gluon scattering amplitude in type I superstring theory written in celestial basis takes the following form A ˜tree I (λi, zi, z¯i) = i α ′β
+8 Γ(2 − β) (1 − r4)(1 − r¯4) r4 − r¯4 z 3
+12 | z14| 2 | z23| 2z23z34z45z51 × f iλ1+1 15 f iλ2+1 25 f iλ3−1 35 f iλ4−1 45 Z
+
+1 0 dx Z 1 0
+
+dy c1(xy) −1 + (c2 − 2ic3)(1 − xy) −1 A β−2, (2.47)
+
+with c1, c2, c3 and A given above, in equations (2.44), (2.45), (2.40) and (2.43), respectively. Note that, although we needed the condition Re(β) < 2 in order for the energy integral (2.46) to converge, the resulting gamma function Γ(2 − β) defines the analytic continuation to the entire complex-β plane. One remarkable property of the expression (2.47) is that its dependence of α ′ factorizes out. In the calculation, this occurs when performing the Mellin transformation, i.e., it is a consequence of the integration over all the energies when going to the celestial basis. The same factorization phenomenon has been observed in [16] and [24] for the 4-gluon string amplitude, both at three-level and at one-loop. It is worth emphasizing that this is a peculiar feature of celestial amplitudes and does not happen, for example, in the Carrollian amplitudes [25]. Here, we observe that the same factorization takes place in the celestial 5-gluon string scattering at tree level, and, on dimensional grounds, it is expected to occur in all string amplitudes for any multiplicity and loop level. In the next section, we will study other properties of formula (2.47). More precisely, we will explore the limits in which this reproduces the field theory result in the celestial basis.
+
+The observation that the α ′ → 0 limit of string amplitudes reproduces field theory ones, goes back to the early days of the dual resonance models. By taking the α ′ → 0 limit of the original Veneziano amplitude [34], Scherk noticed that holding both, the mass of the tachyon and the ratio gs/√α ′ ≡ λ fixed, while taking the limit α ′ → 0, yielded the tree-level amplitude of massive scalars in the λϕ 3 theory [35]. Later on, by including SU(N) Chan-Paton degrees of freedom attached at open string end-points, Neveu and Scherk showed that this string model was able to reproduce the tree-level gluon amplitude in Yang-Mills theory [36]. Superstring amplitudes are certainly not the exception to this; moreover, since the lowest energy states of the superstring spectrum are massless states, their low energy limit is not plagued by the usual ambiguities that the tachyon poses in the bosonic string theory. As pointed out at the end of the previous section, the α ′ dependence in celestial string amplitudes is a simple overall factor. Then, this begs the question of how to recover the field theory limit from the string amplitude in the conformal basis, that is,
+
+String Amplitude
+
+Celestial String Amplitude
+
+Field Theory Amplitude
+
+Celestial Field Theory Amplitude.
+
+Mellin
+
+α
+′→
+
+0 ?
+
+Mellin
+
+In this section we will first review how to do this for the 4-gluon case, and then we develop its extension to 5-gluons which is endowed with a richer kinematic structure.
+
+3.1 4-gluon limit In [16] Stieberger and Taylor have shown that the tree-level celestial 4-gluon field theory am plitude is recovered in the r → ∞ (forward scattering) limit of the celestial string amplitude (2.20) 3. To see this, we first expand I(r, β) in powers of 1/r. Then, it is convenient to use the integral representation of the Euler beta function, that is
+
+F tree
+
+I (rw, − w) = − rw Z
+
+1 0
+
+x −rw−1(1 − x) wdx , (3.1)
+
+where, in order to facilitate the comparison with [16], we have rescaled w → w/α ′. Inserting this into (2.21), we have
+
+I(r, β) = − r ∞
+
+0
+
+dww −βZ
+
+1 0
+
+dx x −rw−1(1 − x) w = − r ∞ dw w −βe −w[r log x−log(1−x)].
+
+(3.2) 3
+
+Using crossing symmetry, one can see that taking r → 0 also recovers the correct field theory limit [24].
+
+Defining y ≡ w [r log x − log(1 − x)], we have I(r, β) = − r 2 Γ(1 − β)Z
+
+0 dx x
+
+[r log x − log(1 − x)] β−1 . (3.3)
+
+So far, this result is exact. If we now expand in powers of 1/r, we obtain
+
+I(r, β) = − 1
+2 r βΓ(1 − β)Z
+
+1 0 dx x
+
+(log x) β−1 + O (r β−1). (3.4)
+
+Making the change of variables t ≡ log x, we end up with
+
+I(r, β) = − 1
+2 r βΓ(1 − β)Z 0 −∞ dt t β−1 + O (r β−1). (3.5) Changing variables again, now defining z ≡ log(− t), we have I(r, β) = 1
+2 r βΓ(1 − β)Z ∞
+−∞ dz e βz + O (r β−1), (3.6)
+
+and thus,
+
+I(r, β) = 2πδ(λ1 + λ2 + λ3 + λ4) + O (r β−1). (3.7) Therefore, the r → ∞ limit of the celestial correlator corresponding to the tree-level 4-gluon string amplitude (2.20) reduces to
+
+lim r→∞A ˜tree I (λi, zi, z¯i) = 8πδ(r − r¯) z¯34
+
+z12
+
+iλ1
+z34
+z¯12
+iλ2
+z24
+z¯13 i(λ1+λ3)
+
+z¯14
+z23
+
+i(λ2+λ3) × θ(r − 1) r 3 z¯ 2 12z 2 34 δ(λ1 + λ2 + λ3 + λ4),
+
+(3.8) which is exactly the tree-level 4-gluon celestial amplitude in YM theory. In the case of 4 gluons this is understood as the limit in which the amplitude is dominated by the exchange of massless states. It is important to stress the fact that the forward limit (r → ∞ ) above is only taken on the I(r, β) function, i.e., on the stringy factor of the full celestial amplitude in (2.24), while the Yang-Mills 4-point CFT correlator in (2.22) remains intact. This prescription allows us to arrive at the correct field theory limit for an arbitrary kinematic configuration, not only in the forward scattering one. Let us now move to investigate what is the analog in the case of amplitudes that involve more gluons.
+
+3.2 5-gluon limit We aim at exploring further the limits in which the celestial string scattering amplitudes repro duce the YM theory results. More concretely, our intention is to extend the analysis reviewed above to the case n = 5. This will provide us with a richer limiting structure in the celestial parameters (zi, z¯i) to play with and, consequently, it will enable us to have a better picture of what are the specific corners in the space of kinematic variables where the field theory result is recovered. 3.2.1 Single Regge limit The complexity of the Regge limits increases for amplitudes where n > 4 as, in such case, there are at least two limits that is worth distinguishing: the single-Regge limit and the multi-Regge limit, the former being of special interest as it is the direct generalization of the limit discussed in the case of the 4-point function [37]. Let us briefly review the preliminaries to consider such limit for our 5-point function: The first step is to define the set of momentum invariant quantities that we will use 4, consisting of two body energy invariants
+
+s2 = − (p2 + p3) 2, s3 = − (p3 + p4) 2, (3.9)
+
+and two momentum transfers
+
+s1 = − (p1 + p2) 2 , s4 = − (p4 + p5) 2 . (3.10) Momentarily, we are going to choose the three body energy s5 = − (p5 + p1) 2 ; (3.11)
+
+and the convenient definition
+
+κ ≡ s5
+s2s3
+
+. (3.12)
+
+Thus, the 5 independent momentum variables we are going to consider are 5 s1, s2, s3, s4, and κ. The single-Regge limit corresponds to s2 → ∞ , s5 → ∞ , holding s1, s3, s4, and κ fixed, or equivalently s1 s2→ 0 , s3 s2→ 0 , s4 s2→ 0 , κs2 → ∞ , (3.13) s1 s5→ 0 , s3 s5→ 0 , s4 s5→ 0 , κs5 → ∞ . (3.14) 4 For more details, see chapter 3 of [37]. 5 In general, the number of independent Lorentz invariant parameters in an amplitude should be 3n − 10.
+
+This can conveniently be translated into the following set of collinear limits z12 → ε , z34 → ε , z45 → ε , (3.15) with ε → 0. We implicitly take the same limits for ¯zij . In such limits, the fi5 functions become f15 = − 2ε z25 + ¯z25
+
++ O (ǫ 2), (3.16) f25 = 2ε z25 + ¯z25 + O (ε 2), (3.17) f35 = 1 + 2
+1
+z¯25 + 1 z25 + ¯z25 ε + O (ε 2), (3.18) f45 = − 2 − 2ε z25 + ¯z25 + O (ε 2). (3.19)
+
+Hence, by taking the collinear limits in the integrand of (2.47) the dominant contributions come from
+
+A = − 2ε z25 + ¯z25| z25| 2log x y , c1 = − 2ε z25 + ¯z25| z25|
+
+2 2 , (3.20)
+
+while c2 ∼ O (ε 3) and c3 ∼ O (ε 4) 6 do not contribute to the leading term. Then, the expression of interest in equation (2.47) is −
+α ′β
+2 Γ(2 − β)Z
+
+1 0 dx Z 1 0 dy
+
+2ε z25 + ¯z25| z25|
+
+2 2
+
+1 xy − 2ε z25 + ¯z25| z25| 2log x y β−2
+= −
+α ′β
+2 Γ(2 − β) 2ε z25 + ¯z25| z25| 2 β Z
+
+1 0 dx Z 1 0 dy
+
+1 xy − log x y β−2
+
+. (3.21)
+
+Focusing on the integral, we can easily see that it yields a δ-function; in fact, by defining u = − log(x/y), we get 1
+
+β − 1Z
+
+1 0 dx x u
+
+β−1 − log x −∞
+
+, (3.22)
+
+where the u → −∞ contribution vanishes because β is a purely imaginary number, giving 1 β − 1Z
+
+1 0
+
+dx x (− log(x)) β−1, (3.23)
+
+which is quite similar to the integral obtained in [16] for n = 4, up to a factor β − 1 in the denominator. As we will see, such factor only provides an overall minus sign. Defining v = − log(x), we have
+
+β − 1Z ∞ dv v β−1, (3.24) 6 The non-ε-dependent product, ǫαβµνq α 2q β 2q µ 5q ν 5 becomes zero due to the antisymmetric behavior of the Levi
+
+Civita symbol.
+
+and, then, defining z = log(v), β − 1Z ∞
+−∞ dz e ze z(β−1). (3.25) Last, recalling β = − i n i=1 λi ≡ − i 2λ, we may define τ = − z/2 and recognize the well-known integral representation of the δ-function 2 β − 1Z ∞
+−∞ dτ e iτλ = − 4πδ(λ). (3.26)
+
+By similarly applying the δ-function in (3.21) and restoring all the factors of the amplitude in (2.47), we determine that the leading term of the 5-gluon superstring amplitude in the celestial basis yields
+
+A ˜tree I (λi, zi, z¯i) = i 4 (1 − r4)(1 − r¯4) r4 − r¯4 z 3
+12 | z14|
+
+2 | z23| 2z23z34z45z51 f iλ1+1 15 f iλ2+1 25 f iλ3−1 35 f iλ4−1 45 2πδ(λ), (3.27) which exactly reproduces the MHV 5-gluon YM amplitude in celestial basis. To see this in a more clear way, we can perform the Mellin transform of (2.29), in which only one of the ωi’s is not constrained by the δ-functions. This yields
+
+A ˜tree YM(− , − , +, +, +) = i(1 − r4)(1 − r¯4) 4(r4 − r¯4) f iλ1+1 15 f iλ2+1 25 f iλ3−1 35 f iλ4−1 45 z 3 12 z23z34z45z51| z14|
+
+2
+
+| z23| 2 Z ∞
+
+0
+
+dω5 ω iλ−1 5 , (3.28)
+
+which, by defining u = log ω5, gives the same integral representation of the δ-function, so yielding (3.27).
+
+3.2.2 The z12 → 0 limit
+
+Now, let us examine a more general limit: consider the collinear limit z12 → 0 of the celestial string 5-gluon amplitude, but keeping the other separations zij finite. This can be regarded as a generalization of the single Regge limit considered above, and so it gives a more general picture of where in the (z, z¯) plane the celestial YM observables are recovered. It is possible to show that the leading term in (2.47) is
+
+α ′β
+2 Γ(2 − β)Z
+
+1 0 dx Z 1 0 dy c 12 1 c 12 2 xy − c 12 1 log x − c 12 2 log y β−2 , (3.29) where c 12 1 and c 12 2 depend on zi6=1 and exhibit a 1/ǫ factor arising when taking the collinear limit. We then proceed to integrate in y by first defining u = − (c 12 1 /c 12 2 ) log x − log y. Integrating in u and using properties of the Γ-function, we obtain
+
+Γ(1 − β)(c 12 1 ) βZ dx x (− log x) β−1 , (3.30)
+
+which is the same integral as in (3.23), leading to the same expression, including the δ-function. After evaluating the δ-function, and reinstating the additional factors, we recover the MHV 5gluon YM amplitude in celestial basis. In other words, we have managed to identify the limit in which the field theory results are obtained in the celestial basis.
+
+It is important not to mistake the specific limits considered above for the generic collinear limits. The latter do not necessarily lead to the field theory result. This is analog to what happens in the case n = 4, where the forward scattering limit is actually the one reproducing the YM celestial amplitudes. In the case, n = 5 something analogous occurs: in contrast to the limits z12 → 0 discussed above, other coincident limits zij → 0 in the 5-gluon celestial string amplitude do not lead to the same integral expression obtained in (3.23). In order to make it clear, we find convenient to write the following table displaying the general form that the x and y-dependent integrand takes in each limit:
+
+z12 → 0 c1
+
+xy
+
+(c 12 1 log x + c 12 2 log y) β−2 z13 → 0 c1 xy + c2 1 − xy (c 13 1 log x + c 13 2 log y + c 13 3 log(1 − x) + c 13 5 log(1 − xy)) β−2 z14 → 0 c1 xy +
+
+c2 − 2ic3 1 − xy (c 14 2 log y + c 14 3 log(1 − x) + c 14 4 log(1 − y)) β−2 z15 → 0 c2 − 2ic3 1 − xy (c 15 4 log(1 − y) + c 15 5 log(1 − xy)) β−2 z23 → 0 c2 − 2ic3 1 − xy (c 23 3 log(1 − x) + c 23 5 log(1 − xy)) β−2
+
+z24 → 0 c1 xy + c2 − 2ic3 1 − xy (c 24 1 log x + c 24 3 log(1 − x) + c 24 4 log(1 − y)) β−2 z25 → 0 c1 xy + c2 1 − xy (c 25 1 log x + c 25 2 log y + c 25 4 log(1 − y) + c 25 5 log(1 − xy)) β−2 z34 → 0 c1 xy +
+
+c2 − 2ic3 1 − xy (c 34 1 log x + c 34 4 log(1 − y) + c 34 5 log(1 − xy)) β−2 z35 → 0 c2 − 2ic3 1 − xy (c 35 1 log x + c 35 2 log y + c 35 3 log(1 − x) + c 35 4 log(1 − y)) β−2
+
+z45 → 0 c1 xy + c2 − 2ic3 1 − xy (c 45 2 log y + c 45 3 log(1 − x) + c 45 5 log(1 − xy)) β−2
+
+The coefficients c ij k, i, j, k = 1, ..., 5, can be written explicitly and turn out to be independent of zj. It would be interesting to further investigate the hierarchical collinear limits of the string n-gluon amplitudes in the celestial basis and use them to explore the different limits in which YM celestial amplitudes are reproduced. To that purpose, it would also be interesting to extend the analysis to the specific cases n = 6 and n = 7.
+
+## 4. Conformally soft theorem
+
+In this section we would like to discuss the conformally soft theorems [17,33,38–41] for the case of the 5-gluon string amplitude. Let us start by first reviewing the energetic soft theorem for the case of 5-gluons in the type-I theory at tree level, as originally found by Stieberger and Taylor [26, 32]. The 5-gluon amplitude is given by (2.25), with P (5) and V (5) given by (2.26) and (2.27). Now, consider the case in which the fifth particle goes soft, i.e. take p5 → 0. In this limit, one has
+
+P (5)(si) = O (1), (4.1) V (5)(si) = Γ(1 + α ′s)Γ(1 + α ′t) Γ(1 + α ′s + α ′t) + O (p5), (4.2) ǫ(1, 2, 3, 4) = O (p5) ; (4.3) therefore, lim p5→0A
+
+string I (− , − , +, +, +) = Γ(1 + α ′s)Γ(1 + α ′t) Γ(1 + α ′s + α ′t) lim p5→0A
+
+YM I (− , − , +, +, +), (4.4) leading to lim p5→0A string I (− , − , +, +, +) = S (0) A
+
+string I (− , − , +, +), (4.5) where S (0) is the leading, tree-level soft factor for YM theory; notice that, in (4.5), the left-hand side involves a 5-point string amplitude while on the right-hand side involves a 4-point string amplitude. Thus, we see that the string amplitude also satisfies the soft theorem with precisely the same universal soft factor that appears for Yang-Mills theory, S (0). With this in hand, it is now possible to show that the conformally soft theorem for the string celestial amplitude is also obeyed. Let us first review the general result for the conformally soft limit in gauge theory [17, 33, 38, 39]. Consider the case when the k th gluon in a (color-ordered) celestial amplitude goes conformally soft, corresponding to ∆k → 1, i.e.
+
+lim λk→0A ˜n({ ∆i} ) = lim λk→0 Y n j6=kZ ∞ dωj ω iλj j! Z ∞ dωk ω iλk k A n({ pi} ). (4.6)
+
+Here, A ˜n({ ∆i} ) and A n({ pi} ) stand for the n-point amplitudes in the conformal and momentum basis, respectively. Using the representation of the Dirac δ-function
+
+δ(x) = lim λ→0 iλ 2| x| iλ−1 , (4.7) one can write lim λk→0A ˜n({ ∆i} ) = lim λk→0
+
+2
+
+iλk Y n j6=kZ ∞
+
+0
+
+dωj ω iλj j! Z ∞
+
+0
+
+dωk iλk 2 ω iλk−1 k ωkA n({ pi} ) = lim λk→0
+
+2
+
+iλk Y n j6=kZ ∞
+
+0
+
+dωj ω iλj j! Z ∞
+
+0
+
+dωk δ(ωk)ωkA n({ pi} ).
+
+(4.8)
+
+In the last line we see that the effect of the δ-function is to select the soft limit ωk → 0 of the momentum-space amplitude An({ pi} ), which we already know from its energetic soft theorems. More precisely, at tree level, the single soft gluon theorem for the amplitude reads
+
+A n = S (0) A n−1 + O (ω 0 k), (4.9)
+
+with
+
+S (0) = 1
+√2
+ǫk · pk+1 pk+1 · pk− ǫk · pk−1 pk−1 · pk = 1 √2 ηk ǫk · qk+1 qk · qk+1− ǫk · qk−1
+qk · qk−1 1 ωk
+
+, (4.10) where, in the second equality above, we have again used the usual parametrization p
+
+µ i = ηiωiq
+
+µ i and ǫk is the polarization vector of the k th gluon; also, we have denoted ǫk · qk ′ = ǫk µ q µ k ′. Notice that all the ωk dependence in the soft limit (4.9) lies in the soft factor (4.10) since A n−1 is the hard amplitude with the k th particle removed. Using this and inserting (4.9) and (4.10) into (4.8) allows us to explicitly solve for the integral over ωk yielding
+
+lim λk→0A ˜n({ ∆i} ) = lim λk→0
+
+2
+
+iλk Y n j6=kZ ∞
+
+0
+
+dωj ω iλj j! × 1 √2 ηk ǫk · qk+1 qk · qk+1− ǫk · qk−1 qk · qk−1 A n−1Z ∞
+
+0
+
+dωk δ(ωk), (4.11)
+
+obtaining
+
+lim λk→0A ˜n({ ∆i} ) = 1 √2 ηk ǫk · qk+1 qk · qk+1− ǫk · qk−1
+qk · qk−1 1 iλkA ˜n−1 + O (λ 0 k), (4.12)
+
+i.e., in the conformally soft limit λk → 0 we again have the factorization into a universal (conformal) soft factor S˜(0) and the conformally hard (n− 1)-point celestial amplitude A ˜n−1 with
+
+S˜(0) = 1 √2 ηk ǫk · qk+1 qk · qk+1− ǫk · qk−1
+qk · qk−1 1 iλk
+
+. (4.13)
+
+With this and (4.4), we can readily apply this to the string amplitudes. That is, we write down the conformally soft theorem for the celestial 5-gluon amplitude in the type I superstring theory as follows
+
+A ˜string I (− , − , +, +, +) = 1 i√2 η5λ5 ǫ5 · q1 q5 · q1− ǫ5 · q4 q5 · q4 A ˜string I (− , − , +, +) + O (λ 0 5), (4.14)
+
+which relates 5-point string amplitudes, in the conformally soft limit, to 4-point string ampli tudes in the celestial basis. Here, we have also made use of the fact that, for color-ordered n-gluon amplitudes, we have the cyclic identification k+n ∼ k.
+
+Before concluding, let us move to discuss another interesting feature of the celestial string amplitudes. In [16] Stieberger and Taylor made a very interesting observation regarding the high-energy limit of the tree level 4-gluon string amplitude and its corresponding celestial correlator, which we briefly review now. At tree level, the SL(2, R) invariance of the moduli integrals, representing an n-point open string amplitude, allows one to fix the location of three out of the n vertex operators to any desired value. 7 Thus, in the 4-gluon case, only one (real) integration variable is needed to write the full amplitude (see, e.g., (3.1)). Using this integral representation we can use the stationary point approximation to evaluate the integral in the high-energy limit at fixed scattering angle. 8 This procedure yields one constraint that fixes the location of the vertex operator which, in turn, becomes completely determined by the angular position of the external momenta on the celestial sphere. More precisely, the stationary-point equation ties the worldsheet location of this vertex operator to the kinematic ratio r (2.14), thus identifying a point on the worldsheet with a point on the celestial sphere (see section 4 in [16] for more details). Recall that, in celestial amplitudes, the Mellin transform involves integrating over all of the energies in the scattering process, thus, erasing the usual hierarchy among the low energy and the high energy regimes. After computing these energy integrals, celestial string amplitudes thus remain written as integrals over the moduli, as in (2.21) for instance. This raises the question as to whether there is also a limit, now based on celestial data only, in which this pinning on the celestial sphere also occurs in the celestial basis. In [16] Stieberger and Taylor show that this is indeed the case, and that the limit in which it occurs is the limit of large (imaginary) total scaling dimension, i.e., when
+
+P 4
+i=1 λi ≡ λ → ∞ .
+
+7 Therefore, the full tree-level n-point open string amplitude involves integrating over n− 3 real moduli. 8 This regime is also known as the hard scattering limit.
+
+Due to this result, we would like to pursue the idea of a potential map between the string worldsheet, punctured by the insertions of vertex operators, and the celestial sphere, also punctured but by the conformal primary operators corresponding to each of the external states with momentum pi that these vertex operators represent. Thus, the natural next step would be to extend this analysis to five points and beyond, which is what we study in this section. For the 5-gluon case in string theory, let us first re-write the integrands for the amplitude in (2.25) as
+
+P (5)(si) = Z
+
+1 1 0
+
+dx dy (1 − xy) −1e α ′ f(x,y), (5.1)
+
+and
+
+V (5)(si) = 1 2α ′2(s2s3 + s4s5 − s1s2 − s3s4 − s1s5) P (5)(si) + α ′2s2s5Z
+
+1 1 0
+
+dxdy (xy) −1e α ′ f(x,y), (5.2)
+
+with
+
+f(x, y) = s2 ln x + s5 ln y + s3 ln(1 − x) + s4 ln(1 − y) + (s1 − s3 − s4) ln(1 − xy). (5.3)
+
+Before continuing, it is worth mentioning a general feature of string amplitudes. Both integrals above will give convergent expressions as long as the Mandelstam invariants si are constrained to certain regions in the complex plane. These regions will not necessarily lie in the domain of physical scattering, but they allow us to compute the amplitude and also to use the stationary point approximation to evaluate it in the high energy limit. Nevertheless, one usually computes these integrals in the (unphysical) convergent regions and, at the end, we analytically continue the resultant expressions to the physical domain. 9 In the hard scattering limit, namely when α ′si ≫ 1 with all the Mandelstam ratios si/sj held fixed, we can now evaluate the integrals above using the stationary-point method. The stationary-point equations ∂xf = ∂yf = 0 now yield two (independent) solutions, say, (x1, y1) and (x2, y2). The exact expressions for these two solutions can be straightforwardly written but are cumbersome and not very illuminating. However, the relevant observation is that, since the x and y variables represent the positions of the two remaining vertex operators that need to be integrated over to obtain the full 5-point amplitude, the high-energy limit yields now two possible configurations that give the dominant contributions in this limit. 10 The explicit expressions for these two solutions, when written using the usual celestial parametrization p
+
+µ i = ηiωiq
+
+µ i (zi, z¯i), show that they depend solely on the angular positions of the external states
+
+9
+
+See, e.g., section 6.4 in [42] for a discussion on these points for tree level amplitudes, and [43–45] for the extension to one-loop. 10 In contrast with the 4-point case in which there is only one dominant saddle.
+
+(zi, z¯i) on the celestial sphere. This is because total momentum conservation makes all the energy factors ωi to cancel out in these solutions. Thus, in the 5-gluon case, we can again interpret this as the fact that the vertex insertions on the string worldsheet become pinned by the locations of their corresponding primaries of the celestial CFT. However, there is a caveat: we now have two possible configurations of vertex operators on the worldsheet corresponding to a single configuration on the celestial sphere, that is, the map is no longer bijective. Now, similarly to the 4-point case, the 5-gluon celestial string amplitude (2.47) is also manifestly written in terms of the moduli space integrals, inhereted from its momentum space counterpart. Thus, we can ask ourselves again in which limit does the celestial amplitude localize the vertex operators to the same positions that dominate the high-energy regime. From (2.43) and (2.47) one can see that, again, it is the
+
+P 5 i=1 λi ≡ λ → ∞ limit that yields the
+
+same stationary-point equations as in momentum space. These results, therefore, prompt us to understand how to extend this analysis to the arbi trary n-point string amplitude. The sought connection between the string worldsheet and the celestial sphere seems, however, to be clearer in the case of closed strings for which, at tree level, the worldsheet topology is also a sphere. Let us start by writing down the expression representing a tree-level, n-point, closed string amplitude. This amplitude takes the general form 11
+
+Z Y w d 2wk!P ({ wi} , { pi· pj} )Y i<j| wj − wi| 2α ′ pj ·pi, (5.4)
+
+where P is a polynomial function of the Mandelstam products α ′pi· pj whose degree will depend on the spin of the scattering external states. More importantly, the | wj − wi|
+
+2α ′
+
+pj ·pi factor is universal to all string amplitudes 12 and depends exponentially on the Mandelstam products α ′pj· pi, thus being responsible for yielding the dominant contributions in the high-energy limit α ′pi· pj ≫ 1. With this, we can use again the saddle-point method to obtain the leading contribution in this limit. From (5.4), one can readily see the saddle-point equations are [46,47]
+
+X j6=i pi· pj wi − wj = 0 , i = 1, . . . , n. (5.5)
+
+These equations have received significant attention relatively recently due to their key role in the Cachazo-He-Yuan (CHY) formulation of scattering amplitudes for massless particles [48,49], and are usually referred to as the scattering equations. After imposing total momentum 11 We use here wk to denote the complex coordinates on the string worldsheet in order to distinguish them from the zi parametrizing the angular directions of the external states on the celestial sphere.
+
+12 This is because this factor comes from the Wick contractions of vertex operators V (pi) which all contain the plane-wave factor V (pi) ∼ e i pi·X representing free asymptotic states with definite momentum.
+
+conservation, and the massless condition p 2 i = 0, the equations (5.5) are SL(2, C) invariant and thus, permit to fix three of the n positions { wi} to any convenient value on the worldsheet. The number of independent solutions, i.e., the number of distinct possible configurations for the positions of the vertex operators on the worldsheet, is (n − 3)! [50]. Moreover, using elimination theory, the system of equations (5.5) can be brought into the form of a single polynomial equation of degree (n − 3)! for a single variable, say, wn [51, 52]. The solutions for all the remaining vertex locations wi, with i = 4, . . . ,(n − 1), can be expressed in terms of the single solution zn and become functions of ratios of generalized Mandelstam variables. After using total momentum conservation, the positions of all these punctures will again only depend on the angular positions zi of the scattered strings on the celestial sphere. This establishes, then, the general map that emerges in the high-energy limit: A single configuration on the celestial sphere, for the momenta of n closed strings in a (tree level) amplitude, gets mapped to (n − 3)! possible configurations of vertex operators on the string worldsheet that govern the scattering process in this regime. It would certainly be interesting to confirm if one arrives at the same conclusion by taking
+
+P n i=1 λi → ∞ at the level of the
+
+n-point celestial amplitude. As a final point, it is also interesting to note that very same configuration on the celes tial sphere (at null infinity), representing the insertions of conformal primaries for each of the scattered gravitons, 13 also solves the saddle-point equations for the corresponding vertex oper ators on the worldsheet sphere (5.5). Namely, from the usual parametrization for the external momenta
+
+p
+
+µ i = 1 2ηiωi(1 + | zi| 2, zi + ¯zi, − (zi − z¯i), 1 − | zi| 2), one has pi· pj = ηiηjωiωj| zij | 2, thus, if zk = wk for all k = 1, . . . , n, we have
+
+X n j6=i ηiηjωiωjwijw¯ij wij = ηiωi w¯iX n j6=i ηjωj −X n j6=i ηjωjw¯j! = ηiωi (− w¯iηiωi + ηiωiw¯i) = 0,
+
+(5.6) where, in going from the first to the second line, we have used total momentum conservation. Thus, the configuration of physical (stringy) gravitational scattering on the celestial CFT is one of the configurations of this worldsheet map that arises in the high-energy limit. It would be very interesting to pursue this idea further.
+
+13 The same statement certainly holds for the other states in the massless spectrum of the closed string, such as the dilaton and the Kalb-Ramond field.
+
+## 6. Concluding remarks
+
+In this last section we would like to make a brief observation regarding the effective field theory expansion of string amplitudes in the celestial basis, that is, we study how the α ′ expansion is recast in the conformal basis. After this, we finalize with some closing words. Consider the tree-level string amplitude of 4 gluons written in the form that makes the connection with YM amplitudes evident in the α ′ → 0 limit, namely
+
+A tree
+
+I (− , − , +, +) = δ (4) X
+
+4
+
+i=1 p µ i! Γ(1 − α ′s)Γ(1 − α ′t) Γ(1 − α ′s − α ′t) A tree YM(− , − , +, +), (6.1)
+
+and let us expand it in powers of α ′ A tree
+
+I (− , − , +, +) = δ (4) X
+
+4
+
+i=1
+
+p µ i!A tree
+
+YM(− , − , +, +) 1 − α ′2 π 2
+6 st − α ′3ζ(3)(s 2t + st 2) − α ′4 π 4
+360 (4s 3t + s 2t 2 + 4st 3) + · · · . (6.2)
+
+The celestial counterpart of this expression reads
+
+A
+
+˜tree
+
+I (− , − , +, +) = f(r, β)Y
+
+4
+
+i<j z h/3−hi−hj ij z¯ h/¯ 3−h¯i−h¯j ij , (6.3) with f(r, β) now given by f(r, β) = Z ∞
+
+0
+
+dw w −β−1 1 + α ′2π 2
+6 rw 2 + α ′3ζ(3)(r 2 − r)w 3 + α ′4 π 4
+360 (4r 3 − r 2 + 4r)w 4 + · · · , (6.4)
+
+up to some, for now, irrelevant numerical factors. Notice that, since β is purely imaginary, the integrals over all terms are UV divergent, except for the 1-term which (marginally) converges to the known δ-function 4πδ(
+
+P
+
+iλi) appearing in the field theory limit. Thus, in order to make sense of the α ′ expansion in the celestial basis, we need to introduce an UV cutoff on the energy integral above. 14 Let us call the cutoff Λ, with Λ being the energy scale. The full expression 14 This is another example of the fact that celestial amplitudes are usually not well-defined for effective field theories and need an UV completion. However, see [53] for a very recent proposal on how to define them in a consistent way. Additionally, see [54] for a detailed study on the constraints that effective field theories with celestial duals must satisfy, even at tree level.
+
+for f(r, β) can then be written as f(r, β) = 4πδ(λ) + r Λ β(α ′ Λ 2) 2 π 2
+6 1 (2 − β)− (α ′ Λ 2)ζ(3)(1 − r) 1 (3 − β) − (α ′ Λ 2) 2 π 4 360 (− 4r 2 + r − 4) 1 (4 − β) + · · · , (6.5) where λ = P
+
+4 i=1 λi. From this, we see that the dimensionless parameter that organizes the effective field theory expansion is α ′Λ 2, which was of course expected on dimensional grounds since these are the only two dimensionful quantities at our disposal. Notice also the appearance of the pole structure in the β-complex plane. As initially analyzed in [55] in the context of effective field theories with exponentially soft UV behavior, the residues of the poles in (6.5) are precisely given by the coefficients obtained by the low-energy expansion of the original string theory amplitude. Let us summarize the results of this work as follows: In this paper, we have computed celestial correlators that correspond to the tree-level 5-gluon amplitudes in type I superstring theory. We have observed that, as it happens with the 4-gluon string celestial amplitudes, both at tree-level [16] and at one-loop [24], the 5-gluon string celestial amplitudes exhibit a remarkably simple dependence of α ′, which is encapsulated in a universal overall factor. This raised the question as to how the field theory limit is recuperated from the string observables in the celestial basis. This motivated our study of the limit in the space of kinematic variables where the YM results are recovered. We have identified such limit, generalizing in this way the results obtained by Stieberger and Taylor in [16]. We have also computed the conformally soft theorem for the 5-gluon case in the type I superstring theory and confirmed that it also obeyed as in the case of celestial field theory amplitudes. This was expected, at least at the tree-level we have considered here since, due to the fact that field theory arises in the low energy limit of strings, the soft factorization for both theories should be identical, both in momentum and conformal basis. Finally, we discussed the map that emerges between the puctured string worldsheet CFT and the also punctured celestial CFT, in the limit of high-energy, in momentum basis, corresponding to high-scaling-dimension, in conformal basis, for a general n-point string amplitude. In order to gain more insights into this correspondence, it would be interesting to perform the explicit computations to higher-point amplitudes. We hope to address this and other questions in the near future.
+
+## Acknowledgments
+
+The authors would like to thank Laura Donnay, Hern´an Gonz´alez, Chrysostomos Kalousios, Lorenzo Magnea, Andrea Puhm, Ana-Maria Raclariu, and Tomasz Taylor for helpful discus sions. They also thank Anthony Osses for collaboration during the first stages of this work. The work of L.C. is supported by the STFC Astronomy Theory Consolidated Grant ST/W001020/1 from UK Research & Innovation. G.M. has been supported by ANID/ACT 210100 Anillo grant, and F.R. has been supported by FONDECYT grant 1221920 and ANID/ACT 210100 Anillo grant.
+
+## References
+
+[1] A. Strominger, “Lectures on the Infrared Structure of Gravity and Gauge Theory,” arXiv:1703.05448 [hep-th].
+
+[2] J. de Boer and S. N. Solodukhin, “A Holographic reduction of Minkowski space-time,” Nucl. Phys. B 665 (2003) 545–593, arXiv:hep-th/0303006.
+
+[3] C. Cheung, A. de la Fuente, and R. Sundrum, “4D scattering amplitudes and asymptotic symmetries from 2D CFT,” JHEP 01 (2017) 112, arXiv:1609.00732 [hep-th].
+
+[4] S. Pasterski, S.-H. Shao, and A. Strominger, “Flat Space Amplitudes and Conformal Symmetry of the Celestial Sphere,” Phys. Rev. D 96 (2017) no. 6, 065026, arXiv:1701.00049 [hep-th].
+
+[5] S. Pasterski and S.-H. Shao, “Conformal basis for flat space amplitudes,” Phys. Rev. D 96 (2017) no. 6, 065022, arXiv:1705.01027 [hep-th].
+
+[6] S. Pasterski, S.-H. Shao, and A. Strominger, “Gluon Amplitudes as 2d Conformal Correlators,” Phys. Rev. D 96 (2017) no. 8, 085006, arXiv:1706.03917 [hep-th].
+
+[7] A. Schreiber, A. Volovich, and M. Zlotnikov, “Tree-level gluon amplitudes on the celestial sphere,” Phys. Lett. B 781 (2018) 349–357, arXiv:1711.08435 [hep-th].
+
+[8] K. Costello, N. M. Paquette, and A. Sharma, “Top-Down Holography in an Asymptotically Flat Spacetime,” Phys. Rev. Lett. 130 (2023) no. 6, 061602, arXiv:2208.14233 [hep-th].
+
+[9] K. Costello and N. M. Paquette, “Celestial holography meets twisted holography: 4d amplitudes from chiral correlators,” JHEP 10 (2022) 193, arXiv:2201.02595 [hep-th].
+
+[10] K. Costello, N. M. Paquette, and A. Sharma, “Burns space and holography,” JHEP 10 (2023) 174, arXiv:2306.00940 [hep-th].
+
+[11] M. Pate, A.-M. Raclariu, A. Strominger, and E. Y. Yuan, “Celestial Operator Products of Gluons and Gravitons,” arXiv:1910.07424 [hep-th].
+
+[12] A. Strominger, “Asymptotic Symmetries of Yang-Mills Theory,” JHEP 07 (2014) 151, arXiv:1308.0589 [hep-th].
+
+[13] A. Strominger, “On BMS Invariance of Gravitational Scattering,” JHEP 07 (2014) 152, arXiv:1312.2229 [hep-th].
+
+[14] A. Fiorucci, D. Grumiller, and R. Ruzziconi, “Logarithmic celestial conformal field theory,” Phys. Rev. D 109 (2024) no. 2, L021902, arXiv:2305.08913 [hep-th].
+
+[15] S. Agrawal, L. Donnay, K. Nguyen, and R. Ruzziconi, “Logarithmic soft graviton theorems from superrotation Ward identities,” arXiv:2309.11220 [hep-th].
+
+[16] S. Stieberger and T. R. Taylor, “Strings on Celestial Sphere,” Nucl. Phys. B935 (2018) 388–411, arXiv:1806.05688 [hep-th].
+
+[17] T. Adamo, L. Mason, and A. Sharma, “Celestial amplitudes and conformal soft theorems,” Class. Quant. Grav. 36 (2019) no. 20, 205018, arXiv:1905.09224 [hep-th].
+
+[18] E. Casali and A. Sharma, “Celestial double copy from the worldsheet,” JHEP 05 (2021) 157, arXiv:2011.10052 [hep-th].
+
+[19] T. Adamo, W. Bu, E. Casali, and A. Sharma, “Celestial operator products from the worldsheet,” JHEP 06 (2022) 052, arXiv:2111.02279 [hep-th].
+
+[20] C.-M. Chang, Y.-t. Huang, Z.-X. Huang, and W. Li, “Bulk locality from the celestial amplitude,” SciPost Phys. 12 (2022) no. 5, 176, arXiv:2106.11948 [hep-th].
+
+[21] W. Bu, “Supersymmetric celestial OPEs and soft algebras from the ambitwistor string worldsheet,” Phys. Rev. D 105 (2022) no. 12, 126029, arXiv:2111.15584 [hep-th].
+
+[22] A. Guevara, “Celestial OPE blocks,” arXiv:2108.12706 [hep-th].
+
+[23] H. Jiang, “Celestial OPEs and w1+∞ algebra from worldsheet in string theory,” JHEP 01 (2022) 101, arXiv:2110.04255 [hep-th].
+
+[24] L. Donnay, G. Giribet, H. Gonz´alez, A. Puhm, and F. Rojas, “Celestial open strings at one-loop,” JHEP 10 (2023) 047, arXiv:2307.03551 [hep-th].
+
+[25] S. Stieberger, T. R. Taylor, and B. Zhu, “Carrollian Amplitudes from Strings,” arXiv:2402.14062 [hep-th].
+
+[26] S. Stieberger and T. R. Taylor, “Amplitude for N-Gluon Superstring Scattering,” Phys. Rev. Lett. 97 (2006) 211601, arXiv:hep-th/0607184.
+
+[27] C. R. Mafra, O. Schlotterer, and S. Stieberger, “Complete N-Point Superstring Disk Amplitude I. Pure Spinor Computation,” Nucl. Phys. B 873 (2013) 419–460, arXiv:1106.2645 [hep-th].
+
+[28] S. J. Parke and T. R. Taylor, “An Amplitude for n Gluon Scattering,” Phys. Rev. Lett. 56 (1986) 2459.
+
+[29] F. A. Berends and W. T. Giele, “Recursive Calculations for Processes with n Gluons,” Nucl. Phys. B 306 (1988) 759–808.
+
+[30] M. B. Green, J. H. Schwarz, and L. Brink, “N=4 Yang-Mills and N=8 Supergravity as Limits of String Theories,” Nucl. Phys. B198 (1982) 474–492.
+
+[31] S. Stieberger and T. R. Taylor, “Symmetries of Celestial Amplitudes,” Phys. Lett. B 793 (2019) 141–143, arXiv:1812.01080 [hep-th].
+
+[32] S. Stieberger and T. R. Taylor, “Multi-Gluon Scattering in Open Superstring Theory,” Phys. Rev. D 74 (2006) 126007, arXiv:hep-th/0609175.
+
+[33] W. Fan, A. Fotopoulos, and T. R. Taylor, “Soft Limits of Yang-Mills Amplitudes and Conformal Correlators,” JHEP 05 (2019) 121, arXiv:1903.01676 [hep-th].
+
+[34] G. Veneziano, “Construction of a crossing - symmetric, Regge behaved amplitude for linearly rising trajectories,” Nuovo Cim. A 57 (1968) 190–197.
+
+[35] J. Scherk, “Zero-slope limit of the dual resonance model,” Nucl. Phys. B 31 (1971) 222–234.
+
+[36] A. Neveu and J. Scherk, “Connection between Yang-Mills fields and dual models,” Nucl. Phys. B36 (1972) 155–161.
+
+[37] R. C. Brower, H. Nastase, H. J. Schnitzer, and C.-I. Tan, “Implications of multi-Regge limits for the Bern-Dixon-Smirnov conjecture,” Nucl. Phys. B 814 (2009) 293–326, arXiv:0801.3891 [hep-th].
+
+[38] D. Nandan, A. Schreiber, A. Volovich, and M. Zlotnikov, “Celestial Amplitudes: Conformal Partial Waves and Soft Limits,” JHEP 10 (2019) 018, arXiv:1904.10940 [hep-th].
+
+[39] M. Pate, A.-M. Raclariu, and A. Strominger, “Conformally Soft Theorem in Gauge Theory,” Phys. Rev. D 100 (2019) no. 8, 085017, arXiv:1904.10831 [hep-th].
+
+[40] L. Donnay, A. Puhm, and A. Strominger, “Conformally Soft Photons and Gravitons,” JHEP 01 (2019) 184, arXiv:1810.05219 [hep-th].
+
+[41] A. Puhm, “Conformally Soft Theorem in Gravity,” JHEP 09 (2020) 130, arXiv:1905.09799 [hep-th].
+
+[42] J. Polchinski, String theory. Vol. 1: An introduction to the bosonic string. Cambridge Monographs on Mathematical Physics. Cambridge University Press, 12, 2007.
+
+[43] C. B. Thorn, “Subcritical String and Large N QCD,” Phys. Rev. D 78 (2008) 085022, arXiv:0808.0458 [hep-th].
+
+[44] F. Rojas and C. B. Thorn, “The Open String Regge Trajectory and Its Field Theory Limit,” Phys. Rev. D 84 (2011) 026006, arXiv:1105.3967 [hep-th].
+
+[45] F. Rojas, “Type 0 open string amplitudes and the tensionless limit,” Phys. Rev. D 90 (2014) no. 12, 126008, arXiv:1311.4535 [hep-th].
+
+[46] D. J. Gross and P. F. Mende, “String Theory Beyond the Planck Scale,” Nucl. Phys. B 303 (1988) 407–454.
+
+[47] D. J. Gross and P. F. Mende, “The High-Energy Behavior of String Scattering Amplitudes,” Phys. Lett. B 197 (1987) 129–134.
+
+[48] F. Cachazo, S. He, and E. Y. Yuan, “Scattering of Massless Particles: Scalars, Gluons and Gravitons,” JHEP 07 (2014) 033, arXiv:1309.0885 [hep-th].
+
+[49] F. Cachazo, S. He, and E. Y. Yuan, “Scattering of Massless Particles in Arbitrary Dimensions,” Phys. Rev. Lett. 113 (2014) no. 17, 171601, arXiv:1307.2199 [hep-th].
+
+[50] F. Cachazo, S. He, and E. Y. Yuan, “Scattering equations and Kawai-Lewellen-Tye orthogonality,” Phys. Rev. D 90 (2014) no. 6, 065001, arXiv:1306.6575 [hep-th].
+
+[51] C. Cardona and C. Kalousios, “Elimination and recursions in the scattering equations,” Phys. Lett. B 756 (2016) 180–187, arXiv:1511.05915 [hep-th].
+
+[52] L. Dolan and P. Goddard, “General Solution of the Scattering Equations,” JHEP 10 (2016) 149, arXiv:1511.09441 [hep-th].
+
+[53] P. Mitra, “Celestial Conformal Primaries in Effective Field Theories,” arXiv:2402.09256 [hep-th].
+
+[54] L. Ren, M. Spradlin, A. Yelleshpur Srikant, and A. Volovich, “On effective field theories with celestial duals,” JHEP 08 (2022) 251, arXiv:2206.08322 [hep-th].
+
+[55] N. Arkani-Hamed, M. Pate, A.-M. Raclariu, and A. Strominger, “Celestial amplitudes from UV to IR,” JHEP 08 (2021) 062, arXiv:2012.04208 [hep-th].

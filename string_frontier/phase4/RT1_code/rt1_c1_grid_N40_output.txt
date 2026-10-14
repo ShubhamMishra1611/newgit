@@ -1,0 +1,128 @@
+c=1 a=-127/200 D_max=3.0091743118 [level 3 spins [0]] (8a+10)/(1-a)=3.0091743119 next [(5, 3.6737), (4, 3.7188)] | levels 9..40: ALL POSITIVE
+c=1 a=-63/100 D_max=3.0429447852 [level 3 spins [0]] (8a+10)/(1-a)=3.0429447853 next [(5, 3.7045), (4, 3.7543)] | levels 9..40: ALL POSITIVE
+c=1 a=   -5/8 D_max=3.0769230768 [level 3 spins [0]] (8a+10)/(1-a)=3.0769230769 next [(5, 3.7355), (4, 3.7901)] | levels 9..40: ALL POSITIVE
+c=1 a= -31/50 D_max=3.1111111111 [level 3 spins [0]] (8a+10)/(1-a)=3.1111111111 next [(5, 3.7667), (4, 3.8261)] | levels 9..40: ALL POSITIVE
+c=1 a=-123/200 D_max=3.1455108359 [level 3 spins [0]] (8a+10)/(1-a)=3.1455108359 next [(5, 3.7981), (4, 3.8623)] | levels 9..40: ALL POSITIVE
+c=1 a=-61/100 D_max=3.1801242235 [level 3 spins [0]] (8a+10)/(1-a)=3.1801242236 next [(5, 3.8298), (4, 3.8988)] | levels 9..40: ALL POSITIVE
+c=1 a=-121/200 D_max=3.2149532710 [level 3 spins [0]] (8a+10)/(1-a)=3.2149532710 next [(5, 3.8617), (4, 3.9356)] | levels 9..40: ALL POSITIVE
+c=1 a=   -3/5 D_max=3.2499999999 [level 3 spins [0]] (8a+10)/(1-a)=3.2500000000 next [(5, 3.8938), (4, 3.9726)] | levels 9..40: ALL POSITIVE
+c=1 a=-119/200 D_max=3.2852664576 [level 3 spins [0]] (8a+10)/(1-a)=3.2852664577 next [(5, 3.9261), (4, 4.0099)] | levels 9..40: ALL POSITIVE
+c=1 a=-59/100 D_max=3.3207547170 [level 3 spins [0]] (8a+10)/(1-a)=3.3207547170 next [(5, 3.9587), (4, 4.0474)] | levels 9..40: ALL POSITIVE
+c=1 a=-117/200 D_max=3.3564668770 [level 3 spins [0]] (8a+10)/(1-a)=3.3564668770 next [(5, 3.9915), (4, 4.0852)] | levels 9..40: ALL POSITIVE
+c=1 a= -29/50 D_max=3.3924050633 [level 3 spins [0]] (8a+10)/(1-a)=3.3924050633 next [(5, 4.0245), (4, 4.1233)] | levels 9..40: ALL POSITIVE
+c=1 a= -23/40 D_max=3.4285714285 [level 3 spins [0]] (8a+10)/(1-a)=3.4285714286 next [(5, 4.0578), (4, 4.1616)] | levels 9..40: ALL POSITIVE
+c=1 a=-57/100 D_max=3.4649681528 [level 3 spins [0]] (8a+10)/(1-a)=3.4649681529 next [(5, 4.0913), (4, 4.2002)] | levels 9..40: ALL POSITIVE
+c=1 a=-113/200 D_max=3.5015974440 [level 3 spins [0]] (8a+10)/(1-a)=3.5015974441 next [(5, 4.125), (4, 4.2391)] | levels 9..40: ALL POSITIVE
+c=1 a= -14/25 D_max=3.5384615384 [level 3 spins [0]] (8a+10)/(1-a)=3.5384615385 next [(5, 4.159), (4, 4.2782)] | levels 9..40: ALL POSITIVE
+c=1 a=-111/200 D_max=3.5755627009 [level 3 spins [0]] (8a+10)/(1-a)=3.5755627010 next [(5, 4.1932), (4, 4.3176)] | levels 9..40: ALL POSITIVE
+c=1 a= -11/20 D_max=3.6129032258 [level 3 spins [0]] (8a+10)/(1-a)=3.6129032258 next [(5, 4.2277), (4, 4.3573)] | levels 9..40: ALL POSITIVE
+c=1 a=-109/200 D_max=3.6504854369 [level 3 spins [0]] (8a+10)/(1-a)=3.6504854369 next [(5, 4.2624), (4, 4.3973)] | levels 9..40: ALL POSITIVE
+c=1 a= -27/50 D_max=3.6883116882 [level 3 spins [0]] (8a+10)/(1-a)=3.6883116883 next [(5, 4.2974), (4, 4.4375)] | levels 9..40: ALL POSITIVE
+c=1 a=-107/200 D_max=3.7263843648 [level 3 spins [0]] (8a+10)/(1-a)=3.7263843648 next [(5, 4.3326), (4, 4.478)] | levels 9..40: ALL POSITIVE
+c=1 a=-53/100 D_max=3.7647058823 [level 3 spins [0]] (8a+10)/(1-a)=3.7647058824 next [(5, 4.368), (4, 4.5187)] | levels 9..40: ALL POSITIVE
+c=1 a= -21/40 D_max=3.8032786885 [level 3 spins [0]] (8a+10)/(1-a)=3.8032786885 next [(5, 4.4037), (4, 4.5598)] | levels 9..40: ALL POSITIVE
+c=1 a= -13/25 D_max=3.8421052631 [level 3 spins [0]] (8a+10)/(1-a)=3.8421052632 next [(5, 4.4397), (4, 4.6011)] | levels 9..40: ALL POSITIVE
+c=1 a=-103/200 D_max=3.8811881188 [level 3 spins [0]] (8a+10)/(1-a)=3.8811881188 next [(5, 4.4759), (4, 4.6427)] | levels 9..40: ALL POSITIVE
+c=1 a=-51/100 D_max=3.9205298013 [level 3 spins [0]] (8a+10)/(1-a)=3.9205298013 next [(5, 4.5123), (4, 4.6846)] | levels 9..40: ALL POSITIVE
+c=1 a=-101/200 D_max=3.9601328903 [level 3 spins [0]] (8a+10)/(1-a)=3.9601328904 next [(5, 4.549), (4, 4.7268)] | levels 9..40: ALL POSITIVE
+c=1 a=   -1/2 D_max=3.9999999999 [level 3 spins [0]] (8a+10)/(1-a)=4.0000000000 next [(5, 4.586), (4, 4.7692)] | levels 9..40: ALL POSITIVE
+c=1 a=-99/200 D_max=4.0401337792 [level 3 spins [0]] (8a+10)/(1-a)=4.0401337793 next [(5, 4.6233), (4, 4.812)] | levels 9..40: ALL POSITIVE
+c=1 a=-49/100 D_max=4.0805369127 [level 3 spins [0]] (8a+10)/(1-a)=4.0805369128 next [(5, 4.6608), (4, 4.855)] | levels 9..40: ALL POSITIVE
+c=1 a=-97/200 D_max=4.1212121212 [level 3 spins [0]] (8a+10)/(1-a)=4.1212121212 next [(5, 4.6986), (4, 4.8983)] | levels 9..40: ALL POSITIVE
+c=1 a= -12/25 D_max=4.1621621621 [level 3 spins [0]] (8a+10)/(1-a)=4.1621621622 next [(5, 4.7366), (4, 4.942)] | levels 9..40: ALL POSITIVE
+c=1 a= -19/40 D_max=4.2033898305 [level 3 spins [0]] (8a+10)/(1-a)=4.2033898305 next [(5, 4.7749), (4, 4.9859)] | levels 9..40: ALL POSITIVE
+c=1 a=-47/100 D_max=4.2448979591 [level 3 spins [0]] (8a+10)/(1-a)=4.2448979592 next [(5, 4.8135), (4, 5.0301)] | levels 9..40: ALL POSITIVE
+c=1 a=-93/200 D_max=4.2866894198 [level 3 spins [0]] (8a+10)/(1-a)=4.2866894198 next [(5, 4.8524), (4, 5.0746)] | levels 9..40: ALL POSITIVE
+c=1 a= -23/50 D_max=4.3287671233 [level 3 spins [0]] (8a+10)/(1-a)=4.3287671233 next [(5, 4.8916), (4, 5.1195)] | levels 9..40: ALL POSITIVE
+c=1 a=-91/200 D_max=4.3711340206 [level 3 spins [0]] (8a+10)/(1-a)=4.3711340206 next [(5, 4.931), (4, 5.1646)] | levels 9..40: ALL POSITIVE
+c=1 a=  -9/20 D_max=4.4137931034 [level 3 spins [0]] (8a+10)/(1-a)=4.4137931034 next [(5, 4.9707), (4, 5.21)] | levels 9..40: ALL POSITIVE
+c=1 a=-89/200 D_max=4.4567474048 [level 3 spins [0]] (8a+10)/(1-a)=4.4567474048 next [(5, 5.0107), (4, 5.2558)] | levels 9..40: ALL POSITIVE
+c=1 a= -11/25 D_max=4.5000000000 [level 3 spins [0]] (8a+10)/(1-a)=4.5000000000 next [(5, 5.051), (4, 5.3018)] | levels 9..40: ALL POSITIVE
+c=1 a=-87/200 D_max=4.5435540069 [level 3 spins [0]] (8a+10)/(1-a)=4.5435540070 next [(5, 5.0916), (4, 5.3482)] | levels 9..40: ALL POSITIVE
+c=1 a=-43/100 D_max=4.5874125874 [level 3 spins [0]] (8a+10)/(1-a)=4.5874125874 next [(5, 5.1325), (4, 5.3949)] | levels 9..40: ALL POSITIVE
+c=1 a= -17/40 D_max=4.6315789474 [level 3 spins [0]] (8a+10)/(1-a)=4.6315789474 next [(5, 5.1737), (4, 5.4419)] | levels 9..40: ALL POSITIVE
+c=1 a= -21/50 D_max=4.6760563380 [level 3 spins [0]] (8a+10)/(1-a)=4.6760563380 next [(5, 5.2152), (4, 5.4892)] | levels 9..40: ALL POSITIVE
+c=1 a=-83/200 D_max=4.7208480565 [level 3 spins [0]] (8a+10)/(1-a)=4.7208480565 next [(5, 5.257), (4, 5.5369)] | levels 9..40: ALL POSITIVE
+c=1 a=-41/100 D_max=4.7659574467 [level 3 spins [0]] (8a+10)/(1-a)=4.7659574468 next [(5, 5.2991), (4, 5.5849)] | levels 9..40: ALL POSITIVE
+c=1 a=-81/200 D_max=4.8113879003 [level 3 spins [0]] (8a+10)/(1-a)=4.8113879004 next [(5, 5.3415), (4, 5.6332)] | levels 9..40: ALL POSITIVE
+c=1 a=   -2/5 D_max=4.8571428571 [level 3 spins [0]] (8a+10)/(1-a)=4.8571428571 next [(5, 5.3842), (4, 5.6818)] | levels 9..40: ALL POSITIVE
+c=1 a=-79/200 D_max=4.9032258064 [level 3 spins [0]] (8a+10)/(1-a)=4.9032258065 next [(5, 5.4273), (4, 5.7308)] | levels 9..40: ALL POSITIVE
+c=1 a=-39/100 D_max=4.9496402877 [level 3 spins [0]] (8a+10)/(1-a)=4.9496402878 next [(5, 5.4707), (4, 5.7801)] | levels 9..40: ALL POSITIVE
+c=1 a=-77/200 D_max=4.9963898916 [level 3 spins [0]] (8a+10)/(1-a)=4.9963898917 next [(5, 5.5143), (4, 5.8298)] | levels 9..40: ALL POSITIVE
+c=1 a= -19/50 D_max=5.0434782608 [level 3 spins [0]] (8a+10)/(1-a)=5.0434782609 next [(5, 5.5584), (4, 5.8798)] | levels 9..40: ALL POSITIVE
+c=1 a=   -3/8 D_max=5.0909090908 [level 3 spins [0]] (8a+10)/(1-a)=5.0909090909 next [(5, 5.6027), (4, 5.9301)] | levels 9..40: ALL POSITIVE
+c=1 a=-37/100 D_max=5.1386861314 [level 3 spins [0]] (8a+10)/(1-a)=5.1386861314 next [(5, 5.6474), (7, 5.9794)] | levels 9..40: ALL POSITIVE
+c=1 a=-73/200 D_max=5.1868131868 [level 3 spins [0]] (8a+10)/(1-a)=5.1868131868 next [(5, 5.6924), (7, 6.0237)] | levels 9..40: ALL POSITIVE
+c=1 a=  -9/25 D_max=5.2352941176 [level 3 spins [0]] (8a+10)/(1-a)=5.2352941176 next [(5, 5.7377), (7, 6.0683)] | levels 9..40: ALL POSITIVE
+c=1 a=-71/200 D_max=5.2841328413 [level 3 spins [0]] (8a+10)/(1-a)=5.2841328413 next [(5, 5.7834), (7, 6.1133)] | levels 9..40: ALL POSITIVE
+c=1 a=  -7/20 D_max=5.3333333333 [level 3 spins [0]] (8a+10)/(1-a)=5.3333333333 next [(5, 5.8295), (7, 6.1586)] | levels 9..40: ALL POSITIVE
+c=1 a=-69/200 D_max=5.3828996282 [level 3 spins [0]] (8a+10)/(1-a)=5.3828996283 next [(5, 5.8759), (7, 6.2042)] | levels 9..40: ALL POSITIVE
+c=1 a= -17/50 D_max=5.4328358208 [level 3 spins [0]] (8a+10)/(1-a)=5.4328358209 next [(5, 5.9226), (7, 6.2502)] | levels 9..40: ALL POSITIVE
+c=1 a=-67/200 D_max=5.4831460673 [level 3 spins [0]] (8a+10)/(1-a)=5.4831460674 next [(5, 5.9698), (7, 6.2965)] | levels 9..40: ALL POSITIVE
+c=1 a=-33/100 D_max=5.5338345864 [level 3 spins [0]] (8a+10)/(1-a)=5.5338345865 next [(5, 6.0172), (7, 6.3432)] | levels 9..40: ALL POSITIVE
+c=1 a= -13/40 D_max=5.5849056604 [level 3 spins [0]] (8a+10)/(1-a)=5.5849056604 next [(5, 6.0651), (7, 6.3902)] | levels 9..40: ALL POSITIVE
+c=1 a=  -8/25 D_max=5.6363636363 [level 3 spins [0]] (8a+10)/(1-a)=5.6363636364 next [(5, 6.1133), (7, 6.4376)] | levels 9..40: ALL POSITIVE
+c=1 a=-63/200 D_max=5.6882129277 [level 3 spins [0]] (8a+10)/(1-a)=5.6882129278 next [(5, 6.1619), (7, 6.4854)] | levels 9..40: ALL POSITIVE
+c=1 a=-31/100 D_max=5.7404580152 [level 3 spins [0]] (8a+10)/(1-a)=5.7404580153 next [(5, 6.2109), (7, 6.5335)] | levels 9..40: ALL POSITIVE
+c=1 a=-61/200 D_max=5.7931034482 [level 3 spins [0]] (8a+10)/(1-a)=5.7931034483 next [(5, 6.2602), (7, 6.582)] | levels 9..40: ALL POSITIVE
+c=1 a=  -3/10 D_max=5.8461538461 [level 3 spins [0]] (8a+10)/(1-a)=5.8461538462 next [(5, 6.31), (7, 6.6308)] | levels 9..40: ALL POSITIVE
+c=1 a=-59/200 D_max=5.8996138995 [level 3 spins [0]] (8a+10)/(1-a)=5.8996138996 next [(5, 6.3601), (7, 6.6801)] | levels 9..40: ALL POSITIVE
+c=1 a=-29/100 D_max=5.9534883720 [level 3 spins [0]] (8a+10)/(1-a)=5.9534883721 next [(5, 6.4106), (7, 6.7297)] | levels 9..40: ALL POSITIVE
+c=1 a=-57/200 D_max=6.0077821012 [level 3 spins [0]] (8a+10)/(1-a)=6.0077821012 next [(5, 6.4616), (7, 6.7798)] | levels 9..40: ALL POSITIVE
+c=1 a=  -7/25 D_max=6.0625000000 [level 3 spins [0]] (8a+10)/(1-a)=6.0625000000 next [(5, 6.5129), (7, 6.8302)] | levels 9..40: ALL POSITIVE
+c=1 a= -11/40 D_max=6.1176470588 [level 3 spins [0]] (8a+10)/(1-a)=6.1176470588 next [(5, 6.5647), (7, 6.881)] | levels 9..40: ALL POSITIVE
+c=1 a=-27/100 D_max=6.1732283464 [level 3 spins [0]] (8a+10)/(1-a)=6.1732283465 next [(5, 6.6169), (7, 6.9322)] | levels 9..40: ALL POSITIVE
+c=1 a=-53/200 D_max=6.2292490119 [level 3 spins [0]] (8a+10)/(1-a)=6.2292490119 next [(5, 6.6695), (7, 6.9839)] | levels 9..40: ALL POSITIVE
+c=1 a= -13/50 D_max=6.2857142856 [level 3 spins [0]] (8a+10)/(1-a)=6.2857142857 next [(5, 6.7225), (7, 7.036)] | levels 9..40: ALL POSITIVE
+c=1 a=-51/200 D_max=6.3426294820 [level 3 spins [0]] (8a+10)/(1-a)=6.3426294821 next [(5, 6.776), (7, 7.0884)] | levels 9..40: ALL POSITIVE
+c=1 a=   -1/4 D_max=6.3999999999 [level 3 spins [0]] (8a+10)/(1-a)=6.4000000000 next [(5, 6.8299), (7, 7.1414)] | levels 9..40: ALL POSITIVE
+c=1 a=-49/200 D_max=6.4578313252 [level 3 spins [0]] (8a+10)/(1-a)=6.4578313253 next [(5, 6.8842), (7, 7.1947)] | levels 9..40: ALL POSITIVE
+c=1 a=  -6/25 D_max=6.5161290322 [level 3 spins [0]] (8a+10)/(1-a)=6.5161290323 next [(5, 6.939), (7, 7.2485)] | levels 9..40: ALL POSITIVE
+c=1 a=-47/200 D_max=6.5748987853 [level 3 spins [0]] (8a+10)/(1-a)=6.5748987854 next [(5, 6.9942), (7, 7.3027)] | levels 9..40: ALL POSITIVE
+c=1 a=-23/100 D_max=6.6341463415 [level 3 spins [0]] (8a+10)/(1-a)=6.6341463415 next [(5, 7.0499), (7, 7.3574)] | levels 9..40: ALL POSITIVE
+c=1 a=  -9/40 D_max=6.6938775509 [level 3 spins [0]] (8a+10)/(1-a)=6.6938775510 next [(5, 7.1061), (7, 7.4126)] | levels 9..40: ALL POSITIVE
+c=1 a= -11/50 D_max=6.7540983606 [level 3 spins [0]] (8a+10)/(1-a)=6.7540983607 next [(5, 7.1628), (7, 7.4682)] | levels 9..40: ALL POSITIVE
+c=1 a=-43/200 D_max=6.8148148148 [level 3 spins [0]] (8a+10)/(1-a)=6.8148148148 next [(5, 7.2199), (7, 7.5243)] | levels 9..40: ALL POSITIVE
+c=1 a=-21/100 D_max=6.8760330578 [level 3 spins [0]] (8a+10)/(1-a)=6.8760330579 next [(5, 7.2775), (7, 7.5808)] | levels 9..40: ALL POSITIVE
+c=1 a=-41/200 D_max=6.9377593361 [level 3 spins [0]] (8a+10)/(1-a)=6.9377593361 next [(5, 7.3356), (7, 7.6379)] | levels 9..40: ALL POSITIVE
+c=1 a=   -1/5 D_max=7.0000000000 [level 3 spins [0]] (8a+10)/(1-a)=7.0000000000 next [(5, 7.3942), (7, 7.6954)] | levels 9..40: ALL POSITIVE
+c=1 a=-39/200 D_max=7.0627615062 [level 3 spins [0]] (8a+10)/(1-a)=7.0627615063 next [(5, 7.4533), (7, 7.7534)] | levels 9..40: ALL POSITIVE
+c=1 a=-19/100 D_max=7.1260504201 [level 3 spins [0]] (8a+10)/(1-a)=7.1260504202 next [(5, 7.5129), (7, 7.812)] | levels 9..40: ALL POSITIVE
+c=1 a=-37/200 D_max=7.1898734177 [level 3 spins [0]] (8a+10)/(1-a)=7.1898734177 next [(5, 7.573), (7, 7.871)] | levels 9..40: ALL POSITIVE
+c=1 a=  -9/50 D_max=7.2542372881 [level 3 spins [0]] (8a+10)/(1-a)=7.2542372881 next [(5, 7.6336), (7, 7.9305)] | levels 9..40: ALL POSITIVE
+c=1 a=  -7/40 D_max=7.3191489361 [level 3 spins [0]] (8a+10)/(1-a)=7.3191489362 next [(5, 7.6948), (7, 7.9906)] | levels 9..40: ALL POSITIVE
+c=1 a=-17/100 D_max=7.3846153846 [level 3 spins [0]] (8a+10)/(1-a)=7.3846153846 next [(5, 7.7565), (7, 8.0512)] | levels 9..40: ALL POSITIVE
+c=1 a=-33/200 D_max=7.4506437768 [level 3 spins [0]] (8a+10)/(1-a)=7.4506437768 next [(5, 7.8188), (7, 8.1124)] | levels 9..40: ALL POSITIVE
+c=1 a=  -4/25 D_max=7.5172413792 [level 3 spins [0]] (8a+10)/(1-a)=7.5172413793 next [(5, 7.8816), (7, 8.1741)] | levels 9..40: ALL POSITIVE
+c=1 a=-31/200 D_max=7.5844155843 [level 3 spins [0]] (8a+10)/(1-a)=7.5844155844 next [(5, 7.9449), (7, 8.2363)] | levels 9..40: ALL POSITIVE
+c=1 a=  -3/20 D_max=7.6521739130 [level 3 spins [0]] (8a+10)/(1-a)=7.6521739130 next [(5, 8.0089), (7, 8.2991)] | levels 9..40: ALL POSITIVE
+c=1 a=-29/200 D_max=7.7205240174 [level 3 spins [0]] (8a+10)/(1-a)=7.7205240175 next [(5, 8.0734), (7, 8.3625)] | levels 9..40: ALL POSITIVE
+c=1 a=  -7/50 D_max=7.7894736842 [level 3 spins [0]] (8a+10)/(1-a)=7.7894736842 next [(5, 8.1385), (7, 8.4265)] | levels 9..40: ALL POSITIVE
+c=1 a=-27/200 D_max=7.8590308369 [level 3 spins [0]] (8a+10)/(1-a)=7.8590308370 next [(5, 8.2042), (7, 8.491)] | levels 9..40: ALL POSITIVE
+c=1 a=-13/100 D_max=7.9292035398 [level 3 spins [0]] (8a+10)/(1-a)=7.9292035398 next [(5, 8.2704), (7, 8.5561)] | levels 9..40: ALL POSITIVE
+c=1 a=   -1/8 D_max=7.9999999999 [level 3 spins [0]] (8a+10)/(1-a)=8.0000000000 next [(5, 8.3373), (7, 8.6218)] | levels 9..40: ALL POSITIVE
+c=1 a=  -3/25 D_max=8.0714285714 [level 3 spins [0]] (8a+10)/(1-a)=8.0714285714 next [(5, 8.4048), (7, 8.6882)] | levels 9..40: ALL POSITIVE
+c=1 a=-23/200 D_max=8.1434977578 [level 3 spins [0]] (8a+10)/(1-a)=8.1434977578 next [(5, 8.473), (7, 8.7551)] | levels 9..40: ALL POSITIVE
+c=1 a=-11/100 D_max=8.2162162162 [level 3 spins [0]] (8a+10)/(1-a)=8.2162162162 next [(5, 8.5417), (7, 8.8227)] | levels 9..40: ALL POSITIVE
+c=1 a=-21/200 D_max=8.2895927602 [level 3 spins [0]] (8a+10)/(1-a)=8.2895927602 next [(5, 8.6111), (7, 8.891)] | levels 9..40: ALL POSITIVE
+c=1 a=  -1/10 D_max=8.3636363636 [level 3 spins [0]] (8a+10)/(1-a)=8.3636363636 next [(5, 8.6812), (7, 8.9598)] | levels 9..40: ALL POSITIVE
+c=1 a=-19/200 D_max=8.4383561643 [level 3 spins [0]] (8a+10)/(1-a)=8.4383561644 next [(5, 8.7519), (7, 9.0294)] | levels 9..40: ALL POSITIVE
+c=1 a= -9/100 D_max=8.5137614679 [level 3 spins [0]] (8a+10)/(1-a)=8.5137614679 next [(5, 8.8233), (7, 9.0995)] | levels 9..40: ALL POSITIVE
+c=1 a=-17/200 D_max=8.5898617511 [level 3 spins [0]] (8a+10)/(1-a)=8.5898617512 next [(5, 8.8954), (7, 9.1704)] | levels 9..40: ALL POSITIVE
+c=1 a=  -2/25 D_max=8.6666666666 [level 3 spins [0]] (8a+10)/(1-a)=8.6666666667 next [(5, 8.9681), (7, 9.242)] | levels 9..40: ALL POSITIVE
+c=1 a=  -3/40 D_max=8.7441860465 [level 3 spins [0]] (8a+10)/(1-a)=8.7441860465 next [(5, 9.0416), (7, 9.3142)] | levels 9..40: ALL POSITIVE
+c=1 a= -7/100 D_max=8.8224299065 [level 3 spins [0]] (8a+10)/(1-a)=8.8224299065 next [(5, 9.1158), (7, 9.3872)] | levels 9..40: ALL POSITIVE
+c=1 a=-13/200 D_max=8.9014084507 [level 3 spins [0]] (8a+10)/(1-a)=8.9014084507 next [(5, 9.1907), (7, 9.4608)] | levels 9..40: ALL POSITIVE
+c=1 a=  -3/50 D_max=8.9811320754 [level 3 spins [0]] (8a+10)/(1-a)=8.9811320755 next [(5, 9.2663), (7, 9.5352)] | levels 9..40: ALL POSITIVE
+c=1 a=-11/200 D_max=9.0616113744 [level 3 spins [0]] (8a+10)/(1-a)=9.0616113744 next [(5, 9.3427), (7, 9.6104)] | levels 9..40: ALL POSITIVE
+c=1 a=  -1/20 D_max=9.1428571428 [level 3 spins [0]] (8a+10)/(1-a)=9.1428571429 next [(5, 9.4199), (7, 9.6863)] | levels 9..40: ALL POSITIVE
+c=1 a= -9/200 D_max=9.2248803827 [level 3 spins [0]] (8a+10)/(1-a)=9.2248803828 next [(5, 9.4978), (7, 9.7629)] | levels 9..40: ALL POSITIVE
+c=1 a=  -1/25 D_max=9.3076923076 [level 3 spins [0]] (8a+10)/(1-a)=9.3076923077 next [(5, 9.5765), (7, 9.8404)] | levels 9..40: ALL POSITIVE
+c=1 a= -7/200 D_max=9.3913043477 [level 3 spins [0]] (8a+10)/(1-a)=9.3913043478 next [(5, 9.656), (7, 9.9186)] | levels 9..40: ALL POSITIVE
+c=1 a= -3/100 D_max=9.4757281553 [level 3 spins [0]] (8a+10)/(1-a)=9.4757281553 next [(5, 9.7363), (7, 9.9976)] | levels 9..40: ALL POSITIVE
+c=1 a=  -1/40 D_max=9.5609756097 [level 3 spins [0]] (8a+10)/(1-a)=9.5609756098 next [(5, 9.8174), (7, 10.0774)] | levels 9..40: ALL POSITIVE
+c=1 a=  -1/50 D_max=9.6470588235 [level 3 spins [0]] (8a+10)/(1-a)=9.6470588235 next [(5, 9.8993), (7, 10.1581)] | levels 9..40: ALL POSITIVE
+c=1 a= -3/200 D_max=9.7339901478 [level 3 spins [0]] (8a+10)/(1-a)=9.7339901478 next [(5, 9.9821), (7, 10.2395)] | levels 9..40: ALL POSITIVE
+c=1 a= -1/100 D_max=9.8217821782 [level 3 spins [0]] (8a+10)/(1-a)=9.8217821782 next [(5, 10.0658), (7, 10.3219)] | levels 9..40: ALL POSITIVE
+c=1 a= -1/200 D_max=9.9104477611 [level 3 spins [0]] (8a+10)/(1-a)=9.9104477612 next [(5, 10.1503), (7, 10.4051)] | levels 9..40: ALL POSITIVE
+c=1 a=      0 D_max=10.0000000000 [level 3 spins [0]] (8a+10)/(1-a)=10.0000000000 next [(5, 10.2357), (7, 10.4892)] | levels 9..40: ALL POSITIVE

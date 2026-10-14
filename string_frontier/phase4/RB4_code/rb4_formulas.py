@@ -86,6 +86,9 @@ def paper_331(r, beta, sign_332=+1):
 # ---------- u-channel continuation ----------
 def Bgen(r, z):
     # root of B = 1 + z B^r continuously connected to B(0)=1; for z in (-1,0): B in (0,1)
+    if mp.im(z) == 0 and -1 <= z < 0:
+        # unique root in (0,1); bracketing solver is robust for large r
+        return mp.findroot(lambda B: B - 1 - z * B ** r, (mp.mpf(0), mp.mpf(1)), solver='anderson')
     return mp.findroot(lambda B: B - 1 - z * B ** r, mp.mpf(1) / (1 - z))
 
 
@@ -94,22 +97,69 @@ def G(r, z):
     return 1 / (1 - r + r / B)
 
 
-def S_inv(r, beta, J=90, T0=mp.mpf(1)):
+# --- truncated power series in t (lists of mpf), used for the Taylor data of h(t) ---
+def ps_mul(a, b, N):
+    return [mp.fsum(a[k] * b[n - k] for k in range(n + 1)) for n in range(N + 1)]
+
+
+def ps_div(a, d, N):
+    q = []
+    for n in range(N + 1):
+        q.append((a[n] - mp.fsum(d[k] * q[n - k] for k in range(1, n + 1))) / d[0])
+    return q
+
+
+def ps_log(a, N):
+    L = [mp.log(a[0])]
+    for n in range(1, N + 1):
+        L.append((a[n] - mp.fsum(k * L[k] * a[n - k] for k in range(1, n)) / n) / a[0])
+    return L
+
+
+def ps_exp(L, N):
+    E = [mp.exp(L[0])]
+    for n in range(1, N + 1):
+        E.append(mp.fsum(k * L[k] * E[n - k] for k in range(1, n + 1)) / n)
+    return E
+
+
+def h_taylor(r, N):
+    """Taylor coefficients at t=0 of h(t) = G(-e^{-t}) - 1, G = B/(B(1-r)+r), B - 1 + e^{-t} B^r = 0."""
+    r = mp.mpf(r)
+    emt = [(-1) ** j / mp.factorial(j) for j in range(N + 1)]
+    b0 = mp.findroot(lambda B: B - 1 + B ** r, (mp.mpf(0), mp.mpf(1)), solver='anderson')
+    B = [b0] + [mp.mpf(0)] * N
+    for it in range(12):  # Newton on series; order doubles each step
+        Br = ps_exp([r * c for c in ps_log(B, N)], N)
+        Br1 = ps_div(Br, B, N)
+        Phi = [B[n] - (1 if n == 0 else 0) + ps_mul(emt, Br, N)[n] for n in range(N + 1)]
+        dPhi = [(1 if n == 0 else 0) + r * x for n, x in enumerate(ps_mul(emt, Br1, N))]
+        step = ps_div(Phi, dPhi, N)
+        B = [B[n] - step[n] for n in range(N + 1)]
+        if max(abs(x) for x in step) < mp.mpf(10) ** (-mp.mp.dps + 3):
+            break
+    den = [B[n] * (1 - r) + (r if n == 0 else 0) for n in range(N + 1)]
+    Gs = ps_div(B, den, N)
+    Gs[0] -= 1
+    return Gs
+
+
+def S_inv(r, beta, J=80, T0=mp.mpf(1)):
     """S_{1/r}(beta) := continuation of sum_{n>=1} (-1)^n binom(rn,n) n^{-beta}
-    = 1/Gamma(beta) int_0^oo t^{beta-1} h(t) dt,  h(t) = G(-e^{-t}) - 1.
-    On [0,T0] use the Taylor series of h at t=0 (radius >= pi, since the only
-    singularities of G are at z = 1/C > 0) term by term -> analytic in beta."""
+    = 1/Gamma(beta) int_0^oo t^{beta-1} h(t) dt,  h(t) = G(-e^{-t}) - 1  (Re beta > 0),
+    continued to all beta: on [0,T0] integrate the Taylor series of h at t=0 term by term
+    (radius = |ln C + i pi| >= pi > T0)."""
     r = mp.mpf(r); beta = mp.mpmathify(beta)
-    h = lambda t: G(r, -mp.exp(-t)) - 1
-    key = (r, J)
+    key = (r, J, mp.mp.dps)
     if key not in _hc_cache:
-        _hc_cache[key] = mp.taylor(h, mp.mpf(0), J, method='quad', radius=mp.mpf(2))
+        _hc_cache[key] = h_taylor(r, J)
     hc = _hc_cache[key]
     if mp.im(beta) == 0 and mp.re(beta) <= 0 and mp.re(beta) == int(mp.re(beta)):
         k = int(-mp.re(beta))
         return (-1) ** k * mp.factorial(k) * hc[k]
-    Jv = sum(hc[j] * T0 ** (beta + j) / (beta + j) for j in range(J + 1))
-    Jv += mp.quad(lambda t: t ** (beta - 1) * h(t), [T0, 4, 16, 64, mp.inf])
+    h = lambda t: G(r, -mp.exp(-t)) - 1
+    Jv = mp.fsum(hc[j] * T0 ** (beta + j) / (beta + j) for j in range(J + 1))
+    Jv += mp.quad(lambda t: t ** (beta - 1) * h(t), [T0, 2, 4, 8, 16, 32, 64, mp.inf])
     return Jv * mp.rgamma(beta)
 
 

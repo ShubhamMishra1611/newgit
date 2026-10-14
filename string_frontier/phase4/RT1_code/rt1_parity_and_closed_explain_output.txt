@@ -1,0 +1,8 @@
+(A) parity lemma random test: 11840/11840 agree (R positive in 6419 cases)
+(B) c=0,a=0 vs type-I Dcrit(n), n=2..60: mismatches = []
+(C) open bosonic level-2 rho_j at D=27: [-0.009615384615384616, 0.0, 0.003205128205128205]
+    closed tachyon level-2 (=open^2) rho_j at D=27: [0.10327953296703296, 0.0, 0.002403846153846154, 0.0, 4.578754578754579e-05]
+    closed bosonic tachyon, levels<=30 at D=27: all positive
+    closed bosonic tachyon, levels<=30 at D=40: all positive
+    closed bosonic tachyon, levels<=30 at D=57: all positive
+    closed bosonic tachyon, levels<=30 at D=58: first failure (4, [6])
