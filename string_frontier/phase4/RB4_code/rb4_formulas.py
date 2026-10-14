@@ -74,10 +74,12 @@ def paper_331(r, beta, sign_332=+1):
     beta = mp.mpmathify(beta); r = mp.mpf(r)
     tot = mp.mpc(0)
     n = 1
+    small = 0
     while True:
         term = (mp.mpf(n) / r) ** (-beta) * sign_332 * mp.rf(-mp.mpf(n) / r, n) / mp.factorial(n)
         tot += term
-        if n > 20 and abs(term) < mp.mpf(10) ** (-40):
+        small = small + 1 if abs(term) < mp.mpf(10) ** (-40) else 0   # some terms vanish exactly (integer n/r)
+        if small > 30:
             break
         n += 1
     return 1j * mp.pi / (1 - mp.exp(-2j * mp.pi * beta)) * tot

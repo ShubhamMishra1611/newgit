@@ -5,3 +5,4 @@
 *.pkl
 *.pickle
 __pycache__/
+paper_*.txt

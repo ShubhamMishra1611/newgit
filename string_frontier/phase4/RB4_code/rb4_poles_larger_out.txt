@@ -30,49 +30,29 @@
    r=1e4   I_+=(-0.6769956888 - 0.1338691744j)  I_+/[G(-b)(ln r)^b/2]=(1.3703161 - 0.11129028j)  |paper lead r^{b-1}|=0.0001419 
    r=1e8   I_+=(-0.4596031754 - 0.3718660612j)  I_+/[G(-b)(ln r)^b/2]=(1.1739134 - 0.095526127j)  |paper lead r^{b-1}|=1.419e-8 
    r=1e16  I_+=(-0.2028746172 - 0.5050707508j)  I_+/[G(-b)(ln r)^b/2]=(1.0825295 - 0.062660152j)  |paper lead r^{b-1}|=1.419e-16 
-   r=1e32  I_+=(0.06494727795 - 0.5182937617j)  I_+/[G(-b)(ln r)^b/2]=(1.0399317 - 0.037882261j)  |paper lead r^{b-1}|=1.419e-32 
+   r=1e32  I_+=(0.06493969505 - 0.51829075j)  I_+/[G(-b)(ln r)^b/2]=(1.0399234 - 0.03789621j)  |paper lead r^{b-1}|=1.419e-32 
  beta = -0.5
    r=1e1   I_+=(0.4814056618 + 0.2619991501j)  I_+/[G(-b)(ln r)^b/2]=(0.82427874 + 0.44860363j)  |paper lead r^{b-1}|=0.01033  Regge-form/I=(0.95506055 + 0.0084840464j)
    r=1e2   I_+=(0.4043688494 + 0.1367095922j)  I_+/[G(-b)(ln r)^b/2]=(0.97916435 + 0.33103727j)  |paper lead r^{b-1}|=0.0003265  Regge-form/I=(0.99486181 + 0.00041777915j)
    r=1e4   I_+=(0.3070344299 + 0.0558432857j)  I_+/[G(-b)(ln r)^b/2]=(1.0514291 + 0.19123345j)  |paper lead r^{b-1}|=3.265e-7  Regge-form/I=(0.99994753 + 1.0944643e-7j)
-   r=1e8   I_+=(0.2178941776 + 0.01993162909j)  I_+/[G(-b)(ln r)^b/2]=(1.0552455 + 0.096527419j)  |paper lead r^{b-1}|=3.265e-13  Regge-form/I=(0.99999999 - 2.3494924e-11j)
-   r=1e16  I_+=(0.1518050081 + 0.006833995894j)  I_+/[G(-b)(ln r)^b/2]=(1.0397023 + 0.046805578j)  |paper lead r^{b-1}|=3.265e-25  Regge-form/I=(1.0 - 5.2240665e-18j)
-   r=1e32  I_+=(0.1058345371 + 0.002340817467j)  I_+/[G(-b)(ln r)^b/2]=(1.0250978 + 0.022672815j)  |paper lead r^{b-1}|=3.265e-49  Regge-form/I=(0.99997277 - 2.5329343e-6j)
+   r=1e8   I_+=(0.2178941776 + 0.01993162909j)  I_+/[G(-b)(ln r)^b/2]=(1.0552455 + 0.096527419j)  |paper lead r^{b-1}|=3.265e-13  Regge-form/I=(0.99999999 - 2.349492e-11j)
+   r=1e16  I_+=(0.1518050081 + 0.006833995894j)  I_+/[G(-b)(ln r)^b/2]=(1.0397023 + 0.046805578j)  |paper lead r^{b-1}|=3.265e-25  Regge-form/I=(1.0 - 6.2599979e-20j)
+   r=1e32  I_+=(0.105831661 + 0.002340485652j)  I_+/[G(-b)(ln r)^b/2]=(1.02507 + 0.022669601j)  |paper lead r^{b-1}|=3.265e-49  Regge-form/I=(1.0 - 3.1319847e-28j)
  beta = 0.5
    r=1e1   I_+=(-1.83312717 + 1.168348634j)  I_+/[G(-b)(ln r)^b/2]=(0.68156898 - 0.43439986j)  |paper lead r^{b-1}|=0.7254 
    r=1e2   I_+=(-2.772158567 + 1.172926379j)  I_+/[G(-b)(ln r)^b/2]=(0.72882001 - 0.30837061j)  |paper lead r^{b-1}|=0.2294 
    r=1e4   I_+=(-4.373675856 + 0.9717716176j)  I_+/[G(-b)(ln r)^b/2]=(0.81308101 - 0.1806556j)  |paper lead r^{b-1}|=0.02294 
    r=1e8   I_+=(-6.727931816 + 0.6898491964j)  I_+/[G(-b)(ln r)^b/2]=(0.88441033 - 0.090683106j)  |paper lead r^{b-1}|=0.0002294 
    r=1e16  I_+=(-10.02824739 + 0.4778593114j)  I_+/[G(-b)(ln r)^b/2]=(0.93214241 - 0.044417824j)  |paper lead r^{b-1}|=2.294e-8 
-   r=1e32  I_+=(-14.62535736 + 0.3326405059j)  I_+/[G(-b)(ln r)^b/2]=(0.96127737 - 0.021863383j)  |paper lead r^{b-1}|=2.294e-16 
+   r=1e32  I_+=(-14.62536145 + 0.3326411293j)  I_+/[G(-b)(ln r)^b/2]=(0.96127764 - 0.021863424j)  |paper lead r^{b-1}|=2.294e-16 
  beta = 1.5
    r=1e1   I_+=(3.991869588 + 7.410678869j)  I_+/[G(-b)(ln r)^b/2]=(0.96687234 + 1.7949435j)  |paper lead r^{b-1}|=12.98 
    r=1e2   I_+=(9.152007756 + 32.55379889j)  I_+/[G(-b)(ln r)^b/2]=(0.78372586 + 2.7877221j)  |paper lead r^{b-1}|=41.04 
    r=1e4   I_+=(25.71548679 + 396.7734286j)  I_+/[G(-b)(ln r)^b/2]=(0.7785698 + 12.012831j)  |paper lead r^{b-1}|=410.4 
    r=1e8   I_+=(77.45494261 + 41014.02541j)  I_+/[G(-b)(ln r)^b/2]=(0.82910006 + 439.02596j)  |paper lead r^{b-1}|=4.104e+4 
-   r=1e16  I_+=(233.6000726 + 410350928.7j)  I_+/[G(-b)(ln r)^b/2]=(0.88406824 + 1552988.5j)  |paper lead r^{b-1}|=4.104e+8 
-   r=1e32  I_+=(-1.164056502e+11 + 4.10350557e+16j)  I_+/[G(-b)(ln r)^b/2]=(-1.5575496e+8 + 5.4906385e+13j)  |paper lead r^{b-1}|=4.104e+16 
+   r=1e16  I_+=(233.6000728 + 410350928.7j)  I_+/[G(-b)(ln r)^b/2]=(0.88406824 + 1552988.5j)  |paper lead r^{b-1}|=4.104e+8 
+   r=1e32  I_+=(692.7775849 + 4.103509602e+16j)  I_+/[G(-b)(ln r)^b/2]=(0.9269614 + 5.4906439e+13j)  |paper lead r^{b-1}|=4.104e+16 
 # (iii) decomposition at moderate r: s-channel term vs u-channel term of the corrected formula
  r=10.0 s-term=(-0.8399619512 + 0.4891086391j) u-term=(-0.2137049182 + 0.1821232994j) sum-I_+=(1.58e-30 + 0.0j)  |s|/|I|=0.77802
  r=100.0 s-term=(-0.5503106435 + 0.06997905643j) u-term=(-0.3282907124 + 0.1112133369j) sum-I_+=(-2.96e-31 + 1.48e-31j)  |s|/|I|=0.61838
-Traceback (most recent call last):
-  File "/home/user/newgit/string_frontier/phase4/RB4_code/rb4_poles_larger.py", line 68, in <module>
-    ut = mp.pi / (2 * mp.sin(mp.pi * beta)) * S_inv(r, beta)
-                                              ~~~~~^^^^^^^^^
-  File "/home/user/newgit/string_frontier/phase4/RB4_code/rb4_formulas.py", line 152, in S_inv
-    _hc_cache[key] = h_taylor(r, J)
-                     ~~~~~~~~^^^^^^
-  File "/home/user/newgit/string_frontier/phase4/RB4_code/rb4_formulas.py", line 127, in h_taylor
-    b0 = mp.findroot(lambda B: B - 1 + B ** r, mp.mpf('0.5'))
-  File "/usr/local/lib/python3.13/dist-packages/mpmath/calculus/optimization.py", line 985, in findroot
-    raise ValueError('Could not find root within given tolerance. '
-    ...<2 lines>...
-                     % (norm(f(*xl))**2, tol))
-ValueError: Could not find root within given tolerance. (0.00173611111111111104852102912352136133 > 1.92592994438723585305597794258492732e-34)
-Try another starting point or tweak arguments.
-
-real	0m57.821s
-user	0m57.444s
-sys	0m0.318s
-
-[exited with code 1]
+ r=1000.0 s-term=(-0.36987677 - 0.03393392615j) u-term=(-0.3865734568 + 0.02131306076j) sum-I_+=(-1.28e-30 - 1.15e-30j)  |s|/|I|=0.49095

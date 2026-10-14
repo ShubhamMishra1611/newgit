@@ -47,6 +47,8 @@ def I_plus_big(r, beta):
 for beta in [mp.mpc(0, '0.7'), mp.mpf('-0.5'), mp.mpf('0.5'), mp.mpf('1.5')]:
     P(' beta =', beta)
     for ex in [1, 2, 4, 8, 16, 32]:
+        # precision must exceed log10(r) digits: F involves loggamma(1-rw) - loggamma(1-(r-1)w)
+        mp.mp.dps = 30 + 2 * ex
         r = mp.mpf(10) ** ex
         Ip = I_plus_big(r, beta)
         asym = mp.gamma(-beta) / 2 * mp.log(r) ** beta
@@ -59,6 +61,7 @@ for beta in [mp.mpc(0, '0.7'), mp.mpf('-0.5'), mp.mpf('0.5'), mp.mpf('1.5')]:
         P('   r=1e%-3d I_+=%s  I_+/[G(-b)(ln r)^b/2]=%s  |paper lead r^{b-1}|=%s %s' % (
             ex, mp.nstr(Ip, 10), mp.nstr(Ip / asym, 8), mp.nstr(abs(lead), 4),
             ('' if refined is None else ' Regge-form/I=' + mp.nstr(refined / Ip, 8))))
+        mp.mp.dps = 30
 
 P('# (iii) decomposition at moderate r: s-channel term vs u-channel term of the corrected formula')
 beta = mp.mpc(0, '0.7')
