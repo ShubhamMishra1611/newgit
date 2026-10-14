@@ -1,0 +1,5 @@
+  IIB all positive  : late-time eps = [1.2857 1.2857 1.2857 1.2857]  (gamma_min^2/2 = 1.2857)
+  IIA all positive  : late-time eps = [1.3158 1.3158 1.3158 1.3158]  (gamma_min^2/2 = 1.3158)
+  IIB+Q             : late-time eps = [1. 1. 1. 1.]  (gamma_min^2/2 = 1.0000)
+  IIB without D9    : late-time eps = [1.3333 1.3333 1.3333 1.3333]  (gamma_min^2/2 = 1.3333)
+  R6(+)+O4(-)+F4(+) from transverse min: eps = 0.3333 (1/3), V>0: True, d phi_10/dN = +1.000 (>0: coupling grows)
