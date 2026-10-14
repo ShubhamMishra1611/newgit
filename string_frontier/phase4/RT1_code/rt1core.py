@@ -121,3 +121,93 @@ def Dcrit_level(factors, kap, Dlo=3, Dhi=200, iters=70, dps=None):
     _, j, rn = mp_level_min(factors, kap, hi)
     # report the most negative spin just above Dcrit
     return lo, j
+
+
+# ---------------------------------------------------------------------------
+# Exact fast backend (python-flint fmpq is used only as a fast exact-rational number type;
+# the algorithm is the recurrence above).
+import flint
+Q = flint.fmpq
+
+
+def q(v):
+    if isinstance(v, Q):
+        return v
+    v = Fr(v)
+    return Q(v.numerator, v.denominator)
+
+
+def exact_rhos(n, a, m2, c, D, closed=False, S=None):
+    """Exact rho_j list at dimension D. Open: residue (al_t+1)_{n-c}.
+    closed=True: residue [(al_t+1)_{n-1-S}]^2  (VS-ratio family, al_s+al_t+al_u=S)."""
+    a = q(a); m2 = q(m2); D = q(D)
+    kap = (q(n) - a - 4 * m2) / 2
+    if closed:
+        L = n - 1 - S
+    else:
+        L = n - c
+    facs = [(a + i - kap, kap) for i in range(1, L + 1)]
+    if closed:
+        facs = facs + facs
+    nu = (D - 3) / 2
+    if kap == 0:
+        p = Q(1)
+        for b, k in facs:
+            p *= b
+        return [p], kap
+    cs = gegen_from_linear_factors(facs, nu, zero=Q(0))
+    return [cj / kap ** j for j, cj in enumerate(cs)], kap
+
+
+def exact_rhos_factors(facs, kap, D):
+    D = q(D); nu = (D - 3) / 2
+    if kap == 0:
+        p = Q(1)
+        for b, k in facs:
+            p *= b
+        return [p]
+    cs = gegen_from_linear_factors(facs, nu, zero=Q(0))
+    return [cj / kap ** j for j, cj in enumerate(cs)]
+
+
+def ok_factors(facs, kap, D):
+    r = exact_rhos_factors(facs, kap, D)
+    bad = [j for j, v in enumerate(r) if v < 0]
+    return len(bad) == 0, bad
+
+
+def Dcrit_factors(facs, kap, lo=3, hi=400, tol=Fr(1, 10**10)):
+    """exact bisection (monotone in D).  Returns (Dcrit_lower_bound as Fraction, failing spins just above)."""
+    lo = Fr(lo) + Fr(1, 10**9); hi = Fr(hi)
+    ok, bad = ok_factors(facs, kap, hi)
+    if ok:
+        return None, []
+    ok, bad = ok_factors(facs, kap, lo)
+    if not ok:
+        return Fr(3), bad
+    while hi - lo > tol:
+        mid = (lo + hi) / 2
+        # keep denominators small: round mid to a dyadic-ish rational
+        mid = Fr(round(mid * 2**40), 2**40)
+        if mid <= lo or mid >= hi:
+            mid = (lo + hi) / 2
+        ok, bad = ok_factors(facs, kap, mid)
+        if ok:
+            lo = mid
+        else:
+            hi = mid
+    ok, bad = ok_factors(facs, kap, hi)
+    return lo, bad
+
+
+def open_facs(n, a, m2, c=0):
+    a = q(a); m2 = q(m2)
+    kap = (q(n) - a - 4 * m2) / 2
+    return [(a + i - kap, kap) for i in range(1, n - c + 1)], kap
+
+
+def closed_facs(n, a, m2, S):
+    a = q(a); m2 = q(m2)
+    kap = (q(n) - a - 4 * m2) / 2
+    f = [(a + i - kap, kap) for i in range(1, n - S)]
+    return f + f, kap
