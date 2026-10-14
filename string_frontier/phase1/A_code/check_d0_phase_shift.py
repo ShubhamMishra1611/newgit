@@ -23,3 +23,15 @@ for n in [3, 5, 7, 9]:
 assert results[3] == sp.Rational(15, 16), results[3]
 assert results[5] == 0
 print("CHECK: v^4/r^7 coefficient = 15/16 (BBPT hep-th/9706072 eq.13) and v^6/r^11 coefficient = 0 (BBPT remark) -- PASSED")
+
+# --- DLCQ supergravity prediction (BBPT hep-th/9706072 eqs. (8),(12),(13)):
+# L' = -p x-dot^-,  x-dot^- = (sqrt(1 - h v^2) - 1)/h,  h = 15 N1/(2 R^2 M^9 r^7),  p = N2/R
+h, vv, N1, N2, R, M, r = sp.symbols('h v N1 N2 R M r', positive=True)
+Lp = sp.series(-(N2/R)*(sp.sqrt(1 - h*vv**2) - 1)/h, h, 0, 5).removeO()
+Lp = sp.expand(Lp.subs(h, sp.Rational(15, 2)*N1/(R**2*M**9*r**7)))
+print("DLCQ sugra probe Lagrangian:", Lp)
+c4 = Lp.coeff(vv, 4); c6 = Lp.coeff(vv, 6); c8 = Lp.coeff(vv, 8)
+assert sp.simplify(c4 - sp.Rational(15, 16)*N1*N2/(R**3*M**9*r**7)) == 0
+assert sp.simplify(c6 - sp.Rational(225, 64)*N1**2*N2/(R**5*M**18*r**14)) == 0
+print("CHECK: reproduces BBPT eq.(13) 15/16 and 225/64 -- PASSED")
+print("Three-loop (v^8/r^21) DLCQ-sugra target:", sp.factor(c8))

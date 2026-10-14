@@ -4,3 +4,6 @@ v^6/r^11: series coeff a_5 = 0,  potential coefficient C = 0
 v^8/r^15: series coeff a_7 = 1/480,  potential coefficient C = 9009/4096
 v^10/r^19: series coeff a_9 = -1/6048,  potential coefficient C = -182325/16384
 CHECK: v^4/r^7 coefficient = 15/16 (BBPT hep-th/9706072 eq.13) and v^6/r^11 coefficient = 0 (BBPT remark) -- PASSED
+DLCQ sugra probe Lagrangian: N2*v**2/(2*R) + 15*N1*N2*v**4/(16*M**9*R**3*r**7) + 225*N1**2*N2*v**6/(64*M**18*R**5*r**14) + 16875*N1**3*N2*v**8/(1024*M**27*R**7*r**21) + 354375*N1**4*N2*v**10/(4096*M**36*R**9*r**28)
+CHECK: reproduces BBPT eq.(13) 15/16 and 225/64 -- PASSED
+Three-loop (v^8/r^21) DLCQ-sugra target: 16875*N1**3*N2/(1024*M**27*R**7*r**21)

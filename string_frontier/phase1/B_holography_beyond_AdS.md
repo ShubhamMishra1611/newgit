@@ -56,7 +56,7 @@ ID corrections found while checking: Maldacena's wavefunction paper is **astro-p
 - ESTABLISHED. The infrared triangle links soft theorems, asymptotic symmetries and memory (1703.05448 [V]). Conformal primary wavefunctions on the principal series Δ = 1+iλ are complete, and massless amplitudes become SL(2,ℂ) correlators by Mellin transform (1705.01027 [V], 1701.00049 [V]).
 - ESTABLISHED (tree level). Positive-helicity soft gravitons form the wedge of w₁₊∞: [w^p_m, w^q_n] = [m(q−1) − n(p−1)] w^{p+q−2}_{m+n} with 1−p ≤ m ≤ p−1 (2105.14346 [V], eqs. 2.5–2.9), building on 2103.03961 [V].
   - **Checked here:** 1864 structure constants of (2.5) rescaled by (2.6) reproduce (2.7), and 9261 Jacobi triples close (`check_w1inf.py`).
-- ESTABLISHED. Celestial chiral algebras generally fail to be associative once loop effects or higher-derivative couplings are included. Associativity is guaranteed when the 4D theory lifts to a local holomorphic, anomaly-free theory on twistor space (2208.14233 [V], introduction; 2204.05301 [V]).
+- ESTABLISHED. Celestial chiral algebras "often fail" to be associative once loop effects or higher-derivative couplings are included. Associativity is guaranteed when the 4D theory lifts to a local holomorphic, anomaly-free theory on twistor space (2208.14233 [V], introduction; 2204.05301 [V]).
 - CONJECTURE with checks. Top-down examples:
   - SO(8) WZW₄ plus scalar-flat Kähler gravity on Burns space is dual to the large-N chiral algebra on D1 branes, checked with 2- and 3-point functions (2208.14233 [V], 2201.02595 [V]);
   - all loop amplitudes on Burns space are chiral-algebra correlators (2306.00940 [V]);

@@ -1,0 +1,10 @@
+A(1) = 0.15806256661079   compare log(2)/4 - zeta(3)/(8 pi^2) = 0.15806256661079
+N=1: Z_fermigas = 2.500000000000e-01   Z_Airy = 2.499986924001e-01   ratio-1 = +5.230e-06
+N=2: Z_fermigas = 1.989436788649e-02   Z_Airy = 1.989435799558e-02   ratio-1 = +4.972e-07
+N=3: Z_fermigas = 7.042240851351e-04   Z_Airy = 7.042240394127e-04   ratio-1 = +6.493e-08
+N=4: Z_fermigas = 1.290218400721e-05   Z_Airy = 1.290218387228e-05   ratio-1 = +1.046e-08
+N=5: Z_fermigas = 1.339107364736e-07   Z_Airy = 1.339107362106e-07   ratio-1 = +1.964e-09
+N=6: Z_fermigas = 8.372501009724e-10   Z_Airy = 8.372501006245e-10   ratio-1 = +4.155e-10
+N=7: Z_fermigas = 3.299231141161e-12   Z_Airy = 3.299231140840e-12   ratio-1 = +9.729e-11
+N=8: Z_fermigas = 8.485815676398e-15   Z_Airy = 8.485815676184e-15   ratio-1 = +2.524e-11
+exact small-N values (literature, not verified here): Z(1,k=1)=1/4 -> 0.25  Z(2,k=1)=1/(16 pi) -> 0.019894367886486918
