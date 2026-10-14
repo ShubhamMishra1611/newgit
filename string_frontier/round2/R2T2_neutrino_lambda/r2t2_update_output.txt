@@ -1,0 +1,37 @@
+Planck 2018: rho_crit = 3.6727e-11 eV^4, rho_Lambda = 2.5147e-11 eV^4 = (2.2393 meV)^4 ; in reduced Planck units rho_L/Mp^4 = 7.153e-121
+
+=== 3D thresholds, NuFIT 6.0 best fit, Planck 2018 rho_Lambda ===
+  Majorana NO: m_light=0 -> AdS 
+  Majorana IO: m_light=0 -> AdS 
+  Dirac    NO: m_light=0 -> none; dS-min onset 6.514 meV; AdS onset 7.644 meV; => conjecture requires m_light < 7.644 meV, i.e. Sum m_nu < 0.06990 eV (Sum at m_light=0: 0.05878 eV)
+  Dirac    IO: m_light=0 -> none; dS-min onset 2.060 meV; AdS onset 2.534 meV; => conjecture requires m_light < 2.534 meV, i.e. Sum m_nu < 0.10159 eV (Sum at m_light=0: 0.09892 eV)
+
+=== robustness: AdS onset over NuFIT 6.0 3-sigma corners of (dm21, |dm3l|) ===
+  Dirac NO: AdS onset m_light in [7.538, 7.754] meV ; Sum m_nu bound in [0.06924, 0.07059] eV
+  Dirac IO: AdS onset m_light in [2.507, 2.562] meV ; Sum m_nu bound in [0.10028, 0.10288] eV
+
+=== robustness: dependence on rho_Lambda (Dirac NO, best-fit splittings) ===
+  rho_L x  0.5: AdS onset m1 = 5.968 meV ; (m1/rho_L^1/4 = 3.1694)
+  rho_L x  0.9: AdS onset m1 = 7.370 meV ; (m1/rho_L^1/4 = 3.3788)
+  rho_L x  1.0: AdS onset m1 = 7.644 meV ; (m1/rho_L^1/4 = 3.4133)
+  rho_L x  1.1: AdS onset m1 = 7.897 meV ; (m1/rho_L^1/4 = 3.4434)
+  rho_L x  2.0: AdS onset m1 = 9.620 meV ; (m1/rho_L^1/4 = 3.6125)
+  rho_L x  5.0: AdS onset m1 = 12.775 meV ; (m1/rho_L^1/4 = 3.8150)
+
+=== Majorana: how large would rho_Lambda have to be to avoid AdS3 (lightest mass = 0)? ===
+  Majorana NO, m_light = 0: AdS3 disappears for rho_Lambda > 2.4937e-10 eV^4 = 9.92 x rho_obs
+  Majorana IO, m_light = 0: AdS3 disappears for rho_Lambda > 9.7846e-09 eV^4 = 389.09 x rho_obs
+  (IMV fig. 5 statement: 'around 7 times higher than the experimental Lambda_4' in NO, 'several orders of magnitude' in IO)
+
+=== Lower bound on rho_Lambda as a function of the lightest Dirac mass (NO): rho_min(m1) ===
+  m1 =   1.00 meV: rho_min = 1.8254e-13 eV^4 = 7.259e-03 rho_obs ; rho_min^(1/4)/m1 = 0.6536
+  m1 =   2.00 meV: rho_min = 8.8390e-13 eV^4 = 3.515e-02 rho_obs ; rho_min^(1/4)/m1 = 0.4848
+  m1 =   4.00 meV: rho_min = 4.5029e-12 eV^4 = 1.791e-01 rho_obs ; rho_min^(1/4)/m1 = 0.3642
+  m1 =   7.70 meV: rho_min = 2.5694e-11 eV^4 = 1.022e+00 rho_obs ; rho_min^(1/4)/m1 = 0.2924
+  m1 =  10.00 meV: rho_min = 5.6772e-11 eV^4 = 2.258e+00 rho_obs ; rho_min^(1/4)/m1 = 0.2745
+  m1 =  23.00 meV: rho_min = 9.3832e-10 eV^4 = 3.731e+01 rho_obs ; rho_min^(1/4)/m1 = 0.2406
+
+=== Comparison with DESI DR2 (2503.14744) ===
+  conjecture (3D, SM + Dirac): NO: m1 < 7.64 meV, Sum in [0.0588, 0.0699] eV
+                               IO: m3 < 2.53 meV, Sum in [0.0989, 0.1016] eV
+  DESI DR2 + CMB, LCDM: Sum < 0.0642 eV (95%); m_l < 0.023 eV;   w0waCDM: Sum < 0.163 eV (95%)

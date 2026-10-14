@@ -1,0 +1,14 @@
+=== check: Casimir density per dof, massless limit and IMV eq. 3.11 small-mR expansion ===
+rho(R,0)*L^4 = 0.1096622711   pi^2/90 = 0.1096622711
+mR=0.01: exact 0.1095040875  IMV(3.11) series 0.1094977798  rel.diff 5.76e-05
+mR=0.05: exact 0.1062532841  IMV(3.11) series 0.1055512211  rel.diff 6.61e-03
+mR=0.1: exact 0.0982280810  IMV(3.11) series 0.0932334921  rel.diff 5.08e-02
+bosons+Lambda only: numerical R_max = 7.5474e+01 eV^-1 ; IMV eq. 3.6 (1/(120 pi^2 Lambda))^(1/4) = 7.5489e+01 eV^-1 (IMV eq. 3.7 quotes 7.55e10 GeV^-1 = 7.55e1 eV^-1)
+
+=== (A) reproduce IMV 3D results: Lambda = 2.6e-11 eV^4, PDG-2016-type splittings (assumed: dm21 = 7.53e-5, |dm32| = 2.44e-3 NO / 2.51e-3 IO) ===
+  Majorana NO: m_light=0 -> AdS ;  any-minimum onset m* = 0.000 meV;  AdS onset m* = 0.000 meV
+  Majorana IO: m_light=0 -> AdS ;  any-minimum onset m* = 0.000 meV;  AdS onset m* = 0.000 meV
+  Dirac    NO: m_light=0 -> none;  any-minimum onset m* = 6.585 meV;  AdS onset m* = 7.724 meV
+  Dirac    IO: m_light=0 -> none;  any-minimum onset m* = 2.082 meV;  AdS onset m* = 2.562 meV
+  IMV (sec. 3.4, Table 1) report: Majorana -> AdS always; Dirac NO: none < 6.7, dS 6.7-7.73, AdS > 7.73 meV; Dirac IO: none < 2.1, dS 2.1-2.56, AdS > 2.56 meV
+  ADNV (hep-th/0703067) report: Dirac NO: none < 7.1, dS 7.1-8.3, AdS > 8.3 meV; IO: none < 2.5, dS 2.5-3.1, AdS > 3.1 meV
