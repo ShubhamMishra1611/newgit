@@ -1,0 +1,25 @@
+1. (T-hat_11)^2 / C_S2 = 2/pi**4  (b-independent: True )
+
+2. N_eff/e^{S0}: quadrature of (135) on [2,E0] vs closed form (74) = T-hat/(2 pi i)
+  beta= 0.05: quad=(9.70950741530814e+24 + 0.0j)  closed=(9.70950741530814e+24 + 0.0j)  rel.diff=2.3e-41  sign(rho) below/above E0: 1.0,-1.0
+  beta=  0.1: quad=(886324311592.655 + 0.0j)  closed=(886324311592.655 + 0.0j)  rel.diff=0.0  sign(rho) below/above E0: 1.0,-1.0
+  beta= 0.25: quad=(37312.2906834245 + 0.0j)  closed=(37312.2906834245 + 0.0j)  rel.diff=2.3e-41  sign(rho) below/above E0: 1.0,-1.0
+  beta=  0.5: quad=(313.808236112805 + 0.0j)  closed=(313.808236112805 + 0.0j)  rel.diff=2.3e-41  sign(rho) below/above E0: 1.0,-1.0
+  beta=  0.9: quad=(87.3775648396424 + 0.0j)  closed=(87.3775648396424 + 0.0j)  rel.diff=2.3e-41  sign(rho) below/above E0: 1.0,-1.0
+  beta=  2.0: quad=(313.808236112805 + 0.0j)  closed=(313.808236112805 + 0.0j)  rel.diff=2.3e-41  sign(rho) below/above E0: 1.0,-1.0
+  beta=  5.0: quad=(544686.944651717 + 0.0j)  closed=(544686.944651717 + 0.0j)  rel.diff=4.59e-41  sign(rho) below/above E0: 1.0,-1.0
+
+3. Count eigenvalues after fixing e^{S0} by (78); compare log N_eff^2 with log|Z_in|
+  one-loop (ADLS 1.23, phase -i)     : max_beta |log N_eff^2 - log|Z_in|| = 0
+  CEM (85)                           : max_beta |log N_eff^2 - log|Z_in|| = 0
+  ADLS (8.18)                        : max_beta |log N_eff^2 - log|Z_in|| = 0
+  WRONG: a=-7, b=0, phase 0.3        : max_beta |log N_eff^2 - log|Z_in|| = 0
+  WRONG: S0/2 + 11 log S0            : max_beta |log N_eff^2 - log|Z_in|| = 0
+
+   CEM (87) check: e^{S0} implied by (85)+(78) vs pi/|b|:
+   beta=0.05: e^S0=14.0496294620815, pi/|b|=14.0496294620815
+   beta=0.3: e^S0=5.73573720954548, pi/|b|=5.73573720954548
+
+Conclusion: the count returns whatever Z is fed in (including wrong log coefficients and phases):
+S_GH, -3 log S_GH, 5 log 2pi and the phase are INPUTS of the counting argument; the only b-dependent
+content is the identity (77), (T-hat)^2/C_S2 = 2/pi^4, internal to the complex Liouville string/matrix model.

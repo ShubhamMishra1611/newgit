@@ -1,0 +1,29 @@
+==============================================================================
+(A) 2512.17995 warped Kahler potential: no-scale identities
+==============================================================================
+nK=1 nC=1 Kk=single: V_full=+3.100715e-04  V(4.18)=+3.100715e-04  rel.err=1.8e-16  err(E.10)=1.5e-16 err(E.13)=1.3e-16 err(E.24)=3.9e-17  err(4.10)=0.0e+00 err(4.12)=2.1e-18
+nK=1 nC=1 Kk=single: V_full=-2.484968e-02  V(4.18)=-2.484968e-02  rel.err=2.8e-16  err(E.10)=2.9e-20 err(E.13)=1.2e-16 err(E.24)=4.9e-18  err(4.10)=0.0e+00 err(4.12)=2.9e-20
+nK=1 nC=2 Kk=single: V_full=+4.908676e-03  V(4.18)=+4.908676e-03  rel.err=2.6e-16  err(E.10)=5.2e-16 err(E.13)=2.2e-16 err(E.24)=3.0e-16
+nK=2 nC=2 Kk=swiss : V_full=+3.343040e-02  V(4.18)=+3.343040e-02  rel.err=1.2e-16  err(E.10)=5.0e-16 err(E.13)=3.6e-16 err(E.24)=7.5e-17
+nK=2 nC=1 Kk=swiss : V_full=+5.971488e-02  V(4.18)=+5.971488e-02  rel.err=2.3e-16  err(E.10)=3.9e-19 err(E.13)=2.1e-16 err(E.24)=5.4e-17
+
+(4.14) first-order expansion check: V/[e^{K0} K_cs^{zz}|D0W|^2] - 1 vs -3(f - K_cs^{zz} f_zz)/(T+Tbar)
+  T+Tbar=    20: exact ratio=0.80986856  first-order=0.77928571  diff*(T+Tbar)^2=12.2331
+  T+Tbar=    60: exact ratio=0.93013446  first-order=0.92642857  diff*(T+Tbar)^2=13.3412
+  T+Tbar=   200: exact ratio=0.97827296  first-order=0.97792857  diff*(T+Tbar)^2=13.7756
+  T+Tbar=   600: exact ratio=0.99268148  first-order=0.99264286  diff*(T+Tbar)^2=13.9048
+  T+Tbar=  2000: exact ratio=0.99779634  first-order=0.99779286  diff*(T+Tbar)^2=13.9505
+
+==============================================================================
+(B) BDGL 1809.06861 baselines
+==============================================================================
+I(0) = 0.718050;  c'' = 2^(1/3)/I(0) = 1.75464   [BDGL (2.33): ~1.75]
+sqrt(g_s) M_min = (8/3) sqrt(pi c' c'') = 6.8011   [BDGL (3.3): 6.8]
+g_s M^2 >= 64 pi c'c''/9 = 46.255 (c'=1.18)  [Junghans (2.9): 46.1 with c''=1.75 -> 46.13]
+  g_sM^2= 160.0 beta=0.1626: numerical critical L = [-1.382365, -0.117635]  BDGL(3.2): [np.float64(-1.382365), np.float64(-0.117635)]
+  g_sM^2=  60.0 beta=0.4336: numerical critical L = [-1.108971, -0.391029]  BDGL(3.2): [np.float64(-1.108971), np.float64(-0.391029)]
+  g_sM^2=  46.0 beta=0.5656: numerical critical L = []  BDGL(3.2): []
+
+==============================================================================
+(C) c' from the KS geometry and the normalisation of beta (OUR ATTEMPT)
+==============================================================================

@@ -1,0 +1,26 @@
+=== 1. IST low-energy coefficients (kappa^2=1, m^2=1, general lambda^2) ===
+  g0   = lambda2
+  g2   = lambda2/2
+  g3   = lambda2
+  g4   = lambda2/4
+  g5   = lambda2
+  g6   = lambda2/8
+  g6'  = lambda2
+  g7   = 3*lambda2/4
+  g8   = lambda2/16
+  g8'  = 3*lambda2/2
+  g9   = lambda2/2
+  g9'  = lambda2
+  paper eq.(5.13): g0=l2, g2=l2/2, g3=l2, g4=l2/4, g5=l2, g6=l2/8, g6'=l2, g7=3 l2/4
+
+=== 2. nonlinear relations for IST: residual as function of lambda^2 (kappa^2=1) ===
+  O(s7):  k2 g3 = g0^2/2                     residual = -lambda2*(lambda2 - 2)/2
+  O(s9):  k2 g5 = g2 g0                      residual = -lambda2*(lambda2 - 2)/2
+  O(s10): k4 g6' = 8/3 k4 g6 + g0^3/6        residual = -lambda2*(lambda2 - 2)*(lambda2 + 2)/6
+  O(s11): k2 g7 = g4 g0 + g2^2/2             residual = -3*lambda2*(lambda2 - 2)/8
+  O(s12): k4 g8' = 8 k4 g8 + g2 g0^2/2       residual = -lambda2*(lambda2 - 2)*(lambda2 + 2)/4
+  O(s13): k2 g9 = g6 g0 + g4 g2              residual = -lambda2*(lambda2 - 2)/4
+  O(s13): k6 g9' = 8/3 k4 g6 g0 + g0^4/24    residual = -lambda2*(lambda2 - 2)*(lambda2**2 + 2*lambda2 + 12)/24
+  -> every residual vanishes at lambda^2 = 2 (=2 kappa^2), cf. 2607.14230 text after (5.13)
+
+=== 2b. control: Virasoro-Shapiro via exponential form (5.11), alpha'=1 ===

@@ -1,0 +1,72 @@
+======================================================================
+A. Casimir density checks
+L=   10.0 m=1.0e-02  Bessel=1.0927054510e-05 thermal=1.0927054510e-05 rel.diff=-3.33e-16
+L=  100.0 m=5.0e-03  Bessel=1.0188884833e-09 thermal=1.0188884833e-09 rel.diff=-4.44e-16
+L=  300.0 m=2.0e-03  Bessel=1.2231107890e-11 thermal=1.2231107890e-11 rel.diff=2.22e-16
+L=   50.0 m=5.0e-02  Bessel=6.2223566906e-09 thermal=6.2223566906e-09 rel.diff=0.00e+00
+L= 1000.0 m=1.0e-04  Bessel=1.0927054510e-13 thermal=1.0927054510e-13 rel.diff=0.00e+00
+massless limit: rho_bessel(L,1e-9)/rho0 = 1.0000000000000007
+kmax=    50: rho(L=100,m=1e-4)/rho0 = 0.999960143787
+kmax=   200: rho(L=100,m=1e-4)/rho0 = 0.999962231522
+kmax=  2000: rho(L=100,m=1e-4)/rho0 = 0.999962244332
+kmax= 20000: rho(L=100,m=1e-4)/rho0 = 0.999962244332
+
+IMV eq.3.11 small-mR series vs exact (and with the m^3 term restored)
+mR=0.003: IMV3.11 rel.err=-1.596e-06  (m^3 term)/exact=+1.620e-06  with m^3: +2.433e-08  with m^3+m^4log: +6.439e-15
+mR=0.010: IMV3.11 rel.err=-5.760e-05  (m^3 term)/exact=+6.009e-05  with m^3: +2.466e-06  with m^3+m^4log: +9.028e-12
+mR=0.030: IMV3.11 rel.err=-1.477e-03  (m^3 term)/exact=+1.640e-03  with m^3: +1.613e-04  with m^3+m^4log: +6.650e-09
+mR=0.100: IMV3.11 rel.err=-5.085e-02  (m^3 term)/exact=+6.698e-02  with m^3: +1.593e-02  with m^3+m^4log: +1.003e-05
+mR=0.300: IMV3.11 rel.err=-1.658e+00  (m^3 term)/exact=+3.182e+00  with m^3: +1.494e+00  with m^3+m^4log: +1.255e-02
+======================================================================
+B. bosons + Lambda only: R_max
+numerical R_max = 75.4902 eV^-1 ; (120 pi^2 Lambda)^(-1/4) = 75.4895 eV^-1 = 7.5489e+10 GeV^-1 ; 1/(2pi R_max) = 2.1083 meV
+======================================================================
+C. IMV reproduction, Lambda = 2.6e-11 eV^4, PDG-2016 splittings (assumed)
+Dirac NO: dS onset (first min) = 6.5856 meV ; AdS onset = 7.7237 meV
+   Majorana NO m_l=0: rho_min = 2.5105e-10 eV^4 = 9.656 x Lambda(2.6e-11) ; L*=102.00
+Dirac IO: dS onset (first min) = 2.0816 meV ; AdS onset = 2.5614 meV
+   Majorana IO m_l=0: rho_min = 9.9921e-09 eV^4 = 384.310 x Lambda(2.6e-11) ; L*=49.56
+  [variant NO with Dm31=2.44e-3] dS onset 6.5856 meV, AdS onset 7.7238 meV
+  (time 120.0s)
+======================================================================
+D. Planck 2018 rho_Lambda
+M_P(red) = 2.435323e+27 eV ; H0 = 1.43687e-33 eV ; rho_c = 3.67341e-11 eV^4 = 8.09590e-11 h^2
+rho_Lambda = 2.51518e-11 eV^4 = (2.2395 meV)^4 = 7.1506e-121 M_P^4
+   alt. Planck column TT,TE,EE+lowE+lens+BAO: rho_L = 2.5532e-11
+   alt. Planck column TT,TE,EE+lowE: rho_L = 2.5037e-11
+======================================================================
+E. Update: NuFIT 6.0 (IC24 w/ SK-atm) + Planck 2018
+Dirac NO: dS onset 6.5150 meV ; AdS onset 7.6438 meV ; Sigma(m_l=0)=0.05878 eV ; Sigma(onset)=0.06990 eV
+   Majorana NO m_l=0: rho_min/rho_obs = 9.914  (grid local maxima of B: 1)
+Dirac IO: dS onset 2.0595 meV ; AdS onset 2.5341 meV ; Sigma(m_l=0)=0.09892 eV ; Sigma(onset)=0.10159 eV
+   Majorana IO m_l=0: rho_min/rho_obs = 389.021  (grid local maxima of B: 1)
+3-sigma corners (Dm21 in [6.92,8.05]e-5; NO Dm31 in [2.451,2.578]e-3; IO Dm32 in [-2.547,-2.421]e-3)
+  NO: AdS onset range 7.5384-7.7544 meV ; Sigma_max range 0.06924-0.07059 ; Sigma_min range 0.05783-0.05975
+      Dm21=6.920e-05 Dm3l=+2.451e-03: m*=7.7544 meV Sigma*=0.06924
+      Dm21=6.920e-05 Dm3l=+2.578e-03: m*=7.7543 meV Sigma*=0.07049
+      Dm21=8.050e-05 Dm3l=+2.451e-03: m*=7.5385 meV Sigma*=0.06934
+      Dm21=8.050e-05 Dm3l=+2.578e-03: m*=7.5384 meV Sigma*=0.07059
+  IO: AdS onset range 2.5076-2.5617 meV ; Sigma_max range 0.10028-0.10288 ; Sigma_min range 0.09758-0.10025
+      Dm21=6.920e-05 Dm3l=-2.547e-03: m*=2.5076 meV Sigma*=0.10288
+      Dm21=6.920e-05 Dm3l=-2.421e-03: m*=2.5591 meV Sigma*=0.10039
+      Dm21=8.050e-05 Dm3l=-2.547e-03: m*=2.5100 meV Sigma*=0.10277
+      Dm21=8.050e-05 Dm3l=-2.421e-03: m*=2.5617 meV Sigma*=0.10028
+======================================================================
+F. rho_min(m1)/rho_obs, Dirac NO (AdS avoided iff rho_L > rho_min)
+m1=  0.000 meV: rho_min = +0.0000e+00 eV^4 = +0.0000e+00 rho_obs ; rho_min^(1/4)/m1 = nan  L*=4955.99  nloc=0
+m1=  1.000 meV: rho_min = +1.8254e-13 eV^4 = +7.2576e-03 rho_obs ; rho_min^(1/4)/m1 = 0.654  L*=670.70  nloc=1
+m1=  2.000 meV: rho_min = +8.8390e-13 eV^4 = +3.5143e-02 rho_obs ; rho_min^(1/4)/m1 = 0.485  L*=525.21  nloc=1
+m1=  4.000 meV: rho_min = +4.5029e-12 eV^4 = +1.7903e-01 rho_obs ; rho_min^(1/4)/m1 = 0.364  L*=384.49  nloc=1
+m1=  6.000 meV: rho_min = +1.2756e-11 eV^4 = +5.0715e-01 rho_obs ; rho_min^(1/4)/m1 = 0.315  L*=305.21  nloc=1
+m1=  7.644 meV: rho_min = +2.5154e-11 eV^4 = +1.0001e+00 rho_obs ; rho_min^(1/4)/m1 = 0.293  L*=260.16  nloc=1
+m1=  7.700 meV: rho_min = +2.5694e-11 eV^4 = +1.0216e+00 rho_obs ; rho_min^(1/4)/m1 = 0.292  L*=258.84  nloc=1
+m1= 10.000 meV: rho_min = +5.6772e-11 eV^4 = +2.2572e+00 rho_obs ; rho_min^(1/4)/m1 = 0.274  L*=213.75  nloc=1
+m1= 23.000 meV: rho_min = +9.3832e-10 eV^4 = +3.7306e+01 rho_obs ; rho_min^(1/4)/m1 = 0.241  L*=109.24  nloc=1
+m1= 50.000 meV: rho_min = +1.3116e-08 eV^4 = +5.2146e+02 rho_obs ; rho_min^(1/4)/m1 = 0.214  L*=58.33  nloc=1
+Lambda scaling of AdS onset (Dirac NO): m1*/rho^(1/4)
+  rho = 0.5 rho_obs: m1* = 5.9686 meV ; m1*/rho^(1/4) = 3.169
+  rho = 1 rho_obs: m1* = 7.6438 meV ; m1*/rho^(1/4) = 3.413
+  rho = 2 rho_obs: m1* = 9.6212 meV ; m1*/rho^(1/4) = 3.613
+  rho = 5 rho_obs: m1* = 12.7757 meV ; m1*/rho^(1/4) = 3.815
+======================================================================
+G. Brute-force V(L) grid cross-check (independent of the B/C maximisation)

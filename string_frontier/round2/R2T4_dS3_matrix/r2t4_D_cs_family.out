@@ -1,0 +1,20 @@
+d_0(L) = 5*(log(2) + log(pi))
+d_1(L) = 0
+d_2(L) = -2*pi**2*(9*L**2 - 2*pi**2)/3
+d_3(L) = 0
+d_4(L) = 4*pi**4*(135*L**4 - 180*pi**2*L**2 - 2*pi**4)/45
+d_5(L) = 0
+
+L solving d_2(L) = d_2(CEM): [2*sqrt(3)/3]  L^2 = [4/3]
+  at that L: d_4(L) = -20118.4254793  vs d_4(CEM) = -128.304501868
+
+Values: d_2(L=0) = 129.8787880  d_2(L=2) = -106.9917176  d_2(CEM) = 50.92195284
+
+==========================================================================================
+BTV (5.32) / |CEM (5.7)| = (beta**2 + 1)**2/beta
+int_0^{2pi} rho_disk = 2*beta**2*sinh(pi/beta)/(beta**2 + 1)
+  |CEM (5.7)|                             : log coefficient a (log X = S0 - a log S0 + ...) = 3.0000026
+  BTV (5.32)                              : log coefficient a (log X = S0 - a log S0 + ...) = 2.0000066
+  [int rho_disk]^2 (BTV normalization)    : log coefficient a (log X = S0 - a log S0 + ...) = 3.999996
+=> the same sine/sinh skeleton gives a = 3, 2 or 4 depending on b-dependent normalization prefactors;
+   the ADLS value a = 3 is carried entirely by the h-basis Jacobian / e^{S0}(b) normalization, not by the skeleton.
