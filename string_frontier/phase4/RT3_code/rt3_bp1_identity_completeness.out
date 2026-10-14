@@ -1,0 +1,39 @@
+(i) identity check
+  J=2 T= 38.69: orthant count 21, 2^-J * sum_U #(Z^U cap E) = 84/4 = 21.0  -> OK;  smooth face formula 20.5
+  J=2 T= 51.62: orthant count 28, 2^-J * sum_U #(Z^U cap E) = 112/4 = 28.0  -> OK;  smooth face formula 27.4
+  J=2 T= 46.11: orthant count 21, 2^-J * sum_U #(Z^U cap E) = 84/4 = 21.0  -> OK;  smooth face formula 21.1
+  J=3 T= 45.43: orthant count 55, 2^-J * sum_U #(Z^U cap E) = 440/8 = 55.0  -> OK;  smooth face formula 54.7
+  J=3 T= 37.94: orthant count 45, 2^-J * sum_U #(Z^U cap E) = 360/8 = 45.0  -> OK;  smooth face formula 43.7
+  J=3 T= 41.03: orthant count 98, 2^-J * sum_U #(Z^U cap E) = 784/8 = 98.0  -> OK;  smooth face formula 99.0
+  J=4 T= 34.61: orthant count 213, 2^-J * sum_U #(Z^U cap E) = 3408/16 = 213.0  -> OK;  smooth face formula 215.3
+  J=4 T= 28.38: orthant count 151, 2^-J * sum_U #(Z^U cap E) = 2416/16 = 151.0  -> OK;  smooth face formula 151.2
+  J=4 T= 57.87: orthant count 273, 2^-J * sum_U #(Z^U cap E) = 4368/16 = 273.0  -> OK;  smooth face formula 274.6
+  J=5 T= 32.55: orthant count 316, 2^-J * sum_U #(Z^U cap E) = 10112/32 = 316.0  -> OK;  smooth face formula 318.1
+  J=5 T= 27.56: orthant count 317, 2^-J * sum_U #(Z^U cap E) = 10144/32 = 317.0  -> OK;  smooth face formula 320.7
+  J=5 T= 39.79: orthant count 523, 2^-J * sum_U #(Z^U cap E) = 16736/32 = 523.0  -> OK;  smooth face formula 525.5
+
+(ii) MITM vs brute force (J=3..5) on random windows
+  J=3 [145.12,155.12): brute 28, mitm 28
+  J=3 [150.12,150.52): brute 1, mitm 1
+  J=3 [120.12,180.12): brute 180, mitm 180
+  J=4 [145.12,155.12): brute 321, mitm 321
+  J=4 [150.12,150.52): brute 23, mitm 23
+  J=4 [120.12,180.12): brute 1901, mitm 1901
+  J=5 [145.12,155.12): brute 1429, mitm 1429
+  J=5 [150.12,150.52): brute 46, mitm 46
+  J=5 [120.12,180.12): brute 8617, mitm 8617
+
+(iii) completeness of T3's J=4 table (seed 11, R=1500), independent 3-loop+analytic algorithm
+  listed 45129 orthant points with |Lambda| < 0.02261  [19.3s]
+   eps          N[0,eps] RT3   T3   |  N[-eps,0] RT3   T3
+    3.006e-06          2          2   |          5          5   OK
+    9.173e-06         10         10   |         15         15   OK
+    2.799e-05         24         24   |         39         39   OK
+    8.543e-05         80         80   |         87         87   OK
+    2.607e-04        257        257   |        247        247   OK
+    7.955e-04        838        838   |        732        732   OK
+    2.428e-03       2462       2462   |       2345       2345   OK
+    7.408e-03       7320       7320   |       7267       7267   OK
+    2.261e-02      22550      22550   |      22579      22579   OK
+  all identical: True
+  density over |Lambda|<0.0226: 9.98081e+05; smooth 9.98021e+05

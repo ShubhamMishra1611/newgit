@@ -1,0 +1,63 @@
+(1) reduced Einstein-frame minisuperspace Lagrangian (up to normalisation):
+    L = (3*aE(t)**2*Derivative(lr(t), t)**2 + 4*aE(t)**2*Derivative(lt(t), t)**2 - 12*Derivative(aE(t), t)**2)*aE(t)/(2*NE(t))
+    coefficient ratios: (lnrho)^2 / [aEdot^2 term]*(-6) ... 
+    normalisation factor: 2
+    K_rho coefficient c (expect 3/4): 3/4   K_tau coefficient c (expect 1): 1   cross terms: {}
+
+(2) exponent vectors k = -grad ln V in canonical (rho_hat, tau_hat):
+   R6  : V ~ rho^-1 tau^-2  k = (+0.8165, +1.4142)  |k| = 1.6330
+   H3  : V ~ rho^-3 tau^-2  k = (+2.4495, +1.4142)  |k| = 2.8284
+   NS5 : V ~ rho^-2 tau^-2  k = (+1.6330, +1.4142)  |k| = 2.1602
+   Q   : V ~ rho^1 tau^-2  k = (-0.8165, +1.4142)  |k| = 1.6330
+   Rng : V ~ rho^3 tau^-2  k = (-2.4495, +1.4142)  |k| = 2.8284
+   F0  : V ~ rho^3 tau^-4  k = (-2.4495, +2.8284)  |k| = 3.7417
+   F1  : V ~ rho^2 tau^-4  k = (-1.6330, +2.8284)  |k| = 3.2660
+   F2  : V ~ rho^1 tau^-4  k = (-0.8165, +2.8284)  |k| = 2.9439
+   F3  : V ~ rho^0 tau^-4  k = (+0.0000, +2.8284)  |k| = 2.8284
+   F4  : V ~ rho^-1 tau^-4  k = (+0.8165, +2.8284)  |k| = 2.9439
+   F5  : V ~ rho^-2 tau^-4  k = (+1.6330, +2.8284)  |k| = 3.2660
+   F6  : V ~ rho^-3 tau^-4  k = (+2.4495, +2.8284)  |k| = 3.7417
+   D3  : V ~ rho^-3/2 tau^-3  k = (+1.2247, +2.1213)  |k| = 2.4495
+   D4  : V ~ rho^-1 tau^-3  k = (+0.8165, +2.1213)  |k| = 2.2730
+   D5  : V ~ rho^-1/2 tau^-3  k = (+0.4082, +2.1213)  |k| = 2.1602
+   D6  : V ~ rho^0 tau^-3  k = (+0.0000, +2.1213)  |k| = 2.1213
+   D7  : V ~ rho^1/2 tau^-3  k = (-0.4082, +2.1213)  |k| = 2.1602
+   D8  : V ~ rho^1 tau^-3  k = (-0.8165, +2.1213)  |k| = 2.2730
+   D9  : V ~ rho^3/2 tau^-3  k = (-1.2247, +2.1213)  |k| = 2.4495
+   Cas : V ~ rho^-2 tau^-4  k = (+1.6330, +2.8284)  |k| = 3.2660
+   L10 : V ~ rho^3 tau^-4  k = (-2.4495, +2.8284)  |k| = 3.7417
+
+(3) all-positive hull minima |grad V|/V >= dist(0, conv k):
+   IIB geometric (T3 set: R6,H3,F1,F3,F5,D3,D5,D7,D9,NS5): min^2 = 18/7 -> 1.6036  at ('R6', 'D9') (t=1/7)
+   IIB without D9 (no net positive D9 tension possible w/o tachyonic anti-D9s): min^2 = 8/3 -> 1.6330  at ('R6',) (t=0)
+   IIB without D9, + 10d one-loop Lambda (non-SUSY): min^2 = 50/19 -> 1.6222  at ('R6', 'L10') (t=1/19)
+   IIA geometric (T3 set: R6,H3,F0..F6,D4,D6,D8,NS5): min^2 = 50/19 -> 1.6222  at ('R6', 'F0') (t=1/19)
+   IIA without F0 and D8: min^2 = 8/3 -> 1.6330  at ('R6',) (t=0)
+   IIB + Q: min^2 = 2 -> 1.4142  at ('R6', 'Q') (t=1/2)
+   fluxes + branes only, no curvature (IIA): min^2 = 128/39 -> 1.8116  at ('D8', 'NS5') (t=7/13)
+   fluxes + branes only, no curvature (IIB): min^2 = 81/26 -> 1.7650  at ('D9', 'NS5') (t=15/26)
+   pointwise random test (IIB set, 2e4 points): min |grad V|/V = 1.6072 (bound 1.6036)
+
+(4) mixed-sign scaling solutions on lines carrying >=3 collinear source vectors
+    rule: V = e^{-f.phi} V_perp(u); a local transverse minimum with V>0 exists for suitable |Lambda_i| iff the two
+    extreme terms along the line are positive and a middle one negative (foot may lie outside: then the minimum is
+    only local/metastable, V_perp -> 0+ beyond a barrier). Two-term (+,-): the critical point with V>0 is a maximum.
+    flow direction = foot f; weak coupling & non-shrinking string-frame volume need f_rho>=0 and f_tau>=sqrt(3) f_rho
+   |f|=0.0000 (f^2=0) line ('Cas', 'D3', 'F5', 'R6'): + ['R6'] / - ['D3'] / + ['Cas', 'F5']; f=(+0.000,+0.000) cone=True nongeo=False foot_inside=False
+   |f|=0.0000 (f^2=0) line ('D9', 'F1', 'Q'): + ['F1'] / - ['D9'] / + ['Q']; f=(+0.000,+0.000) cone=True nongeo=True foot_inside=False
+   |f|=0.8165 (f^2=2/3) line ('D4', 'F4', 'R6'): + ['F4'] / - ['D4'] / + ['R6']; f=(+0.816,+0.000) cone=False nongeo=False foot_inside=False
+   |f|=0.8165 (f^2=2/3) line ('D8', 'F2', 'Q'): + ['F2'] / - ['D8'] / + ['Q']; f=(-0.816,+0.000) cone=False nongeo=True foot_inside=False
+   |f|=1.4142 (f^2=2) line ('H3', 'NS5', 'Q', 'R6', 'Rng'): + ['H3'] / - ['Q', 'R6'] / + ['Rng']; f=(+0.000,+1.414) cone=True nongeo=True foot_inside=True
+   |f|=1.4142 (f^2=2) line ('D5', 'F3', 'R6'): + ['F3'] / - ['D5'] / + ['R6']; f=(+1.225,+0.707) cone=False nongeo=False foot_inside=False
+   |f|=1.4142 (f^2=2) line ('D7', 'F3', 'Q'): + ['F3'] / - ['D7'] / + ['Q']; f=(-1.225,+0.707) cone=False nongeo=True foot_inside=False
+   |f|=1.6036 (f^2=18/7) line ('D6', 'F2', 'R6'): + ['F2'] / - ['D6'] / + ['R6']; f=(+1.050,+1.212) cone=False nongeo=False foot_inside=False
+   |f|=1.6036 (f^2=18/7) line ('D6', 'F4', 'Q'): + ['F4'] / - ['D6'] / + ['Q']; f=(-1.050,+1.212) cone=False nongeo=True foot_inside=False
+   |f|=1.6222 (f^2=50/19) line ('D8', 'F0', 'L10', 'R6'): + ['R6'] / - ['D8'] / + ['F0', 'L10']; f=(+0.645,+1.489) cone=True nongeo=False foot_inside=True
+   |f|=1.6222 (f^2=50/19) line ('D4', 'F6', 'Q'): + ['F6'] / - ['D4'] / + ['Q']; f=(-0.645,+1.489) cone=False nongeo=True foot_inside=True
+   |f|=1.6330 (f^2=8/3) line ('D7', 'F1', 'R6'): + ['F1'] / - ['D7'] / + ['R6']; f=(+0.816,+1.414) cone=True nongeo=False foot_inside=False
+   |f|=1.6330 (f^2=8/3) line ('Cas', 'D5', 'F5', 'Q'): + ['Q'] / - ['D5'] / + ['Cas', 'F5']; f=(-0.816,+1.414) cone=False nongeo=True foot_inside=False
+   |f|=1.8708 (f^2=7/2) line ('D7', 'F0', 'L10', 'NS5'): + ['NS5'] / - ['D7'] / + ['F0', 'L10']; f=(+0.612,+1.768) cone=True nongeo=False foot_inside=True
+   |f|=1.9467 (f^2=72/19) line ('D6', 'F1', 'NS5'): + ['F1'] / - ['D6'] / + ['NS5']; f=(+0.774,+1.786) cone=True nongeo=False foot_inside=True
+   |f|=2.0381 (f^2=54/13) line ('D6', 'F0', 'H3', 'L10'): + ['H3'] / - ['D6'] / + ['F0', 'L10']; f=(+0.565,+1.958) cone=True nongeo=False foot_inside=True
+   min |f| inside cone, geometric: 1.6222 ('D8', 'F0', 'L10', 'R6');  incl. non-geometric: 1.4142 ('H3', 'NS5', 'Q', 'R6', 'Rng')
+   lines through the origin with a valid (+,-,+) pattern (formal dS with flat direction): [('Cas', 'D3', 'F5', 'R6'), ('D9', 'F1', 'Q')]

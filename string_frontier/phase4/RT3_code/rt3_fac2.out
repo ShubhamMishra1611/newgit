@@ -1,0 +1,20 @@
+T3 claim: #(fluxes with tau in F, L'<=L) = 2*sum sigma + 2*#(orbits at i) + 4*#(orbits at rho)
+  L= 10: brute #fluxes=   192;  2*sum_sigma=   174;  fluxes at tau=i: 36 (orbits 9); at rho: 0;  2sum_sigma+2#orb(i)+4#orb(rho) = 192  -> EXACT;  pi^2 L^2/6 = 164
+  L= 20: brute #fluxes=   712;  2*sum_sigma=   678;  fluxes at tau=i: 68 (orbits 17); at rho: 0;  2sum_sigma+2#orb(i)+4#orb(rho) = 712  -> EXACT;  pi^2 L^2/6 = 658
+  L= 40: brute #fluxes=  2748;  2*sum_sigma=  2684;  fluxes at tau=i: 128 (orbits 32); at rho: 0;  2sum_sigma+2#orb(i)+4#orb(rho) = 2748  -> EXACT;  pi^2 L^2/6 = 2632
+  L= 60: brute #fluxes=  6120;  2*sum_sigma=  6028;  fluxes at tau=i: 184 (orbits 46); at rho: 0;  2sum_sigma+2#orb(i)+4#orb(rho) = 6120  -> EXACT;  pi^2 L^2/6 = 5922
+  L= 80: brute #fluxes= 10752;  2*sum_sigma= 10628;  fluxes at tau=i: 248 (orbits 62); at rho: 0;  2sum_sigma+2#orb(i)+4#orb(rho) = 10752  -> EXACT;  pi^2 L^2/6 = 10528
+
+DD tau=2i, L=150: #A with 0<2|A|^2<=150 (B=2iA) = 240; SL(2,Z)-orbits (only +-1 fix 2i) = 120
+DD recipe (a2=0, 0<=b1<a1, a1 b2<=150): 18604 representatives (= sum_{L'<=150} sigma(L') = 18604); landing at tau=2i: 120
+all fluxes with tau in F at L=150: 37448 (2*sum sigma = 37208)
+  R=0.15: brute count (N,-N separate) = 632;  half = 316;  2 pi A L^2 = 627
+  R=0.20: brute count (N,-N separate) = 1180;  half = 590;  2 pi A L^2 = 1119
+  R=0.25: brute count (N,-N separate) = 1728;  half = 864;  2 pi A L^2 = 1755
+  R=0.30: brute count (N,-N separate) = 2592;  half = 1296;  2 pi A L^2 = 2541
+
+boundary check with exact arithmetic (|tau-2i|^2 < R^2 vs <= R^2):
+  R=0.15: strict 632, closed 632
+  R=0.20: strict 1156, closed 1252
+  R=0.25: strict 1712, closed 1784
+  R=0.30: strict 2592, closed 2592

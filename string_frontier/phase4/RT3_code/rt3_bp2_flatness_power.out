@@ -1,0 +1,48 @@
+== (1,3) flatness + spacing statistics, NEW seeds (RT3) ==
+  generic J=4 S=640000.318 n_max=588: rho_smooth=1.0578e+05  rho_BP(D=2^J)=1.0522e+05 (smooth/BP=1.005); measured/smooth over 201006 levels = 1.0050
+     fit p = 1.0090; chi2/dof = 67.3/44 = 1.53 (p=0.0133); max|pull| = 3.09
+     spacings: var s = 1.0031, P(s<0.1) = 0.0953, KS p = 0.534, max s = 12.3 (ln M = 12.2);  Sigma^2: L=1:1.0, L=10:10.2, L=100:100.4, L=1000:1046.3
+  generic J=6 S=40000.318 n_max=172: rho_smooth=7.5006e+07  rho_BP(D=2^J)=7.2204e+07 (smooth/BP=1.039); measured/smooth over 199772 levels = 0.9989
+     fit p = 1.0006; chi2/dof = 49.0/44 = 1.11 (p=0.279); max|pull| = 3.09
+     spacings: var s = 0.9930, P(s<0.1) = 0.0942, KS p = 0.030, max s = 11.3 (ln M = 12.2);  Sigma^2: L=1:1.0, L=10:9.9, L=100:102.0, L=1000:953.6
+  generic J=8 S=4900.318 n_max=63: rho_smooth=1.1339e+09  rho_BP(D=2^J)=9.6193e+08 (smooth/BP=1.179); measured/smooth over 200896 levels = 1.0045
+     fit p = 0.9931; chi2/dof = 47.5/44 = 1.08 (p=0.332); max|pull| = 3.17
+     spacings: var s = 1.0117, P(s<0.1) = 0.0958, KS p = 0.596, max s = 13.5 (ln M = 12.2);  Sigma^2: L=1:1.0, L=10:10.1, L=100:102.2, L=1000:1119.7
+  generic J=10 S=1600.318 n_max=36: rho_smooth=3.3544e+09  rho_BP(D=2^J)=2.1622e+09 (smooth/BP=1.551); measured/smooth over 200660 levels = 1.0033
+     fit p = 1.0117; chi2/dof = 67.9/44 = 1.54 (p=0.0118); max|pull| = 2.47
+     spacings: var s = 0.9939, P(s<0.1) = 0.0942, KS p = 0.222, max s = 11.5 (ln M = 12.2);  Sigma^2: L=1:1.0, L=10:9.9, L=100:98.9, L=1000:974.7
+  generic J=12 S=676.318 n_max=24: rho_smooth=8.9481e+09  rho_BP(D=2^J)=3.7590e+09 (smooth/BP=2.380); measured/smooth over 199615 levels = 0.9981
+     fit p = 1.0002; chi2/dof = 39.4/44 = 0.89 (p=0.671); max|pull| = 2.82
+     spacings: var s = 0.9995, P(s<0.1) = 0.0950, KS p = 0.766, max s = 13.2 (ln M = 12.2);  Sigma^2: L=1:1.0, L=10:10.0, L=100:101.8, L=1000:949.9
+
+== POWER test: same statistic on near-commensurate charges c_i = 1 + delta u_i, J=8, S=400.3711 ==
+  deltaS=120 J=8 S=400.371 n_max=19: rho_smooth=6.5932e+06  rho_BP(D=2^J)=4.3183e+06 (smooth/BP=1.527); measured/smooth over 100649 levels = 1.0065
+     fit p = 1.0029; chi2/dof = 40.0/44 = 0.91 (p=0.643); max|pull| = 2.67
+     spacings: var s = 0.9992, P(s<0.1) = 0.0949, KS p = 0.921, max s = 11.8 (ln M = 11.5);  Sigma^2: L=1:1.0, L=10:10.1, L=100:104.3, L=1000:1341.7
+  deltaS=12 J=8 S=400.371 n_max=20: rho_smooth=1.1285e+07  rho_BP(D=2^J)=7.6006e+06 (smooth/BP=1.485); measured/smooth over 96510 levels = 0.9651
+     fit p = 0.9968; chi2/dof = 7513.0/44 = 170.75 (p=0); max|pull| = 52.87
+     spacings: var s = 1.0062, P(s<0.1) = 0.0959, KS p = 0.625, max s = 11.3 (ln M = 11.5);  Sigma^2: L=1:1.0, L=10:9.6, L=100:96.3, L=1000:772.8
+  deltaS=4 J=8 S=400.371 n_max=20: rho_smooth=1.1786e+07  rho_BP(D=2^J)=7.9549e+06 (smooth/BP=1.482); measured/smooth over 105006 levels = 1.0501
+     fit p = 0.9912; chi2/dof = 163896.2/44 = 3724.91 (p=0); max|pull| = 273.23
+     spacings: var s = 1.0056, P(s<0.1) = 0.0949, KS p = 0.636, max s = 12.1 (ln M = 11.6);  Sigma^2: L=1:1.1, L=10:10.5, L=100:112.4, L=1000:1071.7
+  deltaS=1.2 J=8 S=400.371 n_max=20: rho_smooth=1.1968e+07  rho_BP(D=2^J)=8.0839e+06 (smooth/BP=1.480); measured/smooth over 4737 levels = 0.0474
+     fit p = 1.3328; chi2/dof = 15638111.2/44 = 355411.62 (p=0); max|pull| = 2852.95
+     spacings: var s = 1.2544, P(s<0.1) = 0.1081, KS p = 0.000, max s = 8.9 (ln M = 8.5);  Sigma^2: L=1:0.0, L=10:0.5, L=100:6.8, L=1000:228.3
+
+== (5) near-commensurate: gaps and min|Lambda| near Lambda=0 (J=8, S=400.3711) ==
+  delta*S=    120: levels in |Lam|<1: 13,185,416 (distinct 13,184,993); generic expectation 2.4e+07; N(|Lam|<50/rho)=57 (expect 100); max gap = 33.8 generic mean spacings; min|Lam| = 6.127e-08 (generic Poisson mean 4.2e-08)
+  delta*S=     12: levels in |Lam|<1: 22,556,038 (distinct 22,554,736); generic expectation 2.4e+07; N(|Lam|<50/rho)=87 (expect 100); max gap = 19.5 generic mean spacings; min|Lam| = 5.608e-08 (generic Poisson mean 4.2e-08)
+  delta*S=    1.2: levels in |Lam|<1: 24,097,460 (distinct 24,093,392); generic expectation 2.4e+07; N(|Lam|<50/rho)=8 (expect 100); max gap = 2.01e+06 generic mean spacings; min|Lam| = 7.400e-07 (generic Poisson mean 4.2e-08)
+  delta*S=   0.12: levels in |Lam|<1: 24,262,668 (distinct 24,222,748); generic expectation 2.4e+07; N(|Lam|<50/rho)=0 (expect 100); max gap = 5.6e+06 generic mean spacings; min|Lam| = 1.357e-01 (generic Poisson mean 4.2e-08)
+  delta*S=      0: levels in |Lam|<1: 24,262,668 (distinct 4); generic expectation 2.4e+07; N(|Lam|<50/rho)=0 (expect 100); max gap = 6.01e+06 generic mean spacings; min|Lam| = 1.855e-01 (generic Poisson mean 4.2e-08)
+
+== (4) min|Lambda| statistics, RT3 seeds, exact re-check ==
+  J= 4 R=400.0: 60 shells, <z> = 1.033 +- 0.135, var = 1.088, KS p = 0.754
+  J= 6 R= 80.0: 60 shells, <z> = 0.951 +- 0.116, var = 0.810, KS p = 0.942
+  J= 8 R= 40.0: 60 shells, <z> = 0.975 +- 0.104, var = 0.645, KS p = 0.902
+  J=10 R= 24.0: 60 shells, <z> = 0.839 +- 0.099, var = 0.587, KS p = 0.597
+  J=12 R= 16.0: 60 shells, <z> = 0.958 +- 0.129, var = 0.999, KS p = 0.612
+  J=16 R= 10.0: 60 shells, <z> = 0.835 +- 0.108, var = 0.698, KS p = 0.357
+  pooled N=360: <z> = 0.932 +- 0.047, var = 0.810, KS p = 0.509
+
+runtime 65s

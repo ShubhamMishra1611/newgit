@@ -1,0 +1,46 @@
+J=4 R=800.0
+  eps=2.836e-05 shell+: n=         2 pred=         3.0 pull= -0.58 rel=-3.33e-01 | shell-: pull= +0.00 rel=+1.27e-06
+  eps=6.351e-05 shell+: n=         4 pred=         3.7 pull= +0.15 rel=+7.56e-02 | shell-: pull= -0.89 rel=-4.62e-01
+  eps=1.422e-04 shell+: n=         7 pred=         8.3 pull= -0.46 rel=-1.59e-01 | shell-: pull= +1.62 rel=+5.61e-01
+  eps=3.186e-04 shell+: n=        14 pred=        18.7 pull= -1.08 rel=-2.49e-01 | shell-: pull= +3.09 rel=+7.16e-01
+  eps=7.135e-04 shell+: n=        38 pred=        41.8 pull= -0.58 rel=-9.03e-02 | shell-: pull= +1.74 rel=+2.69e-01
+  eps=1.598e-03 shell+: n=        90 pred=        93.6 pull= -0.37 rel=-3.80e-02 | shell-: pull= +0.15 rel=+1.55e-02
+  eps=3.578e-03 shell+: n=       238 pred=       209.5 pull= +1.97 rel=+1.36e-01 | shell-: pull= -1.28 rel=-8.84e-02
+  eps=8.014e-03 shell+: n=       447 pred=       469.2 pull= -1.03 rel=-4.74e-02 | shell-: pull= -0.15 rel=-6.88e-03
+  eps=1.795e-02 shell+: n=      1068 pred=      1050.9 pull= +0.53 rel=+1.63e-02 | shell-: pull= +1.11 rel=+3.44e-02
+  eps=4.020e-02 shell+: n=      2338 pred=      2353.5 pull= -0.32 rel=-6.59e-03 | shell-: pull= -1.58 rel=-3.25e-02
+  eps=9.002e-02 shell+: n=      5292 pred=      5270.9 pull= +0.29 rel=+4.01e-03 | shell-: pull= +0.66 rel=+9.13e-03
+  eps=2.016e-01 shell+: n=     12052 pred=     11804.5 pull= +2.28 rel=+2.10e-02 | shell-: pull= -0.75 rel=-6.90e-03
+  eps=4.515e-01 shell+: n=     26522 pred=     26437.0 pull= +0.52 rel=+3.21e-03 | shell-: pull= +0.52 rel=+3.22e-03
+  eps=1.011e+00 shell+: n=     59916 pred=     59207.7 pull= +2.91 rel=+1.20e-02 | shell-: pull= +1.00 rel=+4.11e-03
+  eps=2.265e+00 shell+: n=    132460 pred=    132600.5 pull= -0.39 rel=-1.06e-03 | shell-: pull= +0.06 rel=+1.65e-04
+  eps=5.072e+00 shell+: n=    295694 pred=    296970.3 pull= -2.34 rel=-4.30e-03 | shell-: pull= -1.66 rel=-3.04e-03
+  eps=1.136e+01 shell+: n=    665887 pred=    665096.3 pull= +0.97 rel=+1.19e-03 | shell-: pull= +0.59 rel=+7.21e-04
+  eps=2.544e+01 shell+: n=   1487509 pred=   1489579.4 pull= -1.70 rel=-1.39e-03 | shell-: pull= +2.01 rel=+1.64e-03
+  eps=5.697e+01 shell+: n=   3335994 pred=   3336259.8 pull= -0.15 rel=-7.97e-05 | shell-: pull= +0.49 rel=+2.70e-04
+  eps=1.276e+02 shell+: n=   7473019 pred=   7472988.6 pull= +0.01 rel=+4.07e-06 | shell-: pull= +1.02 rel=+3.72e-04
+  eps=2.858e+02 shell+: n=  16734431 pred=  16742272.9 pull= -1.92 rel=-4.68e-04 | shell-: pull= +0.49 rel=+1.20e-04
+  eps=6.400e+02 shell+: n=  37528325 pred=  37525472.2 pull= +0.47 rel=+7.60e-05 | shell-: pull= -0.38 rel=-6.13e-05
+J=10 R=40.0
+  eps=8.943e-10 shell+: n=         3 pred=         3.0 pull= +0.00 rel=+0.00e+00 | shell-: pull= -1.73 rel=-1.00e+00
+  eps=2.467e-09 shell+: n=         2 pred=         5.3 pull= -1.43 rel=-6.21e-01 | shell-: pull= +1.62 rel=+7.06e-01
+  eps=6.803e-09 shell+: n=         6 pred=        14.5 pull= -2.24 rel=-5.88e-01 | shell-: pull= -0.14 rel=-3.76e-02
+  eps=1.876e-08 shell+: n=        49 pred=        40.1 pull= +1.40 rel=+2.21e-01 | shell-: pull= -0.18 rel=-2.79e-02
+  eps=5.175e-08 shell+: n=        96 pred=       110.7 pull= -1.39 rel=-1.32e-01 | shell-: pull= +0.13 rel=+1.22e-02
+  eps=1.427e-07 shell+: n=       308 pred=       305.2 pull= +0.16 rel=+9.20e-03 | shell-: pull= -2.36 rel=-1.35e-01
+  eps=3.937e-07 shell+: n=       899 pred=       841.7 pull= +1.97 rel=+6.80e-02 | shell-: pull= +1.87 rel=+6.45e-02
+  eps=1.086e-06 shell+: n=      2418 pred=      2321.6 pull= +2.00 rel=+4.15e-02 | shell-: pull= +1.17 rel=+2.43e-02
+  eps=2.995e-06 shell+: n=      6455 pred=      6403.1 pull= +0.65 rel=+8.11e-03 | shell-: pull= +1.82 rel=+2.28e-02
+  eps=8.259e-06 shell+: n=     17989 pred=     17660.1 pull= +2.47 rel=+1.86e-02 | shell-: pull= -1.89 rel=-1.42e-02
+  eps=2.278e-05 shell+: n=     48940 pred=     48707.9 pull= +1.05 rel=+4.77e-03 | shell-: pull= +0.44 rel=+1.99e-03
+  eps=6.283e-05 shell+: n=    134284 pred=    134339.6 pull= -0.15 rel=-4.14e-04 | shell-: pull= -0.30 rel=-8.15e-04
+  eps=1.733e-04 shell+: n=    369995 pred=    370517.6 pull= -0.86 rel=-1.41e-03 | shell-: pull= -1.18 rel=-1.94e-03
+  eps=4.779e-04 shell+: n=   1019822 pred=   1021913.1 pull= -2.07 rel=-2.05e-03 | shell-: pull= +0.21 rel=+2.08e-04
+  eps=1.318e-03 shell+: n=   2816860 pred=   2818511.9 pull= -0.98 rel=-5.86e-04 | shell-: pull= -1.55 rel=-9.21e-04
+  eps=3.636e-03 shell+: n=   7771470 pred=   7773701.2 pull= -0.80 rel=-2.87e-04 | shell-: pull= -0.31 rel=-1.10e-04
+  eps=1.003e-02 shell+: n=  21442427 pred=  21440826.6 pull= +0.35 rel=+7.46e-05 | shell-: pull= -1.94 rel=-4.19e-04
+  eps=2.766e-02 shell+: n=  59134632 pred=  59138587.0 pull= -0.51 rel=-6.69e-05 | shell-: pull= +0.14 rel=+1.82e-05
+  eps=7.628e-02 shell+: n= 163142349 pred= 163133730.8 pull= +0.67 rel=+5.28e-05 | shell-: pull= +0.52 rel=+4.10e-05
+  eps=2.104e-01 shell+: n= 450119284 pred= 450128280.7 pull= -0.42 rel=-2.00e-05 | shell-: pull= +1.15 rel=+5.43e-05
+  eps=5.802e-01 shell+: n=1242959600 pred=1242965042.6 pull= -0.15 rel=-4.38e-06 | shell-: pull= -0.55 rel=-1.55e-05
+  eps=1.600e+00 shell+: n=3439514418 pred=3439468672.7 pull= +0.78 rel=+1.33e-05 | shell-: pull= -0.44 rel=-7.60e-06
