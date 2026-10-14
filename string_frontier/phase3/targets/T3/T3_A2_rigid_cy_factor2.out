@@ -1,0 +1,40 @@
+==============================================================================
+1. Exact SL(2,Z)-orbit count (HNF: a2=0, a1>0, 0<=b1<a1, a1*b2=n) = sum sigma_1
+  L=   50: sum sigma =      2080; /(pi^2L^2/12) = 1.0116;  AD convention 2*sum sigma =      4160; /(pi^2L^2/6) = 1.0116
+  L=  150: sum sigma =     18604; /(pi^2L^2/12) = 1.0053;  AD convention 2*sum sigma =     37208; /(pi^2L^2/6) = 1.0053
+  L=  500: sum sigma =    205883; /(pi^2L^2/12) = 1.0013;  AD convention 2*sum sigma =    411766; /(pi^2L^2/6) = 1.0013
+  L= 1000: sum sigma =    823081; /(pi^2L^2/12) = 1.0007;  AD convention 2*sum sigma =   1646162; /(pi^2L^2/6) = 1.0007
+  L= 3000: sum sigma =   7405170; /(pi^2L^2/12) = 1.0004;  AD convention 2*sum sigma =  14810340; /(pi^2L^2/6) = 1.0004
+==============================================================================
+2. Brute force: all flux pairs (A,B) in Z[i]^2 with 0 < Im(conj(A)B) <= L and
+   vacuum tau = -conj(B/A) inside the half-open fundamental domain F.
+  L= 10: #(A,B) with tau in F =    192; sum sigma =    87; 2*sum sigma =    174; fluxes at tau=i: 36, at rho: 0;  2*sum sigma + elliptic corr = 192  match=True
+  L= 20: #(A,B) with tau in F =    712; sum sigma =   339; 2*sum sigma =    678; fluxes at tau=i: 68, at rho: 0;  2*sum sigma + elliptic corr = 712  match=True
+  L= 40: #(A,B) with tau in F =   2748; sum sigma =  1342; 2*sum sigma =   2684; fluxes at tau=i: 128, at rho: 0;  2*sum sigma + elliptic corr = 2748  match=True
+  L= 80: #(A,B) with tau in F =  10752; sum sigma =  5314; 2*sum sigma =  10628; fluxes at tau=i: 248, at rho: 0;  2*sum sigma + elliptic corr = 10752  match=True
+==============================================================================
+3. Vacua exactly at tau = 2i for L = 150 (DD sec. 5.1 quotes 240)
+  fluxes (A, B = 2i A) with 0 < det = 2|A|^2 <= 150: 240   (DD: 240)
+  modulo the full SL(2,Z) (stabilizer of 2i is {+1,-1}): 120
+  HNF orbit enumeration (L=150): 18604 orbits, at tau=2i: 120
+==============================================================================
+4. DD fig. 7: number of vacua in discs |tau - 2i| < R (coordinate radius), L = 150
+   estimate 2 pi A L^2 with A = proper area in g = 1/(4y^2) (AD (2.23)).
+    R    | estimate 2piAL^2 | orbits mod SL(2,Z) | x2 (N and -N counted) 
+   0.05  |         69.4     |        120         |       240
+   0.10  |        278.1     |        120         |       240
+   0.12  |        400.8     |        148         |       296
+   0.15  |        627.2     |        316         |       632
+   0.20  |       1118.7     |        601         |      1202
+   0.25  |       1755.5     |        867         |      1734
+   0.30  |       2541.2     |       1296         |      2592
+==============================================================================
+5. Continuum integral checks
+  int_F d^2tau / y^2 = 1.0471975512  (pi/3 = 1.0471975512);  with 1/(4y^2): 0.2617993878 (pi/12)
+  L=150: DD 2 pi A(F) L^2 = 37011.0;  AD (3.11) integrated = 37011.0;  pi^2L^2/6 = 37011.0;  exact orbits = 18604;  2*orbits = 37208
+  L=1000: DD 2 pi A(F) L^2 = 1644934.1;  AD (3.11) integrated = 1644934.1;  pi^2L^2/6 = 1644934.1;  exact orbits = 823081;  2*orbits = 1646162
+  L=3000: DD 2 pi A(F) L^2 = 14804406.6;  AD (3.11) integrated = 14804406.6;  pi^2L^2/6 = 14804406.6;  exact orbits = 7405170;  2*orbits = 14810340
+
+VERDICT: AD's exact count explicitly multiplies by 2 for a1<0 (i.e. counts N and -N as distinct),
+and that is what the continuum density integrated over F reproduces.  Modulo the full SL(2,Z),
+which contains -1: (A,B) -> (-A,-B) at fixed tau, the count is sum sigma ~ pi^2 L^2/12.

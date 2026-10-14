@@ -1,0 +1,511 @@
+# Likely Values of the Cosmological Constant
+URL: https://exa.ai/library/publication/g5zvtxhbg9c
+Published: 1998-01-01
+Author: Hugo Martel, Paul R. Shapiro, Steven Weinberg
+
+# Likely Values of the Cosmological Constant
+
+The Astrophysical Journal. Published: 1998-01-01. 220 citations.
+
+## Authors
+
+- Hugo Martel (The University of Texas at Austin)
+- Paul R. Shapiro (The University of Texas at Austin)
+- Steven Weinberg (The University of Texas at Austin)
+
+## Topics
+
+- Cosmology and Gravitation Theories
+- Advanced Mathematical Theories and Applications
+- Galaxies: Formation, Evolution, Phenomena
+
+## Funding
+
+- National Science Foundation
+  - Research in the Quantum Field Theory of Elementary Particles (Physics)
+  - Research in the Quantum Field Theory of Elementary Particles
+
+---
+
+# LIKELY VALUES OF THE COSMOLOGICAL CONSTANT HUGO AND
+
+## Abstract
+
+In theories in which the cosmological constant takes a variety of values in di †erent "" subuniverses,ÏÏ the probability distribution of its observed values is conditioned by the requirement that there be someone to measure it. This probability is proportional to the fraction of matter that is destined to condense out of the background into mass concentrations large enough to form observers. We calculate this "" collapsed fraction ÏÏ with a simple, pressure-free, spherically symmetric, nonlinear model for the growth of density Ñuctuations in a Ñat universe with arbitrary value of the cosmological constant, applied in a statistical way to the observed spectrum of density Ñuctuations at recombination. From this the probability distribution for the vacuum energy density for Gaussian random density Ñuctuations o V is derived analytically. (The conventional quantity is the vacuum energy density in units of the critical j 0 density at present, where It is shown that the results depend on only where p2 and are the variance and mean value of the Ñuctuating matter density Ðeld p3o6 , o6 at recombination, respectively. To calculate p, we adopt the Ñat, cold dark matter model with a nonzero cosmological constant and Ðx the amplitude and shape of the primordial power spectrum in accordance with data on cosmic microwave background anisotropy from the COBE satellite DMR experiment. A comparison of the results of this calculation of the likely values of with present observational bounds o V on the cosmological constant indicates that the small, positive values of (from 1 to 3 times greater o V than the present cosmic mass density) suggested recently by several lines of evidence are not very unlikely values to observe, even if there is nothing in the a priori probability distribution that favors such relatively small values.
+
+## INTRODUCTION
+
+Though the evidence is still equivocal, there are persistent hints that the vacuum energy is positive and up density1 o V to 3 times greater than the present cosmic mass density o 0 .2 From the point of view of fundamental physics, such a value seems absurd. Crude estimates indicate a value of some o V 120 orders of magnitude greater than and while it is o 0 , hard enough to imagine any sort of symmetry or adjustment mechanism that could make vanish (for a litany of o V failed attempts, see it would be even more Weinberg 1989) , peculiar for fundamental physical theory to dictate a nonzero value for that happens to be comparable to the o V cosmic mass density at this particular moment in the o 0 history of the universe.
+
+As far as we know, the only way to understand a value of comparable to is based upon a weak form of the o V o 0 anthropic principle. The application of this principle has become more plausible in recent years, because in several current theories, the cosmological constant does not have a Ðxed value, but takes a variety of values with varying probabilities. For instance, Hawking showed that (1983, 1984) the introduction of a three-form gauge Ðeld yields a A klj state vector for the universe that is a superposition of terms with di †erent values for the cosmological constant.
+
+subsequently showed that the e †ect of Coleman (1988a) wormholes in quantum gravity is to make the state vector a superposition of terms, in which any coupling coefficient in the Lagrangian that is not Ðxed by symmetries takes all possible values. Also, in chaotic inÑation (Linde 1986 (Linde , 1987, , the observed big bang is just one of an inÐnite number 1988) of expanding regions, in each of which the various Ðelds that a †ect the vacuum energy can take di †erent values. For brevity we will refer to parts of the "" universe ÏÏ in which the cosmological constant takes di †erent values, such as terms in the state vector and local bangs, as subuniverses.
+
+In any theory of this general sort, the measured value of the vacuum energy density would be much smaller than o V the value expected on dimensional grounds in elementary particle physics, not because there is any physical principle that makes it small in all subuniverses, but because it is only in the subuniverses in which it is small that there would be anyone to measure it. This paper will show how to calculate the probability distribution of the values of that would o V be observed under these circumstances.
+
+An earlier paper pointed out that the (Weinberg 1987 ) anthropic limit on the value of for arises from the o V o V [ 0 requirement that should not be so large as to prevent the o V formation of galaxies. This paper suggested that this requirement implies a value of roughly comparable to o V the cosmic density of nonrelativistic matter at the time that the earliest galaxies form, because, if were much larger o V than this, then galaxies could not form and there would be no observers, while there did not seem to be any reason for to be much smaller than this. Since then, galaxies have o V continued to be found at higher and higher redshifts, and hence at higher and higher values of the cosmic mass density, and it is becoming clear that such values of are o V already ruled out. A galaxy with redshift z B 4 was formed when the cosmic mass density was more than, and perhaps considerably more than, (1 ] z)3 B 125 times the present mass density, which is much greater than the observational upper limit on o V . On the other hand, it is much more likely that the value of in our subuniverse is comparable to the average or o V median value measured by astronomers in all subuniverses, rather than the anthropic upper bound, so that its value should be compared with the cosmic mass density at the time of formation of typical galaxies, rather than of the earliest Here we will present a detailed analysis, galaxies.3 which allows a calculation of the probability distribution of from a knowledge of the spectrum of density Ñuctuations o V at recombination. The results suggest a much smaller likely value of than the anthropic upper bound, a value that o V may not be in conÑict with present observational bounds.
+
+In we describe how to calculate the probability dis-°2 tribution for the vacuum energy density that would be o V observed in various subuniverses in which there is someone to observe it. For this is simply related to the frac-o V [ 0, tion of matter that condenses into galaxies. We evaluate this fraction and the resulting probability distribution in °3 under the assumption of Gaussian random density Ñuctuations in the cosmic mass density at the time of recombination. The results depend only on the standard deviation p of these Ñuctuations at the time of recombination. In we °4 calculate p, adopting the cold dark matter (CDM) model for the power spectrum of these density Ñuctuations and assuming a Ñat universe with a nonzero cosmological constant (sometimes referred to as the Ñat "" "CDM ÏÏ model). The amplitude of the density Ñuctuations is Ðxed by the data on cosmic microwave background anisotropy from the COBE satellite DMR experiment.
+
+presents a Section 5 review of the range of values of the cosmological constant allowed by current observational and theoretical constraints. These values turn out to be somewhat smaller than the median for all astronomers, so in our results are used °6 to assess how likely it is that astronomers in random subuniverses would Ðnd to be as small as various assumed o V possible values. Our conclusions are presented. More details of our calculations and results may be found in the original preprint version of this paper (astro-ph/9701099).
+
+3 See This is essentially the same as what was called Weinberg (1996) . the "" principle of mediocrity ÏÏ by Vilenkin (1995a Vilenkin ( , 1995b Vilenkin ( , 1996a Vilenkin ( , 1996b)) . Vilenkin did not undertake a detailed calculation of the probability distribution of the cosmological constant. A calculation of this sort was done by but it contained some errors Efstathiou (1995) , (Vilenkin 1996b ; EfstathiouÏs calculation was done numerically, using Weinberg 1996) . linear perturbation theory and what is believed to be a realistic model of initial perturbations, while the calculation presented here is thoroughly nonlinear but concentrates on a single spherically symmetric density Ñuctuation, so that it is possible to understand the results analytically.
+
+## THE PROBABILITY DISTRIBUTION
+
+We assume that the fundamental principles of physics prescribe some a priori probability distribution P(o V ), which gives the probability of a net vacuum energy density between and as What we want is the o
+
+V o V ] do V P(o V )do V . probability distribution that a random obser- P obs (o V
+
+)do V ver in any subuniverse will measure values of the vacuum energy density in this range. This is given by
+
+P obs (o V ) \ A(o V )P(o V ) / ~= = A(o V @ )P(o V @ )do V @ , (1)
+
+where is the mean number of astronomers making (1983, 1984) Baum (1984) . such a peak, then this could solve the cosmological constant problem, provided, of course, that the observed value of o V is actually found to vanish. Unfortunately, arguments of et al. have cast doubt on the existence of a Fischler (1989) sharp peak at o V \ 0. More generally, the essence of the cosmological constant problem is that, even though the value has impor-o V ^0 tant implications for the evolution of galaxies and hence of life, there does not seem to be anything special in fundamental physics about this value. It should be kept in mind that is not proportional to the Einstein cosmological con-o V stant ", but is rather the sum of a term proportional to the cosmological constant plus a term arising from zero-point Ñuctuations of various Ðelds, so that to have requires o V \ 0 a precise cancellation of the energy of these zero-point Ñuctuations by EinsteinÏs ". There may be something special about the value " \ 0 which makes the probability distribution vanish or diverge there, but this would not imply anything about the distribution function near To o V \ 0. make an analogy, although the probability distribution of temperatures in the Antarctic ice must vanish at 0 K and 0¡C, since these are the limits of the range of temperatures in which water freezes, we would hardly expect this probability distribution to vanish or diverge at 0¡F.
+
+A(o V ) independent
+
+We shall therefore assume here that there is nothing special about the behavior of the a priori probability distribution near so that has neither a ) then cancels in equation ( 1 ), which becomes
+
+P(o V ) o V \ 0, P(o V ) zero
+
+P obs (o V ) \ A(o V ) / ~= = A(o V @ )do V @ . ( 2
+
+)
+
+The evolution of galaxies and astronomers depends on a
+
+A(o V ) o V should therefore be proportional to the fraction of F(o V
+
+) matter incorporated in galaxies, so that for equa-o V [ 0, tion (2) may be written as
+
+P obs (o V ) \ F(o V ) / 0 = F(o V @ )do V @ . ( 3
+
+)
+
+To calculate we note that the spectrum of initial F(o V ) density Ñuctuations at recombination can be regarded as independent of because values of for which galaxy o V , o V formation is possible are much smaller than the cosmic mass density at or before the time of recombination. Our problem is then to calculate the fraction F of matter that undergoes gravitational condensation into galaxies as a function of for Ðxed initial conditions at recombination. o V Ironically, while the tininess of observationally allowed values of creates the cosmological constant problem in o V the Ðrst place, it is the tininess of the range of anthropically allowed values of that o †ers the possibility of a realistic o V calculation of P obs (o V ). To see how this can work in practice, we will carry out an illustrative calculation of and use it to assess how F(o V ) well anthropic arguments succeed in accounting for a vacuum density in the observationally allowed range. Earlier work used a very simple model (Weinberg 1987) of galaxy formation from isolated spherically (Peebles 1967) symmetric pressureless Ñuctuations. This calculation was improved in the report of a recent conference talk by using the well-known model of & (Weinberg 1996) Gunn Gott which also assumes isolated Ñuctuations with (1972), spherical symmetry and zero pressure but includes the infall of matter from outside the initially overdense ball. Here we will also take into account the facts, with space Ðlled with Ñuctuations, that there is a limit to the mass that can accrete onto any one Ñuctuation and that there must be regions of negative as well as positive overdensity, and we shall use this model to carry out detailed numerical calculations.
+
+Consider a spherically symmetric pressureless Ñuctuation, consisting at recombination of a spherical core of volume V and positive average fractional overdensity
+
+d [i.e.,
+
+where o is the average density inside V , and d 4 (o [ o6 )/o6 , o6 is the cosmic mean density at recombination], surrounded by a spherical shell of volume U of constant fractional underdensity, taken to have the value (V /U)d, so that the average overdensity within the whole Ñuctuation is zero. Outside this shell are other Ñuctuations, about which we do not need to say anything, except for the assumption that they do not seriously interfere with the spherical symmetry of the Ñuctuation in question. For simplicity, we will take V /U to be the same for all Ñuctuations.
+
+As shown in earlier work for k \ 0, the (Weinberg 1987 ), core will undergo gravitational collapse if7
+
+d º A729o V 500o6 B1@ 3 . (4)
+
+In addition, that portion U@ of the outer shell will fall into the core, for which the average fractional overdensity within the volume V ] U@ saturates this inequality :
+
+V d [ U@(V /U)d V ] U@ \ A729o V 500o6 B1@ 3 . ( 5
+
+)
+
+The fraction of the total mass that su †ers gravi-o6 (U]V ) tational contraction will be
+
+F(d, o V ) \ (1 ] d)V ] [1 [ (V /U)d]U@ U]V . ( 6
+
+)
+
+Solving equation ( 5 ) for U@ and using the result in equation ( 6 ), we Ðnd for the fraction of mass that undergoes gravitational contraction :
+
+F(d, o V ) \ (V /U)d C 1 ] (729o V /500o6 )1@3 (729o V /500o6 )1@3 ] (V /U)d D . (7)
+
+We require that the total density be everywhere nonnegative, so that
+
+d ¹ U/V . (8)
+
+For d satisfying this inequality, equation ( 7 ) gives F ¹ 1, so that no Ñuctuation can get more than its fair share of mass.
+
+In what follows we will assume that the Ñuctuation number density N(d) is negligible for initial Ñuctuations that are not everywhere weak, so that we will be integrating only over Ñuctuations for which d > 1 and d > U/V . Also, for any anthropically allowed cosmological constant, is o V much less than the mass density at recombination, so we o6 will drop the term in the numerator (but (729o V /500o6 )1@3 not in the denominator) of the fraction in square brackets in equation (7) . The fraction of mass winding up in galaxies is then
+
+F(o V )\ P (729oV@500o x) 1@3 = ddN(d)F(d, o V ) \ P (729oV@500o x) 1@3 = dd (V /U)dN(d) (729o V /500o6 )1@3](V /U)d , (9)
+
+where N(d)dd is the fraction of all positive Ñuctuations that have average core fractional overdensity between d and d ] dd, normalized so that
+
+P 0 = N(d)dd \ 1 . ( 10
+
+)
+
+The normalization integral in equation ( 3 ) can be calculated by interchanging the order of integration over d and and expressing in terms of a dimensionless variable x,
+
+o V o V deÐned by o V \ 500x3o6 d3 729 . ( 11
+
+)
+
+7 It was originally assumed that the overdensity do (Weinberg 1987) was uniform, but these results actually hold for arbitrary spherically symmetric Ñuctuations, with d interpreted as the average fractional overdensity.
+
+Equation ( 9 ) then gives
+
+P 0 = F(o V )do V \ 500 243 o6 Sd3T(V /U)I 0 (V /U) , (12)
+
+where is the function I 0 (s)
+
+I 0 (s) 4 P 0 1 x2dx x ] s \ 1 2 [ s [ s2 ln A s 1 ] s B , ( 13
+
+)
+
+and the brackets denote an average over all positive Ñuctuations
+
+S f (d)T 4 P 0 = N(d) f (d)dd . ( 14
+
+)
+
+The normalized probability for the observed distribution (3) vacuum energy density is then
+
+P obs (o V ) \ 243 500 1 Sd3TI 0 (V /U) ] P (729oV@500o x) 1@3 = dd dN(d) (729o V /500o6 )1@3 ] (V /U)d , (15)
+
+with all quantities on the right-hand side referring to the time of recombination. In using equation ( 15 ), we will need to make some assumption about the shape parameter s 4 V /U. The value s \ 0 corresponds to the limit in which each positive Ñuctuation is isolated, surrounded by an inÐnite volume of compensating underdensity (at a total density inÐnitesimally below its mean value the case considered o6 ), by 32 MARTEL, SHAPIRO, & WEINBERG Vol. 492 As shown in earlier work for (Weinberg 1987), k \ 0, the core will undergo gravitational collapse if7 d ºA 729oV 500o6B 1@3 . (4) In addition, that portion U@ of the outer shell will fall into the core, for which the average fractional overdensity within the volume V ] U@ saturates this inequality:
+
+Values of s much greater than unity Weinberg (1996) . correspond to the limit in which the additional mass associated with the compensating underdense volume U is insig-niÐcant compared with that contained within the positive Ñuctuation in volume V , the case considered in Weinberg
+
+The value s \ 1 corresponds to the case in which (1987) . every positive Ñuctuation is surrounded by an equal volume of compensating negative Ñuctuation. This latter value is the one most relevant to a Gaussian random distribution of linear density Ñuctuations, since the volumes occupied by positive and negative density Ñuctuations of equal amplitude are exactly equal in that case. Thus we will concentrate on the value s \ 1 when we apply our analysis to the observed universe in what follows.
+
+Fortunately most of our results turn out to be almost independent of the value chosen for s. For instance, the mean value of any power of
+
+calculated from equation o V (15) is So V n T \ A500 729 Bn o6 nSd3n`3T Sd3T I n (V /U) I 0 (V /U) , ( 16
+
+)
+
+where is the function
+
+I n (s) I n (s) 4 P 0 1 x3n`2dx x ] s . ( 17
+
+)
+
+The average in equation ( 16 ) is taken over all sub-So V n T universes, in contrast with the average over Ñuctuations in SdnT, which is calculated using the weight function N(d), as in equation ( 14 ). In particular, the mean value observed for is given by o
+
+V So V T \ 500 729 Sd6To6 Sd3T I 1 (V /U) I 0 (V /U) , ( 18
+
+)
+
+I 1 (s) \ 1 5 [ s 4 ] s2 3 [ s3 2 ] s4 ] s5 ln A s 1 ] s B . (19)
+
+The ratio in equation ( 18 ) turns out to be nearly I 1 (s)/I 0 (s) constant ; it drops from a value of 0.5 when s 4 V /U ? 1, corresponding to no infall, to a value of 0.4 when s > 1, corresponding to well-separated Ñuctuations. In the case s \ 1 of greatest interest, the ratio takes the value
+
+I 1 /I 0 I 1 (1)/I 0 (1) \ 47/60 [ ln 2 [1/2 ] ln 2 \ 0.467 . ( 20
+
+)
+
+The insensitivity of our results to the value of s suggests that they also may not be much a †ected by the crudeness of our treatment of the e †ect of one Ñuctuation on another.
+
+## GAUSSIAN DENSITY FLUCTUATIONS
+
+To go further, we must make some assumption about the form of the Ñuctuation probability distribution N(d) at an early epoch, such as that of recombination. Current data on the anisotropy of the cosmic microwave background on large angular scales and on the large-scale clustering properties of galaxies, as well as theoretical predictions of the origin of density Ñuctuations by quantum processes in the early universe in inÑationary cosmology models, are consistent with the assumption that the primordial Ñuctuations were isotropic Gaussian random noise of very small amplitude. In this case the Ñuctuation distribution has the form
+
+N(d) \ 1 p A2 n B1@ 2 exp A [ d2 2p2 B . ( 21
+
+)
+
+The mean values of powers of d are given in terms of the variance p2 by
+
+SdNT \ 2N@2pN n1@2 ! AN]1 2 B . ( 22
+
+)
+
+Equation ( 16 ) then gives
+
+So V n T \ ! A3n]4 2 BC1000(21@ 2p3o6 ) 729 Dn I n (s) I 0 (s) , (23)
+
+and, in particular, the mean vacuum energy density is
+
+So V T \ C625(2n)1@ 2p3o6 243 D I 1 (s) I 0 (s) , ( 24
+
+)
+
+where, as before, s 4 V /U. This gives the numerical values
+
+So V T \ p3o6 ] 7 2.579 s \ 0 , 3.010 s \ 1 , 3.224 s \ O . ( 25
+
+)
+
+Also, using the Gaussian in equation ( 15 ) distribution ( 21 ) and writing
+
+d \ A729o V 500o6 B1@ 3Ax b B1@ 2 , ( 26
+
+)
+
+we Ðnd the di †erential probability distribution
+
+P obs (o V )do V \ b1@2db 2I 0 (s) P b = e~xdx sx1@2 ] b1@2 , ( 27
+
+) where b 4 1 2p2 A729o V 500o6 B2@ 3 . ( 28
+
+)
+
+The probability of a vacuum energy density less than is o V then
+
+P(¹o V ) \ 1 [ (1 ] b)e~b ] 1 2I 0 (s) P b = e~x ] G [2s(bx)1@2 ] b ] 2s2x ln C1 s Ab x B1@ 2 ] 1 DH dx . ( 29
+
+)
+
+By combining equations ( 24 ) and ( 28 ), we see that the parameter b in equations ( 27 ) and ( 29 ) may be expressed in terms of s 4 V /U and the ratio of the vacuum
+
+o V /So V T energy density to its mean value b \ n1@3 4 C 15 o V So V T I 1 (s) I 0 (s) D2@ 3 . ( 30
+
+)
+
+Thus, the probability of observing a vacuum energy density in a certain range depends only on the values of o V /So V T and s. The analysis of initial Ñuctuations will enter here only as a means of calculating the parameter and hence o6 p3, shows the logarithmic di †erential probabil- The analysis of initial Ñuctuations will enter here only as a means of calculating the parameter that enters in o6 p3 equation (28) and the quoted numerical results. It is impor-
+
+So V T. Figure 1 ity distribution plotted against o V dP(¹o V )/do V o V /So V T
+
+FIG. 1.ÈLogarithmic di †erential probability vs. o V dP(¹o V )/do V o V /So V T.
+
+tant to note that during the era of recombination, when o V is negligible and Ñuctuations are small, p grows as t2@3 and o6 falls as t~2, so the combination is time independent. p3o6 Therefore equation (30) shows that our results and ( 23 )È( 27 ) do not depend on what we take as the precise moment (29) of recombination at which p and are evaluated. o6
+
+4. EVALUATION OF p 4.1. Filtered Density Fluctuation Spectrum Now we must consider how to calculate p. From equation ( 22 ) we have p2 \ Sd2T. But the variance p2 that is appropriate for our purpose here is that which reÑects the range of wavenumbers that might possibly contribute to the formation of gravitational condensations that are large enough to lead to "" astronomer formation. ÏÏ Only wavenumbers corresponding to density Ñuctuations encompassing such sufficiently large masses should be allowed to contribute. This implies that the appropriate p for our purpose here is one calculated by Ðltering the underlying density Ðeld to eliminate the contribution from small wavelengths. This is accomplished by smoothing the density Ðeld before calculating the variance p2 according to
+
+p2 \ Sd 8 2(r)T , (31)
+
+d 8 (r) 4 P d(x)W (x [ r)d3x . ( 32
+
+)
+
+Here W is a smoothing "" window function,ÏÏ and x and r are comoving coordinates, which, following convention, we shall normalize to give the proper distance at present. This yields the following familiar expression for the variance p2 :
+
+p2 \ 1 2n2 P 0 = P(k)WOE 2(kR)k2 dk , ( 33
+
+)
+
+where P(k) is the power spectrum (assuming statistical translation and rotation invariance),
+
+P( o k o ) 4 P d3xSd(x ] r)d(r)Teik Õ x , (34)
+
+and is the Fourier transform of the window function WOE (kR)
+
+WOE (kR) 4 P d3xe~ik Õ xW (x) , (35)
+
+with R being a length parameter to be speciÐed below, introduced to make the argument of dimensionless. (The WOE bracket in eq. [34] implies an average over space ; the assumptions of isotropy and homogeneity ensure that P depends only on k \ o k o .) The window functions in which we are interested here are those that Ðlter out modes of wavelength smaller than some characteristic value R. There are two conventional choices for the window function, the Gaussian window function,
+
+WOE G (u) \ e~u 2 @2 , ( 36
+
+)
+
+and the top-hat window function,
+
+WOE TH (u) \ 3 u3 (sin u [ u cos u) , (37)
+
+The radii for which both window functions (Peebles 1980). enclose the same mass are related by
+
+R G R TH \ (4n/3)1@3 (2n)1@2 \ 0.6431 . ( 38
+
+)
+
+We will express our results throughout in terms of various assumed values of R G . The particular value of appropriate for use in calcu-R G lating the mass fraction that collapses out of the background is uncertain. Our understanding of the detailed conditions necessary for the formation of planets and intelligent life has not yet advanced to the point of determining what the minimum mass condensation is which is capable of forming astronomers. Roughly speaking, we should Ðlter out condensations that are too small to retain metals produced in the Ðrst generation of stars. The minimum mass condensation that is capable of this is currently unknown, however. It is not yet established, for example, whether globular clusters of mass 105È106 are capable of self-M _ enrichment, whereby a Ðrst generation of stars generates and releases heavy elements without expelling them from the cluster, so that they can subsequently be incorporated in a second generation of stars. Dwarf galaxies of even greater mass, in fact, are often postulated to undergo an initial burst of massive star formation that leads to supernovadriven expulsion of their interstellar gas (containing heavy elements). Even the typical galaxy in a rich cluster of galaxies is widely believed to have released most of its heavy elements into the intracluster medium, in order to account for the nearly solar metallicity of that gas, which dominates the baryonic mass of the cluster. In short, we do not currently know what the minimum mass scale (or associated wavelength of density Ñuctuations) is that satisÐes the necessary condition that the metals produced by the Ðrst generation of stars be retained. Nor do we know if this is a sufficient condition for the formation of astronomers.
+
+In fact, all we can say with certainty is that our own Milky Way galaxy met the necessary and sufficient conditions for forming planets, life, and astronomers. The Milky Way has a luminosity that makes it roughly an L * galaxy, the characteristic luminosity in the bright end of the galaxy luminosity function. If the minimum mass scale that can M f be responsible for astronomer formation corresponds to that of an L * galaxy, then the data on the galaxy luminosity function and the mass-to-light ratio of the bright inner parts of Ðeld spiral galaxies yields an estimate of the baryonic mass of the bright inner part of an
+
+f \ (2n)3@2o B0 R G 3 , M f leads to an estimate of Mpc in R G + h~1@3() B0
+
+h2/0.015)~1@3 present units, assuming a cosmic mean baryon density that is consistent with the current big bang nucleosynthesis abundance constraints. (Here is the present baryon ) B0 mass density in units of the present critical density o crit,0 4 If, on the other hand, we take to be the mass 3H 0 2/8nG.) M f of all the baryons initially within a comoving sphere whose volume equals that which, on average, typically contains just one L * galaxy today, this gives h~1 Mpc. In R G + 2 view of the fact that the Milky Way is actually not an isolated galaxy, but is, instead, a member of the Local Group of galaxies, which includes more than one L * galaxy, we might even wish consider the possibility that galaxy group membership is somehow essential to the formation of In that case, a value as large as h~1 astronomers.8 R G D 3 Mpc would even be reasonable.
+
+For the case in which corresponds to the bright inner M f part of an L * galaxy, we shall take Mpc in present R G \ 1 units (where, for simplicity, we shall drop the weak dependence of on h for a Ðxed value of h2). We will also R G ) B bracket the range of possible outcomes by considering values of that are smaller and larger than this, respec-R G tively. On the low side, we take Mpc, which is R G \ 0.01 relevant, for instance, if corresponds to the mass of a M f globular cluster. On the high side, we take or 3 Mpc R G \ 2 to illustrate the possibilities that corresponds either to M f the total mass within the mean volume per L * galaxy or else the mass of a small group of galaxies, respectively.
+
+### T he Cold Dark Matter Model
+
+In order to evaluate p for a given value of we must R G , adopt a model for the density Ñuctuation power spectrum at recombination. The cosmic microwave background anisotropy measured at large angles by the COBE satellite is consistent with Gaussian random noise density Ñuctuations with a scale-invariant primordial power spectrum P(k) P kn, where n \ 1, the case referred to as the HarrisonÈZeldovich spectrum. The range currently allowed by a statistical analysis of the Ðrst 4 yr of data from the COBE DMR experiment is, in fact, n \ 1.2 ^0.3 et al. In (Bennett 1996) . what follows, we shall generally assume n \ 1, which is the standard prediction of inÑationary cosmology. Later, we can consider the e †ect of a "" tilt ÏÏ in the primordial spectrum away from the shape for n \ 1. (Values of n \ 1 can result, for example, if the primordial Ñuctuations include a gravitational wave contribution.)
+
+In general, the power spectrum at recombination di †ers from the primordial shape kn, except in the long wavelength limit measured directly by COBE. The di †erence reÑects the linear growth of the density Ñuctuations prior to the recombination epoch, which is di †erent for di †erent wavelengths. The best-studied and most successful model for the growth of density Ñuctuations to date is the CDM model. This model treats the CDM density Ñuctuations as adiabatic Ñuctuations in a cold, pressure-free gas. Since we are interested in the growth of density Ñuctuations in the baryonelectron Ñuid, which must be present to form stars, planets, and people, we make the assumption that this component collapses out in lock-step with the dark matter component, at least for density Ñuctuations that are of large enough wavelength to behave in a pressure-free manner. As long as we restrict our attention to the epoch of recombination and later epochs, and to wavelengths larger than the baryon Jeans length in the intergalactic medium, that is, the CDM and baryon power spectra should be identical. (For a detailed discussion of the e †ects of Jeans-mass Ðltering on the linear growth of baryon density Ñuctuations in a Ñat, matter-dominated CDM model in which the Jeans mass is increased by the reheating of the intergalactic medium that accompanies its reionization, see Giroux, & Babul Shapiro, 1994.) 8 For example, group membership might enable a galaxy that undergoes an early burst of star formation to expel its heavy elements into the surrounding intragroup environment. The latter might then act as a reservoir from which the galaxy could later accrete some of its lost metals, after the expelled gas has cooled o †.
+
+For the CDM power spectrum, we use the expression given by et al. and references therein : Liddle ( 1996 )
+
+P(k, z) \ 2n2 A c H 0 B3`n (d H )2knT 2(q)A~2(z, 0) , ( 39
+
+)
+
+A(z, 0) \ d `(0) d `(z) , (
+
+T (q) \ ln (1 ] 2.34q) 2.34q
+
+] [1 ] 3.89q ] (16.1q)2 ] (5.46q)3 ] (6.71q)4]~1@4 , ( 41 )
+
+q \ k h! Mpc~1 , ( 42
+
+) ! \ ) 0 he~)B0~)B0@)0 , ( 43
+
+)
+
+and is the dimensionless amplitude at horizon crossing, d H which must be taken from observations of anisotropies in the microwave radiation background. Here, is the total ) 0 matter density parameter, is the pure
+
+) 0 \ o 0 /o crit,0
+
+; d growing mode solution for the evolution of linear density Ñuctuations in this Ñat universe with nonzero cosmological constant, and A(z, 0)
+
+is the linear growth \ d `(0)/d `(z) factor between redshift z and the present. For n \ 1, these formulae describe the case of the HarrisonÈZeldovich scaleinvariant power-law primordial spectrum, modiÐed by the growth of Ñuctuations in a CDM model universe, for a Ñat universe with a nonzero cosmological constant j 0 \ The Ðtting formula for T (q) is from 1 (1995) Liddle (1996) . numerical coefficients in this formula depend on the present microwave radiation energy density and on the quantities 100 km s~1 and 1 Mpc used in deÐning the dimensionless quantities q and h, but not on or The formula for ! o 0 H 0 .) given in equation ( 43 ) includes an exponential correction factor for the e †ect of nonzero baryon density. Since the variable ! is often used in the literature to refer, instead, just to the product h (i.e., without the exponential correction ) 0 factor), the so-called shape parameter for CDM models, we will also deÐne to use whenever we wish to refer ! 0 4 ) 0 h, only to this product. In the following calculations, we use h~2, consistent with big bang nucleosynthesis ) B0 \ 0.015 constraints from the abundance of light elements (e.g., Copi, Schramm, & Turner 1995) .
+
+[ ) 0 \ o V /o crit
+
+It is important to note that the explicit dependences of equations ( 39 )È( 43 ) on the values of and h does not mean ) 0 that the power spectrum at recombination is di †erent for di †erent subuniverses with di †erent values of the cosmological constant. All factors that depend upon and h ) 0 reÑect the fact that a knowledge of the local values of ) 0 and h in our own subuniverse is required in order to interpret present-day observations in our own subuniverse (such as those of cosmic microwave background anisotropy) unambiguously to determine the power spectrum at recombination assumed common to all subuniverses. We must, therefore, distinguish clearly between the vacuum energy density in our own subuniverse, on which our inference of the universal power spectrum depends, and the vacuum energy densities in di †erent subuniverses, on which the probabilities of galaxy formation in any subuniverse depend. To avoid any possible confusion on this point, we will, henceforth, indicate the value of the vacuum energy density in our subuniverse as 8 For example, group membership might enable a galaxy that under goes an early burst of star formation to expel its heavy elements into the surrounding intragroup environment. The latter might then act as a reservoir from which the galaxy could later accrete some of its lost metals, after the expelled gas has cooled o†.
+
+We will not, however, o V *. place an asterisk on or
+
+h 4 o 0 , j 0 4 o V */(o V * ] o 0 ), H 0 , km s~1
+
+Mpc~1), because the subscript zero already H 0 /(100 indicates that these quantities are evaluated at the present moment in our subuniverse. Also, an asterisk is not necessary for the quantities P(k), or p, since these are o6 , o6 B , assumed not to vary from one subuniverse to another.
+
+In order to evaluate equation ( 39 ) for the CDM power spectrum for any particular value of the vacuum energy density, we must evaluate the growth factor A(z, 0; in j 0 ) equation ( 40 ) as a function of z and It is j 0
+
+4 o V /o crit, 0 . convenient to express this in terms of a function z), f (j 0 , deÐned as the ratio of the growth factor (1 ] z) in an EinsteinÈde Sitter universe to A(z, 0; j 0 ) :
+
+f (j 0 , z) 4 1 ] z A(z, 0) \ (1 ] z) d `(z) d `(0) , (44)
+
+where is the amplitude of the linear growing mode, d ẁhich is given for general by j 0 D 0 d `(z ; j 0
+
+) \ A1 y ] 1 B1@ 2 P 0 y dw w1@6(1 ] w)3@2 (45) with (Martel 1991), y 4 o V o6 (z) \ j 0 ) 0 (1 ] z)~3 (46)
+
+and Using equations ( 44 )È( 46 ), we obtain, ) 0 4 1 [ j 0 . after some algebra,
+
+f (j 0 , z) \ ) 0 1@2(1 ] z)5@2 C 1 ] j 0 ) 0 (1 ] z)3 D1@ 2 ] CP 0 j0@)0 dw w1@6(1 ] w)3@2 D~1 ] P 0 j0@*)0(1`z) 3 + dw w1@6(1 ] w)3@2 . ( 47
+
+)
+
+For 1 ] z ? 1, this gives the z-independent result,
+
+f (j 0 , z) ^f (j 0 ) \ 6j 0 5@6 5) 0 1@3 CP 0 j0@)0 dw w1@6(1 ] w)3@2 D~1 . ( 48
+
+)
+
+The corrections are of order (1 ] z)~3, which for the case that interests us, where z B 1000, is entirely negligible. We have evaluated the integral in equation ( 48 ) numerically and Ðnd that it di †ers substantially from unity only for relatively large values of j 0 . According to & White the Ðrst 4 yr of data Bunn (1996), on the cosmic microwave background temperature anisotropy detected by the COBE DMR experiment may be Ðtted with a dimensionless amplitude at horizon crossing given by the formula
+
+d H \ 1.94 ] 10~5() 0 )~0.785~0.05 ln )0 ] exp [a(n [ 1) ] b(n [ 1)2] . (49)
+
+There are two sets of values of the constants a and b, which correspond to the cases of without any gravitational n D 1 wave contribution (a \ [0.95, b \ [0.169) and of power-law inÑation with gravitational waves (a \ 1, b \ 1.97), respectively.
+
+Equations ( 39 )È( 44 ), along with equations ( 48 ) and ( 49 ), can now be evaluated to compute the power spectrum at recombination for any Ñat model for any values of (or, j 0 equivalently, and h. ) 0 ) , H km s~1 Mpc~1), because the subscript zero already 0
+
+## Results for p and p3o6
+
+The variance p2 at recombination is given by equations ( 33 ) and ( 39 )È(44) as
+
+p(z rec ) \ (c 100 )(n`3)@2[!(n`3)@2d H A(z rec , 0)~1K n 1@2(q max )] * \ (c 100
+
+)(n`3)@2(1 ] z rec )~1 ] [!(n`3)@2d H f (j 0 )K n 1@2(q max )] * , ( 50
+
+)
+
+where the asterisk labeling the brackets (and in what follows) indicates that all quantities inside the brackets are evaluated using the values and h in our own subuniverse ; j 0 is the speed of light in units of 100 km s~1 ; c 100 \ 2997.9 the second equality refers to the result to leading order in and (1 ] z rec )~3 ;
+
+) 4 P 0 = qn`2T 2(q)WOE G 2 A 2n q q max B dq . ( 51
+
+)
+
+The integral in equation ( 51 ) has been evaluated numerically for n \ 1, 0.9, and 0.8. (Note that for we heren D 1, after adopt constants a and b for the case of with no n D 1 gravitational waves. The case with gravitational waves yields a slightly smaller value of p for the same value of n.)
+
+As already mentioned, results for the probability distribution of actually depend not on p or on but on the o V o6 , parameter ) equation (40) as a function of z and It is j04oV/ocrit, 0 . convenient to express this in terms of a function f (j z), 0
+
+The total matter density at recombina-p3o6 . o6 tion is related to the present matter density by o 0 o6 \ so, as promised, is independent of the o 0
+
+(1 ] z rec )3, p3o6 precise value chosen for z rec :
+
+p3o6 \ o 0 (c 100 )(3n`9)@2[!(n`3)@2d H f (j 0 )K n 1@2(q max )] * 3 . (52)
+
+It is customary to report the normalizations of the power spectra for di †erent models in terms of the value of p evaluated at the present for a particular Ðlter scale, assuming that Ñuctuations continue to grow at the linear growth rate. For our purpose here, however, we must evaluate p at recombination, thereby undoing the e †ects of the growth of Ñuctuations since that epoch that inÑuence the value of p at the present. Our goal, as mentioned earlier, is to use the observations of the cosmic microwave background anisotropy made by astronomers in our own subuniverse to infer the universal density Ñuctuation distribution common to all subuniverses at Unfortunately, our ability to infer this z rec . universal density Ñuctuation distribution is limited by the fact that we must know the values of and h in our own j 0 subuniverse in order to interpret the cosmic microwave background anisotropy measurements unambiguously. We illustrate the dependence of the inferred density Ñuctuations on the assumed values of and h in where we j 0 , deÐned as the ratio of the growth factor (1 ] z) in an EinsteinÈde Sitter universe to A(z,0; j0 ):
+
+Figure 2 , have plotted the value of p at recombination (taken as as a function of for 1, 2, and 3 z rec \ 1000) j 0 R G \ 0.01, Mpc, for n \ 1, 0.9, and 0.8. The e †ect of a "" tilt ÏÏ to n \ 1 is to decrease p, relative to its value for n \ 1, for the same value of or equivalently, of Ostriker & Steinhardt (1995) to this conclusion, plotted here in as a series of upper and lower Figure 3 bounds in the h)-plane. The constraint curves plotted in (j 0 , are based on Ostriker & Steinhardt (1995) and Figure 3 references therein, with the following additions.
+
+q max , R G . With
+
+The data on the large-scale clustering of galaxies from galaxy surveys constrain the Ñat CDM model by requiring that the spatial and angular correlation statistics of the observed galaxies in our local universe at the present epoch agree with the predictions of structure formation by gravitational instability in the CDM model. This leads to upper and lower bounds on the so-called shape parameter ! 0 \ given by (assuming n \ 1 ; see curves ) 0 h, ! 0 \ 0.25 ^0.05 labeled and "" LSS ÏÏ in A similar constraint "" ! 0 ÏÏ Fig. 3 ). results from the requirement that the CDM model reproduce the observed space density and luminosity function of X-ray clusters in the present universe. We plot this constraint separately from that of the shape parameter that ! 0 Ostriker & Steinhardt (1995)
+
+)] ~24Õ()0) † `32Õ()0) † , ( 53
+
+)
+
+/() 0 ) 4 ) 0 0.26 log10 )0 . ( 54
+
+)
+
+This amounts to a constraint on and h that is similar to j 0 that from the correlation statistics. (The above-mentioned bounds from the statistics of large-scale structure ["" LSS ÏÏ] in the galaxy distribution also refer to the part of the CDM power spectrum at wavelengths h~1 Mpc.) j Z 8
+
+4 o V */(o V * ] o 0 ) h 4 H 0 /(100 "" ! 0 \ 0.2 ÏÏ "" ! 0 \ 0.
+
+3 ÏÏ the region allowed by the constraint derived by matching the spatial and angular correlation statistics from galaxy surveys with the ! 0 \ ) 0 h \ 0.25 ^0.05, theoretical predictions of the large-scale clustering of galaxies in a COBE-normalized Ñat CDM model with primordial power spectrum index n \ 1. The curves labeled X-ray clusters ÏÏ bound the values of and h that make this CDM model satisfy the constraint on the present space density of X-ray "" p 8 j 0 clusters. The curve labeled Gyr ÏÏ indicates the lower limit that makes the age of the universe at least as large as current estimates of the minimum age "" t 0 \ 12 of globular clusters. The curves labeled indicate the boundaries deÐned by the X-rayÈmeasured total and baryonic masses of clusters of galaxies, "" ) 0 h1@2 ÏÏ together with the big bang nucleosynthesis limits on the baryon mean density and the assumption that the ratio of baryon to total mass inside each cluster equals the ratio of universal mean values. The curve labeled "" gravitational lenses ÏÏ indicates the upper limit imposed by counts of quasars lensed by intervening galaxies. The dashed curves labeled are the values for which our own subuniverse has the median value of for all subuniverses, if "" (o V ) 1@2 ÏÏ o V Mpc and n \ 1 (top dashed curves), 0.9 (middle dashed curve), or 0.8 (bottom dashed curve). R G \ 1 1.5o0 È2.3o0
+
+Estimates of the total masses and baryonic mass fractions of individual clusters of galaxies, derived by Ðtting the X-ray surface brightness proÐles of each cluster and assuming the cluster intergalactic medium is an isothermal sphere in hydrostatic equilibrium with a virialized cluster gravitational potential, yield another pair of bounds. If the assumption is further made that the ratio of baryonic mass to total mass of each cluster is equal to the universal mean ratio, then a comparison of this X-rayÈestimated ) B0 corresponding to from 0.6 to 0.7. We see from j0
+
+/) 0 , ratio with the constraints on from standard big bang ) B0 nucleosynthesis and the observed light-element abundances (i.e., Schramm, & Turner 0.01 [ ) B0 h2 [ 0.02 ; Copi, 1995) implies a constraint on the total density parameter given by The curves labeled and 0.09 [ ) 0 h1@2 [ 0.33. "" ) 0 h1@2 ÏÏ "" X-ray cluster masses ] big bang nucleosynthesis ÏÏ in indicate the bounds on and h that result from Figure 3 j 0 this argument. Some recent numerical gasdynamical simulations of cluster formation in the Ñat, matter-dominated CDM model suggest that the upper bound on that ) 0 h1@2 results from the high values estimated for cluster baryonic mass fraction by the equilibrium model described above may be too low (e.g., & Steinmetz Bartelmann 1997 ; Martel, Shapiro, & Valinia The simulated clus-1998 ; Valinia 1996). ters, when properly resolved, are often found to be comprised of subclusters in the act of merging, and, together with projection e †ects, this can cause an observer who uses the assumption of isothermal spheres in hydrostatic equilibrium to underestimate the total mass and overestimate the baryon fraction.
+
+The estimated minimum age of globular clusters derived by comparison of theoretical models of stellar evolution with observed globular cluster H-R diagrams is about 12 ] 109 yr. This leads to a lower limit to for each h, j 0 based on the requirement that the age of our universe exceeds this estimate of the minimum age of globular cluster stars (see curve in labeled Gyr ÏÏ). Fig. 3 "" t 0 \ 12 An upper bound to results from the comparison of the j 0 statistics of quasars observed to be gravitationally lensed by intervening galaxies with the predictions of Ñat cosmological models with a nonzero cosmological constant. A Ñat cosmology with cosmological constant tends to produce more gravitationally lensed quasars than does such a cosmology with zero cosmological constant. The resulting limit was quoted by Ostriker & Steinhardt as More j 0 \ 0.75. recently, has argued for a somewhat Kochanek (1996) tighter limit. However, limited observational data and the possibility that evolution e †ects on the population of lensing galaxies have not been properly taken into account suggest that this limit is still uncertain. We plot the upper bound quoted by & Steinhardt in Ostriker (1995) Figure 3 , but caution that this limit is still in Ñux and that the future change can be up or down. Finally, an independent constraint was recently derived by et al. using observations of Type Ia Perlmutter (1997), supernovae, to infer the relationship between redshift and distance. Their result is consistent with the limit j 0 \ 0.5. However, this interesting approach is too preliminary to be considered reliable at this time. We have not included it in Figure 3 .
+
+shows that, for the observationally favored value Figure 3 of km s~1 Mpc~1, the above interpretation of H 0 \ 70 observational data suggests a value of in the range 0.6È j 0 0. V o V * in our subuniverse would be in the range of about 2%È5%. Thus, for this choice of parameters, is well below the o V * median, but not so low as to make an anthropic explanation implausible.
+
+The probabilities go up for a larger Ðlter scale. This implies a smaller variance p2 in the Ñuctuating density Ðeld at recombination, which means that objects of mass corresponding to this Ðlter scale will collapse out later, when the mean matter density is smaller. In that case galaxy formation can be suppressed by smaller vacuum energy densities, so that the average observed value of the vacuum energy density will be smaller.
+
+shows that, for Mpc, Second, suppose that observations deÐnitely establish a nonzero value of but one that is substantially less than j 0 , 0.6. Unless there is something seriously wrong with our detailed calculations, we would have to conclude that the observed value of is much less than would have been o V expected anthropically. On the other hand, the values of o V suggested by anthropic considerations would still be far closer to any value that is large enough to be detected astronomically than those suggested by any other available arguments.
+
+Finally, suppose that observations fail to reveal any nonzero value of and set an upper limit of (It is o V * 0.1o 0 . hard to see how observations could yield a much more stringent upper limit in the foreseeable future.) In this case the probability that a random astronomer would Ðnd this small a value for would be less (and in most cases much o V less) than 1% for any plausible values of n, and in R G , H 0 : this case anthropic arguments would be pretty well ruled out as an explanation of the smallness of the vacuum energy density. It would then be reasonable to guess that, for some mysterious reason, actually vanishes. o V Unfortunately, although observation of a value of that o V * is anthropically likely would support the idea that there is a diversity of possible values, astronomical observation o V alone cannot conÐrm this idea, since we only observe one subuniverse. Ultimately this issue will have to be settled by advances in fundamental physics, which we hope will tell us whether, in fact, it is correct that there are many subuniverses with di †erent values of the cosmological constant. If this is not correct, then there is no justiÐcation for the anthropic reasoning used here, while, if it is correct, an anthropic analysis along the lines of the present paper will be unavoidable.
+
+FIG. 3.ÈObservational constraints onand km s~1 Mpc~1). (Curves labeled "" LSS ÏÏ and or bound j0 4 o V */(o V * ] o 0 ) h 4 H 0 /(100 "" ! 0 \ 0.2 ÏÏ "" ! 0 \ 0.3 ÏÏ the region allowed by the constraint derived by matching the spatial and angular correlation statistics from galaxy surveys with the ! 0 \ ) 0 h \ 0.25 ^0.05, theoretical predictions of the large-scale clustering of galaxies in a COBE-normalized Ñat CDM model with primordial power spectrum index n \ 1. The curves labeled X-ray clusters ÏÏ bound the values of and h that make this CDM model satisfy the constraint on the present space density of X-ray "" p 8 j 0 clusters. The curve labeled Gyr ÏÏ indicates the lower limit that makes the age of the universe at least as large as current estimates of the minimum age "" t 0 \ 12 of globular clusters. The curves labeled indicate the boundaries deÐned by the X-rayÈmeasured total and baryonic masses of clusters of galaxies, "" ) 0 h1@2 ÏÏ together with the big bang nucleosynthesis limits on the baryon mean density and the assumption that the ratio of baryon to total mass inside each cluster equals the ratio of universal mean values. The curve labeled "" gravitational lenses ÏÏ indicates the upper limit imposed by counts of quasars lensed by intervening galaxies. The dashed curves labeled are the values for which our own subuniverse has the median value of for all subuniverses, if "" (o V ) 1@2 ÏÏ o V Mpc and n \ 1 (top dashed curves), 0.9 (middle dashed curve), or 0.8 (bottom dashed curve). R G \ 1
+
+By is meant the sum of a term "/8nG, where " is the cosmological o V constant appearing in the Einstein Ðeld equations, plus the contribution to the vacuum energy density from quantum Ñuctuations. The conventional quantity is the vacuum energy density in units of the critical density at j 0 j 0 \ o V 2 For reviews and earlier references, see present, where /o crit,0 , o crit,0 2/8nG. \ 3H 0 Ostriker | & Steinhardt | (1995) ; Krauss | & Turner | (1995). | This conclusion has recently been challenged by preliminary results of measurements by | Perlmutter | et al. | (1997) | of redshifts and distances for distant Type Ia supernovae.
+
+for various values of s. For s \ 1 the values of and 0.95 are 0.0590p3o6 , 1.49p3o6 (\0.49So for which o V P(¹o V ) and is 0.05, 0.5, T), 11.1p3o6 , V respectively. We see that the distribution of values is o V quite broad ; it would not be very unlikely for a subuniverse to have a value of larger than the average. o V | that is 50 times smaller or 4 times On the other hand, it would be extremely unlikely to observe a value of than a few orders of magnitude. Not only are large values of that di †ers from the mean by more o V unlikely, as we might previously have guessed, based upon the fact that large o V suppresses galaxy formation, but o V values of that are extremely close to zero are also o V unlikely ; there are simply too many other subuniverses to observe that have larger values of enough to prevent galaxy formation. | o V | that are not large
+
+all of the ingredients necessary to evaluate the prob-Mpc, respectively, as labeled, for h \ 0.5, for n \ 1 (top panel), 0.9 (middle panel), and 0.8 (bottom panel). (b) As in (a), but for h \ 1. FIG. 2a | FIG. 2b FIG. 2.È(a) The rms density Ñuctuation at recombination (i.e., at 2, and 3 evaluate the probability of observing any particular value of z rec \ 1000), p \ p rec | , | in the COBE-normalized Ñat CDM model vs. | j 0 | , | for | R G | \ 0.01, | 1, anywhere in the universe, as well as the average or median values observed, as functions of the values we adopt o V for be useful Ðrst to consider what values of (or and h in our own subuniverse. It will o V * j 0 \ 1 [ ) ) 0 and h are sug-o * V gested by observation. 5. OBSERVATIONAL BOUNDS Ostriker | & Steinhardt | (1995) | and | Krauss | & Turner | (1995) have argued that the apparent discrepancies that had pre- viously been identiÐed between observations and the pre- dictions of the standard CDM model (i.e., CDM in a Ñat universe with zero cosmological constant and the scale- invariant Harrison-Zeldovich primordial power spectrum) can be reconciled if the standard CDM model is modiÐed to admit a nonzero cosmological constant, in a range given by & Ostriker Steinhardt reproduced the observational and theoretical constraints as roughly We have \ 0.65 ^0.1. j 0 that led ability distribution | P obs (o V ) | thus assembled, we can now
+
+results, let us consider three di †erent possibilities for what observations may eventually reveal about the value of o V . 7, corresponding to a vacuum energy density range The range of allowed values shrinks for in the o * V 1.5o 0 È2.3o . 0 smaller and larger values of the Hubble constant, with larger values of favored for larger values of j 0 | H 0 | . 6. RESULTS We might try to use our results to guess the actual value of deÐned as one in which by assuming that we live in a typical subuniverse, o * V is equal to the median observed o * V values of for all astronomers in all subuniverses. The o V dashed curves in show the results obtained in this Figure 3 way for three di †erent values of the slope parameter n and for a Ðlter scale Ðgure, these "" predicted ÏÏ values of Mpc. As can be seen from this R \ 1 G are typically several o V times larger than those suggested by observation. But such "" predictions ÏÏ have low conÐdence anyway. As remarked in the probability distribution of so it is not unlikely that °3, in our subuniverse could be values is quite broad, o V o * V signiÐcantly di †erent from the anthropic mean or median. Since the cosmological constant in our subuniverse seems to be somewhat smaller than might have been expected on anthropic grounds, perhaps the best use we can make of our calculations is, for various assumed values of parameters in our subuniverse, to use the results of and other o * V to °4 calculate p and then to use this result and the results of | °3 to calculate how likely or unlikely it is that a random astronomer in any subuniverse would Ðnd a value of the vacuum energy density as small as or smaller than the assumed value o *. V Our results for are shown in | H 0 | km s~1 Mpc~1 and n \ s \ 1 To assess the implications of these \ 70
+
+THAT A RANDOM ASTRONOMER WOULD OBSERVE A VACUUM ENERGY DENSITY AS SMALL AS THE VALUE \ 1, the probability that a random observer would Ðnd a value for as small as the value o SUBUNIVERSEa | FOR VARIOUS VALUES OF | o V * | * o V | IN OUR R G | \ 1 Mpc | R G | \ 2 Mpc j 0 | o V */o 0 | p | P(¹o V *) | p | P(¹o V *) 0.1 . . . . . . | 0.11 | 0.0067 | 0.0005 | 0.0042 | 0.0019 0.2 . . . . . . | 0.25 | 0.0063 | 0.0013 | 0.0040 | 0.0045 0.3 . . . . . . | 0.43 | 0.0059 | 0.0025 | 0.0038 | 0.0084 0.4 . . . . . . | 0.67 | 0.0054 | 0.0049 | 0.0036 | 0.015 0.5 . . . . . . | 1.00 | 0.0048 | 0.0097 | 0.0032 | 0.027 0.6 . . . . . . | 1.50 | 0.0041 | 0.021 | 0.0029 | 0.054 0.7 . . . . . . | 2.33 | 0.0033 | 0.054 | 0.0024 | 0.12 0.8 . . . . . . | 4.00 | 0.0023 | 0.19 | 0.0017 | 0.35 0.9 . . . . . . | 9.00 | 0.0011 | 0.90 | 0.0008 | 0.98 H 0 | \ 70
+
+\ 2 the probability that a random observer would Ðnd a value R G for would vary from about 5% to 12% for that is as small as the value o V o * V o * in our subuniverse in the same range V of to 1.5o 0 . 2.3o 0 The probabilities of Ðnding small values of also o * V increase with a decrease in or in the spectral index n, H 0 either of which would decrease the estimated value of p. For instance, for the probability that a random astronomer would Mpc and (corresponding to R G \ 1 o V * \ 1.5o 0 j \ 0.6), 0 Ðnd a value for as small as is 8% if n \ 1 and o V o V * \ 50 H 0 km s~1 Mpc~1 and 9% if n \ 0.8 and km s~1 \ 70 H 0 Mpc~1, as compared to 2% for the previously considered case, in which n \ 1 and We conclude that, given all uncertainties in our model km s~1 Mpc~1. \ 70 H 0 and input parameters, anthropic considerations do fairly well as an explanation of a cosmological constant with in j 0 the range 0.6È0.7. Compared to all other arguments known to us, which either leave zero or vastly larger than doing spectacularly well. | o V o 0 | arbitrary or give a anthropic considerations are that is o V ,
+
+## GAUSSIAN DENSITY FLUCTUATIONS
+### References
+
+J M Bond J R Kaiser N Szalay A S Bardeen 304 15 1986 ApJ J. M., Bond, J. R., Kaiser, N., & Szalay, A. S. 1986, ApJ, 304, Bardeen, 15
+
+J D Tipler F J The Anthropic Cosmological Principle Barrow New York Oxford University Press 1986 J. D., & Tipler, F. J. 1986, The Anthropic Cosmological Principle Barrow, (New York : Oxford University Press)
+
+M Steinmetz M Bartelmann 283 431 1997 MNRAS M., & Steinmetz, M. 1997, MNRAS, 283, Bartelmann, 431
+
+E Phys. Lett. B 133 185 1984 Baum E. 1984, Phys. Lett. B, 133, Baum, 185.
+
+C L ApJ 464 1996 C. L., et al. 1996, ApJ, 464,
+
+Bennett L 1 Bennett, L1
+
+E F White M astro-ph/9607060 1996 preprint E. F., & White, M. 1996, preprint (astro-ph/9607060)
+
+S Bunn Nucl. Phys. B 307 867 1988 Coleman Bunn, S. 1988a, Nucl. Phys. B, 307, Coleman, 867
+
+Nucl. Phys. B 310 643 1988 1988b, Nucl. Phys. B, 310, ÈÈÈ. 643
+
+C Schramm D N Turner M S Science 267 192 1995 Copi C., Schramm, D. N., & Turner, M. S. 1995, Science, 267, Copi, 192
+
+G MNRAS 274 1995 G. 1995, MNRAS, 274,
+
+Efstathiou L 73 Efstathiou, L73
+
+W Klebanov I Polchinski J Susskind L Nucl. Phys. Fischler, B 237 157 1989 W., Klebanov, I., Polchinski, J., & Susskind, L. 1989, Nucl. Phys. Fischler, B, 237, 157
+
+J E Gott J R ApJ 176 1972 Gunn J. E., & Gott, J. R. 1972, ApJ, 176, Gunn,
+
+S W Proc. 1983 Shelter Island Conf. on Quantum Field Hawking, Theory and the Fundamental Problems of Physics R Jackiw 1983 Shelter Island Conf. on Quantum Field Hawking, Theory and the Fundamental Problems of Physics Cambridge MIT Press 1983. 1984 175 395 S. W. 1983, in Proc. 1983 Shelter Island Conf. on Quantum Field Hawking, Theory and the Fundamental Problems of Physics, ed. R. Jackiw et al. (Cambridge : MIT Press) 1984, Phys. Lett. B, 175, ÈÈÈ. 395
+
+C S ApJ 466 638 1996 Kochanek C. S. 1996, ApJ, 466, Kochanek, 638
+
+L M Turner M S Gen. Relativ. Gravitation 27 1137 1995 Krauss L. M., & Turner, M. S. 1995, Gen. Relativ. Gravitation, 27, Krauss, 1137
+
+A D Phys. Lett. B 175 194 1986. 1987. 1988 Phys. Lett. B. ÈÈÈ A. D. 1986, Phys. Lett. B, 175, Linde, 395 1987, Phys. Scr., T15, ÈÈÈ. 169 1988, Phys. Lett. B, 202, ÈÈÈ. 194
+
+A R Lyth D H Viana P T P White M MNRAS 282 281 1996 Liddle A. R., Lyth, D. H., Viana, P. T. P., & White, M. 1996, MNRAS, 282, Liddle, 281
+
+H ApJ 377 1991 Martel H. 1991, ApJ, 377, Martel,
+
+H Shapiro P R Valinia A Martel J P Steinhardt P J Nature 377 600 1998. 1995 Ostriker H., Shapiro, P. R., & Valinia, A. 1998, in Martel, preparation J. P., & Steinhardt, P. J. 1995, Nature, 377, Ostriker, 600
+
+P J E The Large-Scale Structure of the Universe Princeton; Princeton Princeton ÈÈÈ. Univ. Press 1967. 1980. 1993 147 859 Principles of Physical Cosmology P. J. E. 1967, ApJ, 147, Peebles, 859 1980, The Large-Scale Structure of the Universe (Princeton : Prin- ÈÈÈ. ceton Univ. Press) 1993, Principles of Physical Cosmology (Princeton : Princeton ÈÈÈ. Univ. Press)
+
+S ApJ 483 565 1997 Perlmutter S. et al. 1997, ApJ, 483, Perlmutter, 565
+
+P R Giroux M L Babul A ApJ 427 25 1994 Shapiro P. R., Giroux, M. L., & Babul, A. 1994, ApJ, 427, Shapiro, 25
+
+N ApJS 100 281 1995 Sugiyama N. 1995, ApJS, 100, Sugiyama, 281
+
+A ; Ph D ; Liddle A R MNRAS 281 323 1996. 1996 Univ. Texas A. 1996, Ph.D. thesis, Univ. Texas, Valinia, Austin P. T. P., & Liddle, A. R. 1996, MNRAS, 281, Viana, 323
+
+A Phys. Rev. Lett 74 846 1995 A. 1995a, Phys. Rev. Lett., 74, Vilenkin, 846
+
+Proc. NATO Adv. Study Inst K Sato T Saginohara Èèè N Sagiyama NATO Adv. Study Inst Dordrecht; Tokyo Universal Acad. Press 1995. 1996 52 161 Proc. 1st RESCEU Symp. 1995b, Phys. Rev. D, 52, ÈÈÈ. 3365 1996a, in Proc. NATO Adv. Study Inst., ed. N. Sanchez & ÈÈÈ. A. Zichichi (Dordrecht : Kluwer), 345 1996b, in Proc. 1st RESCEU Symp., ed. K. Sato, T. Saginohara, & ÈÈÈ. N. Sagiyama (Tokyo : Universal Acad. Press), 161
+
+S Weinberg Critical Dialogues in Cosmology Singapore World ScientiÐc 1987. 2067 1989 59 1 Rev. Mod. Phys.. ÈÈÈ. 1 1996. N. Turok ÈÈÈ. S. 1987, Phys. Rev. Lett., 59, Weinberg, 2067 1989, Rev. Mod. Phys., 61, ÈÈÈ. 1 1996, in Critical Dialogues in Cosmology, ed. N. Turok ÈÈÈ. (Singapore : World ScientiÐc), 1

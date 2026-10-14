@@ -1,0 +1,38 @@
+=== Baseline: KKLT W0=-1e-4, A=1, a=0.1 (x_AdS = 11.3589) ===
+n=3: Xi window [1.016, 2.687]  -> D window [2.973e-09, 7.861e-09]  (phase1 grid: n=3 [2.994e-9, 7.713e-9], n=2 [2.637e-11, 9.604e-11])
+n=2: Xi window [1.007, 3.773]  -> D window [2.594e-11, 9.720e-11]  (phase1 grid: n=3 [2.994e-9, 7.713e-9], n=2 [2.637e-11, 9.604e-11])
+
+=== Window vs x_AdS = a*sigma (n=2) ===
+x_AdS=  1.00: Xi in [1.379, 1.784], ln(Xi_max/Xi_min) = 0.258, m*l_AdS = 4.24
+x_AdS=  1.50: Xi in [1.214, 1.689], ln(Xi_max/Xi_min) = 0.330, m*l_AdS = 5.29
+x_AdS=  2.00: Xi in [1.139, 1.705], ln(Xi_max/Xi_min) = 0.403, m*l_AdS = 6.32
+x_AdS=  2.50: Xi in [1.098, 1.764], ln(Xi_max/Xi_min) = 0.474, m*l_AdS = 7.35
+x_AdS=  3.00: Xi in [1.073, 1.845], ln(Xi_max/Xi_min) = 0.542, m*l_AdS = 8.37
+x_AdS=  4.00: Xi in [1.045, 2.040], ln(Xi_max/Xi_min) = 0.669, m*l_AdS = 10.39
+x_AdS=  5.00: Xi in [1.031, 2.257], ln(Xi_max/Xi_min) = 0.784, m*l_AdS = 12.41
+x_AdS=  6.00: Xi in [1.022, 2.485], ln(Xi_max/Xi_min) = 0.888, m*l_AdS = 14.42
+x_AdS=  8.00: Xi in [1.013, 2.958], ln(Xi_max/Xi_min) = 1.071, m*l_AdS = 18.44
+x_AdS= 10.00: Xi in [1.009, 3.441], ln(Xi_max/Xi_min) = 1.227, m*l_AdS = 22.45
+x_AdS= 11.36: Xi in [1.007, 3.773], ln(Xi_max/Xi_min) = 1.321, m*l_AdS = 25.18
+x_AdS= 15.00: Xi in [1.004, 4.669], ln(Xi_max/Xi_min) = 1.537, m*l_AdS = 32.47
+x_AdS= 20.00: Xi in [1.002, 5.908], ln(Xi_max/Xi_min) = 1.774, m*l_AdS = 42.47
+x_AdS= 25.00: Xi in [1.002, 7.151], ln(Xi_max/Xi_min) = 1.966, m*l_AdS = 52.48
+x_AdS= 30.00: Xi in [1.001, 8.397], ln(Xi_max/Xi_min) = 2.127, m*l_AdS = 62.48
+x_AdS= 40.00: Xi in [1.001, 10.892], ln(Xi_max/Xi_min) = 2.387, m*l_AdS = 82.49
+
+=== Per-example window (toy calibrated to lightest Kahler mass in AdS units) and K'-step ===
+ID  m_min*l_AdS  x_cal  Xi_min  Xi_max  w=ln(ratio) | Xi_prec(exact) Xi_prec(B.16) in-window? | dlnXi per dK'=1  w/step | c-ratio per dK'
+Ex1      7.33    2.49  1.099  1.762  0.473      | 4.65  3.93  NO    | 3.99  0.119  | 1.86e-02
+Ex2      9.78    3.70  1.051  1.978  0.632      | 2.18  1.89  NO    | 4.59  0.138  | 1.02e-02
+Ex3     11.50    4.55  1.036  2.158  0.734      | 1.73  1.52  yes   | 5.26  0.139  | 5.19e-03
+Ex4     18.43    8.00  1.013  2.957  1.071      | 2.00  1.76  yes   | 5.19  0.206  | 5.59e-03
+Ex5     27.36   12.45  1.006  4.040  1.391      | 3.65  3.16  yes   | 5.62  0.247  | 3.63e-03
+
+=== Expected yield vs reported numbers (2406.13751 Table 1, Fig.3 caption, Sec.5) ===
+aligned fraction of anti-D3 PFVs: 396/33371 = 0.0119
+toy n=2, x=11.36                                       : w = 1.321 -> P(in window | log-uniform on [0.1,10]) = 0.287; expected ~114 of 396; observed 5 -> efficiency 0.044
+toy n=2, calibrated range                              : w = 0.860 -> P(in window | log-uniform on [0.1,10]) = 0.187; expected ~74 of 396; observed 5 -> efficiency 0.068
+paper's stated 1<~Xi<~3                                : w = 1.099 -> P(in window | log-uniform on [0.1,10]) = 0.239; expected ~94 of 396; observed 5 -> efficiency 0.053
+empirical precursor range of the 5 (B.16: 1.52-3.93)   : w = 0.949 -> P(in window | log-uniform on [0.1,10]) = 0.206; expected ~82 of 396; observed 5 -> efficiency 0.061
+observed per-flux-choice yield 5/396 = 0.0126; 30 vacua / 396 = 0.0758
+density of aligned points in ln Xi (if uniform): 86 per e-fold -> mean spacing 0.0116

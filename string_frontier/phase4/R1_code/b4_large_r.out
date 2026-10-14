@@ -1,0 +1,18 @@
+beta = (-0.5 + 0.3j)
+  r=    10: direct=(0.12658998 + 0.5947928j)  |direct|=0.60811  paper k=1 term=(0.01686 - 0.0064386j) (|.|=0.018)  u-term=(0.29837 + 0.180871j)  (ln r)^b asym=(0.342862 + 0.336492j)  direct-uterm=(-0.17178 + 0.41392j)
+  r=   100: direct=(0.10536869 + 0.412545j)  |direct|=0.42579  paper k=1 term=(0.00054065 + 0.00018276j) (|.|=0.000571)  u-term=(0.216629 + 0.211296j)  (ln r)^b asym=(0.188096 + 0.282861j)  direct-uterm=(-0.11126 + 0.20125j)
+  r=  1000: direct=(0.082389015 + 0.32855106j)  |direct|=0.33872  paper k=1 term=(9.4952e-6 + 1.5347e-5j) (|.|=1.8e-5)  u-term=(0.159421 + 0.213055j)  (ln r)^b asym=(0.124421 + 0.247884j)  direct-uterm=(-0.077032 + 0.1155j)
+  r= 10000: direct=(0.063033678 + 0.27929625j)  |direct|=0.28632  paper k=1 term=(-7.779e-8 + 5.6538e-7j) (|.|=5.71e-7)  u-term=(0.120083 + 0.205386j)  (ln r)^b asym=(0.0888462 + 0.223163j)  direct-uterm=(-0.057049 + 0.07391j)
+beta = (0.0 + 0.7j)
+  r=    10: direct=(-1.0536669 + 0.67123194j)  |direct|=1.2493  paper k=1 term=(0.048502 + 0.1334j) (|.|=0.142)  u-term=(-0.213705 + 0.182123j)  (ln r)^b asym=(-0.385804 + 0.321117j)  direct-uterm=(-0.83996 + 0.48911j)
+  r=   100: direct=(-0.87860136 + 0.18119239j)  |direct|=0.89709  paper k=1 term=(-0.013527 + 0.0042991j) (|.|=0.0142)  u-term=(-0.328291 + 0.111213j)  (ln r)^b asym=(-0.49104 + 0.10412j)  direct-uterm=(-0.55031 + 0.069979j)
+  r=  1000: direct=(-0.75645023 - 0.012620865j)  |direct|=0.75656  paper k=1 term=(-0.00037409 - 0.0013692j) (|.|=0.00142)  u-term=(-0.386573 + 0.0213131j)  (ln r)^b asym=(-0.50055 - 0.0375521j)  direct-uterm=(-0.36988 - 0.033934j)
+  r= 10000: direct=(-0.67699569 - 0.13386917j)  |direct|=0.6901  paper k=1 term=(0.00013834 - 3.1763e-5j) (|.|=0.000142)  u-term=(-0.407598 - 0.0621887j)  (ln r)^b asym=(-0.482924 - 0.136913j)  direct-uterm=(-0.2694 - 0.071681j)
+
+Regge-type asymptotics: f(w) ~ Gamma(1+w)(r w e^{-i pi})^{-w}  =>  I ~ (1/2) int w^{-b-1} Gamma(1+w) (r w e^{-i pi})^{-w} dw
+  beta=(-0.5 + 0.3j) r=1e2: direct=(0.105369 + 0.412545j)  Regge-integral=(0.104281 + 0.410053j)  (1/2)Gamma(-b)(ln r - lnln r - i pi)^b=(0.0888915 + 0.432255j)
+  beta=(-0.5 + 0.3j) r=1e4: direct=(0.0630337 + 0.279296j)  Regge-integral=(0.0630302 + 0.279281j)  (1/2)Gamma(-b)(ln r - lnln r - i pi)^b=(0.0660594 + 0.291509j)
+  beta=(-0.5 + 0.3j) r=1e6: direct=(0.0364566 + 0.222409j)  Regge-integral=(0.0364566 + 0.222409j)  (1/2)Gamma(-b)(ln r - lnln r - i pi)^b=(0.0397862 + 0.22869j)
+  beta=(0.0 + 0.7j) r=1e2: direct=(-0.878601 + 0.181192j)  Regge-integral=(-0.860326 + 0.175505j)  (1/2)Gamma(-b)(ln r - lnln r - i pi)^b=(-0.850726 + 0.209218j)
+  beta=(0.0 + 0.7j) r=1e4: direct=(-0.676996 - 0.133869j)  Regge-integral=(-0.677099 - 0.133833j)  (1/2)Gamma(-b)(ln r - lnln r - i pi)^b=(-0.667313 - 0.0991911j)
+  beta=(0.0 + 0.7j) r=1e6: direct=(-0.555249 - 0.284371j)  Regge-integral=(-0.555248 - 0.284371j)  (1/2)Gamma(-b)(ln r - lnln r - i pi)^b=(-0.550292 - 0.25845j)

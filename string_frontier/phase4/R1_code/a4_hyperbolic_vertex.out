@@ -1,0 +1,14 @@
+lambda* = 0.2805499262
+principal Log : v = (1.24922313385 + 1.92505831542e-32j)  coeff = 5.1929275e+25
+continuous    : v = (4.39081578744 + 0.0j)  coeff = 7.847649e+54
+v_cont - v_principal in units of pi: (1.0 - 6.1276509e-33j)
+Firat eq.(8): 1.62187e8
+
+large lambda (coefficient with each branch; 6561/4096 = 1.6018066 )
+  l=     1: principal coeff=   16.112169   continuous coeff=3.7990084e+17   v_cont/l=5.35875
+  l=     3: principal coeff=   3.6103159   continuous coeff=   3.6103159   v_cont/l=-0.126531
+  l=    10: principal coeff=   1.0021284   continuous coeff=1.2141841e-14   v_cont/l=-5.31433
+  l=    30: principal coeff=  0.54527599   continuous coeff=1.2199469e-26   v_cont/l=-9.81399
+  l=   100: principal coeff=  0.37663221   continuous coeff=2.2186665e-39   v_cont/l=-14.6666
+  l=  1000: principal coeff=  0.33798264   continuous coeff=1.8724118e-63   v_cont/l=-23.8911
+  l= 10000: principal coeff=  0.33391462   continuous coeff=1.8409144e-87   v_cont/l=-33.1028

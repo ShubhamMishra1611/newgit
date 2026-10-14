@@ -1,0 +1,79 @@
+
+=== (a) Virasoro-Shapiro stripped (type II scalar function): levels 1..100 ===
+  n=  1: D_crit(n) = inf  (spin None)
+  n=  2: D_crit(n) = inf  (spin None)
+  n=  3: D_crit(n) = 24.0000000000000  (spin 2)
+  n=  4: D_crit(n) = 23.0000000000000  (spin 4)
+  n=  5: D_crit(n) = 24.0000000000000  (spin 6)
+  n=  6: D_crit(n) = 25.5000000000000  (spin 8)
+  n=  7: D_crit(n) = [26.1761233120272 +/- 3.10e-14]  (spin 8)
+  n=  8: D_crit(n) = [26.3655935045679 +/- 3.29e-14]  (spin 10)
+  n=  9: D_crit(n) = [27.3609160210327 +/- 5.03e-14]  (spin 12)
+  n= 10: D_crit(n) = [28.0603823712383 +/- 4.86e-14]  (spin 12)
+  n= 20: D_crit(n) = [32.1479031644699 +/- 1.58e-14]  (spin 24)
+  n= 30: D_crit(n) = [34.7432220123076 +/- 5.12e-14]  (spin 36)
+  n= 40: D_crit(n) = [36.7802132130579 +/- 4.09e-14]  (spin 46)
+  n= 50: D_crit(n) = [38.1968871968070 +/- 4.74e-14]  (spin 54)
+  n= 60: D_crit(n) = [39.5278513284750 +/- 3.36e-14]  (spin 62)
+  n= 70: D_crit(n) = [40.6468720426048 +/- 1.62e-14]  (spin 70)
+  n= 80: D_crit(n) = [41.5978630215504 +/- 3.30e-14]  (spin 78)
+  n= 90: D_crit(n) = [42.4797581680964 +/- 1.01e-14]  (spin 86)
+  n=100: D_crit(n) = [43.2803500397121 +/- 5.39e-14]  (spin 92)
+  => D_crit = min_n D_crit(n) = 23.000000000000000000 at level 4, spin 4   (112.3s)
+     next-most-constraining level: n=3, D_crit=24.000000;  D_crit(NMAX)=43.2804
+  critical polynomial in nu=(D-3)/2 (level 4, spin 4): (-1/192)*x + 5/96  -> factor: (-1/192, [(x + (-10), 1)])
+  exact: all levels <= 100 nonnegative at D=24: False;  at D=24+1/1000: level 4 ok? False
+
+=== (b) 2102.08951 eq.(3.21) four-dilaton amplitude: levels 1..100 ===
+  n=  1: D_crit(n) = inf  (spin None)
+  n=  2: D_crit(n) = inf  (spin None)
+  n=  3: D_crit(n) = [25.5598114527335 +/- 2.28e-14]  (spin 2)
+  n=  4: D_crit(n) = [24.1478864864171 +/- 7.00e-15]  (spin 4)
+  n=  5: D_crit(n) = [24.9298733911539 +/- 2.95e-14]  (spin 6)
+  n=  6: D_crit(n) = [26.2724429728153 +/- 9.05e-15]  (spin 8)
+  n=  7: D_crit(n) = [27.2323029381709 +/- 2.83e-14]  (spin 8)
+  n=  8: D_crit(n) = [27.0429053132962 +/- 6.07e-15]  (spin 10)
+  n=  9: D_crit(n) = [27.9057598601433 +/- 4.48e-14]  (spin 12)
+  n= 10: D_crit(n) = [29.0275152150254 +/- 1.02e-14]  (spin 12)
+  n= 20: D_crit(n) = [32.6328506215784 +/- 3.80e-14]  (spin 26)
+  n= 30: D_crit(n) = [34.9337011727442 +/- 5.30e-14]  (spin 36)
+  n= 40: D_crit(n) = [36.9176103749670 +/- 3.79e-14]  (spin 46)
+  n= 50: D_crit(n) = [38.3435164874166 +/- 2.19e-14]  (spin 54)
+  n= 60: D_crit(n) = [39.6790137308508 +/- 4.07e-14]  (spin 62)
+  n= 70: D_crit(n) = [40.7788616297019 +/- 4.23e-14]  (spin 70)
+  n= 80: D_crit(n) = [41.6983818128294 +/- 2.52e-14]  (spin 78)
+  n= 90: D_crit(n) = [42.5546932433122 +/- 2.75e-14]  (spin 86)
+  n=100: D_crit(n) = [43.3795790428112 +/- 1.56e-14]  (spin 92)
+  => D_crit = min_n D_crit(n) = [24.14788648641710 +/- 6.99e-15] at level 4, spin 4   (129.2s)
+     next-most-constraining level: n=5, D_crit=24.929873;  D_crit(NMAX)=43.3796
+  critical polynomial in nu (level 4, spin 4): (-11/16)*x^3 + (-307/64)*x^2 + 4677/64*x + 18445/32
+  factorization: (-1/64, [(44*x^3 + 307*x^2 + (-4677)*x + (-36890), 1)])
+  => critical D = 3 + 2*nu_root = [24.14788648641710 +/- 6.99e-15]
+  exact check: all spins of all levels <= 100 nonnegative at D=24 (24.0): True
+  exact check: all spins of all levels <= 100 nonnegative at D=6037/250 (24.148): False
+  exact check: all spins of all levels <= 100 nonnegative at D=24149/1000 (24.149): False
+  exact check: all spins of all levels <= 100 nonnegative at D=25 (25.0): False
+
+=== (c) closed bosonic tachyons (square of open residue): levels 1..100 ===
+  n=  1: D_crit(n) = inf  (spin None)
+  n=  2: D_crit(n) = 72.0000000000000  (spin 2)
+  n=  3: D_crit(n) = 60.5000000000000  (spin 4)
+  n=  4: D_crit(n) = [57.6000000000000 +/- 1.28e-14]  (spin 6)
+  n=  5: D_crit(n) = 57.0000000000000  (spin 8)
+  n=  6: D_crit(n) = [57.3714285714286 +/- 4.06e-14]  (spin 10)
+  n=  7: D_crit(n) = 58.2500000000000  (spin 12)
+  n=  8: D_crit(n) = [59.4285714285714 +/- 3.07e-14]  (spin 14)
+  n=  9: D_crit(n) = [60.8000000000000 +/- 9.95e-15]  (spin 16)
+  n= 10: D_crit(n) = [62.3030303030303 +/- 9.68e-15]  (spin 18)
+  n= 20: D_crit(n) = [67.4356133950369 +/- 4.70e-14]  (spin 32)
+  n= 30: D_crit(n) = [71.9667039839029 +/- 2.55e-14]  (spin 46)
+  n= 40: D_crit(n) = [75.4494133995155 +/- 4.94e-14]  (spin 58)
+  n= 50: D_crit(n) = [78.2263104658328 +/- 1.82e-14]  (spin 70)
+  n= 60: D_crit(n) = [80.5548658110343 +/- 3.86e-14]  (spin 82)
+  n= 70: D_crit(n) = [82.6838450027839 +/- 1.69e-14]  (spin 92)
+  n= 80: D_crit(n) = [84.5377370027223 +/- 1.91e-14]  (spin 104)
+  n= 90: D_crit(n) = [86.1332802409604 +/- 3.13e-14]  (spin 114)
+  n=100: D_crit(n) = [87.5740154279132 +/- 5.26e-14]  (spin 122)
+  => D_crit = min_n D_crit(n) = 57.000000000000000000 at level 5, spin 8   (141.3s)
+     next-most-constraining level: n=6, D_crit=57.371429;  D_crit(NMAX)=87.5740
+  critical polynomial in nu (level 5, spin 8): (-7/64, [(x + (-27), 1)])

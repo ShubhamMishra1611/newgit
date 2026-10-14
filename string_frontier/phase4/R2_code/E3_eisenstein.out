@@ -1,0 +1,7 @@
+E_1.5(rho): closed-form 6 zeta L = 8.8927451004, Fourier = 8.8927451004, brute(R=400, no tail) = 8.878085
+E_2.5(rho): closed-form 6 zeta L = 4.71949171767, Fourier = 4.71949171767, brute(R=400, no tail) = 4.719492
+alpha_IIB min = E_3/2(rho)/64 = 0.1389491422
+alpha_IIA min closed form = 0.140260117 ; numeric min at g_s = 1.0469692 value 0.140260117 ; 3 sqrt(zeta3)/pi = 1.0469692
+scan E_1.5: min 8.8927451 at tau=(0.5, 0.866025); rho=(0.5, 0.866025)
+scan E_2.5: min 4.719491718 at tau=(0.5, 0.866025); rho=(0.5, 0.866025)
+E_5/2 leading coefficient 2 zeta(5) = 2.07385551 ; E_3/2 leading 2 zeta(3) = 2.404113806

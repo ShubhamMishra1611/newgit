@@ -1,0 +1,5 @@
+d=4: alpha*=10.6124872188 beta*=0.06718696745  | CHVD analytic eq.3.12 alpha*=10.6124872188 beta*=0.06718696745
+d=5: alpha*=9.09383136167 beta*=0.03567911738  | CHVD analytic eq.3.12 alpha*=9.09383136167 beta*=0.03567911738
+d=10: alpha*=7.21788862058 beta*=0.006766047892  | CHVD analytic eq.3.12 alpha*=7.21788862058 beta*=0.006766047892
+d=4 closed form 9/2 + 7/4 sqrt(61/5) = 10.6124872188
+Cauchy-Schwarz bound 2(5d-4)/(d-2) at d=4: 16.0

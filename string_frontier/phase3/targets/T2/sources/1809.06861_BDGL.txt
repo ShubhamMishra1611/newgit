@@ -1,0 +1,1019 @@
+# Uplifting Runaways
+URL: https://export.arxiv.org/pdf/1809.06861
+
+IPhT-T18/110 
+CPHT-RR080.082018 
+
+##### Uplifting Runaways
+
+Iosif Bena∗, Emilian Dudas†, Mariana Gra˜na∗ and Severin L¨ust∗ † 
+∗ Institut de Physique Th´eorique, Universit´e Paris Saclay, CEA, CNRS 
+Orme des Merisiers 
+91191 Gif-sur-Yvette Cedex, France 
+† Centre de Physique Th´eorique, Ecole Polytechnique, CNRS 
+91128 Palaiseau Cedex, France 
+
+Abstract
+
+We find a mechanism by which antibranes placed in a warped deformed conifold throat can destroy the stabilization of the size of the sphere at the tip, collapsing it to zero size. This conifold destabilization mechanism can be avoided by turning on a large amount of flux on the sphere, but tadpole cancelation makes this incompatible with a hierarchy of scales in a Type IIB flux compactification. This indicates that antibrane uplift cannot be used to construct stable de Sitter vacua with a small cosmological constant in perturbative String Theory. The values of V and V0 for these KKLT-like scenarios can be parametrically small, but we find that V0/V is still consistent with the de Sitter swampland conjecture. Our results also suggest that there should exist a Klebanov-Strassler black hole, holographically dual to a deconfined phase with spontaneously broken chiral symmetry.
+
+October 21, 2019
+
+##### 1 Introduction
+
+Obtaining de Sitter vacua in string compactifications has been a goal of string phenomenology 
+ever since the discovery that the expansion of our universe is driven by vacuum energy. 
+Since string theory produces naturally compactifications with zero or negative cosmological 
+constant [1], there are two possible routes. The first is to add “un-natural” ingredients 
+(such as smeared orientifold planes, non-geometric fluxes or T-branes) in the mix and to 
+try to obtain de Sitter vacua as solutions of the full equations of motion. The second is to 
+obtain these vacua indirectly, by first constructing supersymmetric anti-de Sitter vacua and 
+then uplifting their cosmological constant to a positive one [2]. The second route offers much 
+more technical control than the first, and can also produce de Sitter vacua whose cosmological 
+constant is parametrically smaller than the string scale, which so far has proven impossible 
+by direct construction. 
+However, uplifting does not come without problems. The most common method consists 
+of adding anti-D3 branes in a flux compactification with stabilized moduli [2]. The uplift 
+caused by the anti-D3 branes needs to be quite small, in order to ensure that the delicate 
+mechanism responsible for the stabilization of the K¨ahler moduli is not disturbed. Hence 
+the anti-D3 branes need to be placed in a region of high warping inside the compactification 
+manifold. Even if the full solution for a warped compactification with a long warped throat 
+has never been constructed, one usually assumes that the throat can be glued to a flux com 
+pactification and that the supersymmetry-breaking effects of the antibrane are localized near 
+the bottom of this throat, and hence are very small from the perspective of the compacti 
+fication scale. The prototypical example of a long warped throat is the Klebanov-Strassler 
+warped deformed conifold [3], and antibranes placed in this solution appear in the probe 
+approximation to give rise to metastable vacua [4], whose supersymmetry-breaking effects 
+are localized deep in the infrared. 
+Over the past almost ten years, an extensive body of work has been devoted to ascer 
+taining whether this probe-approximation picture is a correct description of the physics, or 
+rather whether there is nontrivial physics that is missed by the probe approximation [5–9]. 
+The overwhelming part of that work supports the second conclusion: antibranes source a 
+singular solution, and their singularity cannot be cloaked by a black horizon. Furthermore, 
+this singularity indicates the presence of a brane-brane repelling tachyon, which makes un 
+stable any flux compactification constructed with antibranes. In the regime of parameters 
+where the number of antibranes is small it was argued that the presence of a singularity 
+can be understood in the framework of “brane effective actions” and that antibranes would 
+eventually turn to be regular [10]; however, an explicit calculation of the brane effective 
+action in a regime where exact calculations can be done shows that there are many unex 
+pected cancelations [11], and that multiple antibranes in Klebanov-Strassler throats are still 
+
+unfeasible for obtaining de Sitter vacua by uplifting. 
+Despite the multiple problems of antibranes revealed by the calculations of [5–9], one 
+can still hope that a single antibrane might still be usable for uplift. After all, a single 
+antibrane does not suffer from a brane-brane-repelling tachyon, its worldvolume theory is 
+free so the multi-loop calculations of [11] do not apply to it, and its uplifting power is enough 
+for obtaining de Sitter solutions with a small cosmological constant. A related construction, 
+in which a single antibrane is placed on top of an orientifold three-plane, has also been argued 
+to give an uplift mechanism [12], and at the same time to be describable using a nilpotent 
+supergravity action [13, 14]. 
+The main result of this paper is the discovery of a (previously ignored) conifold destabi 
+lization mechanism, which invalidates uplifting with both a single and with many antibranes. 
+This mechanism does not give rise to an instability, but rather to a (much more pathological) 
+runaway behavior. 
+To understand this conifold destabilization mechanism one should remember that the 
+Klebanov-Strassler solution is obtained by adding fluxes and warping to the deformed coni 
+fold, but one can also do that to the undeformed conifold (obtaining the singular Klebanov 
+Tseytlin geometry [15]). The deformation parameter of the conifold is a modulus, but in 
+the infinite warped Klebanov-Strassler solution the warp factor ensures that the size of the 
+three-sphere stays constant, and this modulus can be reabsorbed into an overall rescaling of 
+the Minkowski coordinates. In an infinite Klebanov-Strassler solution this modulus is free to 
+run, and one indeed expects it to run once supersymmetry-breaking ingredients are added. 
+If one fixes a UV holographic cutoff, this running corresponds to changing the distance be 
+tween the tip of the KS solution and the cutoff surface. Moreover, when the throat is glued 
+into a flux compactification, this distance parameterizes the length of the so-called B-cycle, 
+which is fixed by the fluxes. Indeed, a compactification with a KS throat is expected to have 
+both the A cycle of the deformed conifold (threaded by M units of RR three-form flux) and 
+the B cycle, threaded by NS-NS three-form flux, as well as other three-cycles. 
+It is also possible to see that as the size of the throat becomes longer and longer, the 
+stabilization potential becomes shallower and shallower. This is not unexpected: the energy 
+cost of deforming the B cycle at the bottom of a long throat, which can be quite large from 
+the perspective of an observer living at the bottom of this throat, is warped away to a very 
+small value from the perspective of an observer living up the throat. Since the superpotential 
+is blind to warping effects, the effect of the warping on the stabilization potential can only 
+come via corrections to the K¨ahler potential, and these corrections have been computed 
+in [16, 17]. There is a crucial difference between the na¨ıve stabilization potential, and the 
+one computed taking the warping into account (both are displayed in Figure 1). The correct 
+potential has two minima, one in which the conifold deformation is finite, and one in which 
+it is zero. The latter minimum corresponds to a Klebanov-Tseytlin (KT) throat. The na¨ıve 
+
+potential misses completely the minimum corresponding to the KT throat. 
+Antibranes, or any other supersymmetry-breaking object, give rise to another term in 
+the stabilization potential, equal to the energy of these objects. This energy depends on the 
+position of these objects inside the compactification manifold, and is minimized when the 
+antibranes are at the tip of the KS throat. The minimal energy is an increasing function of 
+the conifold deformation parameter (depicted in Figure 2). The (meta)stability, instability 
+or runaway behavior of antibranes in long warped throats of flux compactification depends 
+therefore on the interplay between this energy and the stabilization potential. Clearly, when 
+the number of antibranes is large enough, they will over-run the bump in Figure 1, and drive 
+the throat towards the KT solution. 
+This conifold destabilization mechanism has important implications for two research area 
+where the KS solution plays an important role: String Phenomenology/Cosmology and 
+Holographic QCD: 
+For flux compactifications, our analysis indicates that the deformation parameter of the 
+conifold is very light and takes a special role among the complex structure moduli. Therefore, 
+it cannot be simply integrated out before considering the effect of antibranes. A precise 
+evaluation of all the factors that enter in the potential reveals that the stability of long 
+warped throats depends on the interplay between the number of antibranes and the number 
+of units of flux on the three-cycle of the deformed conifold, M. At first glance this may 
+look as encouraging news for the de Sitter landscape, but it is not. In order for the uplifting 
+to work, the warping has to be very large, and this warping is controlled by the amount of 
+NS-NS three-form flux on the B cycle, K. However, the RR and NSNS three-form fluxes give 
+rise to a positive contribution to the D3 brane tadpole, equal to M × K. This contribution 
+needs to be canceled by the negative D3-charge of orientifold three-planes, and the largest 
+known such contribution in type IIB compactification is − 32. Hence, the only throats where 
+antibranes are not giving rise to runaway behavior have a warping that is at most 1/5, which 
+is much larger than the exponentially suppressed uplift term (of order 10− 9 in [2]), needed 
+to obtain a small cosmological constant and also to preserve the stabilization of the K¨ahler 
+moduli. 
+In parallel to our work there has been an extended effort, that is sometimes packaged 
+under the “weak gravity conjecture/swampland” banner [18, 19], to understand the kind of 
+the effective theories that can be obtained as low-energy limits of fully consistent string theory 
+models. The culmination of this bottom-up programme has been the recent conjecture by 
+Obied, Ooguri, Spodyneiko and Vafa [19] that the de Sitter spaces obtained by controllable 
+string-theory constructions are not only unstable (as the analysis of antibranes [7] would 
+indicate), but have also runaways. In particular, it was argued that the ratio between the 
+slope of the effective potential and its value is always bounded below by V0 
+V ≥ a, where a 
+is a constant of order one in Planck units. The conifold destabilization mechanism we find 
+
+is consistent with this runaway expectation. Moreover, our construction allows for the first top-down calculation of V0 V in a regime of parameters where V is parametrically smaller than the string scale, and our results are consistent with the expectations of [19].
+
+Holographic QCD
+
+The fact that antibranes or other supersymmetry-breaking objects can lead to a runaway 
+of the KS solution has also implications for strongly-interacting QCD-like physics. Indeed, 
+the KS solution is the only known supergravity solution that is holographically dual to a 
+supersymmetric confining gauge theory. As such, this solution is much better suited for 
+describing strongly-coupled quark-gluon-plasma physics than AdS5 × S 5 (which is dual to a 
+non-confining theory). 
+A key question that one can hope to address using the KS solution is what is the nature 
+of the deconfinement and the chiral symmetry breaking phase transitions, and whether they 
+occur at the same temperature. The chiral symmetry is broken in the zero-temperature 
+confining vacuum of this theory [3], which is dual to the supersymmetric warped deformed 
+conifold KS solution. The bulk solution dual to the high-temperature phase is a black hole in 
+the warped undeformed conifold (Klebanov-Tseytlin) solution, and in this phase the chiral 
+symmetry is restored [20] (see [21] for earlier work). 
+If the confinement and chiral symmetry breaking phase transitions occur at the same 
+temperature, one only expects these two solutions to exist, but if the temperature of the chiral 
+symmetry breaking phase transition is below that of the deconfinement phase transition, 
+one expects to find a new solution, corresponding to a Klebanov-Strassler black hole. This 
+solution would be dual to a phase with spontaneously broken chiral symmetry, but with 
+deconfined quarks. An extensive numerical effort has gone towards the construction of this 
+solution [22], with no success. The only way to obtain a black hole solution dual to a phase 
+with broken chiral symmetry has been to break this symmetry explicitly, by turning on a 
+certain non-normalizable mode in the bulk (which forces the three-sphere at the bottom of 
+the deformed conifold to stay large). Of course, the failure of a numerical construction can 
+indicate either that the black hole does not exist, or that the numerics did not explore the 
+full space of solutions. Our results support the second possibility, and suggest that a black 
+hole in KS should exist. This solution would be dual to a deconfined phase with broken 
+chiral symmetry, and if this phase is dominant this would indicate that the deconfinement 
+and the χSB phase transitions happen at different temperatures. We will discuss this in 
+more detail in Section 4. 
+
+##### 2 D3-branes in a KS Throat
+
+2.1 Calabi-Yau Manifolds with Fluxes and Warped Throats
+
+The KKLT construction of de Sitter vacua [2] is based on a warped compactification on 
+a Calabi-Yau manifold, with a constant dilaton, five and three-form fluxes [23]. The ten 
+dimensional metric and five-form flux are 
+ds 2 = H− 1/2ds 2 
+4 + H 1/2ds 2 6, 
+F5 = (1 + ∗ ) vol4 ∧ dH− 1 
+≡ ∗F 5 + F 5 , (2.1) 
+where H is the warp factor and the ds 2 
+6 is the unwarped metric of the internal manifold. As 
+argued in [24], one can think of this manifold as composed of a throat-type region of high 
+warping, glued to a compact Calabi-Yau space. 
+In the region of high warping the local six-dimensional geometry is that of the deformed 
+conifold, defined by its embedding into C 4, 
+
+X
+
+4
+
+a=1
+
+ω 4 a = S . (2.2)
+
+The deformation parameter S is the complex structure modulus whose absolute value corre sponds to the size of the 3-sphere at the tip of the cone. The other complex structure moduli Z I come from the “UV” geometry. We thus have h 2,1 + 1 A-cycles:
+
+Z A Ω3 = S , Z AI Ω3 = Z I (2.3)
+
+where I = 0, ..., h 2,1 − 1. We assume that the prepotential splits according to
+
+F(S, Z I) = Fcf (S) + FUV (Z I), (2.4)
+
+where Fcf is the prepotential of the deformed conifold and the “UV prepotential,” FUV , does not explicitly depend on S. We thus have
+
+Z B Ω3 = FS = S 2πi log Λ 3 0 S + 1 + F 0 S, Z BI Ω3 = FI (2.5)
+
+where FS and FI are the derivatives of F with respect to S and ZI respectively, and F 0 S depends on the details of the compactification manifold, but is independent of S. The cutoff Λ0 corresponds to the transition between the highly warped region, modeled as a KS throat, and (relatively unwarped) rest of the compact Calabi-Yau manifold.
+
+The 3-form fluxes on the 3-cycles are 1
+
+1 (2π) 2α0
+
+F3 = Mα + M 0α0 − Miβ i,
+
+1 (2π) 2α0
+
+H3 = − Kβ − K0β 0 + K iαi.
+
+(2.6)
+
+where αi, β i are Poincare duals to the cycles Bi, A i and we have singled out the RR flux on the S 3 cycle at the tip of the throat, M, and its NSNS partner K. These are the fluxes responsible for the deformation of the conifold by the parameter S, as we shall review. The throat region is that of the Klebanov-Strassler solution (KS) [3], with the six dimensional metric of the defomed conifold 2
+
+ds 2 6 =| S|
+
+2/3 
+2 K (T ) 1 
+
+#### 3K 3(T ) dT
+
+2 + (g 5) 2 + sinh
+
+2 (T /2) (g 1) 2 + (g 2) 2
+
++ cosh
+
+2
+
+(T /2) (g 1) 2 + (g 2) 2 ,
+
+(2.7)
+
+where g i is an orthogonal basis of one-forms on the base of the cone and K (T ) = (sinh(2T ) − 2T ) 1/3
+
+2 1/3 sinh T
+
+. (2.8)
+
+The warp factor of the KS solution is H(T ) = 2 2/3gs(α0M) 2
+
+| S|
+
+4/3 I(T ) (2.9)
+
+where
+
+#### I(T ) = Z
+
+∞ T dx
+
+x coth x − 1 sinh
+
+2 x
+
+(sinh(2x) − 2x) 1/3 . (2.10)
+
+For large values of T one can introduce a more useful radial coordinate
+
+r 2 =
+
+3 2 5/3| S|
+
+2/3
+
+e 2T /3, (2.11)
+
+such that (2.7) approaches the conifold metric dr 2 + r 2ds 2 T11 . Since the NSNS flux increases by M units at every “cascade” (borrowing the dual gauge theory interpretation) the radial growth of the D3-charge dissolved in the fluxes is M 2ln(r).
+
+1The setup only requires one type of flux on each cycle. 2Note that taking T and g i to be dimensionless requires the deformation parameter S to be of dimension (length) 3.
+
+The UV cutoff Λ0 where the solution is glued to the compact Calabi-Yau solution is such that the total NSNS flux over the B cycle is K, according to (2.6):
+
+K =
+
+1 (2π) 2α0Z B H3 = 1 (2π) 2α0ZT ≤T 0Z S2 H3 , Λ 2 0 = 3 2 5/3| S| 2/3 e 2T 0/3 . (2.12)
+
+On a compact manifold the Bianchi identity for the five-form flux leads to the tadpole cancelation condition forcing the total D3-charge of the solution to be zero.
+
+MK + M 0K0 − MiK i + Q loc 3 = 0 . (2.13)
+
+The charge of localized D3-brane and O3-plane sources is
+
+Q loc 3 = ND3 −
+
+1 
+4 
+
+NO3 . (2.14)
+
+On T 6/Z2, where the Z2 reverses the sign of all coordinates, there are 2 6 = 64 O3-planes. On the other hand, if M I, KI are those of the T 6 without the Z2 action, there is an extra factor of 2, and the tadpole condition is
+
+MK + M 0K0 − M iKi = − Q loc 3 = 32 − 2ND3 + 2ND3 . (2.15)
+
+Although nobody has demonstrated the existence of an upper bound for the number of orientifold planes, or rather the number of possible Z2 actions with fixed points, on a given Calabi-Yau manifold 3, in all the examples used in the literature on moduli stabilization by fluxes, the number of O3-planes is always less or equal than 64. We will assume then that the tadpole cancelation condition is at best of the form (2.15). Of course, here we are restricting to compactifications that have a string theory perturbative description. In F theory compactifications there is a contribution to the tadpole from wrapped (p,q) 7-branes. This is nicely encoded geometrically by the Euler number of the elliptically fibred four-fold, which has no upper bound and can give a much higher contribution than (2.15).
+
+2.2 The Flux-induced Potential
+
+The fluxes (2.6) give rise to a potential that generically fixes the complex structure moduli 
+S, z i and the dilaton τ = C0 + ie− Φ. This potential comes from the Gukov-Vafa-Witten 
+superpotential [25] 
+1 
+(2π) 2α0 
+
+W =
+
+1 (2π) 2α0Z (F3 − τH3) ∧ Ω = − MFS − τKS − M 0F0 + MiZ i − τ K0Z 0 − K iFi .
+
+(2.16)
+
+3We thank Andre Lukas, David Morrison, Fabian Ruehle and Timo Weigand for discussions on this point.
+
+The potential for the complex structure modulus S involves the fluxes M and K, while it depends on the other fluxes only indirectly through the axion-dilaton τ , whose vev is determined by all fluxes. Furthermore, unlike the other “bulk” moduli, the potential for S is highly affected by the warp factor. Its functional form, derived in [16, 17] is 4
+
+VKS =
+
+π 3/2 
+κ10 
+
+gs (Im ρ) 3" c log Λ 3 0 | S|
+
++ c0
+
+gs(α0M) 2
+
+| S|
+
+4/3 #
+
+− 1
+
+M 2πi log
+
+Λ 3 0 S + i
+
+K gs
+
+2
+
+, (2.17)
+
+where gs is the stabilized vev of the dilaton, Im ρ = (Vol6) 3/2 (see Appendix A for more details), c denotes the constant value of the warp factor at the UV and will not be relevant here, whereas the constant c0, multiplying the term coming solely from the warp factor, denotes an order one coefficient, whose approximate numerical value was determined in [16] to be
+
+c0 ≈ 1.18 . (2.18)
+
+The potential VKS is plotted in Figure 1.
+
+S
+
+## V( S)
+
+Figure 1: The potential VKS of [16] for the complex structure modulus S of the Klebanov Strassler throat given in (2.17). The solid blue line corresponds to the full potential, while the dotted orange line does shows the na¨ıve potential that does not take into account the effects of warping (c0 = 0). Both potentials have the same supersymmetric minimum but differ drastically at small S.
+
+The potential (2.17) has a supersymmetric minimum, corresponding to ∂SW = 0, which, for S Λ 3 0, is at
+
+sKS ' Λ 3 0exp −
+
+2πK gsM
+
+. (2.19)
+
+4We follow the Einstein frame conventions of [24] and use 2κ 2 10 = (2π) 7α0 4.
+
+We define the quantity h, which measures the hierarchy between the UV and IR scales
+
+h = 3 ln
+
+Λ0 ΛIR =
+
+2πK gsM
+
+. (2.20)
+
+It is instructive to compute also the mass of S at this minimum. It can be obtained from m 2
+
+#### S ≡
+
+1 M 2 pl
+
+G
+
+SS¯
+
+∂S¯∂SV
+
+S=sKS
+
+. (2.21)
+
+The metric GSS¯, which is used to obtain VKS in (2.17) in the first place, is given in [16]:
+
+GSS¯ =
+
+1
+
+π k Ωk
+
+2 Vw c log Λ 3 0 | S|
+
++ c0
+
+gs(α0M) 2
+
+| S|
+
+4/3 ! . (2.22)
+
+Here k Ωk
+
+2
+
+= ΩijkΩ¯ijk/3! and Vw =
+
+R
+
+√g6H is the warped volume [26], with H the warp factor of the ten-dimensional solution (2.1). Thus
+
+#### k Ωk
+
+2
+
+Vw =Z H Ω ∧ Ω¯ . (2.23)
+
+Notice that k Ωk
+
+2
+
+Vw drops out of the potential itself. For small values of | S| the second term in (2.22), which is proportional to c0, dominates. This term accounts for the effects of the warp factor of the Klebanov-Strassler solution. Hence, in the regime where S = sKS is small we can effectively set c = 0 and obtain
+
+m 2 S =
+
+#### π 4 k Ωk
+
+2
+
+c0 2gsM 2
+
+s
+
+2/3 
+KS 
+α0 2 . (2.24) 
+
+On the other hand, if one ignores the contributions of the warp factor to the metric by setting c0 = 0 one finds
+
+m 2 S =
+
+#### π 2 k Ωk
+
+2 g 3 sM 4 4c 2K 2
+
+α0 2 s 2 KS
+
+. (2.25)
+
+A similar result has been obtained in [27], where it was concluded that the mass of S is thus exponentially large. However, as we have seen before, including the effects of the warping gives a qualitatively different result. This is consistent with our following analysis where we will show that S is so light that the addition of an anti-D3-brane has a non-negligible effect on its stabilization. Let us finally study the behavior of (2.17) in the decompactification limit towards an infinitly long Klebanov-Strassler throat. To perform this limit in a controlled way we should keep in mind that (2.12) implies that the flux K along the B-cycle grows logarithmically with Λ0. Therefore, one should not send only Λ0 to infinity but take instead the limit
+
+Λ0, K → ∞ with Λ 3 0exp −
+
+2πK gsM
+
+= fixed , (2.26)
+
+such that the minimum sKS in (2.19) stays always at the same position. So if one chooses initial values for Λ0, K and M such that sKS is small, it will remain small even if the throat becomes extremely long and we are still in the regime of validity of the potential VKS ((2.17)). To understand the behavior of VKS in the limit (2.26), we first notice that its numerator ∼ | ∂SW|
+
+2
+
+depends on Λ0 and K exlusively via their combination in sKS. Hence it does not change under (2.26). On the other hand, the denominator of (2.17) does not explicitly depend on K, but blows up for Λ0 → ∞ and fixed S:
+
+c log
+
+Λ 3 0 | S| + c0
+
+gs(α0M) 2
+
+| S|
+
+4/3 = c log Λ 3 0 + O (K 0Λ 0 0) → ∞ , (2.27)
+
+under (2.26). Therefore, VKS converges pointwise to a flat potential: VKS(S) → 0 for | S| > 0 . (2.28) This confirmes the intuition that S is an exact modulus of the infinite Klebanov-Strassler solution that can be varied without any cost in energy.
+
+2.3 The potential of an anti-D3 brane
+
+An anti-D3 at the tip of the throat uplifts the KS potential (2.17). The contribution to the potential is determined from
+
+SD3 = SDBI + SCS = − T3Z d 4x√− g4 1 + O (α0 2) ± T3Z C4 , (2.29)
+
+where the sign in front of the second term is determined by the charge of the brane, and T3 is given by
+
+T3 =
+
+1 (2π) 3α0 2 . (2.30) It is not hard to see that for the D3-brane in a background given by (2.1), the DBI and the CS pieces of the action cancel each other. Hence, for the D3-brane they add up and one finds
+
+VD3 = − 2T3C4 = 2 (2π) 3α0 2 H− 1. (2.31) Using the warp factor given in (2.9) we finally obtain
+
+VD3 =
+
+π 1/2 
+κ10 
+
+1 (Im ρ) 3
+
+2 1/3 I(τ ) | S|
+
+4/3 gs(α0M) 2 . (2.32)
+
+Because I(τ ), defined in (2.10), is a monotonically decreasing function, this expression has a minimum at τ = 0. Consequently, a D3-brane has minimal energy if it is placed at the tip of the throat. For later convenience we introduce
+
+c00 =
+
+2 1/3 I(0) ≈ 1.75 . (2.33)
+
+For N anti-D3 branes the potential is multiplied by N, and this is taken care by simply 
+replacing c00 → c00N. 
+In Figure 2 we plot the D3-potential VD3 together with the superposition of VKS with 
+VD3. 
+
+S
+
+## V( S)
+
+Figure 2: The contribution VD3 (solid blue line) of an D3-brane placed in the Klebanov Strassler throat to the potential for S. The two other lines represent the original potential VKS (dotted orange line) for the specific value √gsM = 6 as well as the superposition VKS + VD3 (dashed green line).
+
+##### 3 The Total Potential
+
+We consider the combined potential VKS + VD3 as illustrated in Figure 2. The analysis simplifies considerably if one neglects the first term in the denominator of VKS in (2.17), which can safely be done as long as
+
+gs(α0M) 2
+
+| S|
+
+4/3 log
+
+Λ 3 0 | S|
+
+. (3.1)
+
+In this regime of parameters VD3 gives only a constant contribution to the numerator of VKS and the critical points of the combined potential VKS + VD3 can be determined analytically. They are given by
+
+scrit = Λ 3 0exp −
+
+#### 2πK gsM−
+
+3 
+4±r 
+9 
+16− 
+
+4π gsM
+
+2c0c00 , (3.2)
+
+whereas the positive sign correspondents to a local minimum and the negative sign to a local maximum. Thus, the total potential for N anti-D3 branes has extrema only for 5
+
+√gsM > Mmin with Mmin =
+
+8 3√πc0c00 ≈ 6.8√N . (3.3)
+
+Otherwise the potential becomes monotonically increasing and the only minimum lies at s = 0. This is illustrated in Figure 3, where we plot the combined potential for different values of √gsM for a single anti-D3 brane, which we restrict to from now on since it gives the least strong constraint on √gsM. As we will show, this minimum value for √gsM is in strong tension with the tadpole cancelation condition and the requirement of a large hierarchy.
+
+gs M = 7 gs M = 5 gs M = 12
+
+S
+
+## V( S)
+
+Figure 3: The combined potential VKS + VD3 for one anti-D3 brane and √gsM = 5, 7 and 12. All three graphs are drawn for the same ratio K/M = 5. A local minimum only exists if M is larger than the threshold value Mmin ≈ 6.8.
+
+3.1 de Sitter minima and hierarchy
+
+Requiring the potential to have a critical point forces the lower bound √gsM & 6.8. On the other hand, there is another bound on MK from above by the tadpole cancelation condition (2.13)
+
+MK ≤ Q loc 3 . (3.4) Of course, this bound can only be saturated if there is one complex structure modulus since the flux required to stabilize additional moduli would contribute to the tadpole cancellation
+
+5 The factor of √gs was missing in the first version of this paper and has been corrected in [28]. We thank Ralph Blumenhagen for correspondence regarding this point. We furthermore corrected the numerical value of Mmin with respect to the first version.
+
+condition as well (moreover, the bound might not be integer). Inserting both bounds in the quantity h defined in (2.20), which determines the hierarchy of scales, gives
+
+h = 2π
+
+MK gsM 2 < 2π
+
+Q loc 
+3 
+M 2 
+min ≈ 4.6 . (3.5) 
+
+where the estimation above uses the value of | Q loc 3 | = 32 + 2 for an orientifold of a torus and one anti-D3 brane. We therefore conclude that in a compactification where antibranes do not cause throat runaways
+
+ΛIR ΛUV
+
+> 0.2 , (3.6) which cannot give rise to a de Sitter vacuum with a hierarchy of scales
+
+3.2 Conifold Runaways and de Sitter Swamplands
+
+It was recently conjectured by Obied, Ooguri, Spodyneiko and Vafa [19] that in all controlled compactifications
+
+|∇ V | ≥ aV , (3.7) for some constant a of order one in Planck units. This would exclude the existence of de Sitter vacua in perturbative string theory. In the previous section we have found that the existence of a de Sitter vacuum in our setup depends crucially on the amount of flux M along the A-cycle of the Klebanov-Strasler throat. Hence, we want to evaluate |∇ V | /V for different values of M. Assuming that all other complex structure moduli are stabilized and neglecting the con tribution of any K¨ahler moduli the expression we will compute is given by
+
+|∇ SV | V =p G SS¯ ∂SV ∂S¯V V . (3.8)
+
+with the metric GSS¯ given in (2.22). 
+As before we assume that | S| is small enough such that the second term in (2.22) domi 
+nates. In this limit we obtain 6 
+
+|∇ SV | V = π 1/2 k Ωk V 1/2 w √c0α0√gsM f(| S| )
+
+| S|
+
+1/3 , (3.9)
+
+where we have introduced
+
+f(s) =
+
+2 
+3 
+
++ 2πK + gsM log
+
+s Λ 3 0
+
+4π gsM
+
+(πK 2 + c0c00gs) + log
+
+s Λ 3 0
+
+4πK + gsM log
+
+s Λ 3 0 − 1
+
+. (3.10) 6The warped volume appearing in the inverse metric drops out in the conversion of string units into Planck units.
+
+This function has a minimum at
+
+s = exp −
+
+2πK gsM
+
+1
+
++√c0c00gs √πK
+
+, (3.11)
+
+where it takes the value
+
+fmin =
+
+2 
+3 
+1 − 
+
+√gsM
+
+Mmin
+
+, (3.12) with Mmin as in (3.3). Moreover, the asymptotic behavior of f(s) is given by f(s → 0) = f(s → ∞ ) = 2 3
+
+, (3.13)
+
+so fmin is a global minimum and bounds f(s) from below. 
+For √gsM > Mmin we find that fmin is negative and thus f(s) = 0 for some value of 
+s. Thus, the complex-structure modulus S is stabilized and the conjecture (3.7) does not 
+appear to hold along this direction. However, for this value of M there is no hierarchy of 
+scales, and hence the resulting cosmological constant is string scale. Furthermore, such a 
+large uplift will probably over-run the stabilization of the K¨ahler moduli, giving rise to other 
+runaway behaviors. 
+On the other hand, if √gsM < Mmin we find 
+
+#### |∇ SV | V ≥
+
+2π 1/2 k Ωk V 1/2 w
+
+3√c0α0√gsM
+
+1 | S|
+
+1/3 1 − √gsM
+
+Mmin
+
+. (3.14)
+
+To bring this into a less obscure form one has to canonically normalize the field S. From 
+(2.22) we know that its kinetic term is 
+1 
+κ 2 
+4 
+GSS¯ | dS| 
+
+2 = M 2 pl
+
+c0
+
+π k Ωk V 1/2 w gs(α0M) 2
+
+| S|
+
+4/3 | dS|
+
+2
+
+, (3.15)
+
+where we have again neglected the first term of GSS¯ which is subleading as long as | S| is small. Consequently, we should introduce another field φ defined by
+
+φ =
+
+3Mpl√c0 π 1/2 k Ωk V 1/2 w α0√gsMS 1/3 =
+
+3√gsM√c0
+
+#### 8π 4α0 k Ωk
+
+S 1/3, (3.16)
+
+which has mass dimension one and a canonical kinetic term. In the second step we used 
+M 2 
+pl = κ− 2 
+4 = VW κ− 2 
+10 . Moreover, rewriting (3.14) in terms of φ shows that 
+
+|∇ φV | V ≥
+
+2Mpl | φ|
+
+1 −
+
+M Mmin
+
+. (3.17)
+
+We would like again to emphasize that this calculation is done assuming a long throat and a very large hierarchy before the addition of the antibrane. Hence, both V and V0 can be arbitrarily small in Planck units (most of the other estimates of V0/V have been done in the regime of parameters where V is large). The fact that the conjecture (3.7) is still satisfied is a nontrivial confirmation.
+
+##### 4 Conclusions and Future Directions
+
+Our calculation indicates that adding antibranes to warped throats glued to Type IIB flux 
+compactications gives rise to a runaway behavior. The origin of this runaway is the fact that 
+the deformation parameter of the conifold is a very light field. The usual assumption that 
+all complex structure moduli can be integrated out before adding an anti-D3 brane should 
+thus be revised with care. 
+There are three ways to avoid the runaway behavior: 
+• The first is to work in F theory, where the D3 brane tadpole is canceled by flux on 7-branes whose negative D3-charge is encoded in the Euler number of the Calabi-Yau 4fold. These Euler numbers can be quite large, so these compactifications could in principle accommodate a throat with a large M and a lot of warping. The price is that from a string theory perspective one loses all perturbative control. 
+• The second is to try to construct stabilized de Sitter compactifications using huge uplift terms. These compactifications will generically have cycles of order the string length, and thus these constructions have no perturbative control either. 
+• The third is to use objects in string theory that are lighter than a single D3 brane. The first object one may think of is “half” an anti-D3 brane stuck to an orientifold plane [29], whose contribution to the effective potential is half of that of a regular anti-D3 brane. Blindly adding such a contribution to the potential of the stabilized warped deformed conifold throat will not help 7. Adding an orientifold plane at the bottom of a warped throat [30] will probably also modify some terms in the stabilization potential, and it would be interesting to accurately calculate the new upper bound on the hierarchy, but we do not expect it to be much different from the one we find. 
+
+Klebanov-Strassler black holes
+
+As we discussed in the Introduction, our results suggest that, despite the failure of numerics to find a KS black hole [22], such a black hole could exist in a certain temperature range. To see this, one should remember the technique used in the numerical construction of [22]: the putative KS black hole solution is parameterized by nine functions of one variable, satisfying coupled second-order differential equations. There are boundary conditions in the UV and at the black hole horizon, which ensure that the solution is physical and does not have non normalizable modes. After fixing these conditions one is left with several arbitrary constants both in the UV and in the IR expansions, and one finds these constants by shooting the eight functions both from the UV and from the IR, and making sure that they match in the middle. 7It will decrease the minimum value of √gsM by a factor of √2, and increase ΛIR/ΛUV from 1/5 to 1/25.
+
+The only solutions produced by this procedure were the KT black hole as well as black holes 
+where the chiral symmetry was broken explicitly by turning on a non-normalizable mode. 
+Since the numerics were done in the infinite KS solution, the potential VKS that stabilizes 
+the modulus corresponding to the deformation of the conifold (given in equation (2.17) and 
+discussed in detail in Section 2.2) is zero. Hence one may expect that any non-trivial amount 
+of energy, either coming from an antibrane or from a non-extremal black hole horizon, will 
+drive the conifold deformation to zero and bring one to the KT solution. This can be seen 
+explicitly by taking the infinite throat limit (2.26) of the full VKS +VD3 potential. Since VKS 
+vanishes in this limit while VD3 survives, the deformation of the conifold will be driven to 
+zero by the addition of any energy source. This appears to support the non-existence of KS 
+black holes. 
+However, the physics is a bit more subtle. In particular, when taking the infinite throat 
+limit, the energy of an antibrane evaluated at the scale of the holographic screen also be 
+comes vanishingly small, and one may hope that the vanishing of this energy contribution is 
+comparable to the vanishing of VKS, such that the full potential still has a metastable mini 
+mum. This can be seen explicitly by working in the regime of parameters given by equation 
+(3.1): in this regime the existence of a local minimum with antibranes is guaranteed as long 
+as the number of antibranes one adds is less than gs(M/6.8) 2, independent of the length of 
+the throat ! If, instead of antibranes, one tries to add a nonextremal black hole horizon at 
+a finite distance away from the tip of the deformed conifold, we also expect a metastable 
+minimum, and hence a KS black hole. 
+Thus, the question of whether the KS black hole exists boils down to the suitability of the 
+UV gluing of the KS solution to a compact CY to act as a holographic screen. Clearly, such 
+a black hole exists when the holographic cutoff, Λ0, is in the regime (3.1), which contains a 
+very large number of duality cascades in the dual gauge theory. Moreover, if the holographic 
+correspondence is correct, we do not expect the (infrared) physics of confinement and chiral 
+symmetry breaking (an hence the existence of a KS black hole) to depend on the location 
+of the UV holographic screen. Thus, the only possibility consistent with holography is that 
+gluing a KS throat to a compact CY is a correct model for a UV holographic screen only in 
+the regime of parameters (3.1). The independence of the IR physics on the location of the 
+holographic screen therefore supports the existence of a KS black hole. 
+The mass above extremality brought about by the black hole gives rise to a term in the 
+energy that has exactly the same dependence on S as the antibrane energy (2.32). Hence, if 
+the value of M is large we expect to find a KS black hole, whose mass is bounded above by 
+a term proportional to gsM 2. Of course, since this black hole is smeared over the S 3, whose 
+radius scales like M 1/2, the horizon radius (and hence the inverse temperature) would scale 
+like √M. Thus, when M is very large, we expect to find KS black holes at temperatures 
+higher than 1/√M. 
+
+It is clearly very important to try to construct this KS black hole, and thus confirm our prediction. The existence of this black hole would indicate that the confining gauge theory dual to the KS solution has a new intermediate-temperature phase, where chiral symmetry is broken but the quarks are not confined. Its numerical construction would allow us to ascertain the regime of parameters where this new phase dominates, and we hope the dis covery of this new phase to lead to new lattice investigations and a deeper understanding of the deconfinement and chiral symmetry breaking phase transitions of strongly-coupled quark-gluon plasmas.
+
+Note added: After this paper was submitted to the arXiv, our prediction for the existence of a KS black hole was confirmed by the numerical construction of this black hole in [31].
+
+Acknowledgements: We would like to thank S. Massai for useful early discussions on this topic. We have also benefited from interesting discussions with E. Iancu, A. Lukas, J. Maldacena, B. Michel, A. Micu, D. Morrison, A. Puhm, F. Ruehle, C. Vafa and T. Weigand. We thank R. Blumenhagen for correspondence regarding a missing factor of gs in some of the equations in the first version of this paper. This work was supported in part by the ANR grant Black-dS-String ANR-16-CE31-0004-01 and the ERC Consolidator Grant 772408-Stringlandscape.
+
+### Appendix
+
+##### A Four-dimensional supergravity description
+
+It is instructive to translate the 10d description of the conifold destabilization mechanism to 
+the language of four-dimensional supergravity. Before the uplift, the 4D description of the 
+Calabi-Yau compactification with O3 planes and fluxes is given by N = 1 supergravity with 
+1 + h 2,1 + h 1,1 chiral multiplets corresponding respectively to the axion-dilaton, the complex 
+structure moduli measuring sizes of 3-cycles and the K¨ahler moduli, which are a combination 
+of the size of the 4-cycles and the RR 4-form potential. 
+Three-form fluxes generate a superpotential for the complex structure moduli and the 
+dilaton, which are stabilized in a supersymmetric Minkowski vacuum. The K¨ahler moduli are 
+not fixed by the fluxes, and have moreover a runaway potential as (2.17) shows. However, the 
+presence of Euclidean D3-brane instantons (wrapping four-cycles of the Calabi-Yau manifold) 
+or gaugino condensation on D7-branes stretched along four-cycles generate a superpotential 
+for these moduli at the non-perturbative level. The details of this mechanism are not relevant 
+here, and some problems with it have been highlighted in [32], but we will show that even 
+if the KKLT K¨ahler moduli stabilization mechanism still works, it will not help in avoiding 
+the problem we found. 
+Assuming there is only one K¨ahler modulus, ρ, the potential has a supersymmetric AdS 
+minimum at 
+
+VAdS = − a 2A 2e− 2aIm ρ0 Im ρ0
+
+, (A.1)
+
+where A and a are parameters in the non-perturbative superpotential 8, and ρ0 is a solution to
+
+W0 = − Ae− aIm ρ0 1 + 2 3 aIm ρ0 , (A.2)
+
+where W0 is the flux-generated superpotential (2.16) evaluated at the values of the dilaton 
+and complex structure moduli that minimize the perturbative potential. In order for the 
+uplift mechanism to give a positive and small cosmological constant, one needs to fine-tune 
+W0 to a very small value. 
+Finally, the uplift can also be described in a manifestly supersymmetric formalism using 
+nonlinear supersymmetry with a nilpotent goldstino superfield [12–14]. Therefore, if there is 
+a mass gap we should be able to describe the whole action in terms of a supergravity action. 
+8The parameters A and a are not constants but depend actually on the complex structure and dilaton 
+moduli, but since these are fixed by a perturbative mechanism, their masses are assumed to be large enough 
+to decouple from the low energy effective theory for the K¨ahler modulus. 
+
+Introducing a nilpotent superfield X, it is indeed possible to write the K¨ahler potential at the perturbative level as
+
+K = − 3 log (− i(ρ − ρ¯)) − log (− i(τ − τ¯)) − log k Ω0k 2 V 2 w κ 12 4 !
+
++
+
+1
+
+#### π k Ω0k
+
+#### 2 Vw c| S|
+
+2 log
+
+Λ 3 0 | S|
+
++ 1 + 9c0gs(α0M) 2 | S| 2/3 + | X|
+
+2 , (A.3)
+
+where the warped volume Vw and k Ωk
+
+2
+
+are defined above (2.23). Here, k Ω0k
+
+2
+
+denotes the value of k Ωk
+
+2
+
+at fixed S, such that K depends on S only explicitly via the term in the second line. This K¨ahler potential should be understood as an S-expansion of the general K¨ahler potential derived in [26], reproducing the metric GSS¯ of [16,17], given in (2.22). On the other hand, assuming the dilaton and all other complex structure moduli besides S are fixed, the superpotential is 9
+
+κ 8 
+4 
+(2π) 2α0 
+
+W =
+
+M 2πi
+
+S ln
+
+Λ 3 0 S
+
++ 1 +
+
+i gs
+
+KS +√c00
+
+S 2/3
+
+α0√gsM
+
+X . (A.4)
+
+The field X satisfies the nilpotent constraint X 2 = 0. It contains the goldstino G localized on the antibrane and generates the Volkov-Akulov nonlinear supersymmetric Lagrangian. The solution of the constraint, in superspace language is
+
+X =
+
+GG
+
+2FX
+
++√2θG + FXθ 2 , (A.5)
+
+where θ is the fermionic superspace coordinate. The simplest string theory proposal for 
+the realization of the Volkov-Akulov action consists of putting a stuck D3 antibrane on top 
+of an O3− plane [29], which reduces the (anti)brane localized degrees of freedom to only 
+the goldstino [12]. Similar construction, much like the original string vacua with “brane 
+supersymmetry breaking” [33] also generate a nonlinear realization of supersymmetry on 
+the antibranes, as shown explicitly in [34]. The nilpotent constraint eliminates the scalar 
+partner of the goldstino, keeping the auxiliary field FX. Consequently, the scalar potential 
+is computed from the usual supergravity potential, by setting at the end X = 0. The last 
+term in the superpotential reproduces the antibrane uplift, redshifted by the S-dependent 
+prefactor. 
+Note that the nilpotent goldstino formalism is valid as long as FX 6 = 0. In the example 
+we consider (A.4), we find that FX = √c00S 2/3 
+α0√gsM and, since h Si 6 = 0, the formalism is indeed 
+valid. The stronger the warping the smaller the supersymmetry breaking. We expect in 
+
+9Note that this expression differs by a factor of κ− 8 4 from the superpotential used in the main part of this paper. This change is necessary to obtain a superpotential of the conventional mass dimension in four-dimensional supersymmetry.
+
+principle a maximum value of the warping also from the requirement that states decoupled 
+by the supersymmetry breaking to be heavy enough. 
+We work in the small complex structure limit S 1. Taking into account the fact that 
+one sets X = 0 at the end, the supergravity scalar potential can be approximated by 
+VSUGRA = κ 2 4e K G i¯DiW D¯W¯ 
+
+− 3| W|
+
+2 ' κ 2 4e K0 h G SS¯ | ∂SW| 2 + G XX¯ | ∂XW| 2 i . (A.6) The resulting expression matches correctly the scalar potential found in the previous sections
+
+VSUGRA = VKS + VD3 . (A.7)
+
+Adding the nonperturbative term generated by stringy instantons or gaugino condensation amounts to adding to the perturbative superpotential in (A.4) the nonperturbative term Wnp = Ae iaρ, and it is easy to see that this does not affect the conifold destabilization mechanism we found.
+
+##### References
+
+[1] J. M. Maldacena and C. Nunez, “Supergravity description of field theories on curved manifolds and a no go theorem,” Int. J. Mod. Phys. A 16, 822 (2001) [hep-th/0007018].
+
+[2] S. Kachru, R. Kallosh, A. D. Linde and S. P. Trivedi, “De Sitter vacua in string theory,” Phys. Rev. D 68 (2003) 046005 [hep-th/0301240].
+
+[3] I. R. Klebanov and M. J. Strassler, “Supergravity and a confining gauge theory: Duality cascades and χb-resolution of naked singularities,” JHEP 08 (2000) 052, [hep-th/0007191].
+
+[4] S. Kachru, J. Pearson and H. L. Verlinde, “Brane / flux annihilation and the string dual of a nonsupersymmetric field theory,” JHEP 0206, 021 (2002) [hep-th/0112197].
+
+[5] I. Bena, M. Grana and N. Halmagyi, “On the Existence of Meta-stable Vacua in Klebanov-Strassler,” JHEP 1009, 087 (2010) [arXiv:0912.3519 [hep-th]]. I. Bena, G. Giecold, M. Grana, N. Halmagyi and S. Massai, “On Metastable Vacua and the Warped Deformed Conifold: Analytic Results,” Class. Quant. Grav. 30, 015003 (2013) [arXiv:1102.2403 [hep-th]]. I. Bena, G. Giecold, M. Grana, N. Halmagyi and S. Massai, “The backreaction of anti-D3 branes on the Klebanov-Strassler geometry,” JHEP 1306, 060 (2013) [arXiv:1106.6165 [hep-th]]. I. Bena, M. Grana, S. Kuperstein and S. Massai, “Anti-D3 Branes: Singular to the bitter end,” Phys. Rev. D 87, no. 10, 106010 (2013) [arXiv:1206.6369 [hep-th]].
+
+[6] I. Bena, A. Buchel and O. J. C. Dias, “Horizons cannot save the Landscape,” Phys. Rev. D 87, no. 6, 063012 (2013) [arXiv:1212.5162 [hep-th]].
+
+[7] I. Bena, M. Grana, S. Kuperstein and S. Massai, “Giant Tachyons in the Landscape,” JHEP 1502, 146 (2015) [arXiv:1410.7776 [hep-th]]. I. Bena, M. Grana, S. Kuperstein and S. Massai, “Tachyonic Anti-M2 Branes,” JHEP 1406, 173 (2014) [arXiv:1402.2294 [hep-th]].
+
+[8] F. F. Gautason, D. Junghans and M. Zagermann, “Cosmological Constant, Near Brane Behavior and Singularities,” JHEP 1309, 123 (2013) [arXiv:1301.5647 [hep-th]]. U. H. Danielsson and T. Van Riet, “Fatal attraction: more on decaying anti-branes,” JHEP 1503, 087 (2015) [arXiv:1410.8476 [hep-th]].
+
+[9] D . Cohen-Maldonado, J. Diaz, T. van Riet and B. Vercnocke, “Observations on fluxes near anti-branes,” JHEP 1601, 126 (2016) [arXiv:1507.01022 [hep-th]]. D. Cohen-Maldonado, J. Diaz and F. F. Gautason, “Polarised antibranes from Smarr relations,” JHEP 1605, 175 (2016) [arXiv:1603.05678 [hep-th]].
+
+[10] B. Michel, E. Mintun, J. Polchinski, A. Puhm and P. Saad, “Remarks on brane and antibrane dynamics,” JHEP 1509, 021 (2015) [arXiv:1412.5702 [hep-th]].
+
+[11] I. Bena, J. Blaback and D. Turton, “Loop corrections to the antibrane potential,” JHEP 1607, 132 (2016) [arXiv:1602.05959 [hep-th]].
+
+[12] E. A. Bergshoeff, K. Dasgupta, R. Kallosh, A. Van Proeyen and T. Wrase, “D3 and dS,” JHEP 1505, 058 (2015) [arXiv:1502.07627 [hep-th]]. R. Kallosh, F. Quevedo and A. M. Uranga, “String Theory Realizations of the Nilpotent Goldstino,” JHEP 1512, 039 (2015) [arXiv:1507.07556 [hep-th]]. M. P. Garcia del Moral, S. Parameswaran, N. Quiroz and I. Zavala, “Anti-D3 branes and moduli in non-linear supergravity,” JHEP 1710 (2017) 185 [arXiv:1707.07059 [hep-th]].
+
+[13] M. Rocek, “Linearizing the Volkov-Akulov Model,” Phys. Rev. Lett. 41 (1978) 451; U. Lindstrom and M. Rocek, “Constrained Local Superfields,” Phys. Rev. D 19 (1979) 2300. R. Casalbuoni, S. De Curtis, D. Dominici, F. Feruglio and R. Gatto, “Nonlinear Realization of Supersymmetry Algebra From Supersymmetric Constraint,” Phys. Lett. B 220 (1989) 569; Z. Komargodski and N. Seiberg, “From Linear SUSY to Constrained Superfields,” JHEP 0909 (2009) 066 [arXiv:0907.2441 [hep-th]];
+
+[14] I. Antoniadis, E. Dudas, S. Ferrara and A. Sagnotti, “The Volkov-Akulov-Starobinsky supergravity,” Phys. Lett. B 733 (2014) 32 [arXiv:1403.3269 [hep-th]]; S. Ferrara, R. Kallosh and A. Linde, “Cosmology with Nilpotent Superfields,” JHEP 1410 (2014) 143 [arXiv:1408.4096 [hep-th]].
+
+[15] I. R. Klebanov and A. A. Tseytlin, “Gravity duals of supersymmetric SU(N) x SU(N+M) gauge theories,” Nucl. Phys. B 578, 123 (2000) [hep-th/0002159].
+
+[16] M. R. Douglas, J. Shelton and G. Torroba, “Warping and supersymmetry breaking,” arXiv:0704.4001 [hep-th].
+
+[17] M. R. Douglas and G. Torroba, “Kinetic terms in warped compactifications,” JHEP 0905 (2009) 013 [arXiv:0805.3700 [hep-th]].
+
+[18] N. Arkani-Hamed, L. Motl, A. Nicolis and C. Vafa, “The String landscape, black holes and gravity as the weakest force,” JHEP 0706, 060 (2007) [hep-th/0601001]. H. Ooguri and C. Vafa, “Non-supersymmetric AdS and the Swampland,” Adv. Theor. Math. Phys. 21, 1787 (2017) [arXiv:1610.01533 [hep-th]]. T. D. Brennan, F. Carta and C. Vafa, “The String Landscape, the Swampland, and the Missing Corner,” PoS TASI 2017, 015 (2017) [arXiv:1711.00864 [hep-th]].
+
+[19] G. Obied, H. Ooguri, L. Spodyneiko and C. Vafa, “De Sitter Space and the Swampland,” arXiv:1806.08362 [hep-th].
+
+[20] O. Aharony, A. Buchel and P. Kerner, “The Black hole in the throat: Thermodynamics of strongly coupled cascading gauge theories,” Phys. Rev. D 76, 086005 (2007) [arXiv:0706.1768 [hep-th]].
+
+[21] A. Buchel, “Finite temperature resolution of the Klebanov-Tseytlin singularity,” Nucl. Phys. B 600, 219 (2001) [hep-th/0011146]. A. Buchel, C. P. Herzog, I. R. Klebanov, L. A. Pando Zayas and A. A. Tseytlin, “Nonextremal gravity duals for fractional D-3 branes on the conifold,” JHEP 0104 (2001) 033 [hep-th/0102105].
+
+[22] A. Buchel, “Chiral symmetry breaking in cascading gauge theory plasma,” Nucl. Phys. B 847, 297 (2011) [arXiv:1012.2404 [hep-th]].
+
+[23] M. Grana and J. Polchinski, “Supersymmetric three form flux perturbations on AdS(5),” Phys. Rev. D 63, 026001 (2001) [hep-th/0009211].
+
+[24] S. B. Giddings, S. Kachru and J. Polchinski, “Hierarchies from fluxes in string compactifications,” Phys. Rev. D 66 (2002) 106006 [hep-th/0105097].
+
+[25] S. Gukov, C. Vafa and E. Witten, “CFT’s from Calabi-Yau four folds,” Nucl. Phys. B 584, 69 (2000) Erratum: [Nucl. Phys. B 608, 477 (2001)] [hep-th/9906070].
+
+[26] O. DeWolfe and S. B. Giddings, “Scales and hierarchies in warped compactifications and brane worlds,” Phys. Rev. D 67 (2003) 066008 [hep-th/0208123].
+
+[27] R. Blumenhagen, D. Herschmann and F. Wolf, “String Moduli Stabilization at the Conifold,” JHEP 1608 (2016) 110 [arXiv:1605.06299 [hep-th]].
+
+[28] R. Blumenhagen, D. Kl¨awer and L. Schlechter, “Swampland Variations on a Theme by KKLT,” JHEP 1905 (2019) 152 [arXiv:1902.07724 [hep-th]].
+
+[29] A. M. Uranga, “Comments on nonsupersymmetric orientifolds at strong coupling,” JHEP 0002, 041 (2000) [hep-th/9912145].
+
+[30] I. Garcia-Etxebarria, F. Quevedo and R. Valandro, “Global String Embeddings for the Nilpotent Goldstino,” JHEP 1602, 148 (2016) [arXiv:1512.06926 [hep-th]]. A. Retolaza and A. Uranga, “Orientifolds of Warped Throats from Toric Calabi-Yau Singularities,” JHEP 1607, 135 (2016) [arXiv:1605.01732 [hep-th]].
+
+[31] A. Buchel, “Klebanov-Strassler black hole,” arXiv:1809.08484 [hep-th].
+
+[32] S. Sethi, “Supersymmetry Breaking by Fluxes,” arXiv:1709.03554 [hep-th]. J. Moritz, A. Retolaza and A. Westphal, “Toward de Sitter space from ten dimensions,” Phys. Rev. D 97, no. 4, 046010 (2018) [arXiv:1707.08678 [hep-th]].
+
+[33] S. Sugimoto, “Anomaly cancellations in type I D9-D9-bar system and the USp(32) string theory,” Prog. Theor. Phys. 102 (1999) 685 [arXiv:hep-th/9905159]; I. Antoniadis, E. Dudas and A. Sagnotti, “Brane supersymmetry breaking,” Phys. Lett. B 464 (1999) 38 [arXiv:hep-th/9908023]; C. Angelantonj, “Comments on open-string orbifolds with a non-vanishing B(ab),” Nucl. Phys. B 566 (2000) 126 [arXiv:hep-th/9908064]; G. Aldazabal and A. M. Uranga, “Tachyon-free non-supersymmetric type IIB orientifolds via brane-antibrane systems,” JHEP 9910 (1999) 024 [arXiv:hep-th/9908072]; C. Angelantonj, I. Antoniadis, G. D’Appollonio, E. Dudas and A. Sagnotti, “Type I vacua with brane supersymmetry breaking,” Nucl. Phys. B 572 (2000) 36 [arXiv:hep-th/9911081].
+
+[34] E. Dudas and J. Mourad, “Consistent gravitino couplings in nonsupersymmetric strings,” Phys. Lett. B 514 (2001) 173 [hep-th/0012071]; G. Pradisi and F. Riccioni, “Geometric couplings and brane supersymmetry breaking,” Nucl. Phys. B 615 (2001) 33 [hep-th/0107090].

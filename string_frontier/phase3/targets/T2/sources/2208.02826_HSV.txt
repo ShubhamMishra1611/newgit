@@ -1,0 +1,1053 @@
+# Curvature corrections to KPV:
+URL: https://export.arxiv.org/pdf/2208.02826
+
+#### Curvature corrections to KPV:
+
+#### Do we need deep throats?
+
+Arthur Hebecker 1, Simon Schreyer 1, and Victoria Venken 1 1 Institute for Theoretical Physics, Heidelberg University, Philosophenweg 19, 69120 Heidelberg, Germany E-mail: a.hebecker@thphys.uni-heidelberg.de, s.schreyer@thphys.uni-heidelberg.de, victoria.venken@gmail.com
+
+Abstract: We consider α0 2 curvature corrections to the action of an NS5-brane which plays the key role in the metastability analysis of warped anti-D3-brane uplifts by Kachru, Pearson and Verlinde (KPV). Such corrections can dramatically alter the KPV analysis. We find that for the α0 2-corrections to be sufficiently small to recover essentially the leading-order KPV potential one needs a surprisingly large S 3 radius, corresponding to gsM > 20. In the context of the Large Volume Scenario (LVS) this implies a D3-tadpole of at least O (10 3 − 10 4). However, large α0 2-corrections do not necessarily spoil the uplift in KPV. Rather, as the curvature corrections lower the tension of the brane, a novel uplifting mechanism suggests itself where the smallness of the uplift is achieved by a tuning of curvature corrections. A key underlying assumption is the existence of a dense discretuum of gs. This new mechanism does not require a deep warped throat, thereby sidestepping the main difficulty in uplifting KKLT and LVS. However, all of the above has to be treated as a preliminary exploration of possibilities since, at the moment, not all relevant corrections at the order α0 2 are known.
+
+Contents
+
+1 Introduction 1 
+2 Curvature corrections to KPV 4 
+2.1 Reviewing KPV 4 
+2.2 Curvature corrections 7 
+2.3 Curvature-corrected KPV potential and conservative bounds on uplifts 9 
+2.4 Optimistic bounds on uplifts 12 
+2.5 Uplifting without deep throats? 15 
+2.6 Open issues 17 
+3 Implications for model-building 20 
+
+4 Conclusions and Outlook 22
+
+A Curvature computations 25
+
+1 Introduction
+
+The set-up of Kachru, Pearson and Verlinde (KPV) [1] is one of the leading proposals for 
+controlled, spontaneous SUSY breaking in string theory. In KPV, a set of anti-D3-branes 
+at the tip of a Klebanov-Strassler throat polarize into a fluxed NS5-brane, which may then 
+decay to restore SUSY or remain metastable 1 at finite radius, ideally in a regime controlled 
+in 10d supergravity. 
+Our goal is to study α0 2 curvature corrections to the NS5-brane of KPV, which is clearly 
+essential to control metastability. We will show that such corrections can significantly alter 
+the KPV story. To maintain the validity of the leading-order KPV analysis, a strong lower 
+bound on the radius ∼√gsMα0 of the tip of the throat has to be imposed. Here gs is the 
+string coupling and M counts the units of 3-form flux on the 3-cycle in the throat. If gsM is 
+small, violating the above bound, α0 2-corrections significantly modify the story of KPV and 
+the possibility of a novel uplifting mechanism suggests itself. 
+We came to consider α0 2 corrections in the KPV set-up by first thinking about corrections 
+to the anti-brane uplift, as an essential ingredient in the KKLT [4] and Large Volume Scenario 
+(LVS) [5, 6]. We will start by reviewing this simpler anti-D3-brane setup as a motivation 
+and to provide a simplified version of the more complete NS5-brane story which we develop 
+subsequently. 
+
+1 The corresponding tunneling transitions are key in defining the lifetime of the non-SUSY vacuum [2, 3].
+
+In recent years, concerns have been raised about the existence of de Sitter vacua in string theory (see e.g. [7, 8]). In particular, a series of recent papers [9–11] has scrutinized the conditions required to achieve a de Sitter vacuum in the LVS using an anti-D3-brane uplift. An effect which was not considered in [10] but was crucial to [9, 11] derives from the α0 2 curvature corrections to the action of the anti-D3-brane responsible for the uplift. They lead to the anti-D3-induced potential 2
+
+VD3 = µ3e− φ 1 − (4π 2α0) 2 384π2 R α aαb R
+
+a bβ
+
+β = µ3e− φ 1 −
+
+c (gsM)2 , (1.1)
+
+where a, b are normal indices and α, β are tangent indices relative to the brane. References 
+[9, 11] demanded that the anti-D3-curvature corrections should be small compared to the 
+leading order DBI action. In our opinion, (1.1) does not necessarily imply such a strong 
+constraint, as we now explain: 3 
+Note first that the curvature correction appears in the 4D scalar potential as a term 
+which has the same dependence on the Kahler moduli as the tree-level tension. This curvature 
+correction then does not alter the basic set-up of the LVS uplift. One can absorb the curvature 
+correction into a redefinition of the anti-D3-brane tension, effectively lowering the tension. 
+As a result, having a curvature correction of the same order of magnitude as the tree 
+level tension is not dangerous to the LVS. In fact, it is helpful as the entire purpose of the 
+warped throat is anyway to lower the effective tension of the anti-D3-brane. Reducing the 
+tension through curvature corrections by an O (1) factor will then slightly reduce the amount 
+of warping needed at the tip of the throat to achieve a de Sitter uplift rather than a runaway. 
+The curvature correction will only become dangerous when (gsM) 2 < c since, in this case, 
+the brane gives a negative contribution to the potential and is unable to provide an uplift. 
+Very intriguingly, if the tension can become negative in this manner, this opens up the 
+prospect for a new uplifting mechanism: We know that for very large gsM the anti-brane 
+tension is positive and essentially uncorrected by curvature terms. Let us assume that, for 
+small gsM, the anti-brane tension turns negative. Now, given a sufficiently dense discretuum 
+of the parameter gsM, which is likely due to the flux dependence of gs, it should be possible to 
+realize a positive anti-brane tension which is tuned to be hierarchically smaller than its flat 
+space value. One may then use this mechanism to tune the uplifting term in the potential to 
+achieve a metastable vacuum rather than a runaway. There is no need to rely on a deep warped 
+throat. This mechanism could be used in KKLT or LVS. Crucially, the strong constraints 
+
+2 We believe that c should be 3 × 1.9747 rather than 1.9747 as in [9, 11]. We obtain 1.9747 when setting the first derivative of the warp factor h(τ ) to zero after computing the Riemann tensor. However, we obtain three times this result when setting the first derivative of the warp factor to zero only after the scalar curvature squared expressions have been computed . The difference arises as the scalar expressions contain terms h0(τ )/τ , which give a finite contribution at the tip, τ → 0. By contrast, these terms are lost when setting h0(τ ) = 0 too early. A more detailed discussion of curvature computations follows in Sect. 2 and App. A. 3 Of course, curvature corrections may affect the compactification through effects independent of the modi fied D3-tension in (1.1). We comment on such effects in Sect. 2.5, but much more work is needed if one really wants to gain confidence in a regime where the curvature is partially high.
+
+associated with the large D3-tadpole contribution coming from a deep warped throat are 
+avoided. 
+One may object to this picture: If the α0 2-corrections are sufficiently large to make the 
+anti-brane tension negative, surely one should also consider e.g. α0 4-corrections and these 
+might contribute positively to the tension. It is then conceivable that, with all corrections 
+summed up, the anti-brane tension is positive for all gsM. While this may be hard to 
+determine, it is clear that there are two logical possibilities: 
+First, with all corrections taken into account the anti-D3-brane tension may always re 
+main positive. Corrections shifting the anti-brane tension as in (1.1) are then never a cause 
+for concern. 
+Second, the anti-brane tension may become negative for some value of gsM. Corrections 
+like those in (1.1) are then dangerous and one should demand that they remain sufficiently 
+small. However, it is sufficient to require that the corrections are small enough for the anti 
+brane tension to remain positive, it is not necessary to demand that they are parametrically 
+small as done in [9, 11]. Moreover, in this case an alternate uplifting mechanism emerges 
+which does not rely on the deep warped throat but instead tunes the anti-brane potential to 
+be exponentially small because of curvature corrections. 
+All this being said, the anti-D3-brane does have decay channels. Their existence threatens 
+the optimistic story just developed. The best-understood decay channel arises because p anti 
+D3-branes puff up into an NS5-brane with p units of 2-form flux, as described by KPV [1]. 
+This NS5-brane configuration represents a metastable local minimum for p/M < 0.08. If, on 
+the contrary, p/M > 0.08, the classical decay corresponding to the annihilation of the anti 
+D3-branes against the background flux in the throat becomes possible. Clearly, to establish 
+or disprove our optimistic anti-D3-story sketched earlier, it is necessary lift the discussion 
+of α0 2 corrections to the technical level of KPV and hence to curvature corrections for the 
+NS5-brane. This is the goal of our paper. 
+To see more clearly why α0 2 corrections are crucial, let us recall some well-known 
+parametric estimates for KPV and the anti-D3-uplift: The warp factor of the throat is 
+∼ exp(− 8πN/3gsM 2), where N is the contribution of the throat to the total D3 tadpole. 
+Hence, gsM 2 is a key phenomenological quantity and it may be constrained as follows: First, 
+p/M < 0.08 together with p ≥ 1 imply M ≥ 12. Second, for supergravity control the radius 
+of the S 3 at the tip of the throat, which scales like RS3 ∼√gsM, should be large. Imple 
+menting this through the condition gsM 1 one finds gsM 2 & 12. However, this argument 
+is dubious in that for hierarchical supergravity control one must demand gsM 1, not just 
+gsM & 1. If one wishes to use a bound of the form gsM & O (1), one must compute the actual 
+numerical coefficient for this bound and this is where α0 2 corrections become important. De 
+pending on the precise coefficients, the final bound can become either significantly stronger or 
+weaker than gsM 2 & 12. Jumping ahead, let us quote some of our results: The conservative 
+requirement of a metastable NS5 configuration in the curvature-corrected analysis suggests 
+gsM & 20. It turns out that in this situation the choice p = 2 is optimal, which together with 
+gs < 1 and p/M < 0.08 implies M ≥ 25 and gsM 2 & 500. As we shall see, the actual impact 
+
+of α0 2 corrections is more intricate, but the above should suffice to provide a feeling for their 
+importance. 
+Most optimistically, one may only demand that the barrier preventing the decay of the 
+curvature-corrected NS5 is at positive potential. This leads to gsM & 4 and hence, using also 
+p = 1, p/M = 0.08 and M = 12, it implies gsM 2 & 48. 
+While the leading-order KPV analysis suggests gsM 2 > 12, it has been proposed that 
+avoiding a conifold instability for an anti-brane in the Klebanov-Strassler throat requires 
+gsM 2 > 46 [12–16]. Recently, the existence of this instability has been questioned [17]. 
+However, in light of our results it appears that the curvature-corrected KPV stability bound is 
+much stronger than previously thought, possibly dominating any potential conifold instability 
+issue. 
+Instead of considering the Klebanov-Strassler throat for the uplift one may consider the 
+S-dual set-up [18] where K units of H3-flux are present on the S 3 cycle in the throat. Now 
+the anti-D3-branes puff up into a D5-brane at the tip 4. We expect our analysis to go through 
+analogously in this set-up, with the difference that in Klebanov-Strassler the radius of the 
+tip is set by √gsM while in the S-dual the radius is set by √K. We will consider KPV 
+rather than its S-dual as this is the more commonly discussed set-up, but the S-dual has the 
+advantage that we are more certain about curvature corrections. 
+Finally, it is a key question whether our novel fine-tuned uplifting mechanism will still 
+work, even after lifting the simplified anti-D3 curvature correction analysis to the level of 
+the NS5-brane. A sufficient condition would be that the maximum of the KPV potential is 
+lowered to zero value while remaining in the calculationally controlled regime. Our analysis 
+of expected α0 2 terms does indeed show such a behaviour of the potential barrier. But this is 
+clearly insufficient to claim success. From the perspective the curvature-corrected NS5-brane 
+analysis, the novel fine-tuned uplifing mechanism remains only an intriguing possibility. To 
+establish this proposal, much more work is required. 
+An essential shortcoming of our analysis is that we have only taken into account the pure 
+curvature corrections, which are known for the D5-brane case and which we have adapted to 
+the NS5-brane. We expect further corrections involving flux which may be equally important 
+and which are expected to change crucial numerical coefficients in our results. While we 
+believe that our parametric results in terms of these numerical coefficients are robust, a 
+complete analysis with all terms has to be performed in future work. 
+
+2 Curvature corrections to KPV
+
+2.1 Reviewing KPV We start by briefly reviewing the set-up of KPV [1]. For this and the computation of the curvature corrections to the NS5-brane, we consider the Klebanov-Strassler throat with metric
+
+4 We thank Thomas Van Riet for making us aware of this interesting set-up.
+
+– 4 – [19, 20]
+
+ds 2 = h− 1/2(τ )dxµdx µ + h 1/2(τ )ds 2 6, (2.1) where dxµdx µ is the metric of 4D Minkowski space and ds 2 6 the metric of the deformed
+
+conifold:
+
+ds 2 6 =
+
+K(τ ) 2
+
+dτ 2 + (g5) 2 3K3(τ )
+
++ cosh 2(τ /2)((g3) 2 + (g4) 2) + sinh 2(τ /2)((g1) 2 + (g2) 2) . (2.2)
+
+Here, the one-forms g 1..5 (see e.g. [20]) parametrize the five directions of the T 1,1, which can be viewed as an S 2 fibration over S 3, and
+
+K(τ ) =
+
+(sinh(2τ ) − 2τ ) 1/3 21/3 sinh(τ )
+
+. (2.3)
+
+The warp factor is given by h(τ ) = gsMα0 2 2/3I(τ ), I(τ ) = Z
+
+∞
+τ
+
+dx
+
+x coth(x) − 1 sinh 2(x)
+
+(sinh(2x) − 2x) 1/3 . (2.4)
+
+Here M counts the units of F3-flux on the A-cycle of the KS throat. 
+If p anti-D3-branes are placed at the tip of this throat, they can puff up into an NS5-brane 
+with p units of worldvolume flux. This NS5-brane wraps an S 2 inside the S 3 whose metric 
+can be written as 
+
+R 2 S3 dΩ 2 3 = R 2 S3 dψ 2 + sin 2(ψ) dΩ 2 2 , (2.5)
+
+where 5 RS3 = b0√gsM and b 2 0 = 2a
+
+1/2 0 /6 1/3 ≈ 0.93266 with a0 = I(0) ≈ 0.71805. As realized by KPV [1], this opens up a potential decay channel: The NS5 can slip over the equator, with its anti-D3 charge annihilating against 3-form flux. Eventually, the NS5 turns into M − p D3-branes and supersymmetry is restored. The key quantity determining whether this decay process can take place is p/M: For small enough values of p/M, a meta stable minimum below the equator exists. KPV quantify this by deriving the potential V (ψ) of the NS5 at leading order in α0 (cf. Fig. 1):
+
+VKPV(ψ) =
+
+4π 2pµ5 gs
+
++
+
+4πµ5M
+
+gs s b 4 0sin 4(ψ) + p π M− ψ + 1 2 sin(2ψ) 2
+
+− ψ + 1
+
+## 2 sin(2ψ)
+
+.
+
+(2.6) 
+In the small ψ expansion of (2.6), the meta-stable minimum sits at ψmin ≈ 2πp/(b 4 0M). It 
+disappears when p/M & 0.08 ≡ (p/M)∗ . At this value, the minimum and the maximum 
+merge to form an inflection point. 
+The radius of the NS5 at the minimum is given by RNS5 ≈ 2π(p/M)√gsM /b 3 0. By 
+
+5 We work in units where α0 = 1 except where we explicitly display α0 for clarity.
+
+Figure 1. The potential VKPV(ψ) (suitably normalized) for different values of p/M.
+
+increasing gsM at fixed value of p/M, this radius can be made large in string units. Note, 
+however, that this is not the same as making M large while keeping p fixed: In this limit, 
+RNS5 approaches the string length such that the solution can not be trusted. 
+Let us make two comments concerning this regime of small p/M at large S 3 radius 
+∼√gsM: First, this regime is of great interest since, if one uses the KS throat to uplift an 
+AdS vacuum of type IIB supergravity, the D3 tension is warped down by exp(− 8πN/3gsM 2). 
+Here N is the total D3 charge of the throat. Hence, to have large warping without excessive 
+N, one wants M not to become too large. As a result, one wants p to be as small as possible. 
+Second, this regime is under partial control even though the NS5 radius at the minimum 
+is small. Namely, the maximum of VKPV(ψ) still corresponds to large NS5 radii and is hence 
+trustworthy. In fact, as can be seen in Fig. 1, independently of the value of p/M, the position 
+of the maximum is quite stable and only increases slightly as p/M decreases. The minimal 
+value of the maximum ψ∗max (corresponding also to the inflection point) can be approximated 
+by ψ∗max = ψmin| (p/M)∗ ≈ 0.58. For p/M → ∞ the position of the maximum approaches 
+ψmax ≈ 1.154. Thus, we can be sure of the maximum and hence of the existence of a 
+minimum to the left of it, even if the minimum itself can not be controlled. 
+Since our discussion will remain at the probe level, we briefly comment on the regime of 
+validity of the probe approximation: At the very least, the radius Rback of the gravitational 
+backreaction of any brane we consider should be small compared to the S 3 radius ∼√gsMα0. 
+The condition for the metric deformation near a k-dimensional brane (a ‘(k− 1)-brane’) in 
+
+d dimensions to be small reads Tk/M d− 2 10 R d− k− 2
+
+O (1), where Tk is the tension, 1/M d− 2 10 
+the coupling constant, and R the distance to the brane. Solving this for R in the case of p 
+anti-D3-branes gives R 2 
+back ∼√pgsα0 and hence the condition for backreaction to be small 
+
+reads
+
+√pgs gsM or
+
+p M
+
+gsM . (2.7)
+
+This can be compatible with large p/M. Moreover, one can perform the same analysis for the backreaction of an NS5-brane with p units of worldvolume gauge flux. One reads off from (2.6) that the tension of such a fluxed NS5 at ψ ∼ O (1) and p M is ∼ (p/g 2 sM)α0− 3. This leads to the same bound (2.7) on the ratio p/M.
+
+2.2 Curvature corrections 
+The KPV analysis of Sect. 2.1 can be substantially affected by α0 corrections if the curvature 
+at the tip of the throat is not very small. As discussed below, such corrections are suppressed 
+by 1/R 4 S3 ∼ 1/(gsM) 2, which for phenomenological reasons can not be taken to zero with 
+arbitrary precision. 
+Let us start by recalling the curvature corrections to the string-frame DBI action of a 
+Dp-brane [21, 22]. For a constant dilaton, the Dp-brane DBI action with the α0 2 curvature 
+corrections included at leading order in gs reads 
+
+Scurv, Dp = −
+
+µp
+
+gsZM p+1 d p+1ξq− det (gµν + F µν) 1 −
+
+(2π) 4α0 2
+
+24 ·
+
+32π2 (RT )αβγδ(RT ) αβγδ
+
+− 2(RT )αβ(RT ) αβ − (RN )γδab(RN ) γδab + 2RabR ab ,
+
+(2.8)
+
+where µp is the brane tension, and F µν = Bµν + 2πα0Fµν, with F the worldvolume field 
+strength. The detailed definitions of the various curvature-squared terms and their indices 
+are given in App. A. 
+We could now consider S-dualized Klebanov-Strassler (SDKS) [18], a warped throat ge 
+ometry in IIB string theory where one has K units of H3-flux on the S 3 which remains of 
+finite size at the tip of the throat. The p anti-D3-branes can then puff up into a D5-brane 
+wrapping an S 2 on the S 3 at the tip of the throat, entirely analogously to how in KPV the 
+anti-D3-branes puff up into an NS5. We shall instead discuss our results in terms of the KPV 
+set-up in the KS throat. As we will see, we expect the leading curvature corrections to be of 
+the same form and at the same order in gs compared to the leading term in the DBI action 
+for both the D5-brane and the NS5-brane. We then expect our analysis to be analogous for 
+either the NS5-brane in KPV or the D5-brane in the S-dual set-up, with the difference that 
+in the Klebanov-Strassler throat the tip radius is set by √gsM while in the S-dual it is set 
+by √K. 
+What are the curvature corrections on the NS5-brane? One may obtain curvature cor 
+rections by S-dualizing the D5-brane action from (2.8), i.e. replacing gs → 1/gs. This yields, 
+
+after Weyl rescaling gµν → gµν/gs,
+
+Scurv, NS5 S-duality = −
+
+µ5 
+g2 
+sZM 6 
+d 6ξq− det (gµν + 2πgsF2 µν − gsC2 µν) 1 − g 2 s (2π) 4α0 2 
+
+24 ·
+
+32π2
+
+(RT )αβγδ(RT ) αβγδ − 2(RT )αβ(RT ) αβ − (RN )γδab(RN ) γδab + 2RabR ab . (2.9)
+
+We see that these curvature corrections are g 2 
+s suppressed compared to the leading-order DBI 
+action, while the D-brane curvature terms were leading order in gs. One expects such g 2 
+s 
+corrections for gravitons from loop corrections in the worldvolume field theory on the NS5- 
+brane [23]. By contrast, the curvature corrections on the D5-brane arise at the disk level and 
+are enhanced by a factor 1/gs compared to 1-loop expectations. This leads to a conundrum, 
+as we explain in the two following paragraphs: 
+Consider a fivebrane (either D5 or NS5) with geometry R 1,3 
+× S 2 and p units of worldvol 
+ume flux on the 2-sphere. One can consider this brane either in flat 10D space or in the KS 
+throat with the NS5-brane wrapping an S 2 in the A-cycle or the D5-brane wrapping an S 2 
+in the B-cycle. The analysis is the same in both scenarios as the curvature of the background 
+becomes negligible relative to that of the S 2 once the latter is taken to be small. Now consider 
+shrinking the S 2 to zero size. The resulting object is a threebrane with the same quantum 
+numbers as p (anti)-D3-branes. We then assume in line with KPV that this object must be 
+a stack of p anti-D3-branes. 
+Next, consider our fivebrane action as we shrink the S 2 radius RS2 to zero size. We 
+look first at the DBI action at leading order in α0. As RS2 → 0, one has 
+
+R
+
+S2√g − B2 → 0
+
+and
+
+R
+
+S2√g − gsC2 → 0, while one always has (2π/gs)
+
+R
+
+S2 F2 = 4π 2p/gs for the D5 and
+
+(2π/g 2 s)
+
+R
+
+S2 gsF2 = 4π 2p/gs for the NS5-brane. We then see that for both fivebranes this limit reproduces the leading order action of anti-D3-branes, (2.8). Now consider the α0 2 terms on the fivebranes as one sends RS2 → 0. Clearly for the D5-brane, (2.8), one reproduces the gs scaling of the R 2 terms for the anti-D3-branes. That the precise index structure for the R 2 terms of the D5 is such that it matches onto the result for a stack of p anti-D3-branes is something we assume for consistency of the theory. We will comment more on this in Sect. 2.6. However, when we perform the RS2 → 0 analysis for the NS5-brane, (2.9), we see that the resulting α0 2 action is g 2 s suppressed compared to the result required for the anti-D3-branes. Given that by assumption we must reproduce p anti-D3-branes from the NS5-brane when sending RS2 → 0, we conclude that the NS5-brane action must also have R 2 terms at leading order in gs. Which index structure should this leading term have? Since we asserted that for the D5-brane this index structure should be given by the α0 2 term of (2.8) and the limit RS2 → 0 operates entirely analogously for the NS5 and D5-brane, we propose that in order to obtain the correct anti-D3-brane limit the leading order in gs curvature correction for the
+
+NS5-brane should have the same index structure as that for the D5-brane. We then have
+
+Scurv, NS5 = −
+
+µ5 g2 sZM 6 d 6ξq− det (gµν + 2πgsF2 µν − gsC2 µν) 1 −
+
+(2π) 4α0 2
+
+24 ·
+
+32π2(1 + g 2 s)
+
+(RT )αβγδ(RT ) αβγδ − 2(RT )αβ(RT ) αβ − (RN )γδab(RN ) γδab + 2RabR ab + O (gs) . (2.10)
+
+In what follows we shall only consider this NS5-brane action at leading order in gs. Note that 
+after S-duality this leading order term should contribute to the (unknown) g 2 
+s suppressed, 
+2-loop term for the D5-brane. Such a term is indeed expected to arise for gravitons from field 
+theory loops in an effective field theory on the D5-brane worldvolume [23], analogously to how 
+we also expected such g 2 
+s suppressed corrections to arise on the NS5-brane worldvolume. This 
+provides a further argument that such a leading order in gs curvature term on the NS5-brane 
+should exist. We finally note that a 1-loop R 2 term is also expected to be present on the D5. 
+It would dualize to an O (gs) R 2 on the NS5, as displayed at the very end of (2.10) above. 
+
+2.3 Curvature-corrected KPV potential and conservative bounds on uplifts To find the contribution of the NS5-brane to the 4d potential, we evaluate the curvature correction in (2.10) as explained in more detail in App. A and use the values I(0) = a0, I0(0) = 0, and I00(0) = − 2 2/3/3 4/3. Keeping only the leading order in gs, one then has to integrate these terms over the S 2 wrapped by the NS5 which yields (this integral is also calculated in [1])
+
+Vcurv(ψ) = −
+
+1 (gsM)2 c1 + 2c2 cot 2 ψ + c2 cot 4 ψ
+
+µ5
+
+### g2 sZ S2p g + 2πgsF
+
+= −
+
+1 (gsM)2 c1 + 2c2 cot 2 ψ + c2 cot 4 ψ
+
+4πµ5M
+
+gs
+
+×s b 4 0sin 4(ψ) + p π M− ψ + 1 2 sin(2ψ) 2 ,
+
+(2.11)
+
+where c1 ≈ 8.825 and c2 ≈ 1.891. The analysis of KPV should now be redone including (2.11), i.e. by considering
+
+Vtot(ψ) = VKPV(ψ) + Vcurv(ψ). (2.12) 
+The task is to determine how the KPV bound gsM 2 > 12 (which follows from p/M ≥ 0.08 
+together with gsM > 1) is modified. 
+In the analysis of KPV, the only parameter determining whether a metastable minimum 
+exists is the combination p/M. By including the correction (2.11), there are now two param 
+eters which determine the shape of the potential Vtot(ψ): p/M and gsM. In addition, Vtot(ψ) 
+contains an overall factor 1/g 2 
+s which sets the overall magnitude of the potential but does not 
+
+Figure 2. The potential Vtot = VKPV(ψ) + Vcurv(ψ) for different values of p/M and gsM in units µ5 = 1. For each set of values of gsM, gs is chosen such that the potential is suitably normalized.
+
+affect its shape 6. 
+The potential Vtot(ψ) is plotted for some sample values of p/M and gsM in Fig. 2. Besides 
+the fact that the original and corrected KPV potential may or may not have a metastable 
+minimum, the corrected potential has a very different appearance when compared to the 
+original KPV result in Fig. 1. The most notable difference to KPV is that Vtot(ψ) always has 
+a maximum and always diverges to −∞ as ψ → 0, π. These features are due to the extrinsic 
+curvature corrections, which are dominant when the S 2 wrapped by the NS5-brane shrinks 
+to a small sphere as they introduce terms ∼ cot 2 ψ and ∼ cot 4 ψ in the potential. Not to 
+overrate these features, it is crucial to be aware of the limitations of our analysis. 
+We have only considered α0 2 corrections. As the NS5-brane shrinks, corrections at higher 
+orders in α0 become increasingly important. Because of this, we can only trust our analysis 
+in the central region of the potential. Further, even at order α0 2 we have only accounted 
+for those pure curvature corrections which we know, ignoring completely the effect of flux 
+at order α0 2. We expect that these additional corrections prevent any divergent behaviour 
+in the potential. We also assume that, after taking all corrections at all orders in α0 into 
+account the potential at ψ = 0 matches the (all-orders corrected) potential for p nonabelian 
+anti-D3-branes. Similarly, the potential at ψ = π should match the (all-orders corrected) 
+
+6 Interestingly, the corrections to KPV due to conifold dynamics also only depends only on p/M and gsM [16], suggesting that there may be a convenient way to deal with corrections to KPV due to conifold dynamics and due to curvature simultaneously. We thank Vincent Van Hemelryck for making us aware of this point.
+
+potential for M − p nonabelian D3-branes. 7 
+At intermediate values of ψ, the all-orders-corrected potential may or may not feature a 
+local maximum and metastable minimum depending on the parameters. Note that unlike for 
+VKPV, the potential at ψ = π need not be zero. This is due to the α0 terms in the action of 
+the M − p D3-branes left over in the throat after the p anti-branes have annihilated against 
+flux. 
+
+(a) (b)
+
+Figure 3. The yellow area shows the region in the (gsM, p/M)-parameter space where a meta-stable minimum exists. (a) is a log-log-plot for a wide range of parameters and (b) zooms into the region of smallest allowed values of gsM.
+
+In Fig. 3 we show for which ranges of p/M and gsM the potential Vtot(ψ) has a metastable 
+minimum. The tip of this shark fin region is at p/M = 0.0826 and gsM = 20.363. The 
+upper horizontal bound is a slightly weakened version of the KPV bound p/M < 0.08. This 
+weakening is expected since Vcurv always possesses a maximum that facilitates the existence 
+of the local KPV minimum at smaller values of ψ. The horizontal line asymptotes to agree 
+with KPV precisely as gsM grows. 
+The second, diagonal line bounding the shark fin from below corresponds to the α0 2 
+curvature corrections being significant enough to destroy the metastable minimum through 
+a runway to ψ = 0. 8 Crucially, the loss of a metastable minimum at order α0 2 does in this 
+case not imply that the fully corrected potential has no metastable minimum. It is just that 
+this minimum may be outside the controlled regime. This may also be the reason why the 
+7 
+When saying ‘all orders’ we mean including non-perturbative effects. 
+
+8 In the interval gsM ∈ [20.363, 100], this part of the bound can be approximated by p M
+
+(gsM) = 0.0313227 +
+
+2.73449 gsM −
+
+72.7164 (gsM) 2 +
+
+1182.92 (gsM) 3 −
+
+8223.59 (gsM) 4 + O (gsM)− 5 . (2.13)
+
+bound on gsM is very large, gsM > 20. For the metastable minimum at ψmin ∼√gsM p/M to appear in the controlled regime, it needs to be pushed to large values of ψ which requires large gsM. In view of the uplift to dS this is problematic, which can be seen as follows: Combined with the perturbativity condition gs < 1, the bound gsM > 20 implies M > 20. For p = 1, i.e. p/M > 0.05, this forces us to even higher gsM, as can be clearly seen from Fig. 3. In fact, to stay within the shark fin region, one has to use (at least) p = 2, leading to M = 25. This appears to be the optimal choice under the above constraints. It implies gsM 2 & 500, which requires an enormous tadpole in the LVS as we shall see in Sect. 3. Note that from this analysis of Fig. 3, in order for a metastable minimum to exist in the controlled regime where gs < 1 one requires at least p ≥ 2 anti-D3-branes. Of course additional field strength corrections can alter this result, but assuming this does not occur, the following conclusion is tempting: If p = 1 the metastable minimum, if one exists, will be at small or zero ψ where the radius of the NS5-brane is string-scale and all orders in α0 corrections are important. This object might be thought of as not really an NS5-brane but the single anti-D3-brane, at most smeared out over its Compton wavelength. A single anti D3-brane then would not polarize into an NS5-brane. This is in line with the logic when one considers the perspective of the nonabelian DBI action of a stack of anti-D3-branes, where the nonabelianity (and hence the presence of more than one anti-brane) is crucial for the Myers effect [24] to occur.
+
+2.4 Optimistic bounds on uplifts We have seen that the α0 2-corrected potential (2.12) always has a maximum, but it has a minimum only in the controlled regime of large gsM. However, for the purpose of constructing de Sitter vacua, the crucial question is whether our potential Vtot can provide an uplift. It is not necessary that the corresponding local minimum is in the controlled regime at large ψ. Indeed, let us assume that we have a local minimum at small ψ, capable of uplifting. The radius of the S 2 wrapped by the NS5-brane may then be too small to control the relevant Vtot against even higher α0 corrections. A necessary but not sufficient condition for such an uplift to exist is the presence of a local maximum with a positive potential energy at larger ψ. We will therefore consider the following very blunt criterion: We demand that Vtot has to be positive at its maximum in order to have any chance of providing an uplift. Clearly when the potential is always negative it cannot uplift. As the maximum in the tree level potential VKPV is always at a fairly central value of ψ it seems reasonable that for part of the parameter space this will also be true for Vtot and we can neglect even higher order corrections in α0 so long as the radius of the tip of the warped throat is not very small in string units. Even then, our criterion can be questioned as we have not accounted for α0 2 flux corrections. Still, while the concrete constraints may change in a more complete analysis, our limited analysis should provide an estimate of the scale at which α0 2 corrections affect KPV. The region in p/M and gsM parameter space where the maximum is positive is shown in Fig. 4. One sees that there are two distinct asymptotic regimes: When p/M 0.1 the bound asymptotes towards gsM > 5.238 and for p/M 0.1 towards gsM > 2.086. When
+
+Figure 4. The space of curvature-corrected KPV setups, parameterized by gsM and p/M. The regions where the maximum of the potential is at positive/negative value are coloured yellow/blue. For p/M 0.1 the boundary line asymptotes towards gsM → 5.238 and for p/M 0.1 towards gsM → 2.086. The red line is at p/M = 0.08, approximately above which the maximum is at stringy or substringy radii for the NS5-brane and hence not trustworthy.
+
+p/M ∼ 0.1 there is an interpolating intermediate regime. This clearly suggests that the 
+nature of the maximum of the potential is different in the two asymptotic regimes. 
+Let us first consider the regime p/M 0.1. It is straightforward to evaluate Vtot(ψ) at 
+p/M = 0. One can convince oneself that the potential has a maximum at ψ = O (1), where 
+the NS5-brane radius is comparable to the radius of the A-cycle S 3. The potential drops 
+sharply away from this maximum. Clearly, the maximum is trustworthy in this regime if the 
+A-cycle radius is sufficiently large. 
+Now let us consider p/M 0.1. We can expand Vtot(ψ) at large p/M and find 
+
+Vtot(ψ) =
+
+4π 2 g3 sM p M
+
+2(gsM) 2
+
+− c1 − 2c2 cot 2(ψ) − c2 cot 4(ψ) + O
+
+p M
+
+0
+
+. (2.14)
+
+We see that the leading p/M term in this expansion provides a table-shape potential which is essentially flat until ψ gets close enough to the north or south pole such that the cot 2(ψ) term begins to compete with the constant ∼ (gsM) 2 term. Near ψ = 0, this happens when
+
+ψ ∼ 1/gsM. As a result, the NS5-brane radius is RNS5 ∼√gsM sin(ψ) ∼ 1/√gsM. We see that in this region the NS5-brane radius is stringy or sub-stringy in size and hence out of control. The (p/M) 0 correction adds a downward slope from ψ = 0 to ψ = π. As a result, at large p/M the potential is essentially flat in the entire controlled regime, with a slight downward slope. There is a maximum at the left end of the plateau, near ψ = 0, which corresponds to stringy or substringy radii for the NS5-brane and can hence not be trusted. 9 Somewhere in the intermediate regime p/M ∼ 0.1 we then lose confidence in our max imum. This transition in where the maximum occurs can already be seen in Fig. 2: As gsM falls, the maximum coming from the curvature corrections grows, erasing the KPV local minimum. Moreover, we see that depending on whether we make p/M small or large, this maximum emerges at either larger or smaller ψ. To make this even more apparent, we have plotted the potential for a wider range of p/M in Fig. 5. Here we chose gsM = 15, a value which is too small for a local minimum to exist. 10 We still clearly see that, at p/M ≈ 0.08, a transition in the location of the maximum occurs. Once the maximum has shifted to the left, we lose trust in it since it is now very close to the region where the curvature corrections diverge.
+
+Figure 5. A plot of Vtot(ψ) for different p/M showing the transition between the large and small p/M regime. The potentials at different p/M have been rescaled by choosing gs to make the comparison of their shape clearer.
+
+9 We recall that according to (2.7) throughout this whole paragraph, even at ψ ∼ O (1), the ratio p/M is restricted by p/M gsM, 10 Note that according to (2.7) the probe approximation is only borderline valid for the blue curve. But as we are only trying to visualize the transition from small to large p/M, we disregard this issue.
+
+We can then also display the regions where a controlled/uncontrolled maximum exists as well as the region with a local minimum of Vtot in a single plot, cf. Fig. 6. We recall that a controlled maximum implies the presence of a local, SUSY-breaking minimum at smaller ψ.
+
+Figure 6. An exclusion plot of the existence of minima and maxima in Vtot(ψ). In the blue region the potential is negative everywhere. In the red region, a positive maximum exists, but it is in an uncontrolled regime. In the yellow region a positive maximum exists in a controlled regime. In the green region a metastable uplifting minimum exists.
+
+2.5 Uplifting without deep throats? 
+When ψ is sufficiently small, ψ ∼ 1/√gsM, the NS5-brane radius RNS5 ∼√gsM sin ψ be 
+comes of stringy size. Then even higher order α0 corrections become important and we can no 
+longer trust our potential Vtot(ψ). Despite this, we can still make some reasonable estimates 
+of the fully corrected potential at small ψ. It is reasonable to assume that at ψ = 0 the 
+potential matches the potential for p anti-D3-branes. Up to order α0 2 in curvature corrections 
+this is given by 
+
+pVD3 = pµ3e− φ 1 − (4π 2α0) 2 384π2 R α aαb R
+
+a bβ
+
+β = pµ3e− φ 1 −
+
+c (gsM)2 , (2.15)
+
+with c = 5.9241. If the fully corrected potential has a maximum but no metastable minimum at intermediate ψ where Vtot(ψ) can be trusted and is set to a finite value at ψ = 0 given by
+
+(2.15) then the fully corrected potential must have a metastable minimum at ψ small (or 0). 
+It then seems a reasonable estimate that the potential at this minimum is given roughly by 
+(2.15) plus small corrections 11. 
+It seems that as α0 2 curvature corrections contribute negatively to the potential, they 
+can turn the potential negative. This allows for a novel but speculative alternative uplifting 
+mechanism. Suppose that for some parameters the fully corrected potential has a metastable 
+minimum with a positive vacuum energy, while for different parameters (with increased cur 
+vature corrections) there exists a metastable minimum with a negative vacuum energy. Then 
+by tuning gs it should be possible to obtain a metastable minimum with a positive but hier 
+archically small vacuum energy by using the tension-lowering effect of curvature corrections, 
+without needing a large throat with hierarchical warping. 
+To obtain a hierarchically small uplift, one requires a finetuning of gs. However, due 
+to the flux dependence of gs and the density of the string theory flux landscape we believe 
+this finetuning to be no worse than e.g. the finetuning in W0 required to get a cosmological 
+constant of real world scale. 
+An issue in estimating exactly when this uplifting mechanism occurs is that when in (2.15) 
+the α0 2 corrections are important enough to compete with the leading term, one expects even 
+higher order α0 corrections to also be important. 
+One may take this logic one step further and forget about our warped throat set-up: 
+consider an AdS compactification with small cycles, e.g. the models of [26, 27], and place 
+an anti-D3-brane. The anti-D3-brane will be drawn to the small cycle as this lowers their 
+tension due to curvature corrections. If many models with many such small cycles exist, 
+it may by chance happen that for some of them curvature corrections make the anti-brane 
+tension positive but very small such that it is suitable for an uplift. Of course, all this is very 
+speculative and it takes one to (and possibly beyond) the edge of a controlled regime. 
+Let us try to address some of the most immediate concerns which one might have with 
+the control of compactifications relying on our new uplifting mechanism: 
+Using this novel uplifting mechanism in the LVS, one may worry that the necessary 
+tuning of gs will affect the LVS AdS minimum in such a way that | VAdS| ≈ | Vuplift| can not 
+be satisfied at large volume. However, we see from (1.1) that near gs ∼√c/M the potential 
+Vuplift(gs) is a growing function, changing sign at √c/M. By contrast, VAdS ∼ − g 1/2 s e− 3/gs 
+asymptotes to zero at an exponential rate. This implies that the sum of these functions will 
+always go through zero for some value of g∗s just slightly above √c/M . Thus, the value of g∗s 
+can be lowered by choosing a larger M, such that a large CY volume appears to be easy to 
+achieve. 
+
+11 This assumes that the potential rolls down a small amount between ψ = 0 and the metastable minimum at small ψ as happens in the original KPV set-up shown in Fig. 1. While this seems reasonable, this need not be the case as we are ignorant of the effects of additional corrections. It is e.g. possible that at p = 1 there is a barrier between ψ = 0 and a metastable minimum at small ψ and this from the NS5-brane perspective prevents the anti-D3-brane from puffing up classically into an NS5-brane even though both states have the same quantum numbers and transitions between them should be possible, though now heavily suppressed due to quantum tunnelling, due to the no global symmetries conjecture as discussed in [25].
+
+Furthermore, one might worry that string-scale curvature at the tip implies large curva ture also at the mouth of the throat, affecting the rest of the CY and leading to corrections to the Kahler potential. Parametrically, the radius at the tip is given by RS3 ∼√gsM and the radius at the mouth by Rmouth ∼ (gsN + (gsM) 2) 1/4. Recalling that N/gsM 2 is the exponent governing the warp factor, we have R 4 S3 /R 4 mouth ≈ gsM 2/N 1 in the regime of strong warping. At moderate warping, the suppression of the curvature at the mouth is of course limited. Nevertheless, it is parametrically consistent to assume that only the curvature at the tip is string scale. This goes together the general expectation that localized effects in a CY decouple from the bulk. 12 There is also the potential danger of loop corrections coming from fields propagating in the throat. Since the geometry near the tip is string scale, a 10d EFT analysis is not reliable. The leading closed-string loop diagram contributing to the potential of the anti-D3-brane is a torus with two vertex insertions, one coupling to the anti-D3-brane, the other corresponding to the graviton background. Correspondingly, at the open-string level there is the annulus with a graviton insertion. Compared to the tree level α0 corrections, these diagrams are suppressed by g 2 s and gs. Hence, in the regime gs 1 and gsM ∼ O (1), loop corrections are smaller than the curvature corrections computed above. Another potential concern is that, as the A-cycle shrinks, branes wrapped on it become light. In our context, such branes are relevant if they additionally fill out from zero to four of the non-compact dimensions. In type IIB, only D3- and D5/NS5-branes meet these criteria. They correspond to particles (cf. the discussion in [30]) and domain walls in 4d. Given a string-scale A-cycle, their mass or tension is small – set by the warped-down string scale. But they are in general not mass- or tensionless, so the EFT does not break down. Thus, while they may play an interesting phenomenological role, this does not directly affect the minimum of the potential and does not threaten the moduli stabilization scenario. A key exception are NS5s since the corresponding domain walls mediate the decay of the SUSY-breaking anti-D3 branes. This is, of course, the main subject of the present paper. Finally, while the effects discussed in the last three paragraphs can all contribute terms to the Kahler potential which mix Kahler and complex-structure moduli, we do not expect this to be deadly for the proposed scenario. First, the warped-down string scale is higher than the Kahler-moduli mass scale, so complex structure moduli may be integrated out first. Second, since the KS throat does not contain local 2- or 4-cycles, its geometry measured in string units is insensitive to Kahler deformations of the CY. Thus, we expect α0 corrections to the Kahler moduli Kahler metric not to be enhanced by the high curvature present in the throat region.
+
+2.6 Open issues 
+In this paper we have given only an estimate of how α0 2-corrections affect the KPV uplift. Let 
+us briefly outline what we believe are the main points which must be addressed in a research 
+12 
+This sequestering is studied for the KS throat in [28, 29]. 
+
+program to fully understand α0-corrections to KPV.
+
+• We have assumed that the α0 2 curvature corrections for the NS5-brane in KPV are given by the natural generalization from the known curvature terms on the D5-brane. If instead we consider the S-dualized KS set-up [18], we can be certain that we have included all pure curvature corrections in our analysis. It is important to explicitly derive the α0 2 curvature terms for the NS5-brane to be sure that they exist and to compute their exact form. Some discussion of curvature terms on NS5-branes not in the DBI-action but related to anomaly cancellation has appeared in [31–34]. For D-branes, at order α0 2, it is known that besides the pure curvature corrections there also exist pure field strength and field strength-curvature mixing terms in the DBI action and some of these have been computed in [35–39]. One would expect that by S-duality analogous terms exist for the NS5-brane. It would be crucial to derive these and compute their impact on the KPV potential. 
+• Given the danger posed by the α0 2-corrections, one should convince oneself that at ψ where we claim to trust the α0 2 corrected potential Vtot(ψ), even higher order α0 corrections are sufficiently small and can be neglected. Particularly worrying is that, when the number of anti-branes is one or a fixed small number, the leading order analysis of KPV seems to indicate that the metastable minimum is always such the the NS5-brane wraps a string-scale cycle, making it crucial to know the α0-corrections to all orders to know the value of the potential at the metastable minimum (and particularly whether this value is positive). Note that there is some indication that backreaction effects can push the minimum to larger ψ [40]. 
+• Understanding the backreaction of the NS5-brane has played a crucial role in discussions of KPV [41–58, 40, 59–66]. Our discussion of α0 2 effects has remained at a probe level. It is crucial to understand the interplay between backreaction and higher-derivative effects. 
+• It would be valuable to understand α0 2-effects from the perspective of a stack of non abelian anti-D3-branes. This calculation should provide an α0 2 corrected value of the position of the metastable minimum. Of particular interest is the following issue: As we saw, terms related to the extrinsic curvature play a crucial role in the NS5-brane potential. As the anti-D3-branes are pointlike in the internal dimensions, they have no extrinsic curvature. How then do NS5 extrinsic curvature effects manifest from the perspective of a stack of nonabelian anti-D3-branes? Further, even for the intrinsic curvature, the tensor structure of the terms for the NS5-brane does not match that for the anti-D3-branes. Taking into account all α0 2-corrections on the NS5 including pure flux and mixed curvature-flux corrections, we propose the following resolution: For non abelian brane actions, there is no clear distinction between higher terms in commutators and higher derivative terms [24, 67, 68]. Those higher derivative curvature terms of the 
+
+abelian NS5-brane which do not match on to higher derivative terms of the anti-D3brane stack we then propose match higher commutator terms in the nonabelian theory. It should be possible to check this by performing the nonabelian analysis of KPV [1] at higher order in the commutators. As an example where higher commutator terms can be reinterpreted as higher curvature terms, it is known that a stack of flat nonabelian T-branes can be reinterpreted as a curved abelian brane with an R 2 curvature term in the worldvolume action [69]. As usual, it is unclear how or even if a single anti-D3-brane puffs up into an NS5-brane.
+
+• It would be interesting to understand impact of the 1/(gsM) 2-curvature corrections on the vacua at ψ = 0 and ψ = π from the perspective of the holographic dual field theory, especially as gsM is the ’t Hooft coupling in the dual Klebanov-Strassler field theory [19] and the highly curved regime is precisely the weakly coupled holographic field the ory regime. An issue here is that with anti-D3-branes present the existence and precise location of the nonsupersymmetric metastable field theory vacuum corresponding to the presence of anti-branes, as proposed in KPV [1], remains to our knowledge poorly understood 13. In fact, if one would be able to establish the metastable anti-brane vac uum holographically one would be confident that the metastable vacuum indeed exists. The lack of such a holographic field theory understanding of the metastable anti-brane vacuum is thus one of the factors leading to the backreaction discussion [41]. However, our curvature corrections also affect the situation where no anti-D3-branes are present, the situation described from a holographic field theory perspective in Sect. 2.3 of KPV [72]. In this case, the dual field theory has a baryonic branch, corresponding to a gravity solution with only flux, and a mesonic branch, corresponding to a gravity solution with M D3-branes at the tip of the warped throat [73, 19, 1]. Both branches are supersym metric, however their moduli spaces are disconnected. There is then a supersymmetric domain wall interpolating between the baryonic and mesonic vacuum, corresponding to the NS5-brane wrapping an S 2 being pulled over the A-cycle S 3 from ψ = 0 to ψ = π in the gravity picture. According to our curvature-correction computations, when p = 0, the NS5-brane potential is everywhere negative as soon as gsM < 5.238 (cf. Fig. 4). This seems surprising given that for the flux-only (baryonic) supersymmetric vacuum there are no branes present to provide a negative curvature contribution to the potential. It is possible that additional corrections render the potential positive, however it could also be that for the flux-only vacuum α0 curvature corrections in the bulk supergravity action render the potential negative e.g. as discussed in [9] the bulk R 4 term of [74] can be corrected by warping and hence lead to terms involving gsM. It would then be worthwhile to understand this in the holographic gauge theory at gsM 1 where our (uncontrolled) calculation claims that the potential should everywhere be very negative. 
+
+13 See e.g. [70–72] for work on the field theory perspective of such a metastable vacuum under the assumption that it exists.
+
+We intend to deal with with some of these important points in a detailed analysis in future work.
+
+3 Implications for model-building
+
+In this section we want to collect some interesting phenomenological applications of the results 
+of Sect. 2. 
+So far we have been concerned with the effects of α0 2-curvature corrections to the KPV 
+NS5-brane potential per se. The reason we began to study this topic was to better understand 
+the anti-brane uplift in the LVS. With our newfound understanding one can now ask how α0 2 
+corrections to KPV affect string-phenomenological model building i.e. models such as LVS 
+and KKLT. 
+Since our results suggest it might be possible to uplift without a deep throat, it is in 
+teresting to ask this question not just for the LVS, but also for e.g. KKLT [4]. Since the 
+difficulty of embedding a deep throat in the bulk Calabi-Yau posed the main difficulty in 
+uplifting KKLT [75, 25] (see also [3]) one can ask if our results allow one to resurrect the idea 
+of anti-brane-uplifted KKLT in regimes that previously seemed out of control. 
+In addition, particles and domain walls in the four external directions have been con 
+structed by wrapping branes on the cycle at the tip of the warped throat [30, 76]. It would 
+be interesting to see how these analyses are affected by curvature corrections of the type 
+considered here. 
+As each string-phenomenological model comes with many subtleties and additional effects 
+of its own, unrelated to the story of KPV, we will not discuss these in detail here. We will 
+merely state some suggestive results related to the LVS and leave our results on the string 
+phenomenological impact of α0 2 to an upcoming paper [77]. 
+The natural parameters in which to understand curvature corrections to KPV are gsM 
+and p/M. If we use KPV in model-building, other parameters will become important. In 
+particular, the individual values of gs, M, and p will become important. It is straightforward 
+to display the bounds we have derived in terms of these parameters. In Fig. 7 we show the 
+region where Vtot(ψ) has a positive maximum in terms of gsM as a function of gs for various 
+p. 
+
+Given these bounds, we can now compute for the LVS how they constrain the required negative D3 tadpole − Q3 present in the compactification geometry by using the PTC [10]. We will present a detailed analysis in [77] and merely state the required tadpole for some reasonable parameters here. The additional parameters present in LVS are as related to nonperturbative corrections to the superpotential, κs related to the triple intersection number of the small divisor, ξ = χ ζ(3)/2(2π) 3 where χ is the Euler number of the Calabi-Yau orientifold, and cN which is a control parameter related to a bulk curvature correction with varying warp factor. cN must be large for this correction to be small. Not all the parameters are independent. On way of thinking about this is setting as, κs, χ, p and cN will fix gs. This
+
+Figure 7. A plot of gsM over gs for different values of p. The region above the curves is where Vtot has a positive maximum. For gs 1 and gs 1 the curves asymptote again towards gsM → 5.238 and gsM → 2.086, respectively. Note that when p/M > 0.08 this maximum is not in a controlled regime.
+
+in turn fixes τs, the minimal value of M via Sect. 2, the volume V and the minimal value of the D3 tadpole N of the warped throat. Here, we will proceed differently by choosing a value of gs (and hence a value of M which is in line with Fig. 6) instead of ξ. We then use the following equations 14 to determine ξ, V and N: V = 3κ 2/3 s ξ 1/3
+
+| W0| 27/3as| As| g 1/2 s
+
+e as
+
+ξ2/3 (2κs)2/3gs , as
+
+ξ 2/3 (2κs)2/3gs
+
+=
+
+16πN 
+9gsM2 , (3.1) 
+
+N = −
+
+21gsM 2 16π W− 1(x), x = −
+
+3 11/35 a
+
+2/7 0 7 259/105 55/7 π1/35
+
+κ
+
+2/7 s
+
+p2/7 a
+
+3/7 s c
+
+5/7 N
+
+(gsM2)1/7 . (3.2)
+
+Here, the first equation in (3.1) is the on-shell solution for the volume modulus in the LVS, 
+the second follows from requiring the uplift to be of the same size as the AdS minimum and 
+(3.2) is called the PTC generalized to generic p. 
+With this, let us consider some examples where we choose as = 2π as this minimizes the 
+tadpole compared to the choice as = π/3. 
+As can be seen from Table 1, requiring that a controlled metastable minimum exists via 
+
+14 The equations are taken from [10], see equ. (2.4), (3.2), (3.11) and (3.15) therein.
+
+Table 1. Minimal value of the required tadpole (− Q3)min for the minimum of Vtot to occur in the 
+controlled regime for different p. 
+p as χ κs cN gsM p/M gs gsM 2 
+
+(− Q3)min 2 2π 405 0.1 5 20.58 0.0824 0.848 500 1913 3 2π 225 0.1 5 20.4 0.0825 0.561 742 2900 8 2π 56 0.1 5 20.51 0.0824 0.211 1991 8175 the bound in Fig. 3 leads to a minimum value for the tadpole at O (10 3 − 10 4).
+
+Table 2. Minimal value of the required tadpole (− Q3)min for as = 2π, p = 1 and different choices of p/M, cN and gsM demanding the maximum of the corrected KPV potential to be positive.
+
+| input gsM | parameters p/M | κs | gs | 2 gsM | χ | = 5 cN Q3)min (− | cN χ | = 100 Q3)min (− |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5 | 0.04 | 0.1 | 0.2 | 125 | 43 | 455 | 62 | 580 |
+| 10 | 0.04 | 0.1 | 0.4 | 250 | 124 | 921 | 178 | 1172 |
+| 15 | 0.04 | 0.1 | 0.6 | 375 | 231 | 1395 | 329 | 1766 |
+| 20 | 0.04 | 0.1 | 0.8 | 500 | 358 | 1868 | 510 | 2365 |
+| 3.9 | 0.08 | 0.1 | 0.31 | 48.9 | 82 | 175 | 118 | 223 |
+
+Demanding only that a maximum with a positive potential energy exists leads to much weaker constraints, shown in Table 2 where we choose p = 1. In the last line we show the ‘most optimistic’ setting, i.e. the point where the blue, red, and yellow region meet in Fig. 6. This point is at the boundary of the maximum being positive in a somewhat controlled regime. Clearly, all numbers should be viewed as an estimate as flux and possible further curvature corrections at order α0 2 need to be taken into account.
+
+4 Conclusions and Outlook
+
+In this paper, we have studied the effects of expected α0 2-curvature corrections to KPV. We have seen that these can radically alter the leading-order KPV story, where the potential has a metastable, positive-energy minimum. However, we have only been able to analyze a subset of corrections – many α0-corrections in the NS5-action remain unknown. The main message then is that in this paper we have opened the Pandora’s Box of higher-derivative corrections to KPV, but it is not at all clear at the moment where a complete analysis will lead and whether the final outcome at intermediate gsM will be anything recognizably like the leading-order story of KPV. The different regimes expected on the basis our (partial) α0 2-corrections to KPV are summarized in Fig. 6, parametrized by p/M and gsM.
+
+We have then used the resulting bounds on gsM from α0-corrections to KPV in the 
+context of the LVS to estimate the minimal negative D3 tadpole. To achieve this, we have 
+employed the Parametric Tadpole Constraint of [10]. To be precise, we have used two different 
+options for how to bound gsM: 
+The conservative option is to demand that gsM is sufficiently large such that α0 2- 
+corrections to the KPV potential are small, a metastable uplifting minimum exists in the 
+potential, and the leading order story of KPV holds unmodified. How this constrains gsM 
+can be seen in Fig. 3. As a result of this constraint, the LVS requires geometries with a nega 
+tive D3 tadpole of the order of thousands or tens of thousands and at least two anti-D3-branes 
+for the uplift (cf. Table 1). 
+The more optimistic approach is to only demand that a local maximum for the NS5- 
+potential exists at positive vacuum energy, such that the standard KPV decay process is 
+classically forbidden. Clearly, this maximum has to be at sufficiently large radius of the S 2 
+wrapped by the NS5, such that our computations are controlled against even higher order 
+α0-corrections. 
+Given the existence of this maximum one then assumes that, on its SUSY-breaking side, 
+a local minimum capable of uplifting also exists. One accepts that, at the minimum, the NS5- 
+brane wraps a string scale S 2, where our computations are not controlled. This constrains 
+gsM as shown in Fig. 4 and, in the LVS context, only requires a negative D3 tadpole of the 
+order of hundreds, as summarized in Table 2. 
+In fact, there is even further cause for optimism: In the analysis described as the opti 
+mistic approach above, we have assumed that the potential of the α0-corrected minimum 
+is at the same energy scale as the leading-order anti-D3-brane uplift. If, however, the 
+α0 2-corrections significantly alter the NS5-brane potential, it is entirely plausible that the 
+metastable minimum could be at much lower energy. It may even change sign, leading to 
+non-SUSY AdS. This is in fact the situation which a pure anti-D3-analysis (without transition 
+to the NS5) suggests [11]. Now, if one can tune the uplifting potential to extremely small 
+values, one may be able to produce an exponentially suppressed uplift without relying on a 
+deep warped throat. This tuning could be realized using the flux discretuum of gs, which 
+enters the 1/(gsM) 2 prefactor of curvature corrections. If, as a result, one no longer requires 
+a deep throat, the main difficulty in achieving uplifted KKLT or LVS vacua disappears 15. 
+Although we have not discussed this in detail, one could perform an analogous analysis 
+in the S-dual set-up to KPV where the anti-D3-branes puff up into a D5-brane at the tip of 
+the throat. It would be interesting to treat this set-up in full detail. 
+The issue with making the preceding ideas more concrete is that not all α0 2-corrections to 
+KPV are explicitly known. As an outlook for future research, let us summarize again which 
+
+15 All this is a concrete example of the general philosophy of how one expects the interesting vacua with all moduli stabilized to live in the interior of parameter space rather than at the asymptotics [78]. The more orders in corrections we take into account, the richer the potential will be and the more options there are for model-building. If it is possible to explicitly compute all important α0 2 -corrections, we should do so and embrace the added richness this gives us.
+
+points we believe need to be understood to obtain a clear, controlled picture of α0-corrected KPV:
+
+• The α0 2-corrected NS5-brane action has to be computed explicitly, both curvature terms and gauge field strength contributions. As we have not included the field strength terms at all, our results may change significantly. This task should be easier in the S-dualized KS set-up as more is known about α0 2 corrections on the D5-brane. 
+• It would be important to check that, at least near the maximum of the corrected po tential, the α0 2 effect is trustworthy in the sense that even higher order α0-corrections are small and can be neglected. 
+
+• It is crucial to include backreaction effects, especially the notoriously difficult flux backreaction, in our analysis.
+
+• In regimes where the S 2 wrapped by the NS5 is expected to be of stringy size, it would be interesting to consider the anti-D3-brane picture and compute higher-commutator and higher-derivative effects up to a certain order in α0 to estimate if and at which angle ψ the minimum exists. 
+• It would be desirable to develop a deeper understanding in the holographically dual field theory of the vacua on both sides of the domain wall which corresponds to moving the NS5-brane from the south to the north pole. A natural starting point would be to study the case without anti-branes, where both the baryonic and mesonic branch are supersymmetric. 
+
+Acknowledgements
+
+We thank Thomas Van Riet, Vincent Van Hemelryck, and Daniel Junghans for valuable 
+discussion. 
+This work was supported by the Graduiertenkolleg ‘Particle physics beyond the Stan 
+dard Model’ (GRK 1940) and the Deutsche Forschungsgemeinschaft (DFG, German Research 
+Foundation) under Germany’s Excellence Strategy EXC 2181/1 - 390900948 (the Heidelberg 
+STRUCTURES Excellence Cluster). 
+
+A Curvature computations
+
+The curvature tensors in (2.8) are given by [21] (RT )αβγδ = Rαβγδ + gab(Ω a αγΩ b βδ − Ω a αδΩ b βγ), (A.1)
+
+(RN ) ab αβ = − R ab αβ + g γδ(Ω a αγΩ b βδ − Ω b αγΩ a βδ), (A.2) Rab = Rˆab + g αα0g ββ0Ωa αβΩb α0β0 . (A.3)
+
+Here, R
+
+µ νρσ is the 10D Riemann tensor, µ, .. indices run over all ten dimensions, α, .. indices run tangent to the brane, and a, .. indices run normal to the brane. One obtains Rˆab = R α aαb
+
+and (RT )αβ = (RT )
+
+γ αγβ by contracting only over indices tangent to the brane. The second
+
+fundamental form Ω µ αβ of the brane worldvolume is given by
+
+Ω
+
+µ 
+αβ = ∂α∂βY µ 
+− (ΓT ) γ αβ∂γY µ + Γ µ νρ∂αY ν∂βY ρ, (A.4) 
+
+with Γ
+
+µ νρ the 10D target space connection, (ΓT )
+
+γ 
+αβ the connection on the induced metric on 
+the brane worldvolume and Y µ(ξ α) the coordinate functions describing the brane embedding 
+in the 10D geometry. We defined Ω a 
+αβ := Ω 
+
+µ αβ µ=a
+
+such that the normal indices are contracted
+
+with gab. 
+When a brane is embedded in flat space, the nonzero curvature terms are entirely given 
+by terms related to the second fundamental form. When the brane is totally geodesically 
+embedded, the curvature terms are entirely given by terms related to the 10D Riemann 
+tensor. 
+As the anti-D3-brane is pointlike in the internal geometry, it is totally geodesically embed 
+ded. The NS5-brane however is nongeodesically embedded unless it is wrapping the equator 
+of the S 3 at ψ = π/2. 
+As the metric of the Klebanov-Strassler throat, (2.1), is known exactly, it is in principle 
+straightforward to compute all the necessary curvature terms. However, in the natural metric 
+for the deformed conifold, (2.2), the coordinates of the S 2 wrapped by the NS5-brane are 
+not cleanly isolated. To compute the curvature terms we proceed as follows: To obtain 
+the coordinates wrapped by the NS5 we use the spherical parametrization of the deformed 
+conifold at the tip of the throat [79] where the S 3 and the S 2 are parametrized with standard 
+
+spherical coordinates (ψ, ω, ϕ) and (θ, φ), respectively. The NS5 hence wraps the (ω, ϕ) plane inside the S 3. The metric is given by
+
+ds 2 6 = F (τ ) Tr dW†dW + G (τ ) Tr W†dW
+
+2
+
+, (A.5)
+
+where, setting ε = 1 as above,
+
+F (τ ) = (sinh(2τ ) − 2τ ) 1/3 24/3 sinh τ
+
+, (A.6) G (τ ) = 2 − 3 coth 2τ + 3τ cosh τ / sinh 3τ 12 (cosh τ sinh τ − τ ) 2/3 , (A.7)
+
+W = 1 +
+
+τ 2 
+8 
+
++
+
+τ 4 
+384 
+
++ O (τ 6) L + τ 2
+
++
+
+τ 3 
+48 
+
++ O (τ 5) LL . ˆ (A.8)
+
+Here,
+
+L = − sin ψ sin ω cos ϕ + i sin ψ sin ω sin ϕ cos ψ − i sin ψ cos ω cos ψ + i sin ψ cos ω sin ψ sin ω cos ϕ + i sin ψ sin ω sin ϕ! , (A.9)
+
+Lˆ = − cos θ − e iφsin θ − e− iφsin θ cos θ ! . (A.10)
+
+With this, (2.1) and the warp factor (2.4) it is a straightforward but tedious calculation to obtain the R 2 corrections at the tip. We obtain the following results:
+
+(RT )αβγδ(RT ) αβγδ =
+
+6 2/3
+
+g2 sM2I(0)
+
++
+
+6 2/3
+
+g2 sM2I(0)
+
+cot 4 ψ + 2 cot 2 ψ (A.11)
+
+− 2(RT )αβ(RT ) αβ = − 2 6 2/3 2g2 sM2I(0) − 2 6 2/3 2g2 sM2I(0)
+
+cot 4 ψ + 2 cot 2 ψ (A.12)
+
+− (RN )γδab(RN ) γδab = −
+
+6 2/3
+
+g2 sM2I(0)
+
+(A.13)
+
+2RabR
+
+ab
+
+= 2
+
+3 2/3 117 I(0) 2 − 200 I(0) I00(0) + 150 I00(0) 2
+
+25 ×
+
+21/3g2 sM2I(0)3 +
+
+2 × 6 2/3cot 2 ψ g2 sM2I(0)
+
+2 + cot 2 ψ (A.14) The terms (A.11) and (A.12) cancel against each other. In (A.14) the term ∼ cot 2 ψ stems from the RΩ 2 term and the term ∼ cot 4 ψ from Ω 4. This also matches the naive expectation of the extrinsic curvature of an S 2 which scales as 1/RS2 . Moreover, for ψ = π/2 the extrinsic curvature terms vanish as at the equator the NS5 is geodesically embedded. Inserting (A.11)-(A.14) into (2.10) and integrating over the S 2 gives the α0 2 curvature corrected KPV potential (2.11).
+
+References
+
+[1] S. Kachru, J. Pearson and H.L. Verlinde, Brane / flux annihilation and the string dual of a 
+nonsupersymmetric field theory, JHEP 06 (2002) 021 [hep-th/0112197]. 
+[2] A.R. Frey, M. Lippert and B. Williams, The Fall of stringy de Sitter, Phys. Rev. D 68 (2003) 
+046008 [hep-th/0305018]. 
+[3] B. Freivogel and M. Lippert, Evidence for a bound on the lifetime of de Sitter space, JHEP 12 
+(2008) 096 [0807.1104]. 
+[4] S. Kachru, R. Kallosh, A.D. Linde and S.P. Trivedi, De Sitter vacua in string theory, Phys. 
+Rev. D 68 (2003) 046005 [hep-th/0301240]. 
+[5] V. Balasubramanian, P. Berglund, J.P. Conlon and F. Quevedo, Systematics of moduli 
+stabilisation in Calabi-Yau flux compactifications, JHEP 03 (2005) 007 [hep-th/0502058]. 
+[6] J.P. Conlon, F. Quevedo and K. Suruliz, Large-volume flux compactifications: Moduli spectrum 
+and D3/D7 soft supersymmetry breaking, JHEP 08 (2005) 007 [hep-th/0505076]. 
+[7] U.H. Danielsson and T. Van Riet, What if string theory has no de Sitter vacua?, Int. J. Mod. 
+Phys. D 27 (2018) 1830007 [1804.01120]. 
+[8] G. Obied, H. Ooguri, L. Spodyneiko and C. Vafa, De Sitter Space and the Swampland, 
+1806.08362. 
+[9] D. Junghans, LVS de Sitter Vacua are probably in the Swampland, 2201.03572. 
+[10] X. Gao, A. Hebecker, S. Schreyer and V. Venken, The LVS Parametric Tadpole Constraint, 
+2202.04087. 
+[11] D. Junghans, Topological Constraints in the LARGE-Volume Scenario, 2205.02856. 
+[12] I. Bena, E. Dudas, M. Gra˜na and S. L¨ust, Uplifting Runaways, Fortsch. Phys. 67 (2019) 
+1800100 [1809.06861]. 
+[13] R. Blumenhagen, D. Kl¨awer and L. Schlechter, Swampland Variations on a Theme by KKLT, 
+JHEP 05 (2019) 152 [1902.07724]. 
+[14] I. Bena, A. Buchel and S. L¨ust, Throat destabilization (for profit and for fun), 1910.08094. 
+[15] L. Randall, The Boundaries of KKLT, Fortsch. Phys. 68 (2020) 1900105 [1912.06693]. 
+[16] M. Scalisi, P. Soler, V. Van Hemelryck and T. Van Riet, Conifold dynamics and axion 
+monodromies, JHEP 10 (2020) 133 [2007.15391]. 
+[17] S. L¨ust and L. Randall, Effective Theory of Warped Compactifications and the Implications for 
+KKLT, 2206.04708. 
+[18] F.F. Gautason, M. Schillo and T. Van Riet, Is inflation from unwinding fluxes IIB?, JHEP 03 
+(2017) 037 [1611.07037]. 
+[19] I.R. Klebanov and M.J. Strassler, Supergravity and a confining gauge theory: Duality cascades 
+and chi SB resolution of naked singularities, JHEP 08 (2000) 052 [hep-th/0007191]. 
+[20] C.P. Herzog, I.R. Klebanov and P. Ouyang, Remarks on the warped deformed conifold, in 
+Modern Trends in String Theory: 2nd Lisbon School on g Theory Superstrings, 8, 2001 
+[hep-th/0108101]. 
+
+[21] C.P. Bachas, P. Bain and M.B. Green, Curvature terms in D-brane actions and their M theory 
+origin, JHEP 05 (1999) 011 [hep-th/9903210]. 
+[22] D. Junghans and G. Shiu, Brane curvature corrections to the N = 1 type II/F-theory effective 
+action, JHEP 03 (2015) 107 [1407.0019]. 
+[23] X. Gao, A. Hebecker, S. Schreyer and V. Venken, Loops, Local Corrections and Warping in the 
+LVS and other Type IIB Models, 2204.06009. 
+[24] R.C. Myers, Dielectric branes, JHEP 12 (1999) 022 [hep-th/9910053]. 
+[25] X. Gao, A. Hebecker and D. Junghans, Control issues of KKLT, Fortsch. Phys. 68 (2020) 
+2000089 [2009.03914]. 
+[26] M. Demirtas, M. Kim, L. McAllister, J. Moritz and A. Rios-Tascon, Small cosmological 
+constants in string theory, JHEP 12 (2021) 136 [2107.09064]. 
+[27] M. Demirtas, M. Kim, L. McAllister, J. Moritz and A. Rios-Tascon, Exponentially Small 
+Cosmological Constant in String Theory, Phys. Rev. Lett. 128 (2022) 011602 [2107.09065]. 
+[28] S. Kachru, L. McAllister and R. Sundrum, Sequestering in String Theory, JHEP 10 (2007) 013 
+[hep-th/0703105]. 
+[29] M. Berg, D. Marsh, L. McAllister and E. Pajer, Sequestering in String Compactifications, JHEP 
+06 (2011) 134 [1012.1858]. 
+[30] M. Montero, C. Vafa, T. Van Riet and V. Venken, The FL bound and its phenomenological 
+implications, JHEP 10 (2021) 009 [2106.07650]. 
+[31] E. Witten, Five-brane effective action in M theory, J. Geom. Phys. 22 (1997) 103 
+[hep-th/9610234]. 
+[32] D. Freed, J.A. Harvey, R. Minasian and G.W. Moore, Gravitational anomaly cancellation for M 
+theory five-branes, Adv. Theor. Math. Phys. 2 (1998) 601 [hep-th/9803205]. 
+[33] K. Lechner, P.A. Marchetti and M. Tonin, Anomaly free effective action for the elementary M5 
+brane, Phys. Lett. B 524 (2002) 199 [hep-th/0107061]. 
+[34] T.W. Grimm, T.G. Pugh and M. Weissenbacher, The effective action of warped M-theory 
+reductions with higher-derivative terms - Part II, JHEP 12 (2015) 117 [1507.00343]. 
+[35] M.R. Garousi, T-duality of Curvature terms in D-brane actions, JHEP 02 (2010) 002 
+[0911.0255]. 
+[36] M.R. Garousi, S-duality of D-brane action at order O(α0 2), Phys. Lett. B 701 (2011) 465 
+[1103.3121]. 
+[37] M.R. Garousi, Duality constraints on effective actions, Phys. Rept. 702 (2017) 1 [1702.00191]. 
+[38] M.R. Garousi and S. Karimi, Six gauge field strength and/or the second fundamental form 
+couplings on a Dp-brane at order α0 2, 2207.09834. 
+[39] K. Babaei Velni and H. Babaei-Aghbolagh, S-dual amplitude and D3-brane couplings, Phys. 
+Rev. D 99 (2019) 066007 [1901.00198]. 
+[40] D. Cohen-Maldonado, J. Diaz, T. van Riet and B. Vercnocke, Observations on fluxes near 
+anti-branes, JHEP 01 (2016) 126 [1507.01022]. 
+
+[41] I. Bena, M. Grana and N. Halmagyi, On the Existence of Meta-stable Vacua in 
+Klebanov-Strassler, JHEP 09 (2010) 087 [0912.3519]. 
+[42] P. McGuirk, G. Shiu and Y. Sumitomo, Non-supersymmetric infrared perturbations to the 
+warped deformed conifold, Nucl. Phys. B 842 (2011) 383 [0910.4581]. 
+[43] I. Bena, G. Giecold and N. Halmagyi, The Backreaction of Anti-M2 Branes on a Warped 
+Stenzel Space, JHEP 04 (2011) 120 [1011.2195]. 
+[44] I. Bena, G. Giecold, M. Grana, N. Halmagyi and S. Massai, The backreaction of anti-D3 branes 
+on the Klebanov-Strassler geometry, JHEP 06 (2013) 060 [1106.6165]. 
+[45] I. Bena, A. Buchel and O.J.C. Dias, Horizons cannot save the Landscape, Phys. Rev. D 87 
+(2013) 063012 [1212.5162]. 
+[46] I. Bena, D. Junghans, S. Kuperstein, T. Van Riet, T. Wrase and M. Zagermann, Persistent 
+anti-brane singularities, JHEP 10 (2012) 078 [1205.1798]. 
+[47] I. Bena, M. Gra˜na, S. Kuperstein and S. Massai, Polchinski-Strassler does not uplift 
+Klebanov-Strassler, JHEP 09 (2013) 142 [1212.4828]. 
+[48] I. Bena, J. Blaback, U.H. Danielsson and T. Van Riet, Antibranes cannot become black, Phys. 
+Rev. D 87 (2013) 104023 [1301.7071]. 
+[49] J. Blaback, U.H. Danielsson, D. Junghans, T. Van Riet, T. Wrase and M. Zagermann, The 
+problematic backreaction of SUSY-breaking branes, JHEP 08 (2011) 105 [1105.4879]. 
+[50] J. Blaback, U.H. Danielsson, D. Junghans, T. Van Riet, T. Wrase and M. Zagermann, 
+(Anti-)Brane backreaction beyond perturbation theory, JHEP 02 (2012) 025 [1111.2605]. 
+[51] J. Bl˚ab¨ack, U.H. Danielsson, D. Junghans, T. Van Riet and S.C. Vargas, Localised anti-branes 
+in non-compact throats at zero and finite T, JHEP 02 (2015) 018 [1409.0534]. 
+[52] F.F. Gautason, D. Junghans and M. Zagermann, Cosmological Constant, Near Brane Behavior 
+and Singularities, JHEP 09 (2013) 123 [1301.5647]. 
+[53] G. Giecold, F. Orsi and A. Puhm, Insane Anti-Membranes?, JHEP 03 (2014) 041 [1303.1809]. 
+[54] J. Blaback, U.H. Danielsson and T. Van Riet, Resolving anti-brane singularities through 
+time-dependence, JHEP 02 (2013) 061 [1202.1132]. 
+[55] U.H. Danielsson and T. Van Riet, Fatal attraction: more on decaying anti-branes, JHEP 03 
+(2015) 087 [1410.8476]. 
+[56] B. Michel, E. Mintun, J. Polchinski, A. Puhm and P. Saad, Remarks on brane and antibrane 
+dynamics, JHEP 09 (2015) 021 [1412.5702]. 
+[57] D. Cohen-Maldonado, J. Diaz, T. Van Riet and B. Vercnocke, From black holes to flux throats: 
+Polarization can resolve the singularity, Fortsch. Phys. 64 (2016) 317 [1511.07453]. 
+[58] J. Polchinski, Brane/antibrane dynamics and KKLT stability, 1509.05710. 
+[59] D. Cohen-Maldonado, J. Diaz and F.F. Gautason, Polarised antibranes from Smarr relations, 
+JHEP 05 (2016) 175 [1603.05678]. 
+[60] J. Bl˚ab¨ack, F.F. Gautason, A. Ruip´erez and T. Van Riet, Anti-brane singularities as red 
+herrings, JHEP 12 (2019) 125 [1907.05295]. 
+
+[61] N. Nguyen and V. Niarchos, On matched asymptotic expansions of backreacting metastable 
+anti-branes, JHEP 06 (2022) 055 [2112.04514]. 
+[62] I. Bena, M. Gra˜na, S. Kuperstein and S. Massai, Tachyonic Anti-M2 Branes, JHEP 06 (2014) 
+173 [1402.2294]. 
+[63] I. Bena, M. Gra˜na, S. Kuperstein and S. Massai, Giant Tachyons in the Landscape, JHEP 02 
+(2015) 146 [1410.7776]. 
+[64] F.F. Gautason, B. Truijen and T. Van Riet, Smeared antibranes polarise in AdS, JHEP 07 
+(2015) 165 [1502.00927]. 
+[65] I. Bena and S. Kuperstein, Brane polarization is no cure for tachyons, JHEP 09 (2015) 112 
+[1504.00656]. 
+[66] J. Armas, N. Nguyen, V. Niarchos, N.A. Obers and T. Van Riet, Meta-stable non-extremal 
+anti-branes, Phys. Rev. Lett. 122 (2019) 181601 [1812.01067]. 
+[67] N. Wyllard, Derivative corrections to D-brane actions with constant background fields, Nucl. 
+Phys. B 598 (2001) 247 [hep-th/0008125]. 
+[68] N. Wyllard, Derivative corrections to the D-brane Born-Infeld action: Nongeodesic embeddings 
+and the Seiberg-Witten map, JHEP 08 (2001) 027 [hep-th/0107185]. 
+[69] I. Bena, J. Bl˚ab¨ack, R. Savelli and G. Zoccarato, The two faces of T-branes, JHEP 10 (2019) 
+150 [1905.03267]. 
+[70] O. DeWolfe, S. Kachru and M. Mulligan, A Gravity Dual of Metastable Dynamical 
+Supersymmetry Breaking, Phys. Rev. D 77 (2008) 065011 [0801.1520]. 
+[71] M. Bertolini, D. Musso, I. Papadimitriou and H. Raj, A goldstino at the bottom of the cascade, 
+JHEP 11 (2015) 184 [1509.03594]. 
+[72] C. Krishnan, H. Raj and P.N. Bala Subramanian, On the KKLT Goldstino, JHEP 06 (2018) 
+092 [1803.04905]. 
+[73] N. Seiberg, Exact results on the space of vacua of four-dimensional SUSY gauge theories, Phys. 
+Rev. D 49 (1994) 6857 [hep-th/9402044]. 
+[74] K. Becker, M. Becker, M. Haack and J. Louis, Supersymmetry breaking and alpha-prime 
+corrections to flux induced potentials, JHEP 06 (2002) 060 [hep-th/0204254]. 
+[75] F. Carta, J. Moritz and A. Westphal, Gaugino condensation and small uplifts in KKLT, JHEP 
+08 (2019) 141 [1902.01412]. 
+[76] U. Danielsson, V. Van Hemelryck and T. Van Riet, Over-extremal brane shells from string 
+theory?, 2206.04506. 
+[77] A. Hebecker, S. Schreyer and V. Venken, To Appear, . 
+[78] M. Dine and N. Seiberg, Is the Superstring Weakly Coupled?, Phys. Lett. B 162 (1985) 299. 
+[79] N. Nguyen, Comments on the stability of the KPV state, JHEP 11 (2020) 055 [1912.04646].

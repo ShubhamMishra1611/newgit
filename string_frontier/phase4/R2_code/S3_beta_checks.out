@@ -1,0 +1,8 @@
+(1a) S^2 RNC: exact - predicted angular metric through O(rho^4): 0
+(1b) dG/dlog m^2 = -0.079590  vs -1/(4 pi) = -0.079577;  G + log(m^2)/(4pi) = 0.275794 vs log(32)/(4pi) = 0.275795
+(1c) O(3): R_mn/G_mn = R**(-2);  beta(g) = -2*pi*alpha**2/R**4   (Polyakov -(N-2) g^2/(2 pi) = -2*pi*alpha**2/R**4)
+(1c) O(4): R_mn/G_mn = 2/R**2;  beta(g) = -4*pi*alpha**2/R**4   (Polyakov -(N-2) g^2/(2 pi) = -4*pi*alpha**2/R**4)
+(1c) O(5): R_mn/G_mn = 3/R**2;  beta(g) = -6*pi*alpha**2/R**4   (Polyakov -(N-2) g^2/(2 pi) = -6*pi*alpha**2/R**4)
+(2) cigar: R_mn + 2 D_m D_n Phi = Matrix([[0, 0], [0, 0]]) ; -lap/2 + (DPhi)^2 = 1/K ; D=2 & beta^Phi=0 => K = [alpha/4]
+(3) S^3: h solving 2/R^2 - h^2/(2 R^6) = 0: [2*R**2] ; H^2 = 6 h^2/R^6 at h=2R^2: 24/R**2
+(4) dilaton Euler-Lagrange / [sqrt(G) e^{-2Phi}(G^mn beta^G_mn - 4 beta^Phi)/a'] = -2

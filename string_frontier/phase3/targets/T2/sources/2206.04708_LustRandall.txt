@@ -1,0 +1,1994 @@
+# Effective Theory of Warped Compactifications and the Implications for KKLT
+URL: https://export.arxiv.org/pdf/2206.04708
+
+Effective Theory of Warped Compactifications and the Implications for KKLT
+
+Severin L¨ust, Lisa Randall
+
+Jefferson Physical Laboratory, 
+Harvard University, 
+17 Oxford St., 
+Cambridge, MA, 02138, USA. 
+
+Abstract
+
+We argue that effective actions for warped compactifications can be subtle, with large deviations in the effective potential from naive expectations owing to constraint equations from the higher-dimensional metric. We demonstrate this deviation in a careful computation of the effective potential for the conifold deformation parameter of the Klebanov-Strassler solution. The uncorrected naive effective potential for the conifold was previously used to argue that the Klebanov-Strassler background would be destabilized by antibranes placed at the conifold infrared tip unless the flux was uncomfortably large. We show this result is too strong because the formerly neglected constraint equations eliminate the features of the potential that allowed for the insta bility in the de Sitter uplift of the KKLT scenario.
+
+June 2022
+
+1 Introduction
+
+Following the observation of an accelerated expansion of the Universe, the question of 
+whether de Sitter vacua can be consistently realized as string theory backgrounds became 
+one of the most pressing problems of string phenomenology. While string theory vacua with 
+a negative cosmological constant are ubiquitous, constructing a background with positive 
+cosmological constant is notoriously difficult. This is partially due to the lack of control 
+which could otherwise be offered by supersymmetry. It has furthermore been argued [1, 2] 
+that it is impossible to realize de Sitter vacua without taking into account strong coupling 
+effects or fundamentally “stringy” ingredients such as D-branes and orientifold planes. This 
+moves them out of the realm of a pure supergravity analysis. 
+One of the most promising proposals for realizing a string theory de Sitter vacuum is 
+the KKLT scenario [3]. In this construction, a small parameter is used to uplift the neg 
+ative energy of an AdS background. Though not necessarily essential, perhaps the most 
+straightforward source of such a parameter (and the one found in the literature) is a large 
+RS like [4, 5] hierarchy arising from embedding a warped throat geometry into a compact 
+Calabi-Yau space along the lines of [6, 7]. Inserting a so-called anti-brane, which stabilizes 
+at the bottom of this throat, would break supersymmetry and lift the cosmological constant 
+to a positive value. Due to the large gravitational redshift from the warped geometry, the 
+contribution to the energy from the anti-brane would be exponentially suppressed. Can 
+celling much of the negative energy associated with the volume stabilization not only allows 
+for an almost arbitrarily small cosmological constant, but also ensures that the construction 
+remains under control. 
+Over the last two decades various potential issues with this proposal have been debated. 
+These include 1 the consistency of the probe-approximation to the antibrane uplift and pos 
+sible singularities in its backreaction [11–21], the viability of a ten-dimensional description 
+of K¨ahler moduli stabilization by non-perturbative effects [22–29], control issues related to 
+the embedding of a warped throat geometry into a compact Calabi-Yau manifold [26,30,31], 
+the validity of the related four-dimensional EFTs [32–34] and the description of supersym 
+metry breaking therein [35], as well as constraints on flux compactifications from tadpole 
+cancellation conditions [36–43]. 
+The above have been the subject of debate and many issues have been at least par 
+tially addressed. However, [44–48] argued based on a straightforward potential analysis that 
+embedding an anti-brane in a warped throat geometry, such as the Klebanov-Strassler so 
+lution [49], can lead to a runaway instability of the geometry if the anti-brane is too heavy 
+1The following list is necessarily incomplete, for a more exhaustive account see for example [8] and 
+references therein. There are also some recent more general objections against the existence of (long-lived) 
+de Sitter vacua in string theory [9, 10]. 
+
+compared with the fluxes that stabilize the geometry (see also [50] for a discussion of the 
+weakly warped regime). This instability would give rise to an obstruction to the KKLT 
+scenario unless one can ensure that the stabilizing fluxes can be chosen sufficiently large– 
+leading to challenges for realizing the scenario and the requisite hierarchy. This analysis was 
+much more straightforward so it was difficult to see where it would fail. This simple analysis 
+was not subject to the more subtle inconsistency questions previously mentioned so in this 
+respect seemed a bigger concern. 
+There were however reasons to doubt this conclusion. The holographic interpretation of 
+the runaway direction would imply that adding an antibrane would prevent supersymmetry 
+breaking and also would obstruct the gaugino condensate that is dual to the deformed 
+conifold interpretation. It is unclear how the supergravity result can be consistent with 
+what one would expect from a field theoretical perspective. 
+However, the analysis was based on the potential for the conifold deformation parameter 
+in the literature [51, 52] with the addition of the potential from the antibrane including the 
+overall warping. A strong clue to the resolution of the apparent paradox is that the computa 
+tion of the instability relies heavily on the features of the off-shell potential for a geometrical 
+modulus of the deformed conifold geometry that underlies the Klebanov-Strassler solution. 
+Since the instability arises only if the effect of the anti-brane is of comparable importance, 
+this requires an understanding of the potential not only in the direct, infinitesimal vicinity 
+of its minimum, but also for finite field displacements. 
+We could also understand the issue in terms of the low-energy effective theory. Even 
+if the complex structure moduli are stabilized at high energy through fluxes, the warped 
+throat leads to light Kaluza Klein modes in the infrared with mass comparable to that of 
+the conifold deformation parameter, whose potential is not necessarily as stable and whose 
+values can change once the system is disturbed. Therefore the low-energy effective theory 
+would include many more light fields that have conventionally been considered. 
+The effective actions of warped string compactifications is an old problem and has been for 
+example earlier addressed in [51–69]. As first observed in [54] (see also [52] for a Hamiltonian 
+interpretation)–if the KK modes are not explicitly included–every compactification on a 
+background where the four-dimensional part of the space-time metric is multiplied by a 
+warp factor that depends on the coordinates of the internal geometry has to be accompanied 
+by additional constraint equations. These constraints result in non-trivial relations between 
+the various modes of the higher-dimensional background, in particular between the warp 
+factor and the internal metric. 
+In this paper we demonstrate how to use these constraints to compute effective poten 
+tials for warped compactifications. Specifically, in view of the aforementioned instability, we 
+explicitly solve them to find the potential for the radion/conifold deformation parameter of 
+
+the compactified Klebanov-Strassler geometry. Here fluxes on the six-dimensional deformed 
+conifold generate a large warp factor making it a prototypical laboratory for such back 
+grounds. The underlying conifold geometry has one complex-structure modulus, namely its 
+deformation parameter. When embedded in a compact geometry the fluxes of the Klebanov 
+Strassler geometry generate a potential for this modulus, rendering it massive. 
+In previous attempts to compute the potential for this field the relevant constraints have 
+been either ignored completely [51] or solved in the hard-wall approximation [52]. In the 
+latter case the warp factor of the Klebanov-Strassler solution was approximated by that of 
+a constant AdS geometry and its smooth IR cap was mimicked by a hard cutoff. Here we 
+use the exact Klebanov-Strassler warp factor and solve the constraint equations numerically. 
+We find the potential changes significantly in the infrared region of the throat in which the 
+antibrane stabilizes. Moreover, we find that the corrected off-shell potential resolves the 
+before-mentioned instability. 
+This result is not only relevant for the stability of the KKLT construction but also 
+illustrates that any effective field theory arising from warped compactifications can behave 
+very differently than one might naively assume–particularly in the infrared region where 
+Kaluza-Klein modes can be light, independently of the masses of the corresponding zero 
+modes. There are non-trivial relations between the zero and Kaluza-Klein modes of the 
+different constituents of a warped background, in particular of the compactification manifold 
+and the warp factor. These effects can alter the form of an effective potential significantly. 
+In preparation for the derivation of the full off-shell potential, we first discuss the geom 
+etry of the deformed conifold in the absence of fluxes for which the background is a direct 
+product of four-dimensional Minkowski spacetime and the conifold geometry. I this case 
+there is no potential for the geometric moduli of the conifold and the constraint equations 
+simplify considerably and can be solved exactly. As expected, we find that the deformation 
+of the metric related to its complex structure modulus is localized in the infrared, near the 
+tip of the conifold, and falls off asymptotically towards the ultraviolet, which is essential 
+to modeling the strongly warped part of a string theory compactification using only the 
+non-compact Klebanov-Strassler geometry. Otherwise, the resulting effective action would 
+be sensitive to the concrete UV embedding and its computation would require knowledge of 
+the full compact Calabi-Yau geometry. 
+We subsequently use this insight to repeat the analysis of the constraint equations for the 
+full warped Klebanov-Strassler solution. Here we rely on numerical methods as the problem 
+does not have any obvious analytical solution. We find that the resulting deformation is again 
+localized in the infrared and vanishes in the asymptotic ultraviolet. Contrary to the non 
+compact Klebanov-Strassler setup, in an actual compactification, the fluxes are quantized 
+so we keep them constant when analyzing the deformations of the metric, allowing us to 
+compute an explicit potential for the conifold deformation parameter. The resulting potential 
+
+differs qualitatively from the one obtained in [51, 52] that was used in [44–47] as it only has 
+one critical point at the supersymmetric minimum both with and without the antibrane 
+perturbation. 
+We note however that there is yet another constraint equation in addition to the two 
+we explicitly apply, formulated in [54,61], that becomes relevant only at higher order in the 
+distance from a minimum of the potential. We argue that with the potential we computed, 
+the vacuum expectation value of the conifold modulus that is induced by the antibrane shifts 
+by only a small amount so the higher order effect can be neglected. Nonetheless it remains 
+an interesting problem to solve all three constraints (and allow for flux deformation as well) 
+to get the complete off-shell potential. 
+This paper is organized as follows: In Section 2 we review the conifold instability that was 
+presented in [44–47]. In Section 3 we summarize the relevant constraints on deformations of 
+warped compactifications. In Section 4 we illustrate how to utilize these constraints to obtain 
+a family of metrics on the deformed conifold, related by complex structure deformations. In 
+Section 5 we extend this analysis to non-vanishing fluxes and compute a potential for the 
+complex structure modulus of the Klebanov-Strassler solution that we use in Section 6 to 
+revisit the conifold instability. In Section 7 we explain the subtlety in a naive effective theory 
+analysis and explain why it is essential to incorporate Kaluza-Klein modes from a low energy 
+perspective. We also comment on the validity of the potential far away from its minimum. 
+We conclude with some comments in Section 8 and three appendices. 
+
+2 Review: conifold runaways from D3-branes in KKLT
+
+The KKLT construction for de Sitter vacua [3] builds on a warped type IIB flux background 
+[7, 70] with a ten-dimensional metric of the form 
+ds 2 
+10 = e 2A(y)ηµνdx µdx ν + e− 2A(y)g˜mn(y)dy mdy n. (2.1) 
+
+The warp factor A depends only on the coordinates y m of the internal Calabi-Yau metric g˜mn and thus preserves the maximal symmetries of the four-dimensional metric ηµν. Besides the ten-dimensional metric gMN the bosonic degrees of freedom of IIB supergrav ity comprise the Kalb-Ramond field BMN , the dilaton Φ as well as even-degree form-fields C0, CMN and CMNP Q. The two scalars Φ and C0 are conveniently combined into one complex field τIIB = C0 − ie− Φ, called the axio-dilaton. 2
+
+The field strengths of the form-fields BMN , CMN and CMNP Q are denoted by H3, F3 and F5 and can take non-trivial background values which are the internal fluxes. The three-form
+
+2In the following we reserve τ as the notation for the radial coordinate of the deformed conifold geometry, and hence denote the IIB axio-dilaton by τIIB.
+
+fluxes F3 and H3 are chosen in such a way that they stabilize all the complex-structure mod 
+uli of the Calabi-Yau geometry. Their non-zero values generate a strongly warped region via 
+their back-reaction. The setup thus contains a feature reminiscent of a higher-dimensional 
+realization of the Randall-Sundrum (RS) scenario [4,5], in which an AdS-like warped throat 
+with a large gravitational redshift is glued to a compact Calabi-Yau geometry. While the 
+latter also naturally represents the UV-brane of RS, the IR-brane corresponds to a smooth 
+cap at the end of the warped throat geometry [47]. Such a smooth warped throat is usu 
+ally modeled by the Klebanov-Strassler (KS) solution [49], a warped IIB solution over the 
+deformed conifold with a particularly rich holographic interpretation. 
+With the K¨ahler moduli stabilized by non-perturbative effects, 3 the large gravitational 
+redshift can be exploited to facilitate the uplift to a small, positive cosmological constant 
+in a controlled fashion. This involves placing an D3-brane, i.e. a D3-brane with a charge 
+incompatible with the supersymmetry of the background, in the throat, which naturally 
+stabilizes in the IR region at the bottom of the throat. The large tension of the D3-brane 
+gets re-scaled by the exponentially large hierarchy between the IR and the UV and thus 
+contributes only a small amount to the overall energy density. Therefore, if all the involved 
+parameters are chosen correctly, one ends up with a controlled de Sitter background with an 
+essentially arbitrarily small cosmological constant. 
+An important assumption in this construction is that the flux-generated masses of all 
+complex-structure moduli are sufficiently high that they can be effectively ignored when 
+describing the stabilization of K¨ahler moduli and the antibrane-uplift. 
+That this assumption is potentially questionable can be seen from the observation that 
+there is a distinct complex-structure modulus, a “radion”, which controls the length and 
+thus the hierarchy of the warped throat and can be shown to be equivalent to the conifold 
+deformation parameter. The wavefunction of this modulus is localized in the IR region of the 
+geometry. Therefore, its mass is also set by the same exponential redshift that reduces the 
+antibrane’s tension, rendering them of comparable scale. One therefore has to pay particular 
+attention to the interplay between the stabilization of this modulus and the D3 uplift. 
+This problem has been discussed explicitly in [44–47] for the example of the KS geometry. 
+Here, the local geometry of the Calabi-Yau metric ds 2 
+6 in the strongly warped region is given 
+by the deformed conifold. This non-compact space is defined by its embedding into C 4 
+according to 
+
+X
+
+4
+
+i=1
+
+z i = S , (2.2)
+
+3This step involves the construction of an intermediate four-dimensional AdS-background. Concerns against the viability of this approach related to its AdS/CFT holographic interpretation have been recently expressed in [34].
+
+where the complex deformation parameter S takes precisely the role of the before-mentioned radion. 4 The corresponding warp factor was found in [49] and reads
+
+e− 4A(τ) = 2
+
+2 3gs (α′M)
+
+2
+
+| S0|
+
+4 
+3 
+
+I(τ ). (2.4)
+
+Here, τ is a particular choice for a “radial” coordinate on the deformed conifold that follows the warped geometry from its IR at τ = 0 to the UV at τ → ∞ . S0 denotes the value at which S is stabilized, i.e.
+
+⟨ S⟩ = S0 , (2.5) and M is the amount of F3 flux along the A-cycle. Moreover, I(τ ) is a numerical function given by an integral expression, whereas gs and α′ are the ten-dimensional string coupling constant and tension, respectively. In terms of the coordinate τ the transition to the compact, weakly warped Calabi-Yau in the UV is effectively modeled by a cut-off τΛ, related to some energy scale Λ0 via
+
+Λ 3 0 ∼ | S0| e τΛ . (2.6) As explained above, we are eventually interested in the mass and hence the stabilization potential for S. While the superpotential is in principle well-known [71] and holographically dual to the Veneziano-Yankielowicz superpotential [72, 73], the computation of the K¨ahler potential is more subtle as it depends non-trivially on the warp factor. A corresponding K¨ahler metric has been suggested in [51, 52], resulting in the potential
+
+VKS ∼ | S|
+
+4 
+3 
+
+gs (α′M)
+
+2
+
+M 2πi log
+
+Λ 3 0 S + i
+
+K gs
+
+2
+
+, (2.7)
+
+with K the amount of H3 flux on the B-cycle. As advertised above, the overall potential is scaled by the warp factor e 4A evaluated in the IR at τ = 0. Moreover, one can easily see that there is a minimum at
+
+S0 = Λ 3 0exp −
+
+2πK gsM
+
+, (2.8)
+
+which can be shown to be supersymmetric and can be made very small by choosing M and K accordingly. Finally, there is also a contribution of the anti-brane to the potential for S given by its warped-down tension
+
+VD3 = 2e 4ATD3 ∼ | S|
+
+4 
+3 
+
+gs (α′M)
+
+2 . (2.9)
+
+4That S is indeed a complex-structure modulus can for example be seen from the A-cycle period integral Z A Ω = S , (2.3) with Ω the holomorphic three-form on the deformed conifold. We discuss the role of S as a complex-structure deformation in more detail in Appendix B.
+
+A direct computation shows then that the combined potential VKS + VD3 has a minimum only if
+
+√gsM > Mmin , (2.10) where after reinstating and collecting all previously suppressed order-one constants the crit ical value can be estimated as Mmin ≈ 6.8
+
+p ND3 for ND3 antibranes [44]. Otherwise, the potential develops a runaway instability towards S → 0, i.e. an infinitely long throat, inval idating the KKLT construction. It is crucial to notice that this instability relies heavily on the power-law dependence on | S| in the inverse K¨ahler metric in (2.7) and in the antibrane potential (2.9). This dependence in turn relies on the assumption that the “off-shell” S-dependence of the warp factor e 4A when deforming the background away from the supersymmetric solution is the same as the dependence of e 4A on the “on-shell” vev S0 as in (2.4). In the remainder of this paper we will discuss this assumption and whether it is justified.
+
+3 Off-shell fluctuations of warped compactifications
+
+Here we consider how the warped geometry changes when we take S off-shell, which we refer 
+to as a deformation of the warped geometry. We have seen that the existence of an instability 
+of the type discussed in the previous section depends on how the warp factor e 4A varies as a 
+function of the complex structure field S. This dependence determines both the behavior of 
+the flux-induced potential for S (2.7) and that of the antibrane, (2.9) thereby determining 
+the stability of S. 
+To discuss this in a bit more generality, we will first consider a general one-parameter 
+family of background metrics, labeled by S. This family consists of a warp factor and a 
+six-dimensional Calabi-Yau metric, 
+
+A(y m, S) and ˜gmn(y m, S), (3.1)
+
+such that at S = S0 both agree with the ones in the background solution (2.1). Moreover, we assume that all other fields do not depend on S and stay at their background values, i.e.
+
+∂SC2 = ∂SB2 = ∂SτIIB = 0 . (3.2)
+
+We will later comment on the validity of this assumption, which we expect to break down if we go sufficiently far from the minimum of the potential such that a perturbative analysis is no longer valid. Given the warp factor and metric as S-dependent functions as in (3.1) we could then determine the potential for S by inserting them into the ten-dimensional action and integrating over the six-dimensional internal part.
+
+In previous analyses it was assumed that the S-dependence of the warp factor is given
+
+by
+
+e− 4A(τ,A)
+
+∝
+
+I(τ )
+
+| S|
+
+4 
+3 
+
+, (3.3)
+
+which is obtained from the “on-shell” warp factor (2.4) by substituting S for its vacuum expectation value S0. This not only assumes a very specific scaling behavior of the warp factor with respect to S, but also that its “off-shell” dependence on the radial coordinate τ stays the same as in the Klebanov-Strassler solution, given by the function I(τ ). Using (3.3) for the warp factor would indeed yield a potential of the form (2.7). Naively, one might assume that we could take any family of warp factors (and metrics) (3.1) with arbitrary dependence on S so long as it matches the background solution at S = S0, a condition clearly satisfied by (3.3). However, it was argued in [52,54,57] that not every such family is allowed and that, although the authors of these papers did not explicitly apply them on the KS solution, the dependence of A and ˜gmn on S is restricted by various constraints. Specifically, one observes that promoting S to a four-dimensional dynamical field
+
+S → S(x µ), (3.4) renders also the internal part of the ten-dimensional metric (2.1) x µ dependent by virtue of (3.1). This in turn creates various additional terms in the ten-dimensional Einstein equa tions. In the full ten-dimensional analysis some of them–in particular the off-diagonal Gµm components–will be satisfied for arbitrary S(x µ) only if they are imposed as constraints, relating and restricting the variations ∂SA and ∂Sg˜mn in a non-trivial way. Another way of satisfying these constraints is by introducing additional, compensating off diagonal terms in the ten-dimensional metric. Specifically, the ansatz for the ten-dimensional metric in the presence of a fluctuating field S(x µ) should be extended according to
+
+ds 2 10 = e 2A(y,S)gµνdx µdx ν + e− 2A(y,S)g˜mn(y, S) [dy m − K m(y, S)∂µSdx µ] [dy n − K n(y, S)∂νSdx ν] , (3.5)
+
+where the compensators K m as well as the S-dependence of the warp factor are determined by solving the previously mentioned constraint equations. One readily sees that the off diagonal terms in the metric can be eliminated by a suitable redefinition of the internal coordinates y m. Doing so is equivalent to working in a specific gauge but changes the S dependence of all fields implicitly. For example, the variations of the warp factor and the metric change according to
+
+δSA = ∂SA + ∂mAK m , δSg˜mn = ∂Sg˜µν +
+
+∇e mK
+
+e
+
+n + ∇e nK
+
+e m , (3.6)
+
+where K
+
+e
+
+m = ˜gmnK m and
+
+∇e
+
+denotes the covariant derivative of ˜gmn. Similar relations hold for all other fields in the theory. Note that we have adopted the notation that δS denotes the variation of an object with respect to S including the effect of the compensator K m. In particular, δS takes the role of a covariant derivative with respect to S that is invariant with respect to diffeomorphism on the internal space. Let us now return to the constraint equations on δSA and δSg˜mn that follow from Einstein equations. Denoting the Einstein tensor by GMN = RMN −
+
+1 
+2gMN R, the relevant components 
+
+read [54, 57]
+
+δSGµν = ∂µ∂νS 4δSA −
+
+1 
+2 
+
+g mnδSg˜mn + O (S 2) + ηµν [. . . ] , δSGµm = ∂µS 2∂mδSA −
+
+1 
+2 
+
+∂mδSg˜ − 8∂mAδSA + ∂mAδSg˜ − 2∂ pAδSg˜mn + 1 2∇ pδSg˜mp . (3.7) In a sensible four-dimensional effective field theory S must be allowed to fluctuate arbitrarily which means that the terms multiplying ∂µS or ∂µ∂νS lead to constraints. From the linear term in the first equation and the observation that no compatible term linear in ∂µ∂νS can come from the Tµν components of the stress energy tensor one finds that the first constraint reads
+
+δSA =
+
+1 
+8 
+
+δSg , ˜ (3.8) where δSg˜ = g mnδSg˜mn. It hence couples the variation of the warp factor and the trace of the internal metric. This constraint implies that the warped volume
+
+Vw =Z d 6yp g˜6e− 4A (3.9)
+
+is conserved. This can be seen by noting that δSp g˜6e− 4A = ∂Sp g˜6e− 4A + ∂mp g˜6e− 4AK˜ m , (3.10)
+
+and therefore ∂SVm = 0 up to a boundary term that vanishes on a compact internal space. From the second equation in (3.7) one obtains another constraint,
+
+∇
+
+˜ n h δSg˜nm − g˜mn (δSg˜ − 4δSA)i − 2˜g nk ∂nAh δSg˜km − g˜km (δSg˜ − 8δSA)i = δSTm , (3.11)
+
+where δSTm denotes a possible contribution from the Tµm stress energy tensor originating from the deformations of the additional fields: in our context δSC2, δSB2 and δSτIIB. This means that if these fields are kept constant, as in (3.2), one has δSTm = 0. One can use the first constraint (3.8) to eliminate the variation of the warp factor δA from (3.11) to obtain
+
+∇ ˜ n
+
+δSg˜nm −
+
+1 
+2 
+
+g˜mnδSg˜ − 4˜g nk ∂nA δSg˜km = δSTm . (3.12)
+
+In summary, we see that every deformation of the background must necessarily satisfy two constraint equations, (3.8) and (3.11) that relate δSgmn and δSA.
+
+4 Calabi-Yau metrics on the deformed conifold
+
+We eventually want to use the constraints summarized in the previous section to derive an 
+effective potential for the modulus S in the strongly warped Klebanov-Strassler geometry. 
+However, before doing so we will first discuss the easier case in the absence of fluxes in which 
+S is a flat direction. This will serve as a warp-up exercise on how to use the constraints. 
+The situation we are concerned with in this section is the compactification on a six 
+dimensional manifold with metric gmn, 
+ds 2 
+10 = ηµνdx µdx ν + gmndy mdy n, (4.1) 
+
+and no background fluxes; in the IIB context this means F3 = H3 = F5 = 0 and τIIB = const. The equations of motion imply that gmn is Ricci flat. In combination with the requirement of (partially) preserved supersymmetry this means that the internal manifold is Calabi-Yau. The deformations of a Calabi-Yau metric which give rise to massless four-dimensional moduli fields are in principle well known. Specifically, they are given by infinitesimal defor mations gmn → gmn + δgmn such that the background stays Ricci-flat,
+
+Rmn(g + δg) = 0 . (4.2)
+
+When A is zero the constraints (3.8) and (3.12) readily reduce to the familiar gauge-fixing conditions [74]
+
+∇ mδgmn = 0 , g mnδgmn = 0 . (4.3) often referred to as transverse (or harmonic) traceless gauge. On Calabi-Yau manifolds the deformations δgmn come in two different classes, K¨ahler and complex structure deformations. They correspond to the two possible different index structures δgiȷ¯ and δgij with respect to complex coordinates z i, i = 1, . . . , 3. In the following we will mostly work only with real metrics, ignoring the existence of a complex structure, but revisit the distinction between K¨ahler and complex structure deformations in Appendix B. In the remainder of this section we discuss the conditions (4.3) for the specific example of the deformed conifold. Here a further subtlety arises because we are dealing with a non compact geometry. Therefore, this setup would not give rise to an effective four-dimensional graviational theory without a five-dimensional cutoff. In the KKLT context this is imple mented by the assumption that the metric of the deformed conifold approximates the metric of another compact Calabi-Yau geometry in a certain region. As described in Section 2
+
+this is modeled by a sufficiently large effective “UV-cutoff” for a non-compact coordinate τ . Consistency hence requires to only look at deformations of the deformed conifold that vanish in the UV, i.e.
+
+δgmn → 0 for τ → ∞ . (4.4)
+
+To find the deformation of the metric of the deformed conifold we start with the following SU(2) × SU(2) × Z2 invariant ansatz [75], ds 2 6 = e− 6p(τ)− x(τ) dτ 2 + (g 5) 2 + e x(τ)+y(τ) (g 1) 2 + (g 2) 2 + e x(τ)− y(τ) (g 3) 2 + (g 4) 2 , (4.5)
+
+where g 1, . . . , g 5 are one-forms defined in Appendix A. While they span five compact di rections of the geometry, the before-mentioned coordinate τ parametrizes an a priori non compact direction. However, it is bounded in the IR at small τ by the conifold deformation and when embedded into a compact Calabi-Yau along the lines of [7] also in the UV at large τ . Notice that this ansatz fixes the freedom to redefine τ → τ˜(τ ) up to a constant shift τ → τ + c. Interestingly, the problem to find functions p(τ ), x(τ ) and y(τ ) such that the above metric is Ricci flat can be reformulated in terms of a one-dimensional action [75],
+
+S =Z d 6x√gR ∼Z dτL , (4.6)
+
+where the Lagrangian
+
+L = −
+
+1 
+2 
+
+Gabϕ˙aϕ˙b − V (ϕ) (4.7)
+
+can be expressed in terms of a superpotential
+
+V (ϕ) =
+
+1 
+8 
+
+G ab ∂W ∂ϕ a
+
+∂W ∂ϕ b . (4.8)
+
+Here we introduced the combined notation ϕ a = (p, x, y). Therefore, “supersymmetric” solutions satisfy the first order equations
+
+ϕ˙a −
+
+1 
+2 
+
+G ab ∂W ∂ϕ b = 0 . (4.9)
+
+Direct computation of R shows that
+
+Gabϕ˙aϕ˙b = e 2x
+
+−
+
+1 
+2 
+
+x˙ 2 +
+
+1 
+2 
+
+y˙ 2 + 3 ˙px˙ (4.10)
+
+and
+
+W(ϕ a) = e− 6p + e 2xcosh y . (4.11)
+
+The set of first order equations resulting from (4.9) has the following general solution
+
+6 1 2 sinh(2τ + 4c2) − τ − 2c3 1/3
+
+,
+
+e 6p =
+
+2
+
+c 2 1sinh (τ + 2c2)
+
+(4.12)
+
+1 2 sinh(2τ + 4c2) − τ − 2c3 1/3 ,
+
+e x =
+
+c1 
+2 
+
++ c2 .
+
+e y = tanh
+
+τ 2
+
+As expected from three first order equations, there are three constants of integration. More over, the geometry ends at τ = − 2c2. In a holographic context this point corresponds to the IR of the dual field theory while the opposite direction τ → ∞ corresponds to the UV. To obtain a smooth geometry we must require that the first derivatives of the metric vanish at the endpoint of the geometry. Taking the τ -derivatives of the three equations in (4.12) at τ → 0 one finds that this is only the case if c2 = c3. 5 With this identification c2 corresponds only to a shift in the coordinate τ and is hence a trivial diffeomorphism. We can therefore choose to eliminate it by setting it equal to zero,
+
+| | | | 0, = = c2 c3 | | | | (4.13) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| which leaves | us with only | one constant | of integration. | We | will | elaborate more | on possible |
+| diffeomorphisms | τ of later. | | | | | | |
+
+After identifying c1 = S 2/3 with the deformation parameter of the deformed conifold we now arrive at the familiar metric
+
+(g 3) 2 + (g 4) 2 
+S 2/3 
+2 
+
+dτ 2 + (g 5) 2 + cosh
+
+K(τ )
+
+ds 2 =
+
+2 τ 
+2 
+
+1 3K 3(τ )
+
+(g 1) 2 + (g 2) 2 , (4.14)
+
++ sinh
+
+2 τ 
+2 
+
+where
+
+(sinh(2τ ) − 2τ ) 1/3 2 1/3 sinh τ
+
+K(τ ) =
+
+. (4.15)
+
+As we explain in Appendix B this metric defines a Calabi-Yau metric on the deformed conifold. Therefore, the first order equations (4.9) indeed imply that the corresponding ten-dimensional background (4.1) is supersymmetric. Let us now try to use this form of the metric to determine its moduli, i.e. its continu ous deformations such that it stays Ricci flat. From the above analysis it follows that all such deformations must come from a variation in one of the integration constants, possibly
+
+5If we were to consider the back-reaction of an antibrane or anything else with nontrivial energy momentum tensor sitting at the end of the conifold, this condition could change.
+
+combined with a change in the coordinate τ , i.e. a diffeomorphism. Moreover, the only in 
+tegration constant that keeps the metric smooth and is not just a pure diffeomorphism is 
+c1 = S 2/3. 
+We therefore proceed by determining the variation of the metric that corresponds to a 
+change in S, 
+
+∂Sgmn = ∂gmn ∂S =
+
+2 
+3S 
+
+gmn , (4.16)
+
+Clearly, ∂Sgmn is just a rescaling of the metric and therefore satisfies ∇ µ∂Sgmn = 0 but violates the second condition in (4.3),
+
+g mn∂Sgmn =
+
+4 S
+
+. (4.17)
+
+To transform ∂Sgmn into a harmonic and traceless deformation we have to combine it with a suitable diffeomorphism. This means we would like to find a compensating vector η m such that
+
+δSgmn ≡ ∂Sgmn + (L ηg)mn = ∂Sgmn + ∇ mηn + ∇ nηm (4.18)
+
+satisfies the gauge fixing conditions (4.3). This results in two equations on η m,
+
+∇ mηm = −
+
+1 
+2S 
+
+,
+
+∇
+
+m ∇ mηn = 0 ,
+
+(4.19)
+
+where in the last step we used the Ricc flatness of the metric. Assuming that the corre sponding change in coordinates should involve only the radial coordinate τ we employ the simple ansatz 6
+
+η m = η τ(τ ), 0, 0, 0, 0, 0 . (4.20) The most general solution of the second order equation in (4.19) with this ansatz reads
+
+η τ(τ ) = h1 sinh(2τ ) − 2τ + h2 sinh
+
+2 τ
+
+, (4.21)
+
+where h1 and h2 are two integration constants. The first equation in (4.19) fixes h1 = 
+− 1/(2S) and regularity at τ = 0 requires h2 = 0. 
+The solution for η τ(τ ) describes an infinitesimal coordinate transformation for τ . We 
+would also like to find the corresponding finite coordinate change 
+
+τ → T (τ, S) . (4.22) 6See Appendix B for a discussion of more general compensators with a non-vanishing ψ-component.
+
+Replacing τ with T in the metric and varying with respect to S gives exactly the term L ηgµν in (4.18) if
+
+∂T (τ, S) ∂S
+
+= η τ[T (τ, S)] . (4.23) After a simple change of variables the right-hand side of this differential equation does not depend explicitly on S anymore,
+
+∂T ∂c = sinh(2T ) − 2T 2 sinh 2
+
+T
+
+, c = − log S . (4.24)
+
+and its solution is given by
+
+T (τ, S) = F− 1 F(τ ) − log S
+
+S0
+
+, (4.25)
+
+where F− 1 is the inverse function of
+
+F(t) =
+
+1 
+2 
+
+log [sinh(2t) − 2t] . (4.26)
+
+Here the constant of integration is chosen such that T (τ, S0) = τ .
+
+0 1 2 3 4 5
+
+c = - log S
+
+1
+
+2
+
+3
+
+4
+
+5
+
+T
+
+Figure 1: The radial coordinate T as a function of log S (for S0 = 1), where S is the conifold deformation parameter.
+
+We plot the evolution of the radial coordinate T (τ, S) under a change of S in Figure 1. To understand it further we can expand it in the IR and the asymptotic UV. In the regime of small τ (corresponding to the IR) we can approximate T (τ, S) by
+
+T (τ, S) = τ S0 S
+
+2/3
+
++ O (τ 3), (4.27)
+
+i.e. it is given by a simple rescaling of τ . This yields the following expansion of the metric around τ = 0,
+
+ds 2 6 =
+
+S 2/3 2 2/3
+
+× 3 1/3h dτ 2 + 2(g 3) 2 + 2(g 4) 5 + (g 5) 2
+
+i + τ 2 5 × 2 2/3 × 3 1/3 S 2/3 dτ 2 + 5 2 (g 1) 2 + 5 2 (g 2) 5 + 3 2 (g 3) 2 + 3 2 (g 4) 5 + (g 5) 2 + O (τ 4). (4.28)
+
+Therefore, at the tip of the conifold the two-sphere spanned by g 1 and g 2 shrinks to zero-size 
+while the three-sphere spanned by g 3, g 4 and g 5 stays finite with a radius proportional to 
+S 1/3. We also see the dramatic effect of the gauge-compensator that gives rise to an inverse 
+power of S in the τ 2-term. 
+For τ → ∞ (the UV), on the other hand, we find 
+T (τ, S) → τ − log S 
+
+S0
+
+. (4.29)
+
+To illustrate the significance of this behavior we notice that for τ → ∞ the metric asymptotes towards
+
+ds 2 6 →
+
+3
+
+2
+
+5/3S 2/3e 2T /3" 1 9 dT 2 + (g 5) 2 + 1
+
+## 6X
+
+4
+
+i=1
+
+(g i) 2# , (4.30)
+
+the metric of the singular conifold. With (4.29) the pre-factor satisfies S 2/3e 2T /3 → S 2/3 0 e 2τ /3, (4.31)
+
+so at τ → ∞ the metric is independent of S. The full solution (4.25) interpolates between these two regimes and its effect on the three independent components of the metric under a change of S is shown in Figure 2. It follows from the above discussion that the gauge-fixed variation of the metric is localized only in the IR region close to τ ≈ 0 and vanishes when approaching the UV at τ → ∞ . This is in stark contrast to the uncorrected variation with respect to S which acts as a conformal prefactor of the metric and hence deforms it uniformly in the IR and the UV. An essential part of the qualitative behavior of the deformation comes hence from the gauge transformation or diffeomorphism which is necessary to make the deformation harmonic and traceless. As mentioned above, here we have treated the metric (4.14) on the deformed conifold as real and did not refer to a complex structure. We have relegated this more technical discussion to Appendix B where we show that S is indeed a complex structure modulus and that δSgmn arises from a harmonic (2, 1) form. Specifically, the deformation we discussed here is the absolute value of the corresponding complex structure deformation. We have seen (e.g. in Figure 2) that the metric deforms potentially significantly in the IR. In the following section we will investigate how this affects the potential for the modulus field
+
+S/ S0 = 0.25 
+S/ S0 = 0.5 
+S/ S0 = 0.75 
+S/ S0 = 1 
+S/ S0 = 1.5 
+
+0 2 4 6 8 τ
+
+1
+
+2
+
+3
+
+4
+
+5
+
+e6 p+ x (a)
+
+S/ S0 = 0.25 
+S/ S0 = 0.5 
+S/ S0 = 0.75 
+S/ S0 = 1 
+S/ S0 = 1.5 
+
+2 4 6 8 τ
+
+1
+
+2
+
+3
+
+4
+
+5
+
+e- x- y (b)
+
+S/ S0 = 0.25 
+S/ S0 = 0.5 
+S/ S0 = 0.75 
+S/ S0 = 1 
+S/ S0 = 1.5 
+
+0 2 4 6 8 τ
+
+0.5
+
+1.0
+
+1.5
+
+2.0
+
+2.5
+
+3.0 e- x+ y (c)
+
+Figure 2: The three independent components of the inverse metric on the deformed conifold for different values of S/S0, taking into account the effect of the S-dependent diffeomorphism (4.22) and (4.25). (a) g ττ = g 55 = e 6p+x, (b) g 11 = g 22 = e− x+y, (c) g 33 = g 44 = e− x− y.
+
+S if we include non-trivial fluxes and hence a non-vanishing warp factor A(τ ). Analogous 
+to the discussion here the deformations of the metric and now also the warp factor will be 
+determined by the constraint equations. 
+We anticipate that solving these equations will significantly modify the IR behavior of 
+the metric and warp factor, and these will be relevant to the low-energy potential for the 
+light fields with amplitude concentrated in the IR. 
+
+5 Application to the Klebanov-Strassler solution
+
+We are now in a position to apply this formalism to the warped deformed conifold, i.e. the Klebanov-Strassler solution. Let us first collect some basic facts about the background we are going to deform. The ten-dimensional metric is of the form (2.1) with the internal metric g˜mn given by the Ricci flat metric on the deformed conifold (4.14). The warp factor A(τ ) is given by (note that it is the inverse square root of this expression which appears in (2.1) in front of the four-dimensional part of the metric)
+
+e− 4A(τ) = 2
+
+2 3gs (α′M)
+
+2
+
+| S0|
+
+4 
+3 
+
+I(τ ), (5.1)
+
+where all τ -dependence comes from the function I(τ ) that is given by the integral expression
+
+I(τ ) = Z
+
+∞
+τ
+
+dx
+
+x coth x − 1 sinh
+
+2 x
+
+(sinh 2x − 2x) 1/3 . (5.2)
+
+Moreover, there is the self-dual three-form flux
+
+G3 = F3 −
+
+i gs
+
+H3 =√6Mα′χS , (5.3)
+
+where χS is the unique harmonic (2, 1) form on the deformed conifold, see (B.15) in Ap pendix B. These fluxes source not only a non-trivial warp factor but also the self-dual five-form flux F5 = F 5 + ⋆F 5. Four-dimensional Poincar´e invariance demands that
+
+F 5 = dC4 = dα ∧ vol4 , (5.4)
+
+for α = α(τ ) and the Bianchi identity enforces ⋆F 5 = B2 ∧ F3 . (5.5)
+
+The supersymmetric equations of motion are solved for α = e 4A (see e.g. [7]) and therefore ˜⋆6 de− 4A = ⋆ de 4A ∧ vol4 = B2 ∧ F3 . (5.6)
+
+Here we used that the transition from the Hodge-⋆ operator of the full ten-dimensional 
+metric to the six-dimensional ˜⋆6 of the internal Calabi-Yau metric gives an additional factor 
+of − e− 8A. The relation (5.6) can be used to determine the warp factor e− 4A in (2.4) as the 
+integral of ˜⋆6(B2 ∧ F3). For the KS-solution the latter expression can be evaluated explicitly 
+and leads to the integral expression (5.2). 
+The integer M in (5.3) determines the amount of F3 flux over the A cycle of the deformed 
+conifold, 
+
+M =
+
+1 (2π) 2α′Z A F3 . (5.7)
+
+On the other hand, the B cycle of the deformed conifold stretches along its non-compact direction. Therefore we need a UV cutoff Λ0, see (2.6), to obtain a finite H3 flux K over the B-cycle,
+
+K =
+
+1
+
+(2π) 2α′Z A H3 = 1 (2π) 2α′Z
+
+τ0
+
+0
+
+dτ Z S2 H 3 ≈ gsM 2π log Λ 3 0 S0 , (5.8)
+
+where in the last step we assumed that Λ 3 
+0 ≫ S. Therefore, even though we are in principle 
+able to choose S freely, fixing M and K as well as the UV cutoff Λ0 will create a potential 
+for S with a minimum at the value S0 given in (2.8). 
+To determine the potential for S we need first to establish which parts of the ansatz to 
+keep fixed and which to vary as we change S. As already explained in Section 3, here we 
+choose to keep the two-form fields and the axio-dilaton exactly constant, 
+
+δSC2 = δSB2 = δSτIIB = 0 , (5.9)
+
+but consider a one-parameter family of warp factors and Ricci-flat metrics on the deformed conifold,
+
+A = A(τ, S), g˜mn = ˜gmn(τ, S). (5.10)
+
+Importantly, we cannot choose the dependence of F5 (or equivalently α, see (5.4)) on S freely. For constant B2 and F3 it is uniquely determined by the action of the Hodge-⋆ operator in (5.5). Moreover, as discussed in Section 3, we should in principle also allow for an additional compensator Km. Such a compensator, however, would also enter the conditions (5.9). For example the variation of C2 reads
+
+δSC2 = ∂SC2 + L KC2 , (5.11)
+
+where L denotes the Lie-derivative. Therefore, (5.9) implies that ∂SC2 = −L KC2 and hence we can perform a coordinate redefinition after which ∂SC2 = 0 and
+
+Km = 0 . (5.12)
+
+The same holds argument holds for B2 and τIIB. Such a change of coordinates of course also 
+affect the–so far undetermined–warp factor A(τ, S) and metric ˜gmn but can be absorbed into 
+their definition. Therefore (5.10) represents the most general ansatz that is compatible with 
+(5.9). 
+We have seen in the previous section that a family of Ricci flat Calabi-Yau metrics labeled 
+by the complex structure parameter S on the warped deformed conifold takes the form (4.14) 
+up to an S-dependent diffeomorphism of the radial coordinate τ . A suitable ansatz for ˜gmn 
+hence reads 7 
+
+g˜mndy mdy n =
+
+S 2/3 
+2 
+K T (τ, S)" 1 3K T (τ, S) 3h ∂τT 2 dτ 2 + (g 5) 2 
+
+i + cosh 2 T (τ, S) 2 (g 3) 2 + (g 4) 2 + sinh 2 T (τ, S) 2 (g 1) 2 + (g 2) 2# , (5.13)
+
+where besides the conformal prefactor of S 2/3 the yet to be determined function T (τ, S) 
+encodes all the non-trivial S dependence of ˜gmn. 
+Our family of configurations (5.10) is thus reduced to two functions A(τ, S) and T (τ, S). 
+The former two are not independent but related by the constraint (3.11). To utilize this 
+constraint we notice that it can be rewritten as [54] 
+
+˜⋆6δS ˜⋆6de− 4A m + e 4A
+
+∇
+
+˜ n(δSg˜nm − g˜mnδSg˜) = δSTm . (5.14)
+
+Moreover, the ansatz (5.13) for the metric satisfies
+
+∇ ˜ mδSg˜mn − ∇
+
+˜ nδSg˜ = 0 , (5.15) 7For further comments on the generality of this ansatz see Appendix C.
+
+for any T (τ, S) and the condition (5.9) implies δSTm = 0. Therefore, (5.14) reduces to δS ˜⋆6de− 4A = 0 . (5.16)
+
+We can use this relation to conclude that ˜⋆6de− 4A remains constant along the flow of S. Since the initial value of de− 4A at S = S0 is given by (5.6), we find that
+
+de− 4A(S) = ˜⋆6 (B2 ∧ F3) , (5.17)
+
+and
+
+α(τ, S) = e 4A(τ,S), (5.18) for any value of S. We can understand (5.17) as an integrated version of the constraint (5.14). Moreover, as also observed in [57], the relations (5.17) and (5.18) reduce the potential to the familiar expression
+
+Vflux =
+
+1 4κ 2 10Z d 6y e 4A Im τIIBh G3 ∧ ˜⋆6G3 + iG3 ∧ G3i . (5.19)
+
+The potential in (5.19) depends on S via the warp-factor e 4A and through the ˜⋆6-operator 
+via the internal metric ˜gmn. 
+For B2 and F3 given by the Klebanov-Strassler solution (5.3) and (B.15) we can give an 
+explicit expression for the integrated constraint (5.17), 
+
+∂τ e− 4A(τ,S) = 2
+
+2 3gs (α′M)
+
+2
+
+| S|
+
+4 
+3 
+
+τ coth τ − 1 sinh 2 τ
+
+sinh 2τ − 2τ (sinh 2T − 2T ) 2/3∂τT . (5.20)
+
+At S = S0, where T (τ, S0) = τ , this consistently reduces to the Klebanov-Strassler warp 
+factor (5.2). Moreover, we have seen in Section 4 that the metric of the deformed conifold 
+stays asymptotically constant in the UV if 
+T (τ, S) → τ − log S 
+
+S0
+
+for τ → ∞ . (5.21)
+
+Inserting this into (5.20) shows that
+
+∂τ e− 4A(τ,S)
+
+→ 2 gs (α′M) 2
+
+| S0|
+
+4 
+3 
+
+e− 4τ /3(τ − 1) , (5.22)
+
+for τ → ∞ . The right hand side does not depend on S but only on S0 and so we find that also δSA → 0 in the UV. In other words, the asymptotic behavior (5.21) ensures that both g˜mn and A fluctuate with S only in the IR and that our fluctuated KS geometry can still be embedded into a compact Calabi-Yau geometry along the lines of [7].
+
+By inserting the relation (5.20) back into the IIB action we can explicitly compute the potential (5.19) and find the (relatively bulky) expression
+
+Vflux = T3
+
+gsM 2 
+32πZ dτ e 4A 
+∂τT( 8 (τ coth τ − 1) 2 
+sinh 
+
+2 τ
+
++ coth
+
+2 (T /2) sinh 2 (τ/2) cosh
+
+6
+
+(τ/2)
+
+(sinh τ + τ )
+
+2
+
++ tanh
+
+2 (T /2) cosh 2 (τ/2) sinh
+
+6
+
+(τ/2)
+
+(sinh τ + τ )
+
+2
+
++ 16 1 +
+
+3 + 2τ − 6t coth τ + 3τ 2csch 2 τ sinh
+
+2 τ ∂τT +8 1 + 2 csch
+
+2
+
+T − 4 cosh T sinh 2 T csch τ +
+
+(τ coth τ − 1) 2 + τ 2(1 + 2 csch 2
+
+T )
+
+sinh
+
+2 τ (∂τT ) 2) .
+
+(5.23) Here we used again the expressions (5.3) and (B.15) for the three-form flux G3 in the KS solution. Also, when integrating over the remaining five compact dimensions we had to account for the correct numerical factor (A.5). As a consistency check it can be verified that the integrand in (5.23) vanishes identically if T = τ and hence the minimum at S = S0 gives rise to Minkowski space.
+
+S/ S0 = 0.1 
+S/ S0 = 0.5 
+S/ S0 = 1 
+S/ S0 = 2.0 
+
+2 4 6 8 10τ
+
+0.5
+
+1.0
+
+1.5
+
+2.0 (a)
+
+S/ S0 = 0.1 
+S/ S0 = 0.35 
+S/ S0 = 0.5 
+S/ S0 = 0.75 
+
+2 4 6 8 10τ (b)
+
+Figure 3: (a) The inverse warp factor e− 4A as a function of the radial coordinate τ for different values of S/S0. (b) The integrand of the potential (5.23) for different values of
+
+S/S0. In both figures the IR-tip of the throat geometry is located at τ = 0 and τ → ∞ corresponds to its UV.
+
+To compute the four-dimensional potential Vflux(S) as a function of S from (5.23), it 
+remains to determine T (τ, S) and A(τ, S). This is done by exploiting also the first constraint 
+(3.8). In our case it yields the relation 
+2 
+S 
+
++ δSh log sinh 2 T + ∂τT − 4Ai = 0 , (5.24)
+
+which can be directly integrated to obtain
+
+e− 4A(S) 
+e− 4A(S0) 
+S sinh T S0 sinh τ 
+
+2
+
+∂τT = 1 . (5.25)
+
+In combination with the other constraint (5.20) this relation yields a system of differential 
+equations for A and T that has to be solved numerically. For example, we can use (5.25) to 
+eliminate e− 4A from (5.20) to obtain an ordinary differential equation of second degree for 
+T at every value of S. When solving this differential equation initial conditions have to be 
+imposed such that T (τ, S) = 0 at τ = 0 and such that it goes asymptotically towards (5.21) 
+at large τ . Once T (τ, S) is determined one can solve (5.25) for A(τ, S) and compute the 
+potential by numerically integrating (5.23). 
+The resulting profile of the warp factor is shown in Figure 3a. We see that not only 
+does the warp factor change only in the IR where τ is small, but also that in this region the 
+dependence of e− 4A on S is much weaker than the naive expectation e− 4A 
+∼ S− 4/3. Around 
+the minimum for S ≈ S0 and at the IR tip of the conifold we can approximate it by 
+
+e− 4A(τ=0,S)
+
+∝
+
+S0 S
+
+0.44
+
+. (5.26)
+
+Moreover, for S → 0 the warp factor appears to asymptote to a constant value and does not diverge. Therefore, we expect the potential V (S) not to have any additional critical points and not to go back to zero for S → 0. We confirm this expectation by inserting the result for A(τ, S) into (5.23) and performing the dτ integral numerically. We illustrate the profile of the integrand for different values of S/S0 in Figure 3b. The resulting potential can be found in Figure 4.
+
+6 Effect on the conifold instability
+
+Let us finally discuss the effect of the corrected potential for S on the conifold instability found in [44–47]. As briefly summarized in Section 2, adding an anti-brane in the IR of the Klebanov-Strassler geometry gives an additional contribution to the potential for S. This potential can be computed from the antibrane action
+
+SD3 = SDBI + SCS = − T3Z d 4x√− g4 − T3Z C4 , (6.1)
+
+with T3 the D3-brane tension. In our case, where (5.18) holds, the two terms give exactly the same contribution. By evaluating this action in the IR at τ = 0 where the antibrane sits we find
+
+VD3(S) = 2ND3T3e 4A(0,S), (6.2)
+
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+
+S S0
+
+### V( S)
+
+Figure 4: This plot compares previous results for the potential for the conifold modulus S with ours. The solid lines are the flux potential (5.19) at g
+
+1/2 s M = 10 and the dashed lines the contribution from the antibrane. The potential computed by [52] is in blue and our potential in red. Their superposition is illustrated in Figure 5.
+
+with ND3 the number of antibranes. This means that the functional dependence of VD3 on 
+S is just given by the behavior of the warp factor at the position of the anti-brane, namely 
+the IR end of the Klebanov-Strassler throat. 
+The total potential for S consists then of two contributions, the flux potential computed 
+in the previous section and the antibrane potential, 
+
+V (S) = Vflux(S) + VD3(S), (6.3)
+
+with Vflux(S) given in (5.23). While Vflux(S) has a minimum at S = S0, the antibrane term 
+VD3 is a monotonically increasing function of S that is minimized at S = 0. Therefore, 
+it will drive S to smaller values and the minimum of the combined potential will be at 
+0 ≤ S < S0. The magnitude of this shift and whether it can destabilize the conifold all the 
+way to the singular conifold at S = 0 depends on two factors. Firstly, the flux potential 
+(5.23) is enhanced by a relative factor of gsM 2 which is not present in the antibrane potential. 
+Therefore, if gsM 2 
+≫ ND3 the flux potential is much larger than the antibrane contribution 
+and the effect of the latter on the stabilization of S can be ignored. On the other hand, if 
+gsM 2 
+∼ O (ND3) the effect of the antibrane can be potentially dangerous and can lead to a 
+substantial shift in the vev of S. This observation is compatible with the qualitative form of 
+the bound (2.10). 
+
+However, secondly, whether the shift in S is large enough such that it can destabilize 
+the conifold geometry also depends very much on the slope and qualitative shape of the two 
+potentials. Both are mostly determined by the behavior of the warp factor at the tip of 
+the throat. For the antibrane potential this is immediately apparent from (6.2). The faster 
+e 4A(0,S) shrinks for S → 0 the stronger the effect of the antibrane. Importantly, since the 
+integrand of (5.23) is approximatively localized in the IR region around small values of τ 
+(see Figure 3b), the flux potential is also dominated by e 4A(0,S). If e 4A(0,S) for S → 0 tends 
+towards zero fast enough (e.g. polynomial) the warp factor will overcome the fluxes and 
+create another minimum at S = 0 as well as a local maximum somewhere in between. In 
+this case, if gsM 2 is small enough, the combined potential (6.3) will not have a minimum at 
+finite S anymore but only at S = 0 where V = 0. This is the situation that was assumed in 
+the derivation of the potential (2.7) with e 4A(0,S) 
+∼ S 4/3, leading to the bound (2.10) on the 
+existence of a runaway instability. 
+On the other hand, if e 4A(0,S) does not go to zero for S → 0 but stays finite, the flux 
+potential goes to infinity and does not exhibit any further critical points. Therefore, also 
+the combined potential always has a minimum at S > 0 and there in this analysis we see no 
+runaway instability, independent on the value of gsM 2. This is the case for the potentials 
+that we found in the previous section. 
+The numerical result for the antibrane potential VD3(S) together with the flux-potential 
+Vflux for S can be found in Figure 4. This plot also contains the potentials that were used 
+in [44] (in blue) to argue that a D3 brane can destabilize S if the fluxes are too small. We see 
+that our flux-potential (in red) is not only more stable but also that our antibrane-potential 
+is shallower and hence contributes less strongly to a potential destabilization for S. We 
+illustrate the superposition (6.3) of the two potentials in Figure 5 for different values of 
+gsM 2. We see that even at values of gsM 2 close to the critical value (2.10) the shift in the 
+vev of S is still relatively small. Only if one goes to very small gsM 2 would the effect of the 
+antibranes be non-negligible. 
+
+7 EFTs from warped compactifications
+
+The existence of the conifold runaway instability critically depends on the qualitative features of the flux potential Vflux in the region between S = 0 and S = S0. The antibrane potential VD3 can only overrun Vflux and induce an instability if Vflux is bounded from above and does not go to infinity for S → 0. Therefore, knowing the potential only in the direct vicinity of S0 is insufficient to check stability. We have shown how to check the potential off-shell by including two constraint equations and shown the field S shifts only by a small amount with the addition of the antibrane. In this section we argue that a third constraint should
+
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+
+S S0
+
+##### V( S)
+
+gs M = 10
+
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+
+S S0
+
+##### V( S)
+
+gs M = 8
+
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+
+S S0
+
+##### V( S)
+
+gs M = 6
+
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+
+S S0
+
+##### V( S)
+
+gs M = 4
+
+Figure 5: Superposition of the potential for S and the antibrane potential for different values of gsM 2 (from large to small). The “old” potential is in blue, for small values of M its minimum disappears. The red potential, which was computed by solving the constraint equations from Section 3, always has a minimum, irrespective of the value of gsM 2.
+
+be included in regions of S farther from S0. 
+Naively one would expect that one can compute the potential for any point in con 
+figuration space (consisting of the warp factor A, the internal metric ˜gmn and other ten 
+dimensional fields) as the potential energy obtained by inserting the configuration into the 
+ten-dimensional action and integrating over the compact dimensions. This should not require 
+solving any equations of motion as long as we are not interested in the actual dynamics of 
+the system. For example, a similar intuition would be correct for the classical mechanics of 
+a single particle placed into a complicated potential. One can assign a well defined potential 
+energy to any point of the particles configuration space and would only have to solve its 
+equations of motions if one wants to determine how it rolls down the potential. 
+However, as outlined in Section 3, in gravitational systems, due to their diffeomorphism 
+invariance, the situation is substantially more complicated. Some of the equations of motions 
+
+have to be imposed as constraints and need to be satisfied along any consistent trajectory 
+in configuration space. A detailed account on how these constraints are related to the gauge 
+freedom of general relativity can for example be found in [52]. 
+In addition to the constraints we have already incorporated, at finite distances from a 
+minimum, i.e. for deformations beyond linear order, another constraint has to be imposed, 
+as was pointed out in [54, 61]. After choosing a suitable three-dimensional slicing and time 
+coordinate t for the non-compact four-dimensional spacetime, the Gtt component of the ten 
+dimensional Einstein equations does not contain any second derivatives ∂ 2 
+t and therefore 
+cannot be satisfied dynamically. This is the well-known Hamiltonian constraint of general 
+relativity that has to be used to obtain a sensible lower-dimensional potential. 
+In particular, following [54] we assume that there is a four-dimensional effective theory 
+with space-time metric ˜gµν and potential V . We can consider an initial configuration where 
+all velocities and second space derivatives vanish. This is consistent as long as the second 
+time derivatives are still unconstrained as they are determined by the equations of motion. 
+In this case the tt component of the four-dimensional Einstein equations reduces to 
+G˜tt = κ 2 4V , (7.1) 
+where G˜tt is the Einstein tensor of the four-dimensional metric ˜gµν and κ 2 
+4 the four-dimensional 
+gravitational constant. This means that one can consistently determine V by inserting (7.1) 
+back into the full ten-dimensional Einstein equations and solving for V . 
+In our case the relevant equation reads [54] 
+
+κ 2 4V = −
+
+1 
+2 
+e 4AR˜6− 
+
+1 
+2∇ 
+
+˜ 2e 4A+
+
+1 
+4 
+
+e− 4A ∂me 4A∂ m˜e 4A + ∂mα∂ m˜ α − e 2A 1 12Im τ
+
+GmnpG m˜ n˜p˜. (7.2)
+
+For the ansatz used in Section 5 this expression can be simplified further. Here, by means of the constraint (5.14) the derivatives of A and α are explicitly given in terms of (5.17) and (5.18) and R˜6 = 0. Inserting these relations into (7.2) yields
+
+˜⋆6κ 2 4V =
+
+e 2A 12Im τh G3 ∧ ˜⋆6G3 − G3 ∧ G3i . (7.3)
+
+After integrating over the internal dimensions and using that 1 κ 2 4
+
+=
+
+Vw κ 2 10 =
+
+1 κ 2 10Z ˜⋆6e− 4A, (7.4)
+
+we exactly reproduce our previous expression for the potential (5.19). However, (7.3) poses also a constraint on the warp factor and internal metric because it must be satisfied even before integration. This requirement is non-trivial since κ 2 4V is constant over the internal space while the right hand side of (5.19) is a priori not.
+
+Nonetheless, we argue that we can still trust our potential in the regime we are inter ested in even if it does not exactly satisfy (7.3). Firstly, it follows from the gravitational Bianchi identities that at first order in S around the minimum the constraint (7.2) is ac tually equivalent to (3.11). This can be seen explicitly by taking the S derivative of the right hand side of (7.2) and using the background equations of motion at S = S0 to show that it vanishes identically as long as (3.11) holds. The S derivative of the left hand side of (7.2) must of course vanish at S = S0 if V is a sensible effective four-dimensional potential. Notice also that ∂Sκ 2 4 = 0 as long as the trace-constraint (3.8) is satisfied. We therefore expect the potential that was computed in the previous sections to be a reasonably accurate approximation as long as it is evaluated close enough to its minimum. On the other hand, this means that we do not know the form of the potential at small S far from the supersymmetric minimum at at S0, which in principle leaves open the possibility of a runaway instability at small S. This could be the case if gsM 2 is very small, as then the effect of an antibrane would be large and it could generate a large displacement in S. However, in [44] there was given an explicit critical value M 2 min ≈ 46 for gsM 2 at which the addition of an antibrane would destabilize the Klebanov-Strassler geometry. We can hence use our potential to compute the shift in S away from the supersymmetric minimum at exactly this value and find
+
+S S0≈ 0.94 . (7.5)
+
+This is still sufficiently close to one so we can rule out the existence of an instability of the 
+previously described type at this value. We illustrate this behavior in Figure 5. 
+To get an accurate potential at very small values of S and to really determine whether 
+there can still be an instability at gsM 2 
+≪ M 2 min we must modify our previous solutions such 
+that they also satisfy (7.3). As for the potential (5.19), we obtain an explicit expression for 
+the right hand side of (7.3) in terms of T (τ, S) and A(τ, S) by using the Klebanov-Strassler 
+solution for G3. The result will be essentially the same as the integrand of (5.23), up to 
+a different power of e A in the prefactor. Solving this constraint and together with the two 
+previously used constraints (3.8) and (3.11) is however not possible, since (3.8) and (3.11) 
+already determine the two functions T (τ, S) and A(τ, S) uniquely. 
+It is hence necessary to extend the ansatz from Section 5 to solve all three constraints 
+simultaneously. There are in principle two different ways this can be done. First, we can 
+release the requirement (5.9) that the two-form fields C2 and B2 as well as the axio-dilaton 
+τIIB remain constant when varying S. While integer quantization of the fluxes of course 
+demands that the integrals of F3 and H3 over all three-cycles remain constant, this still 
+retains the freedom to alter them by an exact piece, i.e. by changing the corresponding 
+gauge fields C2 and B2. In other words, F3 and H3 must remain constant in cohomology but 
+they could be S-dependent as differential forms. In our case the situation is slightly more 
+
+subtle as we integrate H3 over a non-compact cycle up to a UV-cutoff τ = τΛ. Therefore changing B2 can change
+
+R H3 by a boundary term, so we have to demand that δB2 = 0 at τ = τΛ. Allowing B2 and C2 to be S-dependent appears to be necessary from another point of view as well. Namely, we have not commented yet on how to obtain a supersymmetric potential from (7.3). It is expected that in a IIB flux-compactification on a Calabi-Yau manifold the effective four-dimensional potential takes at the classical level the form of an N = 1 no-scale potential
+
+V = e Kg iȷ¯DiWDȷ¯W , (7.6) where W is given by the GVW superpotential [76]
+
+W =Z G3 ∧ Ω , (7.7)
+
+with Ω the holomorphic three-form on the Calabi-Yau manifold. 8 Since W is topological 
+all non-trivial warping effects should be encoded in the K¨ahler potential K. At trivial 
+warp-factor the flux-potential (7.3) can be brought into the form (7.6) by expanding G + 
+3 = 
+G3 + i˜⋆6G3 in terms of a basis of harmonic forms on H 3(C). 9 The covariant derivatives 
+DiW then give the respective expansion coefficients. This is of course possible only if G + 
+3 is 
+harmonic itself. The harmonic representative in a given cohomology class however depends 
+on the complex structure and hence differs for different values of S by an exact piece. This 
+indicates again that B2 and C2 should be chosen S-dependent. 
+Another way to extend the family of backgrounds used in Section 5 is to go away from the 
+ansatz (5.13) for the metric ˜gmn and to allow it to become non-Ricci-flat. This corresponds to 
+exciting not only its complex-structure modulus (which is massless in the absence of fluxes) 
+but also higher order Kaluza-Klein modes. This could be plausible because their masses are 
+also exponentially suppressed by the large warp factor and therefore in principle of the same 
+order of magnitude as the mass of the complex-structure modulus. 
+Both approaches to extend the ansatz presumably need to be implemented simultane 
+ously. Moreover, they have the disadvantage that they destroy, at least individually, the 
+integrability of the constraint (5.14). We thus also do not expect (5.17) and (5.18) to hold 
+anymore. However, these relations were crucial in bringing the potential (7.2) into the fa 
+miliar form (7.3). Therefore, it is conceivable that a potential for S that satisfies all three 
+constraints is not anymore of the pure flux form (7.3) but contains additional terms, e.g. aris 
+ing from KK-modes as also anticipated in [54]. It is however unclear how to bring such a 
+potential in the form of N = 1 supergravity with a classical superpotential given by (7.7), 
+which remains an interesting subject for the future. 
+
+8See Appendix B on how to construct Ω on the deformed conifold. 
+9See e.g. [53] for a suggestion how to extend this procedure to the warped case. 
+27 
+
+Nonetheless, the general lesson is clear. A consistent effective theory requires more than just studying the light zero modes when there is a warped compactification. The constraints can significantly affect the form of the metric including the warp factor in the infrared.
+
+8 Conclusions
+
+In this paper we have studied the potential for light fields in the context of warped compact 
+ifications. Our results demonstrate that particular care is required for analyzing potentials 
+and stability. Deriving the true lower-dimensional theory requires to account for the correc 
+tions induced by the warp factor to the flux-potential of all bulk complex structure moduli 
+and to the K¨ahler moduli, including the volume modulus. 
+In this paper we performed such a calculation by explicitly accounting for the constraint 
+equations, which are nontrivial in every warped compactificiation. In this way of performing 
+the analysis, these constraints dictate the behavior of the warp factor when deforming the 
+geometry of the compactification manifold away from the minimum of the potential. 
+Such a conclusion might seem odd from a Wilsonian perspective in which we would expect 
+we can analyze the low energy effective theory, ignoring what is assumed to be suppressed 
+UV physics. And although we did not do the analysis from that perspective, we would 
+nonetheless expect such a conclusion to be valid. 
+The mass of the conifold modulus is indeed exponentially suppressed by the large hier 
+archy between the IR tip of the Klebanov-Strassler throat and the bulk Calabi-Yau in its 
+UV. This is nicely illustrated by the IR localized wave functions we computed numerically. 
+Consequently, the mass of the conifold modulus is hierarchically smaller than the masses of 
+the remaining bulk complex structure moduli. However, it is comparable in mass to the light 
+KK modes whose wavefunctions are concentrated in the infrared. 
+It is generally assumed that all complex structure moduli can be integrated out leaving 
+an effective field theory for only the K¨ahler moduli in which their stabilization by non 
+perturbative effects can be studied. However, in reality both the conifold deformation pa 
+rameter as well as the IR-localized KK modes are exponentially light, so all such modes 
+should be kept in a sensible effective description. 
+The reason the naive analysis is incorrect from this perspective is that the potential for 
+S neglected all the other light KK modes aside from the volume modulus, even though they 
+are approximately the same in mass. 
+Therefore, an alternate way to interpret the modification of the warp factor in the infrared 
+is that Kaluza Klein modes of the warped throat get turned on. This would change the 
+volume of the compact directions from the naive warping behavior to the appropriate IR 
+behavior consistent with the high-dimensional constraints. 
+
+The reason this was not obvious in previous analyses is that the only light modes which 
+were kept were the radion/conifold deformation parameter and the volume modulus (which 
+is in fact parametrically lighter but naively more stable). Even if those are the only light 
+zero modes, the warping means that all the moduli have light KK partners living at the tip 
+of the conifold. A correct low energy analysis would have to include all of them. 
+This is a general lesson for warped compactifications, which occur fairly generically. The 
+low energy degrees of freedom, which are presumably what will constitute the physics of the 
+low energy world, will generally include many more modes than naively assumed. 
+Our focus in this paper was applying the formalism we have developed to the Klebanov 
+Strassler geometry and its interplay with the antibrane uplift in the KKLT scenario. The 
+conifold deformation parameter, which is a complex structure modulus of the underlying 
+Calabi-Yau geometry, also plays the role of a radion in that it parameterizes the length of 
+the throat and hence the hierarchy between its IR and UV scale and furthermore has the form 
+of the potential expected for a radion [47]. An antibrane placed in the IR of a strongly warped 
+flux-background of this kind naturally tends to minimize its energy by increasing the IR 
+UV hierarchy. It therefore drives the vacuum expectation value of the conifold deformation 
+parameter to smaller values. Whether this effect can eventually overcome the stabilization 
+of the conifold by fluxes and create a runaway instability to a singular conifold depends both 
+on the form and the magnitude of the flux-induced stabilization potential. 
+We have revisited the calculation of this potential and have found that the previously 
+assumed behavior that was used to deduce the existence of an instability is too naive. By nu 
+merically solving the relevant constraints we could explicitly determine the wave functions of 
+the deformations of the internal metric and the warp factor and show that they are localized 
+in the infrared. We furthermore determined the off-shell dependence of the warp factor on 
+the conifold deformation parameter and found that this dependence is considerably weaker 
+than previously assumed. This implies that the effect of an antibrane on the stabilization 
+of the conifold is also smaller than originally concluded. However, to finally determine the 
+fate of an antibrane in the Klebanov-Strassler geometry, we need to know the shape of the 
+flux-potential at small values and hence finite displacements of the conifold modulus away 
+from its supersymmetric minimum. For large displacements, another constraint becomes 
+relevant that we did not yet fully solve. Nonetheless, we showed that with our potential, 
+even at flux values where previous works expected the onset of a runaway instability, the 
+induced shift in conifold deformation parameter is relatively small. Therefore it seems to 
+be unlikely that higher order effects that are needed to solve the last constraint drastically 
+change the potential in the relevant regimes. Our results therefore indicate that the addi 
+tion of an antibrane in the IR of the Klebanov-Strassler geometry does not destabilize the 
+underlying conifold geometry or at worst only at very small fluxes. 
+Interestingly, solving the remaining constraint exactly seems to require to modify our 
+
+ansatz in a fundamental way. Such modifications can include a non-trivial dependence of the IIB two-form gauge fields on the conifold deformation parameter, a non-constant axio dilaton, as well as deformations of the internal metric that drive it away from Ricci-flatness. While the former indicates a non-trivial coupling to the K¨ahler moduli sector (see also [69]), the latter two correspond to excitations of higher Kaluza-Klein modes of the Calabi-Yau metric and the IIB axio-dilaton. We intend to revisit these issues in future work.
+
+Acknowledgements
+
+We would like to thank Iosif Bena, Ralph Blumenhagen, Emilian Dudas, Hao Geng, Mariana Gra˜na, Arthur Hebecker, Luca Martucci, Rashmish Mishra, Jakob Moritz, and Thomas van Riet for very helpful discussions and correspondence. We would like to thank Andrew Frey and Ivonne Zavala for pointing out a typo in a previous version of the paper. The work of SL is supported by the NSF grant PHY-1915071. The work of LR is supported by NSF grants PHY-1620806 and PHY-1915071, the Chau Foundation HS Chau postdoc award, the Kavli Foundation grant “Kavli Dream Team,” and the Moore Foundation Award 8342.
+
+#### Appendix
+
+A Frames on the deformed conifold
+
+The (deformed) conifold has an SU(2) × SU(2) isometry. To find a metric we introduce the Euler-angles (ψ1, ϕ1, θ1) and (ψ2, ϕ2, θ2) on the two SU(2)s and the one-forms [75]
+
+e 1 = sin
+
+ψ 2
+
+sin θ1dϕ1 + cos
+
+ψ 2
+
+dθ1 , e 2 = − cos ψ 2 sin θ1dϕ1 + sin
+
+ψ 2
+
+dθ1 , e˜ 1 = sin
+
+ψ 2
+
+sin θ2dϕ2 + cos
+
+ψ 2
+
+dθ2 , e˜ 2 = − cos ψ 2 sin θ2dϕ2 + sin
+
+ψ 2
+
+dθ2 ,
+
+e 3 + ˜e 3 = dψ + cos θ1dϕ1 + cos θ2dϕ2 ,
+
+(A.1)
+
+where ψ = ψ1 + ψ2. They are left invariant under the respective SU(2)s and satisfy the 
+Maurer-Cartan equations de i = 1 2ϵ i jke j 
+∧ e k and de˜ i = 1 2ϵ i jke˜ j 
+∧ e˜ k. After introducing the 
+
+following linear combinations
+
+g 1 =
+
+1 
+√2 
+
+e 1 − e˜ 1 , g 2 = 1 √2 − e 2 − e˜ 2 , g 3 = 1 √2
+
+e 1 + ˜e 1 ,
+
+g 4 =
+
+1 √2 − e 2 + ˜e 2 , g 5 = e 3 + ˜e 3.
+
+(A.2)
+
+In this frame the metric on the singular conifold reads ds 2 = dr 2 + r 2ds 2 T1,1 , (A.3)
+
+where ds 2 T1,1 =
+
+1 
+6h (g 1) 2 + (g 2) 2 + (g 3) 2 + (g 4) 2 
+i + 1 9 (g 5) 2, (A.4) 
+and r is a sixth, radial coordinate. 
+When reducing the ten-dimensional IIB action to four dimensions one also has to account 
+for the volume of the five-dimensional transverse space. The according factor can be obtained 
+by direct integration over the domain 0 ≤ θi ≤ π, 0 ≤ ϕi ≤ 2π and 0 ≤ ψ ≤ 4π and is given 
+by 
+
+vol5 =Z g 1 ∧ g 2 ∧ g 3 ∧ g 4 ∧ g 5 = 64π 3. (A.5)
+
+This differs from the volume of the volume of the transverse space of the singular conifold, namely T 1,1 with the metric (A.4) by a numerical factor,
+
+volT1,1 =
+
+vol5 
+108 
+
+=
+
+16 
+27 
+
+π 3. (A.6)
+
+B Complex structure deformations of the deformed
+
+conifold
+
+In this appendix we discuss how the deformation parameter S is related to a complex struc 
+ture deformation of the Calabi-Yau structure of the deformed conifold. In particular, in the 
+main text we have treated S as a real variable, even though it is in fact complex. Here, we 
+illustrate that the related variable from the main text is actually the absolute value | S| of 
+the complex conifold deformation parameter and how to correctly describe variations with 
+respect to S and its complex conjugate S¯. 
+For this purpose we first need to define a suitable complex basis on the cotangent space. 
+Following [75] we introduce the following set of forms, 
+
+E 1 =
+
+1 
+√2 
+
+e
+
+x(τ) 2 e
+
+y(τ) 2 g 1 − e− y(τ) 2 g 3 , E 2 = 1 √2
+
+e
+
+x(τ) 2 − e
+
+y(τ) 2 g 2 − e− y(τ) 2 g 4 ,
+
+E 3 =
+
+1 
+√2 
+
+e
+
+x(τ) 2 − e y(τ) 2 g 1 + e− y(τ) 2 g 3 , E 4 =
+
+1 
+√2 
+
+e
+
+x(τ) 2 − e y(τ) 2 g 2 + e− y(τ) 2 g 4 ,
+
+E 5 = e− 3p(τ)− x(τ) 2 dτ , E 6 = e− 3p(τ)−
+
+x(τ) 2 g 5, (B.1)
+
+where p, x and y are the same functions as in the metric (4.5) which in this frame becomes 
+ds 2 = δabE aE b. Moreover, we introduce the complex frame 
+Z 1 = E 1 + IE 2, Z 2 = E 3 + IE 4, Z 3 = E 5 + IE 6, (B.2) 
+together with their complex conjugates Z¯ ¯1,¯2,¯3. In this frame the K¨ahler form of the deformed 
+conifold is given by 
+
+ω =
+
+i 2
+
+Z 1 ∧
+
+Z¯ ¯1 + Z 2
+
+∧
+
+Z¯ ¯2 + Z 3
+
+∧
+
+Z¯ ¯3 , (B.3)
+
+and the holomorphic three-form reads Ω = Z 1 ∧ Z 2 ∧ Z 3. (B.4)
+
+With respect to the basis (A.2) they become ω = e− 6p− xdτ ∧ g 5 − e x g 1 ∧ g 4 − g 2 ∧ g 3 ,
+
+Ω = e− 3p−
+
+x 
+2 dτ + ig 5 
+∧ g 1 
+∧ g 3 + g 2 
+∧ g 4 
+− ie yg 1 
+∧ g 2 + ie− yg 3 
+∧ g 4 . (B.5) 
+
+The Calabi-Yau conditions
+
+dω = dΩ = 0 , (B.6) translate into a system of first-order differential equations for p, x and y, x˙ = e− 6p− 2x, 6 ˙p − x˙ = 2 cosh y , y˙ = − cosh y ,
+
+(B.7)
+
+where the dot denotes differentiation with respect to τ . This is the same set of first order equations (4.9) as resulting from the one-dimensional Lagrangian (4.7) and is readily solved by (4.12). This shows that the metric (4.14) is indeed Calabi-Yau. Inserting the solution
+
+(4.12) for p, x and y (with | c1| = | S|
+
+2/3
+
+and c2 = c3 = 0) into (B.5) finally gives
+
+ω = | S|
+
+2 K(τ ) 
+2 
+1 
+3K(τ ) 
+3dτ ∧ g 5 
+
+−
+
+sinh(τ ) 2
+
+g 1 ∧ g 4 − g 2 ∧ g 3 ,
+
+Ω = S sinh τ 4√6
+
+dτ + ig 5 ∧ g 1 ∧ g 3 + g 2 ∧ g 4 − itanh τ 2
+
+g 1 ∧ g 2 + i coth τ 2 g 3 ∧ g 4 .
+
+(B.8)
+
+Notice, that here we treat S as complex and that ω depends only on its absolute value while Ω depends holomorphically on it. Ω can be obtained from Ω by complex conjugation. ¯ We now want to determine how ω and Ω behave under a variation of S. In Section 4 we argued that such a variation has to be accompanied by a suitable diffeomorphism. We defined the gauge-fixed variation with respect to | S| as
+
+δ| S| = ∂| S| −
+
+2 | S|L η , (B.9)
+
+where η is the vector field
+
+η =
+
+sinh 2τ − 2τ 4 sinh
+
+2 τ
+
+∂τ . (B.10) We now want to extend this to a holomorphic variation. Therefore we use the complex structure on the deformed conifold to introduce another vector field,
+
+ξ = ιηω = sinh 2τ − 2τ 4 sinh
+
+2 τ
+
+∂ψ . (B.11)
+
+In the limit τ → ∞ where the metric of the deformed conifold becomes that of a cone over the Sasaki-Einstein manifold T 1,1 the first vector field goes to the homothetic vector field η → ∂τ ∼ r∂r and ξ is called the Reeb or characteristic vector field on T 1,1 (see e.g. [77]). The latter is a Killing vector field of T 1,1 from which it follows that L ξg → 0. Using these two vector fields we can introduce the holomorphic and anti-holomorphic variations
+
+δS = ∂S −
+
+1 SL η− iξ , δS¯ = ∂S¯ −
+
+1 S¯L η+iξ . (B.12) To show that this is a sensible definition we compute the action of δS and δS¯ on ω and Ω. A direct computation reveals that both act trivially on ω,
+
+δSω = δS¯ω = 0 , (B.13)
+
+hence δS is not a K¨ahler transformation. Moreover, using Cartan’s formula one immediately finds that
+
+δS¯Ω = d (ιη− iξΩ) = 0 , (B.14)
+
+and analogously δSΩ = 0. 
+A bit more work is required to determine the action of δS on Ω. The result is given by 
+χS ≡ δSΩ = 1 
+2√6 
+
+g 3 ∧ g 4 ∧ g 5+d F(τ ) g 1 ∧ g 3 + g 2 ∧ g 4 − id f(τ )g 1 ∧ g 2 + k(τ )g 3 ∧ g 4 , (B.15)
+
+where the functions F, f and k are given by the Klebanov-Strassler solution,
+
+F(τ ) = sinh τ − τ 2 sinh τ
+
+,
+
+f(τ ) = τ coth τ − 1 2 sinh τ (cosh τ − 1) , k(τ ) = τ coth τ − 1 2 sinh τ (cosh τ + 1) .
+
+(B.16)
+
+With respect to the complex basis (B.2) χS reads
+
+χS =
+
+1 sinh 2 τ
+
+(τ coth τ − 1)Z 1 ∧ Z 2
+
+∧
+
+Z¯ ¯3 +
+
+sinh 2τ − 2τ 4 sinh τ
+
+Z 1 ∧ Z 3
+
+∧
+
+Z¯ ¯1 − Z 2 ∧ Z 3
+
+∧
+
+Z¯ ¯2 , (B.17) and is therefore indeed a (2, 1) form. This confirms that (B.12) acts as a complex structure deformation on Ω. Moreover, a direct computation shows that
+
+δSgmn = 1 8Ω¯ m kl (χS)nkl . (B.18)
+
+We can also use these expression to compute the periods of Ω. The A-cycle period is 
+most easily evaluated at τ = 0 where the A-cycle, corresponding to the S 3 at the tip of the 
+conifold, is spanned by g 3 
+∧ g 4 
+∧ g 5. Therefore, it is given by 
+
+Z A Ω ∼ S , (B.19)
+
+where we suppressed a constant normalization factor. Meanwhile, the B-cycle is non-compact 
+and spanned by 1 2dτ ∧ (g 1 
+∧ g 2 +g 3 
+∧ g 4). Using the regulator (2.6) and suppressing the same 
+constant factor gives the period integral 
+
+Z B Ω ∼ 1 2πi S log Λ 3 0 S + O (S ). (B.20)
+
+In a similar fashion one can obtain the periods of χ from (B.15). In Section 4 we were able to integrate η and describe the implicit | S| -dependence that it encodes in terms of an explicitly | S| -dependent τ -coordinate, see (4.25). However, it is not possible to do the same for S and S¯ simultaneously. This follows from the fact that ξ and η
+
+do not commute, and hence the distribution spanned by ξ + iη and ξ − iη is non-integrable. 
+Therefore, it is not possible to find a set of new coordinates 
+τ → T (τ, S, S¯), 
+ψ → Ψ(τ, S, S¯), (B.21) 
+
+that are functions of both S and S¯ and such that the action of δS and δS¯ on the metric as well as ω and Ω reduces to simple derivatives ∂S and ∂S¯.
+
+C Comparison with the hard-wall approximation
+
+In Section 5 we chose an ansatz for the deformed metric ˜gmn in (5.13) that preserves the diagonal structure of (4.14). This is done by replacing the radial coordinate τ in the metric on the deformed conifold by an S dependent coordinate T (τ, S). Infinitesimally, this corresponds to including a gauge compensator η m in the deformation of the metric, δSg˜mn = ∂Sg˜mn + (L ηg)mn, such that η m has only a non-vanishing component in the τ direction, cf. (4.20). However, as we have seen in the previous appendix for the unwarped case, it makes in principle sense to also include a gauge compensator in the ψ-direction. In this appendix we extend this discussion to the case of a non-trivial warp-factor A and argue that including η ψ is not relevant for our previous analysis. Moreover, we compare this ansatz with the computation in the hard-wall approximation in [52]. We consider infinitesimal deformations of the metric of the deformed conifold of the form δSg˜mn = ∂Sg˜mn + ∇ mηn + ∇ nηm , (C.1)
+
+where ˜gmn is given by (4.14) and for the compensator η m we take the ansatz η m = η τ(τ ), 0, 0, 0, 0, η ψ(τ ) , (C.2)
+
+with resepect to the dual basis of (A.2). Importantly, η ψ(τ ) drops out of the first constraint 
+(3.8) which yields the following first order equation for η τ(τ ) 
+1 
+S 
+
++ coth τ η τ + 2∂τη τ − 2δSA = 0 . (C.3)
+
+Moreover, in the second constraint, most conveniently analyzed in its form (3.12), η τ(τ ) and 
+η ψ(τ ) decouple, resulting in two independent second order equations, 
+∂ 2 τη τ + 2 coth τ ∂τη τ 
+− 2 csch 2 τ η τ 
+
+−
+
+4 
+3 
+
+∂τA
+
+2 S
+
++ 6∂τη τ +
+
+9 + csch τ sinh 3τ − 12τ coth τ sinh 2τ − 2τ η τ = 0 , (C.4)
+
+35 and
+
+∂ 2 τη ψ + 2 coth τ ∂τη ψ − 2 csch 2 τ η ψ − 4∂τA η ψ = 0 . (C.5) This means that we can solve for η τ(τ ) and η ψ(τ ) completely independently from each other. Moreover, δSA does not enter the equation (C.5) for η ψ(τ ), hence the presence of a non-trivial η ψ(τ ) does neither affect η τ(τ ) nor the S-dependence of the warp factor A. According to the results of Appendix B this means that A depends only on the absolute value of S but not on its phase. The equations for η τ(τ ), (C.3) and (C.4), can be obtained from the integrated constraints (5.25) and (5.20) by taking their derivative with respect to S and identifying η τ with ∂ST . Therefore they yield–at least infinitesimally–the same solution as we have constructed numerically in Section 5. In [52] the equations (C.3) to (C.5) where solved in the so-called hard-wall approxima tion. There, the relatively complex Klebanov-Strassler solution is replaced by a simple AdS background and its smooth cap-off in the IR is mimicked by a hard cut-off of the radial coordinate. This means the internal metric is the one of the singular conifold (i.e. a cone over T 1,1),
+
+ds 2 6 =
+
+3
+
+2
+
+5/3S 2/3e 2τ /3" 1 9 dτ 2 + (g 5) 2 + 1
+
+## 6X
+
+4
+
+i=1
+
+(g i) 2# , (C.6)
+
+and A takes the form of a pure AdS warp factor,
+
+e− 4A
+
+∝
+
+gs(α′M) 2
+
+| S|
+
+4 
+3 
+
+e− 4τ /3. (C.7)
+
+Notice, that this expression differs from its asymptotic value in the KS solution (described by the Klebanov-Tseytlin solution [78]) by a missing factor of τ −
+
+1 
+4 . In this case the 
+
+equations for η τ(τ ) reduce to
+
+4 S +
+
+4 
+3 
+
+η τ(τ ) + 2∂τη τ = ∂SA ,
+
+8 
+9S 
+
++
+
+8 
+9 
+
+η τ +
+
+2 
+3 
+
+∂τη τ(τ ) − ∂ 2 τη τ = 0 ,
+
+(C.8)
+
+where we used δSA = ∂SA + ∂τAη τ and the equation for η ψ(τ ) becomes 2 3
+
+∂τη τ + ∂ 2 τη τ = 0 . (C.9)
+
+These equations are solved by
+
+η τ(τ ) = −
+
+1 S
+
++ a1e− 2τ /3, η ψ(τ ) = b1 + b2e− 2τ /3, (C.10)
+
+with integration constants a1, b1 and b2 and
+
+∂SA =
+
+1 
+3S 
+
+. (C.11)
+
+This is the solution found in [52]. Note, in particular, that (C.11) is compatible with the e− 4A ∝ S− 4/3 scaling of the warp factor (however δSA = 0). Moreover, in this case the two equations in (C.10) are equivalent, the second equation can be obtained by taking the derivative of the first one. This structure, however, disappears as soon as the warp factor deviates from the pure AdS form (C.7), for example by reinstating the factor of τ −
+
+1 
+4 found 
+in the Klebanov-Tseytlin solution or for the full Klebanov-Strassler warp factor. Hence, the 
+S− 4/3 scaling found in [52] seems to be indeed an accident of the hard-wall approximation. 
+
+References
+
+[1] M. Dine and N. Seiberg, “Is the Superstring Weakly Coupled?,” Phys. Lett. B 162 (1985), 299-302
+
+[2] J. M. Maldacena and C. Nunez, “Supergravity description of field theories on curved manifolds and a no go theorem,” Int. J. Mod. Phys. A 16 (2001), 822-855 [arXiv:hep-th/0007018 [hep-th]].
+
+[3] S. Kachru, R. Kallosh, A. D. Linde and S. P. Trivedi, “De Sitter vacua in string theory,” Phys. Rev. D 68 (2003), 046005 [arXiv:hep-th/0301240 [hep-th]].
+
+[4] L. Randall and R. Sundrum, “An Alternative to compactification,” Phys. Rev. Lett. 83 (1999), 4690-4693 [arXiv:hep-th/9906064 [hep-th]].
+
+[5] L. Randall and R. Sundrum, “A Large mass hierarchy from a small extra dimension,” Phys. Rev. Lett. 83 (1999), 3370-3373 [arXiv:hep-ph/9905221 [hep-ph]].
+
+[6] H. L. Verlinde, “Holography and compactification,” Nucl. Phys. B 580 (2000), 264-274 [arXiv:hep-th/9906182 [hep-th]].
+
+[7] S. B. Giddings, S. Kachru and J. Polchinski, “Hierarchies from fluxes in string compactifications,” Phys. Rev. D 66 (2002), 106006 [arXiv:hep-th/0105097 [hep-th]].
+
+[8] U. H. Danielsson and T. Van Riet, “What if string theory has no de Sitter vacua?,” Int. J. Mod. Phys. D 27 (2018) no.12, 1830007 [arXiv:1804.01120 [hep-th]].
+
+[9] G. Obied, H. Ooguri, L. Spodyneiko and C. Vafa, “De Sitter Space and the Swampland,” [arXiv:1806.08362 [hep-th]].
+
+[10] A. Bedroya and C. Vafa, “Trans-Planckian Censorship and the Swampland,” JHEP 09 (2020), 123 [arXiv:1909.11063 [hep-th]].
+
+[11] I. Bena, M. Grana and N. Halmagyi, “On the Existence of Meta-stable Vacua in Klebanov-Strassler,” JHEP 09 (2010), 087 [arXiv:0912.3519 [hep-th]].
+
+[12] P. McGuirk, G. Shiu and Y. Sumitomo, “Non-supersymmetric infrared perturbations to the warped deformed conifold,” Nucl. Phys. B 842 (2011), 383-413 [arXiv:0910.4581 [hep-th]].
+
+[13] A. Dymarsky, “On gravity dual of a metastable vacuum in Klebanov-Strassler theory,” JHEP 05 (2011), 053 [arXiv:1102.1734 [hep-th]].
+
+[14] I. Bena, G. Giecold, M. Grana, N. Halmagyi and S. Massai, “On Metastable Vacua and the Warped Deformed Conifold: Analytic Results,” Class. Quant. Grav. 30 (2013), 015003 [arXiv:1102.2403 [hep-th]].
+
+[15] I. Bena, G. Giecold, M. Grana, N. Halmagyi and S. Massai, “The backreaction of anti-D3 branes on the Klebanov-Strassler geometry,” JHEP 06 (2013), 060 [arXiv:1106.6165 [hep-th]].
+
+[16] I. Bena, M. Grana, S. Kuperstein and S. Massai, “Anti-D3 Branes: Singular to the bitter end,” Phys. Rev. D 87 (2013) no.10, 106010 [arXiv:1206.6369 [hep-th]].
+
+[17] F. F. Gautason, D. Junghans and M. Zagermann, “Cosmological Constant, Near Brane Behavior and Singularities,” JHEP 09 (2013), 123 [arXiv:1301.5647 [hep-th]].
+
+[18] J. Bl˚ab¨ack, U. H. Danielsson, D. Junghans, T. Van Riet and S. C. Vargas, “Localised anti-branes in non-compact throats at zero and finite T,” JHEP 02 (2015), 018 [arXiv:1409.0534 [hep-th]].
+
+[19] B. Michel, E. Mintun, J. Polchinski, A. Puhm and P. Saad, “Remarks on brane and antibrane dynamics,” JHEP 09 (2015), 021 [arXiv:1412.5702 [hep-th]].
+
+[20] D. Cohen-Maldonado, J. Diaz, T. van Riet and B. Vercnocke, “Observations on fluxes near anti-branes,” JHEP 01 (2016), 126 [arXiv:1507.01022 [hep-th]].
+
+[21] I. Bena, E. Dudas, M. Gra˜na, G. L. Monaco and D. Toulikas, “Bare-Bones de Sitter,” [arXiv:2202.02327 [hep-th]].
+
+[22] J. Moritz, A. Retolaza and A. Westphal, “Toward de Sitter space from ten dimensions,” Phys. Rev. D 97 (2018) no.4, 046010 [arXiv:1707.08678 [hep-th]].
+
+[23] R. Kallosh, A. Linde, E. McDonough and M. Scalisi, “de Sitter Vacua with a Nilpotent Superfield,” Fortsch. Phys. 67 (2019) no.1-2, 1800068 [arXiv:1808.09428 [hep-th]].
+
+[24] F. F. Gautason, V. Van Hemelryck and T. Van Riet, “The Tension between 10D Supergravity and dS Uplifts,” Fortsch. Phys. 67 (2019) no.1-2, 1800091 [arXiv:1810.08518 [hep-th]].
+
+[25] Y. Hamada, A. Hebecker, G. Shiu and P. Soler, “Understanding KKLT from a 10d perspective,” JHEP 06 (2019), 019 [arXiv:1902.01410 [hep-th]].
+
+[26] F. Carta, J. Moritz and A. Westphal, “Gaugino condensation and small uplifts in KKLT,” JHEP 08 (2019), 141 [arXiv:1902.01412 [hep-th]].
+
+[27] S. Kachru, M. Kim, L. Mcallister and M. Zimet, “de Sitter vacua from ten dimensions,” JHEP 12 (2021), 111 [arXiv:1908.04788 [hep-th]].
+
+[28] I. Bena, M. Gra˜na, N. Kovensky and A. Retolaza, “K¨ahler moduli stabilization from ten dimensions,” JHEP 10 (2019), 200 [arXiv:1908.01785 [hep-th]].
+
+[29] M. Gra˜na, N. Kovensky and A. Retolaza, “Gaugino mass term for D-branes and Generalized Complex Geometry,” JHEP 06 (2020), 047 [arXiv:2002.01481 [hep-th]].
+
+[30] X. Gao, A. Hebecker and D. Junghans, “Control issues of KKLT,” Fortsch. Phys. 68 (2020), 2000089 [arXiv:2009.03914 [hep-th]].
+
+[31] F. Carta and J. Moritz, “Resolving spacetime singularities in flux compactifications & KKLT,” JHEP 08 (2021), 093 [arXiv:2101.05281 [hep-th]].
+
+[32] S. Sethi, “Supersymmetry Breaking by Fluxes,” JHEP 10 (2018), 022 [arXiv:1709.03554 [hep-th]].
+
+[33] S. Kachru and S. P. Trivedi, “A comment on effective field theories of flux vacua,” Fortsch. Phys. 67 (2019) no.1-2, 1800086 [arXiv:1808.08971 [hep-th]].
+
+[34] S. L¨ust, C. Vafa, M. Wiesner and K. Xu, “Holography and the KKLT Scenario,” [arXiv:2204.07171 [hep-th]].
+
+[35] G. Dall’Agata, M. Emelin, F. Farakos and M. Morittu, “Anti-brane uplift instability from goldstino condensation,” [arXiv:2203.12636 [hep-th]].
+
+[36] A. P. Braun and R. Valandro, “G4 flux, algebraic cycles and complex structure moduli stabilization,” JHEP 01 (2021), 207 [arXiv:2009.11873 [hep-th]].
+
+[37] I. Bena, J. Bl˚ab¨ack, M. Gra˜na and S. L¨ust, “The tadpole problem,” JHEP 11 (2021), 223 [arXiv:2010.10519 [hep-th]].
+
+[38] I. Bena, J. Bl˚ab¨ack, M. Gra˜na and S. L¨ust, “Algorithmically Solving the Tadpole Problem,” Adv. Appl. Clifford Algebras 32 (2022) no.1, 7 [arXiv:2103.03250 [hep-th]].
+
+[39] F. Marchesano, D. Prieto and M. Wiesner, “F-theory flux vacua at large complex structure,” JHEP 08 (2021), 077 [arXiv:2105.09326 [hep-th]].
+
+[40] E. Plauschinn, “The tadpole conjecture at large complex-structure,” JHEP 02 (2022), 206 [arXiv:2109.00029 [hep-th]].
+
+[41] S. L¨ust, “Large complex structure flux vacua of IIB and the Tadpole Conjecture,” [arXiv:2109.05033 [hep-th]].
+
+[42] T. W. Grimm, E. Plauschinn and D. van de Heisteeg, “Moduli stabilization in asymptotic flux compactifications,” JHEP 03 (2022), 117 [arXiv:2110.05511 [hep-th]].
+
+[43] M. Gra˜na, T. W. Grimm, D. van de Heisteeg, A. Herraez and E. Plauschinn, “The Tadpole Conjecture in Asymptotic Limits,” [arXiv:2204.05331 [hep-th]].
+
+[44] I. Bena, E. Dudas, M. Gra˜na and S. L¨ust, “Uplifting Runaways,” Fortsch. Phys. 67 (2019) no.1-2, 1800100 [arXiv:1809.06861 [hep-th]].
+
+[45] R. Blumenhagen, D. Kl¨awer and L. Schlechter, “Swampland Variations on a Theme by KKLT,” JHEP 05 (2019), 152 [arXiv:1902.07724 [hep-th]].
+
+[46] I. Bena, A. Buchel and S. L¨ust, “Throat destabilization (for profit and for fun),” [arXiv:1910.08094 [hep-th]].
+
+[47] L. Randall, “The Boundaries of KKLT,” Fortsch. Phys. 68 (2020) no.3-4, 1900105 [arXiv:1912.06693 [hep-th]].
+
+[48] E. Dudas and S. L¨ust, “An update on moduli stabilization with antibrane uplift,” JHEP 03 (2021), 107 [arXiv:1912.09948 [hep-th]].
+
+[49] I. R. Klebanov and M. J. Strassler, “Supergravity and a confining gauge theory: Duality cascades and chi SB resolution of naked singularities,” JHEP 08 (2000), 052 [arXiv:hep-th/0007191 [hep-th]].
+
+[50] B. V. Bento, D. Chakraborty, S. L. Parameswaran and I. Zavala, “A new de Sitter solution with a weakly warped deformed conifold,” JHEP 12 (2021), 124 [arXiv:2105.03370 [hep-th]].
+
+[51] M. R. Douglas, J. Shelton and G. Torroba, “Warping and supersymmetry breaking,” [arXiv:0704.4001 [hep-th]].
+
+[52] M. R. Douglas and G. Torroba, “Kinetic terms in warped compactifications,” JHEP 05 (2009), 013 [arXiv:0805.3700 [hep-th]].
+
+[53] O. DeWolfe and S. B. Giddings, “Scales and hierarchies in warped compactifications and brane worlds,” Phys. Rev. D 67 (2003), 066008 [arXiv:hep-th/0208123 [hep-th]].
+
+[54] S. B. Giddings and A. Maharana, “Dynamics of warped compactifications and the shape of the warped landscape,” Phys. Rev. D 73 (2006), 126003 [arXiv:hep-th/0507158 [hep-th]].
+
+[55] A. R. Frey and A. Maharana, “Warped spectroscopy: Localization of frozen bulk modes,” JHEP 08 (2006), 021 [arXiv:hep-th/0603233 [hep-th]].
+
+[56] P. Koerber and L. Martucci, “From ten to four and back again: How to generalize the geometry,” JHEP 08 (2007), 059 [arXiv:0707.1038 [hep-th]].
+
+[57] G. Shiu, G. Torroba, B. Underwood and M. R. Douglas, “Dynamics of Warped Flux Compactifications,” JHEP 06 (2008), 024 [arXiv:0803.3068 [hep-th]].
+
+[58] A. R. Frey, G. Torroba, B. Underwood and M. R. Douglas, “The Universal Kahler Modulus in Warped Compactifications,” JHEP 01 (2009), 036 [arXiv:0810.5768 [hep-th]].
+
+[59] F. Marchesano, P. McGuirk and G. Shiu, “Open String Wavefunctions in Warped Compactifications,” JHEP 04 (2009), 095 [arXiv:0812.2247 [hep-th]].
+
+[60] L. Martucci, “On moduli and effective theory of N=1 warped flux compactifications,” JHEP 05 (2009), 027 [arXiv:0902.4031 [hep-th]].
+
+[61] M. R. Douglas, “Effective potential and warp factor dynamics,” JHEP 03 (2010), 071 [arXiv:0911.3378 [hep-th]].
+
+[62] B. Underwood, “A Breathing Mode for Warped Compactifications,” Class. Quant. Grav. 28 (2011), 195013 [arXiv:1009.4200 [hep-th]].
+
+[63] F. Marchesano, P. McGuirk and G. Shiu, “Chiral matter wavefunctions in warped compactifications,” JHEP 05 (2011), 090 [arXiv:1012.2759 [hep-th]].
+
+[64] T. W. Grimm, D. Klevers and M. Poretschkin, “Fluxes and Warping for Gauge Couplings in F-theory,” JHEP 01 (2013), 023 [arXiv:1202.0285 [hep-th]].
+
+[65] A. R. Frey and J. Roberts, “The Dimensional Reduction and K¨ahler Metric of Forms In Flux and Warping,” JHEP 10 (2013), 021 [arXiv:1308.0323 [hep-th]].
+
+[66] L. Martucci, “Warping the K¨ahler potential of F-theory/IIB flux compactifications,” JHEP 03 (2015), 067 [arXiv:1411.2623 [hep-th]].
+
+[67] T. W. Grimm, T. G. Pugh and M. Weissenbacher, “The effective action of warped M-theory reductions with higher derivative terms — part I,” JHEP 01 (2016), 142 [arXiv:1412.5073 [hep-th]].
+
+[68] T. W. Grimm, T. G. Pugh and M. Weissenbacher, “The effective action of warped M-theory reductions with higher-derivative terms - Part II,” JHEP 12 (2015), 117 [arXiv:1507.00343 [hep-th]].
+
+[69] L. Martucci, “Warped K¨ahler potentials and fluxes,” JHEP 01 (2017), 056 [arXiv:1610.02403 [hep-th]].
+
+[70] M. Grana and J. Polchinski, “Supersymmetric three form flux perturbations on AdS(5),” Phys. Rev. D 63 (2001), 026001 [arXiv:hep-th/0009211 [hep-th]].
+
+[71] C. Vafa, “Superstrings and topological strings at large N,” J. Math. Phys. 42 (2001), 2798-2817 [arXiv:hep-th/0008142 [hep-th]].
+
+[72] G. Veneziano and S. Yankielowicz, “An Effective Lagrangian for the Pure N=1 Supersymmetric Yang-Mills Theory,” Phys. Lett. B 113 (1982), 231 v
+
+[73] T. R. Taylor, G. Veneziano and S. Yankielowicz, “Supersymmetric QCD and Its Massless Limit: An Effective Lagrangian Analysis,” Nucl. Phys. B 218 (1983), 493-513 [74] P. Candelas, G. T. Horowitz, A. Strominger and E. Witten, “Vacuum Configurations for Superstrings,” Nucl. Phys. B 258 (1985), 46-74
+
+[75] G. Papadopoulos and A. A. Tseytlin, “Complex geometry of conifolds and five-brane wrapped on two sphere,” Class. Quant. Grav. 18 (2001), 1333-1354 [arXiv:hep-th/0012034 [hep-th]].
+
+[76] S. Gukov, C. Vafa and E. Witten, “CFT’s from Calabi-Yau four folds,” Nucl. Phys. B 584 (2000), 69-108 [erratum: Nucl. Phys. B 608 (2001), 477-478] [arXiv:hep-th/9906070 [hep-th]].
+
+[77] J. Sparks, “Sasaki-Einstein Manifolds,” Surveys Diff. Geom. 16 (2011), 265-324 [arXiv:1004.2461 [math.DG]].
+
+[78] I. R. Klebanov and A. A. Tseytlin, “Gravity duals of supersymmetric SU(N) x SU(N+M) gauge theories,” Nucl. Phys. B 578 (2000), 123-138 [arXiv:hep-th/0002159 [hep-th]].

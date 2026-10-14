@@ -1,0 +1,2145 @@
+# Swampland Variations on a Theme by KKLT
+URL: https://export.arxiv.org/pdf/1902.07724
+
+MPP-2019-21
+
+### Swampland Variations on a Theme by KKLT
+
+Ralph Blumenhagen, Daniel Kl¨awer and Lorenz Schlechter
+
+Max-Planck-Institut f¨ur Physik (Werner-Heisenberg-Institut), F¨ohringer Ring 6, 80805 M¨unchen, Germany
+
+Abstract The KKLT scenario in a warped throat, if consistent, provides a concrete counterexample to both the AdS scale separation and the dS swampland conjectures. First, we define and analyze the relevant effective field theory for the conifold modulus and the overall K¨ahler modulus that both have exponentially small masses. The scalar potential still admits KKLT-like AdS and dS minima. Second, we critically analyze the reliability of the employed Wilsonian effective action by evaluating the masses of light modes localized in the warped throat. The resulting mass spectrum is discussed with respect to the swampland distance conjecture. We find the recently observed emergent nature of the latter not only at large distance points but also at the conifold point motivating a general extension of it. In this respect, KKLT and trans-Planckian field distance are on equal footing. It is pointed out that the reliability of the KKLT minimum will depend on how this emergent behavior is interpreted.
+
+#### Contents
+
+| 1 | Introduction | | | 2 |
+| --- | --- | --- | --- | --- |
+| 2 | A modified | warped KKLT scenario | | 6 |
+| | 2.1 | The conifold in the dilute flux limit | . . . . . . . . . . . . . . . . . | 6 |
+| | 2.2 | The conifold in the warped regime | . . . . . . . . . . . . . . . . . . | 10 |
+| | 2.3 | Anti D3-brane uplift . . . . . . | . . . . . . . . . . . . . . . . . . . | 16 |
+| 3 | Stabilization | of K¨ahler modulus | | 17 |
+| | 3.1 | AdS minimum . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . | 18 |
+| | 3.2 | Uplift to de Sitter . . . . . . . . | . . . . . . . . . . . . . . . . . . . | 20 |
+| 4 | Swampland | conjectures in the warped | throat | 21 |
+| | 4.1 | KK modes in the warped throat | . . . . . . . . . . . . . . . . . . . | 22 |
+| | 4.2 | The swampland distance conjecture | . . . . . . . . . . . . . . . . . | 26 |
+| | 4.3 | The meaning of the cut-off . . . | . . . . . . . . . . . . . . . . . . . | 31 |
+| | 4.4 | Extension of the SDC and emergence | . . . . . . . . . . . . . . . . | 33 |
+| 5 | Conclusions | | | 36 |
+| 1 | Introduction | | | |
+| The | swampland | program puts forward the | idea that from the low-energy perspec | |
+| tive | not | every effective field theory does admit | a UV completion to a consistent | |
+| theory | | of quantum gravity [1]. Even though | the concrete framework of string | |
+| compactifications | | with its built in formal constraints | has provided many examples | |
+| of | consistent | effective low energy theories, | it turned out notoriously difficult | to |
+| obtain | certain | cosmologically or phenomenologically | desired features like de Sitter | |
+| vacua, | large | field inflation or length-scale | separation of a large four-dimensional | |
+| (observable) | | space-time and a small compact | six-dimensional space. These short | |
+| comings | | have led to proposals for so-called | swampland conjectures that make | |
+| an | attempt | to conceptually extract the underlying | quantum gravity reason why | |
+
+certain aspects cannot be realized in the string landscape [2–8]. The weak gravity [2] and distance conjectures [3] are two of the most studied and best understood swampland criteria. The weak gravity conjecture (WGC) was originally motivated by a semi-classical black hole decay argument, hinting at a more profound reason behind it than simply circumstantial evidence from special (perturbative) points in the moduli space of string theory. A significant amount of effort has been put in the task of providing convincing arguments for or even an explicit derivation of the weak gravity conjecture, without using an explicit embedding into string theory [9–17]. Over the time it was realized that
+
+the different swampland conjectures are not unrelated, but rather form a tight 
+web with many interrelations [4, 8, 18–20]. 
+In fact, a modern point of view is that many of them can be explained by 
+the emergence proposal, which states that weak couplings in the IR arise from 
+integrating out an infinite tower of massive states which unitarize the theory in the 
+UV [21–23]. Of course, so far one only has a finite amount of data and incomplete 
+conceptual understanding so that such conjectures could eventually also turn out 
+to be too naive or even wrong. Because of this it is crucial to carefully scrutinize 
+the available string theory evidence for and against them. 
+For example, in the case of the swampland distance conjecture (SDC) it has 
+been realized that it has to be refined in the sense that it generically applies 
+only for large scalar field displacements ∆Φ > O (1) in Planck units [4, 24]. The 
+distance conjecture and its refinement have been subsequently tested in many 
+settings [4, 18, 22–37]. 
+In this paper we also consider two other swampland conjectures. The first one 
+is the (refined) dS swampland conjecture [6, 20] that states that 1 
+
+|∇ V | ≥
+
+c
+
+Mpl· V or min(∇ 2V ) ≤ − c0 M 2 pl· V (1.1)
+
+where c, c0 are of order one. This conjecture in particular forbids de Sitter vacua. The second one has not yet received the same kind of attention, but has similar support as the dS swampland conjecture from tree-level supergravity compactifications [43, 44]. As also recently reviewed in [45], it is notoriously difficult to find AdS4 space-times that are truly four-dimensional in the sense that one has a separation of mass-scales. Thus, one can formulate an AdS scale separation swampland conjecture saying that AdS minima of string theory satisfy m 2 L 2 AdS ≤ c00 (1.2)
+
+where c00 is an order one coefficient and m is the lightest non-vanishing (moduli) 
+mass. For supersymmetric AdS4 vacua, there would be a holographic dual 
+conjecture for three-dimensional conformal field theories [46]. 
+There is support for these conjectures at string tree level, though employing 
+also more involved quantum aspects of string theory, like α0, string-loop or even 
+non-perturbative corrections, there are claims that both conjectures can be falsified. 
+The most famous example is the KKLT scenario [47], which is also the main topic 
+of this paper. 
+To explain our motivation, let us recall some basic aspects of the KKLT 
+scenario and our motivation to propose a modified version of it. Recall that the 
+KKLT scenario provides a recipe for obtaining metastable de Sitter vacua that 
+invokes a clever combination of classical and quantum effects. One considers type 
+
+1See also [38–42] for other possible refinements of the dS swampland conjecture.
+
+IIB compactifications on warped Calabi-Yau spaces with non-trivial three-form 
+fluxes. In a first step, these fluxes stabilize the complex structure and the axio 
+dilaton moduli, while the K¨ahler moduli remain massless. The scalar potential 
+is of no-scale type that admits Minkowski minima which for W0 6 = 0 can break 
+supersymmetry. 
+In a second step the K¨ahler modulus is stabilized by balancing a non-perturba 
+tive effect against an exponentially small value of W0. Here one assumes that 
+the string flux landscape does indeed admit such small values of W0. In this way 
+one obtains a supersymmetric AdS minimum that allows a separation of scales. 
+Indeed, one finds for the mass of the K¨ahler modulus mτLAdS ∼ aτ ∼ − log W0 
+that, by choice of a exponentially small value of W0, can be made large. 
+In order to eventually get dS vacua, one uplifts the AdS-minimum by the 
+addition of an anti-D3-brane localized in a strongly warped throat. It has been 
+under debate whether this uplift mechanism is controlled (see [48] for a recent 
+review). In particular it was attempted to construct a Maldacena-Nu˜nez type 
+no-go theorem [49] for the KKLT uplift, which was strongly debated (see also [50] 
+for another criticism). The analysis of the 10D Einstein equations in this case 
+depends on the details of implementing gaugino condensation on a D7-brane 
+stack. Different approaches have led the authors of [44, 51] to reconfirm the 
+10D analysis of [49], while the opposite conclusion was reached in [52, 53]. An 
+attempt of implementing the flattening effects invalidating the uplift into the 4D 
+picture [49, 54] was rejected by [55–57]. 
+As we will elaborate on, we intend to make a different point that conceptually 
+is prior to the uplift. Our approach is related in spirit to [58, 59], where axions 
+arising in warped compactifications were used to test and challenge the (0-form) 
+weak gravity and distance conjectures. Let us stress that it is important for the 
+uplift to work that one has a highly warped throat in the first place so that the 
+uplift can be sufficiently tuned. This means that in the first step the complex 
+structure moduli have been stabilized such that the Calabi-Yau indeed develops 
+such a highly warped region, i.e. that one is close to a conifold singularity. As a 
+consequence for stabilizing the complex structure moduli one cannot work in the 
+usual supergravity description, that, as explicitly shown in [60], is only valid in 
+the dilute flux limit. In this limit, the mass of the complex structure modulus Z 
+controlling the size of the three-cycle that shrinks to zero at the conifold singularity, 
+comes out as 
+
+m 2
+
+### Z ∼
+
+M 2 s
+
+### V| Z|
+
+2 (1.3)
+
+where V denotes the volume of the CY in units of the string length α0. Thus, for having the mass of this modulus to be smaller than the string scale, one needs
+
+### V| Z|
+
+2 1, which is the dilute flux regime. Therefore, for KKLT one has to invoke an effective action that is valid in the strongly warped regime, i.e. V| Z|
+
+2 1. This has been the subject of study [61–65]
+
+already right after the seminal paper [66] by Giddings, Kachru, Polchinski (GKP). 
+Recently, the action of [64] was employed in [67] to scrutinize the uplift mechanism 
+in the KKLT construction. The main result of the latter paper is that the uplift 
+term strongly influences the stabilization of Z so that for too small quantized 
+values of the three-form flux the Z modulus destabilizes. It is then a question of 
+the tadpole conditions whether sufficiently large fluxes can be turned on 2. 
+Another result of [67] is that in the warped regime the mass of the conifold 
+modulus is hierarchically smaller than the mass of the bulk complex structure 
+moduli. However, then the question arises whether, in the second step, the K¨ahler 
+modulus can still be kept smaller than the conifold modulus. Note that both 
+of them are now exponentially light. It is the purpose of this paper to study 
+the Wilsonian effective theory for the conifold modulus Z and the overall K¨ahler 
+modulus T in the strongly warped regime, thus continuing along the lines of [67]. 
+The effective theory for these two very light moduli suggests an alternative 
+version of the KKLT scenario that differs from the traditional one in the following 
+aspect. Instead of assuming an exponentially small value of W0 in the landscape, 
+in the first step we stabilize all additional complex structure moduli and the 
+axio-dilaton at a high scale in a supersymmetric way. Therefore, the effective 
+theory for Z and T has W0 = 0 and will be defined in the strongly warped regime, 
+i.e. the periods of the CY will be expanded around the conifold point and the warp 
+factor will be taken into account. As we will see, the KKLT scenario works in this 
+case, as well. Both moduli get self-consistently stabilized in their “perturbative” 
+regions | Z| 1 and Re(T) 1. Without the addition of anti D3-branes one finds 
+AdS4 minima with scale separation and with uplift term one gets meta-stable dS 
+minima. An exponentially small effective W0 (for K¨ahler modulus stabilization) 
+will be dynamically generated by the stabilization of the conifold modulus. 
+Thus, this scenario seems to provide a concrete model of string moduli stabi 
+lization in the highly non-classical regime, i.e. 
+
+• close to a conifold singularity in the complex structure moduli space • including non-perturbative effects from stringy D3-brane instantons or gaugino condensates on D7-branes
+
+that provides a counter-example against the two swampland conjectures • the (refined) dS swampland conjecture forbidding dS minima • the AdS scale separation conjecture .
+
+To rescue those conjectures, one needs to find a loop-hole in the computation or reject one of the assumptions being made. As mentioned, one mostly figured that
+
+2In view of the tadpole conditions for F-theory compactifications on CY fourfolds with a large Euler number χ = O(10 5), we view these tadpole constraints not to be too strong.
+
+something is inconsistent with the uplift mechanism. However, this would only 
+rescue the dS swampland conjecture. 
+In the sections 2 and 3 we describe the above mentioned modified KKLT con 
+struction. In section 4 we quantitatively analyze a second potential inconsistency, 
+namely that the used effective action for the strongly warped throat might not be 
+well controlled, as there exist ultra-light Kaluza-Klein modes that have a mass 
+lighter than the conifold modulus. We solve the Laplace equation in the warped 
+throat by using both a simple analytical approximation and a numerical approach, 
+where we are particularly careful with the dependence on the relevant parameters 
+of the model. Both methods give consistent results indicating that there indeed 
+exist eigenmodes that are supported in the vicinity of the tip of the throat whose 
+masses get highly redshifted so that they become parametrically of the same order 
+as the mass of the Z modulus itself. 
+First reviewing and then applying the emergence hypothesis, we will argue 
+that the cut-off of the effective theory is not the Planck scale but the mass scale of 
+a D3-brane wrapping the three-cycle that shrinks to a point at the conifold locus. 
+Thus, applying the logic of the swampland distance conjecture to the conifold 
+locus we find that, similar to infinite distance points, the metric on moduli space 
+close to the conifold is emerging by integrating out, in this case, a finite number of 
+KK modes. This leads us to formulate an extension of the emergence hypothesis of 
+the swampland distance conjecture. Two possible interpretations of this peculiar 
+structure are discussed that lead to fairly opposite conclusions about the reliability 
+of the KKLT scenario. Either the utilized effective field theory is uncontrolled or 
+(one-loop) quantum gravity effects from integrating out the tower of KK modes 
+are essentially harmless. 
+
+#### 2 A modified warped KKLT scenario
+
+In this section, we introduce a slightly modified version of the KKLT scenario that does not assume a landscape tuning of a tiny W0 in a non-supersymmetric minimum (though does not forbid such an extra tuning). Before we discuss the warped case, let us review moduli stabilization in the dilute flux limit.
+
+##### 2.1 The conifold in the dilute flux limit
+
+Let us consider type IIB (orientifold) compactifications on a Calabi-Yau threefold 
+M . As usual, for stabilizing the complex structure and the axio-dilaton moduli, 
+we turn on type IIB three-form fluxes. Since eventually we need to design a 
+warped throat we consider the region close to a conifold singularity [68] in the 
+complex structure moduli space. 
+There the threefold developes a nodal singularity, that topologically can be 
+considered as a cone over S 2 
+× S 3. The S 3 can be made finite by deforming 
+
+away from the conifold locus in the complex structure moduli space, leading to the deformed conifold. Call A the three-cycle that vanishes at the conifold and B its symplectic dual three-cycle. Then the corresponding periods X 1 = R A Ω, F1 = R B Ω have an expansion
+
+Π = X
+
+0
+
+1 Z −
+
+1 2πiZ log Z + C + DZ + O(Z 2)
+
+... 
+
+(2.1)
+
+with Π T = (X 0, X 1, F1, . . .) and all other periods admitting a usual series expan sion in Z = X 1/X 0. The resulting K¨ahler potential for the complex structure modulus Z is given by
+
+Kcs = − log − iΠ†Σ Π = − log 1
+
+### 2π| Z|
+
+2 log(| Z| 2) + A + O(| Z| 2)
+
+(2.2)
+
+where Σ is the symplectic pairing and A > 0 is a real constant. The leading order K¨ahler metric reads
+
+GZZ ∼ − log(| Z| 2)/A . (2.3)
+
+Moduli stabilization 
+To stabilize the complex structure moduli and the axio-dilaton S = e− ϕ + iC0 
+one turns on NS-NS and R-R three-form fluxes. The superpotential generating 
+the corresponding F-term scalar potential is of the familiar Gukov-Vafa-Witten 
+(GVW) type [69, 70] 
+
+W
+
+=ZM
+
+F3 + iS H3 ∧ Ω3 (2.4)
+
+where F3 = dC2 and H3 = dB2 denote the R-R and NS-NS three-form field strengths. Here the fluxes and the holomorphic three-form are considered to be dimensionless, i.e. when cohomologically evaluated the superpotential only depends on the periods and the flux quanta. Taking also the K¨ahler potential K = − 3 log(T + T) − log(S + S) for the overall K¨ahler modulus T = τ + iθ and the axio-dilaton into account the resulting scalar potential
+
+V = e K G ABDAW DBW − 3| W|
+
+2 = e KG IJDIW DJW (2.5)
+
+is of no-scale type (here we have set Mpl = 1). Here A, B run over all moduli and I, J only over the complex structure moduli and the axio-dilaton. Now, let us turn on quantized F3 form flux M on the A-cycle and H3 form flux K on the
+
+dual B-cycle so that the leading order dependence of the superpotential on the conifold modulus Z is like
+
+W = −
+
+M 2πi
+
+Z(log Z − 1) + iKSZ + . . . . (2.6)
+
+Then the leading order contribution to the scalar potential becomes
+
+V ≈ e K G ZZDZW DZW ≈ M 4 pl gs τ 3 − log(| Z| 2) − 1 M
+
+2π
+
+log Z + KS
+
+2 (2.7)
+
+where in the second line we reintroduced the Planck-scale. This potential stabilizes the conifold modulus Z = ζ exp(iσ) at
+
+ζ0 = e−
+
+2πK gsM , σ0 = 0 (2.8) where for simplicity we assumed that the axio-dilaton is fixed at S = g− 1 s . In figure 1 we display the form of the potential for σ0 = 0.
+
+0.02 0.04 0.06 0.08 0.10
+
+5.× 10- 13 1.× 10- 12 1.5× 10- 12 2.× 10- 12 2.5× 10- 12 3.× 10- 12
+
+ζ
+
+V
+
+Figure 1: Potential V (ζ) for σ0 = 0 and the choice of parameters: M = 4, K = 1, gs = 1/2 and τ = 10 3.
+
+The mass (square) in the minimum are as usual given by the eigenvalues of the matrix M i k = G ij∂j∂kV , which in this case can be shown to scale as
+
+m 2
+
+### Z ∼
+
+M 2 pl
+
+V
+
+2 | Z| 2∼
+
+M 2 s
+
+### V| Z|
+
+2 (2.9)
+
+with V = τ 3 2 . Therefore, for the moduli masses to be smaller than the string scale, one needs V| Z|
+
+2 1, which is the so-called dilute flux limit. In other words, the employed supergravity action is only valid in this limit, where the backreaction of the fluxes on the geometry can be neglected. Note that the physical size of the three-cycle A in units of α0 is given by
+
+Vol(A) = V
+
+1 
+2 
+R A Ω = (V| Z| 2) 1 2 (2.10) 
+
+that makes the relevance of the combination V| Z|
+
+2 manifest. As we will see, this combination will also appear very often in the warped regime. Let us note that the other complex structure moduli and the axio-dilaton get masses that are lighter and scale as
+
+m 2 cs ∼
+
+M 2 pl
+
+V
+
+2 ∼
+
+M 2 s V
+
+. (2.11)
+
+Wrapped D3-brane and emergence of the moduli space metric As was first observed in [71], the leading divergence of the K¨ahler metric (2.3) can be interpreted as an IR divergence from having integrated out the wrapped D3-brane on the shrinking S 3 at the conifold locus which becomes massless as we send | Z| → 0. In general, integrating out a state φ of mass m(Z) which depends on the modulus under consideration will generate a one-loop contribution to its kinetic term, arising from the trivalent vertex generated by expanding the mass term (of a boson)
+
+m 2(Z)φ 2 = m 2(Z0)φ 2 + 2m(Z0)
+
+∂m(Z) ∂Z
+
+Zφ 2 + . . . . (2.12)
+
+The result from integrating out nF fermions and nB bosons, including numerical factors is given by [22]
+
+δgZZ =X
+
+nB n=1
+
+### | ∂Zm B n(Z)|
+
+2
+
+8π 2
+
+2π
+
+3√3− 1 +X
+
+nF n=1
+
+### | ∂Zm F n(Z)|
+
+2
+
+8π 2 log
+
+Λ 2 UV
+
+(m F n(Z))
+
+2 . (2.13)
+
+Due to supersymmetry, we are actually integrating out whole multiplets. The contribution from a chiral multiplet is
+
+### δgZZ ∼ | ∂Zm(Z)|
+
+2
+
+1 + α log
+
+Λ 2 UV (m(Z))
+
+2 , (2.14)
+
+where α is an order one number. In the present case the state that is integrated out in the effective field theory is the hypermultiplet corresponding to the non perturbative wrapped D3-brane on the shrinking S 3 of the conifold. Its mass is given by 3
+
+SD3 =
+
+1 gs
+
+M 4 sZR× S3√− g = 1
+
+g
+
+1/4
+
+s Ms(V| Z| 2) 1 2 | {z }
+
+mD3
+
+ZR
+
+dτ . (2.15)
+
+Integrating out the corresponding multiplet with ΛUV = Mpl = MsV
+
+1 
+2 /g 
+
+1/4 s , for | Z| 1 one obtains a dominant contribution from the fermions due to the large logarithm
+
+δgZZ ∼ − log(| Z| 2). (2.16) 3Note that in our conventions the volume V also contains a factor g− 3/2 s .
+
+This is precisely the behavior of the tree level metric. The emergence proposal 
+says that in the field theory including the wrapped D3-brane hypermultiplet, the 
+actual tree-level metric is non-singular and that the log-term solely arises from 
+integrating out the light hypermultiplet. 
+We will now include the flux induced warping in the discussion, focussing on 
+the moduli stabilization. In section 4 we will come back to discuss the emergence 
+of the K¨ahler metric also in the warped case. 
+
+##### 2.2 The conifold in the warped regime
+
+As we have seen the supergravity action from the last section is only valid in the dilute flux regime where the backreaction of the fluxes can be neglected. For really obtaining a strongly warped Calabi-Yau their backreaction has to be strong. Indeed, it is well known that the backreaction of such a three-form flux and of localized D3-branes on the geometry leads to a warped CY metric [66] ds 2 = e 2A(y)gµνdx µdx ν + e− 2A(y)g˜mndy mdy n (2.17)
+
+where the warp factor A(y) only depends on the internal coordinates y and g˜mn denotes the Ricci-flat metric on a CY threefold. Locally an H3 form flux on an A-cycle and an F3 form flux on its symplectic dual B-cycle leads to the warped metric on the deformed conifold. This can be described as a cone over T 1,1 cut off in the IR by a finite size S 3. This is the Klebanov-Strassler (KS) solution [72], whose metric is explicitly known
+
+ds e
+
+2
+
+=
+
+1 
+2| S| 
+2 
+3 K(y) 
+
+dy 2 + (g 5) 2 3K 3(y)
+
++ cosh
+
+2 y 
+2 
+(g 3) 2 + (g 4) 2 
+
++ sinh
+
+2 y 
+2 
+(g 1) 2 + (g 2) 2 
+
+(2.18)
+
+where S is related to the conifold modulus Z and the g i are a collection of 
+one-forms for the base S 2 
+× S 3 and 
+
+K(y) =
+
+(sinh(2y) − 2y) 1 3 2
+
+1 
+3 sinh(y) 
+
+. (2.19)
+
+For y = 0 the S 2 shrinks to zero size, while the S 3 stays finite. Its volume form 
+can be read off from (2.18) as ω3 ∼ g 5 
+∧ g 3 
+∧ g 4. The warp factor of the KS 
+
+solution reads e− 4A(y) = 2
+
+2 3(α0gsM) 2
+
+| S|
+
+4 
+3 I (y) (2.20) 
+
+where y denotes the direction along the throat and
+
+I (y) = Z
+
+∞
+
+y
+
+dx
+
+x coth x − 1 sinh
+
+2 x
+
+(sinh(2x) − 2x) 1 3 . (2.21)
+
+We note that the relation between the coordinates S and Z is a bit more involved. This can be anticipated by noting that the coordinate Z is dimensionless while the S coordinate in the KS solution is not. This is evident by the appearance of α0 in the warp factor (2.20) implying that S has dimension [length 3 ]. Recall that in the effective supergravity description there is no explicit dependence on the string scale, those factors are absorbed in the definition of the superfields and Mpl. Moreover, scaling the internal metric via g˜ → λ 2g˜ describes the breathing mode of the CY, i.e. the K¨ahler modulus for the overall volume. As the fluxes do not stabilize the K¨ahler moduli, this should better be an unconstrained deformation. There exists the relation λ ∼ V
+
+1/6 
+w where 4 
+
+V w = 1 g
+
+3/2
+
+s (α0) 3Z d 6y e− 4A p g˜ ∼ τ 3 2 (2.22)
+
+denotes the warped volume of the CY in units of α0. In [62] it was shown that the 10D string equations of motion admit an unconstrained deformation λ only if the warp factor scales non-trivially
+
+e− 4A = 1 +
+
+e− 4Acon λ 4 ∼ 1 + c (V w| Z| 2) 2 3 + · . (2.23)
+
+where we have chosen the warp factor to be one in the large volume, unwarped regime. Putting the last two observations together, the coordinate S in the KS solution (2.18), (2.20) and the conifold coordinate Z are related via the rescaling
+
+S → (α0) 3/2q g 3/2 s V wZ . (2.24)
+
+Then one can write the warp factor close to the conifold locus as
+
+e− 4A(y)
+
+≈ 2 2 3 gsM 2 (V w| Z| 2) 2 3I (y). (2.25)
+
+Even though we were not very careful with numerical prefactors, this is the relation we will use in the following. Therefore, the regime of strong warping is given by
+
+### V w| Z|
+
+2 1. We notice that it makes manifest the orthogonality of the complex structure and K¨ahler moduli even in the warped case. Keeping Z fixed and close to the conifold locus, by scaling up the metric one can reach the dilute flux regime where the warp factor goes to one. In the strongly warped regime close to a conifold singularity in complex structure moduli space, the CY develops a long throat region that locally can be described by a KS throat and which is glued at a UV scale yUV to the remaining bulk threefold. This picture of the CY is pictorially shown in figure 2.
+
+4Our notation is related to the one used in [64, 67] by a rescaling of the moduli fields τ and Z (called ρ and S in [64, 67]) by suitable powers of || Ω||
+
+2 and Vw. Note that the latter two quantities are not considered to be moduli dependent but just values around which one expands.
+
+y
+
+S 2 S 3
+
+bulk throat yUV
+
+Figure 2: A sketch of a Calabi-Yau with a KS-throat. At the tip of the throat the S 2 shrinks to zero size while the S 3 remains finite. yUV marks the cutoff where the throat meets the bulk.
+
+Bounds on parameters 
+Let us derive lower bounds on the parameters (gs, M) and yUV resulting from the 
+suppression of α0 corrections. First, in order for the supergravity, large radius 
+description to be consistent one requires that the size of the S 3 at the tip of the 
+conifold stays larger than the string length. This can be simply read-off from the 
+warped KS metric (2.17) and (2.18) 
+
+R 2 S3 ∼ e− 2A(0)
+
+| S|
+
+2 
+3 
+∼ α0gs| M| (2.26) 
+
+where we used the substitution (2.24). Therefore, throughout the following we work in the regime
+
+1 gs| M| . (2.27)
+
+Similarly, one can derive a lower bound on yUV by demanding that the proper field length of the KS throat
+
+Lthroat =Z
+
+yUV
+
+0 dyp Gyy (2.28)
+
+measured with the warped metric is larger than the string length. Using the warped KS metric we find
+
+### Lthroat ∼ α0gs| M|
+
+1
+
+2Z yUV
+
+0
+
+dy I
+
+1 
+4 (y) 
+
+### K(y) ∼ α0gs| M|
+
+1 
+2 
+yUV (2.29) 
+
+where we expanded the integrand for small values of y as I 1/4(y)/K(y) ≈ 1.33 + O(y 2). Therefore, we obtain the lower bound 5
+
+1 gs| M| y 2 UV . (2.30)
+
+As already practiced, we will not be concerned with order one numerical prefactors, but will be very careful with the dependence of various quantities on the parameters gs, M, V w, Z, yUV . (2.31)
+
+In [64] (for a recent summary see also [67]) an effective action was proposed that describes the dynamics of the Z modulus and the overall K¨ahler modulus in the region of the Z moduli space close to the conifold singularity. This is the action that we will further study in this paper, as it is the one underlying the warped KKLT scenario. Let us start with the K¨ahler potential.
+
+The modified no-scale structure Doing the same substitution (2.24) for the K¨ahler metric and the corresponding K¨ahler potential in [64, 67], we obtain in the strongly warped regime 6
+
+K = − 3 log(T + T) + c0ξ| Z|
+
+2 
+3 
+
+(T + T)
+
++ O(ξ 2) (2.32)
+
+with ξ = gsM 2 and c0 an order one numerical factor whose precise value we take [67] as c0 ≈ 1.18. Since the second term mixes the T and the Z moduli, there will be off-diagonal terms in the K¨ahler metric. However, just turning on three-form flux should not stabilize the K¨ahler moduli. Therefore, something non-trivial must happen to preserve the no-scale structure of the induced scalar potential. To make this evident we consider the following more general ansatz for the K¨ahler potential
+
+K = − 3 log(T + T) + c0ξ| Z|
+
+2 3 (T + T) N + O(ξ 2) (2.33)
+
+5Later we will often encounter the combinations gsM 2 | M| and gsM 2 y 2 UV | M| .
+
+6By order O(ξ) we actually mean first order in ξ| Z|
+
+2 3 (T +T).
+
+where we leave the exponent N open for the moment. Then it is straightforward to compute
+
+X I,J G IJ∂IK∂JK = 3 − (N − 1) c0ξ| Z| 2 3 (T + T) N + O(ξ 2) (2.34)
+
+where the sum runs over the set I, J ∈ { T, Z} . Therefore, we see that for N = 1 the linear term in ξ precisely vanishes. This is nothing else than the expected no-scale structure for the warped CY case. Similarly, one can show that
+
+G ZJ∂JK = 3(1 − N)Z + O(ξ) (2.35)
+
+so that also for this combination the leading order correction cancels precisely for N = 1.
+
+Stabilization of conifold modulus 
+Now, by turning on three-form flux supported on 3-cycles in the bulk of the CY 
+threefold, all remaining complex structure moduli and the axio-dilaton can be 
+stabilized and have a mass scale as in (2.11). The conifold modulus Z is expected 
+to be much lighter so that the former moduli can be integrated out. Therefore, 
+we are considering an effective theory for the two moduli, Z and T. Say after the 
+first step the superpotential in the minimum takes the value Wcs so that by again 
+turning on F3 form flux on the A-cycle and H3 form flux on the B-cycle the total 
+superpotential becomes 
+
+W = Wcs −
+
+M 2πi
+
+Z(log Z − 1) + iKSZ , (2.36)
+
+where assuming Z 1 we neglected the higher order terms in the corresponding periods. Due to the warped no-scale structure the resulting scalar potential
+
+V = e K G IJDIW DJW − 3| W|
+
+2 (2.37)
+
+simplifies considerably
+
+V = e K G ZZ∂ZW ∂ZW
+
+=
+
+18gs c0ξ | Z|
+
+4 3 (T + T) 2
+
+M 2π
+
+log Z + KS
+
+2
+
+=
+
+9 2c0M 2
+
+ζ
+
+4 
+3 
+
+## τ 2h
+
+M 2π log ζ + K gs
+
+2 + M 2π
+
+2 σ 2 i .
+
+(2.38)
+
+This scalar potential is positive definite and vanishes for ∂ZW = 0 which gives
+
+ζ0 = e−
+
+2πK gsM , σ0 = 0 . (2.39)
+
+Note that due to the no-scale relation (2.35) and G T Z∂ZK + G TT∂T K = − 2τ + c0ξ 3| Z|
+
+2 3 + O(ξ 2) ≈ − 2τ , (2.40)
+
+we obtain (up to the order to which we compute)
+
+F Z = G ZZ(∂ZW + ∂ZK W) + G ZT∂T K W ≈ 0 , F T = G T Z∂ZK W + G TT∂T K W ≈ − 2τW
+
+(2.41)
+
+so that supersymmetry breaking can only occur along the K¨ahler moduli. In figure 3 we display the scalar potential as a function of the conifold modulus ζ. As already observed in [67], away from the vicinity of the Minkowski minimum, it shows a different functional behavior than the unwarped case.
+
+1.× 10- 14 2.× 10- 14 3.× 10- 14 4.× 10- 14
+
+1.× 10- 21 2.× 10- 21 3.× 10- 21 4.× 10- 21 5.× 10- 21
+
+ζ
+
+V
+
+Figure 3: Potential V (ζ) for σ0 = 0 and the choice of parameters: M = 1, K = 1, gs = 1/5 and τ = 10.
+
+The value of the superpotential in the Minkowski minimum is given by
+
+W0 = Wcs −
+
+M 
+2πi 
+Z0 = Wcs − 
+
+M 2πi e−
+
+2πK gsM . (2.42)
+
+Note that the second term is exponentially small. For getting a supersymmetric minimum, i.e. a warped CY threefold, the value Wcs after fixing the heavy moduli, have to be such that it cancels the second term. In general though supersymmetry is broken and by having already Wcs = 0 in the first step, the scale of breaking is exponentially small. In the following we investigate this special case, even though our analysis also goes through for more general (small) values of Wcs = 0. Using the scalar potential (2.38) and the K¨ahler metric following from the K¨ahler potential (2.32), the masses of both two real components of the complex structure modulus Z scale as
+
+### m 2 Z ' V w| Z|
+
+2 
+1 
+3 
+gsM 2 
+
+M 2 
+pl 
+V w ' V w| Z| 
+
+2 
+1 
+3 
+
+g
+
+3/2 
+s M 2 
+
+M 2 s (2.43)
+
+so that in the strong warping regime V w| Z|
+
+2 1 they are indeed smaller than the string scale. Moreover, the mass of the Z modulus is exponentially smaller than the mass (2.11) of the other complex structure moduli and the axio-dilaton, justifying they could be integrated out in a first step.
+
+##### 2.3 Anti D3-brane uplift
+
+Adding a single D3-brane at a position y in the warped throat induces an extra contribution to the scalar potential [47, 73]
+
+SD3 ∼ 2 M 4 s gsZ d 4x√− g e 4A(y) ∼Z d 4x√− g 2 M 4 pl τ 3 e 4A(y) (2.44)
+
+Using the warp factor (2.25) and that the scalar potential has its minimum at the tip of the throat y = 0, the scalar potential of the D3-branes can be written as
+
+VD3 =
+
+9c00 
+2gsM 2 
+
+ζ
+
+4 3 τ 2 (2.45)
+
+with an order one coefficient c00, which we take from [67] to be c00 = 2
+
+1 
+3 
+/I (0) ≈ 1.75. 
+
+Note that only with the factor V
+
+2/3 w in the warp factor (2.23), we get the correct and always used VD3 ∼ τ− 2 behavior of the uplift potential for an D3-brane at the tip of a strongly warped throat. The total potential is then given by
+
+Vtot =
+
+9 2c0M 2
+
+ζ
+
+4 
+3 
+
+## τ 2h
+
+M 2π log ζ + K gs
+
+2
+
++
+
+c0c00 gsi (2.46)
+
+where we minimized already the σ = arg(Z) modulus. As already noticed in [67], both the flux and the D3 brane contribution scale like
+
+ζ 4/3 τ2 so that for the stabilization of ζ the uplift cannot be neglected, as it is usually done for KKLT. The extrema of the for ζ > 0 positive definite total potential Vtot were determined analytically in [67]
+
+ζ = exp −
+
+2π gs
+
+K
+
+### M −
+
+3
+
+4 ±q
+
+9 
+16 − 
+
+4π2 gsM2 c0c00 (2.47)
+
+where the positive sign corresponds to a local minimum and the negative sign to 
+a local maximum. 
+It was observed in [67] that the extrema are gone if gsM 2 
+≤ 12 2 and then 
+it becomes a question of the tadpole cancellation condition whether sufficiently 
+large fluxes are allowed. This issue could potentially spoil the uplift and therefore 
+the validity of the KKLT scenario. De Sitter vacua could not be achievable 
+any more, while supersymmetric AdS4 compactification with scale separation 
+would still be possible. In view of large tadpole constraints appearing in F-theory 
+compactifications on Calabi-Yau fourfolds, in the following, we do not consider 
+this issue to be really severe and assume that sufficiently large fluxes can be 
+turned on. 
+
+#### 3 Stabilization of K¨ahler modulus
+
+So far the potential still features a modified no-scale structure so that the overall 
+K¨ahler modulus T remains as a flat direction. In KKLT this modulus is stabilized 
+by non-perturbative effects coming either from Euclidean D3-brane instantons or 
+gaugino condensation on D7-branes. The employed effective superpotential after 
+integrating out the complex structure moduli and the axio-dilaton reads 
+W = W0 + A e− aT (3.1) 
+where the one-loop Pfaffian A can only depend on the complex structure moduli 
+and can therefore be considered to be constant. If one assumes that W0 can 
+be tuned exponentially small in the string landscape, then the two terms in W 
+can compete with each other and one finds a supersymmetric AdS4 minimum at 
+τ exp(− aτ ) ∼ | W0| so that the mass of τ scales as m 2 τ ∼ −| W0| 2/ log W0 which is 
+also exponentially small. 
+However, as we have seen the mass of the Z modulus is also exponentially 
+small so that it is a priori not clear that one is allowed to integrate Z out before 
+stabilizing T. Therefore, we move one step back and consider a supergravity 
+model with two moduli, Z and T, and look for minima of the full scalar potential. 
+This model is specified by the K¨ahler potential 
+
+K = − 3 log(T + T) + c0ξ| Z|
+
+2 
+3 
+
+(T + T)
+
++ O(ξ 2) (3.2)
+
+and the KKLT-like superpotential
+
+W = W (Z) + W (T) = −
+
+M 2πi
+
+Z(log Z − 1) + i K
+
+gs
+
+Z + Ae− aT (3.3)
+
+where we have set Wcs = 0 and will assume that the Pfaffian A > 0 is real, positive and does not depend on the conifold modulus Z. Let us analyze analytically the form of the resulting total scalar potential. Due to the no-scale relations (2.34), (2.35) and (2.40) it simplifies considerably
+
+V ≈ e K G IJ∂IW ∂JW − 2τ ∂TW (T)W + W ∂TW (T) . (3.4)
+
+If the conifold modulus Z is still stabilized by ∂ZW (Z) = 0 at Z0 then the resulting 
+potential for the K¨ahler modulus will become 
+V ≈ e K G TT∂TW (T)∂TW (T) 
+
+− 2τ ∂TW (T)W + W ∂TW (T) (3.5)
+
+with W = W0 + W (T) and W0 = W (Z)(Z0). This is nothing else than the usual KKLT scalar potential with an exponentially small W0 = −
+
+M
+
+### 2πi exp(−
+
+2π 
+gs 
+K M). 
+
+Therefore, the minimum will be supersymmetric with the gravitino mass
+
+m3/2 = e K/2 | W| ∼
+
+g
+
+1/2
+
+s M| Z0| (4π)τ
+
+3/2 
+0 
+
+Mpl (3.6)
+
+and the value of the scalar potential in the AdS minimum
+
+V0 ∼ − m 2 3/2 M 2 pl ∼ −
+
+### gsM 2 | Z0|
+
+2 
+16π 2τ 3 
+0 
+
+M 4 pl . (3.7)
+
+In order for this two-step procedure to be self-consistent, one needs that eventually the K¨ahler modulus is much lighter than the conifold modulus. Let us estimate their masses. As we have seen, the mass of Z scales at
+
+m 2 Z ∼ | Z0|
+
+2 
+3 
+gsM 2 τ0 
+
+M 2 pl (3.8)
+
+while the KKLT scenario fixes the mass of the K¨ahler modulus at
+
+m 2 τ ∼ a 2
+
+| W0|
+
+2
+
+τ0
+
+### M 2 pl ∼ a 2M 2 | Z0|
+
+2
+
+τ0
+
+M 2 pl (3.9)
+
+so their ratio is
+
+m 2 τ m 2
+
+Z ∼ M 3
+
+| Z0|
+
+4 
+3 1 . (3.10) 
+
+Here we have also taken into account the powers of the flux quantum M (as this can be large). This analysis suggests that the minimum of the total scalar potential is given at
+
+no − scale minimum : ∂ZW (Z) = 0 =⇒ ζ = e− 2π gs K M , σ = 0 KKLT minimum : A(2aτ + 3) − 3| W0| e aτ = 0 , θ = − π/2 .
+
+(3.11)
+
+In the following we will consider concrete choices of fluxes and by determining numerically the local minima of the full potential we confirm the above behavior 7.
+
+##### 3.1 AdS minimum
+
+Let us consider the full scalar potential without an D3-brane. Then according to the previous paragraph we expect to find a KKLT-like AdS4 minimum of the full potential. In the figures 4 and 5 we display the full potential in the region close to the minimum. As can be seen, the behavior is consistent with our expectation. The numerical AdS minimum lies at ζ| num ≈ 3.49 · 10− 6, τ | num ≈ 14.47 with
+
+V0| num ≈ − 3.13 · 10− 15M 4 pl . (3.12) 7In order to compare our result with [58], we define the warp factor in the infrared wIR = e A ∼ (V w| Z| 2) 1 6 . Using the second relation in (3.11), one can write V w ∼ τ 3 2 ∼ (log w− 1 IR ) 3 2 , so that the mass of Z can be expressed as m 2 Z ∼ w 2 IR/ log(w− 1 IR ) 3 2 M 2 pl. This agrees with the result
+
+in [58].
+
+3.45× 10- 6 3.5× 10- 6 3.55× 10- 6 3.6× 10- 6
+
+5.× 10- 15 1.× 10- 14 1.5× 10- 14 2.× 10- 14
+
+ζ
+
+V
+
+14 15 16 17 18 19
+
+- 3.× 10-
+
+15- 2.× 10-
+
+15- 1.× 10- 15
+
+1.× 10- 15 2.× 10- 15 3.× 10- 15
+
+τ
+
+V
+
+Figure 4: Left: V (ζ, τ ) for τ = 14.47, Right: V (ζ, τ ) for ζ = 3.49 · 10− 6, both cases for σ = 0, θ = − π/2 and the choice of parameters: M = 10, K = 10, gs = 1/2, A = a = 1.
+
+τ
+ζ
+
+Figure 5: Potential V (ζ, τ ) for σ = 0, θ = − π/2 and the choice of parameters: M = 10, K = 10, gs = 1/2 and A = a = 1.
+
+Computing the mass eigenvalues for the saxions ζ and τ we find m 2 ζ| num ≈ 9.38 · 10− 7M 2 pl , m 2 τ| num ≈ 2.06 · 10− 12M 2 pl . (3.13)
+
+From the previous theoretical two step analysis, using (3.11) we get for the values of the moduli in the AdS minimum
+
+ζ| theo = 3.49 · 10− 6, τ | theo = 14.47 (3.14)
+
+which is in very remarkable agreement with the numerical one step result. For the value of the potential in the minimum (3.7) and for the masses we find
+
+V0| theo ≈ − 1.27 · 10− 15M 4 pl , m 2 ζ| theo ≈ 3.18 · 10− 7M 2 pl , m 2 τ| theo ≈ 8.41 · 10− 11M 2 pl
+
+(3.15)
+
+which are in the right ballpark. Therefore, we conclude that the true AdS minimum of the full scalar potential is the one that we were able to predict from the two-step procedure.
+
+Thus, employing an effective low energy theory which takes warping into account we seem to be able to find a supersymmetric KKLT-like AdS vacuum that by itself generates an exponentially small value of an effective W0. Of course one can add a sufficiently small value of the superpotential Wcs without much changing our results. Let us make two remarks. First, the moduli satisfy V w| Z|
+
+2 1 so that self-consistently they are fixed in the strongly warped regime. Second, as in KKLT, the AdS vacuum satisfies scale separation, as
+
+m 2 τ L 2 AdS ∼ − m 2 τ
+
+M 2 
+pl 
+V0 ∼ (aτ0) 2 1 (3.16) 
+
+so that the vacuum can indeed be considered four-dimensional.
+
+##### 3.2 Uplift to de Sitter
+
+From here it is only one more step to uplift the AdS minimum to de Sitter by adding the contribution (2.45) of a D3-brane to the scalar potential. Setting the AdS vacuum energy V0 in (3.7) equal to the energy of the D3-brane (2.45) gives
+
+| Z|
+
+2 
+3 
+
+V
+
+4 
+3 ∼ 
+
+1 (gsM 2) 2 (3.17)
+
+so that for an exponentially small Z one expects large values of the flux M. As a proof of principle that such a metastable vacuum can indeed exist, we provide a concrete numerical example in the figures 6 and 7.
+
+3.35× 10- 6 3.4× 10- 6 3.45× 10- 6 3.5× 10- 6 3.55× 10- 6 3.6× 10- 6
+
+3.1× 10- 13
+
+3.2× 10- 13
+
+3.3× 10- 13
+
+3.4× 10- 13
+
+3.5× 10- 13
+
+ζ
+
+V
+
+13 14 15 16
+
+3.2× 10- 13 3.4× 10- 13 3.6× 10- 13 3.8× 10- 13 4.× 10- 13 4.2× 10- 13
+
+τ
+
+V
+
+Figure 6: Left: V (ζ, τ ) for τ = 12.59, Right: V (ζ, τ ) for ζ = 3.47 · 10− 6, both cases for σ = 0, θ = − π/2 and the choice of parameters: M = 70, K = 70, gs = 1/2, A = a = 1.
+
+Without assuming the existence of a “tuning” 0 < | W0| 1 (the choice Wcs = 0 is natural as it preserves supersymmetry) in the string landscape, we provided a dynamical KKLT scenario that seems to feature scale separated AdS minima and uplifted dS minima. For that purpose we employed an effective action for a conifold modulus and the overall K¨ahler modulus that seems to be valid and self-consistent in the strongly warped regime. Therefore, either we have falsified
+
+ζ
+τ
+
+Figure 7: Potential V (ζ, τ ) for σ = 0, θ = − π/2 and the choice of parameters: M = 70, K = 70, gs = 1/2 and A = a = 1.
+
+the two swampland conjectures forbidding such AdS and dS vacua or we have overlooked an issue that spoils the validity of the effective action used. It was discussed in the literature, whether the uplift by an anti D3-brane in the warped throat might be too naive. If this was correct then the dS vacua would be untrustworthy but the scale separated AdS minima would survive. Could there be an issue that by one stroke puts doubt to both types of minima?
+
+#### 4 Swampland conjectures in the warped throat
+
+In defining a Wilsonian effective action valid in the strongly warped regime, we have assumed that all other massive states in the full string theory are heavier than the conifold modulus (that by itself turned out to be heavier than the K¨ahler modulus) of mass
+
+m 2 Z =
+
+### c gsM 2 | Z| V w
+
+2 
+3 
+
+M 2 pl (4.1)
+
+where c is an order one coefficient. It has been conjectured that Wilsonian effective field theories derived from a UV complete theory of quantum gravity, have only a finite range of validity. This behavior is described in the swampland distance conjecture that says that by moving towards infinite distance in field space, an infinite tower of states becomes exponentially light in the proper field distance. In contrast to e.g. the large complex structure point, the conifold point is at finite proper field distance in the complex structure moduli space. This is still
+
+true in the strongly warped case, as can be seen by computing
+
+Φ = Z dζp GZZ ∼ | Z| V w
+
+1 
+3 
+
+(4.2)
+
+where the conifold point is at Z = Φ = 0. Therefore, one might hope that even 
+close to the conifold point the effective field theory is controllable. 
+However, it is well known that Kaluza-Klein modes localized in the strongly 
+warped region might become dangerously light. These KK modes in a warped 
+throat have been investigated using various methods e.g. in [63, 65, 74, 75]. Thus 
+one might be concerned that they become parametrically lighter than the Z 
+modulus, thus spoiling the validity of the employed Wilsonian effective action in 
+the warped throat. 
+In addition, as we have seen in section 2, the singularity in the complex 
+structure moduli space is due to integrating out a non-perturbative state that 
+becomes massless at the conifold point [71]. Therefore, the question arises how 
+the mass of this wrapped D3-brane scales in the warped case. 
+
+##### 4.1 KK modes in the warped throat
+
+Let us first investigate the Kaluza-Klein modes. In order to be sure that we compare quantities expressed in the same conventions, in this section we proceed by computing the mass of the KK modes. We will employ two methods, the first will be a leading order approximation and the second a numerical analysis. Let us do the dimensional reduction of a ten-dimensional scalar field Φ with mass m to four dimensions. Starting with the action
+
+S ∼Z d 10x√− G G MN ∂MΦ∂N Φ + m 2Φ 2 (4.3)
+
+and making the usual warped ansatz for the ten-dimensional metric
+
+G =
+
+e 2A(y)g4 0 0 e− 2A(y)g˜CY
+
+(4.4)
+
+the action can be written as
+
+S ∼Z d 4x√− g4Z d 6yp g˜CYh e− 4Ag µν 4 ∂µΦ∂νΦ+ g˜ mn CY∂mΦ∂nΦ + e− 2Am 2Φ 2
+
+i . (4.5)
+
+The resulting equation of motion for the field Φ(x, y) becomes 4Φ + e 4A
+
+∇ ˜ m ∇
+
+˜ mΦ − e 2Am 2Φ = 0 . (4.6)
+
+Doing a product ansatz Φ(x, y) = ϕ(x)χ(y) the four-dimensional KK masses m 2 KK are given by the eigenvalues of the six-dimensional warped Laplace equation
+
+e 4A(y)
+
+∇ ˜ m ∇
+
+˜ mχ(y) − m 2e 2A(y)χ(y) = − m 2 KK χ(y). (4.7)
+
+We are heading for the lightest modes, which are expected to arise from the KK modes of the four-dimensional components of the metric g4 µν(x, y). The zero mode is the 4D graviton that is the lowest excitation of the closed string. Placing such a closed string deep into the throat region, we expect to find highly red-shifted KK masses. Therefore, we set m = 0 and note that at linear order KK modes of the 4D metric are also governed by the same Laplace equation (see [65])
+
+e 4A(y)
+
+∇e
+
+2 CY χ(y) = − m 2 KK χ(y). (4.8)
+
+Actually, one now has to solve this equation on the entire Calabi-Yau manifold for a point in complex structure moduli space that is very close to a conifold singularity. This is a horrendous task that is beyond the scope of this paper. Here, we take a simpler approach and first look for local solutions that are supported close to the tip of the cone of the KS solution (2.18). These are the ones which are expected to yield small red-shifted masses. For this purpose, we take the local CY metric of the KS throat and evaluate the Laplacian
+
+∇e
+
+2 
+CY for 
+solutions that do only depend on the radial direction y and are constant on the 
+S 2 
+× S 3 base of the cone. These are expected to be the ones that have minimal 
+mass. We compute the relevant Laplace equation from the KS metric (2.18) and 
+warp factor (2.20) 
+2 1/3(V| Z| 2) 1 3 
+g 
+
+3/2 
+s M 2 
+
+1 I (y)h 3K 2(y) ∂ 2 yχ(y) + 4 ∂yχ(y) sinh(y) K(y)i = − α0m 2 KK χ(y). (4.9)
+
+Leading order approximation 
+Before we solve this differential equation numerically, to get an idea what the 
+solutions might look like, we expand all quantities up to leading order around 
+y = 0. Using 
+
+K(y) =
+
+2 
+3 
+1 
+3 
+
++ O(y 2)
+
+sinh(y) K(y) =
+
+2 
+3 
+1 
+3 
+
+y + O(y 3)
+
+I (y) = κ + O(y 2)
+
+(4.10)
+
+with κ ≈ 0.72, we arrive at
+
+2 · 3 1/3 κ (V| Z| 2) 1 3 g
+
+3/2 s M 2h ∂ 2 yχ + 2 y ∂yχi = − α0m 2 KK χ . (4.11)
+
+Up to some scaling factors, this is the spherical Bessel differential equation h ∂ 2 yχ + 2 y ∂yχ + k 2χi = 0 (4.12)
+
+whose solution with Neumann boundary conditions at y = 0 is
+
+χ(y) = sin(ky) ky
+
+(4.13)
+
+where kn = fn/yUV is expected to be quantized by imposing (Neumann) boundary conditions at the UV end yUV of the throat. Here fn denotes the solutions of the equation tan f = f that are approximately fn ≈ (2n + 1)π/2 with n ≥ 1. Therefore, the KK masses of these localized solution scale
+
+m 2 KK =
+
+2 · 3 1/3 κ
+
+f 2 
+n(V w| Z| 2) 1 3 
+
+g
+
+3/2 
+s (MyUV) 2 
+
+M 2 s . (4.14)
+
+Note that, with respect to Ms, gs, M and (V w| Z| 2) this scales precisely in the same way as the mass (4.1) of the conifold modulus, so that
+
+m 2 KK m 2 Z = c f 2 n y 2 UV (4.15)
+
+where c is an order one coefficient. Note that yUV is bounded from below by (2.30) 
+that is weaker than imposing yUV > 1. In the latter regime there are finitely many 
+KK modes that have a mass lighter than the conifold modulus. This indicates 
+that the employed effective action might be at the edge of reliability. We will 
+further analyze this important question in the upcoming sections. 
+In Einstein frame, massive bulk string excitations have a mass m 2 
+str ∼ g 1/2 s M 2 s. 
+
+If placed into the warped throat we have checked that there exist localized solutions of (4.7) leading to KK masses that are shifted up by
+
+m 2 str,throat ∼
+
+1 M (V w| Z| 2) 1 3M 2 s . (4.16)
+
+With respect to V w and Z this scales in the same way as the mass of the conifold modulus and the KK modes. Note, that in this way each of the string modes comes with a whole tower of KK excitations with spacing of the order (4.14).
+
+Numerical solution of warped Laplace equation For y > 1 we do not expect our leading order approximation to be valid so that a full numerical analysis of the solution of (4.9) is necessary. Except for the radial dependence of I (y), this is a one dimensional differential equation with Neumann boundary conditions. This function could only be evaluated numerically. To
+
+2 4 6 8 10 y
+
+0.2
+
+0.4
+
+0.6
+
+0.8 χ(y)
+
+2 4 6 8 10 y
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1.0 χ(y)
+
+Figure 8: Eigenfunction of the numerical solution (blue) and analytical approxi mation (red) of the first (left) and second (right) radial mode.
+
+obtain an expression which can be inserted into the numerical procedure, the function was sampled at 5000 points in the interval [0, 50] and interpolated using a degree three polynomial. Figure 8 shows the first and second eigenfunctions of the approximate analytical solution as well as the numerical solution. The functions are normalized such that the integral over the absolute values squared is equal to one. Only the radial contribution is shown, i.e. all prefactors are set to one:
+
+(V w| Z| 2) 1 3 
+gsM 2α0 
+
+= 1 . (4.17)
+
+To estimate the numerical errors made in solving the differential equations, the same methods were used to solve the spherical Bessel equation numerically, the results are shown in all figures in black. The functions as well as eigenvalues agree with the analytical result, showing that the numerical errors are small. We notice that the numerical functions are shifted towards small y relative to the analytical spherical Bessel functions, improving the localization in the warped throat. The eigenvalues of the numerical solution scale approximately like 1/yUV for small values of yUV and approach an asymptotic value for yUV ' 10 due to the localization of the functions at small y. The left hand side of figure 9 shows this behavior exemplary for the case of the first eigenmode. The right figure shows the mass eigenvalues obtained via the analytical and the numerical method.
+
+2 4 6 8 10 12 14 yUV
+
+5
+
+10
+
+15
+
+20
+
+25
+
+MKK
+
+1 2 3 4 5 Modenumber
+
+5
+
+10
+
+15
+
+20
+
+25
+
+MKK
+
+Figure 9: Left: The first eigenvalue of the numerical solution for different yUV . Right: Eigenvalues of the numerical solution (blue) and analytical approximation (red) of the first five radial modes. The numerical evaluation of the spherical Bessel equation is shown in black.
+
+##### 4.2 The swampland distance conjecture
+
+In this subsection, we establish contact of the KK spectrum with the recent discussions of the swampland distance conjecture (SDC), in particular its emergent nature. First, let us recall the latter point in the large distance regime.
+
+The emergence of the swampland distance conjecture The behavior of a tower of modes becoming lighter than the cut-off has recently been claimed [21–23,76] to underly the swampland distance conjecture of quantum gravity. Closely following [76], let us briefly repeat how the logic goes. Say one has a light field φ and a tower of massive states hn governed by an effective action
+
+S = M 2 pl Z d 4x 1 2 gφφ∂µφ∂ µφ +X n 1 2 ∂µhn∂ µhn + 1 2 m 2 n(φ)h 2 n! (4.18)
+
+where the fields are dimensionless. The masses of the tower are assumed to be discretized as mn = n∆m(φ) and to depend on the value of the field φ. The question is what happens if some of these states become lighter than the natural cut-off scale, which for a theory of quantum gravity is the so-called species scale 8 (see for example [77–81])
+
+Λ˜sp =
+
+p
+
+Mpl Nsp (4.19)
+
+8We notice that at this scale the one-loop correction to the Planck-scale
+
+M 2 pl(µ) = M 2 pl(0) −
+
+µ 2 12π
+
+Nsp
+
+from integrating out the Nsp species becomes of the order of the IR value Mpl(0).
+
+where Nsp denotes the number of states/species with a mass lower than the cut-off, i.e. Nsp = Λ˜sp/∆m(φ). The last two relations can be solved as
+
+Λ˜sp = M 2 pl ∆m(φ)
+
+1 
+3 
+
+, Nsp =
+
+Mpl ∆m(φ)
+
+2 
+3 
+
+. (4.20)
+
+Clearly, those states which are lighter than Λ˜sp spoil a Wilsonian effective action just for the field φ below the species bound. Including them in the effective action (as in (4.18)), one can compute their contribution to the one-loop 1PI effective action for the field φ. For bosonic states, as shown in [22], their effect on the field space metric gφφ is
+
+g 1− loop
+
+φφ ∼ M− 2 pl X
+
+Nsp n=1
+
+∂φmn(φ)
+
+2 = M− 2 pl ∂φ∆m(φ)
+
+2
+
+X
+
+Nsp n=1 n 2 =
+
+N 3 sp M 2 pl
+
+∂φ∆m(φ)
+
+2
+
+=
+
+∂φ∆m(φ) ∆m(φ)
+
+2 .
+
+(4.21)
+
+For fermions, as in (2.13), the relevant UV cutoff is the associated species scale ΛUV = Λ˜sp and we compute
+
+g 1− loop
+
+φφ ∼ M− 2 pl X
+
+Nsp n=1
+
+∂φmn(φ)
+
+2
+
+## log
+
+Λ˜ 2 sp
+
+mn(φ) 2!
+
+= M− 2 pl ∂φ∆m(φ)
+
+2
+
+X
+
+Nsp n=1 n 2log
+
+N 2 sp n 2 ≤
+
+2 
+3 
+
+N 3 sp M 2 pl
+
+∂φ∆m(φ)
+
+2
+
+=
+
+2 
+3 
+
+∂φ∆m(φ) ∆m(φ)
+
+2 .
+
+(4.22)
+
+Here we have used an integral approximation of the sum. As Nsp → ∞ the inequality becomes saturated. In any case we see that for such an evenly spaced tower of states, the contribution from fermions is always of the same functional form as for bosons 9. For this reason we will restrict our attention to bosonic states in the following section. In both cases, the proper field distance can be evaluated as
+
+d(φ0, φ1) ∼Z
+
+φ1
+φ0
+
+dφ √gφφ ∼ log ∆m(φ1) ∆m(φ0)
+
+(4.23)
+
+showing the typical logarithmic behavior. Therefore, one can write
+
+∆m(φ0) ∼ ∆m(φ1) e− γd(φ0,φ1) (4.24) 9Note that this is in contrast to the case of integrating out the single wrapped D3-brane (2.16), where the fermion contribution was dominant because of the large logarithm.
+
+so that at infinite distance in field space, a tower of states becomes exponentially 
+light. In addition the number of light species also increases exponentially with 
+the proper field distance. 
+This is the swampland distance conjecture, which was claimed to be satisfied 
+for every point of infinite distance in field space. It has been emphasized in [22] 
+that this IR property is emergent, in the sense that it follows from integrating 
+out UV states of mass below the species bound. 
+
+Integrating out KK modes in the warped throat Now, we would like to apply the same logic to the region close to the conifold locus. Since we do not yet know the cut-off of the effective action in the warped throat, we require that the metric on moduli space is emerging in the same way as above by integrating out light bosonic and fermionic modes. In the regime gsM 2 1 the tower of KK modes with spacing
+
+∆m ≈
+
+1 p gsM 2 yUV | Z| V w
+
+1 
+3 
+
+Mpl (4.25)
+
+is supposed to be lighter than the cut-off. Integrating out these light gravitationally coupled KK modes leads to a one-loop correction to the field space metric
+
+g 1− loop
+
+ZZ ∼ M− 2 pl X
+
+Nsp n=1
+
+∂Zmn(Z)
+
+2
+
+∼X
+
+Nsp n=1
+
+n 2 1 p gsM 2yUV 1 (V w| Z| ) 1/3!
+
+2
+
+∼ N 3 sp 1 gsM 2y 2 UV
+
+1 (V w| Z| ) 2/3 .
+
+(4.26)
+
+Consistency with the picture of kinetic terms arising from integrating out fields in the UV demands that the parametric scaling of this contribution matches the tree level result
+
+g 1− loop ZZ ∼
+
+gsM 2 (V w| Z| 2) 2/3 . (4.27)
+
+Enforcing this scaling in (4.26) constrains the number of light KK species in the effective description to scale as
+
+Nsp ∼ gsM 2yUV 2/3 . (4.28)
+
+Note that due to the lower bound (2.30), this number is guaranteed to satisfy 
+Nsp & | M| 2/3. Thus, there is a finite number of KK modes whose mass is lighter 
+than the species scale. 
+Using this scaling, analogously one finds that the corrections g 1− loop 
+ZT and g 1− loop 
+TT 
+are proportional to the tree-level expressions following from the K¨ahler potential 
+K ∼ gsM 2 
+
+| Z|
+
+2 
+3 /(T + T). As a result, a consistent effective description of the 
+28 
+
+warped throat should accommodate at most Nsp light KK modes and thus should have a cutoff of at most
+
+Λ˜sp ∼ Nsp∆m ∼
+
+gsM 2 y 2 UV
+
+1 
+6 
+
+### | Z| V w
+
+1 
+3 
+
+Mpl . (4.29)
+
+In analogy to the “gravitational” species scale Λsp = Mpl/ p Nsp we can interpret this scale as a generalized species scale 10
+
+Λ˜sp =
+
+Λ p Nsp (4.30)
+
+for an effective gravity theory with a cut-off
+
+### Λ ∼p gsM 2 | Z| V w
+
+1 
+3 
+
+Mpl . (4.31)
+
+In contrast to the emergence of the SDC at large volume, here the ultimate cut-off Λ is also field dependent. This implies a finite distance of the conifold point in complex structure moduli space
+
+Φ = d(0, | Z0| ) ∼Z
+
+| Z0|
+
+0 √gZZ ∼p gsM 2 | Z0| V w
+
+1 
+3 
+
+∼
+
+Λ Mpl
+
+, (4.32)
+
+where Φ < 1 is the canonically normalized field corresponding to Z. In terms of Φ the relevant quantities become
+
+Λ ∼ Φ Mpl , ∆m ∼
+
+Φ gsM 2 yUV
+
+Mpl , Λ˜
+
+∼
+
+Φ (gsM 2 yUV)
+
+1 
+3 
+Mpl (4.33) 
+
+with still Nsp ∼ (gsM 2yUV) 2/3. The mass of the conifold modulus Z scales as mZ ∼ Φ/(gsM 2) and the coefficient in the three-point vertex γφh 2 n reads
+
+γ ∼ m(Φ)∂Φm(Φ) ∼
+
+Φ (gsM 2 yUV) 2 1 (4.34)
+
+so that perturbation theory makes sense. We notice that, in contrast to the SDC for infinite field distances, at the conifold point ∆m does not scale exponentially with the proper field distance but only linearly. In addition, the number of light species does not increase exponentially but stays constant. The differences between the two cases are summarized in Figure 10. As indicated the warped KKLT scenario lies in the blue region where KK modes are lighter than the cut-off scale. In this respect, KKLT is analogous to e.g. large field inflationary models, that require trans-Planckian field distances.
+
+10At this scale the one-loop correction to the Planck-scale M 2 pl(µ) = M 2 pl(0)−
+
+µ 
+2 
+12π Nsp becomes 
+
+of the order of the cut-off scale Λ.
+
+∆m ∼ exp(− αΦ)Mpl
+
+N ∼ exp 2 3αΦ
+
+Λ ∼ Mpl
+∆m ∼ ΦMpl
+
+N ∼ const.
+
+Λ ∼ ΦMpl
+
+KKLT
+
+trans-Planckian
+
+Figure 10: A sketch of the complex structure “moduli space” of a warped Calabi Yau. The red/blue regions are a neighborhood of the large complex structure and conifold points where towers of modes become lighter than the cut-off scale.
+
+Remarks 
+Let us close this section with two remarks. First, we compare the energy density 
+of the AdS minimum (3.7) with the cut-off scale 
+
+| V0| Λ 4 ∼
+
+### 1 gsM 2 | Z| V w
+
+2 
+3 
+
+1 . (4.35)
+
+Therefore self-consistently the vacuum energy in the AdS minimum is below the cut-off. Second, we have seen at the end of section 4.1 that massive string excitations also give rise to KK modes localized in the warped throat with red-shifted masses. Clearly, we have ignored these potentially ultra-light states in our former analysis. Requiring that their off-set in mass (4.16) is larger than the species scale leads to yUV & M 5/2/g 1/4 s . In case that the length yUV of the throat is smaller, it would be interesting to study the effect of integrating out also these extra light modes. This more involved analysis is beyond the scope of this paper.
+
+##### 4.3 The meaning of the cut-off
+
+The question now arises whether this so determined cut-off Λ has any intrinsic meaning. We will show next that it corresponds to the mass of the non-perturbative state given by the wrapped D3-brane on the S 3 of the warped deformed conifold. The unwarped case was discussed in section 2.1.
+
+Light wrapped D3-brane 
+Prior to the orientifold projection, the complex structure modulus Z was part of 
+a whole N = 2 vectormultiplet, where the vector field arises from the dimensional 
+reduction of the R-R four-form along the conifold A cycle with the topology of a 
+three-sphere. The corresponding electrically charged object is given by a D3-brane 
+wrapping this S 3. Whether this vector field is projected out or not depends on 
+the orientifold projection. In the following we assume that both the complex field 
+Z and the vector field survive the projection 11. The lightest D3-brane will be 
+the one wrapping the three-cycle S 3 at the bottom of the throat of the deformed 
+conifold. In order to estimate its mass, we start with the D3-brane action and 
+dimensionally reduce it as 
+
+SD3 ∼
+
+M 4 s gsZ dt Z S3 d 3y√− G ∼ M 4 s gsZ dt Z S3 d 3y e− 2A p g˜CY . (4.36)
+
+Using the scaling of the metric (2.18) and the warp factor (2.25), we obtain for the mass
+
+m 2 D3 ∼ g
+
+1 
+2 
+s M 2(V w| Z| 2) 1 3M 2 s ∼ gsM 2 | Z| 
+V w 
+
+2 
+3 
+
+M 2 pl , (4.37)
+
+which scales precisely as the cut-off Λ determined in the previous section. 
+Moreover, the mass of this non-perturbative state, with respect to (V w| Z| 2), 
+scales in the same way as for the conifold modulus Z and the lightest KK-modes. 
+However, in the regime gsM 2 1 it is still heavier than the latter. Recall that 
+this was also the regime where an uplift via D3-branes could work. 
+Recall that in the unwarped case the singularity in the field space metric arose 
+from integrating out the corresponding wrapped D3-brane. Let us discuss whether 
+this also happens in the warped case. Integrating out the chiral supermultiplet 
+corresponding to the wrapped D3-brane of mass (4.37) leads to the one-loop 
+
+11This can e.g. be achieved by letting the holomorphic involution σ in Ωσ(− 1) FL act such that it exchanges two such conifold A ↔ A0 cycles. In this way A − A0 will support the complex modulus Z and A + A0 the vector field. In spite of the non-vanishing flux R AF3 = −R A0 F3 = K there will be no (S-dual) Freed-Witten anomaly along the 3-cycle A + A0 wrapped by the D3-brane.
+
+correction
+
+g 1− loop,D3 
+ZZ ∼ ∂| Z| mD3 
+2 
+
+1 + α log
+
+Λ 2 
+m 2 
+D3 
+
+∼
+
+gsM 2 (V w| Z| 2) 2 3 1 + α log Λ 2
+
+m 2 
+D3 
+
+(4.38)
+
+where Λ denotes the cut-off of the effective theory that includes the wrapped D3-brane. This is not known and only if it satisfies Λ = c mD3 with a numerical factor c > 1 one really gets a one-loop correction that is proportional to the tree-level metric (4.27). If instead Λ = Mpl (as in the unwarped case) then the functional form of the one-loop correction does not match the tree-level metric. In this case, the singularity in the field space metric would not emerge from integrating out the non-perturbative D3-brane, but rather could be interpreted as arising from integrating out the tower of light KK-modes. The wrapped D3-brane would instead fix the cut-off of the effective theory for the ultra-light red-shifted modes.
+
+Connection to the length of the throat 
+As we have seen, for the Wilsonian effective theory of the K¨ahler and the Z-modulus 
+one expects the ultimate cut-off to be 
+
+Λ = mD3 ∼p gsM 2 | Z| V w
+
+1 
+3 
+
+Mpl (4.39)
+
+and not Mpl. In section 2.2 we introduced the length cut-off yUV of the warped 
+throat. This is the location where the KS throat ends into a bulk Calabi-Yau 
+threefold, where warping becomes small. The question is whether this cut-off has 
+anything to do with the energy cut-off Λ that we found for the validity of the 
+effective action. 
+To derive such a relation, let us compute the contribution of the warped region 
+to the warped volume V w. 
+
+V
+
+throat w =
+
+1 (α0) 3g
+
+3
+
+2 sZ d 6yp g˜CY e− 4A
+
+∼
+
+1 (α0) 3g
+
+3 2 s
+
+(α0) 3g
+
+3 
+2 
+
+### s V w| Z|
+
+### 2 gsM 2 (V w| Z| 2) 2 3 Z
+
+yUV
+
+0
+
+dy sinh
+
+2
+
+(y)I(y)
+
+### ∼ V w gsM 2 | Z| V w
+
+2 
+3 
+
+Z yUV
+
+0
+
+dy sinh
+
+2
+
+(y)I(y)
+
+(4.40)
+
+We note that the combination in the bracket of the right hand side in (4.40) is precisely (Λ/Mpl) 2. For self-consistency V
+
+throat w must be smaller than the total
+
+warped volume V w = V
+
+bulk
+
+### w + V
+
+throat w . This yields a contraint on the length of the
+
+throat yUV
+
+Z yUV
+
+0
+
+dy sinh
+
+2
+
+(y)I(y) .
+
+Mpl Λ
+
+2
+
+. (4.41)
+
+For large values yUV 1 we can approximate
+
+Z yUV
+
+0
+
+dy sinh
+
+2
+
+(y)I(y) & exp 2 3yUV (4.42)
+
+so that we finally obtain the upper bound
+
+yUV . 3 log Mpl Λ . (4.43)
+
+This provides an intriguing relation between the cut-off of the effective theory and the cut-off length scale of the warped throat.
+
+Remark on WGC 
+Recall that the magnetic version of the WGC provides information on the cut-off 
+of a p-form gauge theory. For instance for a usual one-form gauge field with gauge 
+coupling g in four-dimensions one has Λ ∼ g Mpl. It would be a nice check if 
+also in our case such a gauge field could be identified that leads via the magnetic 
+WGC to the cut-off Λ = mD3. 
+We did not manage to find such a gauge field which we suspect is due to the 
+following. For both toroidal compactifications and the unwarped conifold, the 
+gauge fields in question are the ones under which the light KK/D3-branes are 
+electrically charged. In the first case, this is the U(1) gauge field that arises from 
+the dimensional reduction of the off-diagonal components of the 10D metric. In 
+the second case, this is the U(1) gauge field arising from the dimensional reduction 
+of the R-R four-form along the conifold A-cycle. 
+In our case, the light modes are KK-modes in the throat y-direction and 
+therefore we are looking for a gauge field arising from the reduction of the metric 
+along this direction. However, a CY does not contain any non-trivial one-cycles 
+so that such a gauge field does not exist. 
+
+##### 4.4 Extension of the SDC and emergence
+
+It is tempting to combine the observations at large distances and at the conifold locus captured in figure 10, into an extension of the swampland distance conjecture. The starting point is an effective action S governing the dynamics of some light scalar fields φ with tree-level metric g
+
+(0) φφ . In this moduli space there exist points where a tower of (KK) modes turn out to become lighter than the cut-off scale.
+
+Extending the effective theory to also include this tower of states will define a new action Sˆ, which features a new tree-level metric on moduli space gˆ
+
+(0) φφ , about which not much is known. The essential observation is about the one-loop correction induced by integrating out the tower of light states leading us to propose:
+
+Extension to SDC: There exist points at finite or infinite distance in moduli space with singular tree-level metric g
+
+(0) φφ at which towers of modes become lighter than the species scale Λ˜sp = Λ/√N. Adding these states to the action, they induce a one-loop correction gˆ
+
+(1) φφ to the field space metric whose functional form is always proportional to the former tree-level metric g
+
+(0) φφ .
+
+The essential question is how this behavior should be interpreted. As in [21–23,76], one could say that the conifold and infinite distance regime in field space are emerging from integrating out the tower of light states that appear in these regions. As also discussed in [76], one could distinguish two different ways of emergence. E1: The singularity in the former tree-level metric g
+
+(0) φφ is entirely emerging from the one-loop correction ˆg (1) φφ in the extended effective theory Sˆ, i.e. ˆg
+
+(0) φφ = 0.
+
+E2: In Sˆ there also exists a non-vanishing tree-level metric gˆ
+
+(0) φφ ' g (0) φφ and it
+
+is a peculiar property of effective actions of quantum gravity that the one-loop correction is also proportional to g
+
+(0) φφ .
+
+The emergence of type E1 was claimed to underly the singularity appearing in the case of the unwarped conifold discussed in section 2. The log-term in the field space metric of the perturbative string was considered to be induced by having integrated out a non-perturbative state, namely the wrapped D3-brane. The second question is how far the original effective action S with field space metric gφφ and effective potential V (φ) can be trusted when one is working in the regions of the moduli where those towers of states become light. These were the colored regions around the singular points in figure 10. In this respect we can also imagine two different possibilities that lead to completely opposite conclusions: R1: The initial Wilsonian effective action S and the minima of the potential are not reliable because of the tower of extra modes that are not included in S. R2: The peculiar property gˆ
+
+(1) φφ ' g (0) φφ signals that the effective action Sˆ is not completely out of control. Since the superpotential is not expected to be perturbatively corrected, also the effective potential in Sˆ is only slightly changed from the tree-level form V (φ) in S.
+
+The interpretation R1 is the one followed in the recent discussions of the swamp land distance conjecture and its application to large field inflation. The second possibility R2 says that the certainly present corrections due to the light (KK)
+
+modes are essentially harmless, as they just change numerical factors and the 
+naive effective potential V (φ) is also valid in the regions close to the singularities 
+in moduli space. Thus, the extension of the SDC formulates a surprising, sort of 
+self-repairing property of any effective theory of quantum gravity. 
+Clearly, the implications for the AdS/dS minimum of the warped KKLT 
+construction will depend on which picture is correct. In case of R1, the warped 
+KKLT construction is based on a Wilsonian effective action that is not under 
+control and the AdS/dS minimum is fake. In this respect it is as trustworthy as, 
+for instance, the effective action including non-geometric fluxes [82] where also 
+KK modes spoiled the validity of the employed effective action. Recall that the 
+latter also led to de Sitter vacua [83, 84]. 
+In case of R2, though we are working with the naive action S, the scalar 
+potential also gives reliable results in the region close to the conifold singularity 
+and the AdS/dS minima have a good chance to survive in the action Sˆ. Whether 
+this is indeed the case requires further studies. 
+Remarks 
+Let us close this section with two remarks. For the original KKLT scenario [47] 
+with an assumed tuning of 0 < | W0| 1 in the string flux landscape, analogously 
+the dS uplift does not work in a controlled way. However, the scale separated 
+AdS minimum could also be found by using the reliable non-warped effective 
+action in the dilute flux limit, as reviewed in section 2.1. Therefore, either this 
+provides indeed a counter example to the AdS scale separation conjecture or there 
+is something wrong with this setup. A reasonable guess is the assumption of 
+a possible landscape tuning 0 < | W0| 1 in controlled flux compacifications. 
+Maybe, all controlled effective values of W0 are larger than an order one number. 
+Such an observation for the distribution of flux vacua for a concrete Calabi-Yau 
+threefold was reported in [85], but this issue deserves further studies. Moreover, 
+our findings will also affect all other global string theory constructions where 
+warped throats are employed, as for example the dS uplift in the Large Volume 
+Scenario [86]. 
+Secondly, we remark that in [20] a derivation of a refined dS swampland 
+conjecture from the swampland distance conjecture was presented. Going through 
+the steps of this derivation, as the authors claim themselves, it is assumed that 
+one is working in a large field regime where the spacing of the tower of light 
+modes and their number scales exponentially. Therefore, their derivation does not 
+directly apply to the regime close the conifold point and dS minima in its vicinity 
+are not immediately excluded by their arguments. 
+
+#### 5 Conclusions
+
+In this paper we have continued the analysis of an effective action that is supposed to be valid in the strongly warped regime close to a conifold singularity of a type IIB compactification on a CY threefold. This is the regime which is relevant for describing the uplift in the KKLT scenario. The difference to former studies is that the dynamics of the conifold modulus was seriously taken into account, motivating us to propose a modified version of the KKLT scenario where initially we assume that all remaining complex structure moduli are stabilized supersymmetrically with Wcs = 0. The effective action for the two moduli system of the conifold modulus and the overall K¨ahler moduli just by itself realize the KKLT scenario with an effective exponentially small W0 being generated dynamically. In addition, an uplift to de Sitter is achievable by the introduction of anti D3-branes. As opposed to the initially fixed complex structure moduli, the mass of the conifold modulus comes out exponentially small, though still larger than the mass of the K¨ahler modulus. Having available an explicit expression for the mass of the conifold modulus, we were comparing it to masses of Kaluza-Klein modes localized in the strongly warped throat. In the supergravity regime gs| M| 1 and gs| M| y 2 UV 1 there exists a finite number of KK modes that are lighter than the natural UV cut-off of the effective theory. The latter turned out not to be the Planck-scale but the species scale related to the mass scale of the non-perturbative state of a D3-brane wrapped around the three-cycle that shrinks to a point at the conifold locus. This mass spectrum is shown in figure 11.
+
+Λ = mD3
+
+Λ˜
+
+mZ mT
+
+KK-modes
+
+Energy ✻
+
+Figure 11: Mass scales in the warped throat in the regime yUV > 1.
+
+The behavior in this regime close to the conifold locus is consistent with the logic recently employed for the emergence of the swampland distance conjecture in the large distance regimes. However, some of the details are different. For the
+
+conifold, the cut-off was also field dependent leading to two effects • the spacing of the KK modes scale linearly (and not exponentially) with the proper field distance
+
+• the number of light species with a mass below the species scale is constant and not exponentially large .
+
+Integrating out the finite number of light KK modes leads to a one-loop correction to the K¨ahler potential that is proportional to the tree-level one leading us to formulate an extension of the RSDC. Finally, we were discussing the implications for the KKLT AdS/dS minima. Either, the KKLT construction is based on a Wilsonian effective action that is not under control or the certainly present corrections due to the light KK modes are essentially harmless, as they just change numerical factors. It is beyond the scope of this paper to fully clarify this issue, as this would require a much more thorough analysis of the effective action combining the moduli Z, T with the finite tower of KK modes. Here we just made an attempt to sharpen some relevant, not yet emphasized issues that appear in the KKLT construction and to connect them to recent discussions of swampland conjectures.
+
+Acknowledgments 
+We would like to thank Max Brinkmann, Severin L¨ust, Andriana Makridou and 
+Eran Palti for discussions. 
+
+#### References
+
+[1] C. Vafa, “The String landscape and the swampland,” hep-th/0509212.
+
+[2] N. Arkani-Hamed, L. Motl, A. Nicolis, and C. Vafa, “The String landscape, black holes and gravity as the weakest force,” JHEP 06 (2007) 060, hep-th/0601001.
+
+[3] H. Ooguri and C. Vafa, “On the Geometry of the String Landscape and the Swampland,” Nucl. Phys. B766 (2007) 21–33, hep-th/0605264.
+
+[4] D. Kl¨awer and E. Palti, “Super-Planckian Spatial Field Variations and Quantum Gravity,” JHEP 01 (2017) 088, 1610.00010.
+
+[5] H. Ooguri and C. Vafa, “Non-supersymmetric AdS and the Swampland,” Adv. Theor. Math. Phys. 21 (2017) 1787–1801, 1610.01533.
+
+[6] G. Obied, H. Ooguri, L. Spodyneiko, and C. Vafa, “De Sitter Space and the Swampland,” 1806.08362.
+
+[7] S. Cecotti and C. Vafa, “Theta-problem and the String Swampland,” 1808.03483.
+
+[8] D. Kl¨awer, D. L¨ust, and E. Palti, “A Spin-2 Conjecture on the Swampland,” Fortsch. Phys. 67 (2019), no. 1-2, 1800102, 1811.07908.
+
+[9] D. Harlow, “Wormholes, Emergent Gauge Fields, and the Weak Gravity Conjecture,” JHEP 01 (2016) 122, 1510.07911.
+
+[10] G. Shiu, P. Soler, and W. Cottrell, “Weak Gravity Conjecture and Extremal Black Hole,” 1611.06270.
+
+[11] S. Hod, “A proof of the weak gravity conjecture,” Int. J. Mod. Phys. D26 (2017), no. 12, 1742004, 1705.06287.
+
+[12] Z. Fisher and C. J. Mogni, “A Semiclassical, Entropic Proof of a Weak Gravity Conjecture,” 1706.08257.
+
+[13] W. Cottrell and M. Montero, “Complexity is simple!,” JHEP 02 (2018) 039, 1710.01175.
+
+[14] C. Cheung, J. Liu, and G. N. Remmen, “Proof of the Weak Gravity Conjecture from Black Hole Entropy,” JHEP 10 (2018) 004, 1801.08546.
+
+[15] Y. Hamada, T. Noumi, and G. Shiu, “Weak Gravity Conjecture from Unitarity and Causality,” 1810.03637.
+
+[16] A. Urbano, “Towards a proof of the Weak Gravity Conjecture,” 1810.05621.
+
+[17] M. Montero, “A Holographic Derivation of the Weak Gravity Conjecture,” 1812.03978.
+
+[18] E. Palti, “The Weak Gravity Conjecture and Scalar Fields,” JHEP 08 (2017) 034, 1705.04328.
+
+[19] A. Hebecker and T. Wrase, “The asymptotic dS Swampland Conjecture - a simplified derivation and a potential loophole,” Fortsch. Phys. 2018 (2018) 1800097, 1810.08182.
+
+[20] H. Ooguri, E. Palti, G. Shiu, and C. Vafa, “Distance and de Sitter Conjectures on the Swampland,” Phys. Lett. B788 (2019) 180–184, 1810.05506.
+
+[21] B. Heidenreich, M. Reece, and T. Rudelius, “The Weak Gravity Conjecture and Emergence from an Ultraviolet Cutoff,” Eur. Phys. J. C78 (2018), no. 4, 337, 1712.01868.
+
+[22] T. W. Grimm, E. Palti, and I. Valenzuela, “Infinite Distances in Field Space and Massless Towers of States,” JHEP 08 (2018) 143, 1802.08264.
+
+[23] B. Heidenreich, M. Reece, and T. Rudelius, “Emergence of Weak Coupling at Large Distance in Quantum Gravity,” Phys. Rev. Lett. 121 (2018), no. 5, 051601, 1802.08698.
+
+[24] F. Baume and E. Palti, “Backreacted Axion Field Ranges in String Theory,” JHEP 08 (2016) 043, 1602.06517.
+
+[25] S. Cecotti, Supersymmetric Field Theories. Cambridge University Press, 2015.
+
+[26] E. Palti, “On Natural Inflation and Moduli Stabilisation in String Theory,” JHEP 10 (2015) 188, 1508.00009.
+
+[27] I. Valenzuela, “Backreaction Issues in Axion Monodromy and Minkowski 4-forms,” JHEP 06 (2017) 098, 1611.00394.
+
+[28] R. Blumenhagen, I. Valenzuela, and F. Wolf, “The Swampland Conjecture and F-term Axion Monodromy Inflation,” JHEP 07 (2017) 145, 1703.05776.
+
+[29] D. L¨ust and E. Palti, “Scalar Fields, Hierarchical UV/IR Mixing and The Weak Gravity Conjecture,” JHEP 02 (2018) 040, 1709.01790.
+
+[30] A. Hebecker, P. Henkenjohann, and L. T. Witkowski, “Flat Monodromies and a Moduli Space Size Conjecture,” JHEP 12 (2017) 033, 1708.06761.
+
+[31] M. Cicoli, D. Ciupke, C. Mayrhofer, and P. Shukla, “A Geometrical Upper Bound on the Inflaton Range,” JHEP 05 (2018) 001, 1801.05434.
+
+[32] R. Blumenhagen, D. Kl¨awer, L. Schlechter, and F. Wolf, “The Refined Swampland Distance Conjecture in Calabi-Yau Moduli Spaces,” JHEP 06 (2018) 052, 1803.04989.
+
+[33] R. Blumenhagen, “Large Field Inflation/Quintessence and the Refined Swampland Distance Conjecture,” PoS CORFU2017 (2018) 175, 1804.10504.
+
+[34] S.-J. Lee, W. Lerche, and T. Weigand, “Tensionless Strings and the Weak Gravity Conjecture,” JHEP 10 (2018) 164, 1808.05958.
+
+[35] S.-J. Lee, W. Lerche, and T. Weigand, “A Stringy Test of the Scalar Weak Gravity Conjecture,” Nucl. Phys. B938 (2019) 321–350, 1810.05169.
+
+[36] T. W. Grimm, C. Li, and E. Palti, “Infinite Distance Networks in Field Space and Charge Orbits,” 1811.02571.
+
+[37] S.-J. Lee, W. Lerche, and T. Weigand, “Modular Fluxes, Elliptic Genera, and Weak Gravity Conjectures in Four Dimensions,” 1901.08065.
+
+[38] D. Andriot, “On the de Sitter swampland criterion,” Phys. Lett. B785 (2018) 570–573, 1806.10999.
+
+[39] G. Dvali and C. Gomez, “On Exclusion of Positive Cosmological Constant,” Fortsch. Phys. 67 (2019), no. 1-2, 1800092, 1806.10877.
+
+[40] S. K. Garg and C. Krishnan, “Bounds on Slow Roll and the de Sitter Swampland,” 1807.05193.
+
+[41] G. Dvali, C. Gomez, and S. Zell, “Quantum Breaking Bound on de Sitter and Swampland,” Fortsch. Phys. 67 (2019), no. 1-2, 1800094, 1810.11002.
+
+[42] D. Andriot and C. Roupec, “Further refining the de Sitter swampland conjecture,” Fortsch. Phys. 67 (2019), no. 1-2, 1800105, 1811.08889.
+
+[43] F. F. Gautason, M. Schillo, T. Van Riet, and M. Williams, “Remarks on scale separation in flux vacua,” JHEP 03 (2016) 061, 1512.00457.
+
+[44] F. F. Gautason, V. Van Hemelryck, and T. Van Riet, “The tension between 10D supergravity and dS uplifts,” Fortsch. Phys. 67 (2019), no. 1-2, 1800091, 1810.08518.
+
+[45] U. H. Danielsson and T. Van Riet, “What if string theory has no de Sitter vacua?,” Int. J. Mod. Phys. D27 (2018), no. 12, 1830007, 1804.01120.
+
+[46] S. de Alwis, R. K. Gupta, F. Quevedo, and R. Valandro, “On KKLT/CFT and LVS/CFT Dualities,” JHEP 07 (2015) 036, 1412.6999.
+
+[47] S. Kachru, R. Kallosh, A. D. Linde, and S. P. Trivedi, “De Sitter vacua in string theory,” Phys. Rev. D68 (2003) 046005, hep-th/0301240.
+
+[48] Y. Akrami, R. Kallosh, A. Linde, and V. Vardanyan, “The Landscape, the Swampland and the Era of Precision Cosmology,” Fortsch. Phys. 67 (2019), no. 1-2, 1800075, 1808.09440.
+
+[49] J. Moritz, A. Retolaza, and A. Westphal, “Toward de Sitter space from ten dimensions,” Phys. Rev. D97 (2018), no. 4, 046010, 1707.08678.
+
+[50] S. Sethi, “Supersymmetry Breaking by Fluxes,” JHEP 10 (2018) 022, 1709.03554.
+
+[51] F. F. Gautason, V. Van Hemelryck, T. Van Riet, and G. Venken, “A 10d view on the KKLT AdS vacuum and uplifting,” 1902.01415.
+
+[52] Y. Hamada, A. Hebecker, G. Shiu, and P. Soler, “Understanding KKLT from a 10d perspective,” 1902.01410.
+
+[53] F. Carta, J. Moritz, and A. Westphal, “Gaugino condensation and small uplifts in KKLT,” 1902.01412.
+
+[54] J. Moritz, A. Retolaza, and A. Westphal, “On uplifts by warped anti-D3-branes,” Fortsch. Phys. 67 (2019), no. 1-2, 1800098, 1809.06618.
+
+[55] R. Kallosh, A. Linde, E. McDonough, and M. Scalisi, “de Sitter Vacua with a Nilpotent Superfield,” Fortsch. Phys. 2018 (2018) 1800068, 1808.09428.
+
+[56] R. Kallosh, A. Linde, E. McDonough, and M. Scalisi, “4D models of de Sitter uplift,” Phys. Rev. D99 (2019), no. 4, 046006, 1809.09018.
+
+[57] R. Kallosh, A. Linde, E. McDonough, and M. Scalisi, “dS Vacua and the Swampland,” 1901.02022.
+
+[58] A. Hebecker, S. Leonhardt, J. Moritz, and A. Westphal, “Thraxions: Ultralight Throat Axions,” 1812.03999.
+
+[59] G. Buratti, J. Caldern, and A. M. Uranga, “Transplanckian Axion Monodromy !?,” 1812.05016.
+
+[60] R. Blumenhagen, D. Herschmann, and F. Wolf, “String Moduli Stabilization at the Conifold,” JHEP 08 (2016) 110, 1605.06299.
+
+[61] O. DeWolfe and S. B. Giddings, “Scales and hierarchies in warped 
+compactifications and brane worlds,” Phys. Rev. D67 (2003) 066008, 
+hep-th/0208123. 
+[62] S. B. Giddings and A. Maharana, “Dynamics of warped compactifications 
+and the shape of the warped landscape,” Phys. Rev. D73 (2006) 126003, 
+hep-th/0507158. 
+[63] A. R. Frey and A. Maharana, “Warped spectroscopy: Localization of frozen 
+bulk modes,” JHEP 08 (2006) 021, hep-th/0603233. 
+[64] M. R. Douglas, J. Shelton, and G. Torroba, “Warping and supersymmetry 
+breaking,” 0704.4001. 
+[65] G. Shiu, G. Torroba, B. Underwood, and M. R. Douglas, “Dynamics of 
+Warped Flux Compactifications,” JHEP 06 (2008) 024, 0803.3068. 
+[66] S. B. Giddings, S. Kachru, and J. Polchinski, “Hierarchies from fluxes in 
+string compactifications,” Phys. Rev. D66 (2002) 106006, hep-th/0105097. 
+[67] I. Bena, E. Dudas, M. Gra˜na, and S. L¨ust, “Uplifting Runaways,” Fortsch. 
+Phys. 2018 (2018) 1800100, 1809.06861. 
+[68] P. Candelas and X. C. de la Ossa, “Comments on Conifolds,” Nucl. Phys. 
+B342 (1990) 246–268. 
+[69] T. R. Taylor and C. Vafa, “R R flux on Calabi-Yau and partial 
+supersymmetry breaking,” Phys. Lett. B474 (2000) 130–137, 
+hep-th/9912152. 
+[70] S. Gukov, C. Vafa, and E. Witten, “CFT’s from Calabi-Yau four folds,” 
+Nucl. Phys. B584 (2000) 69–108, hep-th/9906070. [Erratum: Nucl. 
+Phys.B608,477(2001)]. 
+[71] A. Strominger, “Massless black holes and conifolds in string theory,” Nucl. 
+Phys. B451 (1995) 96–108, hep-th/9504090. 
+[72] I. R. Klebanov and M. J. Strassler, “Supergravity and a confining gauge 
+theory: Duality cascades and chi SB resolution of naked singularities,” 
+JHEP 08 (2000) 052, hep-th/0007191. 
+[73] S. Kachru, J. Pearson, and H. L. Verlinde, “Brane / flux annihilation and 
+the string dual of a nonsupersymmetric field theory,” JHEP 06 (2002) 021, 
+hep-th/0112197. 
+[74] C. P. Burgess, P. G. Camara, S. P. de Alwis, S. B. Giddings, A. Maharana, 
+F. Quevedo, and K. Suruliz, “Warped Supersymmetry Breaking,” JHEP 04 
+(2008) 053, hep-th/0610255. 
+
+[75] S. P. de Alwis, “Constraints on Dbar Uplifts,” JHEP 11 (2016) 045, 1605.06456.
+
+[76] P. Corvilain, T. W. Grimm, and I. Valenzuela, “The Swampland Distance Conjecture for K¨ahler moduli,” 1812.07548.
+
+[77] N. Arkani-Hamed, S. Dimopoulos, and S. Kachru, “Predictive landscapes and new physics at a TeV,” hep-th/0501082.
+
+[78] J. Distler and U. Varadarajan, “Random polynomials and the friendly landscape,” hep-th/0507090.
+
+[79] S. Dimopoulos, S. Kachru, J. McGreevy, and J. G. Wacker, “N-flation,” JCAP 0808 (2008) 003, hep-th/0507205.
+
+[80] G. Dvali and M. Redi, “Black Hole Bound on the Number of Species and Quantum Gravity at LHC,” Phys. Rev. D77 (2008) 045027, 0710.4344.
+
+[81] G. Dvali, “Black Holes and Large N Species Solution to the Hierarchy Problem,” Fortsch. Phys. 58 (2010) 528–536, 0706.2050.
+
+[82] R. Blumenhagen, A. Font, M. Fuchs, D. Herschmann, E. Plauschinn, Y. Sekiguchi, and F. Wolf, “A Flux-Scaling Scenario for High-Scale Moduli Stabilization in String Theory,” Nucl. Phys. B897 (2015) 500–554, 1503.07634.
+
+[83] U. Danielsson and G. Dibitetto, “On the distribution of stable de Sitter vacua,” JHEP 03 (2013) 018, 1212.4984.
+
+[84] J. Bl˚ab¨ack, U. Danielsson, and G. Dibitetto, “Fully stable dS vacua from generalised fluxes,” JHEP 08 (2013) 054, 1301.7073.
+
+[85] D. Martinez-Pedrera, D. Mehta, M. Rummel, and A. Westphal, “Finding all flux vacua in an explicit example,” JHEP 06 (2013) 110, 1212.4530.
+
+[86] V. Balasubramanian, P. Berglund, J. P. Conlon, and F. Quevedo, “Systematics of moduli stabilisation in Calabi-Yau flux compactifications,” JHEP 03 (2005) 007, hep-th/0502058.

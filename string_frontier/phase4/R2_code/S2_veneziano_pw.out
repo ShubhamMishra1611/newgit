@@ -1,0 +1,18 @@
+monomial->Gegenbauer expansion verified for k<=6
+  n=1 j=1: c = 2/(D - 3)
+level n=1: all c_j >= 0 for 3 < D <= inf
+  n=2 j=2: c = 25/(4*(D - 3)*(D - 1))
+  n=2 j=0: c = -(D - 26)/(8*(D - 1))
+level n=2: all c_j >= 0 for 3 < D <= 26.000000
+  n=3 j=3: c = 27/((D - 3)*(D - 1)*(D + 1))
+  n=3 j=1: c = -(D - 26)/(2*(D - 3)*(D + 1))
+level n=3: all c_j >= 0 for 3 < D <= 26.000000
+level n=4: all c_j >= 0 for 3 < D <= 26.400000
+level n=5: all c_j >= 0 for 3 < D <= 27.000000
+level n=6: all c_j >= 0 for 3 < D <= 26.589019
+level n=7: all c_j >= 0 for 3 < D <= 26.772677
+level n=8: all c_j >= 0 for 3 < D <= 27.155578
+D=4: negative coefficients up to n=20: []
+D=10: negative coefficients up to n=20: []
+D=26: negative coefficients up to n=20: []
+D=26.01: negative coefficients up to n=20: [(2, 0, -4.9980007996809086e-05), (3, 1, -8.04505099838404e-06)]

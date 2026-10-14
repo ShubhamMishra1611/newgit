@@ -1,0 +1,67 @@
+=== Baseline: leading-order KPV ===
+(p/M)_crit(KPV) = 0.08049
+
+=== Validation 1: HSV curvature-corrected potential (2208.02826 Fig.3 / eq.2.13) ===
+shark-fin tip (ours, grid dp/M=0.00025): p/M = 0.0815, g_sM = 16.204   [HSV text: p/M=0.0826, g_sM=20.363]
+g_sM= 25.0: lower edge of min-region (ours) p/M = 0.0734; HSV fit eq.2.13 = 0.0790
+g_sM= 30.0: lower edge of min-region (ours) p/M = 0.0696; HSV fit eq.2.13 = 0.0753
+g_sM= 50.0: lower edge of min-region (ours) p/M = 0.0594; HSV fit eq.2.13 = 0.0651
+g_sM=100.0: lower edge of min-region (ours) p/M = 0.0475; HSV fit eq.2.13 = 0.0525
+HSV Fig.4 check: p/M=0.0001: max V>0 for g_sM > 5.367  [HSV text: 5.238 (p/M<<0.1), 2.086 (p/M>>0.1)]
+HSV Fig.4 check: p/M=3.0: max V>0 for g_sM > 2.104  [HSV text: 5.238 (p/M<<0.1), 2.086 (p/M>>0.1)]
+
+=== Validation 2: SV full alpha'^2 potential, zero-energy line (2212.07437 eq.4.1) ===
+g_sM=  4.0: zero-energy p/M (ours) = 0.02093;  eq.4.1: 0.02268
+g_sM=  5.0: zero-energy p/M (ours) = 0.01668;  eq.4.1: 0.01778
+g_sM= 10.0: zero-energy p/M (ours) = 0.00847;  eq.4.1: 0.00835
+g_sM= 20.0: zero-energy p/M (ours) = 0.00407;  eq.4.1: 0.00392
+SV check g_sM=3.4: V_up>0 minima exist for p/M in none
+SV check g_sM=3.6: V_up>0 minima exist for p/M in [0.0240,0.0245]
+SV check g_sM=3.8: V_up>0 minima exist for p/M in [0.0223,0.0250]
+
+=== Candidate parameters: p = 1, p/M = 1/16..1/20, g_sM in [0.7, 1.1] ===
+columns: g_sM, p/M | KPV psi_min, v_KPV/(2pi p/M) | at psi_KPV: delta_curv, SV-DBI bracket, SV-CS bracket, (v_SV-v_KPV)/v_KPV | R_S3^2/alpha'=b0^2 g_sM, Rt^2=g_sM sin^2 psi | HSV interior min? | SV min: psi, Rt^2, V_up/(2pi p/M)
+0.70 1/16 | 0.490 0.920 |    92.7    205.2   181.4    197.2 | 0.65 0.155 | no  | none
+0.70 1/18 | 0.426 0.937 |   146.8    753.5   233.1    554.8 | 0.65 0.119 | no  | none
+0.70 1/20 | 0.378 0.949 |   222.5   1989.8   289.8   1293.8 | 0.65 0.095 | no  | none
+0.75 1/16 | 0.490 0.920 |    80.8    178.8   158.0    171.8 | 0.70 0.166 | no  | none
+0.75 1/18 | 0.426 0.937 |   127.9    656.4   203.0    483.3 | 0.70 0.128 | no  | none
+0.75 1/20 | 0.378 0.949 |   193.8   1733.3   252.4   1127.0 | 0.70 0.102 | no  | none
+0.80 1/16 | 0.490 0.920 |    71.0    157.1   138.9    151.0 | 0.75 0.177 | no  | none
+0.80 1/18 | 0.426 0.937 |   112.4    576.9   178.5    424.8 | 0.75 0.136 | no  | none
+0.80 1/20 | 0.378 0.949 |   170.3   1523.4   221.9    990.5 | 0.75 0.109 | no  | none
+0.85 1/16 | 0.490 0.920 |    62.9    139.2   123.0    133.7 | 0.79 0.188 | no  | none
+0.85 1/18 | 0.426 0.937 |    99.5    511.0   158.1    376.3 | 0.79 0.145 | no  | none
+0.85 1/20 | 0.378 0.949 |   150.9   1349.5   196.5    877.4 | 0.79 0.116 | no  | none
+0.90 1/16 | 0.490 0.920 |    56.1    124.1   109.7    119.3 | 0.84 0.199 | no  | none
+0.90 1/18 | 0.426 0.937 |    88.8    455.8   141.0    335.6 | 0.84 0.154 | no  | none
+0.90 1/20 | 0.378 0.949 |   134.6   1203.7   175.3    782.6 | 0.84 0.123 | no  | none
+0.95 1/16 | 0.490 0.920 |    50.3    111.4    98.5    107.1 | 0.89 0.211 | no  | none
+0.95 1/18 | 0.426 0.937 |    79.7    409.1   126.6    301.2 | 0.89 0.162 | no  | none
+0.95 1/20 | 0.378 0.949 |   120.8   1080.3   157.3    702.4 | 0.89 0.129 | no  | none
+1.00 1/16 | 0.490 0.920 |    45.4    100.6    88.9     96.6 | 0.93 0.222 | no  | none
+1.00 1/18 | 0.426 0.937 |    71.9    369.2   114.2    271.9 | 0.93 0.171 | no  | none
+1.00 1/20 | 0.378 0.949 |   109.0    975.0   142.0    633.9 | 0.93 0.136 | no  | none
+1.05 1/16 | 0.490 0.920 |    41.2     91.2    80.6     87.6 | 0.98 0.233 | no  | none
+1.05 1/18 | 0.426 0.937 |    65.2    334.9   103.6    246.6 | 0.98 0.179 | no  | none
+1.05 1/20 | 0.378 0.949 |    98.9    884.4   128.8    575.0 | 0.98 0.143 | no  | none
+1.10 1/16 | 0.490 0.920 |    37.5     83.1    73.4     79.9 | 1.03 0.244 | no  | none
+1.10 1/18 | 0.426 0.937 |    59.4    305.1    94.4    224.7 | 1.03 0.188 | no  | none
+1.10 1/20 | 0.378 0.949 |    90.1    805.8   117.4    523.9 | 1.03 0.150 | no  | none
+
+=== The five vacua (g_sM, M from 2406.13751 Table 2) ===
+Ex1: p/M=0.0625 g_sM=1.051: psi_KPV=0.490, R_NS5^2/alpha' = b0^4 g_sM sin^2psi = 0.203, curvature corr. factor = 41.1, constant term c1/(g_sM)^2 alone = 8.0; HSV interior min: no; SV min: none
+Ex2: p/M=0.0625 g_sM=0.913: psi_KPV=0.490, R_NS5^2/alpha' = b0^4 g_sM sin^2psi = 0.176, curvature corr. factor = 54.5, constant term c1/(g_sM)^2 alone = 10.6; HSV interior min: no; SV min: none
+Ex3: p/M=0.0556 g_sM=0.796: psi_KPV=0.426, R_NS5^2/alpha' = b0^4 g_sM sin^2psi = 0.118, curvature corr. factor = 113.5, constant term c1/(g_sM)^2 alone = 13.9; HSV interior min: no; SV min: none
+Ex4: p/M=0.0500 g_sM=0.808: psi_KPV=0.378, R_NS5^2/alpha' = b0^4 g_sM sin^2psi = 0.096, curvature corr. factor = 167.0, constant term c1/(g_sM)^2 alone = 13.5; HSV interior min: no; SV min: none
+Ex5: p/M=0.0625 g_sM=0.746: psi_KPV=0.490, R_NS5^2/alpha' = b0^4 g_sM sin^2psi = 0.144, curvature corr. factor = 81.6, constant term c1/(g_sM)^2 alone = 15.9; HSV interior min: no; SV min: none
+p/M=1/16: curvature factor at psi_KPV = 45.4/(g_sM)^2 -> <=0.1 needs g_sM >= 21.3; <=1 needs g_sM >= 6.7
+p/M=1/20: curvature factor at psi_KPV = 109.0/(g_sM)^2 -> <=0.1 needs g_sM >= 33.0; <=1 needs g_sM >= 10.4
+
+=== Full-range scan psi in (0.001, pi-0.001) of the truncated potentials at the five vacua ===
+Ex1 (g_sM=1.051, p/M=1/16): HSV: minima psi=[] (V/V_antiD3=[]), maxima psi=[0.754] | SV: minima psi=[1.694] (V/V_antiD3=[-72.3]), maxima psi=[]
+Ex2 (g_sM=0.913, p/M=1/16): HSV: minima psi=[] (V/V_antiD3=[]), maxima psi=[0.754] | SV: minima psi=[1.694] (V/V_antiD3=[-96.1]), maxima psi=[]
+Ex3 (g_sM=0.796, p/M=1/18): HSV: minima psi=[] (V/V_antiD3=[]), maxima psi=[0.745] | SV: minima psi=[1.69] (V/V_antiD3=[-144.2]), maxima psi=[]
+Ex4 (g_sM=0.808, p/M=1/20): HSV: minima psi=[] (V/V_antiD3=[]), maxima psi=[0.739] | SV: minima psi=[1.688] (V/V_antiD3=[-157.0]), maxima psi=[]
+Ex5 (g_sM=0.746, p/M=1/16): HSV: minima psi=[] (V/V_antiD3=[]), maxima psi=[0.753] | SV: minima psi=[1.693] (V/V_antiD3=[-144.2]), maxima psi=[]
+Interpretation: psi>pi/2 is past the equator (anti-D3 charge annihilated; SV: F2 terms out of control there).

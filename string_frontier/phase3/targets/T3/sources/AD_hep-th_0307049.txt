@@ -1,0 +1,740 @@
+# Counting Flux Vacua
+URL: https://arxiv.org/pdf/hep-th/0307049
+Published: 2003-07-04
+Author: Sujay K Ashok, Michael R Douglas
+
+# Counting Flux Vacua
+
+Journal of High Energy Physics. Published: 2003-07-04. 345 citations.
+
+## Authors
+
+- Sujay K Ashok (Rutgers, The State University of New Jersey)
+- Michael R Douglas (Rutgers, The State University of New Jersey)
+
+## Topics
+
+- Black Holes and Theoretical Physics
+- Quantum Chromodynamics and Particle Interactions
+- Geometry and complex manifolds
+
+## Funding
+
+- U.S. Department of Energy
+  - RESEARCH IN THEORETICAL HIGH ENERGY PHYSICS
+  - A COMPREHENSIVE DATABASE OF NUCLEIC ACID STRUCTURE
+
+---
+
+# jhep012004060.dvi
+
+To cite this article: Sujay K. Ashok and Michael R. Douglas JHEP01(2004)060
+
+View the article online for updates and enhancements.
+
+On the explicit construction and statistics of Calabi-Yau flux vacua Joseph P. Conlon and Fernando Quevedo
+
+-
+
+Enumerating flux vacua with enhanced symmetries Oliver DeWolfe, Alexander Giryavets, Shamit Kachru et al.
+
+-
+
+The statistics of string/M theory vacua Michael R. Douglas
+
+-
+
+This content was downloaded from IP address 69.91.174.3 on 15/06/2026 at 18:03
+
+Published by Institute of Physics Publishing for SISSA/ISAS Received: January 14, 2004 Accepted: January 28, 2004
+
+Sujay K. Ashok a and Michael R. Douglas ab∗ aDepartment of Physics and Astronomy, Rutgers University Piscataway, NJ 08855-0849, U.S.A. bI.H.E.S., Le Bois-Marie Bures-sur-Yvette, 91440 France E-mail: ashok@physics.rutgers.edu, mrd@physics.rutgers.edu
+
+Abstract: We develop a technique for computing expected numbers of vacua in gaussian ensembles of supergravity theories, and apply it to derive an asymptotic formula for the index counting all flux supersymmetric vacua with signs in Calabi-Yau compactification of type Ib string theory, which becomes exact in the limit of a large number of fluxes. This should give a reasonable estimate for actual numbers of vacua in string theory, for CY’s with small b3.
+
+Keywords: Superstrings and Heterotic Strings, Superstring Vacua, Statistical Methods.
+
+∗Louis Michel Professor.
+
+° c SISSA/ISAS 2004 http://jhep.sissa.it/archive/papers/jhep012004060 /jhep012004060.pdf
+
+Contents
+
+1. Introduction 2
+2. Background, and ensembles of superpotentials 6
+2.1 N = 1 supergravity lagrangian 7
+2.2 Gaussian ensembles of superpotentials 8
+2.3 Example of C =P n. 9
+2.4 Example of H n. 10
+2.5 Calabi-Yau moduli spaces 11
+2.6 Example of T 2 moduli space. 13
+2.7 Example of the Siegel upper half plane 14
+2.8 Summary 15
+3. Type-IIb compactification on CY3 with flux 16
+3.1 Positivity and finiteness 17
+3.2 Example of T 2 19
+3.3 Approximating the number of flux vacua by a volume 20
+3.4 Setup to compute volume of flux vacua 21
+4. Expectation values in gaussian ensembles 22
+4.1 Expected supersymmetric index 22
+4.2 Geometric computations 23
+4.3 Result for the index density 25
+4.4 Expected numbers of supersymmetric vacua 26
+4.5 Nonsupersymmetric vacua 27
+5. Application to counting IIb flux vacua 28
+5.1 Flux vacua at fixed τ 28
+5.2 Treating the dilaton-axion τ 29
+5.3 Finiteness of the number of vacua 30
+5.4 The case of K À L À 1. 31
+5.5 Numbers 32
+
+## 1. Introduction
+
+Among the many variations on string and M theory compactification, one of the simplest is to turn on p-form field strengths in the internal (compactification) space. First studied in [1], these “flux vacua” have received a lot of recent attention, because it is relatively easy to compute the flux contribution to the effective potential, in terms of an exact superpo tential which displays a lot of interesting physics: it is dual to nonperturbatively generated gauge theory superpotentials, it can stabilize moduli, it can lead to spontaneous super symmetry breaking, and it may be central in explaining the smallness of the cosmological constant. Out of the large body ofwork on this subject, some important and representative examples include [2]–[15]. In this work, we study the number and distribution of flux vacua in Calabi-Yau com pactification of type-II string theory. We give an explicit formula for an “index” counting all supersymmetric flux vacua with signs, as an integral over configuration space, using techniques which generalize to a large class of similar problems. One can start from any similar ensemble of flux superpotentials, and one can get similar (though more complicated) explicit formulas for the total number of supersymmetric vacua, for the index and number of stable nonsupersymmetric vacua, and even for the resulting distribution of supersym metry breaking scales and cosmological constants. We defer detailed exploration of these generalizations to [16, 17] and future work, but use their general form to argue that the index we compute is a reasonable estimate for the total number of supersymmetric vacua, and even for the total number of metastable non-supersymmetric vacua. We review the basic definitions in sections 2 and 3. The basic data ofa flux vacuum in a theory compactified on M is a choice of flux, mathematically an element of H p(M,Z). 1 It can be parameterized by the integrals of the field strength on a basis of p-cycles, call these N~. In N = 1 supersymmetric compactification, the flux superpotential [19] is linear in the flux N~,
+
+W(z) = N~ · Π( ~ z). (1.1)
+
+Here Π( ~ z) are contributions from individual fluxes, which can be found as central charges of BPS domain walls [20]. In some examples, such as Calabi-Yau compactification of the type-II string, the Π( ~ z) are explicitly computable, using techniques developed in the study of mirror symmetry [21]. In IIb compactification, one takes p = 3 and the Π(z) are periods of the holomorphic three-form. In the mirror IIa picture, the same results can be thought of as incorporating world-sheet instanton corrections. One can argue that the K¨ahler potential is independent of the flux, in which case it is determined by N = 2 supersymmetry and special geometry. The result is a completely explicit formula for the scalar potential, which includes many (though not all) world-sheet and space-time non-perturbative effects. Almost always, the result is a complicated and fairly generic function of the moduli z, which has isolated critical points, in physical terms stabilizing all moduli which appear explicitly in (1.1).
+
+1This is an oversimplification, as is explained in [18], but will suffice for our purposes.
+
+The resulting set of vacua is further reduced by identifications following from duality. An example in which this is simple to see is compactification on T 6 or a T 6/Z2 orien tifold [12, 7], in which case the relevant duality is the geometric duality SL(6,Z). 2 In general Calabi-Yau compactification, duality makes identifications (z,N~) ∼ (z0,N~0), and we should factor this out. This can be done by restricting z to a fundamental region in the moduli space, after which any two choices N~ 6= N~0 will lead to distinct flux vacua. To the extent that one can choose N~ arbitrarily, the choice of flux appears to lead to a largemultiplicity ofvacua, perhaps infinite. The first to try to quantify thiswere Bousso and Polchinski [4], who suggested that a large number of flux vacua, say Nvac∼10 120, might pro vide a solution of the cosmological constant problem, by leading to a “discretuum” of closely spaced possible values of Λ including the observed small value Λ∼10− 120M 4 pl. They went on to argue that the number of flux vacua should go as Nvac∼L K, where K is the number of cycles supporting flux, and L is an “average number of fluxes,” which in their argument depends on an assumed “bare negative cosmological constant.” Since a typical Calabi-Yau threefold has K∼100, such an estimate would make a large number ofvacua very plausible. While numbers like 10 120 vacua may seem outlandish, from a broader point of view they just reinforce the point, which emerged long ago from study of the heterotic string on Calabi-Yau (see for example [22]), that string andM theory compactification involves many choices. At present we can only guess at the number of possibilities, and serious attempts to characterize and come to grips with this aspect of the theory are only beginning. As emphasized in [23, 24], it is very important to bound the number of string vacua which resemble the Standard Model and our universe, because if this number is infinite, it is likely that string/M theory will have little or no predictive power. Going further, this observation can be made quantitative, as was proposed in [24], by developing estimates for the number of vacua meeting one or several of the tests for agreement with real world physics, such as matching the scales and hierarchies, the gauge group, properties of the matter spectrum, supersymmetry breaking and so forth. As explained there, such estimates can tell us how predictive we should expect string/M theory to be, and provide a “stringy” idea of naturalness. Making useful estimates requires having some control over each aspect of the problem, in particular we need to know why the number of flux vacua is finite and get a controlled estimate of this number, with upper and lower bounds. As was appropriate for an exploratory work, Bousso and Polchinski’s arguments were heuristic, and it was not obvious how to turn them into any sort of controlled estimate for numbers of vacua; in particular they did not take back reaction or duality into account. This is the problem whichwe address in the presentwork, and in some cases solve, providing an estimate for the number of supersymmetric vacua which becomes exact as the “number of fluxes” (to be defined shortly) becomes large, using techniques which can provide precise bounds and generalize to a wide variety of similar problems. Although the details differ from [4], the results confirm the suggestion that numbers of flux vacua grow as L K, and we determine the overall coefficient.
+
+2 While there is a larger T-duality group, it does not identify Calabi-Yau compactifications, but produces new, non-K¨ahler compactifications [13, 10, 5]
+
+We now discuss the specific problem we treat in a bit more detail. If no conditions are put on N~, the number of vacua is infinite, because the problem of finding solutions of DW = 0 or V0 = 0 is independent of the scale of W. If one places a positive definite condition on N~, such as |N~ | < Nmax, then the number of allowed values of N~ is finite, and finiteness of the total number of vacua will follow if for each given N~ the number of flux vacua is finite. Since CY moduli spaces are compact, this is plausible a priori, and we will verify it below. However, it is not obvious why there shouldbe sucha bound on the flux. In Bousso and Polchinski’s treatment, one assumed each flux made an O(1) positive contribution to the cosmological constant, so fixing the cosmological constant led to such a bound. However, this assumption is not obviously true after taking back reaction into account. In the case oftype-II compactification on orientifolds, as discussedby Giddings, Kachru and Polchinski [8], tadpole cancellation leads to a condition [19, 8] which sets the scale of N~ as
+
+η(N,N) = L, (1.2)
+
+In itself, this is not a bound on the flux, since η is an indefinite quadratic form, but one can also argue (as we review later) that η(N,N) > 0 for supersymmetric vacua. However, this is still not enough to force the number of vacua to be finite; indeed, infinite series of supersymmetric flux vacua in compactification on T 6/Z2 and K3 × T 2 orientifolds were found by Trivedi and Tripathy [15] 3 Fortunately, the infinite series they find does not spoil predictivity, because it runs off to large complex structure, which amounts to a partial decompactification limit. Thus, all but a finite number of these vacua are not really four dimensional. However, this example shows that the problem of finiteness is a bit subtle. We will show that finiteness is true ifwe restrict attention toa compact region of moduli space in which a non-degeneracy condition is satisfied. We believe this condition will fail only in decompactification limits, in which case this result implies that four dimensional supersymmetric flux vacua are finite in number. Compared to the original problem of counting flux vacua, our main simplification will be to ignore the quantization of flux, instead computing the volume
+
+vol Rsusy =Z Rsusy d KN~, (1.3)
+
+of the region Rsusy in“charge space” in which supersymmetric vacua lie. We will be more precise about this in section 3, but these words give the right idea. The intuition for why this should estimate the actual number of flux vacua is very simple. Flux vacua are points in R, whose coordinates N~ are integers. If one considers a “reasonably simple” region R, it is plausible that the number of lattice points it contains, will be roughly its volume, and that this will become exact in the limit of large L. However, there are subtleties which we will discuss. Our tentative conclusion will be that this is reasonable if L À K, but may run into difficulties if 1 ¿ L ¿ K.
+
+3According to our definitions; see section 3.
+
+Another simplification, which is less essential, is to compute this estimate for the “supergravity index,” which counts vacua with signs. Our techniques apply to both the index and to actual numbers of vacua, but the simplest results are obtained for the index. Of course, the index is a lower bound on the total number of supersymmetric vacua. One can get moderately simple upper bounds as well. In fact our results will be somewhat more precise: we will work at a point in config uration space, and compute an “index density” dµI (z) and “vacuum density,” dµsusy(z) which measures the contribution to (1.3) of a given point z in configuration space. The total volume and thus the total estimated number of vacua can then be obtained as an integral over a fundamental region F of moduli space,
+
+vol Rsusy =ZF
+
+dµsusy(z). (1.4)
+
+Having outlined the problem, we introduce our techniques for solving it in section 4. These were inspiredby mathematical work on counting zeroes and critical points of random sections of line bundles [25, 26]. While this work is fairly recent, and the application to supergravity is new, the general ideas are fairly well known in physics, especially in the study of disordered systems. This will allow us to make our discussion self-contained and non-mathematical, for better or worse. We refer to [16] for a discussion of this problem and related problems in a more mathematical language and for rigorous results. Our basic technique is to reformulate the problem of computing the volume, as an expectation value in a gaussian ensemble of superpotentials. All expectation values in such an ensemble are determined by a “two-point function” for the random superpotential, ¿ W(z1)W∗(z¯2)À = 1 NZ DWe− Q(W,W∗)W(z1)W∗(z¯2).
+
+where Q is a quadratic form (the covariance), and N is the overall normalization. For many ensembles of interest, including the flux ensemble, this turns out to be
+
+¿ W(z1)W∗(z¯2)À = e− K(z1,z¯2),
+
+where K(z1,z¯2) is the standard K¨ahler potential on moduli space, regarded as an indepen dent function of the holomorphic and antiholomorphic moduli. This reduces all questions about the distribution of flux vacua to geometric questions about the moduli space. The main result we derive here is an explicit formula for the index density in such an ensemble, 4
+
+dµI(z) =
+
+1 πn det(−R−ω), where ω and R are the K¨ahler form and curvature for the K¨ahler metric on configuration space at the point z. We also discuss similar formulas for the total number of vacua of various types, at least to the extent of arguing that they produce similar results. Although we will not do it here, one can also use these techniques to study non-supersymmetric vacua, and to compute expectation values which depend on the superpotential at several points in configuration space, as will be discussed in [16].
+
+4Our conventions are given in section 2.
+
+In section 5, we apply these results to the specific case ofIIb flux superpotentials, and make some simple physical observations. The final result, for the index of all supersym metric vacua satisfying (1.2), is
+
+Ivac(L ≤ Lmax) = X L≤ Lmax Ivac(L) = (2πLmax) K πn+1K! ZF×H det(−R−ω), (1.5)
+
+where F is a fundamental region in Calabi-Yau moduli space, and H is the fundamental region of SL(2,Z) in dilaton-axion moduli space. Techniques exist to work out this inte grand explicitly, so this is a fairly concrete result, which could be evaluated numerically on a computer. The primary observation is that in generic regions of moduli space, the integral (1.5) is closely related to the volume of the moduli space. Neglecting the curvature dependence, we might say that “each flux sector gives rise to one vacuum per (πM 2 pl) n scale volume in configuration space.” These volumes are in general believed to be finite [27]. Granting this claim, we answer our basic question, and show that thenumber of physical fluxvacua is finite. This argument could fail near points of diverging curvature; as an example, we discuss the conifold point and find that the number of vacua near it is finite as well. For K À L, the formula (1.5) predicts essentially no vacua. We believe this is incorrect and merely shows that the discreteness of the fluxes cannot be ignored in this case. One can get a suggestive estimate by taking into account the possibility that some fluxes vanish by hand. Although explicit volumes of moduli spaces have not been computed for any physical CY3 examples, they are known for simplified examples such as tori with diagonal period matrix, or abelian varieties. The mathematical problem of finding flux vacua is perfectly well defined in these cases and thuswe can give precise results, which it wouldbe interesting to check by other means. As a final comment, it would be quite interesting if a direct topological field the ory computation could be made of the index counting supersymmetric vacua, perhaps by inventing some sort of topologically twisted supergravity theory.
+
+2. Background, and ensembles of superpotentials
+
+The set ofN = 1 supergravity lagrangians obtained by considering the Gukov-Vafa-Witten superpotentials [19] associated to all choices of flux in type-II compactification on Calabi Yau, is an ensemble of effective field theories, as defined in [24]. For many purposes — testing the formalism, providing solvable examples, studying universality claims and discussing to what extent these approximate effective lagrangians represent the exact situation in string/M theory, it is useful to introduce and discuss more general ensembles. Thus we begin by reviewing the supergravity formula for the effective potential, and defining the basic ensembles we will consider.
+
+2.1 N = 1 supergravity lagrangian The data of an N = 1 supergravity theory which concerns us is the configuration space C, a complex K¨ahler manifold with K¨ahler potential K, and a superpotential W. We denote the complex dimension of C as n. In general, we follow the conventions of [28], with one exception — we take the super potential to be a section of a line bundle L with
+
+c1(L) = κ
+π
+ω
+
+where κ is a real constant. In supergravity, κ = −1/M 2 pl, and in the body of the paper, we will set Mpl = 1, so κ = −1. However, all definitions entering into the effective potential can be generalized to arbitrary κ, and this allows us to discuss some similar and instructive problems. Other than this generalization, the rest of this subsection is review of standard defini tions. To define the line bundle L over C, one works in patches. In each patch, the K¨ahler potential is a function K(a)(z, z¯) satisfying K(z¯, z) = K(z, z¯)∗. It determines a hermitean metric on configuration space, gi¯j ≡
+
+∂ 2K ∂zi∂z¯ ¯j , (2.1) which enters the kinetic term for the matter fields. We also write
+
+ω = i 2
+
+gi¯jdz idz¯ ¯j for the K¨ahler form, and
+
+volω =
+
+1 n!
+
+ω n
+
+for the associated volume form. The Riemann and Ricci curvatures for a K¨ahler manifold are
+
+R l i¯jk = −∂¯j(g lm¯∂igkm¯) Ri¯j = R k i¯jk = −∂i∂¯j log(detg).
+
+The K¨ahler potentials in two overlapping patches a and b will be related as
+
+K(a) = K(b) +F(ab) +F∗(ab)
+
+where F(ab)(z) is a holomorphic function (with mass dimension 2) on the overlap. This structure also defines an associated holomorphic line bundle L on C. A section χ of L is given by holomorphic functions χ(a) in each patch satisfying the condition
+
+χ(a) = e κ F(ab)χ(b).
+
+This structure is preserved by the holomorphic “K¨ahler-Weyl” transformations
+
+K → K + f(z) + f ∗(z¯)χ → e κ fχ . (2.2)
+
+In general, f(z) can be a different holomorphic function f(a) in each patch, in which case F(ab) → F(ab) −κ(f(a) −f(b)), etc. 5 Given sections χ and ψ of L, one can define the hermitian inner product (ψ, χ) ≡ e− κ Kψ∗χ (2.3) and the covariant derivative Diχ = ∂iχ−κ(∂iK)χ; D¯¯iχ = ¯∂¯iχ D¯¯iχ∗ = ¯∂¯iχ∗ −κ(¯∂¯iK)χ∗; Diχ∗ = ∂iχ∗. (2.4)
+
+The derivative Diχ transforms as a section of L⊗ΩC, 6 but in general is not holomorphic. We also define
+
+(Dψ,Dχ) ≡ e− κ Kg i¯j(D¯jψ∗)(Diχ) (2.5)
+
+and so on. The curvature of this connection (covariant derivative) is i 2
+
+[D¯¯j,Di] = iκ 2 ¯∂¯j∂iK = κω.
+
+In particular, the first Chern class of L is c1(L) = κ π[ω]. Since ω is necessarily a positive hermitian form, the sign here has important consequences. In the supergravity case, L is a negative line bundle. We take the superpotential W to be a section of L. It enters into the potential as
+
+V = (DW,DW)− 3 M 2 pl (W,W) = e− κ KÃ g i¯j(DiW)(D¯jW∗)− 3 M 2 pl |W| 2! . (2.6)
+
+We will consider ensembles in which C and K are fixed, while W is taken from a distribution. To get started, we might consider the simplest possible choices for C and K. These are complex homogeneous spaces, such asP n,C n or H n, the n-dimensional complex hyperbolic space.
+
+2.2 Gaussian ensembles of superpotentials The primary ensemble we will treat is to take the superpotential as a complex linear combination of sections ofL, with a gaussian weight. We will eventually treat the physical flux problem as a limit of this. Let Πα with 1 ≤ α ≤ K be the basis of sections, then
+
+dµ[W] =ZY K α=1 d 2N α e− QαβN αN¯β δ(W − X α N αΠα). (2.7)
+
+5 If H2(C,Z) is non-trivial, then for the line bundle L to be well defined, κ must be quantized so that [κω] ∈ H 2 (M,Z). This will come up in some of our toy examples. It was also proposed long ago that this would be required in supergravity [29]. However, there are loopholes in the argument for this, as we discuss below. 6ΩC is the bundle of (1, 0)-forms.
+
+Here Qαβ is a quadratic form (the covariance), and N¯β denotes the complex conjugate of N β. One could instead take real N α; the complex case is slightly simpler and will turn out to be a better analog of the IIb string flux superpotential. We denote an expected value in this ensemble as
+
+¿ XÀ = 1 N Z dµ[W] X, where N is an appropriate normalization factor. For a unit normalized ensemble, N =Z dµ[W] = π K detQ .
+
+Through most of the discussion, we will use this convention, but eventually will switch to discuss the ensemble of flux vacua, which is normalized to the total number of flux vacua. If X is polynomial in W and W∗, such expected values can be easily computed using Wick’s theorem and the two-point function G(z1,z¯2) = (Q− 1) βαΠα(z1)Π∗β(z¯2). (2.8)
+
+For example,
+
+¿ W(z1) W∗(z¯2)À = G(z1,z¯2). The primary expectation value of interest for us will be the index density for super symmetric vacua, dµI(z) =¿ δ 2n(DW(z)) detD 2W(z)À , to be computed in section 4. 2.3 Example of C =P n. This is a good example for test purposes. Also, as a compact space, it is easier to work with mathematically, as we discuss in [16]. We start with homogeneous coordinates Z i with 0 ≤ i ≤ n, and go to inhomogeneous coordinates: set Z 0 = 1 and use z i = Z i/Z 0 with 1 ≤ i ≤ n. The K¨ahler potential is then
+
+K = logÃ 1+ X i |zi| 2! ≡ log(1+ |z|) 2 ≡ log(Z,Z¯) (2.9)
+
+while the metric is gi¯j = (1+ |z| 2)δij −ziz¯j (1+ |z|2)2 .
+
+The Ricci and Riemann curvatures are
+
+Ri¯j = −∂i∂¯j logµ P k |zk|2)n+1¶ = (n+ 1)gi¯j Ri¯jk¯l = gi¯jgk¯l +gi¯lgk¯j . (2.10)
+
+As mentioned earlier, we will let the superpotential W(z) take values in the line bundle L = OP n(κ) of degree κ, such that c1(L) = κω/π (here κ must be integer). Sections of OP n(κ) are degree κ homogeneous polynomials. One could write a basis Πα for these polynomials and compute (2.8) for a general covariance Q. Since C is compact, a natural choice for Q is the inner product of sections in the hermitian metric on L,
+
+QαβN αN¯β =ZC (volω) e− κK|N·Π| 2. (2.11)
+
+In this case, the covariance Q will respect all the symmetry ofK, and so will the two-point function G. Using (2.11) to define the covariance for P n, the resulting two-point function (2.8) must be a U(n+ 1)-invariant polynomial of bidegree (κ,κ) in Z1 and Z¯2. This determines it to be
+
+G(Z1,Z¯2) = (Z1,Z¯2) κ
+
+so
+
+G(z1,z¯2) = (1+z1 ·z¯2) κ. Note that this can also be written as G(z1, z¯2) = e κ K(z1,z¯2) (2.12)
+
+with K as in (2.9), reinterpreted by taking the holomorphic z dependence a function of z1 and the antiholomorphic z¯ dependence a function of z¯2. This substitution can be made more precise by using the formula
+
+K(z1, z¯2) = X m,n≥ 0µ z m 1 z¯ n 2 m!n!¶ ∂ m+nK(z,z¯) ∂mz∂nz¯ |z=z¯=0
+
+which tells us that (given appropriate conditions) the function K(z,z¯) on C determines the bi-holomorphic functions K(z1,z¯2) and exp(κK(z1,z¯2)) on C ×C. Since κ > 0, this is not a supergravity ensemble. One could instead take κ < 0 and use a basis of sections of O(κ) with poles, to get toy supergravity examples.
+
+2.4 Example of H n. Complex hyperbolic space appears as a supergravity configuration space for compactifi cation on homogeneous spaces, and can be regarded as the “trivial” case of the special geometry we discuss shortly, in which the Yukawa couplings are zero. We use the coordinates z i, 1 ≤ i ≤ n, and let H n be the region
+
+P i |zi| 2 < 1, with
+
+K¨ahler potential
+
+K = − logÃ 1− X i |zi| 2! .
+
+This space is noncompact and has U(n, 1) symmetry. Its curvature tensors are given by (2.10) with an overall change of sign.
+
+There is a natural U(n, 1)-invariant two point function, G(z1,z¯2) = (1−z1 ·z¯2)− κ = e κK(z1,z¯2), which again corresponds to using a polynomial basis of sections. 2.5 Calabi-Yau moduli spaces We consider a Calabi-Yau M, which for generality we take k complex dimensional. The configuration space C is then its moduli space of complex structures Mc(M), of complex dimension n. Its K¨ahler metric can be found using “special geometry” [30], while the flux superpotential is a linear combination of periods of the holomorphic k-form Ω. We briefly review the most important parts of this for our purposes. We start by choosing a fixed basis Σα for the middle homology Hk(M,Z), with 1 ≤ α ≤ K ≡ bk (for k = 3, b3 = 2n+ 2), and a Poincar´e dual basis Σˆα for the middle cohomology H k(M,Z), in which the intersection form
+
+ηαβ =Z M Σˆα ∧Σˆβ (2.13)
+
+is canonical: for odd k, a symplectic form
+
+Zµ Σˆ2a− 1 Σˆ2a¶ ∧(Σˆ2b− 1 Σˆ2b) =µ 0 δa,b −δa,b 0¶ ,
+
+and for even k an indefinite symmetric form. A choice of complex structure defines a Hodge decomposition H k(M,C) = ⊕p+q=kH (p,q)(M,C), a decomposition of the middle cohomology into (p,q) forms. The intersection form (2.13) pairs(p,q) and(q,p) forms. In the case of primary interest here, threefolds with H 1(M,R) = 0, on a given subspace this is definite with sign (−1) p, i.e. 0 < (−1) pi− k Z α (p,q) ∧(β) (q,p). (2.14) More generally, this is true of the primitive forms (e.g. see [19]). One can show that already the choice ofH (k,0)(M,C) subspace determines the complex structure. This choice determines a holomorphic (k, 0)-form Ω up to overall normalization. A choice Ωz at each z ∈ C defines a section s of a line bundle L over C, and a preferred metric in which the norm of the section is 1,
+
+1 = (s, s)|z = e K(z,z¯) i k Z M Ωz ∧Ω¯z. (2.15) An infinitesimal motion on C will vary Ω by a sum of (k, 0) and (k −1, 1) forms. One can use (2.15) to define a covariant derivative, DiΩ = ∂iΩ+(∂iK)Ω, (2.16)
+
+which acting on Ω produces a pure (k−1, 1) form. Using Ω, one has an isomorphism from the (k −1, 1) forms to H 1(M,TM), the deformations of complex structure, and this can be used to show that
+
+−(DiΩ,D¯¯jΩ) ¯ = ∂i¯∂¯jK = gi¯j is the Weil-Peterson metric on C, which is the metric deduced from Kaluza-Klein compact ification of the IIb supergravity. We define the normalized periods to be
+
+Πα = Z Σα Ω .
+
+They are sections of L as well. In terms of these, we can write (2.15) as
+
+K(z,z¯) = − log(i kη βαΠα(z)Π∗β(z¯)). (2.17)
+
+As we discuss further in the next section, the flux superpotential can be written in terms of the periods as
+
+W = N αΠα. It is a section of the line bundle L, so that e K|W| 2 is independent of the choice of Ω. The analog of (2.12) in this case is the two-point function
+
+G(z1,z¯2) =¿ W(z1)W∗(z¯2)À = i kη βαΠα(z1)Π∗β(z¯2) = e− K(z1,z¯2). (2.18)
+
+We will also need the “holomorphic two-point function” (this terminology is appropriate if one takes N real in (2.7)),
+
+H(z1,z2) = η αβΠα(z1)Πβ(z2). (2.19)
+
+For k = 3, one can show that it is odd under z1 ↔ z2 and that its leading term is cubic. Furthermore
+
+H(z1,z2) =Z Ω(z1)∧ Ω(z2)
+
+and thus
+
+∂ ∂z2
+
+H(z1,z2)|z2=z1 =Z Ω(z1)∧ ∂Ω(z1) ∂z1 = 0, since ∂Ω ∈ H (3,0) ⊕H (2,1). Thus, it has the expansion H(z1, z2) = 1
+6 Fijk(z1)(z2 −z1) i(z2 −z1) j(z2 −z1) k +... (2.20)
+
+where the Fijk are (by an old tradition going back to the early work on heterotic string compactification) called the “Yukawa couplings.” One can show [30] that for k = 3 they actually determine the Riemann tensor:
+
+Ra¯bc ¯d = −ga¯bgc ¯d −ga¯dgc¯b +e 2KFacmF∗¯bd¯n¯g mn¯ . (2.21)
+
+Special geometry for Calabi-Yau three-folds has been much studied and enjoys many additional properties, such as the existence of special coordinates and the prepotential. Furthermore, the techniques for explicitly computing periods are highly developed, and numerous examples are worked in the literature, starting with the quintic [21]. We will quote a few of these results as we need them below. 2.6 Example of T 2 moduli space. The simplest Calabi-Yau manifolds are complex tori. We choose real coordinates x i and y i with 1 ≤ i ≤ k, and periodically identify x i ∼= x i + 1 and y i ∼= y i + 1. The complex structure will then be defined by the complex coordinates z i = x i +
+
+P
+
+jZ ijy j, where Z ij is a k×k complex matrix with positive definite imaginary part. Thus, the moduli space of complex structures on T 2k is the space of complex k × k matrices Zij with positive definite imaginary part, subject to identifications under a GL(2k,Z) duality symmetry, which acts geometrically on the torus (see [12] for a detailed discussion of this). The K¨ahler potential is K = − log detImZ. (2.22) and has SL(2k,R) symmetry. A normalized basis of H k(M,Z) can be taken to be the ³ k-forms obtained by wedging dx i and dy i. Integrating the holomorphic k-form Ω = ∧ k i=1dz i then produces as periods, all the cofactors of the matrix Z. For our purposes, all this can be summarized in the two-point function associated to the covariance
+
+Qαβ = i− kηαβ,
+
+as
+
+G(Z1,Z¯2) = e− K(z1,z¯2) = (2i)− n det(Z1 −Z¯2). For k = 1, this moduli space is equivalent to H 1, but in a different coordinate system related as z = (1+ iZ)/(1− iZ). One then has
+
+gi¯j = δi¯j 1 4(ImZ)2 ; Ri¯j = −2gi¯j . The volume of the standard fundamental region, F = ½ Z ∈ C : ImZ > 0 and |Z| ≥ 1 and |ReZ| < 1 2¾ , is π 12 =ZF
+
+d 2τ 4(Imτ)2 . (2.23) We note that this volume does not satisfy the quantization condition discussed in subsection 2.1; the associated line bundle has c1(L) = −1/12. This is not a mathematical contradiction as the fundamental region F is not a manifold; it has both cusp and orbifold singularities.
+
+Is this a physical contradiction? This fundamental region is ubiquitous as a super gravity configuration space; for example the IIb dilaton-axion takes values here in ten dimensions, and this descends to the four dimensional compactifications of interest. Ap parently IIb supergravity violates the integer quantization, and there is a loophole in the argument of [29]. We believe the physics which allows this is essentially that discussed in [31]. One might think that if L were not quantized, observables constructed from the fermionic fields (the gravitino and fermions in chiral multiplets) would not be single-valued, which would lead to contradictions. However, to detect the non-quantization of L, one must make bosonic field configurations which explore an entire two-cycle in C. An example would be a cosmic string in four dimensions. Such a background has curvature, and a deficit angle at infinity proportional to the volume of the two-cycle. In this background, the fermionic fields are single-valued, since they are sections of L± 1/2 ⊗ S±, where S± are the spin bundles on space-time. This argument seems to us to remove the need for the quantization condition. Admit tedly, we do not know the exact K¨ahler metric on C, and one might consider other hypothe ses; for example that α0 and gs corrections restore the quantization condition. However, since the quantization condition clearly does not hold in directly analogous examples with extended supersymmetry, there seems no good reason to believe in it for N = 1.
+
+2.7 Example of the Siegel upper half plane
+
+For k > 1, it turns out that attempting to quotient by SL(2k,Z) does not lead to a reasonable moduli space. Rather, one must keep the K¨ahler moduli as well, leading to the Narain moduli space SO(k,k;Z)\ SO(k,k)/ SO(k) × SO(k). This suggests that one must keep the K¨ahler moduli to get a sensible result in this case. Since our main interest is in models to illustrate the Calabi-Yau case, we do not pursue this here. One way to get a simple toy model with only complex structure moduli is to restrict attention to the complex tori with diagonal period matrix. The set of these is preserved by the subgroup SL(2,Z) k ×Sk, so the volume of the fundamental region is
+
+Vk =
+
+1 k!³
+
+π
+
+12´
+
+k
+
+. (2.24)
+
+Another way to restrict the problem to get a well-defined complex structure mod uli space, is to consider only the complex tori with symmetric period matrix Zij = Zji. These are known as abelian varieties, because this is the subset of complex tori which are projective varieties (can be embedded in some P n). This moduli space, the Siegel upper half plane, has dimension n = k(k + 1)/2. Its K¨ahler potential and metric are obtained by restriction from (2.22), while the duality group is Sp(2k,Z). Let Fk be a fundamental region for this group.
+
+The volume of Fk was computed by Siegel [32]; it is 7
+
+Vk = 2 1+k(k− 1)/2− k(k+1) Y k j=1 (j − 1)!ζ(2j)π− j ∼µ k 2π¶ k 2/2
+
+. (2.25)
+
+Its first few values are V1 = π/12, V2 = π 3/8640 and V3 = π 6/65318400. While this grows very rapidly for large k, because of the factors of 2π in the denominator, this asymptotic behavior sets in only for k > 30. We can try to use this result as at least some indication of how these volumes behave on Calabi-Yau three-folds. For this purpose, it seems reasonable to draw an analogy between n = b2,1(M), the number of complex structure moduli of the CY M, and k(k + 1)/2, the number of complex structure moduli of the k-dimensional abelian varieties. Granting this, and looking at the regime n ≤ 480, the volumes do not become large. Of course, this cannot be taken too seriously, as general CY moduli spaces and duality groups might be quite different. The Euler character is
+
+χk = (−1) n πnn!ZF k ² i1¯j1··· in¯jn²k1¯l1··· kn¯lnR k1¯l1 i1¯j1 ···R kn¯ln in¯jn or equivalently χk =
+
+1
+
+πnZF k det(−R), where R is the curvature two-form expressed as a hermitian n×n matrix,
+
+R l k = R l i¯jkdz i ∧dz¯ ¯j , and det is the matrix determinant. For example, χ1 = 1/6, since for T 2 we have R = −2ω. Again, this can be fractional, because the moduli space has orbifold singularities. We also quote [32]: χ2 = 1/720 and χ3 = 1/181440.
+
+2.8 Summary We have argued in a variety of examples, which will include the flux superpotentials of primary interest, that there is a natural ensemble of superpotentials in supergravity, char acterized by the two-point function
+
+G(z1, z¯2) = ¿ W(z1)W∗(z¯2)À = e κK(z1,z¯2). (2.26)
+
+The important point is that this is completely determined by the K¨ahler potential, and thus all properties of this ensemble are determined by the K¨ahler potential. In section 4, we will make this explicit for the “index” counting supersymmetric vacua with signs, a similar index counting nonsupersymmetric vacua with signs, and actual numbers of either type of vacua.
+
+7 One needs to be careful about conventions. Siegel’s metric, (2) in [32], is 4 times ours. On the other hand, he absorbs a factor of 2 k(k− 1)/2 in the volume element (top of p. 4).
+
+3. Type-IIb compactification on CY3 with flux
+
+We now discuss flux compactification of type IIb string theory on a CY3 orientifold M with fixed points and O3 planes, following [8]. For readers familiar with this discussion, let us first say that we will simplify the problem, by totally ignoring the K¨ahler moduli of M. Our main reason for doing this is that the tree level effective action is a bad guide to their physics, which is in fact controlled by nonperturbative effects. In fact, one can arguevery generally that these effects will break the “no scale” structure of the tree level effective action and stabilize these moduli [11, 24], leading to essentially the same physics we will obtain by leaving them out. On the other hand, there is no well motivated ansatz for these nonperturbative corrections. It will become clear below that given the exact or even approximate dependence of the effective action on the K¨ahler moduli, one could apply our methods to count vacua in the full problem; for present purposes little insight would be gained by making an ansatz for this here. We will discuss the problem including the K¨ahler moduli elsewhere. Thus, we take as configuration space C = Mc(M)×H, where H is the space of values of the dilaton-axion τ = C (0) + ie− D. As K¨ahler potential in the effective lagrangian, we take the zero flux K¨ahler potential, which is the sum of (2.17) and (2.22) for k = 1 with Z11 = τ. In principle, this could get additional flux dependent corrections, but (as we sketch below) one can argue that these must vanish at large volume. Thus, in the spirit of our previous simplification, we ignore this possibility. Thus, we can base the discussion on the zero flux discussion and corresponding N = 2 supersymmetric lagrangian. The new feature is the flux. The underlying IIb supergravity has two three-form field strengths, the Ramond-Ramond field strength F and the Neveu Schwarz field strength H. These enter into the supersymmetry conditions and all of the subsequent analysis, only in the combination
+
+G = F+τH. (3.1)
+
+In a ground state, the equations of motion will force F and H to be harmonic forms, which are thus determined in terms of their periods on a basis of 3-cycles,
+
+NRR
+
+α = η αβ Z Σβ F; NNS α = η αβ Z Σβ H. (3.2)
+
+These take quantizedvalues whichwe denoteNRR andNNS. They canbechosen arbitrarily subject to one constraint: the presence of a Chern-Simons term
+
+Z d 10x C (4) ∧F (3) ∧H (3)
+
+in the IIb lagrangian modifies the tadpole cancellation condition for the RR four-form potential, to ηαβ(NRR) α(NNS) β = L, (3.3) where L is the total RR charge of O3 planes minus D3 branes. In supersymmetric vacua, one cannot have anti-D3 branes, so L is bounded above in supersymmetric vacua by the O3 charge.
+
+The effective supergravity action in such a flux background is then as above, with the superpotential [19, 8]
+
+W = (NRR +τNNS)·Π ≡ N·Π (3.4)
+
+where we define
+
+N ≡ NRR +τNNS; N¯ ≡ NRR +τ¯NNS.
+
+A very concise argument for this claim was given by Gukov [20]. By wrapping a (p,q) five brane on a three-cycle, one obtains a BPS domain wall in four dimensions, across which the flux (F,H) jumps by (p,q) units. On the other hand, one can show that the domain wall tension is precisely ∆W, the variation of (3.4) (this argument is simplified by a further reduction to two dimensions). The BPS condition then implies that the superpotential is (3.4), up to a flux-independent constant. This result can be confirmedby a direct ten dimensional analysis of the supersymmetry conditions, as was done for Minkowski four dimensions (zero cosmological constant) in [9]. They found that supersymmetry requires G to be a primitive (2, 1) form. The primitivity condition involves the K¨ahler form, which we are ignoring. To compare the rest, starting from (3.4), using (2.16) one sees that
+
+DiW = 0 ↔ G (1,2) = 0, (3.5)
+
+while one can also check that
+
+DτW = NNS ·Π− 1
+τ −τ¯ W = − N¯ ·Π
+τ−τ¯
+
+, (3.6) so
+
+DτW = 0 ↔ G (3,0) = 0. (3.7)
+
+Finally, the zero cosmological constant condition implies
+
+W = 0 ↔ G (0,3) = 0. (3.8)
+
+Thus the supersymmetry conditions from the two arguments agree. However the advantage of the supergravity argument is that it implies the existence of the corresponding exact solution ofIIb supergravity, and thus these conditions must be exact at large volume. This addresses the point raised at the start of the subsection, of justifying the use of the zero flux K¨ahler potential. Presumably, a similar analysis for AdS4 backgrounds with cosmological constant (or no-scale nonsupersymmetric backgrounds) would confirm this for W 6= 0 as well.
+
+### 3.1. Positivity and finiteness
+
+As mentioned in the introduction, one needs to put some condition on the fluxes to have any hope that the total number of vacua will be finite, simply because the condition DW = 0 (as well as V0 = 0) is independent of the overall scale of the flux.
+
+Can (3.3) serve as this condition, or are additional conditions required? One suspects from the work of [15] 8 that we also need to remove the large complex structure limit. Does this suffice? The main problem with (3.3) is that it controls an indefinite quadratic form, and so has an infinite number of solutions. On the other hand, there is a more subtle positivity argument given in [19, 8], which shows that
+
+0 < ηαβNRR αNNS β (3.9)
+
+for supersymmetric vacua. In other words, if we had taken L ≤ 0 in (3.3), we would find no supersymmetric vacua. To see this, one uses the equality
+
+ηαβNRR αNNS β = i 2ImτZ G∧G∗, (3.10)
+
+the equivalences (3.5) and (3.7), which mean that at a supersymmetric vacuum, G ∈ H (2,1) ⊕H (0,3), and (2.14), which shows that (3.10) is positive on this subspace. Evidently this does not imply that the number of vacua is finite; for L positive every solution of (3.3) obviously solves (3.9). We now argue that it implies that in any infinite sequence of vacua satisfying (3.3), all but finitely many must lie within a neighborhood of a “D-limit,” meaning a point in the compactification of C at which the n × K matrix DiΠα is reduced in rank. A large complex structure limit, in which some set of periods (Π6,Π4,Π2,Π0) ∼ (τ 3,τ 2,τ, 1) as Imτ → ∞, is an example of a “D-limit.” Conifold and orbifold/Gepner points are not; we do not know if there are others. We want to use this to show that a sequence of distinct vacua (not related by duality) must approach a large structure limit. Now a general sequence of vacua can stabilize moduli at a succession of points which wander off in Teichmuller space (the cover of C on which the periods are single valued). On the other hand, for any sequence ofvacua, we can use duality to find a corresponding sequence in which the moduli sit entirely in a single fundamental region of the moduli space C. Let us now consider a compact region C within the fundamental region, not containing “D-limits.” We now argue that this region can only contain finitely many supersymmetric vacua satisfying (3.3). We do not want to assume vacua are isolated, so we now consider a “vacuum” to be a connected component in C of the solutions of DiW = 0 for a fixed flux N. At a fixed point Z in moduli space, the supersymmetry conditions DW = 0 (or equiv alently G (1,2) = G (0,3) = 0) define a linear subspace of “charge space” H 3(M, C). We just argued that η is positive definite on this subspace; therefore the set of vectors in this subspace satisfying ηNN¯ ≤ 1 is compact. Taking the union of these sets over all Z ∈ C, 8In the revised version 3 of [15], it is argued that the series found there violates the primitivity condition, and thus is not an infinite series of vacua. This involves the K¨ahler moduli, which we are ignoring, so this example still counts as an infinite series by the definitions here.
+
+the resulting set can be seen to be compact, and can thus enclose a finite number of lattice points, the quantized fluxes which support supersymmetric vacua. The reason this argument does not prove finiteness is that the supersymmetry con ditions might change rank at some point Z, allowing ηN N¯ to develop approximate null vectors near this point. This is what happens in the example discussed by [15]. What we have argued is that it can only happen in a “D-limit.” The known example of a “D-limit” is in fact a decompactification limit (the large volume limit of the mirror Ia theory). If it is true that any D-limit is a decompactification limit, then we have shown that the number of fluxes supporting supersymmetric vacua (at fixed L) is finite after removing decompactification limits. To complete the argument, and show that the number of vacua is finite, one would need to show that for a given flux, the solutions of DW = 0 in C form an algebraic variety (have finitely many components). The reason this is true, is that the periods Π(z) do not have essential singularities, as is clear in explicit examples such as [21]. One could make more general arguments, but we shall not attempt this here. 3.2 Example of T 2
+
+All this may be too abstract for some readers’ taste. The example of the T 6/Z2 orientifold is discussed very concretely in [12, 15]. Many of the features of the problem can be seen by considering an even simpler toy example of “fluxes on T 2 with fixed dilaton”. We consider the family of superpotentials on T 2 complex structure moduli space,
+
+W = AZ +B with A = a1 + ia2 and B = b1 + ib2 each taking values inZ+iZ. One then has DW = 0 ↔ Z¯ = − B A . A “tadpole condition” analogous to ηNN¯ = L would be ImA∗B = L.
+
+The simplest way to count these vacua is to use SL(2,Z) invariance to set a2 = 0, and allow solutions for any Z satisfying ImZ > 0. This condition simply requires L > 0. We then have
+
+L = a1b2
+
+which determines a1. The remaining SL(2,Z) invariance can be used to bring b1 into the range 0 ≤ b1 < a1. Thus a vacuum is given by a choice of integer a1 dividing L, and a choice of b1 which takes |a1| possible values. We can furthermore take a1 > 0, taking into account a1 < 0 by multiplying this result by 2. The result is that the number of vacua for given L is
+
+Nvac(L) = 2σ(L) = 2 X k| L k,
+
+where σ(L) is a standard function discussed in textbooks on number theory, with the asymptotics
+
+X L≤ N σ(L) = π 2
+12 N 2 +O(NlogN)
+
+Let us compare this with the volume in charge space which supports supersymmetric vacua. Again, DW = 0 is solved by−Z¯ = B/A. Changing variables to (ρ,A) with B = ρA, one has
+
+Z d 2A d 2B δ(L− ImA∗B) =Z d 2A d 2ρ |A| 2 δ(L− |A| 2Imρ) = πLZ d 2ρ (Imρ)2 . (3.11)
+
+Since the integrand is invariant under ρ → −ρ¯, the constraints on the fundamental region for Z, translate to the same constraint on ρ. Thus, the volume is π 2L/3. which agrees with the L derivative of the previous computation. This illustrates both how the tadpole cancellation condition leads to a finite volume region in charge space, and that for large L the volume can be a good estimate of the number of vacua. However this direct approach is hard to carry out in general.
+
+3.3 Approximating the number of flux vacua by a volume We now discuss to what extent a sum over quantized fluxes, such as
+
+Nvac = X NRR,NNS∈Z Nvac(NRR,NNS)
+
+can be approximated by an integral,
+
+X NRR,NNS∈Z →Z
+
+2
+
+Y n+2 i=1
+
+dNRRi dNNSi. (3.12)
+
+Since the equations DW = 0 are independent of the overall scale ofN, one can scale L out of the problem, and
+
+X NRR,NNS∈Z ηNRRNNS=L Nvac(NRR,NNS) = X NRR0,NNS0∈Z/√L ηNRR0NNS0=1
+
+Nvac(NRR0,NNS0).
+
+Thus, one expects the integral to give the leading behavior for large L, meaning large compared to the other quantities in the problem. Two other quantities which clearly might become larger are K, the number of fluxes, and Π(z), the periods themselves, in extreme limits of moduli space. Thus these are the most obvious potential sources of problems. There are other subtleties as well. For the sum to be well approximated by an in tegral, the region in charge space containing solutions must be of the same dimension as the charge space. Thus, this may not work well for overdetermined systems of equa tions, such as DW = W = 0 which describes supersymmetric Minkowski vacua. Fur thermore, the region should not contain “tails” whose width (in any of the coordinates
+
+N α) runs off to zero for large N. Here are some illustrative examples in two dimen sions (M, N). In a case like M 2 + N 2 < N 2 max, for Nmax À 1 the estimate is quite good, and qualitatively not bad even for Nmax ∼ 1. On the other hand, in a case like 0 < MN < Nmax, the volume of the region is infinite, while the number of lattice points it contains is in fact finite. Finally, for N > 0 and 0 ≤ |M|N 2 < Nmax, while the volume goes as
+
+R
+
+dN/N 2 and is finite, the number of lattice points is in fact infi nite.
+
+Thus, justifying this approximation requires detailed consideration of the region in charge space containing supersymmetric vacua. The possibility that the volume diverges, while the number of vacua is finite, is best excluded by showing that the volume is finite. This was checked directly by G. Moore [33] in a related problem (attractor points in the large complex structure limit of the quintic [34]), and this result was some motivation for us to push through the analysis of section 4, which provides formulas which can be used to show finiteness. More subtle problems might arise, if the boundaries of the region were sufficiently complicated. In light of our previous arguments, this region can be described as follows: at a given z ∈ C, the constraints N~ · DΠ( ~ z) = 0 determine a linear subspace of charge space; the integral over C takes a union of these subspaces, while the constraint (3.3) can be reduced to a positive quadratic bound on N. This last condition is simple, while if we confine our attention to supersymmetric vacua in the interior of C, one might expect the resulting region to have relatively simple boundaries, with bad behavior again associated to “D-limits” in which ratios of periods are not bounded. We are already removing “D limits” from C as these vacua are unphysical, so this type of argument suggests that there will be no problems of this type. This could be made more precise, but we leave detailed considerations to future work. It will actually turn out that, at least in the examples we study, the total volume is finite, including the D-limits, and furthermore the volume associated to D-limits is small. This may be physically significant, along the lines of [35]. It is also mathematically convenient, because it means we do not have to specify the cutoff, which would necessarily be somewhat arbitrary; the total volume is also a good estimate for the number of physical vacua.
+
+3.4 Setup to compute volume of flux vacua We start by replacing the sum over fluxes by an integral, which can also be thought of as a complex integral 9
+
+(Imτ)− K K α=1 d 2N α. (3.13)
+
+To turn the problem into a computation in the gaussian ensemble (2.7), we implement the condition (3.3) by using the gaussian weight
+
+Nvac(α) = X vacua e− 2α(Imτ)ηαβN α RRN β NS 9Our convention is d 2N ≡ d(ReN)d(ImN) = (i/2)dNdN¯.
+
+= e− iαηαβN αN¯β
+
+(3.14)
+
+and then doing a Laplace transform in α, Nvac(L ≤ Lmax) ≡ X L≤ Lmax Nvac(L) = 1 2πiZ C e 2α(Imτ)Lmax Nvac(α). (3.15)
+
+Given (3.9), the sum (3.14) should converge for Reα > 0, and given a reasonable L depen dence (it will turn out to be power-like) can be continued to general α. The integral (3.15) can then be done by closing the contour with an arc at large Reα < 0. Since the argument which led to (3.9) was a bit subtle, we will not assume it in making the computation, but instead see it come out as follows. We can cut off large flux with a positive definite gaussian, taking as covariance
+
+Qαβ = iαηαβ + λδαβ, (3.16) and computing an Nvac(α,λ), in terms of a two-point function G(z1,z¯2)|α,λ = 1 λ2 −α2Ã −αe− K(z1,z¯2) +λ X α Πα(z1)Π∗α(z¯2)! . (3.17)
+
+If we find we can continue Nvac(α,λ) from large λ > 0 to λ → 0 along the real axis without encountering divergences, this will justify the claim. Assuming this works, the volume of flux vacua will be given in terms of the two-point function at α = 1 and λ = 0, as given in (2.18).
+
+## 4. Expectation
+
+values in gaussian ensembles
+
+We now discuss computation of expected numbers of vacua in a general gaussian ensemble of superpotentials. Many further results of this type can be found in [16].
+
+4.1 Expected supersymmetric index This counts vacua with the signs given by the fermion mass matrix, in other words detDiDjW. We can express it as an integral of a density, the expected index for su persymmetric vacua at the point z, which is
+
+dµI(z) =¿ δ 2n(DW(z)) detD 2W(z)À . (4.1)
+
+The determinant is present to produce a measure whose z integral counts each solution of DW = 0 with weight ±1. It is of the 2n×2n matrix
+
+D 2W =µ
+
+∂iDjW ∂iD¯¯jW∗ ¯∂¯iDjW ¯∂¯iD¯¯jW∗¶ . (4.2)
+
+At a critical pointDW = 0, it does not matter whether the outer derivative is covariantized.
+
+The simplest computation of this density within our ensembles is in terms of a con strained two-point function. It can be computed by implementing the delta function con straints with Lagrange multipliers in the integral, to obtain 1 N Z dµ[W] δ n(DW(z0))δ n(D¯W∗(z0)) Y i W(zi) Y j W∗(z¯j) =
+
+= X σY i Gz0(zi,z¯σ¯j)
+
+where
+
+N =Z dµ[W] δ n(DiW)δ n(D¯¯jW∗) = π K− n detQ det a,¯b hDaW(z0) D¯¯bW∗(z0)i (4.3)
+
+and
+
+Gz0(z1,z¯2) ≡¿ W(z1) W∗(z¯2)À DW(z0)=0 = G(z1,z¯2)−(D¯z¯ a 0G(z1,z¯0)) (DaD¯¯bG(z0,z¯0))− 1 (Dz b 0G(z0,z¯2)), (4.4) which is easily checked to satisfy D1Gz0 (z1, z¯2)|z1=z0 = D¯2Gz0(z1,z¯2)|z¯2=z¯0 = 0. In terms of this function, dµI(z) = det(Dz a 1Dz b 1D¯ z¯ c¯ 2D¯ z¯ d¯ 2Gz(z1,z¯2)) n|z1=z2=z. (4.5) For example, for n = 1, we have dµI(z) = 1 π D1D1D¯2D¯2G0(z1,z¯2)−D¯1D1D2D¯2G0(z1,z¯2) D1D¯2G(z1,z¯2) ¯¯¯¯ z1=z2=z .
+
+4.2 Geometric computations We proceed to compute the coincidence limits of covariant derivatives of G(z1,z¯2) and Gz(z1,z¯2) which appeared above. The first point to make, is that all quantities of the form
+
+Fab...| mn...(z0) ≡ e− κK(z,z¯)(D1aD1b...)(D¯2mD¯2n...)G(z1,z¯2)|z1=z2=z0 (4.6)
+
+(resp. Gz(z1,z¯2)) are tensors constructed from the K¨ahler form, curvature and its deriva tives. The K¨ahler potential itself does not appear. To see this, note that under the K¨ahler-Weyl transformation (2.2), we have G(z1, z¯2) → e κf(z1)+κf∗(z¯2)G(z1,z¯2) (resp. for Gz(z1,z¯2)). In other words, as is obvious from its definition (2.26), G transforms as a product of sections. The covariant derivatives respect this law, and thus F will be a tensor. Finally, all tensors which can be constructed from derivatives of K are of the stated form. From this, it will follow that any ensemble observable defined at a single point inC (say the density of a given type of vacuum), or as a single integral over C (say the distribution of cosmological constants), can be expressed in terms of the K¨ahler form, curvature and its derivatives. Let us proceed. We start with (2.4) and G(z1,z¯2) = e κK(z1,z¯2).
+
+Then
+
+D1aD2¯bG(z1,z¯2) = D1a ·κÃ ∂K(z1,z¯2)
+∂z¯ ¯b
+2 −
+
+∂K(z2,z¯2) ∂z¯ ¯b
+
+2 ! e κK(z1,z¯2) = κÃ ∂ 2K(z1,z¯2) ∂z a 1∂z¯ ¯b 2 + +κÃ ∂(K(z1,z¯2)−K(z1,z¯1)) ∂z a 1
+
+∂(K(z1,z¯2)−K(z2,z¯2)) ∂z¯ ¯b 2 !! e κK(z1,z¯2).
+
+Thus,
+
+DaD¯bG(z0,z¯0) = κ· ∂ 2K(z0,z¯0) ∂z a 0∂z¯ b 0 G(z0,z¯0) = κ·ga¯b ·G(z0,z¯0) (4.7)
+
+and
+
+1 N = π K− nκ− ne− nκK(detg)− 1.
+
+This determines (4.4). The calculation of Fabc¯d¯ is similar. We get
+
+Fab| c¯d¯ = e− κK(z0,z¯0)D1aD1bD¯2cD¯2d Gz(z1,z¯2)|z1=z0,z¯2=z¯0 = κ·µ ∂ 4K(z0,z¯0) ∂z a 0∂z b 0∂z¯ c 0∂z¯ d 0 − ∂ 3K(z0,z¯0) ∂z a 0∂z b 0∂z¯ m 0 g mn¯∂ 3K(z0,z¯0) ∂z n 0∂z¯ c 0∂z¯ d 0 +κ(gbc¯ga¯d +gac¯gb¯d)¶ = −κRac¯b¯d +κ 2(gbc¯ga¯d +gac¯gb¯d) (4.8)
+
+and
+
+Fa¯b| cd¯ = e− κK(z,z¯)D1aD¯ 1¯bD2cD¯ 2d¯Gz(z1,z¯2)|z1=z0,z¯2=z¯0 = κ 2 ga¯bgcd¯. (4.9) Note that the combination (4.8) vanishes for P n with κ = 1, or H n with κ = −1. For special geometry, using (2.21), we have
+
+c¯d¯= e 2KFabmF∗c¯¯dn¯g mn¯ , Despite the negative curvature this is manifestly positive. Finally, mixed correlators such as D1aD1bD2cD¯ 2¯dGz are zero, as there is no geometric invariant with this index structure.
+
+4.3 Result for the index density The index density is now obtained by substituting these results into (4.5). Let us do this for a unit normalized ensemble. The computation is most easily done by writing the determinant as a Grassmann integral, 10
+
+detD 2W =ZY i d 2ψ id 2θ i e θ aψ b∂aDbW+θ¯a¯ψ b∂¯a¯DbW+c.c.. Evaluating this in the gaussian ensemble produces ¿ detD 2WÀ = 1 πnZY i d 2ψ id 2θ i e θ a¯θ c¯ψ bψ¯d¯ Fabc¯d¯+θ a¯θ d¯ ψ cψ¯¯bFa¯bcd¯ = 1 πnZY i d 2ψ id 2θ i e− κθ a¯θ c¯ψ bψ¯d¯ Racb¯ d¯+κ 2gac¯θ a¯θ c¯gbd¯ψ bψ¯d¯ .
+
+since the term (4.9) cancels the “cross term” in (4.8) coupling gθψ¯. One can then introduce an orthonormal framee i αe¯
+
+¯j α¯δ αα¯ andchangevariablesθ i → e i αθ α. This produces a determinant which cancels the detg from Z. Thus one obtains dµI(z) = 1 πn det(−R+ κω·1) (4.10)
+
+where R is the curvature two-form, acting as a k ×k matrix on an orthonormal basis for ΩM, and 1 is the k ×k unit matrix. For example, in one dimension, it is
+
+dµI(z) = −R+ κω π
+
+, (4.11) where R is the curvature two-form. A more conceptual way to see this, and to check the precise normalization, is to observe that for C compact and κ positive, topological considerations determine (4.10) up to a possible total derivative. Its cohomology class must be
+
+[dµI] = cn(T∗C ⊗L), (4.12)
+
+the top Chern class of the bundle T∗C ⊗L in which DiW takes values. The combination −R+κω appearing in (4.10) is precisely the curvature of this bundle. On the other hand, the direct computation we just described cannot produce total derivative terms. Thus (4.10) is the exact result. While our result reproduces the natural density coming out of a much simpler topo logical argument, conceptually it is rather different. First of all, the topological argument gives the index for a single superpotential, while we have computed the expected index for an ensemble of superpotentials. Thus we will be able to use our result to compute a sum over flux sectors. Equally importantly, any given flux superpotential is not single valued on a fundamen tal region of the moduli space C. If one follows a loop around a singularity, it will undergo 10This is essentially the mass matrix for the fermions in the chiral superfields in the original supergravity.
+
+a monodromy to become a different superpotential, appropriate for a value of the fluxes related by a duality. To use the topological argument, one must go to a covering space on which the superpotential is single valued. However, such a covering space will not be noncompact, and cannot be compactified (the upper half plane is a good example). Thus, one cannot interpret the integral of (4.10) over a fundamental region as the index for a single superpotential; indeed its value will not usually be an integer. In our computation, (4.10) arises as an expected value for an ensemble of superpoten tials which is invariant under monodromy. This is why it is well defined on a fundamental region, and why it makes sense to integrate it over a fundamental region. Finally, the topological argument cannot be generalized to other quantities such as the actual numbers of vacua. Let us proceed to do this for our computations.
+
+4.4 Expected numbers of supersymmetric vacua We would now like to compare the index we just computed to the actual numbers of supersymmetric vacua. The obvious way to do this would be to compute
+
+dµvac(z) =¿ δ(DW(z))| detD 2W(z)|À . (4.13)
+
+Of course this integral can not be done by Wick’s theorem, and analytic results are more difficult. Thepoint which makes this feasible, is that we are still only doing gaussian integrals. A convenient way to phrase the computation, following the work of Shiffman and Zelditch [36, 16], is to define a joint probability distribution for the random variables
+
+ξij = ∂iDjW(z), ξ0¯ij = ¯∂¯iDjW(z) = g¯ijW(z), (4.14)
+
+under the constraint DW(z) = 0. As we implicitly used in writing (4.4), this is a gaussian distribution; for example
+
+Fab| c¯¯d = e− κK(z,z¯) ¿ DaDbW(z)D¯c¯D¯ d¯W∗(z¯)À
+
+can be reproduced by the gaussian distribution
+
+Z d 2ξ e− (F − 1) abc¯d¯ ξabξ¯ c¯d¯.
+
+Thus, expectation values of any function of D 2W(z), including the non-analytic function in (4.13), are functions of the geometric data Fabc¯¯d(z) and Fa¯bc¯d(z) we already computed, which could be found explicitly by doing finite dimensional integrals. Let us consider the case n = 1. We denote the random variables (4.14) as ξ and ξ0. We then need to compute the integral
+
+I = 1 π2 Z d 2ξd 2ξ0 e−| ξ| 2 −| ξ0| 2 |F11¯1¯1|ξ| 2 −F1¯11¯1|ξ0| 2| .
+
+This is non-analytic in F; for F11¯1¯1/F1¯11¯1 < 0 it is |F11¯1¯1 −F1¯11¯1| , 1
+κg1¯1 while for F11¯1¯1/F1¯11¯1 > 0 it is
+
+|  |  | 2 F 1 11¯1¯1 | 2 +F 1¯11¯1 |  |  |
+| --- | --- | --- | --- | --- | --- |
+|  |  | I = | . |  |  |
+|  |  | κg1¯1 |F11¯1¯1 | + F1¯11¯1| |  |  |
+
+This is already a little complicated, and clearly the analogous expressions for higher dimensions will be rather complicated. However, a simple consequence of this which is surely true in higher dimensions, is that if the curvature (say the holomorphic sectional curvature) stays bounded, then the ratio of the total number of vacua, to the index, will be bounded. It is probably most interesting to get an upper bound on the total number of vacua (since the index serves as a lower bound). One way to do this would be to use Hadamard’s inequality, which applied to the matrix at hand takes the form
+
+| detD 2W| ≤ Y i ( X j |ξij| 2 + |ξ0i¯j | 2).
+
+Using ξ0i¯j = gi¯jW and hW∗(z)D 2W(z)i = 0, this can be brought to a reasonably simple form. In k = 1 this gives I≤ |F11¯1¯1| + |F1¯11¯1|.
+
+4.5 Nonsupersymmetric vacua
+The most interesting quantity is the number of metastable (i.e. tachyon-free) vacua, given
+by
+
+dµX(z) =Z [dµ(K,W)]ZC [dz]δ (2n)(V0)(detV00) θ(V00) (4.15) Nms =ZC
+
+where V is given by (2.6), and θ(V00) is the constraint that the matrix V00 is positive definite. (As it stands, this includes supersymmetric vacua as well.) Of course there are simplifications of this; for example by leaving out the θ(V00) but keeping the signed determinant one would get a Morse-type index for V, counting all vacua with signs. Compared with the supergravity index, the main additional complication in computing this index is that the condition V0 = 0 is quadratic in the flux N. This can be treated by Lagrange multipliers, in a way similar to how we are treating the constraint (3.3). One can also control other quantities with quadratic dependence on the flux this way, such as the cosmological constant. We postpone further discussion to [17]. The main point we make here, is that these results are also determined in terms of local tensors constructed from the K¨ahler metric. Since V00 ∼ D 3WDW, they can involve up to six derivatives of the Green’s function, which will bring in up to two derivatives of the Riemann tensor.
+
+## 5. Application to
+
+counting IIb flux vacua
+
+The formalism we set up can be applied directly to compute the index of flux vacua, in the approximation where we take the fluxes NRR +τNNS to be general complex numbers. In the full problem, one must also solve the equation DτW = 0. Perhaps the most straightforward way to do this is to take Πi and τΠi as the basis of periods. We then need to redo the above calculations taking the gaussian integral over real fluxes. This should lead to the same topological density (4.10), because we can again argue by comparison to the case of compact C (one still needs to check that extra total derivative terms cannot appear). If so, the final result should be the same as before, taking C = Mc(M) ×H as the configuration space. This computation will appear in [17]. Here, we will reach the same result, by a shorter argument using special features of the case at hand. 5.1 Flux vacua at fixed τ As discussed in section 3, to check whether the previous results are appropriate for counting flux vacua, we need to redo the computations with the two-point function (3.17), and study the λ → 0 limit. Now, assuming the periods Π and their derivatives stay finite, the only place where divergences can enter the final result is in the overall normalization of the gaussian inte gral, (4.3). Thus we need to compute (4.7) using (3.17). This is
+
+DaD¯bG(z, z¯)|α,λ = 1 λ2 − α2 Ã −ακ ga¯b e κK(z,z¯) +λ X α Ma,αM∗¯b,α! (5.1)
+
+where
+
+Ma,α(z) = DaΠα(z). (5.2)
+
+The prefactor 1/(λ 2−α 2) cancels between numerator and denominator in (4.5), so it causes no problem. Since the second term is a product MM†, it is a non-negative and hermitian matrix. Since κ = −1, −κga¯b is positive definite and hermitian as well. Thus, for real α > 0, (5.1) is a positive definite hermitian matrix. Thus, in this case the integral is finite. On the other hand, for α < 0, (5.1) can have zeroes and the integral will generally diverge. This matches the expectations from section 3, namely that since supersymmetric vacua satisfy (3.3), the integral should only be finite for α > 0. 11 Redoing the computation of subsection 4.4, with the correct normalizations, produces ¿ δ(DW) detD 2WÀ = π K− n(−1) K/2 (α Imτ)K det(−R−ω).
+
+11 Note that we did not yet enforce DτW = 0, so G will have a (0, 3)-form component, and the quadratic form is still indefinite. What this argument is actually showing is that the signature ofQ on the constrained subspace DW = 0 does not change as we take λ → 0. Thus, carefully doing the resulting integral by analytic continuation should lead to an extra i in the next two formulas. This is not relevant for the real problem with DτW = 0 enforced.
+
+Doing the Laplace transform then produces
+
+Ivac (fixed τ )(L ≤ Lmax) = (2πLmax) K(−1) K/2 πnK! det(−R−ω) (5.3)
+
+where the integral is taken over a fundamental region of the duality group in C. As the simplest check of this result, the T 2 result π 2L 2/6 follows directly from (2.23).
+
+5.2 Treating the dilaton-axion τ From (3.6), we can implement the DτW = 0 condition by taking dµI(z,τ) = 4(Imτ) 2 ¿ δ 2n(DW(z))δ (2)(N¯ · Π) det i,j,τ,τ¯ D 2W(z)À . (5.4) The prefactor arises from extracting 2 Imτ from each of the two constraints (3.6). The new constraint can be solved along the same lines as (4.4). It leads to an additional factor 1/πG in Z. We now need to compute an (2n+ 2)× (2n+ 2) determinant of the form (4.2). This contains terms as before, and new terms h ¯∂τ¯DτW∂τD¯τW∗i = (gττ¯) 2G; h∂τDτW¯∂τ¯D¯τW∗i = (gττ¯) 2G; h∂τDiW¯∂τ¯D¯¯jW∗i = gττ¯gi¯jG. In fact, all of these terms are the same as would be obtained by using the same formu lae (4.8), (4.9) for the τ derivatives, with the two-point function G(z1, τ1; z¯2, τ¯2) = (τ1 − τ¯2)G(z1, z¯2). Thus, one can follow the same reasoning which led to (4.10), to obtain the same formula, but now taking as configuration space C = Mc ×H, and using the direct product K¨ahler metric. The only problem with this reasoning is that the DτW constraint couples N¯ to Π. This leads to corrections to the two-point function proportional to H = η αβΠαΠβ as in (2.19). The resulting constrained two-point function is G τ z(z1,z¯2) = Gz(z1,z¯2)−e K(z,z¯)H(z1,z)H∗(z¯,z¯2). On the other hand, by virtue of (2.20), the new term in Gτ vanishes to fifth order in the coincidence limit z1 = z2 = z0, and hence does not contribute to (4.1). 12 Thus, the expected index in this case, as suggested by general arguments, is (5.3) modified as we just described, to a form on the full configuration space. One could follow the same steps with the numbers of supersymmetric or nonsuper symmetric vacua discussed in section 4. Since the entire covariance is proportional to α, it scales out of all of the integrals in the same way, and the Laplace transform works in the same way. So, we get precisely the same power-like L dependence for all of these quantities, multiplied by different geometric factors. 12 This simplification, that the holomorphic two-point function drops out, is not shared by more general computations, such as the actual number of vacua [17].
+
+5.3 Finiteness of the number of vacua The upshot of all of this, is a formula which we claim estimates the number of physical (i.e. truly four dimensional) flux vacua in IIb orientifold compactification with fluxes, in terms of the geometry of CY moduli space:
+
+Ivac(L ≤ Lmax) = (2πLmax) K(−1) K/2 πn+1K! det(−R−ω). (5.5)
+
+While there are many points in our arguments which could be refined, it is already inter esting to ask if the geometric quantity which appears is finite. Some time ago, Horne and Moore conjectured that volumes of these moduli spaces are finite [27], and pointed out possible consequences of this for stringy cosmology. Granting this, the remaining issue is whether the curvature dependence can lead to divergences. An example in which the Riemann curvature diverges is the neighborhood ofa conifold point [21]. This point is at finite distance, it is not a “D-limit” by our formal definition, and physically does not correspond to decompactification. Thus an infinite number of vacua near this point would be a problem. We quote results for the complex structure moduli space of the mirror of the quintic CY [21] (of course conifold points on other CY’s should have the same behavior). This is a one dimensional moduli space; we quote the K¨ahler and curvature two-forms, in terms of a coordinate z which vanishes at the conifold point:
+
+ωzz¯ = −a 2log |z| ; Rzz¯ = 1 2a2|z|2(log |z|)2
+
+(here a is a known constant). While R is singular, it is integrable. This is a little tricky: changing variables as z = exp2πiu, one has
+
+Ruu¯ =
+
+1 2a2(Imu)2 which at first sight looks problematic. On the other hand, the neighborhood ofz = 0 maps to Imu À 0 and |Reu| < 1 2, and the integral
+
+R
+
+R over this region is finite. This looks very much like (2.23), and this is no coincidence. One can explicitly count flux vacua for the superpotential
+
+W = Az +B(z logz + const)
+
+along the same lines as we did for T 2. In this case, one finds vacua at u = −A/B + O(exp −|A/B|), and imposing the same conditions we did there leads to the same results. Of course, with more moduli, there are many more complicated degenerations, but on the strength of this example it is at least reasonable to hope for finiteness more generally. One might try to argue for finiteness in degeneration limits, from the idea that the dual gauge theories at these singularities are conventional gauge theories and must have finitely many vacua. This is probably true, but it is not clear to us how to make this precise. One would still need to bring a condition like (3.3) into the argument. Also, the dual meaning of all of the flux parameters, in particular the choice of NS flux in the examples of Gopakumar and Vafa [37], has never been fully explained.
+
+5.4 The case of K À L À 1. Nothing seems to be known about total volumes or curvatures of Calabi-Yau moduli spaces, so it is hard to know how important the geometric factor is. The examples of complex tori and abelian varieties discussed in section 2 suggest that it is important, but subdominant to the large factorial in the denominator, which rapidly sends the volume to zero forK > L. This was something of a surprise to us, but in retrospect has a simple explanation. Intu itively, one can think of the computation (and particularly the Laplace transform (3.14)) as summing over the various distributions of the total flux L among sets of cycles. In some sense, the positivity bound (3.9) must hold not just for the total flux, but among pairs of cycles as well. Thus the integral over these distributions produces a factor (the volume of a K-simplex) which falls off rapidly. An example which illustrates this is to consider k copies ofT 2, wherewe take as periods the K = 2k one-forms. This can be done using the previous formalism (note that G 6= e− K in this case; rather G =
+
+P
+
+Gi). One can also do this directly: distributing the flux L among them, leads to
+
+Nvac(L ≤ Lmax) = X L1+··· +Lk≤ LY
+
+Nvac(Lk)
+
+k i=1 dLi θ(L− X i Li) Y k i=1µ π 2Li 3 ¶ ∼µ π 2 3¶ k L 2k (2k)! = (4π) kL 2k (2k)! vol(F) k
+
+in agreement with the above. For this special case, since the flux on each T 2 must separately satisfy Li ≥ 1, there are in fact no vacua for K > 2L, and this estimate is good. However, in more general examples, which do not factorize in the sameway, there is no reason to expect any analogous constraint. We should say that we have not shown that there is not sucha constraint; rather that our estimate cannot be regarded as evidence for it. In general, while the volume does fall off for K > L, this is probably not a good estimate for the actual number of vacua. The most obvious consistency condition we can test is
+
+Ivac(L) < X L0≤ L Ivac(L0) ∼ L K Ivac(L)
+
+if we consider the volume, but this is obviously false for the actual number of vacua and K ≥ L. The problem is that for K ∼ L, many cycles will have zero or one flux, and the discreteness of the fluxes cannot be ignored. Perhaps the simplest way to try to get a better estimate is by adding counts of flux vacua with some subset of the fluxes set to zero by hand. This could be done by the same techniques, with the difference that we leave some periods out of (2.18). If vacua with these fluxes set to zero exist, they will show up in the corresponding volume, while if they do not, either this modified volume should be small, or else the consistency condition we discussed at the start of the section should fail. Some preliminary study of this point suggests that this will not happen, so that each possible choice of subset of K−n fluxes to set to zero will give a non-zero result. If we assume this, and furthermore assume that the geometric factor is at most expo nential in n, we find
+
+Nvac ∼
+
+X K n=1 µ
+
+K n ¶
+
+(2πcL) n n! ∼ e√2πcKL for K À L. (5.6)
+
+This is an intriguing and suggestive possibility, with hints of a dual string description, but at the moment is no more than that.
+
+5.5 Numbers Our general conclusion is that (5.5) is a good lower bound for the number of flux super symmetric vacua for L À K À 1, and that a reasonable estimate for the total number is probably (5.5) multiplied by a factor c K with some c ∼ 1. It would be interesting to work out the leading corrections at large L, to develop a good method for the case K À L À 1, and to check these results against other methods. Let us do some low dimensional cases of diagonal tori and abelian varieties. Because these moduli spaces are symmetric spaces, one has
+
+det(−R−ω·1) = c·volω = C· det(−R)
+
+in terms of constant combinatoric factors c or C, computable at one point in moduli space. For the diagonal torus T 2k D , R = −2ω, and
+
+det(−R−ω·1) = Y k i=1 (2ωi − X k j=1 ωj) = c· Y k i=1 ωi
+
+with c = −k! and ωi the K¨ahler form of the i’th T 2. Using (2.24), this gives Ivac = (−1) K/2+1 (2πL) K (12)kK!
+
+.
+
+In this case, the dilaton-axion lives in another copy ofT 2, so the same result (withk → k+1) can be used to count vacua with arbitrary τ. For the abelian variety TA, it is simpler to express the integrand using C and det(−R), since the Euler character χ suffers less from normalization ambiguities. Thus, we have
+
+Ivac = (2πL) K(−1) K/2 K! ·C·χF×H .
+
+We did the computation of C for T 6 A using computer algebra, obtaining det(−R−ω)|F = 4 det(−R)|F
+
+and
+
+det(−R−ω)|F×H = 7
+4 det(−R)|F ×ωH .
+
+which, combined with χ3 = 1/181440 from [32] and the volume π/12 of H, produce the expected index for vacua on T 6/Z2 with symmetrized period matrix,
+
+Ivac =
+
+7· (2πL) 20 4· 181440· 12· 20! ∼ 4· 10 21 for L = 32. We suspect this is in fact a reasonable estimate for the number of supersymmetric flux vacua on the T 6/Z2 orientifold, but to really make this precise, two more points should be discussed. One issue, which does not arise for compactification on general Calabi-Yau, is the primitivity condition: we should take this into account, and remove the restriction to symmetric period matrices. Since these conditions are also linear, this is computable using the same techniques, whichwouldbea nice exercise. We suspect thiswould lead to the same formula (5.5), integrated over the full moduli space of metrics SL(6,Z)\GL(6,R)/ SO(6,R). An issue of more general importance is that we need to discuss stabilization of the K¨ahler moduli. This is not very well understood at present, but (as discussed in [24]) we would agree with the general arguments given by Kachru, Kallosh, Linde and Trivedi [11] that nonperturbative effects should do this in many compactifications, and that this can be understood in a controlled way at large volume and weak coupling. At present it remains an important problem to find models in which this actually works, but granting that it can, the question might arise as to what fraction of these 4· 10 21 vacua sit at large volume and weak coupling, so that their existence could be proven using present techniques. The fraction at weak coupling follows from the results here, which as we discussed give the distribution of vacua in moduli space, including the dilaton-axion. In particular, the number of vacua with coupling g 2 s < ², is obtained by simply restricting the integral (2.23) to this region in coupling space, giving
+
+Ivac|g2 s<² ∼ 3Z 1 ² dτ2
+τ 2
+2
+
+Ivac ∼ 3²Ivac.
+
+In other words, the distribution is essentially uniform at weak coupling, so insisting on weak coupling does not dramatically reduce the number of vacua. As discussed in [11, 24], the fraction which sit at large volume is essentially the fraction with small e K|W| 2 according to the analysis here. It turns out [38] that this distribution is also uniform near zero, as will be shown in [17], and this “cut” also leaves large numbers of vacua. It could still be that imposing further constraints, such as acceptable supersymmetry breaking, or metastability, dramatically lower the number of vacua. Anyways, we have gone some distance towards justifying the claims that the number of flux vacua is large, and that it is useful to study their distribution statistically.
+
+## Acknowledgments
+
+We thank B. Acharya, F. Denef, B. Doyon, P. Fonseca, G. Moore, S. Murthy, P. Sar nak, B. Shiffman, S. Trivedi and S. Zelditch for useful conversations and correspondence. We particularly thank F. Denef and G. Moore for numerous critical remarks, which are addressed in the revised version. This research was supported in part by DOE grant DE-FG02-96ER40959.
+
+## References
+
+[1] A. Strominger, Superstrings with torsion, Nucl. Phys. B 274 (1986) 253. [2] B.S. Acharya, A moduli fixing mechanism in M-theory, hep-th/0212294. [3] K. Becker and M. Becker, M-theory on eight-manifolds, Nucl. Phys. B 477 (1996) 155 [hep-th/9605053]. [4] R. Bousso and J. Polchinski, Quantization of four-form fluxes and dynamical neutralization of the cosmological constant, J. High Energy Phys. 06 (2000) 006 [hep-th/0004134]. [5] G.L. Cardoso et al., Non-kaehler string backgrounds and their five torsion classes, Nucl. Phys. B 652 (2003) 5 [hep-th/0211118]. [6] K. Dasgupta, G. Rajesh and S. Sethi, M-theory, orientifolds and g-flux, J. High Energy Phys. 08 (1999) 023 [hep-th/9908088]. [7] A.R. Frey and J. Polchinski, N = 3 warped compactifications, Phys. Rev. D 65 (2002) 126009 [hep-th/0201029]. [8] S.B. Giddings, S. Kachru and J. Polchinski, Hierarchies from fluxes in string compactifications, Phys. Rev. D 66 (2002) 106006 [hep-th/0105097]. [9] M. Grana and J. Polchinski, Gauge/gravity duals with holomorphic dilaton, Phys. Rev. D 65 (2002) 126005 [hep-th/0106014]. [10] S. Gurrieri, J. Louis, A. Micu and D. Waldram, Mirror symmetry in generalized Calabi-Yau compactifications, Nucl. Phys. B 654 (2003) 61 [hep-th/0211102]. [11] S. Kachru, R. Kallosh, A. Linde and S.P. Trivedi, De Sitter vacua in string theory, Phys. Rev. D 68 (2003) 046005 [hep-th/0301240]. [12] S. Kachru, M.B. Schulz and S. Trivedi, Moduli stabilization from fluxes in a simple IIB orientifold, J. High Energy Phys. 10 (2003) 007 [hep-th/0201028]. [13] S. Kachru, M.B. Schulz, P.K. Tripathy and S.P. Trivedi, New supersymmetric string compactifications, J. High Energy Phys. 03 (2003) 061 [hep-th/0211182]. [14] J. Polchinski and A. Strominger, New vacua for type-II string theory, Phys. Lett. B 388 (1996) 736 [hep-th/9510227]. [15] P.K. Tripathy and S.P. Trivedi, Compactification with flux on K3 and tori, J. High Energy Phys. 03 (2003) 028 [hep-th/0301139]. [16] M.R. Douglas, B. Shiffman and S. Zelditch, work in progress. [17] F. Denef and M.R. Douglas, to appear.
+
+[18] D.-E. Diaconescu, G.W. Moore and E. Witten, A derivation of K-theory from M-theory, hep-th/0005091. [19] S. Gukov, C. Vafa and E. Witten, CFT’s from Calabi-Yau four-folds, Nucl. Phys. B 584 (2000) 69 [hep-th/9906070]. [20] S. Gukov, Solitons, superpotentials and calibrations, Nucl. Phys. B 574 (2000) 169 [hep-th/9911011]. [21] P. Candelas, X.C. De La Ossa, P.S. Green and L. Parkes, A pair of Calabi-Yau manifolds as an exactly soluble superconformal theory, Nucl. Phys. B 359 (1991) 21. [22] A.M. He and P. Candelas, On the number ofcomplete intersection Calabi-Yau manifolds, Commun. Math. Phys. 135 (1990) 193. [23] M.R. Douglas, Lecture at JHS60, October 2001, Caltech. Available on the web at http://theory.caltech.edu. [24] M.R. Douglas, The statistics of string/M theory vacua, J. High Energy Phys. 05 (2003) 046 [hep-th/0303194]. [25] P. Bleher, B. Shiffman and S. Zelditch, Poincar´e-Lelong approach to universality and scaling ofcorrelators between zeroes, Commun. Math. Phys. 208 (2000) 771. [26] S. Zelditch, Asymptotics ofpolynomials and eigenfunctions, math.CA/0208104. [27] J.H. Horne and G.W. Moore, Chaotic coupling constants, Nucl. Phys. B 432 (1994) 109 [hep-th/9403058]. [28] J. Wess and J. Bagger, Supersymmetry and supergravity, Princeton University Press, Princeton 1983. [29] E. Witten and J. Bagger, Quantization of newton’s constant in certain supergravity theories, Phys. Lett. B 115 (1982) 202. [30] A. Strominger, Special geometry, Commun. Math. Phys. 133 (1990) 163. [31] B.R. Greene, A.D. Shapere, C. Vafa and S.-T. Yau, Stringy cosmic strings and noncompact Calabi-Yau manifolds, Nucl. Phys. B 337 (1990) 1. [32] C.L. Siegel, Symplectic geometry, Academic Press, New York 1964. [33] G.W. Moore, private communication. [34] G.W. Moore, Arithmetic and attractors, hep-th/9807087. [35] T. Banks, M. Berkooz, S.H. Shenker, G.W. Moore and P.J. Steinhardt, Modular cosmology, Phys. Rev. D 52 (1995) 3548 [hep-th/9503114]. [36] P. Bleher, B. Shiffman, S. Zelditch, Universality and scaling ofcorrelations between zeros on complex manifolds, Invent. Math. 142 (2000) 351 [math-ph/9904020]. [37] R. Gopakumar and C. Vafa, On the gauge theory/geometry correspondence, Adv. Theor. Math. Phys. 3 (1999) 1415 [hep-th/9811131]. [38] M.R. Douglas, talks at Strings 2003 and at the 2003 Durham workshop on String Phenomenology.

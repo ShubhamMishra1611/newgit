@@ -1,0 +1,127 @@
+
+==========================================================================================
+0. sympy minisuperspace check of the 4d Einstein-frame kinetic terms (HKTT eq. 2.5)
+==========================================================================================
+  L10 (after parts, Einstein-frame variables) - 2*L4(target) = 0
+  -> canonical fields tauhat = sqrt(2) ln tau, rhohat = sqrt(3/2) ln rho confirmed
+
+  term                 V_E ~ rho^a tau^b      k = (k_rhohat, k_tauhat)     |k|     sign  theory
+  R6(<0 curv)          a= -1.0 b= -2     (+0.8165, +1.4142)       1.6330   +    II
+  R6(>0 curv)          a= -1.0 b= -2     (+0.8165, +1.4142)       1.6330   -    II
+  H3                   a= -3.0 b= -2     (+2.4495, +1.4142)       2.8284   +    II
+  F0                   a= +3.0 b= -4     (-2.4495, +2.8284)       3.7417   +    IIA
+  F1                   a= +2.0 b= -4     (-1.6330, +2.8284)       3.2660   +    IIB
+  F2                   a= +1.0 b= -4     (-0.8165, +2.8284)       2.9439   +    IIA
+  F3                   a= +0.0 b= -4     (-0.0000, +2.8284)       2.8284   +    IIB
+  F4                   a= -1.0 b= -4     (+0.8165, +2.8284)       2.9439   +    IIA
+  F5                   a= -2.0 b= -4     (+1.6330, +2.8284)       3.2660   +    IIB
+  F6                   a= -3.0 b= -4     (+2.4495, +2.8284)       3.7417   +    IIA
+  D4                   a= -1.0 b= -3     (+0.8165, +2.1213)       2.2730   +    IIA
+  O4                   a= -1.0 b= -3     (+0.8165, +2.1213)       2.2730   -    IIA
+  D5                   a= -0.5 b= -3     (+0.4082, +2.1213)       2.1602   +    IIB
+  O5                   a= -0.5 b= -3     (+0.4082, +2.1213)       2.1602   -    IIB
+  D6                   a= +0.0 b= -3     (-0.0000, +2.1213)       2.1213   +    IIA
+  O6                   a= +0.0 b= -3     (-0.0000, +2.1213)       2.1213   -    IIA
+  D7                   a= +0.5 b= -3     (-0.4082, +2.1213)       2.1602   +    IIB
+  O7                   a= +0.5 b= -3     (-0.4082, +2.1213)       2.1602   -    IIB
+  D8                   a= +1.0 b= -3     (-0.8165, +2.1213)       2.2730   +    IIA
+  O8                   a= +1.0 b= -3     (-0.8165, +2.1213)       2.2730   -    IIA
+  D9                   a= +1.5 b= -3     (-1.2247, +2.1213)       2.4495   +    IIB/typeI
+  O9                   a= +1.5 b= -3     (-1.2247, +2.1213)       2.4495   -    IIB/typeI
+  D3                   a= -1.5 b= -3     (+1.2247, +2.1213)       2.4495   +    IIB
+  O3                   a= -1.5 b= -3     (+1.2247, +2.1213)       2.4495   -    IIB
+  NS5                  a= -2.0 b= -2     (+1.6330, +1.4142)       2.1602   +    II
+  Qflux                a= +1.0 b= -2     (-0.8165, +1.4142)       1.6330   +-   II(nongeom)
+  Rflux                a= +3.0 b= -2     (-2.4495, +1.4142)       2.8284   +-   II(nongeom)
+  Casimir              a= -2.0 b= -4     (+1.6330, +2.8284)       3.2660   +-   any
+  Lambda10(1-loop)     a= +3.0 b= -4     (-2.4495, +2.8284)       3.7417   +    nonSUSY
+  dil.tadpole(tree)    a= +0.0 b= -2     (-0.0000, +1.4142)       1.4142   +    formal
+
+  min over all terms of k_tauhat = 1.4142  (sqrt2 = 1.4142): every term has dilaton coupling >= sqrt2 [STT 2303.03418 eq. II.3 at d=4]
+
+==========================================================================================
+1. All-positive combinations: late-time slope = distance from origin to the convex hull
+==========================================================================================
+  IIA geometric (R6,H3,F0..F6 even,D4,D6,D8,NS5):
+      min slope gamma = 1.6222   closest point [0.6446 1.4886]  realised by ['R6(<0 curv)', 'F0', 'D8']
+      epsilon = gamma^2/2 = 1.3158;  w_inf = -1 + gamma^2/3 = -0.1228;  along the attractor: d ln rho/d s = +0.324, d ln g_s(10d)/d s = -0.162
+  IIB geometric (R6,H3,F1,F3,F5,D3,D5,D7,D9,NS5):
+      min slope gamma = 1.6036   closest point [0.5249 1.5152]  realised by ['R6(<0 curv)', 'D9']
+      epsilon = gamma^2/2 = 1.2857;  w_inf = -1 + gamma^2/3 = -0.1429;  along the attractor: d ln rho/d s = +0.267, d ln g_s(10d)/d s = -0.267
+  IIA geometric + Casimir(+):
+      min slope gamma = 1.6222   closest point [0.6446 1.4886]  realised by ['R6(<0 curv)', 'F0', 'D8']
+      epsilon = gamma^2/2 = 1.3158;  w_inf = -1 + gamma^2/3 = -0.1228;  along the attractor: d ln rho/d s = +0.324, d ln g_s(10d)/d s = -0.162
+  IIB geometric + Casimir(+):
+      min slope gamma = 1.6036   closest point [0.5249 1.5152]  realised by ['R6(<0 curv)', 'D9']
+      epsilon = gamma^2/2 = 1.2857;  w_inf = -1 + gamma^2/3 = -0.1429;  along the attractor: d ln rho/d s = +0.267, d ln g_s(10d)/d s = -0.267
+  + non-SUSY 10d terms (Lambda10 1-loop, D9-like):
+      min slope gamma = 1.6036   closest point [0.5249 1.5152]  realised by ['R6(<0 curv)', 'D9']
+      epsilon = gamma^2/2 = 1.2857;  w_inf = -1 + gamma^2/3 = -0.1429;  along the attractor: d ln rho/d s = +0.267, d ln g_s(10d)/d s = -0.267
+  + non-geometric Q,R fluxes (positive):
+      min slope gamma = 1.4142   closest point [0.     1.4142]  realised by ['R6(<0 curv)', 'H3', 'NS5', 'Qflux', 'Rflux']
+      epsilon = gamma^2/2 = 1.0000;  w_inf = -1 + gamma^2/3 = -0.3333;  along the attractor: d ln rho/d s = +0.000, d ln g_s(10d)/d s = -0.707
+  + formal tree-level dilaton tadpole:
+      min slope gamma = 1.4142   closest point [-0.      1.4142]  realised by ['R6(<0 curv)', 'H3', 'NS5', 'Qflux', 'Rflux', 'dil.tadpole(tree)']
+      epsilon = gamma^2/2 = 1.0000;  w_inf = -1 + gamma^2/3 = -0.3333;  along the attractor: d ln rho/d s = -0.000, d ln g_s(10d)/d s = -0.707
+
+  single-term slopes (each alone, positive):
+     R6(<0 curv)        |k| = 1.6330
+     NS5                |k| = 2.1602
+     H3                 |k| = 2.8284
+     D9                 |k| = 2.4495
+     D8                 |k| = 2.2730
+     D7                 |k| = 2.1602
+     D6                 |k| = 2.1213
+     F0                 |k| = 3.7417
+     F1                 |k| = 3.2660
+     Casimir            |k| = 3.2660
+     Lambda10(1-loop)   |k| = 3.7417
+     Qflux              |k| = 1.6330
+
+  pairwise hull distances among the low-lying positive terms (all-positive pairs):
+     H3                 + Qflux             : gamma = 1.4142
+     NS5                + Qflux             : gamma = 1.4142
+     R6(<0 curv)        + Qflux             : gamma = 1.4142
+     R6(<0 curv)        + D9                : gamma = 1.6036
+     R6(<0 curv)        + D8                : gamma = 1.6222
+     R6(<0 curv)        + F0                : gamma = 1.6222
+     R6(<0 curv)        + Lambda10(1-loop)  : gamma = 1.6222
+     D4                 + Qflux             : gamma = 1.6222
+     Casimir            + Qflux             : gamma = 1.6330
+     D5                 + Qflux             : gamma = 1.6330
+     D6                 + Qflux             : gamma = 1.6330
+     D7                 + Qflux             : gamma = 1.6330
+
+==========================================================================================
+2. Mixed-sign combinations: stable scaling fixed points of the 2303.03418 autonomous system
+==========================================================================================
+  negative-capable terms: ['R6(>0 curv)', 'O4', 'O5', 'O6', 'O7', 'O8', 'O9', 'O3', 'Qflux', 'Rflux', 'Casimir']
+  checked 5258 combinations (1 positive + 1 negative [+1 positive]) 
+  NONE: no stable mixed-sign scaling solution with V>0 and epsilon<=1 among these combinations.
+
+  lowest-epsilon STABLE two-term (one +, one -) scaling attractors with V>0:
+  number of stable 2-term mixed attractors found: 0
+
+==========================================================================================
+3. ODE check of the convex-hull prediction (random initial data, 60 e-folds)
+==========================================================================================
+  IIA geometric (R6,H3,F0..F6 even,D4,D6,D8,NS5: late-time epsilon from ODE = [1.40000000e-03 1.40000000e-03 1.30884645e+12 1.50000000e-03
+ 1.40000000e-03]  vs hull prediction gamma^2/2 = 1.3158
+  IIB geometric (R6,H3,F1,F3,F5,D3,D5,D7,D9,NS5: late-time epsilon from ODE = [1.60000000e-03 1.40000000e-03 1.29312291e+12 1.50000000e-03
+ 1.90000000e-03]  vs hull prediction gamma^2/2 = 1.2857
+  + non-geometric Q,R fluxes (positive)        : late-time epsilon from ODE = [3.40000000e-03 3.30000000e-03 6.63340200e+11 3.30000000e-03
+ 6.49925077e+11]  vs hull prediction gamma^2/2 = 1.0000
+
+==========================================================================================
+4. Comparison with bounds and with DESI DR2 exponential quintessence (2504.04226)
+==========================================================================================
+  TCC 2/sqrt((d-1)(d-2)) [1909.11063]                            gamma = 0.8165:  (gamma - 0.698)/0.173 = +0.68 sigma   [Omega_K free: (gamma-0.722)/0.182 = +0.52]
+  strong/asymptotic 2/sqrt(d-2) [2101.11617]                     gamma = 1.4142:  (gamma - 0.698)/0.173 = +4.14 sigma   [Omega_K free: (gamma-0.722)/0.182 = +3.80]
+  hull min: IIA geometric (R6,H3,F0..F6 even,D4,D6,D8,NS5)       gamma = 1.6222:  (gamma - 0.698)/0.173 = +5.34 sigma   [Omega_K free: (gamma-0.722)/0.182 = +4.95]
+  hull min: IIB geometric (R6,H3,F1,F3,F5,D3,D5,D7,D9,NS5)       gamma = 1.6036:  (gamma - 0.698)/0.173 = +5.23 sigma   [Omega_K free: (gamma-0.722)/0.182 = +4.84]
+  hull min: IIA geometric + Casimir(+)                           gamma = 1.6222:  (gamma - 0.698)/0.173 = +5.34 sigma   [Omega_K free: (gamma-0.722)/0.182 = +4.95]
+  hull min: IIB geometric + Casimir(+)                           gamma = 1.6036:  (gamma - 0.698)/0.173 = +5.23 sigma   [Omega_K free: (gamma-0.722)/0.182 = +4.84]
+  hull min: + non-SUSY 10d terms (Lambda10 1-loop, D9-like)      gamma = 1.6036:  (gamma - 0.698)/0.173 = +5.23 sigma   [Omega_K free: (gamma-0.722)/0.182 = +4.84]
+  hull min: + non-geometric Q,R fluxes (positive)                gamma = 1.4142:  (gamma - 0.698)/0.173 = +4.14 sigma   [Omega_K free: (gamma-0.722)/0.182 = +3.80]
+  hull min: + formal tree-level dilaton tadpole                  gamma = 1.4142:  (gamma - 0.698)/0.173 = +4.14 sigma   [Omega_K free: (gamma-0.722)/0.182 = +3.80]
+  NB: one-sided Gaussian reading of an asymmetric posterior; the DESI-era fit constrains the slope of the potential traversed since z~few, not the asymptotic (infinite-distance) slope.

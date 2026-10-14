@@ -1,0 +1,22 @@
+found 9 real symmetric anticommuting 16x16 gammas; gamma^{1..9} = +-1 : -1.0 True
+
+N=2: DSV-table counts: bosons 36 (expect 9N^2=36), fermion oscillators 32 (expect 8N^2=32)
+  DSV sum m_B = 14.666667, sum m_F = 14.666667, (2/9)N(8N^2+1) = 14.666667
+  literal (R/2)(i mu/4R)=i mu/8, +g123    : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=14.6667;  fermions match DSV: True;  sum m_F = 14.666667; distinct m_F = [np.float64(0.25), np.float64(0.416667), np.float64(0.583333)]
+  literal, -g123                          : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=14.6667;  fermions match DSV: False;  sum m_F = 10.666667; distinct m_F = [np.float64(0.083333), np.float64(0.25), np.float64(0.916667)]
+  no-R/2 reading i mu/4, +g123            : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=14.6667;  fermions match DSV: False;  sum m_F = 18.666667; distinct m_F = [np.float64(0.166667), np.float64(0.5), np.float64(0.833333)]
+  no-R/2 reading, -g123                   : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=14.6667;  fermions match DSV: False;  sum m_F = 16.000000; distinct m_F = [np.float64(0.166667), np.float64(0.5), np.float64(1.166667)]
+
+N=3: DSV-table counts: bosons 81 (expect 9N^2=81), fermion oscillators 72 (expect 8N^2=72)
+  DSV sum m_B = 48.666667, sum m_F = 48.666667, (2/9)N(8N^2+1) = 48.666667
+  literal (R/2)(i mu/4R)=i mu/8, +g123    : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=48.6667;  fermions match DSV: True;  sum m_F = 48.666667; distinct m_F = [np.float64(0.25), np.float64(0.416667), np.float64(0.583333), np.float64(0.75), np.float64(0.916667)]
+  literal, -g123                          : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=48.6667;  fermions match DSV: False;  sum m_F = 40.666667; distinct m_F = [np.float64(0.083333), np.float64(0.25), np.float64(0.416667), np.float64(0.916667), np.float64(1.25)]
+  no-R/2 reading i mu/4, +g123            : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=48.6667;  fermions match DSV: False;  sum m_F = 54.666667; distinct m_F = [np.float64(0.166667), np.float64(0.5), np.float64(0.833333), np.float64(1.166667)]
+  no-R/2 reading, -g123                   : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=48.6667;  fermions match DSV: False;  sum m_F = 44.000000; distinct m_F = [np.float64(0.166667), np.float64(0.5), np.float64(1.166667), np.float64(1.5)]
+
+N=4: DSV-table counts: bosons 144 (expect 9N^2=144), fermion oscillators 128 (expect 8N^2=128)
+  DSV sum m_B = 114.666667, sum m_F = 114.666667, (2/9)N(8N^2+1) = 114.666667
+  literal (R/2)(i mu/4R)=i mu/8, +g123    : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=114.6667;  fermions match DSV: True;  sum m_F = 114.666667; distinct m_F = [np.float64(0.25), np.float64(0.416667), np.float64(0.583333), np.float64(0.75), np.float64(0.916667), np.float64(1.083333)]
+  literal, -g123                          : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=114.6667;  fermions match DSV: False;  sum m_F = 102.666667; distinct m_F = [np.float64(0.083333), np.float64(0.25), np.float64(0.416667), np.float64(0.75), np.float64(0.916667), np.float64(1.25)]
+  no-R/2 reading i mu/4, +g123            : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=114.6667;  fermions match DSV: False;  sum m_F = 122.666667; distinct m_F = [np.float64(0.166667), np.float64(0.5), np.float64(0.833333), np.float64(1.166667), np.float64(1.5)]
+  no-R/2 reading, -g123                   : bosons match DSV (atol 2e-3, zero modes ~sqrt(FD error)): True sum m_B=114.6667;  fermions match DSV: False;  sum m_F = 104.000000; distinct m_F = [np.float64(0.166667), np.float64(0.5), np.float64(1.166667), np.float64(1.5), np.float64(1.833333)]

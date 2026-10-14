@@ -1,0 +1,71 @@
+
+=== open bosonic (a=1), tachyons: levels 1..150 ===
+  n=  1: D_crit(n) = inf  (spin None);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=  2: D_crit(n) = 26.0000000000  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: [0]
+  n=  3: D_crit(n) = 26.0000000000  (spin 1);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: [1]
+  n=  4: D_crit(n) = [26.4000000000 +/- 7e-15]  (spin 2);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=  5: D_crit(n) = [27.0000000000 +/- 4e-15]  (spin 1);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=  6: D_crit(n) = [26.5890193486 +/- 4.17e-11]  (spin 2);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=  7: D_crit(n) = [26.7726771026 +/- 2.49e-11]  (spin 3);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=  8: D_crit(n) = [27.1555778193 +/- 1.61e-11]  (spin 2);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=  9: D_crit(n) = [26.9348955461 +/- 2.38e-11]  (spin 3);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 10: D_crit(n) = [27.1082316161 +/- 3.80e-11]  (spin 4);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 11: D_crit(n) = [27.1848158526 +/- 4.49e-11]  (spin 3);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 12: D_crit(n) = [27.1901370346 +/- 1.29e-11]  (spin 4);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 20: D_crit(n) = [27.5883607953 +/- 1.34e-11]  (spin 4);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 30: D_crit(n) = [27.7740462000 +/- 2.05e-11]  (spin 4);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 40: D_crit(n) = [27.8620765738 +/- 3.06e-11]  (spin 2);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 50: D_crit(n) = [27.9116329503 +/- 2.53e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 60: D_crit(n) = [28.0634100146 +/- 3.12e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 70: D_crit(n) = [28.2585166400 +/- 1.12e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 80: D_crit(n) = [28.4644096532 +/- 3.84e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n= 90: D_crit(n) = [28.6695423243 +/- 1.05e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=100: D_crit(n) = [28.8692981438 +/- 4.11e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=110: D_crit(n) = [29.0618494608 +/- 2.61e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=120: D_crit(n) = [29.2466096856 +/- 2.08e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=130: D_crit(n) = [29.4235716607 +/- 1.47e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=140: D_crit(n) = [29.5929999592 +/- 1.19e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  n=150: D_crit(n) = [29.7552798554 +/- 2.53e-11]  (spin 0);  exact all rho_j>=0 at D=26: True;  negative spins at D=26+1/1000: []
+  exact zeros at D=26 (level, spins): [(2, [0]), (3, [1])]
+  all levels 1..150 nonnegative at D=26: True
+  minimum over levels of D_crit(n): level 2, spin 0, D = 26.0000000000000
+  min over n>=4 of D_crit(n) = 26.400000 at n=4
+  D_crit(n) for n = NMAX-4..NMAX: [(146, 29.6912), (147, 29.7424), (148, 29.7234), (149, 29.7741), (150, 29.7553)]
+  time 90.6s
+
+  check 2608.25183 eq.(5): our level-2 spin-0 coefficient at D=30 = -1/58, (26-D)/(8(D-1)) = -1/58
+
+=== type-I stripped (massless): levels 1..150 ===
+  n=  1: D_crit(n) = inf  (spin None);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=  2: D_crit(n) = inf  (spin None);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=  3: D_crit(n) = 10.0000000000  (spin 0);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: [0]
+  n=  4: D_crit(n) = 11.0000000000  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=  5: D_crit(n) = [10.2357150616 +/- 5.87e-12]  (spin 0);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=  6: D_crit(n) = [10.9044049564 +/- 3.29e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=  7: D_crit(n) = [10.4891784017 +/- 2.15e-11]  (spin 0);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=  8: D_crit(n) = [11.0000000000 +/- 1e-15]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=  9: D_crit(n) = [10.7170040170 +/- 1.01e-11]  (spin 0);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 10: D_crit(n) = [11.1332975468 +/- 5.95e-12]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 11: D_crit(n) = [10.9192455094 +/- 3.01e-11]  (spin 0);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 12: D_crit(n) = [11.2719473436 +/- 2.92e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 20: D_crit(n) = [11.7701284905 +/- 2.68e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 30: D_crit(n) = [12.2540061159 +/- 2.34e-12]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 40: D_crit(n) = [12.6339239324 +/- 4.49e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 50: D_crit(n) = [12.9460744827 +/- 1.64e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 60: D_crit(n) = [13.2110556972 +/- 7.13e-12]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 70: D_crit(n) = [13.4413798361 +/- 1.84e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 80: D_crit(n) = [13.6451681616 +/- 1.69e-12]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n= 90: D_crit(n) = [13.8279813159 +/- 4.69e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=100: D_crit(n) = [13.9937919046 +/- 1.61e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=110: D_crit(n) = [14.1455367474 +/- 2.46e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=120: D_crit(n) = [14.2854485837 +/- 1.68e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=130: D_crit(n) = [14.4152648789 +/- 3.68e-11]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=140: D_crit(n) = [14.5363645419 +/- 6.22e-12]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  n=150: D_crit(n) = [14.6498604767 +/- 3.35e-12]  (spin 1);  exact all rho_j>=0 at D=10: True;  negative spins at D=10+1/1000: []
+  exact zeros at D=10 (level, spins): [(3, [0])]
+  all levels 1..150 nonnegative at D=10: True
+  minimum over levels of D_crit(n): level 3, spin 0, D = 10.0000000000000
+  min over n>=4 of D_crit(n) = 10.235715 at n=5
+  D_crit(n) for n = NMAX-4..NMAX: [(146, 14.6053), (147, 14.5929), (148, 14.6277), (149, 14.6155), (150, 14.6499)]
+  time 86.4s
+  check 2201.11575 Table 1 B_(5,0) at D=7: ours 307/92160, table 307/92160

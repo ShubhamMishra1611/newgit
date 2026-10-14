@@ -1,0 +1,67 @@
+
+=== closed M (eq.7): D_crit(lambda), levels <= 30 ===
+  lambda=  1/16 ( 0.0625): D_crit =     9.761719  set by (n,j)=(3,2)
+  lambda=   1/8 ( 0.1250): D_crit =    10.546875  set by (n,j)=(3,2)
+  lambda=   1/4 ( 0.2500): D_crit =    12.187500  set by (n,j)=(3,2)
+  lambda=   3/8 ( 0.3750): D_crit =    13.921875  set by (n,j)=(3,2)
+  lambda=   1/2 ( 0.5000): D_crit =    15.750000  set by (n,j)=(3,2)
+  lambda=   5/8 ( 0.6250): D_crit =    17.638672  set by (n,j)=(4,4)
+  lambda=   3/4 ( 0.7500): D_crit =    19.367188  set by (n,j)=(4,4)
+  lambda=   7/8 ( 0.8750): D_crit =    21.154297  set by (n,j)=(4,4)
+  lambda= 15/16 ( 0.9375): D_crit =    22.069824  set by (n,j)=(4,4)
+  lambda=     1 ( 1.0000): D_crit =    23.000000  set by (n,j)=(4,4)
+  lambda= 17/16 ( 1.0625): D_crit =    23.944824  set by (n,j)=(4,4)
+  lambda=   9/8 ( 1.1250): D_crit =    24.904297  set by (n,j)=(4,4)
+  lambda=   5/4 ( 1.2500): D_crit =    26.867188  set by (n,j)=(4,4)
+  lambda=   3/2 ( 1.5000): D_crit =    30.968750  set by (n,j)=(4,4)
+  lambda=   7/4 ( 1.7500): D_crit =    35.287500  set by (n,j)=(5,6)
+  lambda=     2 ( 2.0000): D_crit =    39.400000  set by (n,j)=(5,6)
+  lambda=     3 ( 3.0000): D_crit =    57.000000  set by (n,j)=(6,8)
+  lambda=     4 ( 4.0000): D_crit =    75.285714  set by (n,j)=(7,10)
+  lambda=     8 ( 8.0000): D_crit =   149.875000  set by (n,j)=(14,24)
+  lambda=    16 (16.0000): D_crit =   300.833791  set by (n,j)=(28,52)
+
+=== planar A (eq.18): D_crit(lambda), levels <= 30 ===
+  lambda=  1/16 ( 0.0625): D_crit =     5.253906  set by (n,j)=(3,0)
+  lambda=   1/8 ( 0.1250): D_crit =     5.515625  set by (n,j)=(3,0)
+  lambda=   1/4 ( 0.2500): D_crit =     6.062500  set by (n,j)=(3,0)
+  lambda=   3/8 ( 0.3750): D_crit =     6.640625  set by (n,j)=(3,0)
+  lambda=   1/2 ( 0.5000): D_crit =     7.250000  set by (n,j)=(3,0)
+  lambda=   5/8 ( 0.6250): D_crit =     7.890625  set by (n,j)=(3,0)
+  lambda=   3/4 ( 0.7500): D_crit =     8.562500  set by (n,j)=(3,0)
+  lambda=   7/8 ( 0.8750): D_crit =     9.265625  set by (n,j)=(3,0)
+  lambda= 15/16 ( 0.9375): D_crit =     9.628906  set by (n,j)=(3,0)
+  lambda=     1 ( 1.0000): D_crit =    10.000000  set by (n,j)=(3,0)
+  lambda= 17/16 ( 1.0625): D_crit =    10.378906  set by (n,j)=(3,0)
+  lambda=   9/8 ( 1.1250): D_crit =    10.765625  set by (n,j)=(3,0)
+  lambda=   5/4 ( 1.2500): D_crit =    11.562500  set by (n,j)=(3,0)
+  lambda=   3/2 ( 1.5000): D_crit =    13.250000  set by (n,j)=(3,0)
+  lambda=   7/4 ( 1.7500): D_crit =    15.062500  set by (n,j)=(3,0)
+  lambda=     2 ( 2.0000): D_crit =    17.000000  set by (n,j)=(3,0)
+  lambda=     3 ( 3.0000): D_crit =    26.000000  set by (n,j)=(3,0)
+  lambda=     4 ( 4.0000): D_crit =    35.400000  set by (n,j)=(5,2)
+  lambda=     8 ( 8.0000): D_crit =    73.250000  set by (n,j)=(12,9)
+  lambda=    16 (16.0000): D_crit =   148.961538  set by (n,j)=(26,23)
+
+exact checks of 2408.03362 statements at D=4 (levels <= NMAX):
+  lambda=  1/16: M positive at D=4: True;  A positive at D=4: True
+  lambda=   1/8: M positive at D=4: True;  A positive at D=4: True
+  lambda=   1/4: M positive at D=4: True;  A positive at D=4: True
+  lambda=   3/8: M positive at D=4: True;  A positive at D=4: True
+  lambda=   1/2: M positive at D=4: True;  A positive at D=4: True
+  lambda=   5/8: M positive at D=4: True;  A positive at D=4: True
+  lambda=   3/4: M positive at D=4: True;  A positive at D=4: True
+  lambda=   7/8: M positive at D=4: True;  A positive at D=4: True
+  lambda= 15/16: M positive at D=4: True;  A positive at D=4: True
+  lambda=     1: M positive at D=4: True;  A positive at D=4: True
+  lambda= 17/16: M positive at D=4: True;  A positive at D=4: True
+  lambda=   9/8: M positive at D=4: True;  A positive at D=4: True
+  lambda=   5/4: M positive at D=4: True;  A positive at D=4: True
+  lambda=   3/2: M positive at D=4: True;  A positive at D=4: True
+  lambda=   7/4: M positive at D=4: True;  A positive at D=4: True
+  lambda=     2: M positive at D=4: True;  A positive at D=4: True
+  lambda=     3: M positive at D=4: True;  A positive at D=4: True
+  lambda=     4: M positive at D=4: True;  A positive at D=4: True
+  lambda=     8: M positive at D=4: True;  A positive at D=4: True
+  lambda=    16: M positive at D=4: True;  A positive at D=4: True
+time 12.5s
