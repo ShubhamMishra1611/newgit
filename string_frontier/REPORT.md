@@ -459,7 +459,7 @@ Every reviewer wrote independent code before reading ours (`phase4/*_code/`). Th
 
 **Handling of fetched material.**
 - arXiv was reachable only through the Exa fetch tool.
-- Paper full texts fetched for reading are kept local and **are not committed**; see `.gitignore`. Earlier WIP commits on this branch briefly contained some of them; see the note in the session summary.
+- Paper full texts fetched for reading are kept local and **are not committed**; see `.gitignore`. Some WIP commits on this branch before 37c442f (and the RB4 texts before the later untrack commit) still contain them in history; purging them would require rewriting the branch history.
 - The 2406.13751 data repository's pickle was treated as untrusted. It was never unpickled with executable loaders; a stub reader extracted plain numbers.
 
 **Known limits of the review.**
