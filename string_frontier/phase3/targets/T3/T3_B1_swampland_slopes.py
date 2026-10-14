@@ -223,10 +223,13 @@ def c_of(k):
 
 
 def rhs(xw, C):
+    """2303.03418 eqs. (A.1a,b) with (y)^2 = sum_i w_i kept explicit: this form conserves the
+    constraint x^2 + sum w = 1 exactly (writing (y)^2 = 1 - x^2 instead makes the constraint
+    surface repelling, d g/dN = 2 x^2 g, and the integration drifts)."""
     x = xw[:2]
     w = xw[2:]
     x2 = x @ x
-    dx = -x * (1 - x2) + C.T @ w
+    dx = -x * w.sum() + C.T @ w
     dw = 2 * (x2 - C @ x) * w
     return np.concatenate([dx, dw])
 
@@ -343,6 +346,106 @@ for eps, S, fp in allstable[:8]:
     print(f"     eps={eps:.4f}  gamma*={math.sqrt(2*eps):.4f}  {S}  dlnrho={dl:+.2f}  dln gs={dp:+.2f}")
 print(f"  number of stable 2-term mixed attractors found: {len(allstable)}")
 
+print("  (expected: with one + and one - term both participating, the potential transverse to the scaling")
+print("   direction is A e^{-a s} - B e^{-b s}; its extremum is a maximum whenever V>0 there -> saddle.")
+print("   This is STT's statement that >= 3 terms, not all positive, are needed.)")
+
+hdr("2b. Collinear triples: three participating terms -> dilaton-type modulus stabilised transversally")
+# Three terms whose k_i lie on one line L (not through the origin): the scaling solution moves along
+# the normal theta of L with gamma* = dist(0, L); along L the potential is sum_i A_i e^{-beta_i s},
+# which has a minimum with V>0 iff signs are (+,-,+) in the order of beta_i (and coefficients suitable).
+fam = {
+    "IIA": ["R6(<0 curv)", "R6(>0 curv)", "H3", "F0", "F2", "F4", "F6", "D4", "O4", "D6", "O6", "D8", "O8",
+            "NS5", "Casimir", "Qflux", "Rflux"],
+    "IIB": ["R6(<0 curv)", "R6(>0 curv)", "H3", "F1", "F3", "F5", "D3", "O3", "D5", "O5", "D7", "O7", "D9", "O9",
+            "NS5", "Casimir", "Qflux", "Rflux"],
+}
+def signs_of(n):
+    sg = cat[n]["sign"]
+    return ["+", "-"] if sg == "+-" else [sg]
+
+triples = []
+for th, names in fam.items():
+    for A_, B_, C_ in itertools.combinations(names, 3):
+        kA, kB, kC = cat[A_]["k"], cat[B_]["k"], cat[C_]["k"]
+        if min(np.linalg.norm(kA - kB), np.linalg.norm(kA - kC), np.linalg.norm(kB - kC)) < 1e-9:
+            continue   # coincident k's just add coefficients
+        u_, v_ = kB - kA, kC - kA
+        if abs(u_[0] * v_[1] - u_[1] * v_[0]) > 1e-9:
+            continue
+        ell = (kB - kA) / np.linalg.norm(kB - kA)
+        nrm = np.array([-ell[1], ell[0]])
+        d = kA @ nrm
+        if d < 0:
+            nrm, d = -nrm, -d
+        # order along the line
+        trip = sorted([(k @ ell, n) for k, n in ((kA, A_), (kB, B_), (kC, C_))])
+        for sA in signs_of(trip[0][1]):
+            for sB in signs_of(trip[1][1]):
+                for sC in signs_of(trip[2][1]):
+                    if (sA, sB, sC) != ("+", "-", "+"):
+                        continue
+                    key = (th, tuple(n for _, n in trip))
+                    triples.append((d, th, [n for _, n in trip], nrm))
+# unique by (theory, names)
+seen = set(); tri_u = []
+for t_ in sorted(triples, key=lambda z: z[0]):
+    kk = (t_[1], tuple(t_[2]))
+    if kk in seen:
+        continue
+    seen.add(kk); tri_u.append(t_)
+print(f"  collinear (+,-,+) triples found: {len(tri_u)}")
+rng2 = np.random.default_rng(11)
+rows2b = []
+for d, th, names3, nrm in tri_u:
+    dl, dp = control_of_direction(nrm) if d > 1e-9 else (float('nan'), float('nan'))
+    # numerical check: choose coefficients giving a transverse minimum with V>0, integrate the ODE
+    ks = np.array([cat[n]["k"] for n in names3])
+    ell = ks[1] - ks[0]; ell /= np.linalg.norm(ell)
+    beta = ks @ ell
+    # V_par(s) = A e^{-b0 s} - B e^{-b1 s} + C e^{-b2 s}; pick minimum at s=0 with V = 0.2*A
+    b0, b1, b2 = beta
+    # V_par(s) = A e^{-b0 s} - B e^{-b1 s} + C e^{-b2 s} (A=1) with V'(0)=0 and V(0)=v>0; scan v
+    # downward until V''(0)>0 (a minimum with V>0 exists iff some v works).
+    feasible = False
+    for v in (0.5, 0.3, 0.2, 0.15, 0.1, 0.07, 0.05, 0.03, 0.02, 0.01, 0.005, 0.002):
+        M = np.array([[b1, -b2], [-1, 1]]); rhs_ = np.array([b0, v - 1])
+        try:
+            Bc, Cc = np.linalg.solve(M, rhs_)
+        except np.linalg.LinAlgError:
+            continue
+        curv = b0 ** 2 - b1 ** 2 * Bc + b2 ** 2 * Cc
+        if Bc > 0 and Cc > 0 and curv > 0:
+            feasible = True
+            break
+    eps_ode = float('nan')
+    if feasible and d > 1e-9:
+        Cm = np.array([c_of(k) for k in ks])
+        coef = np.array([1.0, -Bc, Cc])
+        # start: x small, fields near the transverse minimum (w proportional to coefficients)
+        w0 = coef / coef.sum() * 0.9
+        x0 = np.array([0.0, 0.0]) + 0.05 * rng2.normal(size=2)
+        w0 *= (1 - x0 @ x0) / w0.sum()
+        sol = solve_ivp(lambda N_, z: rhs(z, Cm), (0, 200), np.concatenate([x0, w0]), rtol=1e-10, atol=1e-13)
+        xf = sol.y[:2, -1]
+        eps_ode = 3 * xf @ xf
+    if feasible and d <= 1e-9:
+        eps_ode = 0.0   # line through the origin: x=0 fixed point = formal dS with one exactly flat direction
+    rows2b.append((d, th, names3, d * d / 2, eps_ode, dl, dp, feasible))
+    print(f"   {th}: {names3[0]:12s} {names3[1]:12s} {names3[2]:12s} line dist gamma*={d:.4f} (eps={d*d/2:.4f})"
+          f"  ODE eps={eps_ode:.4f}  normal={np.round(nrm,3)}  dlnrho={dl:+.2f} dln gs={dp:+.2f}  coeffs ok={feasible}")
+
+print("\n  Summary of mixed-sign collinear triples with a V>0 transverse minimum (feasible coefficients):")
+ctrl_best = None
+for d, th, names3, epsth, epsode, dl, dp, feas in rows2b:
+    if not feas:
+        continue
+    controlled = (d > 1e-9) and dl > -1e-9 and dp < 1e-9
+    tag = "dS+flat dir." if d <= 1e-9 else ("controlled (vol up, g_s down)" if controlled else "UNcontrolled (vol->0 or g_s->inf)")
+    print(f"     {th}: {'+'.join(names3):28s} gamma*={d:.4f} eps={epsth:.4f}  {tag}")
+    if controlled and (ctrl_best is None or d < ctrl_best[0]):
+        ctrl_best = (d, th, names3)
+print(f"  lowest gamma* among feasible mixed-sign triples moving to large volume AND weak 10d coupling: {ctrl_best}")
 # numerical confirmation by integrating the ODE for the minimal all-positive IIA/IIB sets
 hdr("3. ODE check of the convex-hull prediction (random initial data, 60 e-folds)")
 rng = np.random.default_rng(3)

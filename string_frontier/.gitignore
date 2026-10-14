@@ -1,0 +1,7 @@
+# Third-party texts fetched for reading (paper full texts, notebook dumps) and
+# untrusted downloaded data are kept locally only; they are cited, not redistributed.
+**/sources/
+*.p
+*.pkl
+*.pickle
+__pycache__/

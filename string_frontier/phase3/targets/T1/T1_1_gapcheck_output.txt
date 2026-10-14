@@ -1,0 +1,2 @@
+grid step 1/1000: min over a of [min_(6<=n<=12) D_crit(n;a) - D_max(a)] = 0.02113 at a=0.516 (D_max=17.4081, levels>=6 give 17.4292)
+refined grid step 1/20000 on [0.50,0.53]: min gap (levels 6..10 vs D_max) = 0.02090 at a=0.51580 (D_max=17.40564, high=17.42654)
