@@ -1,0 +1,8 @@
+ J | disjoint shells (Lam>0 and Lam<0) | chi2/dof of (n-np)/sqrt(np) | p-value | max|pull| | max|n/np-1| for np>=1e4
+  4|   42                              |    1.40                     | 0.045   |  2.79    |  1.09e-02
+  6|   42                              |    0.94                     | 0.585   |  1.87    |  4.44e-03
+  8|   42                              |    0.95                     | 0.568   |  2.21    |  8.10e-03
+ 10|   42                              |    0.89                     | 0.667   |  2.46    |  1.14e-02
+ 12|   42                              |    0.95                     | 0.560   |  2.43    |  6.22e-03
+
+NB the two outermost shells (eps > 1e-3 R^2) test the curvature of the smooth density, not flatness; the smooth formula includes it.
