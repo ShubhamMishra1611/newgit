@@ -1,0 +1,24 @@
+N=2 vac_sign=1 fermion_sign=1: V(vac)=0.00e+00  #zero modes=3 (expect N^2-1=3)
+   boson masses (x12): [(np.int64(2), 6), (np.int64(4), 4), (np.int64(6), 18), (np.int64(8), 5)]
+   fermion masses (x12): [(np.int64(3), 8), (np.int64(5), 8), (np.int64(7), 16)]
+   sum bos = 14.666667, sum fer = 14.666667, DSV (2/9)N(8N^2+1) = 14.666667
+N=2 vac_sign=1 fermion_sign=-1: V(vac)=0.00e+00  #zero modes=3 (expect N^2-1=3)
+   boson masses (x12): [(np.int64(2), 6), (np.int64(4), 4), (np.int64(6), 18), (np.int64(8), 5)]
+   fermion masses (x12): [(np.int64(1), 16), (np.int64(3), 8), (np.int64(11), 8)]
+   sum bos = 14.666667, sum fer = 10.666667, DSV (2/9)N(8N^2+1) = 14.666667
+N=3 vac_sign=1 fermion_sign=1: V(vac)=0.00e+00  #zero modes=8 (expect N^2-1=8)
+   boson masses (x12): [(np.int64(2), 6), (np.int64(4), 4), (np.int64(6), 18), (np.int64(8), 8), (np.int64(10), 30), (np.int64(12), 7)]
+   fermion masses (x12): [(np.int64(3), 8), (np.int64(5), 8), (np.int64(7), 16), (np.int64(9), 16), (np.int64(11), 24)]
+   sum bos = 48.666667, sum fer = 48.666667, DSV (2/9)N(8N^2+1) = 48.666667
+N=3 vac_sign=1 fermion_sign=-1: V(vac)=0.00e+00  #zero modes=8 (expect N^2-1=8)
+   boson masses (x12): [(np.int64(2), 6), (np.int64(4), 4), (np.int64(6), 18), (np.int64(8), 8), (np.int64(10), 30), (np.int64(12), 7)]
+   fermion masses (x12): [(np.int64(1), 16), (np.int64(3), 8), (np.int64(5), 24), (np.int64(11), 8), (np.int64(15), 16)]
+   sum bos = 48.666667, sum fer = 40.666667, DSV (2/9)N(8N^2+1) = 48.666667
+N=4 vac_sign=1 fermion_sign=1: V(vac)=0.00e+00  #zero modes=15 (expect N^2-1=15)
+   boson masses (x12): [(np.int64(2), 6), (np.int64(4), 4), (np.int64(6), 18), (np.int64(8), 8), (np.int64(10), 30), (np.int64(12), 12), (np.int64(14), 42), (np.int64(16), 9)]
+   fermion masses (x12): [(np.int64(3), 8), (np.int64(5), 8), (np.int64(7), 16), (np.int64(9), 16), (np.int64(11), 24), (np.int64(13), 24), (np.int64(15), 32)]
+   sum bos = 114.666667, sum fer = 114.666667, DSV (2/9)N(8N^2+1) = 114.666667
+N=4 vac_sign=1 fermion_sign=-1: V(vac)=0.00e+00  #zero modes=15 (expect N^2-1=15)
+   boson masses (x12): [(np.int64(2), 6), (np.int64(4), 4), (np.int64(6), 18), (np.int64(8), 8), (np.int64(10), 30), (np.int64(12), 12), (np.int64(14), 42), (np.int64(16), 9)]
+   fermion masses (x12): [(np.int64(1), 16), (np.int64(3), 8), (np.int64(5), 24), (np.int64(9), 32), (np.int64(11), 8), (np.int64(15), 16), (np.int64(19), 24)]
+   sum bos = 114.666667, sum fer = 102.666667, DSV (2/9)N(8N^2+1) = 114.666667
