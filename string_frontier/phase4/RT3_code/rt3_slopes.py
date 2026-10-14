@@ -118,7 +118,7 @@ def hull_min(names):
     return best
 sets = {
     'IIB geometric (T3 set: R6,H3,F1,F3,F5,D3,D5,D7,D9,NS5)': ['R6', 'H3', 'F1', 'F3', 'F5', 'D3', 'D5', 'D7', 'D9', 'NS5'],
-    'IIB without D9 (no net positive D9 tension possible w/o tachyonic anti-D9s)': ['R6', 'H3', 'F1', 'F3', 'F5', 'D3', 'D5', 'D7', 'NS5'],
+    'IIB without D9 (IIB proper: C10 tadpole forbids net D9; positive D9-like tadpole only in non-SUSY open-string models, e.g. Sugimoto)': ['R6', 'H3', 'F1', 'F3', 'F5', 'D3', 'D5', 'D7', 'NS5'],
     'IIB without D9, + 10d one-loop Lambda (non-SUSY)': ['R6', 'H3', 'F1', 'F3', 'F5', 'D3', 'D5', 'D7', 'NS5', 'L10'],
     'IIA geometric (T3 set: R6,H3,F0..F6,D4,D6,D8,NS5)': ['R6', 'H3', 'F0', 'F2', 'F4', 'F6', 'D4', 'D6', 'D8', 'NS5'],
     'IIA without F0 and D8': ['R6', 'H3', 'F2', 'F4', 'F6', 'D4', 'D6', 'NS5'],

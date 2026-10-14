@@ -29,7 +29,7 @@
 
 (3) all-positive hull minima |grad V|/V >= dist(0, conv k):
    IIB geometric (T3 set: R6,H3,F1,F3,F5,D3,D5,D7,D9,NS5): min^2 = 18/7 -> 1.6036  at ('R6', 'D9') (t=1/7)
-   IIB without D9 (no net positive D9 tension possible w/o tachyonic anti-D9s): min^2 = 8/3 -> 1.6330  at ('R6',) (t=0)
+   IIB without D9 (IIB proper: C10 tadpole forbids net D9; positive D9-like tadpole only in non-SUSY open-string models, e.g. Sugimoto): min^2 = 8/3 -> 1.6330  at ('R6',) (t=0)
    IIB without D9, + 10d one-loop Lambda (non-SUSY): min^2 = 50/19 -> 1.6222  at ('R6', 'L10') (t=1/19)
    IIA geometric (T3 set: R6,H3,F0..F6,D4,D6,D8,NS5): min^2 = 50/19 -> 1.6222  at ('R6', 'F0') (t=1/19)
    IIA without F0 and D8: min^2 = 8/3 -> 1.6330  at ('R6',) (t=0)

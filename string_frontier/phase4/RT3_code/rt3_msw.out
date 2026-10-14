@@ -37,3 +37,8 @@
    3.0   1.69e+13 | EH98nw    1.1982 | 0.6176 | 0.2976 (0.3726, 0.2687) | 2.4
    3.0   1.69e+13 | BBKS_s8   1.1973 | 0.6190 | 0.2980 (0.3731, 0.2692) | 2.4
 T3: R_G=0.5/1/2/3: sigma0 2.792/2.106/1.510/1.208, x 0.049/0.114/0.309/0.603, P 0.043/0.086/0.184/0.293, median 30.4/13.0/4.8/2.5
+  prior rho^alpha, alpha=-0.05: P(<=rho_obs) = 0.1021
+  prior rho^alpha, alpha=-0.01: P(<=rho_obs) = 0.0888
+  prior rho^alpha, alpha=+0.00: P(<=rho_obs) = 0.0857
+  prior rho^alpha, alpha=+0.01: P(<=rho_obs) = 0.0828
+  prior rho^alpha, alpha=+0.05: P(<=rho_obs) = 0.0718

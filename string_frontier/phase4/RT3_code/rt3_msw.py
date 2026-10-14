@@ -175,3 +175,13 @@ for R in (0.5, 1.0, 2.0, 3.0):
         med = quantile(0.5, 1) / x
         print(f"  {R:4.1f}  {Mf:9.2e} | {key:9s} {s0:.4f} | {x:.4f} | {P1:.4f} ({P0:.4f}, {Pi:.4f}) | {med:.1f}")
 print("T3: R_G=0.5/1/2/3: sigma0 2.792/2.106/1.510/1.208, x 0.049/0.114/0.309/0.603, P 0.043/0.086/0.184/0.293, median 30.4/13.0/4.8/2.5")
+
+# ---------------- prior tilt rho_V^alpha (T3: alpha=-0.05/0/+0.05 -> P = 0.102/0.086/0.072) ----------------
+ts = np.concatenate([np.linspace(0, 1, 2001)[1:], np.linspace(1, 6, 2001)[1:]])
+xs = ts ** 3
+Fx = np.array([Fcol(x, 1) for x in xs])
+xobs = (OmL / Om) / (sig["CAMB_cb"][1.0] / g0) ** 3
+for alpha in (-0.05, -0.01, 0.0, 0.01, 0.05):
+    gg = Fx * xs ** alpha * 3 * ts ** 2
+    cum = integrate.cumulative_trapezoid(np.r_[0, gg], np.r_[0, ts], initial=0)
+    print(f"  prior rho^alpha, alpha={alpha:+.2f}: P(<=rho_obs) = {np.interp(xobs ** (1/3), np.r_[0, ts], cum) / cum[-1]:.4f}")

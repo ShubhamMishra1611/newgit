@@ -1,0 +1,21 @@
+  J=4 seed=540: p=1.0123 chi2/dof=1.26 (p=0.117) maxpull=2.18 var_s=0.997 KS p=0.772
+  J=4 seed=541: p=1.0001 chi2/dof=0.89 (p=0.670) maxpull=2.66 var_s=0.997 KS p=0.573
+  J=4 seed=542: p=0.9906 chi2/dof=0.87 (p=0.723) maxpull=1.96 var_s=1.005 KS p=0.949
+  J=4 seed=543: p=0.9907 chi2/dof=0.98 (p=0.504) maxpull=2.57 var_s=1.009 KS p=0.753
+  J=4 seed=544: p=0.9980 chi2/dof=0.78 (p=0.857) maxpull=2.35 var_s=0.979 KS p=0.171
+  J=4 seed=545: p=0.9886 chi2/dof=1.22 (p=0.149) maxpull=3.67 var_s=0.990 KS p=0.859
+  J=4: pooled chi2/dof = 1.000 over 264 dof, p = 0.489
+  J=10 seed=600: p=1.0004 chi2/dof=0.76 (p=0.879) maxpull=2.35 var_s=0.998 KS p=0.550
+  J=10 seed=601: p=1.0037 chi2/dof=0.88 (p=0.700) maxpull=2.73 var_s=1.006 KS p=0.951
+  J=10 seed=602: p=0.9891 chi2/dof=0.99 (p=0.496) maxpull=2.89 var_s=1.010 KS p=0.963
+  J=10 seed=603: p=1.0043 chi2/dof=1.02 (p=0.439) maxpull=2.13 var_s=0.996 KS p=0.706
+  J=10 seed=604: p=0.9942 chi2/dof=1.35 (p=0.060) maxpull=2.38 var_s=1.009 KS p=0.878
+  J=10 seed=605: p=1.0009 chi2/dof=0.82 (p=0.796) maxpull=2.57 var_s=1.004 KS p=0.144
+  J=10: pooled chi2/dof = 0.968 over 264 dof, p = 0.632
+  J=8 seed=580: p=0.9971 chi2/dof=0.85 (p=0.754) maxpull=2.16 var_s=1.005 KS p=0.874
+  J=8 seed=581: p=0.9959 chi2/dof=0.98 (p=0.515) maxpull=2.38 var_s=0.992 KS p=0.791
+  J=8 seed=582: p=0.9957 chi2/dof=0.75 (p=0.887) maxpull=2.53 var_s=0.998 KS p=0.767
+  J=8 seed=583: p=1.0039 chi2/dof=1.11 (p=0.285) maxpull=3.46 var_s=1.017 KS p=0.248
+  J=8 seed=584: p=1.0007 chi2/dof=0.73 (p=0.906) maxpull=2.48 var_s=0.997 KS p=0.856
+  J=8 seed=585: p=1.0024 chi2/dof=0.84 (p=0.760) maxpull=2.18 var_s=0.996 KS p=0.806
+  J=8: pooled chi2/dof = 0.877 over 264 dof, p = 0.927

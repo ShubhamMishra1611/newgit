@@ -8,7 +8,7 @@
 - Phase 1: five parallel frontier-mapping agents.
 - Phase 2: target selection.
 - Phase 3: sanity reproductions, then three parallel compute agents.
-- Phase 4: seven adversarial reviewers, each a fresh agent that did not produce the work it reviews, plus one second referee on the most consequential claim.
+- Phase 4: five adversarial reviewers, each a fresh agent that did not produce the work it reviews, plus one independent second referee on the most consequential claim.
 
 **Labels used throughout.**
 - **ESTABLISHED:** a primary source, cited by arXiv ID and equation number where read.
@@ -56,7 +56,12 @@ The honest yield is smaller and real. These items survived independent adversari
    - The uplift strongly backreacts on the dilaton and complex-structure sector.
    - Other T2 claims were downgraded to known (the α′² KPV loss of control at g_sM ≈ 1, the conifold mass ≈ 0.5 m_wKK) or FAILED (a "yield/efficiency" comparison). (§5.2)
 
-6. **Λ selection (T3).** [filled in §5.3 after review]
+6. **Λ selection (T3): neither leading principle selects the observed Λ.**
+   - **Anthropics + discretuum.**
+     - In a Bousso–Polchinski toy, the prior near Λ = 0 is flat (counts ∝ ε^p, p = 0.994–1.008 over 10–11 decades) and the levels are Poisson. Both depend on the flux charges being incommensurate.
+     - The Martel–Shapiro–Weinberg likelihood with Planck 2018 is P(ρ_V ≤ ρ_obs) ≈ 0.09, ranging 0.04–0.29 with the galaxy scale. That is consistent with the observed value to about an order of magnitude, not predictive.
+   - **Swampland quintessence.** Standard type II sources in the dilaton–volume sector give |∇V|/V ≥ 1.60 (≥ √2 with non-geometric flux). That cannot accelerate, and it is ≳4σ from DESI's λ ≈ 0.7.
+   - **Corrected Phase 1 claim.** Phase 1's "factor-of-2 discrepancy" in the Denef–Douglas count was a counting convention, not an error. (§5.3)
 
 **Reproductions** (sanity checks and Phase 1 checks), all re-verified by reviewers:
 - D = 26 four independent ways, including BRST: Q² ∝ Σ_m[(c−26)(m³−m)/12 − 2m(A+1)] c₋ₘcₘ.
@@ -75,6 +80,8 @@ The honest yield is smaller and real. These items survived independent adversari
 - A sign mislabel in the D0 v¹⁰ coefficient.
 - T2's yield comparison: ill-posed.
 - "4.1σ" DESI tension: PLAUSIBLE only; quote ≳4σ, dataset-dependent.
+- Phase 1's "factor-of-2 discrepancy" in Denef–Douglas: a counting convention.
+- T3's "10^60.7 at large J" BP comparison: no such BP example.
 
 ---
 
@@ -100,7 +107,15 @@ The honest yield is smaller and real. These items survived independent adversari
 | T2.5 | Lüst–Randall extrapolation S/S0 ≈ 0.8 | OUR ATTEMPT (labelled crude) | PLAUSIBLE | same |
 | T2.6 | α′²-KPV: control lost at g_sM ≈ 1 | OUR ATTEMPT | VERIFIED-KNOWN; robust number is the tension correction 5.924/(g_sM)² = 5.4–10.7 | same |
 | T2.7 | dS window vs flux steps; "74–114 of 396 expected vs 5 found" | OUR ATTEMPT | **FAILED** (ill-posed comparison) | same |
-| T3.* | Λ selection: see §5.3 | OUR ATTEMPT | see §5.3 | `phase3/targets/T3`, `phase4/RT3_*` |
+| T3.1 | BP toy: flat Λ prior near 0 (ε^p, p=0.994–1.008), Poisson spacings, exponential min\|Λ\| | OUR ATTEMPT | VERIFIED (expected) | `phase3/targets/T3`, `phase4/RT3_*` |
+| T3.2 | Face-corrected BP density; BP eq. 2.26 (D=2^J) underestimates 2.2× (n_max≈30), 10^2.2–10^4.2 (J=100) | OUR ATTEMPT | VERIFIED; the extra "10^60.7 at large J" **FAILED** | same |
+| T3.3 | Near-commensurate charges ⇒ gaps up to 2×10⁶ spacings; repeated charges ⇒ J_eff | OUR ATTEMPT | VERIFIED | same |
+| T3.4 | Phase-1 "factor-2 discrepancy" in AD/DD rigid-CY count is a convention (DD's 240 counts N and −N) | OUR ATTEMPT | VERIFIED (so the Phase-1 claim C-f2 **FAILED**) | same |
+| T3.5 | MSW with Planck 2018: P(ρ_V≤ρ_obs) = 0.086 at R_G=1 Mpc; 0.043–0.29 for 0.5–3 Mpc | OUR ATTEMPT | VERIFIED (earlier updates by Weinberg 2005, Pogosian–Vilenkin 2007 uncited) | same |
+| T3.6 | Min slope, all-positive type II sources: √(18/7)=1.604 (IIB), √(50/19)=1.622 (IIA); √2 with Q-flux | OUR ATTEMPT | VERIFIED (math); IIB minimiser unphysical (D9 tadpole), sharp IIB √(8/3); pointwise bound = known lemma | same |
+| T3.7 | Mixed-sign sources reach √(2/3) only out of control; no stable two-term attractor | OUR ATTEMPT | VERIFIED; two-term no-go known (2303.03418) | same |
+| T3.8 | DESI λ=0.698 at 4.1σ from √2, 5.2σ from 1.604 | OUR ATTEMPT | PLAUSIBLE ("≳4σ, dataset-dependent") | same |
+| C-f2 | Phase-1: continuum AD/DD count is exactly 2× the exact rigid-CY count — "discrepancy" | OUR ATTEMPT | **FAILED** (convention, documented by AD/DD) | `phase1/C_checks`, T3 |
 | E1 | Planar λ-family excluded by SUSY nonlinear relations except at λ=1 | OUR ATTEMPT | **FAILED** (overclaim: needs the 6-scalar parity assumption of 2601.11705v2; corollary of 2610.02124) | `phase1/E_checks`, `phase4/R2_*` |
 | E2–E5 | LP g̃₃ ≥ −10.612487; α_min^IIB = 0.138949, α_min^IIA = 0.140260; E_{3/2}(ρ) = 8.892745; VS expansion; λ-family (g̃₃, g̃₄) | ESTABLISHED reproduced / OUR ATTEMPT | VERIFIED | same |
 | A1 | D0 one-loop series 15/16, 0, 9009/4096, ∓182325/16384 | reproduction | **FAILED (minor)**: v¹⁰ sign mislabelled (Euclidean vs Minkowski) | `phase1/A_code`, `phase4/R1_*` |
@@ -200,7 +215,7 @@ Five parallel agents mapped the fronts. The full maps, with verified arXiv IDs a
   - level truncation (2406.02665, 2408.03362);
   - ultrasoftness plus minimal zeros (2508.09246);
   - monodromy or splitting (2605.11084);
-  - maximal SUSY plus multi-point factorization (2601.11705, 2610.02124);
+  - maximal SUSY plus multi-point factorization, with an extra 6-scalar parity condition per 2601.11705v2 footnote 3 (2601.11705, 2610.02124);
   - for gravity, finite spin at the first massive level (2607.14230).
 - **ESTABLISHED (numerical).** String theory sits inside the allowed regions, not at a kink: 0 ≤ g₀M⁶/8πG ≤ 3 vs 2ζ(3) ≈ 2.40 (2102.08951 eqs. 3.41–3.42), and α_min ≈ 0.13 ± 0.02 vs 0.1389 (2102.02847 eq. 10).
 
@@ -256,7 +271,7 @@ All code and outputs are in `phase3/sanity/`. R1 and R2 independently re-derived
 - **Residues.** R_n(t) = (α(t)+1)_n/n!, degree n in t, exact for n ≤ 5.
 - **Duality.** The s-channel pole sum equals Γ(−α_s)Γ(−α_t)/Γ(−α_s−α_t) to 15 digits.
 - **t-channel pole from the s-channel tail.** (−α_t)·Σ_s → 1 as α_t → 0⁻ (1.0000643 at α_t = −10⁻⁴), matching the exact amplitude to ~10⁻⁶. The pole comes from the ζ(1+d) ~ 1/d tail of the s-channel tower.
-- **Regge.** A/[Γ(−α_t)(−α_s)^{α_t}] − 1 falls like 1/|s|: 1.2×10⁻³, then 1.2×10⁻⁵, then 1.2×10⁻⁷ at |s| = 10², 10⁴, 10⁶.
+- **Regge.** A/[Γ(−α_t)(−α_s)^{α_t}] − 1 falls like 1/|s| along arg s = 3π/4. At t = −1.5 it is 1.26×10⁻³, then 1.25×10⁻⁵, then 1.25×10⁻⁷ at |s| = 10², 10⁴, 10⁶.
 - **Partial waves (exact in D).**
   - Level 2: c₂ = 25/(4(D−3)(D−1)) and c₀ = −(D−26)/(8(D−1)).
   - Level 3: c₁ = −(D−26)/(2(D−3)(D+1)).
@@ -328,7 +343,49 @@ All code and outputs are in `phase3/sanity/`. R1 and R2 independently re-derived
 
 ### 5.3 T3: Λ selection head-to-head (`phase3/targets/T3/T3_report.md`; review `phase4/RT3_verdicts.md`)
 
-T3_PLACEHOLDER
+**Baselines reproduced first**
+- Bousso–Polchinski eqs. 2.21–2.26.
+- Ashok–Douglas §3.2.
+- Denef–Douglas §5.1: "240 vacua at τ = 2i".
+- Martel–Shapiro–Weinberg (MSW) eq. 25, its quantiles, and all 18 σ entries of Table 1. RT3 re-derived these independently.
+- HKTT 0711.2512 eq. 2.5.
+- Planck 2018 Table 2 inputs, with CAMB giving σ₈ = 0.8109.
+
+**(A) Discretuum + anthropics**
+- **Flat prior near Λ = 0 in the BP toy (VERIFIED; expected, not new).**
+  - Setup: incommensurate charges, J = 4–12.
+  - Scaling: #{Λ ∈ [0, ε]} ∝ ε^p with p = 0.994–1.008, over 10–11 decades down to single-level spacing, with no gaps.
+  - Spacings are Poisson: var s ≈ 1.00, Σ²(L) ≈ L.
+  - min|Λ| is exponentially distributed with mean 1/(2ρ(0)).
+  - The test has power. RT3 shows near-commensurate charges give χ²/dof = 171–3.6×10⁵.
+- **Face-corrected BP density (VERIFIED).**
+  - The exact orthant identity is #points = 2^(−J) Σ_U #(ℤ^U ∩ E).
+  - BP's eq. 2.26 with D = 2^J underestimates the density by up to 2.2× at n_max ≈ 30, and by 10^2.2–10^4.2 at J = 100.
+  - The "10^60.7 in BP's large-J examples" claim **FAILED**: BP have no J = 300 example, and that regime is where BP say the estimate breaks down.
+- **Charge sensitivity (VERIFIED).**
+  - Near-commensurate charges (δR² ≲ 1) produce combs and gaps of up to 2×10⁶ mean spacings.
+  - Repeated charges act as a smaller J_eff.
+  - Flatness is therefore inherited from incommensurability, which has never been computed for a real stabilized landscape.
+- **The Phase 1 "factor-of-2 discrepancy" with Denef–Douglas/Ashok–Douglas is a convention, not an error.** DD's 240 counts both N and −N (their own recipe gives 120 orbits), and AD explicitly multiply by 2. The Phase 1 claim is therefore **FAILED**, resolved by T3 and VERIFIED by RT3.
+- **MSW with Planck 2018 (VERIFIED; RT3 gets 0.0857, ±7% across transfer functions).**
+  - P(ρ_V ≤ ρ_obs) = 0.086 at R_G = 1 Mpc, with median ρ_V ≈ 13 ρ_obs.
+  - It ranges from 0.043 to 0.29 for R_G = 0.5–3 Mpc.
+  - For comparison: Sorini–Peacock–Lombriser (2411.07301) get 0.5% with a modern observer model; Sudoh et al. (1607.00180) get 6.7–9.7%.
+  - The observer model, not the landscape, dominates the uncertainty.
+
+**(B) Swampland quintessence**
+- **Minimal slope with all-positive geometric type II sources in the dilaton–volume plane (VERIFIED as mathematics).**
+  - Values: |∇V|/V ≥ √(18/7) = 1.604 (IIB, R₆+D9) and ≥ √(50/19) = 1.622 (IIA, R₆+F₀). Non-geometric Q-flux brings this to √2.
+  - Physics caveat (RT3): R₆+D9 cannot occur in type IIB proper because of the D9 tadpole, so the sharp IIB value is √(8/3) = 1.633.
+  - The pointwise bound is the known convex-hull lemma.
+- **Mixed-sign constructions (VERIFIED).**
+  - There is no stable two-term attractor, which is already in 2303.03418.
+  - Collinear three-term sets reach the TCC slope √(2/3) only while running to strong 10d coupling or zero volume, i.e. out of control.
+- **DESI DR2 (2504.04226).** λ = 0.698 (+0.17/−0.20) lies far below every controlled slope found: "4.1σ" from √2 and "5.2σ" from 1.604. These σ values are Gaussian extrapolations of a 68% interval. Reading the error in λ² gives 6.3σ, and the result depends on the supernova dataset. Verdict **PLAUSIBLE**; quote "≳4σ, dataset-dependent".
+
+**What T3 means for mission (2).** Neither principle, as computed, selects the observed Λ.
+- **(A)** is consistent with ρ_obs to about an order of magnitude and is not predictive beyond that. It rests on charge incommensurability, which nobody has computed for a real landscape, and on the observer model.
+- **(B)**, with standard sources in the universal sector, cannot accelerate at all, sits ≳4σ from the DESI fit, and leaves the scale of Λ free.
 
 ### 5.4 The celestial-amplitude error (Phase 1 discovery → Phase 4 confirmation)
 
@@ -367,9 +424,10 @@ Every reviewer wrote independent code before reading ours (`phase4/*_code/`). Th
 - **D1.** The dS-window edges were log-grid points, not exact edges.
 - **A1.** The v¹⁰/r¹⁹ coefficient is +182325/16384 in the stated (Minkowski) convention.
 - **T2.7.** A flux step in K′ alone breaks the tadpole. The window was calibrated on the survivors. The Ξ distribution of the 396 is unknown. One flux choice (Ex4) contains 22 vacua. So the "yield/efficiency" comparison carries no information.
-- **T3 failures:** see §5.3.
+- **T3.2 (large-J part).** BP have no J=300 example. In the n_max < √J regime BP's formula is not meant to apply, and the face formula is itself off there (exact gain 10^62.35).
+- **C-f2.** The Phase 1 "factor-of-2 discrepancy" was a counting convention (N vs −N), documented by the original authors.
 
-**Downgraded for novelty (VERIFIED-KNOWN):** A2, T1.7, T2.4, T2.6 (and T2.2's mechanism); T1.4 and T1.6 are overclaimed.
+**Downgraded for novelty (VERIFIED-KNOWN):** A2, T1.7, T2.4, T2.6 (and T2.2's mechanism), T3.7 (two-term no-go); T1.4, T1.6 and T3.6's pointwise bound are overclaimed.
 
 ---
 
@@ -388,7 +446,7 @@ Every reviewer wrote independent code before reading ours (`phase4/*_code/`). Th
 
 **Mission (2): vacuum selection.**
 - Existence of controlled dS is still open. T2 shows the best candidates fail a debated-but-standard warped-throat criterion.
-- For Λ: see §5.3.
+- For Λ, see §5.3: neither anthropics on a discretuum nor minimal swampland quintessence selects ρ_obs. The decisive uncomputed inputs are the charge incommensurability of a real stabilized landscape and the observer model.
 - No selection principle has been derived. The live options and what each hinges on are mapped in Front C and T3.
 
 ---
