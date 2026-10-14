@@ -14,3 +14,4 @@ a=+0.50000 D_max=17.138444 (L5)  min_(6<=n<=40) Dcrit = 17.215419 at n=6 spins [
 a=+0.51000 D_max=17.307210 (L5)  min_(6<=n<=40) Dcrit = 17.348922 at n=6 spins [0]  margin=0.0417
 a=+0.51500 D_max=17.392184 (L5)  min_(6<=n<=40) Dcrit = 17.415823 at n=6 spins [0]  margin=0.0236
 a=+0.51580 D_max=17.405640 (L4)  min_(6<=n<=40) Dcrit = 17.426537 at n=6 spins [0]  margin=0.0209
+a=+0.51600 D_max=17.408086 (L4)  min_(6<=n<=40) Dcrit = 17.429216 at n=6 spins [0]  margin=0.0211
