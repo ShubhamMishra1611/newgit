@@ -1,0 +1,28 @@
+KKLT baseline: sigma_AdS = 113.5891 (KKLT: 113.589), x=11.3589
+ n=2: Xi window [1.007, 3.773]  D window [2.594e-11, 9.719e-11]  m*l_AdS=25.17  V_AdS=-1.997e-15
+ n=3: Xi window [1.016, 2.687]  D window [2.973e-09, 7.861e-09]  m*l_AdS=25.17  V_AdS=-1.997e-15
+  x= 1.00: Xi in [1.379, 1.784] w=0.258 m*l_AdS=4.24
+  x= 2.00: Xi in [1.139, 1.705] w=0.403 m*l_AdS=6.32
+  x= 2.50: Xi in [1.098, 1.764] w=0.474 m*l_AdS=7.35
+  x= 4.00: Xi in [1.045, 2.040] w=0.669 m*l_AdS=10.39
+  x= 8.00: Xi in [1.013, 2.958] w=1.071 m*l_AdS=18.44
+  x=11.36: Xi in [1.007, 3.773] w=1.321 m*l_AdS=25.18
+  x=20.00: Xi in [1.002, 5.908] w=1.774 m*l_AdS=42.47
+  x=30.00: Xi in [1.001, 8.397] w=2.127 m*l_AdS=62.48
+
+per-vacuum calibration (match lightest Kahler mass * l_AdS):
+ Ex1: m l_AdS=7.33 -> x_cal=2.490 Xi window [1.099, 1.762] factor 1.60 w=0.473 | step dlnXi per dK'=1: 3.985 (factor 54) | w/step=0.119
+ Ex2: m l_AdS=9.78 -> x_cal=3.697 Xi window [1.051, 1.978] factor 1.88 w=0.632 | step dlnXi per dK'=1: 4.586 (factor 98) | w/step=0.138
+ Ex3: m l_AdS=11.50 -> x_cal=4.550 Xi window [1.036, 2.158] factor 2.08 w=0.734 | step dlnXi per dK'=1: 5.262 (factor 193) | w/step=0.139
+ Ex4: m l_AdS=18.43 -> x_cal=7.997 Xi window [1.013, 2.957] factor 2.92 w=1.071 | step dlnXi per dK'=1: 5.187 (factor 179) | w/step=0.206
+ Ex5: m l_AdS=27.36 -> x_cal=12.448 Xi window [1.006, 4.040] factor 4.02 w=1.391 | step dlnXi per dK'=1: 5.619 (factor 276) | w/step=0.247
+
+expected yields under log-uniform Xi on [0.1,10] (assumption):
+  mean calibrated w    w=0.860 P=0.187 expected of 396: 74 ; 5/expected=0.068
+  min w                w=0.473 P=0.103 expected of 396: 41 ; 5/expected=0.123
+  max w                w=1.391 P=0.302 expected of 396: 120 ; 5/expected=0.042
+  x=11.36 w            w=1.321 P=0.287 expected of 396: 114 ; 5/expected=0.044
+  paper 1<~Xi<~3       w=1.099 P=0.239 expected of 396: 94 ; 5/expected=0.053
+
+Xi precursor (B.16): [3.927 1.886 1.521 1.756 3.162]
+Xi precursor exact (repo V_AdS): [4.647 2.177 1.73  1.999 3.649]

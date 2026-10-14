@@ -1,0 +1,1 @@
+c=1 empty-check N=14 step=1/1000: points=5364 survivors=[] gaps=[]

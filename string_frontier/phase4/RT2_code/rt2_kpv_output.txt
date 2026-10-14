@@ -1,0 +1,29 @@
+a0=0.71805 b0^2=0.93266
+KPV critical p/M = 0.08049 (KPV/HSV: ~0.08)
+HSV shark-fin tip (ours): p/M = 0.0800, g_sM = 17.844   [HSV text: 0.0826, 20.363]
+  g_sM= 25.0: HSV min region p/M in [0.0734, 0.0804] (ours); HSV eq.2.13 lower edge 0.0790
+  g_sM= 30.0: HSV min region p/M in [0.0696, 0.0804] (ours); HSV eq.2.13 lower edge 0.0753
+  g_sM= 50.0: HSV min region p/M in [0.0594, 0.0804] (ours); HSV eq.2.13 lower edge 0.0651
+  g_sM=100.0: HSV min region p/M in [0.0476, 0.0804] (ours); HSV eq.2.13 lower edge 0.0525
+HSV Fig.4 thresholds (max V>0): p/M=1e-4 -> g_sM>5.367 ; p/M=3 -> g_sM>2.104  [HSV: 5.238, 2.086]
+  SV zero-energy line g_sM=  3.6: p/M=0.02387 ; SV eq.4.1: 0.02544
+  SV zero-energy line g_sM=  4.0: p/M=0.02093 ; SV eq.4.1: 0.02268
+  SV zero-energy line g_sM=  5.0: p/M=0.01668 ; SV eq.4.1: 0.01778
+  SV zero-energy line g_sM= 10.0: p/M=0.00847 ; SV eq.4.1: 0.00835
+  SV zero-energy line g_sM= 20.0: p/M=0.00407 ; SV eq.4.1: 0.00392
+  SV g_sM=3.3: metastable min with V_up>0 for p/M in none
+  SV g_sM=3.4: metastable min with V_up>0 for p/M in none
+  SV g_sM=3.5: metastable min with V_up>0 for p/M in none
+  SV g_sM=3.6: metastable min with V_up>0 for p/M in [0.0240,0.0246]
+  SV g_sM=3.7: metastable min with V_up>0 for p/M in [0.0230,0.0248]
+
+Five vacua (p=1):
+ id   g_sM  p/M     psi_KPV  f(psi)/(gsM)^2  c1/(gsM)^2  cot-part share  SVbracket  c_D3/(gsM)^2  R_S3^2/a'  R_NS5^2/a'(b0^4 gsM sin^2)  HSV minima<pi/2  HSV maxima  SV minima (psi, v/v_D3)
+ Ex1  1.051 0.0625    0.490         41.1          8.0         0.81        92.0        5.36      0.98        0.203      []  [np.float64(0.754)]  [(np.float64(1.694), np.float64(-72.3))]
+ Ex2  0.913 0.0625    0.490         54.4         10.6         0.81       121.5        7.10      0.85        0.176      []  [np.float64(0.754)]  [(np.float64(1.694), np.float64(-96.0))]
+ Ex3  0.796 0.0556    0.426        113.5         13.9         0.88       583.6        9.35      0.74        0.118      []  [np.float64(0.745)]  [(np.float64(1.69), np.float64(-144.1))]
+ Ex4  0.807 0.0500    0.378        167.2         13.5         0.92      1496.2        9.09      0.75        0.096      []  [np.float64(0.739)]  [(np.float64(1.688), np.float64(-157.2))]
+ Ex5  0.746 0.0625    0.490         81.7         15.9         0.81       181.9       10.66      0.70        0.144      []  [np.float64(0.753)]  [(np.float64(1.693), np.float64(-144.4))]
+p/M=0.0625: f(psi_KPV)=45.42 -> f/(gsM)^2<=0.1 needs g_sM>=21.3 ; <=1 needs 6.7 ; anti-D3 c/(gsM)^2<=0.1 needs 7.7
+p/M=0.0500: f(psi_KPV)=109.00 -> f/(gsM)^2<=0.1 needs g_sM>=33.0 ; <=1 needs 10.4 ; anti-D3 c/(gsM)^2<=0.1 needs 7.7
+anti-D3 tension correction 1 - 5.9241/(gsM)^2 changes sign at g_sM = 2.434

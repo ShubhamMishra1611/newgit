@@ -25,6 +25,8 @@ from bp_lib import (BPModel, smooth_orthant_count, smooth_orthant_density_Lambda
 
 T0 = time.time()
 OUT = {}
+PARTS = sys.argv[1].split(",") if len(sys.argv) > 1 else ["ab", "c", "cp", "d", "e"]
+TAG = "_".join(PARTS)
 
 
 def charges(J, seed, kind="random", delta=None):
@@ -43,8 +45,7 @@ def hdr(s):
 
 
 # --------------------------------------------------------------------------------------
-hdr("PART (a)+(b): counting function N(eps) and level statistics near Lambda = 0")
-CONFIGS = [  # (J, R, seed)
+CONFIGS = [] if "ab" not in PARTS else [  # (J, R, seed)
     (4, 1500.0, 11),
     (6, 330.0, 12),
     (8, 90.0, 13),
@@ -53,6 +54,8 @@ CONFIGS = [  # (J, R, seed)
 ]
 LEVELS_TARGET = 600_000
 summary_ab = []
+if CONFIGS:
+    hdr("PART (a)+(b): counting function N(eps) and level statistics near Lambda = 0")
 for J, R, seed in CONFIGS:
     t = time.time()
     q2 = charges(J, seed)
@@ -137,7 +140,8 @@ for J, R, seed in CONFIGS:
     print(f"  [{time.time()-t:.1f}s]", flush=True)
     del m, Q, Lam, x, s
 
-hdr("PART (c): minimum |Lambda| vs J and flux cutoff (exactly re-verified with Fractions)")
+if "c" in PARTS:
+    hdr("PART (c): minimum |Lambda| vs J and flux cutoff (exactly re-verified with Fractions)")
 # For each (J,R): NSHIFT generic shell radii R^2 + u, u ~ U[0,1).  Record exact min|Lambda|,
 # and the density estimated from the 100 smallest |Lambda| (order statistics of a Poisson process).
 NSHIFT = 6
@@ -149,10 +153,11 @@ MINCONF = {
     12: [10.0, 15.0, 22.0, 30.0],
     16: [8.0, 11.0, 15.0, 19.0],
     20: [7.0, 9.0, 11.5, 13.5],
-    24: [6.0, 8.0, 10.0, 11.5],
-}
+    24: [6.0, 8.0, 10.0, 10.75],   # 11.5 was OOM-killed (half ~1e8 long doubles) in the first run
+} if "c" in PARTS else {}
 rows_c = []
-print(" J     R    n_max  |  <min|Lam|>(exact)   1/(2 rho_sm)   ratio | rho_emp(k<=100)/rho_sm | min over shifts")
+if MINCONF:
+    print(" J     R    n_max  |  <min|Lam|>(exact)   1/(2 rho_sm)   ratio | rho_emp(k<=100)/rho_sm | min over shifts")
 for J, Rlist in MINCONF.items():
     q2 = charges(J, 100 + J)
     for R in Rlist:
@@ -181,18 +186,23 @@ for J, Rlist in MINCONF.items():
               f"       {rho_emp/rho:7.4f}         | {mins.min():.3e}   [{time.time()-t:.1f}s, half {len(m.A):,}]", flush=True)
         del m
 rows_c = np.array(rows_c)
-print("\n fitted exponent of <min|Lambda|> vs R at fixed J (prediction from rho ~ R^{J-2}: -(J-2)):")
+if MINCONF:
+  print("\n fitted exponent of <min|Lambda|> vs R at fixed J (prediction from rho ~ R^{J-2}: -(J-2)):")
 for J in MINCONF:
     s = rows_c[rows_c[:, 0] == J]
+    if len(s) < 2:
+        continue
     p = np.polyfit(np.log(s[:, 1]), np.log(s[:, 3]), 1)[0]
     pr = np.polyfit(np.log(s[:, 1]), np.log(s[:, 4]), 1)[0]
     print(f"   J={J:2d}: fitted slope {p:+.3f}  (smooth-density prediction over same R range {pr:+.3f}; leading -(J-2) = {-(J-2)})")
 OUT["min_scaling"] = rows_c.tolist()
-print(" mean of ratio <min|Lam|> * 2 rho over all (J,R):", f"{rows_c[:,5].mean():.3f} +- {rows_c[:,5].std()/math.sqrt(len(rows_c)):.3f}"
+if MINCONF:
+  print(" mean of ratio <min|Lam|> * 2 rho over all (J,R):", f"{rows_c[:,5].mean():.3f} +- {rows_c[:,5].std()/math.sqrt(len(rows_c)):.3f}"
       " (Poisson: 1; each entry averages only 6 shifts, so expect ~+-0.4 scatter per entry)")
 
-hdr("PART (c'): fixed flux cutoff R = 11 (n_max <= 11), varying J")
-for J in (4, 6, 8, 10, 12, 16, 20, 24):
+if "cp" in PARTS:
+    hdr("PART (c'): fixed flux cutoff R = 11 (n_max <= 11), varying J")
+for J in ((4, 6, 8, 10, 12, 16, 20, 24) if "cp" in PARTS else ()):
     q2 = charges(J, 200 + J)
     R2 = 11.0 ** 2 + 0.3183098861837907
     rho = smooth_orthant_density_Lambda(q2, R2, 0.0)
@@ -203,12 +213,14 @@ for J in (4, 6, 8, 10, 12, 16, 20, 24):
           f"  exact min|Lambda| = {c[0][0]/2:.3e};  verified n = {c[0][2]}")
     del m
 
-hdr("PART (d): sensitivity to the charges")
-print("(d1) near-commensurate charges q_i^2 = 1 + delta*u_i, J = 8, R^2 = 400 + 0.3711 (generic)")
+if "d" in PARTS:
+    hdr("PART (d): sensitivity to the charges")
+    print("(d1) near-commensurate charges q_i^2 = 1 + delta*u_i, J = 8, R^2 = 400 + 0.3711 (generic)")
 J = 8
 R2 = 400.0 + 0.3711
-print("  delta     delta*R^2 | rho_sm(0)  | N[|Lam|<1/rho_sm*50] /100 | max gap / mean spacing (|Lam|<1) | P(s<0.1) var(s) | min|Lam| exact")
-for delta in (0.3, 3e-2, 3e-3, 3e-4, 3e-5, 0.0):
+if "d" in PARTS:
+  print("  delta     delta*R^2 | rho_sm(0)  | N[|Lam|<1/rho_sm*50] /100 | max gap / mean spacing (|Lam|<1) | P(s<0.1) var(s) | min|Lam| exact")
+for delta in ((0.3, 3e-2, 3e-3, 3e-4, 3e-5, 0.0) if "d" in PARTS else ()):
     q2 = charges(J, 300, "nearcomm", delta) if delta > 0 else np.ones(J)
     m = BPModel(q2, R2, 4.0)
     rho = smooth_orthant_density_Lambda(q2, R2, 0.0) if delta > 0 else smooth_orthant_density_Lambda(np.ones(J) * (1 + 1e-12), R2, 0.0)
@@ -225,13 +237,14 @@ for delta in (0.3, 3e-2, 3e-3, 3e-4, 3e-5, 0.0):
           f"                    | {np.mean(sp<0.1):.3f}  {np.nanvar(sp):7.3f} | {c[0][0]/2:.3e}  (#distinct in |Lam|<1: {len(lu):,} vs pred {2*rho:.3g})")
     del m
 
-print("\n(d2) repeated charges: J = 12 fluxes but only 3 distinct charges (each used 4 times)")
-print("     prediction: distinct values are sum_a q_a^2 m_a, m_a in Z>=0 (Lagrange: every m_a is a sum of 4 squares)")
-print("     -> distinct-value density per unit Lambda = X^2 / prod_a q_a^2 at X=R^2 (effective J_eff = 6), vs generic J=12.")
+if "d" in PARTS:
+  print("\n(d2) repeated charges: J = 12 fluxes but only 3 distinct charges (each used 4 times)")
+  print("     prediction: distinct values are sum_a q_a^2 m_a, m_a in Z>=0 (Lagrange: every m_a is a sum of 4 squares)")
+  print("     -> distinct-value density per unit Lambda = X^2 / prod_a q_a^2 at X=R^2 (effective J_eff = 6), vs generic J=12.")
 rng = np.random.default_rng(400)
 qa = (1 + rng.random(3)) ** 2
 q2 = np.repeat(qa, 4)
-for R in (8.0, 11.0, 15.0):
+for R in ((8.0, 11.0, 15.0) if "d" in PARTS else ()):
     R2 = R * R + 0.271828
     m = BPModel(q2, R2, 4.0)
     Qw, _, _ = m.list_Q_window(R2 - 1.0, R2 + 1.0, max_points=80_000_000)
@@ -246,9 +259,10 @@ for R in (8.0, 11.0, 15.0):
           f" min|Lam| = {np.min(np.abs(lu)):.3e} (1/(2 rho_eff) = {1/(2*pred_eff):.3e})")
     del m
 
-hdr("PART (e): BP's own numbers -- what J and q are needed for Lambda_obs, under Poisson statistics")
+if "e" in PARTS:
+    hdr("PART (e): BP's own numbers -- what J and q are needed for Lambda_obs, under Poisson statistics")
 # P(at least one vacuum with |Lambda| < eps) = 1 - exp(-2 rho eps), rho = BP density with D = 2^J
-for J, logq in ((100, -1.6), (100, -1.43), (100, -1.73), (300, -0.87)):
+for J, logq in (((100, -1.6), (100, -1.43), (100, -1.73), (300, -0.87)) if "e" in PARTS else ()):
     q = 10 ** logq
     lam_bare = 1.0
     R2 = 2 * lam_bare
@@ -257,5 +271,5 @@ for J, logq in ((100, -1.6), (100, -1.43), (100, -1.73), (300, -0.87)):
     print(f"  J={J}, q=10^{logq}: log10 rho(0) [distinct values per unit lambda, D=2^J] = {log_rho:.1f}"
           f";  expected # vacua with |lambda|<1e-120: 10^{log_rho-120+math.log10(2):.1f}")
 
-json.dump(OUT, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "T3_A1_bp_discretuum_data.json"), "w"))
+json.dump(OUT, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), f"T3_A1_bp_discretuum_data_{TAG}.json"), "w"))
 print(f"\nTotal runtime {time.time()-T0:.0f}s")

@@ -1,0 +1,26 @@
+m^2=1/2, M^2=3/2 (BELOW threshold 4m^2=2):
+    s          = 3/2
+    t          = 0.0587894531788779
+    u          = 0.441210546821122
+    x          = 0.764842187284488
+    resV       = -0.382421093642244
+    resV_proj  = -0.382421093642244
+    predV      = -0.382421093642244
+    res2       = 0.0837458928625301
+    pred2      = 0.0837458928625301
+    => spin-1 residue = e^2 (M^2-4m^2) x : coefficient of x has sign -1 for a HEALTHY real-e Proca field
+m^2=1/2, M^2=7/2 (ABOVE threshold 4m^2=2):
+    s          = 7/2
+    t          = -0.176368359536634
+    u          = -1.32363164046337
+    x          = 0.764842187284488
+    resV       = 1.14726328092673
+    resV_proj  = 1.14726328092673
+    predV      = 1.14726328092673
+    res2       = 0.753713035762771
+    pred2      = 0.753713035762771
+    => spin-1 residue = e^2 (M^2-4m^2) x : coefficient of x has sign 1 for a HEALTHY real-e Proca field
+
+Veneziano-type level-1 residue (al_t+1) with t=kappa(x-1): = (1-a)/2 + kappa x, kappa=(s_1-4m^2)/2;
+its spin-1 part kappa*x = (1/2)(M^2-4m^2) x is EXACTLY the Proca residue with e^2=1/2.  Hence c_{1,1}<0 for
+m^2>1/3 (2201.12331 eq.(13)) is the healthy sign of a real-coupled vector below threshold, not a ghost.

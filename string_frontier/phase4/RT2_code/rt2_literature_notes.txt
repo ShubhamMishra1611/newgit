@@ -1,0 +1,28 @@
+RT2 literature/citation evidence (fetched this session via Exa; INSPIRE API reached through mcp__Exa__web_fetch_exa)
+- INSPIRE recid of 2406.13751 = 2800646; citation_count 79 (2026-10-14). Query used:
+  https://inspirehep.net/api/literature?q=refersto%3Arecid%3A2800646&size=30&page={1,2,3}&fields=titles.title,arxiv_eprints.value
+  (the T2 query refersto:arxiv:... returns unrelated records; refersto:recid works).
+- Relevant citing papers checked:
+  * 2512.17095 McAllister & Schachner, "TASI Lectures on de Sitter Vacua" (abstract fetched; Lecture 4 treats 2406.13751 vacua).
+      - Sec.7 (around eqs 7.55-7.56): "in the context of PFVs ... one complex structure direction remains almost massless ...
+        highly susceptible to backreaction effects. Consequently, the usual two-step procedure of first stabilizing complex
+        structure moduli and then uplifting is not valid here" -> qualitative content of T2 claim 2 already stated by the authors.
+      - eq 6.122: V_D3bar ⊃ 2 mu3/g_s h^-1 [1 - c_R2/(g_sM)^2], c_R2 = 3x1.9747; eq 6.124 text: "at small g_sM the known
+        corrections are found to be significant" -> T2 claim 6 (qualitative) already stated by the authors.
+      - fn 91 (Sec 8.5): conifold modulus "replaced by a redshifted tower ... m_wKK" (same as 2406.13751 fn 44).
+      - cites BDGL [Bena:2018fqc] only for the W0 lower bound, not for conifold destabilisation.
+  * 2402.13311 Schreyer, "Higher order corrections to KPV: The nonabelian brane stack perspective" (abstract fetched):
+      g_sM^2 ~ O(100) needed (NS5: g_sM^2 > 144 for p=1); control over alpha' expansion needs (g_sM)^2 > 4.91 (talk slides,
+      Swamplandia 2024). NOT cited by T2.
+  * 2512.17995 Hebecker, Lüst, Schachner, Schreyer (abstract fetched) - F-term uplift/warping; no per-vacuum numbers.
+  * 2607.18402 Lüst, Ruehle, Schreyer "Warped Numerical CY Metrics" - quintic benchmark, not the five vacua.
+  * 2609.35985 Junghans "Control Problem of de Sitter Vacua with T-brane Uplift" - LVS/T-brane, not the five vacua.
+  * no paper found that evaluates BDGL, the conifold mass, alpha'^2-KPV numbers, or the dS window for the five vacua.
+- IDs used by T2 spot-checked (abstract pages fetched): 1902.07724 (Blumenhagen-Klaewer-Schlechter, "Swampland Variations on a
+  Theme by KKLT"), 2201.03572 (Junghans, "LVS de Sitter Vacua are probably in the Swampland"), 2512.17995 (HLSS), 2402.13311.
+  2208.02826 (HSV), 2212.07437 (SV), 2206.04708 (Lüst-Randall), 2505.00149 (Schachner) confirmed via search results/ar5iv.
+- SV eq.(3.5) LaTeX checked on ar5iv: the F2 terms contain (pi p/M - (psi - sin(2psi)/2)) -> T2's reading is correct.
+- 2406.13751 Sec.4.3: "the orientifold symmetry (4.4) must exchange the two conifold singularities (4.9)" -> the n_cf=2 nodes are
+  orientifold images: ONE physical KS throat, anti-D3 + image in covering space -> single-throat BDGL bound applies unchanged.
+- authors' code kahler_stabilisation.py fetched (raw.githubusercontent via Exa): V += c_uplift/cy_volume^(4/3) + gs^3*CSFterm/cy_volume^2
+  with cy_volume the string-frame volume -> V_cs = CSFterm/V_E^2 and V_D3 = c_uplift/(g_s^2 V_E^(4/3)), as T2 states.

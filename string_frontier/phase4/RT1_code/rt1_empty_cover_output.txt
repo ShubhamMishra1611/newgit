@@ -1,0 +1,2 @@
+N=14, step=1/2000, points=10552; min #failing levels per point = 1
+adjacent grid pairs with NO common failing level: []

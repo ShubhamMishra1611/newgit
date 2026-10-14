@@ -1,0 +1,9 @@
+level 2 spin0 at a=1, m2=-1+delta: (16*D*delta**2 - D - 40*delta + 26)/(4*(D - 1))
+   roots in delta at D=26: [0.096153846153846153846]
+level 3 spin0 at a=1, m2=-1+delta: 2*delta*(4*D*delta**2 - D + 8*delta**2 - 36*delta + 28)/(D - 1)
+   roots in delta at D=26: [0.071428571428571428571, 0.25000000000000000000]
+level 4 spin0 at a=1, m2=-1+delta: (256*D**2*delta**4 - 160*D**2*delta**2 + 9*D**2 + 1536*D*delta**4 - 5376*D*delta**3 + 4544*D*delta**2 + 560*D*delta - 490*D + 2048*delta**4 - 10752*delta**3 + 18816*delta**2 - 15904*delta + 6704)/(16*(D - 1)*(D + 1))
+   roots in delta at D=26: [0.25000000000000000000, 0.40224589837224051493]
+level 5 spin0 at a=1, m2=-1+delta: 8*delta*(4*D**2*delta**4 - 5*D**2*delta**2 + D**2 + 40*D*delta**4 - 160*D*delta**3 + 145*D*delta**2 + 60*D*delta - 60*D + 96*delta**4 - 640*delta**3 + 1590*delta**2 - 1860*delta + 899)/((D - 1)*(D + 1))
+   roots in delta at D=26: [0.12500000000000000000, 0.12500000000000000000, 0.50000000000000000000, 0.50000000000000000000]
+edge level2 spin0: (-D + 4*a**2 + 12*a + 10)/(4*(D - 1))  -> D bound: [4*a**2 + 12*a + 10]

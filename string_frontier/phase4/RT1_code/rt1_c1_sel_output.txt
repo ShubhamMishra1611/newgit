@@ -1,0 +1,7 @@
+c=1 a=-63/100 D_max=3.0429447852 [level 3 spins [0]] (8a+10)/(1-a)=3.0429447853 next [(5, 3.7045), (4, 3.7543)] | levels 13..100: ALL POSITIVE
+c=1 a=   -3/5 D_max=3.2499999999 [level 3 spins [0]] (8a+10)/(1-a)=3.2500000000 next [(5, 3.8938), (4, 3.9726)] | levels 13..100: ALL POSITIVE
+c=1 a=   -1/2 D_max=3.9999999999 [level 3 spins [0]] (8a+10)/(1-a)=4.0000000000 next [(5, 4.586), (4, 4.7692)] | levels 13..100: ALL POSITIVE
+c=1 a=   -1/4 D_max=6.3999999999 [level 3 spins [0]] (8a+10)/(1-a)=6.4000000000 next [(5, 6.8299), (7, 7.1414)] | levels 13..100: ALL POSITIVE
+c=1 a=  -1/10 D_max=8.3636363636 [level 3 spins [0]] (8a+10)/(1-a)=8.3636363636 next [(5, 8.6812), (7, 8.9598)] | levels 13..100: ALL POSITIVE
+c=1 a= -1/100 D_max=9.8217821782 [level 3 spins [0]] (8a+10)/(1-a)=9.8217821782 next [(5, 10.0658), (7, 10.3219)] | levels 13..100: ALL POSITIVE
+c=1 a=      0 D_max=10.0000000000 [level 3 spins [0]] (8a+10)/(1-a)=10.0000000000 next [(5, 10.2357), (7, 10.4892)] | levels 13..100: ALL POSITIVE

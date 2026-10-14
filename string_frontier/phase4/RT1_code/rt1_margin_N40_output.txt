@@ -1,0 +1,16 @@
+a=-0.72400 D_max=3.001074 (L3)  min_(6<=n<=40) Dcrit = 3.840068 at n=7 spins [0]  margin=0.8390
+a=-0.72000 D_max=3.032258 (L3)  min_(6<=n<=40) Dcrit = 3.869489 at n=7 spins [0]  margin=0.8372
+a=-0.70000 D_max=3.189189 (L3)  min_(6<=n<=40) Dcrit = 4.017754 at n=7 spins [0]  margin=0.8286
+a=-0.65000 D_max=3.589041 (L3)  min_(6<=n<=40) Dcrit = 4.396849 at n=7 spins [0]  margin=0.8078
+a=-0.60000 D_max=4.000000 (L3)  min_(6<=n<=40) Dcrit = 4.787988 at n=7 spins [0]  margin=0.7880
+a=-0.50000 D_max=4.857143 (L3)  min_(6<=n<=40) Dcrit = 5.606582 at n=7 spins [0]  margin=0.7494
+a=-0.33333 D_max=6.400000 (L3)  min_(6<=n<=40) Dcrit = 7.081113 at n=7 spins [0]  margin=0.6811
+a=+0.00000 D_max=10.000000 (L3)  min_(6<=n<=40) Dcrit = 10.489178 at n=7 spins [0]  margin=0.4892
+a=+0.25000 D_max=13.272727 (L3)  min_(6<=n<=40) Dcrit = 13.551177 at n=7 spins [0]  margin=0.2785
+a=+0.38000 D_max=15.221374 (L3)  min_(6<=n<=40) Dcrit = 15.375974 at n=7 spins [0]  margin=0.1546
+a=+0.38830 D_max=15.352376 (L3)  min_(6<=n<=40) Dcrit = 15.499103 at n=7 spins [0]  margin=0.1467
+a=+0.40000 D_max=15.531506 (L5)  min_(6<=n<=40) Dcrit = 15.674148 at n=7 spins [0]  margin=0.1426
+a=+0.50000 D_max=17.138444 (L5)  min_(6<=n<=40) Dcrit = 17.215419 at n=6 spins [0]  margin=0.0770
+a=+0.51000 D_max=17.307210 (L5)  min_(6<=n<=40) Dcrit = 17.348922 at n=6 spins [0]  margin=0.0417
+a=+0.51500 D_max=17.392184 (L5)  min_(6<=n<=40) Dcrit = 17.415823 at n=6 spins [0]  margin=0.0236
+a=+0.51580 D_max=17.405640 (L4)  min_(6<=n<=40) Dcrit = 17.426537 at n=6 spins [0]  margin=0.0209

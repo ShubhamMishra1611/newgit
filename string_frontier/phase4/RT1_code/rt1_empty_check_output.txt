@@ -1,0 +1,1 @@
+N=30 step=1/1000: scanned 5276 a-values in [-6,-21/29); survivors (all levels positive at D=3+1e-6): []

@@ -1,0 +1,11 @@
+edge a= -1/2 m2=+0.1250 D_max=5.000000 level 2 spins [0]  (2a+3)^2+1=5.000000
+edge a= -1/4 m2=-0.0625 D_max=7.250000 level 2 spins [0]  (2a+3)^2+1=7.250000
+edge a=    0 m2=-0.2500 D_max=10.000000 level 2 spins [0]  (2a+3)^2+1=10.000000
+edge a=  1/4 m2=-0.4375 D_max=13.250000 level 2 spins [0]  (2a+3)^2+1=13.250000
+edge a=  1/2 m2=-0.6250 D_max=17.000000 level 2 spins [0]  (2a+3)^2+1=17.000000
+edge a=  3/4 m2=-0.8125 D_max=21.250000 level 2 spins [0]  (2a+3)^2+1=21.250000
+edge a= 9/10 m2=-0.9250 D_max=24.040000 level 2 spins [0]  (2a+3)^2+1=24.040000
+edge a=    1 m2=-1.0000 D_max=26.000000 level 2 spins [0]  (2a+3)^2+1=26.000000
+edge a=  5/4 m2=-1.1875 D_max=30.687500 level 3 spins [1]  (2a+3)^2+1=31.250000
+edge a=  3/2 m2=-1.3750 D_max=35.400000 level 4 spins [2]  (2a+3)^2+1=37.000000
+edge a=    2 m2=-1.7500 D_max=44.857143 level 6 spins [4]  (2a+3)^2+1=50.000000

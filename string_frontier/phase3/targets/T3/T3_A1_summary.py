@@ -1,12 +1,12 @@
 """T3 (A1) post-processing: flat-prior test on DISJOINT shells Lambda in [eps_k, eps_{k+1})
-(nested windows in the main output are correlated).  Reads T3_A1_bp_discretuum_data.json.
+(nested windows in the main output are correlated).  Reads T3_A1_bp_discretuum_data_ab.json.
 Run: python3 -I T3_A1_summary.py > T3_A1_summary.out
 """
 import json, os, math
 import numpy as np
 from scipy import stats
 
-D = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "T3_A1_bp_discretuum_data.json")))
+D = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "T3_A1_bp_discretuum_data_ab.json")))
 print(" J | disjoint shells (Lam>0 and Lam<0) | chi2/dof of (n-np)/sqrt(np) | p-value | max|pull| | max|n/np-1| for np>=1e4")
 for J in (4, 6, 8, 10, 12):
     d = D[f"J{J}"]
