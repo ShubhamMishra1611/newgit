@@ -1,7 +1,9 @@
 """T3 (A1): Bousso-Polchinski discretuum near Lambda = 0 -- density, level statistics,
 minimum |Lambda| scaling, sensitivity to the charges.
 
-Run:  python3 -I T3_A1_bp_discretuum.py > T3_A1_bp_discretuum.out   (~10-20 min, <4 GB RAM)
+Run:  python3 -I T3_A1_bp_discretuum.py ab > T3_A1_bp_discretuum.out          (parts a,b; ~8 min)
+      python3 -I T3_A1_bp_discretuum.py c,cp,d,e > T3_A1_bp_discretuum_cde.out (parts c,c',d,e; ~11 min, peak ~5 GB)
+      (a first all-in-one run was OOM-killed at J=24,R=11.5: T3_A1_bp_discretuum_firstrun_OOMkilled.out)
 
 Model (BP hep-th/0004134 eq. (2.21)):  Lambda = lambda_bare + (1/2) sum n_i^2 q_i^2, lambda_bare<0.
 Notation: R^2 = 2|lambda_bare|, Q = sum q_i^2 n_i^2, Lambda = (Q - R^2)/2.  Units: arbitrary
