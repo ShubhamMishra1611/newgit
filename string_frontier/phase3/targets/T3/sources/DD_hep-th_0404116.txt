@@ -1,0 +1,3290 @@
+# (no title)
+URL: https://arxiv.org/pdf/hep-th/0404116
+
+arXiv:hep-th/0404116v2 29 Apr 2004
+Preprint typeset in JHEP style - HYPER VERSION
+Distributions of flux vacua
+Frederik Denef1,2 and Michael R. Douglas1,&,2
+1NHETC and Department of Physics and Astronomy
+Rutgers University
+Piscataway, NJ 08855–0849, USA
+&I.H.E.S., Le Bois-Marie, Bures-sur-Yvette, 91440 France
+2Caltech, Pasadena CA 91125, USA
+denef, mrd@physics.rutgers.edu
+Abstract: We give results for the distribution and number of flux vacua of various types,
+supersymmetric and nonsupersymmetric, in IIb string theory compactified on Calabi-Yau
+manifolds. We compare this with related problems such as counting attractor points.
+Contents
+1. Introduction 2
+1.1 Distributions of vacua 3
+1.2 Approximate distributions of vacua 4
+1.3 Other types of vacuum 6
+1.4 Index densities 7
+1.5 Ensembles of flux vacua 9
+2. Notations and some useful formulas 10
+2.1 Orientifold limit 12
+3. Distributions of supersymmetric vacua 13
+3.1 Computing densities 15
+3.1.1 The case n = 1 15
+3.1.2 Index density 16
+3.1.3 Example 1: T
+6 16
+3.1.4 Example 2: Conifold 17
+3.1.5 Example 3: Mirror Quintic 18
+3.1.6 d
+2
+|W| signature distribution 19
+3.2 Number of susy vacua with positive bosonic mass matrix 20
+3.3 Distribution of cosmological constants 24
+3.3.1 Density at zero cosmological constant 24
+3.3.2 Index density 25
+3.3.3 Total density 26
+3.3.4 Some general observations 27
+3.3.5 Distribution restricted to vacua with positive mass matrix 27
+3.4 Counting attractor points 28
+4. Distributions of nonsupersymmetric vacua 29
+4.1 Supersymmetric and anti-supersymmetric branches 30
+4.2 Intermediate branches 31
+4.2.1 Large complex structure limit 32
+4.2.2 Conifold limit 34
+4.2.3 Distribution of cosmological constants in conifold limit 36
+5. Finding vacua with quantized flux 36
+5.1 Flux vacua on rigid Calabi-Yau 38
+6. Conclusions 39
+– 1 –
+1. Introduction
+In this work, we study the distribution of metastable supersymmetric and nonsupersymmetric flux vacua in Calabi-Yau compactification of various string theories, along the lines
+developed in the works [14, 1, 15]
+The effect of turning on gauge field strengths (or “flux”) in string compactification has
+been studied in many works, starting with [31]. Some recent examples include [23, 25].
+Perhaps the most important qualitative effect of flux is that, since its contribution to the
+energy depends on the moduli of the compactification manifold, minimizing this energy
+will stabilize moduli, eliminating undesired massless fields. Since coupling constants in the
+low energy theory depend on moduli, finding the values at which moduli can be stabilized
+is an essential step in determining low energy predictions. It has also been suggested that
+taking into account the large number of possible choices for the flux, will lead to a large
+number of vacua with closely spaced values of the cosmological constant, and that some
+of these will reproduce its small observed value just on statistical grounds [6]. Thus one
+would like to know the distribution of cosmological constants, and how this depends on
+the moduli and other parameters of the vacuum.
+There are a lot of flux vacua, and finding each one explicitly is a lot of work. Furthermore, we are not entirely sure what properties we seek: there are many different scenarios
+for string phenomenology, each requiring different properties of the vacuum. Thus, rather
+than study individual vacua, we believe it is more interesting at this point to study the
+overall distribution of vacua in moduli space, and the distribution of quantities such as the
+cosmological constant and supersymmetry breaking scale. As discussed in [14, 16], such
+statistical results can serve as a guide to string phenomenology, and provide a “stringy”
+definition of naturalness. And, they are not much harder to get than results for individual
+vacua, as was seen in [1, 15] and as we will demonstrate here.
+A useful way to state these problems is as that of finding vacua in a specific ensemble
+(or set) of N = 1 effective supergravity theories, for which the K¨ahler potential and
+superpotential can be found explicitly. In principle, these theories are obtained by listing
+all string/M theory compactifications in a certain class, and in each case integrating out all
+but a finite number of fields, to obtain a Lagrangian valid at a low energy scale E. While
+not all vacua can be described by effective field theory, since at energies studied so far our
+universe seems to be described by effective field theory, this restriction seems adequate for
+the basic physics we want.
+One can certainly question whether this type of analysis captures all consistency conditions which vacua must satisfy. Perhaps the most important examples would be stability
+over cosmological time scales, and higher dimensional consistency conditions which are
+not obvious after integrating out fields. It is entirely possible that there are others; a list
+of speculations in this direction appears in [3], and these deserve study. Furthermore, it
+might turn out that early cosmology selects or favors a subset of preferred vacua. Our
+philosophy is not that we believe that none of this is important and thus can put absolute
+trust in the vacuum counting results below. Rather, we believe that, even if we had this
+additional information, it would not tell us which vacuum to consider a priori, and we
+– 2 –
+would still need to make an analysis of the type made here to find the relevant vacua, with
+the additional information taken into account as well. Thus the results we give should be
+considered as formal developments, with suggestive implications for real physical models,
+but which might be modified in light of better understanding.
+While the techniques we will describe could be used for any explicit ensemble of effective supergravity theories, we work here with Calabi-Yau compactification in the large
+volume, weak coupling limit, because good techniques for explicitly computing and working with the resulting supergravity Lagrangians exist at present only for this case. Indeed,
+type IIb vacua on Calabi-Yau might turn out to be “representative” in the sense discussed
+in [14, 16], on various grounds. First, known dualities relate many other nonperturbative
+superpotentials to these cases, and it seems fair to say that all the structure in the potential
+which has been called on in model building so far, such as generation of exponentially small
+scales, and spontaneous supersymmetry breaking, can be seen in flux superpotentials. Second, dualities have been proposed which relate many of the other large classes of vacua to
+these. A systematic way to study the hypothesis that (say) IIb on Calabi-Yau is representative, would be to find statistics of vacua from two or more large sets of constructions; if
+both were representative, clearly these statistics would have to be the same. The present
+results are a necessary first step towards such a test, namely to find statistics for one large
+set of constructions.
+This concludes the justification of our approach. Our main discussion is somewhat
+technical, so we devote the remainder of the introduction to a basic overview of the type
+of results we will get.
+1.1 Distributions of vacua
+Our starting point is to imagine that we are given a list of effective supergravity theories
+T1, T2, etc. all with the same configuration space (the space in which the chiral fields take
+values). We consider here theories with no gauge sector, so a theory Tiis specified by a
+Kahler potential Ki and superpotential Wi.
+We then apply the standard N = 1 supergravity formula for the potential,
+V = e
+K/M2
+p
+
+g
+i¯jDiW D¯jW∗ −
+3
+M2
+p
+|W|
+2
+
++ D2, (1.1)
+and look for solutions of ∂V /∂zi = ∂V /∂z¯
+¯i = 0. Here Mp is the four dimensional Planck
+scale (which will shortly be set to 1).
+Vacua come in various types. First, as is familiar, a supersymmetric vacuum is a
+solution of
+DiW(z) = ∂iW +
+1
+M2
+p
+(∂iK)W = 0. (1.2)
+We consider both Minkowski W = 0 and AdS W 6= 0 vacua.
+Conceptually, the simplest distribution we could consider is the “density of supersymmetric vacua,” defined as
+dµs(z) = X
+i
+δz(DWi(z))
+– 3 –
+where δz(f) is a delta function at f = 0, with a normalization factor such that each solution
+of f = 0 contributes unit weight in an integral Rd
+2n
+z. Thus, integrating this density over
+a region in configuration space, gives the number of vacua which stabilize the moduli in
+this region. A mathematically precise definition, and many explicit formulae which can be
+adapted to the physical situation, can be found in [15].
+In this case,
+δz(DW(z)) ≡ δ
+(n)
+(DW(z))δ
+(n)
+(DW¯ ∗(¯z))| det D
+2W(z)|
+where the Jacobian term is introduced to cancel the one arising from the change of variables
+z → DW. The matrix D2W is a 2n × 2n matrix
+D
+2W ≡
+
+∂¯¯iDjW(z) ∂iDjW(z)
+∂¯¯iD¯¯jW∗(z) ∂iD¯¯jW∗(z)
+
+. (1.3)
+Essentially, this is the fermionic mass matrix. Note that we could have replaced the partial
+derivatives by covariant derivatives, as DiDjW = ∂iDjW when DW = 0.
+With this definition, a vacuum with massless fermions counts as zero. There are better
+definitions, discussed in [14], which would be appropriate if generic vacua had massless
+fermions. However, since generic vacua in our problem are isolated and have no massless
+fermions, this definition is fine.
+We can also define joint distributions such as the distribution of supersymmetric vacua
+with a given cosmological constant,
+dµs(z,Λ) = X
+i
+δz(DWi(z)) δ(Λ − (−3e
+Ki
+|Wi(z)|
+2
+)).
+Below, we will define similar densities for nonsupersymmetric vacua of various types; at
+this point the basic idea should be clear.
+1.2 Approximate distributions of vacua
+Now, if we have a finite list of supergravity theories Ti, and if in each the number of vacua is
+finite, such a density will be a sum of delta functions. This is hard (though not impossible)
+to study, and for many purposes one might be satisfied with a continuous approximation
+to this density, a function ρ(z) whose integral over a region R,
+Z
+R
+d
+2n
+zρ(z), (1.4)
+approximates the actual number of vacua in this region.
+What does this mean and what good is it? To give the question some context, suppose
+we had an explicit string theory construction of the Standard Model, and we were trying
+to decide whether it could reproduce the gauge and Yukawa couplings. While in some
+cases these are constrained by symmetry, this is not enough to determine the non-zero
+couplings. In the vast majority of explicit models, these couplings depend on moduli of
+the compactification (metric, bundle and brane moduli, etc.) and most results in this area
+address the problem of finding the formula for the couplings in terms of moduli.
+– 4 –
+Let us suppose we have such a formula. We could then use it to identify a region R
+in moduli space, or a region in the joint space of moduli, cosmological constant and other
+observables, such that any vacuum in this region would be guaranteed to produce couplings
+which agreed with observation to the required precision (let us say such vacua “work”).
+Thus the question would become, does the region R contain vacua, which can be obtained
+by stabilizing moduli.
+Now, suppose we had an approximation ρ(z,Λ) to the density of suitable vacua, with
+suitably small cosmological constant. Integrating it over the region R, would produce an
+approximation to the number of vacua which work. This starts to sound interesting, but
+of course we do not really want an approximate answer. In the end, we want to know if
+the approximation helps to answer the real question of finding a vacuum which works.
+If the region is small, or the density of vacua is small, one might need to interpret
+a result such as “approximately 10−20 vacua work.” For the results we will discuss, this
+basically means that one expects that no vacua work, but it is possible that structure not
+reproduced by the approximation or some chance fine tuning will nevertheless lead to the
+existence of vacua. If there are competing classes of vacua which work, this would start to
+be evidence that vacua in the class under study do not work. To develop this hypothesis,
+the next question would be, what more do we need to do to prove that this region contains
+no vacua.
+If the region R is large enough to contain many vacua, there are two cases worth
+distinguishing. In our present state of ignorance, what we can typically do is try to enforce
+some but not all of the observational constraints on our model, and thus the number we
+would get at this stage would just be one factor in a final result. In this case, the most
+natural condition to put is that the integral Eq. (1.4) should approximate the actual number
+of vacua N(R) with an error much less than N(R).
+Suppose we have solved the problem to the end, or we feel that the vacuum we have
+found is particularly interesting, say because it realizes some property of interest or refutes
+some conjecture in the literature. Then we would like to use our calculation of N(R) >> 1
+to prove that a vacuum for the original, unapproximated problem, indeed sits in R; for a
+good approximation, this will be possible.
+Of course, we might decide that N(R) is so large, that the original goal of the discussion, say to test whether this class of vacua can reproduce the couplings in the Standard
+Model, becomes pointless. One can of course still hope that the assumptions that went into
+our choice of supergravity theories and definition of vacuum are false; however the computation of N(R) under these assumptions would have been good enough and one would not
+need to improve that.
+This covers the various possibilities. The main points we want to make here are the
+following. First, what one wants to know next, and how one thinks about the problem,
+depends very much on whether N(R) >> 1, N(R) ∼ 1 or N(R) << 1, which is thus as
+important a question as finding particular vacua.
+Second, given that we trust our definition of “vacuum,” it is actually less important
+to know how a given vacuum is obtained (e.g. by which choice of flux) than to know that
+– 5 –
+it exists and stabilizes moduli (if the observables are controlled by the moduli, not by the
+fluxes; of course the fluxes could appear explicitly in the observables as well).
+Having said all this, we defer the discussion of how one could proceed in these various
+cases, to section 5 and to other work to appear.
+1.3 Other types of vacuum
+There are two types of nonsupersymmetric vacua we consider. The simpler possibility
+is breaking due to non-flux effects. In other words, we still seek solutions of Eq. (1.2),
+calling upon other effects to break supersymmetry and lift the potential energy. This was
+invoked, for example, in [29], which proposed to break supersymmetry by adding an anti
+D3-brane in IIb compactification. Another possibility is to call on D term supersymmetry
+breaking, as has been discussed in many works. Indeed, to the extent the breaking can
+be understood in terms of effective N = 1 supergravity, this is the only possibility, and
+there are arguments in the literature that supersymmetry breaking by adding antibranes
+or misaligned branes is of this type [18, 2, 5]. Thus, we are going to refer to this as D-type
+breaking.
+Before considering stability, the distribution of D-type vacua is the same as that for
+supersymmetric vacua, up to a factor which expresses the fraction of vacua which allow
+non-flux supersymmetry breaking. This might depend on the example at hand; we will
+simply set it to 1 here.
+Granting that in a given vacuum, adding the supersymmetry breaking term results in
+zero cosmological constant, we would identify the supersymmetry breaking scale as
+M4
+susy = 3Λˆ
+where
+Λ =ˆ e
+K(z,z¯)
+|W(z)|
+2
+(1.5)
+is the norm of the superpotential for a vacuum stabilized at z. Of course, without the
+supersymmetry breaking, the cosmological constant of the resulting vacuum would have
+been ΛAdS = −3Λ, so we will often refer to ˆ Λ as the “AdS cosmological constant.” ˆ
+The other type of nonsupersymmetric vacuum is pure F type breaking; in other words
+to find a solution of V
+′ = 0 which is not a solution of Eq. (1.2). The scale of this breaking
+is given by
+M4
+susy = e
+Kgi¯jDiW D¯jW∗
+which for V = 0 is equal to the above. The density of these vacua is given by
+dµF (z) = X
+i
+δz(V
+′
+(z)).
+In general, one can have mixed D and F breaking. This is interesting only when both
+D and F terms depend on the same fields, which can only come about from non-flux effects,
+and is thus beyond our scope here.
+– 6 –
+In any case, the most interesting nonsupersymmetric vacua are the metastable (tachyon
+free) vacua, with V
+′′ positive definite. This constraint can be enforced formally by definitions such as
+dµF,metastable(z) = X
+i
+δz(V
+′
+(z))θ(V
+′′(z))
+where θ(V
+′′) is 1 when the 2n × 2n real matrix of squared bosonic masses M = V′′ is
+positive definite. The derivatives of V appearing here are
+∂aV = e
+K(DaDbWD¯ bW¯ − 2DaWW¯ ) (1.6)
+Da∂bV = e
+K(DaDbDcWD¯ cW¯ − DaDbWW¯ ) (1.7)
+D¯
+a¯∂bV = e
+K(Rd
+cab¯ DdWD¯ cW¯ + gba¯DcWD¯ cW¯ − DbW Da¯W¯
+−2gba¯WW¯ + DbDcWD¯
+a¯D¯ cW¯ ), (1.8)
+where R is the curvature of the cotangent bundle, i.e. Rd
+ca¯b Xd ≡ [∇a, ∇¯ ¯b
+]Xc = ∂¯¯b
+(g
+ed¯ ∂agce¯) Xd.
+Note that we could have replaced the covariant derivatives by ordinary partial derivatives,
+because DdV = d
+2V when dV = 0.
+For D breaking, positivity M > 0 can be analyzed as follows. First observe that in
+general, if DW = 0,
+M = H2 − 3Λˆ1/2H, (1.9)
+where
+H = 2 d
+2Λˆ1/2
+. (1.10)
+This follows directly from Eq. (1.7) and Eq. (1.8). Thus, to have M > 0, all eigenvalues λ
+of H must satisfy λ < 0 or λ > 3Λˆ1/2. In particular, if W = 0 at the critical point, M is
+automatically non-negative, and by continuity the same will be true for most susy vacua
+with small Λ. On the other hand, small positive eigenvalues of ˆ H will lead to tachyons and
+instability.
+The actual computations of all of these densities will of course rely heavily on specific
+details, but a general point worth keeping in mind is that any joint density
+dµ(z, an) = X
+i
+δz(V
+′
+(z)) δ(an − On(z))
+of vacua in moduli space along with any observables On(z) defined in terms of the Taylor
+series expansion of the effective Lagrangian about the vacuum (masses, couplings of moduli,
+etc.) can be computed if we simply know the joint distribution of W(z), K(z, z¯) and a
+finite number of their derivatives evaluated at the point z, in other words a finite number
+of variables. Although obvious, this is very useful in structuring the problem, and is the
+main reason why this class of problem is so much simpler than problems involving flows
+on the moduli space.
+1.4 Index densities
+Finally, there is a quantity we call the “index density”. In the particular case of supersymmetric vacua, it is
+dIs(z) = X
+i
+(−1)Fδz(DWi(z))
+– 7 –
+where the index (−1)F of a vacuum stabilized at z is defined to be
+(−1)F ≡ sgn det
+i,j
+D2W(z) (1.11)
+with D2W(z) as defined in Eq. (1.3).
+The simplest reason to consider this is that the index is precisely the sign of the
+Jacobian which appeared in defining δz(DW), so
+(−1)Fδz(DW(z)) ≡ δ
+(n)
+(DW(z))δ
+(n)
+(DW¯ ∗(¯z)) det D2W(z)
+with no absolute value signs. Thus it is easier to compute, and provides a lower bound
+for the actual number of vacua. A formula for the index, and the explicit result for T
+6/Z2
+compactification, were given in [1].
+There are also conceptual reasons to be interested in the supergravity index, as discussed in [17, 14]. To start, let us first comment on some differences between the problem
+of finding vacua in supergravity, and the much better studied problem of finding vacua in
+globally supersymmetric theories, satisfying
+∂iW(z) = 0. (1.12)
+Of course, Eq. (1.2) reduces to this upon taking the limit Mpl → ∞, or equivalently if all
+structure in W is on scales much less than Mpl (assuming derivatives of K do not grow
+with Mpl). On the other hand, we need the supergravity correction to interpolate between
+different field theoretic limits. Of course, all hopes for getting a small cosmological constant
+out of Eq. (1.1) rest on the supergravity term −3|W|
+2 as well.
+The problem of finding solutions of Eq. (1.12) is holomorphic and therefore much easier
+than for Eq. (1.2). In particular, vacua cannot be created or destroyed under variation of
+parameters, they can only move off to infinity or merge together. This makes it possible
+to give topological formulae for the total number of vacua in global supersymmetry; the
+possibility of vacua merging is accounted for by counting such vacua with multiplicity.
+Can we do the same for supergravity vacua? Evidently not, because one can construct
+a family of Kahler potentials Kt(z) such that varying t creates pairs of solutions of Eq. (1.2).
+One way to see this is to note that, in a region in which W 6= 0, Eq. (1.2) is equivalent to
+the condition that we are at a critical point of the function Λ from Eq. (1.5). Thus, where ˆ
+W 6= 0, one can apply Morse theory to this problem, as discussed in [4]. It is well known
+in this context that critical points can be created and destroyed in pairs.
+Clearly we cannot hope for a topological formula for the total number of vacua, but
+the above suggests using the Morse index for ΛAdS as a lower bound for the number of
+vacua, which might admit a topological formula. However, this is not correct because
+critical points of ΛAdS are not necessarily vacua; indeed every point with W = 0 (and K
+nonsingular) is a critical point of ΛAdS.
+The search for a topological formula runs into other difficulties as well. Most importantly, the configuration spaces which appear in known examples of effective supergravities
+are not compact, and cannot be compactified. The prototypical example is the upper half
+– 8 –
+plane. This configuration space has a boundary, the real axis, and it is easy to see in examples that varying parameters (e.g. flux) can move vacua in and out of the configuration
+space. Furthermore, different flux sectors can contain different numbers of vacua.1
+Anyways, the correct generalization of the Morse index to this situation, as discussed
+in [17, 15], is Eq. (1.11). This agrees with the Morse index when W 6= 0, and is (−1)n
+when W = 0.2
+Since Λ =ˆ e
+K|W|2
+is a general (non-holomorphic) function, which away from W = 0 can
+be deformed fairly arbitrarily by deforming K, there is no obvious reason that one could
+not deform it to remove all cancelling pairs of vacua.3 Thus, the index is the absolute
+minimal number of vacua which could be obtained by deforming the K¨ahler potential.
+Thus, one physical way to think about the index, is to say that the difference between
+the actual number of vacua, and the index, in some sense measures the number of “K¨ahler
+stabilized vacua,” vacua whose existence depends on both the superpotential and the K¨ahler
+potential. We found in [15] and will find below that the actual density of vacua is typically
+the index density times a bounded function greater than one, so in this precise sense, there
+are many K¨ahler stabilized vacua.
+Since the DD¯ terms in Eq. (1.3) go away in the limit Mpl → ∞, the index of a vacuum
+which survives this limit, and thus is not “K¨ahler stabilized,” will necessarily be (−1)n(the
+same as for W = 0). Conversely, one could say that the vacua with index of the opposite
+sign are all K¨ahler stabilized, and would go away in this limit. One should realize however
+that this limit is highly ambiguous (the results change under K¨ahler-Weyl transformation)
+and that it may not in general make sense to say which particular vacua with index (−1)n
+are K¨ahler stabilized or not.
+1.5 Ensembles of flux vacua
+We next discuss the set or ensemble of vacua we consider. General arguments have
+been given to the effect that the large volume, weak coupling limit of compactification
+of string/M theory on a Ricci-flat manifold M with flux, can be described by a d = 4
+effective supergravity Lagrangian, whose configuration space C is the moduli space of compactifications on M with no flux, the K¨ahler potential is taken to be the one for zero flux,
+and whose superpotential is the Gukov-Vafa-Witten superpotential [26], which takes the
+form
+W =
+Z
+M
+G ∧ Ω(z), (1.13)
+where z are the complex structure moduli, Ω(z) is an appropriate form (depending on the
+theory and M), and G is the p-form gauge field strength, which we normalize to have
+integral periods.
+1This statement is a bit imprecise; a more precise explanation taking duality into account is given in [1].
+2
+In [17, 1] we instead used a convention for the index which includes an extra factor of (−1)n, so that
+Minkowski vacua always count +1. There are arguments in favor of both conventions, and one should be
+careful to note which is in use.
+3The function K must satisfy the constraint that ∂∂¯K is positive definite, but in one dimension this does
+not seem to prevent deforming away pairs of vacua.
+– 9 –
+Although we will discuss flux compactification of various theories: F theory on fourfolds, heterotic string on CY3, and the (formally very similar) attractor description of black
+hole entropies, we work mostly with the IIb flux compactifications on Calabi-Yau developed
+by Giddings, Kachru and Polchinski [22]. Then Ω is the holomorphic three-form on the
+CY, and G is a sum of the NS and RR three-form gauge field strengths
+G = F
+RR − τHNS
+,
+with F, H ∈ H3(M,Z), and τ = C
+(0) + ie−φ
+is the dilaton-axion.
+The “ensemble of effective field theories” with flux is then the set of supergravity
+theories with W given by Eq. (1.13), with G satisfying the tadpole constraint
+Z
+F
+RR ∧ HNS ≤ L∗.
+This is discussed in much more detail in [1].
+We will leave out the K¨ahler moduli and forget about their contribution to the potential, again for the reasons discussed in [1]. We are going to derive many results relevant
+for this part of the problem, and will discuss it a bit in the conclusions, but reserve most
+of what we have to say about it to other work. [12].
+With the above definition of W, the F-term potential V is given by [22]:
+V = 2T3e
+K(DaWD¯ aW¯ − 3WW¯ ), (1.14)
+where T3 = (2π)
+−3α′−2
+is the D3-brane tension (in physical units). In subsequent sections
+we set 2T3 → 1, not as a choice of units (since Mpl = 1), but rather by shifting K by a
+constant.
+Since M2
+P l,4 = V6M8
+P l,10, the dimensionless ratio V /M4
+P l,4 ∼ 1/V 2
+6
+, but this is only
+because MP l,4 grows with V6. For orientation, in the traditional KK scenarios, V6 ∼ ls ∼
+1/MP l,10 up to O(1) factors, so the natural energy scale of the flux potential is the string
+scale, and we will want supersymmetry breaking at scales Msusyls < 1 or even << 1. In a
+“large extra dimensions” scenario, V6/l6
+s >> 1, and we might accept Msusyls ∼ 1.
+Our basic results are obtained by neglecting the quantization of flux. This is expected
+to be a good approximation in the limit that the flux is large compared to other numbers
+such as the number of cycles. We will discuss this limit, and the sense in which the smooth
+distribution approximates the distributions of vacua at finite L, in section 5. Our tools for
+doing this will be number theoretic theorems which state conditions on a “region in flux
+space” which guarantee that its volume provides a good estimate for the number of lattice
+points it contains.
+2. Notations and some useful formulas
+To avoid dragging along factors of e
+K in the calculations, we will slightly change notation
+in what follows and denote the usual holomorphic superpotential by Wˆ and reserve W for
+the K¨ahler invariant normalized but non-holomorphic superpotential:
+W(z, z¯) = e
+K(z,z¯)/2W(z). (2.1)
+– 10 –
+Similarly we write
+Ω(z, z¯) = e
+K(z,z¯)/2Ω( ˆ z) (2.2)
+for the normalized holomorphic form on the Calabi-Yau. We modify the definition of the
+covariant derivative accordingly: DaW ≡ e
+K/2DaWˆ , etc.
+Consider first a general F-theory flux compactification on an elliptically fibered CalabiYau fourfold X. The Gukov-Vafa-Witten flux superpotential is
+W =
+Z
+X
+G4 ∧ Ω = N
+αΠα, (2.3)
+where the Πα =
+R
+Σα ∧ Ω are the periods of some basis {Σα} of H4(X,Z). We normalize
+G4 such that G4 ∈ H4(X,Z),4so N ∈ Z
+b4
+. The flux has to satisfy the tadpole cancellation
+condition
+L ≡
+1
+2
+Z
+X
+G4 ∧ G4 =
+χ(X)
+24
+− ND3 (2.4)
+where ND3 is the number of D3 branes minus the number of anti-D3 branes transversal to
+X. If we are looking for supersymmetric vacua, this gives an upper bound
+L ≤ L∗ (2.5)
+with L∗ = χ(X)/24. Allowing anti-D3 branes, L∗ can become bigger, but not indefinitely,
+as a sufficient number of anti-D3 branes in a flux background will decay into a state with
+flux and D3 branes only [27, 13].
+The superpotential depends on the complex structure moduli z
+a
+(a = 1, . . . , h3,1(X))
+only. The metric on complex structure moduli space is the Weil-Petersson metric, derived
+from the K¨ahler potential
+K = − lnhΩˆ, Ω
+ˆ¯i ≡ − ln Z
+X
+Ωˆ ∧ Ω =ˆ¯ − ln Πˆ
+α(η
+−1
+)
+αβΠ
+ˆ¯
+β, (2.6)
+where ηαβ is the intersection form with respect to the basis {Σα}.
+We will often encounter intersection products of the covariant derivatives of the normalized period vector (or holomorphic 4-form):
+FA...B|C...D ≡ DA · · · DBΠ η
+−1 DC · · · DDΠ =¯ hDA · · · DBΩ, DC · · · DDΩ¯i (2.7)
+F
+′
+A...B|C...D ≡ DA · · · DBΠ η
+−1 DC · · · DDΠ = hDA · · · DBΩ, DC · · · DDΩi, (2.8)
+where the capital indices can be either holomorphic or anti-holomorphic. These are most
+easily calculated by using identities of the form hDX, Y i = DhX, Y i − hX, DY i, orthogonality of (4, 4 − k) and (4 − k
+′
+, 4)-forms with k
+′ 6= k, and commutation relations of D
+and D¯ , together with Griffiths transversality, i.e. acting with k derivatives on the (4, 0)-
+form Ω gives a sum of (4 − q, q)-forms with q at most equal to k. In fact, DaΩ is pure
+4The flux quantization condition can actually be shifted by a nonintegral constant in some circumstances
+[32], but since we will make a continuum approximation for the fluxes anyway, we can ignore such subtleties.
+Also, in F-theory, not all fluxes in H
+4
+(X, Z) are allowed: essentially, one leg should be on the elliptic fiber
+[26].
+– 11 –
+(3, 1) and DaDbΩ is pure (2, 2), which can be shown in similar fashion. As an example, we have Fa|¯b = hDaΩ, D¯¯bΩ¯i = DahΩ, D¯¯bΩ¯i − hΩ, DaD¯¯bΩ¯i = 0 − hΩ, ga¯bΩ¯i = −ga¯b
+.
+Similarly, the absence of a (3,1)-part in DaDbΩ is follows from Fab|c¯ = hDaDbΩ, D¯
+c¯Ω¯i =
+DahDbΩ, D¯
+c¯Ω¯i − hDbΩ, DaD¯c¯Ω¯i = −Dagbc¯ − hDbΩ, gac¯Ω¯i = 0. Thus, most lower order
+F-tensors vanish. Some nonzero ones are
+Fa|
+¯b = −ga¯b
+(2.9)
+Fab|c¯d¯ = Racb¯ d¯+ gbd¯gac¯ + gad¯gbc¯ (2.10)
+Fab¯ |cd¯ = gba¯gcd¯ (2.11)
+F
+′
+ab|cd = e
+K
+Z
+X
+Ωˆ ∧ ∂a∂b∂c∂dΩˆ ≡ Fabcd. (2.12)
+It should be noted that in general DaDbDcΩ is not pure (1,3); there can be a (2,2)-part,
+since hDaDbDcΩ, D¯
+d¯D¯
+e¯Ω¯i = DaFbc|d¯e¯ = DaRbdc¯ e¯
+, which in general is nonvanishing.
+2.1 Orientifold limit
+Things simplify considerably in orientifold limits of the F-theory compactification. Then
+X = (T
+2 × Y )/Z2 with Y a Calabi-Yau threefold, which is equivalent to type IIb on the
+corresponding orientifold of Y with constant dilaton-axion τ .
+There are n = h
+2,1
+− (Y ) complex structure moduli of Y surviving the orientifold projection, and 2h
+2,1
+− (Y ) + 2 fluxes can be turned on [7, 25].5 Let z
+0 = τ and zi
+(i = 1, . . . , n) be
+the complex structure moduli of Y . Then
+Ωˆ
+4 = Ωˆ1(t
+0
+) ∧ Ωˆ
+3(t
+i
+), (2.13)
+so K = K1 + K3 with K1 = − ln(ihΩˆ
+1, Ω
+ˆ¯
+1i) = − ln(2 Im τ ) and K3 = − ln(ihΩˆ3, Ω
+ˆ¯
+3i), and
+the metric and curvature components mixing 0 and i all vanish. In general, there may
+be other fourfold moduli as well, which take X away from the orientifold limit. These
+correspond to D7-brane moduli from the IIb point of view. We will ignore them in what
+follows.
+As before, we define normalized holomorphic forms by Ωr = e
+Kr/2Ωˆ
+r. Using the same
+methods as we used before to compute intersection products of derivatives of Ω4, one
+obtains
+D0Ω1 = F0Ω¯
+1, D0D0Ω1 = 0 (2.14)
+with F0 ≡ ihΩ1, D0Ω1i = ieK1 hΩˆ
+1, ∂0Ωˆ1i = −1/(τ − τ¯), and
+DiDjΩ3 = FijkD¯ kΩ¯
+3, (2.15)
+with Fijk ≡ ihΩ3, DiDjDkΩ3i = ieK3 hΩˆ
+3, ∂i∂j∂kΩˆ3i. Therefore all components of Fab|c¯d¯
+and Fabcd are zero, except
+F0i|¯0¯j = g0¯0 gi¯j(2.16)
+Fij|k¯¯l = Fij
+m¯ F¯
+m¯ k¯¯l
+(2.17)
+F0ijk = F0Fijk. (2.18)
+5The minus sign refers to the part of the cohomology odd under the orientifold involution.
+– 12 –
+Note also that DiDjΩ4 = F0ijkD¯ 0D¯ kΩ¯
+4.
+The space of allowed fluxes H4
+F
+(X) consists of harmonic 4-forms G4 = −α∧F3+β∧H3,
+where {α, β} is a canonical basis of harmonic 1-forms on T
+2
+(such that Ωˆ
+1 = β−τα) and F3
+and H3 are harmonic 3-forms on Y (identified with type IIb R-R resp. NS-NS flux). The
+main simplification occurs because Ω, DaΩ, D0DiΩ and their complex conjugates form
+a Hodge-decomposition basis of H4
+F
+(X). To see this, note that we have dim HF (X) =
+2(2n + 2), which equals the number of vectors in the proposed basis set, and that linear
+independence of this set follows from the intersection products computed earlier. The basis
+can be turned into an orthonormal basis by introducing an orthonormal frame e
+a
+A for the
+metric on moduli space, δAB¯ = e
+a
+A
+ga¯be
+¯b
+B¯
+, where capital letters refer to the frame indices.6
+We take e
+0
+0 = F0, so F0 = 1. The basis B = {Ω, DAΩ, D0DIΩ} ∪ {c.c.} now satisfies
+hB,Bi¯ = diag(1, −1n+1, 1n, 1, −1n+1, 1n). (2.19)
+Various physical quantities have a simple expression in terms of components with respect
+to this basis. Writing
+G4 = X¯Ω − Y¯ ADAΩ + Z¯ID0DIΩ + c.c., (2.20)
+we get for example for the flux superpotential Eq. (2.3) and its derivatives (transformed
+to the orthonormal frame by DA · · · DB ≡ e
+a
+A
+· · · e
+b
+B Da · · · Db):
+W = hG4, Ωi = X (2.21)
+DAW = hG4, DAΩi = YA (2.22)
+D0D0W = 0 (2.23)
+D0DIW = ZI (2.24)
+DIDJW = FIJKZ¯K (2.25)
+D0DIDJW = FIJKY¯ K (2.26)
+DIDJDKW = (DIFJKL)Z¯L + FIJKY¯ 0
+, (2.27)
+for the potential
+V = |Y |
+2 − 3|X|2
+, (2.28)
+and for the flux induced D3-charge tadpole
+L =
+1
+2
+NηN =
+1
+2
+hG4, G4i = |X|
+2 − |Y |2 + |Z|2
+. (2.29)
+3. Distributions of supersymmetric vacua
+A supersymmetric flux vacuum is characterized by a choice of K flux quanta Nα and a
+solution to DW = 0. We wish to compute the total number of such flux vacua satisfying
+6For explicit numerical indices 0, 1, . . . we will underline frame indices, but only if confusion could arise.
+– 13 –
+the constraint L ≡
+1
+2NηN ≤ L∗,
+Nsusy(L ≤ L∗) = X
+susy vac
+θ(L − L∗) (3.1)
+=
+1
+2πi Z
+C
+dα
+α
+e
+αL∗N (α) (3.2)
+where C runs along the imaginary axis passing zero to the right, and where we introduced
+the Laplace transformed “weighted number” of vacua
+N (α) ≡
+X
+vac
+e
+− α
+2 NηN (3.3)
+=
+X
+N
+Z
+M
+d
+2mz δ2m(DW)| det D2W| (3.4)
+≈
+Z
+M
+d
+2mz
+Z
+d
+KN e− α
+2 NηN δ
+2m(DW)| det D2W|. (3.5)
+In the last step we approximated the sum over fluxes by an integral. By rescaling N →
+N/√
+α, it is easy to see that Eq. (3.5) scales simply as α
+−K/2
+, so in this approximation
+Eq. (3.2) gives:
+Nsusy(L ≤ L∗) = θ(L∗)
+L∗
+K/2
+(K/2)! N (α = 1). (3.6)
+As discussed in the previous section, in the orientifold limit we have m = n + 1 with n
+the number of complex structure moduli of Y , and K = 4m. In this case, it is possible to
+directly evaluate the Gaussian integral by changing variables from N to (X, Y, Z, X, ¯ Y , ¯ Z¯),
+related to each other by the Hodge decomposition Eq. (2.20):
+N = η
+−1
+(X¯Π − Y¯ ADAΠ + Z¯ID0DIΠ + c.c.). (3.7)
+The Jacobian for this change of variables is
+J = 22m| det M| = 4m| det η|
+−1/2
+| det(M†ηM)|
+1/2
+, (3.8)
+where M = η
+−1
+(Π, −DAΠ, D0DIΠ, c.c.). The extra factor 22m accounts for the fact that
+for complex variables we use the convention d
+2
+z =
+1
+2i
+dz ∧ dz¯. Happily, because of the
+orthonormality of our Hodge decomposition basis B, we have
+M†ηM = diag(1, −1n+1, 1n, 1, −1n+1, 1n), (3.9)
+hence the Jacobian is simply J = 4m| det η|
+−1/2
+. Furthermore, from Eq. (2.22), we get
+δ
+2m(DaW) = | det eA
+a
+|
+−2
+δ
+2m(DAW) = (det g)−1
+δ
+2m(YA) (3.10)
+and from Eq. (2.21)–Eq. (2.25) together with DaD¯¯bW = ga¯bW:
+(det g)
+−2 det D2W = det[(D0, DI , D¯
+0, D¯I )
+t
+· (D¯
+0W, ¯ D¯
+JW , D ¯
+0W, DJW)] (3.11)
+– 14 –
+= det
+
+
+X¯ 0 0 ZJ
+0 δIJX Z ¯
+I FIJKZ¯K
+0 Z¯
+J X 0
+Z¯
+I F¯IJKZ
+K 0 δIJX
+
+
+(3.12)
+= det
+
+
+X¯ 0 0 ZJ
+0 X Z¯
+J 0
+0 ZI δIJX¯ FIJKZ¯K
+Z¯
+I 0 F¯IJKZ
+K δIJX
+
+
+(3.13)
+= |X|
+2
+det 
+δIJX¯ −
+ZIZ¯
+J
+X FIJKZ¯K
+F¯
+IJKZ
+K δIJX −
+Z¯
+IZJ
+X¯
+.
+!
+(3.14)
+Putting everything together, we find for the total number of supersymmetric vacua:
+N (L ≤ L∗) = (2πL∗)
+2m
+(2m)! | det η|
+−1/2
+Z
+M
+d
+2mz det g ρ(z) (3.15)
+where
+ρ(z) = π
+−2m
+Z
+d
+2Xd2nZ e−|X|
+2−|Z|2
+|X|
+2
+| det 
+δIJX¯ −
+ZIZ¯
+J
+X FIJKZ¯K
+F¯
+IJKZ
+K δIJX −
+Z¯
+IZJ
+X¯
+.
+!
+|. (3.16)
+The function ρ measures the density of supersymmetric vacua per unit volume in moduli
+space. It is specified entirely in terms of the special geometry data FIJK. In particular,
+ρ has no dependence on the dilaton modulus τ , and therefore the integration over the
+fundamental τ -domain Mτ in Eq. (3.15) simply contributes a factor vol(Mτ ) = π/12.
+Similarly to ρ, we define the index density ρind, counting vacua with signs, by dropping
+the absolute value signs from the determinant in Eq. (3.16).
+3.1 Computing densities
+3.1.1 The case n = 1
+The total susy vacuum number density for n = 1 can be computed explicitly from Eq. (3.16):
+ρ = π
+−4
+Z
+d
+2Xd2Z e−|X|
+2−|Z|2
+||X|
+4 + |Z|4 − (2 + |F|2
+)|X|
+2
+|Z|
+2
+| (3.17)
+= π
+−2
+Z
+drds e−r−s|r
+2 + s2 − (2 + |F|2
+)rs| (3.18)
+= π
+−2
+(2 − |F|2 +
+2|F|3
+p
+4 + |F|2
+). (3.19)
+This can be obtained by splitting up the integration domain in three parts, separated by
+the lines s/r =
+1
+2
+(2 + |F|2 ± |F|p
+4 + |F|2) on which the determinant changes sign. The
+first two terms in this expression correspond to the index density:
+ρind = (2 − |F|2)/π2. (3.20)
+In the large complex structure limit one has universally |F| = 2/
+√
+3 and, in the special coordinate t, gtt¯ = −3/(t − t¯)
+2
+(to verify the former, recall that F = (e
+t
+1
+)
+3Fttt =
+– 15 –
+(gtt¯)
+−3/2
+e
+K3
+iΠˆ η
+−1∂3
+t Π, with ˆ e
+K3 = −
+i
+k(t−t¯)
+3 and Πˆ η
+−1∂3
+t Π = 6 ˆ k). So ρLCS = 2/π2
+(and
+ρind = ρ/3), and if we approximate the large complex structure region MLCS by the
+standard fundamental domain in the upper half plane, we get
+Z
+Mτ
+d
+2
+τgττ¯
+Z
+MLCS
+d
+2
+tgtt¯ ρ ≈
+1
+12
+×
+3
+12
+× 2 =
+1
+24
+. (3.21)
+Near a conifold point (or more generally a discriminant locus), F blows up (see example
+2 below). Note that in that case, up to a sign, the total number density equals the index
+density. In fact this is true for any m: if all FIJK → ∞, the terms involving FIJK in
+Eq. (3.16) will dominate the determinant, so
+det D2W ≈ (−1)n|X|
+2
+| det FIJKZ¯K|
+2
+(3.22)
+and putting the absolute value signs around D2W only removes the overall (−1)n.
+3.1.2 Index density
+Computing the total density for n > 1 becomes hard. However, the index density can
+be given a simple expression in terms of geometric quantities [1]. One way to do this is
+to rewrite the determinant as a Gaussian over Grassmann variables, and then to perform first the Gaussian over X and Z, and next the the Grassmann integral. Using
+RIJK¯ L¯ = FIK
+MF¯MJL − δIJ δKL − δILδJK (which follows e.g. from comparing Eq. (2.10)
+with Eq. (2.17)) and R0000 = −2, one gets after some manipulations
+dµind = d
+2mz det g ρind = π−m det(R + ω1), (3.23)
+with R the curvature form and ω the K¨ahler form on M. This is in agreement with earlier
+results [1]. Note however that the index density does not factorize, det(R + ω1)T2×Y 6=
+det(R + ω1)T2 ∧ det(R + ω1)Y , so the claim in v1 of [1] that adding the dilaton to the
+moduli just multiplies the index by 1/12 was not correct. For example for n = 1, one has
+dµind = π
+−2
+det 
+R0 + ω0 + ω1 0
+0 R1 + ω0 + ω1
+!
+(3.24)
+= π
+−2
+(−ω0 + ω1) ∧ (R1 + ω0 + ω1) (3.25)
+= −π
+−2ω0 ∧ R1. (3.26)
+In this case, we therefore simply have
+Z
+M
+dµind = −
+1
+12
+χ(MY ). (3.27)
+3.1.3 Example 1: T
+6
+As a toy example, let us take Y to be the (T
+2
+)
+3/Z2 orientifold with the T6 and the
+fluxes restricted to be diagonal and symmetric under permuations of the three T
+2
+’s. Then
+the complex structure moduli space is the fundamental domain in the upper half plane,
+parametrizing the T
+2 modulus, and Eq. (3.21) is exact. The orientifold has 64 O3-planes,
+– 16 –
+so L∗ = 16. A basis for the symmetric fluxes is {Σα}α=1,···,4, with the Σα given by the
+generating function P4
+α=1 Σαt
+α−1 =
+Q3
+k=1(αk + t βk). Here (αk, βk) is a canonical basis of
+H1(Z) of the kth T
+2
+. The nonvanishing intersection products on T
+6 are hΣ1, Σ4i = 1 and
+hΣ2, Σ3i = 3. To avoid a subtlety with flux quantization involving discrete fluxes on the O3
+planes [20], we will furthermore as in [28] restrict to even fluxes, i.e. we take as basis {2Σα}.
+The corresponding intersection form on Y thus has as nonzero entries η
+Y
+14 = −η
+Y
+14 = 2 and
+η
+Y
+23 = −η
+Y
+32 = 6. The intersection form η on T
+2 × Y is the direct product of this with the
+T
+2
+intersection form ǫij . Therefore | det η| = (24 × 9)2, and the total number of these flux
+vacua is, according to Eq. (3.15):
+Nsusy =
+(2π × 16)4
+4! × (24 × 9)−1 ×
+1
+24
+= 1231. (3.28)
+3.1.4 Example 2: Conifold
+Let Y be a Calabi-Yau manifold near a generic conifold degeneration. For simplicity we
+only consider one modulus, namely the period of the vanishing cycle v =
+R
+A Ω. Inclusion of ˆ
+more moduli does not change the essential features. The monodromy around v = 0 implies
+that the period of the dual cycle is of the form R
+B Ω =ˆ −
+ln v
+2πi v + analytic terms. The metric
+near v = 0 is then
+gvv¯ ≈ c ln µ
+2
+|v|
+2
+(3.29)
+where µ is some constant and c = e
+K0 /2π with K0 the K¨ahler potential at v = 0. Furthermore
+F = g
+−3/2
+vv¯ e
+K
+
+i
+R
+A Ωˆ ∂
+3
+v
+R
+B Ω + anal. ˆ
+
+≈ i
+
+c ln µ
+2
+|v|
+2
+−3/2
+c
+v
+, (3.30)
+so as announced earlier, we see that F → ∞ when v → 0. The same is true for ρ ≈ |F|2/π2.
+However, the density integrated over the fundamental τ -domain and |z| < R remains finite.
+For small R:
+Z
+d
+2
+τgττ¯
+Z
+d
+2
+v gvv¯ ρ ≈
+1
+12 ln µ2
+R2
+. (3.31)
+Note that the constant c has dropped out of this expression. Plugging this in Eq. (3.15),
+we get for the number of susy vacua with L ≤ L∗ and |v| ≤ R:
+Nvac =
+π
+4L4
+∗
+18 ln µ2
+R2
+. (3.32)
+The logarithmic dependence on R implies that a substantial fraction of vacua are extremely
+close to the conifold point. For example when L∗ = 100 and µ = 1, there are still about
+one million susy vacua with |v| < 10−100. Interestingly, vacua very close to conifold degenerations are precisely the desired ones in the context of phenomenological model building,
+as they provide a natural mechanism for generating large scale hierarchies [22], and may
+enable controlled constructions of de Sitter vacua by adding anti-D3 branes, as proposed
+by KKLT [29]. However, for the latter it is also necessary that the mass matrix at the
+critical point is positive, and as we will see below, this condition dramatically reduces the
+number of candidate vacua.
+– 17 –
+3.1.5 Example 3: Mirror Quintic
+The mirror quintic is given by a quotient of the hypersurface x
+5
+1 + x
+5
+2 + x
+5
+3 + x
+5
+4 + x
+5
+5+ =
+5ψ x1x2x3x4x5 in CP
+4
+. It has one complex structure modulus, ψ, whose fundamental
+domain MY is the wedge −π/5 < arg ψ < π/5. Its periods are well known [8] and can be
+expressed as Meijer G-functions, which makes it possible to study this case numerically.
+-3 -2 -1 1 2 3
+0.005
+0.01
+0.015
+0.02
+0.025
+0.03
+ψ
+πρ /12 g
+Figure 1: The susy vacuum number density per unit ψ coordinate volume, πρgψψ¯/12, on the real
+ψ-axis, for the mirror quintic.
+Fig. 1 shows a plot of π
+12 ρgψψ¯, i.e. the susy vacuum number density per unit ψ coordinate volume, on the real ψ-axis (the factor π/12 comes from integrating over τ ). The drop
+for |ψ| > 1 is due to a similar drop in gψψ¯; ρ itself tends to the large complex structure
+value 2/π2 when ψ → ∞. The divergence at ψ = 1 is due to the presence of a conifold
+singularity there. In the notation of example 2, the parameters specifying g and F near
+the conifold are µ = 8.94 and c = 1.26 × 10−2(with v ≈ −4π
+25−3/2
+(ψ − 1)).
+We numerically computed7the integrated susy vacuum number density. We found:
+Z
+M
+dµ = 5.46 × 10−2. (3.33)
+This can be compared with an estimate of the large complex structure contribution, obtained similar to Eq. (3.21) by using the LCS expressions for g and ρ, but now cutting off
+the integral say at Im t = 2. (Here t defined by 5ψ ≡ e
+−2πit/5
+, and the conifold point is
+located at Im t|ψ=1 = 2π/5 ln 5 = 1.28.) The result is 1/16π = 1.99 × 10−2. The exact
+numerical result for this region is almost the same: 1.97 × 10−2. Thus for orientifolds of
+the mirror quintic, about 36% of all susy flux vacua are at Im t > 2 (and this fraction is
+7This was done as follows. First, we divided the moduli space in patches, since different regions have
+different suitable coordinates and special care is required near singularities. In each patch, the periods and
+their derivatives were evaluated on a dense grid of points, and an approximation of these functions was
+constructed by interpolation (because direct evaluation of Meijer functions is much too time-consuming).
+Finally from this data the various desired quantities were constructed and integrated.
+– 18 –
+proportional to one over the lower bound on Im t). On the other hand, using Eq. (3.31),
+we get that the fraction of vacua with |ψ − 1| < S ≪ 1 equals 0.486/ ln(6.41/S2). For
+S = 10−3, this is about 3 %, and for S = 10−10 still 1%.
+For the integrated index density, we found
+Z
+dµind = −1.666 × 10−2 ≈ −1/60 (3.34)
+Combined with Eq. (3.27), this indicates that χ(MY ) = 1/5. Indeed, this can be verified
+analytically. The integral of the Euler class can be written as a sum of boundary contour
+integrals as follows:
+χ =
+i
+2π
+Z
+MY
+∂∂¯ ln gψψ¯ (3.35)
+=
+i
+2π × 5
+Z
+C
+∂∂¯ ln gψψ¯ (3.36)
+=
+i
+10π
+I
+∞
+∂ ln gψψ¯ −
+X
+5
+i=1
+I
+Pi
+∂ ln gψψ¯
+
+(3.37)
+where the Pi are the 5 copies of the conifold point in the ψ-plane. For ψ → ∞ we have
+gψψ¯ = 3/4|ψ|
+2
+ln2|ψ|, so
+∂ ln gψψ¯ = −
+1
+ψ
+
+1 +
+1
+ln |ψ|
+
+dψ (3.38)
+and the corresponding contour integral produces a contribution (i/10π) × (−2πi) = 1/5 to
+Eq. (3.37). On the other hand, near the conifold point ψ = 1, gψψ¯ = c ln(µ
+2/|ψ − 1|2
+), and
+∂ ln gψψ¯ = −
+1
+ln µˆ
+2
+|ψ−1|
+2
+1
+ψ − 1
+dψ, (3.39)
+so the corresponding contour integral is zero. Adding up all contributions, we thus see that
+χ = 1/5.
+Numerical integration of the volume of M gives 5vol(M) = 3.1416 ≈ π. Again, this
+can be understood topologically, using
+ω =
+i
+2
+∂∂¯K =
+i
+2
+∂∂¯ ln ihΩˆ ,
+¯Ωˆi, (3.40)
+plus the fact that if Ω is normalized such that ˆ K is regular at ψ = 0, we have hΩˆ,
+¯Ωˆi ∼
+1/|ψ|
+2
+ln3|ψ| for ψ → ∞. Writing the volume integral as a sum over contours, again only
+the ψ = ∞ contour contributes, and this contribution equals π, as expected.
+3.1.6 d
+2
+|W| signature distribution
+For some applications, such as the RG flow interpretation of domain wall flows, one needs
+to know whether the critical point of W is a maximum, a minimum, or a saddle point of
+|W|. This corresponds to a positive, negative or indefinite Hessian d
+2
+|W| ≡ (∂a, ∂¯
+a¯)
+t
+·
+– 19 –
+(∂¯¯b
+|W|, ∂b|W|). At a critical point, one has ∂a∂b|W| =
+1
+2
+W¯
+|W|DaDbW and ∂a∂¯
+b|W| =
+1
+2
+W
+|W|DaD¯¯bW¯ , so from Eq. (3.12) we see that we have to investigate the eigenvalues of
+d
+2
+|W| =
+1
+2|X|
+
+
+|X|
+2 0 0 XZ¯
+0 |X|
+2 XZ¯ FX¯Z¯
+0 XZ¯ |X|
+2 0
+XZ¯ F¯XZ 0 |X|
+2
+
+
+(3.41)
+Clearly the sum of the eigenvalues tr d
+2
+|W| ≥ 0, so there are no maxima (this is true in
+general, since ∂a∂¯¯b|W| ∼ ga¯b|W| and tr g > 0). In general, a matrix is positive definite iff
+all upper left submatrices have positive determinant. In the case at hand, this implies the
+conditions |X|
+4 + |Z|4 − (2 + |F|2
+)|X|
+2
+|Z|
+2 > 0 and |X|2 − |Z|2 > 0. This restricts the
+integration domain of Eq. (3.18) to one of its three segments, and thus the density of susy
+vacua which are minima of |W| is
+ρ++++ =
+1
+2π
+2
+(2 − |F|2 +
+|F|3
+p
+4 + |F|2
+). (3.42)
+More information can be obtained by looking directly at the eigenvalues. We just quote
+the results: ρ++−− = ρ++++, and
+ρ+++− =
+1
+π
+2
+|F|3
+p
+4 + |F|2
+. (3.43)
+In the large complex structure limit one has, rather democratically, ρ++++ = ρ+++− =
+ρ++−− = ρ/3. In the conifold limit on the other hand, ρ+++− = ρ and ρ++++ = ρ++−− =
+0.
+3.2 Number of susy vacua with positive bosonic mass matrix
+Due to the properties of AdS, supersymmetric vacua are always perturbatively stable, even
+if the critical point of the potential V is not a minimum. Obviously, this is no longer true
+if supersymmetry is broken and the cosmological constant is lifted to a positive value. In
+particular, if as in the KKLT scenario supersymmetry is broken by adding an anti-D3 brane
+to a supersymmetric AdS vacuum, thus shifting the potential up by a constant8such that
+the critical point of the potential becomes positive, the original AdS critical point should
+be a minimum in order for the lifted vacuum to be perturbatively stable. It is therefore
+important to compute the number of supersymmetric vacua which are local minima of V .
+A critical point is a minimum if the mass matrix d
+2V ≡ (∂, ∂¯)t
+· (∂V, ∂V ¯ ) is positive
+definite. Using Eq. (1.6)–Eq. (1.8) and Eq. (2.21)–Eq. (2.27), we get, at a supersymmetric
+critical point (i.e. Y = 0):
+D0∂0V = 0 (3.44)
+DI∂0V = −ZIX¯ (3.45)
+8
+constant in the complex structure deformation directions
+– 20 –
+D0∂JV = −ZJX¯ (3.46)
+DI∂JV = −FIJKZ¯KX¯ (3.47)
+D0∂¯
+0V = −2|X|
+2 + |ZI |2
+(3.48)
+DI∂¯
+0V = FIKLZ¯KZ¯L
+(3.49)
+D0∂¯
+JV = F¯JKLZ
+KZL
+(3.50)
+DI∂¯
+JV = −2|X|
+2 + ZIZ¯
+J + FIK
+MF¯MJLZ¯KZL
+(3.51)
+We can use covariant derivatives of V here instead of ordinary derivatives because dV = 0
+implies DdV = d
+2V .
+Let us work out the case n = 1, which has
+d
+2V =
+
+
+|Z|
+2 − 2|X|2 F¯Z2 0 −XZ¯
+FZ¯2(1 + |F|2)|Z|
+2 − 2|X|2 −XZ¯ −FX¯Z¯
+0 −XZ¯ |Z|
+2 − 2|X|2 FZ¯2
+−XZ¯ −F¯XZ F¯Z
+2
+(1 + |F|2)|Z|
+2 − 2|X|2
+
+
+(3.52)
+A matrix is positive definite iff all its upper left subdeterminants are positive. With r ≡
+|X|
+2
+, s ≡ |Z|
+2
+, this gives the following conditions:
+s − 2r > 0 (3.53)
+4 r
+2 − 2
+
+2 + |F|2
+
+r s + s
+2 > 0 (3.54)
+(s − 2 r)
+
+4 r
+2 −
+
+5 + 2 |F|2
+
+r s + s
+2
+
+> 0 (3.55)
+
+16 r
+2 − 4
+
+2 + |F|2
+
+r s + s
+2
+ r
+2 −
+
+2 + |F|2
+
+r s + s
+2
+
+> 0. (3.56)
+A straightforward analysis of these inequalities shows that they boil down to simply
+|Z|
+2
+/|X|
+2 = s/r > 4 + 2|F|2 + 2|F|p
+4 + |F|2. (3.57)
+To compute the number density of susy vacua with positive mass matrix, we should therefore evaluate the integral Eq. (3.18) with (r, s) restricted to the region satisfying this
+condition. This gives
+ρM>0 =
+98 + 179 |F|2 + 42 |F|4 + 96 |F|p
+4 + |F|2 + 42 |F|3 p4 + |F|2
+
+5 + 2 |F|2 + 2 |F|p
+4 + |F|2
+3
+π
+2
+(3.58)
+as shown in fig. 2. At F = 0, the relative fraction of susy vacua with positive mass matrix
+is approximately 39% and maximal. In the large complex structure limit F = 2/
+√
+3 the
+fraction is about 19%, and in the conifold limit it is zero. Indeed, while the total density ρ
+grows quadratically with |F| when F → ∞, the density ρM>0 decreases quadratically with
+|F|. This means that very near a conifold point, though there are many susy vacua, only
+an extremely small fraction has positive mass matrix!
+Let us make this more precise. In the notation of our example 2 in the previous section,
+we have for small v:
+ρM>0 ≈
+21 c
+2
+6π
+2
+
+ln µ
+2
+|v|
+2
+4
+|v|
+2
+. (3.59)
+– 21 –
+2 4 6 8
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+|F|
+π ρ2
+Figure 2: The upper curve shows the total susy vacuum density as a function of |F|, the lower
+curve the density of susy vacua with positive mass matrix.
+Integrated over τ and |v| < R, this gives
+Z
+d
+2
+τgττ¯
+Z
+d
+2
+v gvv¯ ρM>0 =
+7c
+2
+256
+(3 + 6γ + 6γ
+2 + 4γ3 + 2γ4
+)R
+4
+, (3.60)
+where γ(R) = ln µ
+2
+R2 . Because of the R4 dependence, this rapidly goes to zero with R.
+If we take the parameters of the mirror quintic conifold for example, i.e. µ = 8.94 and
+c = 1.26 × 10−2, and we take L∗ = 100, then the expected number of susy vacua with
+M > 0 drops below 1 for |v| < 0.02, or |ψ − 1| < 0.004. Increasing L∗ to 1000, these
+numbers become just one order of magnitude smaller. Thus, for n = 1 and with reasonable
+parameter values, at most only a modest hierarchy of scales can be generated through the
+conifold throat mechanism of [22], if we insist on having a positive mass matrix.
+On the other hand, if a near-conifold vacuum has positive mass matrix, Eq. (3.57)
+together with |X|
+2 + |Z|2 = L ≤ L∗ shows that it automatically has a small value for
+|W| = |X|, and therefore a small cosmological constant. We will make this more precise in
+the next section.
+The positivity properties of M = d
+2V for susy vacua can also be analyzed as follows.
+First observe that in general, if DW = 0,
+M = H2 − 3|W|H, (3.61)
+where
+H = 2 d
+2
+|W|. (3.62)
+This follows directly from Eq. (1.7)–Eq. (1.8). Thus, to have M > 0, all eigenvalues λ of
+H must satisfy λ < 0 or λ > 3|W|. In particular, if W = 0 at the critical point, M is
+automatically non-negative, and by continuity the same will be true for most susy vacua
+with small W. The suppression of vacua with M > 0 near a conifold point (for n = 1) can
+– 22 –
+now be seen in the following way. According to Eq. (3.41), the matrix H can be written
+as H = |X| 1 + ∆H, with
+∆H =
+ 
+0 S
+S¯ 0
+!
+, S =
+X¯
+|X|
+ 
+0 Z
+Z FZ. ¯
+!
+(3.63)
+The eigenvalues of ∆H are (±λ1, ±λ2), with λ
+2
+1λ
+2
+2 = det ∆H = |Z|
+4 and 2(λ2
+1 + λ
+2
+2
+) =
+tr (∆H)
+2 = 2(|F|2 + 2)|Z|2
+. When F → ∞, the eigenvalues of ∆H are therefore approximately given by ±|F|±1
+|Z|, and the eigenvalues of H by λ = |X|±|F|±1|Z|. The condition
+on λ to have M > 0 translates to |Z| > 2|F||X|, in agreement with what we found earlier.
+Note that the “dangerous” eigenvectors (the eigenvectors of ∆H with eigenvalues ∼
+1/|F|) are approximately aligned with the dilaton direction, i.e. (1, O[1/F], 1, O[1/F]). In
+a sense, the special form of the matrix Eq. (3.63) leads to a sort of “seesaw” mixing with
+the dilaton, and the small eigenvalue. This may be specific to n = 1; a similar analysis for
+n > 1 suugests that there is no longer suppression of M > 0 vacua near generic points of
+the discriminant locus.
+-3 -2 -1 1 2 3
+0.00025
+0.0005
+0.00075
+0.001
+0.00125
+0.0015
+0.00175
+0.002
+ψ
+πρ /12 g
+Figure 3: The number density of susy vacua with positive mass matrix, per unit coordinate volume,
+on the real ψ-axis, for the mirror quintic. Compare to fig. 1.
+As an example, a plot of the number density of M > 0 vacua per unit coordinate
+volume is shown in fig. 3 for the mirror quintic, on the real ψ-axis. The sharp dip near
+ψ = 1 is due to the conifold singularity. For the integrated density we find
+Z
+M
+dµM>0 = 5.12 × 10−3. (3.64)
+Comparing this to Eq. (3.33), we thus see that about 9% of all susy vacua has positive
+mass matrix. This is not too far from the naive guess 1/16 based on the fact that there
+are four mass eigenvalues, with each a 50% chance to be positive.
+– 23 –
+3.3 Distribution of cosmological constants
+The cosmological constant in a supersymmetric vacuum is V = −3|W|
+2
+(in 2T3 ≡ 1 units).
+We wish to count the number of susy vacua with L ≤ L∗ and V ≥ V∗ ≡ −3λ∗, i.e. with
+|W|
+2 ≤ λ∗. Analogous to Eq. (3.2)9
+, we have
+Nsusy(L ≤ L∗, |W|
+2 ≤ λ∗) = Z
+M
+d
+2mz
+Z λ∗
+0
+dλ 1
+2πi Z
+dα
+α
+e
+αL∗ ν(z, α, λ) (3.65)
+where
+ν(z, α, λ) = Zd
+KN e−αL δ(|W|2 − λ) δ2m(DW)| det D2W| (3.66)
+= α
+1−K/2
+Z
+d
+KN e−L
+δ(|W|
+2 − αλ) δ2m(DW)| det D2W|. (3.67)
+Parallel to Eq. (3.15), we can write Eq. (3.65) also in the form
+Nsusy(L ≤ L∗, |W|
+2 ≤ λ∗) = (2πL∗)
+K/2
+(K/2)! | det η|
+−1/2
+Z
+M
+d
+2mz g Z λ∗
+0
+dλ ρ(λ, z) (3.68)
+The quantity dλ ρ(λ, z)/ρ(z) then gives the fraction of vacua at z with |W|
+2
+in a width dλ
+interval around λ.
+Specializing again to the orientifold limit, so K = 4m = 4(n + 1), we make the change
+of variables from N to (X, Y, Z). In these variables the additional constraint in Eq. (3.67) is
+simply |X|
+2 = αλ, which we can solve by putting X =
+√
+αλ, since the integral is invariant
+under an overall phase transformation of (X, Y, Z). Thus we find, similar to Eq. (3.16)
+(but with the additional constraint):
+ν(z, α, λ) = 2
+2mπg
+√
+η α2m−1
+Z
+d
+2nZ e−αλ−|Z|
+2
+| det
+
+
+√
+αλ 0 0 ZJ
+0 δIJ
+√
+αλ ZI FIJKZ¯K
+0 Z¯
+J
+√
+αλ 0
+Z¯
+I F¯IJKZ
+K 0 δIJ
+√
+αλ
+
+
+|
+=
+2
+2mπg
+√
+η α2m−1
+e
+−αλ Z
+d
+2nZ e−|Z|
+2
+|
+Xm
+k=0
+Ck(Z,Z¯)(αλ)
+k
+| (3.69)
+where g ≡ det g, η = | det η| and the Ck(Z,Z¯) are homogeneous polynomial functions
+obtained by expanding the determinant. For example in the n = 1 case,
+ν(z, α, λ) = 16πg
+√η α3
+e
+−αλ Z
+d
+2Z e−|Z|
+2
+|(αλ)
+2 − (2 + |F|2
+)|Z|
+2αλ + |Z|4
+|. (3.70)
+3.3.1 Density at zero cosmological constant
+For physical applications, the most interesting quantity is the number of vacua at very
+small cosmological constant, i.e. the case λ∗ ≪ L∗. To a good approximation, we can then
+9We could also have implemented the |W|2 ≤ λ∗ inequality by a similar Laplace transform, but here it
+is slightly easier to solve the constraints directly.
+– 24 –
+neglect the higher order terms in Eq. (3.69) and simply compute the density at λ = 0. The
+integral becomes
+I(F) = Zd
+2nZ e−|Z|
+2
+| det 
+0 ZJ
+ZI FIJKZ¯K
+!
+|
+2
+. (3.71)
+This is a significant simplification compared to Eq. (3.69), as this can be evaluated using
+Wick’s theorem or by rewriting the determinant as a Grassmann integral and then doing
+the integral over Z, similar to what was done to obtain Eq. (3.23). Doing the integral over
+α in Eq. (3.65) now gives
+ρ|λ=0 =
+2πm
+π
+2mL∗
+I(F) (3.72)
+Note that for n = 1, this is independent of F and therefore of z: ρ0 = 8/π2L∗. Applying
+this to the example of the mirror quintic, for which vol(Mτ × Mψ) = π
+12 × π5
+, we get for
+small λ∗:
+N (L ≤ L∗, |W|
+2 ≤ λ∗) = 4π
+4L4
+∗
+45
+λ∗
+L∗
+(3.73)
+For L∗ = 100, this becomes ∼ 107λ∗, so the expected smallest possible cosmological constant is |Λ| ∼ 10−7T3. For L∗ = 1000, this is three orders of magnitude smaller.
+0.2 0.4 0.6 0.8 1
+0.2
+0.4
+0.6
+0.8
+ρ( ,λ) z
+|ρ ( ,λ)| z
+ind
+λ/L*
+ρL
+*
+0.2 0.4 0.6 0.8 1
+250
+500
+750
+1000
+1250
+1500
+1750
+ρ( ,λ) z
+|ρ ( ,λ)| z
+ind
+λ/L*
+ρL
+*
+Figure 4: Left: Vacuum number densities (true and absolute value of index) in the large complex
+structure limit (F = 2/
+√
+3), as a function of cosmological constant value. Right: Same near the
+conifold limit (F = 100 for this example). Note that despite appearances, ρ is non-zero at λ = 0 as
+expressed in Eq. (3.73); it just does not receive the conifold enhancement there.
+3.3.2 Index density
+The distribution for arbitrary cosmological constants is harder to compute, mainly because
+of the absolute value signs in Eq. (3.69). Let us therefore drop these for now, so we count
+vacua with signs. Then after integration over Z, we will still have a polynomial in α:
+νind(z, α, λ) = 2
+2mπmg
+√
+η
+e
+−αλXm
+k=0
+ckλ
+kαk−2m+1 (3.74)
+– 25 –
+and therefore, by comparing Eq. (3.65) and Eq. (3.68),
+ρind(z, λ) = (2m)!
+(2πL∗)
+2mg
+1
+2πi Z
+dα
+α
+e
+αL∗ νind(z, α, λ) (3.75)
+= θ(L∗ − λ)
+(2m)!
+πmL∗
+Xm
+k=0
+ck
+(2m − 1 − k)! 
+λ
+L∗
+k 
+1 −
+λ
+L∗
+2m−1−k
+(3.76)
+In the case n = 1, we thus get for the cosmological constant density counted with signs
+ρind(z, λ) = 4
+L∗π
+2
+(1 − x)(2 − (10 + 3|F|2) x + (14 + 3|F|2) x
+2
+) θ(1 − x) (3.77)
+where we wrote x ≡ λ
+L∗
+. As noted above, the density at λ = 0 equals 8/L∗π
+2
+. In the large
+complex structure limit F → 2/
+√
+3, ρind = 8(1−x)(1−7x+ 9x
+2
+)/L∗π
+2 and in the conifold
+limit F → ∞, for x not too small, ρind/|F|2 = −12(1 − x)
+2x/L∗π2
+.
+3.3.3 Total density
+Let us now turn to the true density. The absolute value signs in Eq. (3.69) make the
+integral hard to evaluate in general, but for n = 1 one gets something of the form
+ν(z, α, λ) = P0(αλ)e
+−αλ + P−(αλ)e−b−αλ + P+(αλ)e−b+αλ (3.78)
+with the Pi polynomials and b−, b+ some F-dependent coefficients (see below). Doing the
+α-contour integral, this then gives, explicitly:
+L∗π
+2
+ρ(z, λ) = L∗π
+2
+ρind(z, λ)+P(x)(θ(1−b−x)−θ(1−b+x))+Q(x)(θ(1−b−x)+θ(1−b+x))
+(3.79)
+where
+P(x) = −4 + 6(4 + |F|2) x − 12(4 + |F|2) x
+2 + (32 − 6|F|4 − |F|6
+) x
+3
+(3.80)
+Q(x) = (4 + |F|2)
+3/2F3x3
+(3.81)
+b± =
+1
+2
+p
+4 + |F|2(
+p
+4 + |F|2 ± |F|) (3.82)
+In the large complex structure limit
+L∗π
+2
+ρ(z, λ) = L∗π
+2
+ρind(z, λ)+16(1−4x)
+2
+θ(1−4x)+ 16
+27
+(16x−3)(3−4x)
+2
+θ(3−4x), (3.83)
+and in the conifold limit, for x not too small,
+ρ(z, λ)/|F|2 → 12(1 − x)
+2x/L∗π2 = −ρind(λ, z). (3.84)
+This is not immediately obvious from the above expressions, but can be seen from Eq. (3.70):
+the middle term dominates, and the absolute value just removes the minus sign. As discussed before, the convergence of index density and true density can be expected to hold
+more generally near degenerations where FIJK → ∞ (see also below).
+These considerations are illustrated for the large complex structure and conifold limits
+in fig. 4. Note that the approximation of the true density by the index density is perfect
+near the conifold, and near the extremities of λ, and qualitatively still not bad away from
+those.
+– 26 –
+3.3.4 Some general observations
+A few simple observations can be made about the general case. It is obvious that the
+cosmological constant always satisfies |W|
+2 < L∗. This is because |W|2 +|Z|2 = L ≤ L∗ by
+construction. The density at λ = L∗ is zero for the same reason; in fact, the index density
+near that point is suppressed by (L − λ∗)
+m−1
+, as follows from Eq. (3.75). By contrast, the
+density at λ = 0 is always nonvanishing. Note however that in case all FIJK → ∞, this
+value is much smaller than the total density ρ(z) (compare Eq. (3.71) to Eq. (3.22)). In
+general, for large m, the distribution can be expected to peak at a small value of λ, because
+of the suppression factor (L−λ∗)
+m−1
+. More intuitively, the lower |W|
+2
+is, the more “room”
+there is for Z to satisfy |W|
+2 + |Z|2 ≤ L∗.
+Finally, in the limit where FIJK → ∞, we can compute ρ(z, λ) more explicitly, since
+then, for λ not too small,
+ρ(z, λ) ≈
+(2m)!
+(πL∗)
+2m
+1
+2πi Z
+dα
+α
+e
+αL∗
+π
+α2m−1
+Z
+d
+2nZ e−αλ−|Z|
+2
+αλ| det(FIJKZ¯K)|
+2
+(3.85)
+= A x (1 − x)
+2m−2
+(3.86)
+where x = λ/L∗, and A =
+2m(2m−1)
+π2m−1L∗
+R
+d
+2nZ e−|Z|
+2
+| det(FIJKZ¯K)|
+2
+. This distribution has
+mean µ = hxi = 2/(2m + 1) and standard deviation σ
+2 = h(x − µ)2
+i = (2m − 1)/(m +
+1)(2m + 1)2, so for large m, most susy vacua in this limit have a cosmological constant Λ
+of order −T3L∗/m. This should be compared to the string scale energy density, which in
+Einstein frame is T
+2
+F = gs(2πα′
+)
+−2 = 2πgsT3. Therefore in this limit vacua with |Λ| well
+below the string scale are comparatively rare, unless m ≫ L∗/gs.
+3.3.5 Distribution restricted to vacua with positive mass matrix
+If we restrict to vacua with positive mass matrix, Eq. (3.57) together with |Z|
+2 + |X|2 =
+L ≤ L∗, implies the cutoff λ ≤ L∗/(5 + 2|F|2 + 2|F|p4 + |F|2). In the large complex
+structure limit, this is λ ≤ L∗/13, and near the conifold limit, λ ≤ L∗/4|F|2. Therefore,
+positive M vacua near the conifold point automatically have small cosmological constant
+(small compared to the string scale). Recall however that positive M vacua are suppressed
+near the conifold point. We saw earlier that for the parameter values of the mirror quintic
+and L∗ = 100, no positive M vacua are expected below v ∼ 10−2. At this point F ∼ 20
+and thus λ < 10−3L∗ = 0.1, hence the cosmological constant cutoff is not much below the
+string scale. Increasing L∗ to 1000 decreases the λ cutoff with just one order of magnitude.
+Thus, for n = 1, the positive M vacua closest to the conifold point are not expected to be
+close enough to force the cosmological constant to be hierarchically smaller than the string
+scale.
+This does not mean of course that there are no M > 0 vacua with very small cosmological constant; in fact, the vacuum density at λ∗ = 0 is the same for M > 0-vacua as
+for vacua without constraints on M, since if X = 0, the M > 0 condition Eq. (3.57) is
+automatically satisfied. Most vacua with very small λ will therefore have a positive mass
+matrix. This is actually true for any supergravity theory, as follows from Eq. (1.9).
+– 27 –
+3.4 Counting attractor points
+The techniques we used to count supersymmetric flux vacua can also be used to count
+supersymmetric black holes, or attractor points, in type IIB theory compactified on a
+Calabi-Yau X. More precisely, we wish to count the number of duality inequivalent, regular,
+spherically symmetric, BPS black holes with entropy S less than S∗. The charge of a black
+hole is given by an element Q = NαΣα of H3(X,Z). The central charge Z = hQ, Ω3i plays
+a role similar to the (normalized) superpotential W: the moduli at the horizon are always
+fixed at a critical point of |Z|, i.e. DZ = (∂ + ∂K)Z = 0. The entropy is then given by
+S = A/4 = π|Z|2, evaluated at the critical point. For a given Q, critical points may or
+may not exist, may or may not be located in the fundamental domain M, and may or may
+not be unique, but clearly we can label all equivalence classes of black holes by a charge
+vector N and a critical point within the fundamental domain. Thus our desired number
+is, in a continuum approximation (valid for large S∗) similar to what we had before:
+NBH(S ≤ S∗) = 1
+2πi Z
+dα
+α
+e
+αS∗/π Z
+d
+KN
+Z
+M
+d
+2n
+z e−α|Z|2δ
+2n
+(DZ)| det D
+2Z|. (3.87)
+Here K is the number of flux components and n the number of complex structure moduli,
+K = 2n + 2. After rescaling N → N/√
+α, doing the α integral becomes straightforward,
+and we get
+NBH(S ≤ S∗) = (2S∗)
+n+1
+(n + 1)! Z
+M
+d
+2n
+z det g ρ(z) (3.88)
+where
+ρ(z) = 1
+(2π)
+n+1 det g
+Z
+d
+2n+2N e−|Z|2
+δ
+2n
+(DZ)| det D2Z|. (3.89)
+To evaluate this integral, we change variables to a Hodge-decomposition basis of H3(X),
+similar to Eq. (2.20):
+Q = iX¯Ω − iY¯ IDIΩ + c.c., (3.90)
+so Z = hQ, Ωi = X and DIZ = hQ, DIZi = YI . Capital indices again refer to an
+orthonormal frame. The Jacobian for the change of variables from N to (X, Y, X, ¯ Y¯ ) can
+be computed in a way analogous to what we did for flux vacua; the result is J = 2n+1|η|
+−1/2
+,
+where |η| is the determinant of the intersection form (equal to 1 if we sum over the full
+charge lattice). Furthermore, using the special geometry identity DIDJZ = FIJKY
+K, we
+get that at a critical point (where Y = 0):
+det 
+DID¯
+JZ¯ DIDJZ
+D¯
+ID¯
+JZ¯ D¯
+IDJZ
+!
+= det 
+δIJX¯ 0
+0 δIJX
+!
+= |X|
+2n
+. (3.91)
+Plugging this in Eq. (3.89) gives
+ρ =
+1
+π
+n|η|1/2
+Z
+d
+2X
+Z
+d
+2nY e−|X|
+2
+δ
+2n
+(Y )|X|
+2n
+(3.92)
+=
+n!
+π
+n|η|1/2
+. (3.93)
+– 28 –
+The factor det g dropped out because of the change from coordinate to orthonormal frame.
+Note that this expression for ρ is independent of z. This means that attractor points are
+uniformly distributed over moduli space. Our final result is, for large S∗:
+NBH(S ≤ S∗) = 2
+n+1 vol(M)
+(n + 1) π
+n |η|1/2
+S∗
+n+1
+. (3.94)
+For the mirror quintic, n = 1 and vol(M) = π/5, hence
+NBH(S ≤ S∗) = 2
+5
+S∗
+2
+(3.95)
+The problem of counting the number of duality inequivalent black holes with given
+entropy was studied in [30] using number theory techniques. In particular, for Y = T
+2×K3,
+this was shown to be related to class numbers and the number of inequivalent embeddings
+of a given two-dimensional lattice into the charge lattice.
+To compare to our results, we restrict to algebraic K3’s, as the complex structure
+moduli moduli space of a generic K3 is not Hausdorff, so the volume factor in Eq. (3.94)
+would not make any sense. An algebraic K3 has moduli space
+MK3 = O(Λ) \ O(2, k)/O(2) × O(k),
+where Λ is the charge lattice, which is the orthogonal complement of the Picard lattice and
+has signature (2, k). This space is Hausdorff and has complex dimension k. A black hole
+charge is specified by two charge vectors p, q ∈ Λ.
+In this case, counting black holes with given entropy, or more precisely with given
+“discriminant” D = (S/π)
+2
+(which is always an integer for K3 × T
+2
+), amounts roughly
+to computing the number of inequivalent lattice embeddings in Λ of lattices spanned by q
+and p with determinant D.
+10 This number can in principle be obtained from the SmithMinkowski “mass formula”, which was used in [30] to derive an estimate for the asymptotic
+growth of the number N(D) of inequivalent black holes with discriminant D. The result
+is N(D) ∼ Dk/2 and consequently the number of black holes with D ≤ D∗ will grow as
+D
+1+k/2
+∗ .
+To compare with Eq. (3.94), note that n = k + 1, so we get
+NBH (D ≤ D∗) = 2
+k+2π
+k + 2
+vol(MT2 )vol(MK3) D
+1+k/2
+∗ , (3.96)
+which agrees with the growth given above, but is a bit more precise. Turning things around,
+this formula should give a predicition for the asymptotic behavior of the Smith-Minkowski
+mass formula.
+4. Distributions of nonsupersymmetric vacua
+A general flux vacuum, supersymmetric or not, is characterized by a flux vector and a
+critical point of the corresponding potential V , which for now we do not require to be a
+10We thank Greg Moore for explaining this to us.
+– 29 –
+local minimum. For nonsupersymmetric vacua, the condition L ≤ L∗ is no longer sufficient
+to guarantee a finite volume of allowed fluxes. Physically, it is reasonable to put also a
+bound on the supersymmetry breaking parameter: |DW| = |Y | ≤ F∗. Such a bound,
+together with the bound on L = |X|
+2 − |Y |2 + |Z|2
+, is indeed precisely what we need to
+make the volume of allowed fluxes finite.
+In our approximation, the total number of flux vacua satisfying these bounds is then
+given by
+N (L ≤ L∗, |DW| ≤ F∗) = 22m
+Z
+d
+2mz
+Z
+d
+2Xd2mY d2nZ θ(L∗−L) θ(F∗−|Y |) δ2m(dV )| det d2V |
+(4.1)
+where d
+2V = (∂, ∂¯)t
+· (∂V, ∂V ¯ ), and using Eq. (1.6)–Eq. (1.8) and Eq. (2.21)–Eq. (2.27):
+∂0V = ZIY¯ I − 2Y0X¯ (4.2)
+∂IV = ZIY¯ 0 + FIJKY¯ JZ¯K − 2YIX¯ (4.3)
+D0∂0V = 0 (4.4)
+DI∂0V = FIKLY¯ KY¯ L − ZIX¯ (4.5)
+D0∂JV = FJKLY¯ KY¯ L − ZJX¯ (4.6)
+DI∂JV = 2FIJKY¯ 0Y¯ K − FIJKZ¯KX¯ + DIFJKLZ¯LY¯ K (4.7)
+D0∂¯
+0V = −2|X|
+2 − 2|Y0|2 + |YI |2 + |ZI |2
+(4.8)
+DI∂¯
+0V = −YIY¯0 + FIKLZ¯KZ¯L
+(4.9)
+D0∂¯
+JV = −Y0Y¯J + F¯JKLZ
+KZL
+(4.10)
+DI∂¯
+JV = −2|X|
+2 + |Y0|2 − 2YIY¯
+J + ZIZ¯
+J + FIK
+MF¯MJL(Y¯ KYL + Z¯KZL
+) (4.11)
+We can use covariant derivatives of V in the integral instead of ordinary derivatives because
+if dV = 0, then DdV = d
+2V .
+4.1 Supersymmetric and anti-supersymmetric branches
+The main complication arises because the constraint dV = 0 is quadratic. It defines a
+cone in C
+m, which has several branches. One obvious branch is YA = 0, with X and
+ZI arbitrary. This corresponds to the supersymmetric vacua discussed in the previous
+sections. Another obvious one is X = ZI = 0. As we will see, the vacua on this branch
+behave in a way as “anti-supersymmetric” vacua. For example, while susy vacua have
+imaginary self-dual fluxes, these have imaginary anti-self-dual fluxes. There are more
+complicated “intermediate” branches too, which arise when the constraints considered as
+linear equations in (X, Z) (or in Y ) are degenerate.
+On the supersymmetric branch, we have δ
+2m(dV ) = | det M|−1
+δ
+2m(Y ), with M =
+(∂Y , ∂¯
+Y¯ )
+t
+· (∂V, ∂V¯ ). This threatens to make the integral divergent when det M → 0,
+but note that by the chain rule and because Y = 0, d
+2V |Y =0 = (∂, ∂¯)t
+· (∂V, ∂V ¯ ) =
+(∂, ∂¯)
+t
+·(Y , Y ¯ )·(∂¯
+Y¯ , ∂Y )
+t
+·(∂V, ∂V ¯ ) = D2W ·M¯ , so the factor det M cancels out of Eq. (4.1)
+and we are left with the integral we had before for the supersymmetric case, as we should
+of course.
+– 30 –
+Similarly, on the branch X = Z = 0, we have δ
+2m(dV ) = | det M|−1
+δ
+2m(X, Z), with
+M = (∂X , ∂Z , ∂¯
+X¯ , ∂¯Z¯)
+t
+· (∂V, ∂V¯ ). Again det M cancels out, because d
+2V |X=Z=0 = A · M¯ ,
+with
+A = (D0, DI , D¯
+0, D¯I )
+t
+· (W , ¯ D¯
+0D¯JW , W, D ¯0DJW) (4.12)
+=
+
+
+0 Y¯
+J Y0 0
+0 δIJ Y¯
+0 YI FIJKY¯ K
+Y¯
+0 0 0 YJ
+Y¯
+I FIJKY
+K 0 δIJ Y0
+
+
+, (4.13)
+so the remaining determinant factor in Eq. (4.1) is
+det A = |Y0|
+2
+det 
+δIJ Y¯
+0 −
+YIY¯
+J
+Y0
+FIJKY¯ K
+F¯
+IJKY
+K δIJ Y0 −
+Y¯
+IYJ
+Y¯0
+!
+, (4.14)
+which is identical to the det D2W factor Eq. (3.14) of the supersymmetric case, after
+substitution X → Y0, ZI → YI . If we moreover replace the supersymmetric constraint
+L = |X|
+2 + |Z|2 ≤ L∗ by |Y |2 ≤ L∗ (or, since now L = −|Y |2
+, by L ≥ −L∗), the
+integral for this nonsupersymmetric branch is therefore formally the same as the one for
+the supersymmetric branch! Thus
+NX=Z=0(|DW| ≤ F∗) = Nsusy(L ≤ F
+2
+∗
+). (4.15)
+In fact this can be understood directly from the defining equations. If (F3, H3, τ, zi) with
+Im τ > 0 solves F3 − τH3 = i ∗ (F3 − τH3), which is the condition for a supersymmetric
+vacuum, then (F
+′
+3
+, H′
+3
+, τ ′, z′i) = (−F3, H3, −τ, z ¯
+i
+) has Im τ
+′ > 0 and solves F′
+3−τ
+′H′
+3 = −i∗
+(F
+′
+3 − τ
+′H′
+3
+), which is the condition for a nonsupersymmetric vacuum on the branch under
+consideration. An equivalent way to see this map is to observe that D0(NRR + τNNS) ∼
+−NRR − τN¯ NS together with the fact that the action of D0 and D¯
+0 interchanges (X, Z)
+and Y . Note however that this is not a map between vacua with the same topological data,
+since it maps L → −L; the susy vacua have positive and the nonsusy vacua negative L.
+The cosmological constant of these nonsupersymmetric vacua is Λ = 2T3|DW|
+2 =
+−2L T3. Since L is quantized, this is always at least of the order of the string scale energy
+density T
+2
+F = 2πgsT3, so actually the field theory approximation on which this analysis is
+based cannot be trusted, and the existence of these vacua in the full theory is doubtful.
+4.2 Intermediate branches
+The anti-supersymmetric branch X = Z = 0 of the constraint cone dV = 0 is parametrized
+by the values of the F-terms YA. For generic values of the YA, the unique solution to
+dV = 0 is indeed X = Z = 0, since it is just a generic, complete system of linear equations
+in (X, Z). However, for some values of Y the linear system can become degenerate, namely
+when det M = 0 where M is as before given by M = (∂X , ∂Z , ∂¯
+X¯ , ∂¯Z¯)
+t
+· (∂V, ∂V¯ ). This
+happens at the intersection with other branches.
+– 31 –
+We will only analyze the case n = 1 here. Then
+∂0V = Z1Y¯
+1 − 2Y0X¯ (4.16)
+∂1V = Z1Y¯
+0 + F Y¯1Z¯1 − 2Y1X¯ (4.17)
+and det M = −4(|Y0|
+4 + |Y1|4 − (2 + |F|2
+)|Y0|
+2
+|Y1|
+2
+). The equation det M = 0 has two
+branches of solutions:
+|Y1|
+2 = λ2
+±|Y0|
+2
+, with λ± = −
+1
+λ∓
+=
+1
+2
+(|F| ± p
+4 + |F|2). (4.18)
+These branches can be parametrized for example by (Y0, Z1). The explicit solutions of the
+constraints dV = 0 are then, for generic (Y0, Z1):
+Y1 = λ± e
+i(arg F −2 arg Z1) Y0 (4.19)
+X =
+1
+2
+λ± e
+i(arg F −2 arg Z1+2 arg Y0) Z¯
+1. (4.20)
+Solving the constraint in this way, the delta-function δ
+4
+(dV ) produces a factor | det M˜ |
+−1
+with M˜ = (∂Y1, ∂X , ∂¯
+Y¯1
+, ∂¯
+X¯ )
+t
+· (∂V, ∂V¯ ). On both branches we have
+| det M˜ | = 4|F|p
+4 + |F|2|Y0|
+2
+|Z1|
+2
+. (4.21)
+Furthermore, in general,
+d
+2V =
+ 
+R S
+S¯ R¯
+!
+, (4.22)
+where for n = 1
+R =
+ 
+|Z1|
+2 − 2|X|2 − 2|Y0|2 + |Y1|2 F¯Z2
+1 − Y0Y¯
+1
+FZ¯2
+1 − Y¯
+0Y1 |Z1|
+2 − 2|X|2 + |Y0|2 − 2|Y1|2 + |F|2
+(|Y1|
+2 + |Z1|2
+)
+!
+S =
+ 
+0 F Y¯ 2
+1 − XZ¯
+1
+F Y¯ 2
+1 − XZ¯
+1 F(2Y¯0Y¯
+1 − X¯Z¯1) + D1F Y¯1Z¯1
+!
+.
+4.2.1 Large complex structure limit
+The general expression for det d
+2V is obviously very complicated, but at large complex
+structure, where F = 2/
+√
+3 and DF = 0, things simplify considerably. In this case, we get
+for the integration measure on the first branch, with r ≡ |Y0|
+2
+, s ≡ |Z1|
+2
+:
+| det d
+2V |/| det M˜ | =
+1
+12
+|(12r − 5s)(8r − 3s)| (4.23)
+and on the second branch
+| det d
+2V |/| det M˜ | =
+25
+972
+|(24r − 7s)(4r + 3s)|. (4.24)
+The flux number L, susy breaking parameter |Y | and cosmological constant V for the first
+branch is (still in the large complex structure limit)
+L = −4r +
+7 s
+4
+(4.25)
+|Y |
+2 = 4r (4.26)
+V = 4r −
+9 s
+4
+(4.27)
+– 32 –
+and for the second one
+L = −
+4 r
+3
++
+13 s
+12
+(4.28)
+|Y |
+2 =
+4 r
+3
+(4.29)
+V =
+4 r
+3
+−
+s
+4
+(4.30)
+It is most convenient to implement the constraint on L in Eq. (4.1) by doing a Laplace
+transform, and the one on |Y |
+2 by constraining r directly. The result for arbitrary F∗ and
+L∗ is a bit complicated and not very instructive — it involves several polynomials multiplied
+by different step-functions — but for L∗ positive and F∗ not too large, the step functions
+are unimportant, and we get a simple polynomial. On branch 1, for x ≡ F
+2
+∗
+/L∗ < 6:
+N1,lcs(L ≤ L∗, |DW| ≤ F∗) = x (3.07 − 0.499 x + 0.0256 x
+2 + 1.04 x3
+) V L4
+∗
+(4.31)
+where V = vol(Mτ × Mlcs) = (π/12)vol(Mlcs). On branch 2, for x < 42/25:
+N2,lcs(L ≤ L∗, |DW| ≤ F∗) = x (5.59 + 0.416 x − 2.31 x
+2 + 1.88 x3
+) V L4
+∗
+. (4.32)
+This can be compared to the number of supersymmetric flux vacua at large complex structure,
+Nsusy(L ≤ L∗) = (2πL∗)
+4
+24
+2
+π
+2
+V = 13.2 V L4
+∗
+. (4.33)
+We still have to investigate if the vacua are perturbatively stable. For vacua with positive
+cosmological constant, this is the case if and only if d
+2V is positive definite. A matrix
+is positive iff all upper left subdeterminants are positive, which here translates in the
+conditions
+2 r − s > 0 (4.34)
+−(12 r − 7 s)(4 r − 3 s) > 0 (4.35)
+−(2 r − s)(96 r
+2 − 68 r s + 15 s2
+) > 0 (4.36)
+r s (12 r − 5 s)(8 r − 3 s) > 0 (4.37)
+on branch 1 and similar conditions on branch 2. Straightforward analysis of these systems
+of inequalities shows that they have no solutions, on either branch. Alternatively, we could
+have computed the eigenvalues of d
+2V . For the first branch for example, these are
+{4 r, 4 r −
+5 s
+3
+, −
+2 s
+3
+, −8 r + 3 s} (4.38)
+Again we see it is impossible to have only positive eigenvalues. Thus we find, somewhat
+surprisingly, that there are no meta-stable de Sitter vacua at large complex structure on
+these branches.
+– 33 –
+4.2.2 Conifold limit
+In the conifold limit, we have, as in Eq. (3.30):
+F =
+i
+c
+1/2γ3/2v
+≡
+1
+ǫ
+. (4.39)
+where γ = ln µ
+2
+|v|
+2 . Now DF is no longer zero:
+DvF =
+∂v|F|2
+g
+1/2F¯
+= −
+i(1 − 3/γ)
+c γ2 v
+2
+=
+i(γ − 3)
+ǫ
+2
+. (4.40)
+However DF turns out to drop out of all relevant quantities to leading order in ǫ.
+From Eq. (4.19), it follows that on branch 1, to leading order, |Y1| = |Y0|/|ǫ| and
+|X| = |Z1|/2|ǫ|, and similarly but with opposite power of ǫ on branch 2. On branch 1, we
+thus have, to leading order:
+L = (|Z1|
+2
+/4 − |Y0|
+2
+)/|ǫ|
+2 ≡ |z|2
+/4 − |y|
+2
+(4.41)
+|Y |
+2 = |Y0|2
+/|ǫ|
+2 = |y|2
+(4.42)
+V = |y|
+2 − 3|z|2
+/4 (4.43)
+Since the constraints in Eq. (4.1) keep L and |Y | finite, Z1 and Y0 are of order ǫ, and
+the rescaled variables y, z are of order 1. In these variables the integration measure is, to
+leading order in ǫ:
+d
+2Y0 d2Z1
+
+
+
+
+det d
+2V
+det M˜
+
+
+
+ = d
+2
+y d2z
+|y|
+2
+|z|
+2
+16|ǫ|
+2
+. (4.44)
+Doing the integral over y and z (implementing the constraints as before) yields for Eq. (4.1)
+N1,con =
+2π
+2
+3
+
+L
+4
+∗
+θ(L∗) − (L∗ − 3F
+2
+∗
+)(L∗ + F
+2
+∗
+)
+3
+θ(L∗ + F
+2
+∗
+)
+
+Z
+d
+2
+τ d2v
+det g
+|ǫ|
+2
+. (4.45)
+Apart from the L∗-dependent bracket, this is the same as the expression for the number of
+near-conifold supersymmetric vacua, so using Eq. (3.32) we immediately get for the number
+of nonsusy critical points on branch 1 with |v| < R, L < L∗ and |Y | < F∗:
+N1,con =
+π
+4
+18 ln µ2
+R2
+
+L
+4
+∗
+θ(L∗) − (L∗ − 3F
+2
+∗
+)(L∗ + F
+2
+∗
+)
+3
+θ(L∗ + F
+2
+∗
+)
+
+(4.46)
+For L∗ positive, the L∗-dependent bracket reduces to 6L
+2
+∗F
+4
+∗ + 8L∗F
+6
+∗ + 3F
+8
+∗
+.
+The same computation can be done for branch 2. To leading order in ǫ:
+L = |Z1|
+2 − |Y0|2 ≡ |z|2 − |y|2
+(4.47)
+|Y |
+2 = |y|2
+(4.48)
+V = |y|
+2 − 3|ǫ|2
+|z|
+2
+/4 (4.49)
+d
+2Y0 d2Z1
+
+
+
+
+det d
+2V
+det M˜
+
+
+
+ = d
+2
+y d2z
+|y|
+2
+|z|
+2
+|ǫ|
+2
+. (4.50)
+The final result is identical, N1,con = N2,con.
+– 34 –
+Do these near-conifold nonsusy critical points have positive mass matrix? On the first
+branch, the first subdet condition is 2 r − s > 0 (again with r ≡ |y|
+2 and s ≡ |z|2
+), and
+using this, the third condition becomes
+(16 + O[ǫ
+2
+]) r
+2 + (2/|ǫ|2 + O[ǫ0
+]) r s + (1 + O[ǫ
+2
+]) s
+2 < 0. (4.51)
+For small ǫ, this is obviously false, so d
+2V can never be positive definite on this branch
+in the near-conifold region; N1,con,M>0 = 0. For the second branch on the other hand,
+the positivity conditions are, after some simplifications and dropping terms which are
+negligible11 for all r, s at sufficiently small ǫ:
+s/r > 4/|ǫ|
+2
+(4.52)
+−γ
+2
+s
+2 + 4 r s/|ǫ|2 + γ sin θ r−1/2
+s
+5/2
+|ǫ| > 0, (4.53)
+where θ = arg F + arg Y1 − arg Z1 and γ as under Eq. (4.39). With s/r ≡ 4 u
+2/|ǫ|2
+, this
+becomes
+u − 1 > 0 (4.54)
+p(u) ≡ γ sin θ u3 − γ
+2 u2 + 1 > 0. (4.55)
+The polynomial p(u) has three real roots ui. We have p
+′
+(0) = 0, p
+′′(0) = −2γ2 < 0,
+p(0) = 1 > 0 and p(1) < 0. Therefore, if sin θ < 0, then u1 < u2 < 0 < u3 < 1 and p(u) < 0
+for u > 1, so the system of inequalities has no solutions. When sin θ < 0 on the other hand,
+we have u1 < 0 < u2 < 1 < u3, so the above system of inequalities boils down to
+u > u3 ≈ γ/ sin θ. (4.56)
+The latter approximation becomes exact in the extreme conifold limit γ → ∞, but is
+already very good for γ > 4 (error less than 0.5 %). This inequality together with the
+constraint L < L∗ implies |y|
+2 = r < ǫ
+2L∗ sin2 θ
+4γ
+2 , so the supersymmetry-breaking parameter
+F = |Y | is automatically less than ǫ
+√
+L∗/2γ. If we take the susy breaking cutoff F∗ greater
+than this number, the integral Eq. (4.1) becomes independent of F∗ and is given by
+N2,con,M>0 =
+Z
+d
+2
+τ d2v det g ν(v), (4.57)
+ν(v) = 16 π
+2|ǫ|
+2
+Z π
+0
+dθ Z ǫ
+2L∗ sin2 θ
+4γ2
+0
+dr Z L∗
+4γ2r
+ǫ2 sin2 θ
+ds rs (4.58)
+=
+3π
+2L4
+∗
+ǫ
+2
+128 γ
+4
+. (4.59)
+Up to logarithmic factors, this has the same dependence on v as the number of supersymmetric near-conifold vacua with M > 0, which according to Eq. (3.58) is given by
+νsusy(v) = 7 π
+2L4
+∗
+ǫ
+2
+8
+. (4.60)
+Nonsusy near-conifold vacua with M > 0 are sparser than their susy counterparts; their
+density ratio is 1/14γ
+4 ≪ 1.
+11This includes putting γ + O[1] ≈ γ. It is possible to keep terms of lower order in γ, but this only
+complicates the formulas without changing the essential features.
+– 35 –
+4.2.3 Distribution of cosmological constants in conifold limit
+The distribution of cosmological constants for M > 0 vacua near the conifold point is
+obtained by adding δ(V − Λ) to the integrand of Eq. (4.58), with V as given by Eq. (4.49):
+ν(v,Λ) = 16 π
+2|ǫ|
+2
+Z π
+0
+dθ Z ǫ
+2L∗ sin2 θ
+4γ2
+0
+dr Z L∗
+4γ2r
+ǫ2 sin2 θ
+ds rs δ(r −
+3ǫ
+2
+4
+s − Λ) (4.61)
+=
+16π
+2ǫ
+2
+
+4
+3ǫ
+2
+2 Z π
+0
+dθ Z M
+0
+dr r(r − Λ) (4.62)
+where M = min(−
+Λ sin2 θ
+3γ2 ,
+3ǫ
+2L∗
+4 + Λ,
+ǫ
+2L∗ sin2 θ
+4γ2 ). The first two entries in min(. . .) come from
+the integration boundaries of s. Since s > 0, M has to positive, and we get the following
+condition on Λ to get a nonzero result:
+−
+3ǫ
+2L∗
+4
+< Λ < 0. (4.63)
+In particular we see that the cosmological constant can only be negative for these vacua,
+so there are no meta-stable de Sitter vacua in the conifold region either. This is because
+the M > 0 condition forces the positive term in V to be smaller than the negative one.
+Under these conditions on Λ, we have in fact that M = −Λ sin2 θ
+3γ
+2 , except in a very small
+interval (width of order 1/γ2relative to Eq. (4.63)) near the lower bound on Λ. Outside
+that interval, the integral is therefore straightforward to compute and equal to
+ν(v,Λ) = 8π
+2
+27γ
+4
+
+Λ
+ǫ
+2
+3
+. (4.64)
+Inside the small boundary interval, the density quickly drops to zero.
+5. Finding vacua with quantized flux
+So far, we have been discussing the problem of finding the volume of the region in “flux
+space” which contains vacua, not the problem of counting physical vacua with quantized
+flux. This approximation was necessary at a very early stage, when we solved the conditions
+DW(z) = 0 or V
+′
+(z) = 0 for some of the fluxes in terms of the others, as at a generic point
+z in moduli space these conditions will have no solution with integer fluxes.
+Nevertheless, we can get results for the problem with quantized fluxes using these
+techniques. The approach will be to consider a region R in moduli space, and characterize the corresponding region SL in the “space of fluxes” R
+K which contains vacua with
+NηN/2 ≤ L. Since the number of flux vacua in this region of moduli space is the number
+of points with integral coordinates, i.e. points in SL ∩ Z
+K, we need ways to estimate this
+number from facts about the geometry of SL.
+The region S containing supersymmetric vacua is not hard to describe [1]. At a given
+point (z, τ ) in moduli space, the 2n + 2 = K/2 conditions 0 = NαReDiΠα = NαImDiΠα
+pick out a subspace Sz,τ
+∼= R
+K/2 of the space of fluxes. The region S is then the union of
+the individual Sz,τ for all values of moduli (z, τ ) ∈ R. One can show that the subspaces
+– 36 –
+vary transversally (the “non-degeneracy condition” of [1]) and thus this will fill out a Kdimensional region. Finally, the subset SL ⊂ S is obtained by imposing the additional
+constraint NηN ≤ /2L.
+It is clear that S is a cone; in other words λS ∼= S.
+S’
+S
+Figure 5: Two possible regions
+S and S
+′
+containing supersymmetric vacua in a K = 2 flux
+space. S contains many fewer
+quantized flux points at small L
+than its volume, while S
+′
+contains
+many more.
+Furthermore, for a small region R, the constraints DW =
+0 will not vary much, so one can think of S as roughly a
+cone over the product of a K/2−1-dimensional sphere (at
+fixed radius in R
+K/2
+) with a K/2-dimensional ball. Over
+a small region, the constraint NηN/2 ≤ L is not very
+different from a positive definite quadratic constraint, so
+SL is roughly the r ≤
+√
+L part of this cone.12 For example,
+for K = 2, one can have regions SL as pictured in figure
+5.
+Having characterized SL, our goal is to count how
+many lattice points it contains. The most basic estimate is
+of course that, if we make L sufficiently large, this number
+of lattice points will be well approximated by the volume
+of SL. Furthermore, it is intuitively clear (see [21], 2.iv
+for more precise statements) that the leading correction
+to this is proportional to the surface area of the boundary
+of SL, so for large L
+N(L) = L
+K/2V (S1) + LK/2−1/2A(S1) + O(LK/2−1/2−ǫ
+)
+(5.1)
+where V (S1) and A(S1) are the volume and surface area
+at L = 1.
+How big need L be to reach this scaling regime? In addition to the condition L
+K/2V (S1) >>
+1 for the region to contain many lattice points, one clearly needs
+√
+L >> A(S1)
+V (S1)
+(5.2)
+as well.
+To illustrate what happens for smaller values of L, consider the case of K = 2, and the
+two cones S and S
+′
+illustrated in figure 5. Cone S, misaligned with the lattice, does not
+contain any lattice points near the origin. On the other hand, cone S
+′
+, aligned with the
+lattice, contains roughly r =
+√
+L (positive) lattice points within a small distance r from
+the origin, far more than its volume V ∼ r
+2
+θ/2 (where θ is the opening angle).
+This phenomenon persists all the way out to rθ ∼ 1, at which point the two dimensional
+nature of the cones starts to be visible, and the estimate Eq. (5.1) becomes valid. This
+leads to the condition r > 1/θ. Since V (S1) = θ/2 while A(S1) ∼ 2, this is the same as
+Eq. (5.2).
+Now the quantity V (S1) is just the integrated vacuum density over the region R, and
+the quantity A(S1) can be computed as an integral over moduli space using the same
+12SL is however not convex, and the theorems of Minkowski and Mordell called upon in v1 of this paper
+are not applicable.
+– 37 –
+techniques. In the approximation that the vacuum density is just the volume form on
+moduli space, the surface area of the boundary will just be the surface area of the boundary
+in moduli space. Taking the region R to be a sphere in moduli space of radius r, we find
+A(S1)
+V (S1)
+∼
+√
+K
+r
+so the condition Eq. (5.2) becomes
+L > K
+r
+2
+. (5.3)
+Thus, if we consider a large enough region, or the entire moduli space in order to find
+the total number of vacua, the condition for the asymptotic vacuum counting formulas we
+have discussed in this work to hold is L > cK with some order one coefficient. But if we
+subdivide the region into subregions which do not satisfy Eq. (5.3), we will find that the
+number of vacua in each subregion will show oscillations around this central scaling. In
+fact, most regions will contain a smaller number of vacua (like S above), while a few should
+have anomalously large numbers (like S
+′ above), averaging out to Eq. (5.1).
+5.1 Flux vacua on rigid Calabi-Yau
+As an illustration of this, consider the following toy
+-0.5 0.5
+1
+2
+3
+Figure 6: Values of τ for rigid CY
+flux vacua with Lmax = 150.
+problem with K = 4, studied in [1]. The configuration
+space is simply the fundamental region of the upper
+half plane, parameterized by τ . The flux superpotentials are taken to be
+W = Aτ + B
+with A = a1 + ia2 and B = b1 + ib2 each taking values
+in Z+iZ. This would be obtained if we considered flux
+vacua on a rigid Calabi-Yau, with no complex structure
+moduli, b3 = 2, and the periods Π1 = 1 and Π2 = i.
+The tadpole condition NηN/2 ≤ L becomes
+ImA
+∗B ≤ L (5.4)
+One then has
+DW = 0 ↔ τ¯ = −
+B
+A
+. (5.5)
+Thus, it is very easy to find all the vacua and the value
+of τ at which they are stabilized in this problem. We
+first enumerate all choices of A and B satisfying the
+bound Eq. (5.4), taking one representative of each orbit
+of the SL(2,Z) duality group. As discussed in [1], this can be done by taking a2 = 0,
+0 ≤ b1 < a1 and a1b2 ≤ L. Then, for each choice of flux, we take the value of τ from
+Eq. (5.5) and map it into the fundamental region by an SL(2,Z) transformation. The
+resulting plot for L = 150 is shown in figure 6.
+– 38 –
+A striking feature of the figure is the presence of holes around points such as τ = ni
+with n ∈ Z. At the center of such holes, there is moreover a big degeneracy of vacua. For
+example there are 240 vacua at τ = 2i. This clearly illustrates the phenomena discussed
+above. Starting with a tiny disk D around τ = 2i, the corresponding cone in flux space
+is very narrow, but aligned with the lattice so it captures 240 points. For a somewhat
+displaced disk, the cone is not aligned with the lattice and captures no points. Increasing
+the radius of the disk makes the cone wider, and at a certain radius new lattice points
+enter.
+Despite the intricate structure of the finite L result, it is true that a disc of sufficiently
+large area A will contain approximately 2πAL2 vacua. This is illustrated for L = 150
+in figure 7, where estimated and real numbers of vacua are compared in discs around
+τ = 2i of stepwise increasing radius. Note that the first additional vacua enter the circle
+at a coordinate radius R ∼ 0.12, and that just beyond that radius, at R ∼ 0.15, the
+approximation becomes good. The corresponding radius in the proper metric is r ∼ 0.04.
+Since the holes around the integers clearly correspond to the worst case scenario for the
+estimate, we can thus conclude empirically that for L = 150, our estimate will be good
+when r > 0.04. Moreover, by comparing the results for different values of L, we found that
+the radii of the holes scale precisely as 1/
+√
+L. Thus, our empirical result for the reliability
+of the approximation is
+r >
+0.5
+√
+L
+,
+which is compatible with Eq. (5.3).
+0.1 0.2 0.3
+500
+1000
+1500
+2000
+2500
+Figure 7: Number of vacua in a circle of coordinate radius R around τ = 2i, with R increasing in
+steps dR = 0.01. Pink bars give the estimated value, green bars the actual value.
+6. Conclusions
+We gave general results for the distribution of supersymmetric and nonsupersymmetric flux
+vacua in type IIb string theory, and studied examples with one complex structure modulus
+– 39 –
+in detail. Let us conclude with a brief summary of the results, some comparisons to what
+one might expect intuitively, and questions for further work.
+A simplified picture of the results is that one can define an “average density of vacua”
+in the moduli space, which can be integrated over a region of interest and then multiplied
+by a “total number of allowed choices of flux,” to estimate the total number of vacua which
+stabilize moduli in that region. This estimate becomes exact in the limit of large flux,
+and should be good for flux satisfying the bounds discussed in section 5, say Eq. (5.3) for
+supersymmetric vacua.
+The zeroth approximation for the average density of vacua is the volume form on
+moduli space constructed from the metric which would appear in the effective supergravity
+kinetic term; explicitly if this is
+Smoduli =
+Z
+d
+4xGij (z)∂zi
+∂zj,
+then we find
+dµ(z) ∼ vol = (2πL)
+K/2
+(K/2)!
+1
+(πM2
+p
+)
+n
+p
+det G(z)d
+2n
+z
+in F theory and IIb flux compactification, with K ∼ B4 fluxes and tadpole bound L.
+Of course, the actual results we obtained were of course more complicated, depending
+not just on the metric but on curvatures and its derivatives. However it is still useful
+to think of this “zeroth approximation” as the basic estimate, because in most of moduli
+space the curvatures are proportional to the metric up to O(1) coefficients. In any case,
+this is the simplest distribution one can suggest which uses no data other than the effective
+theory itself, and is thus the “null hypothesis” in this class of problem.
+In comparing our actual results to this, perhaps the most striking difference is the
+growth of vacuum density in regions of large curvature, for example near conifold points.
+The simple physical explanation in this case is that we know that the structure of the
+potential, or equivalently the dual gauge theory description of the physics, can produce a
+hierarchically small scale Λ. Since the average spacing between vacua is expected to be Λ,
+we can fit more vacua into such a region.
+To make this quantitative, we need to understand the physics (or math) which makes
+the number of vacua finite. Here it is the tadpole condition, schematically AB = L where
+A, B are two conjugate types of flux, in dual terms controlling (say) the rank of the gauge
+group and the gauge coupling. A constraint AB = L translates a distribution dAdB into
+a scale invariant distribution L dA/A.
+In the large complex structure limit, the superpotential goes schematically as A+Bτ k
+for some power k = 1, 2, 3. This leads to vacua at τ
+k ∼ A/B, and the distribution
+dA/A translates into d
+2
+τ /Imτ
+2
+, taking into account supersymmetry which brings in the
+complexified modulus. Such a measure is naively scale invariant, and would lead to a
+diverging number of vacua. But, it is important that the integration region for Reτ is
+[0, 1), so in fact the distribution falls off for large Imτ and is integrable; the total number
+of vacua with |τ | > T goes as 1/T. One can also understand this as a consequence of
+– 40 –
+duality acting on the other fluxes, which leaves finitely many inequivalent choices (as in
+the toy example worked out in [1]).
+Near a conifold, while the flux distribution is again roughly L dA/A, the dual gauge
+theory-type superpotential W = Az + Bz log z leads to vacua at log z ∼ A/B which have
+a |d log log z|
+2 ∼ d2
+z/|z log z|
+2 distribution. In fact, the distribution is rather similar to the
+previous one, with the identification τ = − log z. Whether this has deep significance is not
+clear to us; the large complex structure limit and conifold limit are not dual and in other
+ways are not similar. But it means that the number of vacua N with a small scale z < e−T,
+has a similar slow falloff, N ∼ 1/T.
+In some sense, many vacua are “K¨ahler stabilized” – if the K¨ahler potential were
+different, they would not exist. An illustration can be found in figure 4. As usual, this is
+less true for small e
+K|W|2
+.
+In section 5, we discussed the nature of the finite L distribution of vacua. Because
+of flux quantization, this is far more complicated than the smooth distributions which we
+have been computing. On the other hand, one can say a lot about it using the smooth
+distributions and the methods we discussed. The basic idea is to think of the smooth
+distribution as computing a the volume of a region in flux space which supports vacua.
+Physical flux vacua satisfying flux quantization are lattice points in this region. While
+the volume of the region controls the large L asymptotics, its other characteristics and in
+particular its surface area control the corrections to these asymptotics.
+In particular, the smooth distribution will always approximate the finite L distribution
+for sufficiently large L. However, the mimimal L for this to be true depends on the size
+of the region in moduli space in which one is counting vacua, and can be estimated as
+L ∼ K/r2for a ball of radius r. Thus, the number of vacua in a small region can deviate
+from the large L distribution and even the L
+K/2 asymptotic for the total number of vacua,
+until L becomes quite large.
+Another way to say this is that at finite L, to get a smooth density, one must average
+the number of vacua over regions in moduli space of size r ∼
+p
+K/L. The actual number
+of vacua in smaller regions will show oscillations, with most regions having many fewer
+vacua, and a few having many more vacua to make up for this. We discussed the simplest
+example in section 5, and a one complex modulus example is discussed in [24].
+It is not inconceivable that these considerations could significantly decrease the total
+number of vacua in interesting examples with many cycles, if the geometric factors such
+as total volumes of Calabi-Yau moduli spaces were sufficiently small. Work on computing
+these volumes is in progress.
+Let us move on to consider the results for specific types of vacua. First, we give the “null
+hypotheses” or simplest pictures which one might expect. First, F-type nonsupersymmetric
+vacua should be comparable in number to the supersymmetric vacua (given our definitions,
+this is obvious for the D-type), up to factors like 2n where n is the number of moduli. A
+heuristic argument for this is that the potential V (z) is quadratic in W(z), so if W had
+been a polynomial of degree d, leading to (d − 1)n vacua, then V would be a polynomial of
+degree 2d, suggesting (2d−1)n vacua. On reflection, the main problem with this argument
+is that the equations V
+′ = 0 are real equations which typically have fewer than (2d − 1)n
+– 41 –
+solutions. Work on zeroes of randomly distributed polynomials with natural geometric
+distributions [19] suggests that in some cases, most zeroes are real, while in others there
+are many fewer real zeroes, so this is inconclusive. Finally, the metastability condition
+might be expected to be weak, in the sense that if the masses of bosons are distributed
+symmetrically about zero, the the fraction of tachyon free vacua would be 2−2n.
+In general, these expectations do hold, and the number of non-supersymmetric vacua
+is comparable to the supersymmetric vacua. However, the number of metastable nonsupersymmetric vacua falls off drastically near conifold points, or more generally if the curvature
+on moduli space becomes large. This is rather surprising as naively the curvature contribution to the mass matrix Eq. (1.8) goes the other way; the conifold point has positive
+curvature which raises the masses. The explanation for the D type vacua is not complicated; it has to do with the special form of the mass matrix which leads to a “mixing” with
+the dilaton-axion which forces a mode tachyonic, as explained in 3.1. Some experimenting
+with multimodulus models suggests that this phenomenon is specific to one modulus and
+the detailed form of this potential, again in the D breaking case. We observed the same
+phenomenon for the F breaking; it may have a similar explanation.
+We found in section 3.3 that the distribution of values of e
+K|W|2 or “AdS cosmological
+constants” is typically uniform near zero, so that the fraction of vacua with |Λ| < Λ∗
+behaves as Λ∗/LT3. A simple argument for this was mentioned in [16]: for a given value
+of moduli, the magnitude of W is a single direction in “flux space,” so the condition that
+it be small can be accomplished by one tuning of fluxes.
+However, the fact that this tuning can be made independent of the choice of moduli
+is non-trivial. In problems such as the attractor mechanism with only one type of flux or
+charge for each cycle, it is not true. The heterotic string also has one type of flux per cycle
+and is formally very similar; one cannot get small AdS cosmological constant just from
+fluxes in this case. Of course, there are many more variables having to do with the gauge
+fields, which might make small cosmological constant possible in this problem.
+The simple argument also misses a good deal of structure in the distribution; a good
+example is the behavior near the conifold point displayed in figure 4.
+The heuristic argument that “nonsupersymmetric vacua are as common as supersymmetric” actually has a precise realization here, in the existence of vacua with W = D2W =
+0. Since W = 0 these are probably of limited physical interest, in particular it is hard
+to see how to stabilize their volume moduli. Other nonsupersymmetric vacua exist and
+are also roughly comparable in number. Strangely enough, the conditions of metastability
+and positive effective cosmological constant were incompatible, at least in the conifold and
+large structure limits. If this were generally true, and true in multi-modulus models, it
+would appear quite important.
+Of course, all this was only a first cut at an actual counting of vacua. At this point
+it seems quite possible that many of the nonsupersymmetric vacua which are stable under
+variations of the moduli, have more subtle instabilities or inconsistencies. This would
+obviously be important to understand.
+The scenario in which the numbers we are computing would be most meaningful would
+be one in which such effects drastically reduced the number of vacua, but in a way which
+– 42 –
+was more or less uncorrelated to the distributions we studied. If we grant this, certain
+physical expectations would result. First, one finds that a high scale of supersymmetry
+breaking is favored (of course, this could be the scale in a hidden sector). This is already
+true in the D breaking vacua, for which at best the scale M4
+susy is uniformly distributed, and
+in some cases (e.g. near conifold points) even disfavors small values. While we did not find
+F breaking vacua with positive cosmological constant, this may be an artifact of the one
+modulus case (or of the special limits we considered). But a high susy breaking scale would
+be even more favored for F breaking vacua in models with many moduli, as one expects
+the many supersymmetry breaking parameters Fi = DiW to be roughly independent and
+uniformly distributed.
+The expectation that a high scale of supersymmetry breaking would lead to problems
+in tuning away the cosmological constant, favoring a low scale of breaking, is probably
+not true for these vacua. The point is that the contribution to the energy which does
+this tuning, the −3e
+K|W|2
+term or “AdS cosmological constant,” gets contributions from
+many sectors of the theory, including sectors with unbroken supersymmetry, and has no a
+priori correlation to the supersymmetry breaking scale. Given a particular supersymmetry
+breaking scale, this contribution is then set by the requirement that Λ ∼ 0, but since in
+general vacua exist with a uniform distribution of this parameter, this condition in itself
+does not favor any particular scale.
+Thus, these distributions seem to favor “moduli dominated gravity mediated supersymmetry breaking,” in the terminology of [9]. One has a general prediction of a large
+gravitino mass, and risks the common problems of supergravity mediated breaking, such
+as non-universal soft breaking terms. Perhaps this is less of a problem in the D breaking
+models.
+Finally, the moduli space measure (the metric on the space of metrics) heavily disfavors
+large complex structure and large volume in the many modulus models, as we will discuss
+in more depth in [11].
+Acknowledgements
+We thank B. Acharya, B. Florea, S. Kachru, R. Kallosh, G. Moore, B. Shiffman, S.
+Shenker, E. Silverstein, S. Thomas, P.M.H. Wilson, E. Witten, S.-T. Yau and S. Zelditch
+for discussions and correspondence. We particularly thank S. Kachru for communications
+regarding the work [24] in progress, which stimulated us to revise section 5.
+This research was supported in part by DOE grant DE-FG02-96ER40959. M.R.D. is
+supported by the Gordon Moore Distinguished Scholar program at Caltech.
+References
+[1] S. Ashok and M. R. Douglas, Counting Flux Vacua, JHEP 0401 (2004) 060
+[arXiv:hep-th/0307049]
+[2] P. S. Aspinwall and M. R. Douglas, D-brane stability and monodromy, JHEP 0205, 031
+(2002) [arXiv:hep-th/0110071].
+– 43 –
+[3] T. Banks, M. Dine and E. Gorbatov, Is There A String Theory Landscape,
+[arXiv:hep-th/0309170].
+[4] K. Behrndt, S. Gukov and M. Shmakova, Domain walls, black holes, and supersymmetric
+quantum mechanics, Nucl. Phys. B 601, 49 (2001) [arXiv:hep-th/0101119].
+[5] P. Binetruy, G. Dvali, R. Kallosh and A. Van Proeyen, Fayet-Iliopoulos terms in supergravity
+and cosmology, [arXiv:hep-th/0402046].
+[6] R. Bousso and J. Polchinski, “Quantization of four-form fluxes and dynamical neutralization
+of the cosmological constant,” JHEP 0006, 006 (2000) [arXiv:hep-th/0004134].
+[7] I. Brunner and K. Hori, “Orientifolds and Mirror Symmetry,” [arXiv:hep-th/0303135].
+[8] P. Candelas, X. C. De La Ossa, P. S. Green and L. Parkes, A Pair Of Calabi-Yau Manifolds
+As An Exactly Soluble Superconformal Theory, Nucl. Phys. B 359, 21 (1991).
+[9] D. J. H. Chung, L. L. Everett, G. L. Kane, S. F. King, J. Lykken and L. T. Wang, The soft
+supersymmetry-breaking Lagrangian: Theory and applications, to appear in Physics Reports,
+[arXiv:hep-ph/0312378].
+[10] F. Denef, B. R. Greene and M. Raugas, “Split Attractor Flows and the Spectrum of BPS
+D-branes on the Quintic,” JHEP 0105, 012 (2001) [arXiv:hep-th/0101135].
+[11] F. Denef and M. R. Douglas, to appear.
+[12] F. Denef, M. R. Douglas and B. Florea, to appear.
+[13] O. DeWolfe, S. Kachru and H. Verlinde, “The giant inflaton,” arXiv:hep-th/0403123.
+[14] M. R. Douglas, The statistics of string/M theory vacua. JHEP 0305 (2003) 046
+[arXiv:hep-th/0303194]
+[15] M. R. Douglas, B. Shiffman and S. Zelditch, Critical points and supersymmetric vacua,
+submitted to Comm. Math. Phys, [arXiv:math.CV/0402326].
+[16] M. R. Douglas, Statistics of String Vacua, to appear in the proceedings of the Workshop on
+String Phenomenology at Durham, UK, August 2003, [arXiv:hep-ph/0401004].
+[17] M. R. Douglas, Mastering N = 1, in the on-line proceedings of Strings 2002, Cambridge UK.
+[18] M. R. Douglas, D-Branes and N=1 Supersymmetry, in the proceedings of Strings 2001,
+Mumbai, India. [arXiv:hep-th/0105014].
+[19] A. Edelman and E. Kostlan, How many zeros of a random polynomial are real?, Bull. Amer.
+Math. Soc. (N.S.) 32 (1995) 1-37, [arXiv:math.CA/9501224].
+[20] A. R. Frey and J. Polchinski, N = 3 warped compactifications, Phys. Rev. D 65, 126009
+(2002) [arXiv:hep-th/0201029].
+[21] Geometry of Numbers, P. M. Gruber and C. G. Lekkerkerker, North-Holland, 1987.
+[22] S. B. Giddings, S. Kachru and J. Polchinski, Hierarchies from fluxes in string
+compactifications, Phys. Rev. D 66, 106006 (2002) [arXiv:hep-th/0105097].
+[23] A. Giryavets, S. Kachru, P. K. Tripathy and S. P. Trivedi, Flux compactifications on
+Calabi-Yau threefolds, arXiv:hep-th/0312104.
+[24] A. Giryavets, S. Kachru, P. K. Tripathy and S. P. Trivedi, to appear.
+– 44 –
+[25] T. W. Grimm and J. Louis, The effective action of N = 1 Calabi-Yau orientifolds,
+arXiv:hep-th/0403067.
+[26] S. Gukov, C. Vafa and E. Witten, CFT’s from Calabi-Yau four-folds, Nucl. Phys. B 584, 69
+(2000) [Erratum-ibid. B 608, 477 (2001)] [arXiv:hep-th/9906070].
+[27] S. Kachru, J. Pearson and H. Verlinde, “Brane/flux annihilation and the string dual of a
+non-supersymmetric field theory,” JHEP 0206, 021 (2002) [arXiv:hep-th/0112197].
+[28] S. Kachru, M. B. Schulz and S. Trivedi, Moduli stabilization from fluxes in a simple IIB
+orientifold, JHEP 0310, 007 (2003) [arXiv:hep-th/0201028].
+[29] S. Kachru, R. Kallosh, A. Linde and S. P. Trivedi, De Sitter vacua in string theory, Phys.
+Rev. D 68, 046005 (2003); [arXiv:hep-th/0301240].
+[30] G. W. Moore, “Arithmetic and attractors,” arXiv:hep-th/9807087.
+[31] A. Strominger, Superstrings with Torsion, Nucl. Phys. B274 (1986) 253.
+[32] E. Witten, On flux quantization in M-theory and the effective action, J. Geom. Phys. 22, 1
+(1997) [arXiv:hep-th/9609122].
+– 45 –

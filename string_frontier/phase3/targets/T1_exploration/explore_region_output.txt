@@ -1,0 +1,7 @@
+N=2: Dmax(a) = [(np.float64(-0.6), None), (np.float64(-0.4), None), (np.float64(-0.2), 60.0), (np.float64(0.0), 60.0), (np.float64(0.2), 19.778), (np.float64(0.4), 17.0), (np.float64(0.6), 18.19), (np.float64(0.8), 21.167), (np.float64(1.0), 26.0)]  argmax: (59.99999999994861, np.float64(-0.29999999999999993))
+N=6: Dmax(a) = [(np.float64(-0.6), None), (np.float64(-0.4), None), (np.float64(-0.2), 7.75), (np.float64(0.0), 10.0), (np.float64(0.2), 12.571), (np.float64(0.4), 15.532), (np.float64(0.6), 18.19), (np.float64(0.8), 21.167), (np.float64(1.0), 26.0)]  argmax: (26.000000000197815, np.float64(1.0))
+N=12: Dmax(a) = [(np.float64(-0.6), None), (np.float64(-0.4), None), (np.float64(-0.2), 7.75), (np.float64(0.0), 10.0), (np.float64(0.2), 12.571), (np.float64(0.4), 15.532), (np.float64(0.6), 18.19), (np.float64(0.8), 21.167), (np.float64(1.0), 26.0)]  argmax: (26.000000000197815, np.float64(1.0))
+N=20: Dmax(a) = [(np.float64(-0.6), None), (np.float64(-0.4), None), (np.float64(-0.2), 7.75), (np.float64(0.0), 10.0), (np.float64(0.2), 12.571), (np.float64(0.4), 15.532), (np.float64(0.6), 18.19), (np.float64(0.8), 21.167), (np.float64(1.0), 26.0)]  argmax: (26.000000000197815, np.float64(1.0))
+1.0 [(True, None), (True, None), (True, None)]
+1.001 [(False, 1), (False, 1), (False, 1)]
+1.01 [(False, 1), (False, 1), (False, 1)]
