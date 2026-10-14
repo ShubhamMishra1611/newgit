@@ -211,6 +211,14 @@
   + non-geometric Q,R fluxes (positive)        : late-time epsilon from ODE = [1. 1. 1. 1. 1.]  vs hull prediction gamma^2/2 = 1.0000
 
 ==========================================================================================
+3b. Pointwise statement: for all-positive V, |grad V|/V >= hull distance at EVERY field point
+==========================================================================================
+  IIA geometric (R6,H3,F0..F6 even,D4,D6,D8,NS5: min over 2e5 random (A_i>0, phi) of |grad V|/V = 1.6222  >= hull 1.6222
+  IIB geometric (R6,H3,F1,F3,F5,D3,D5,D7,D9,NS5: min over 2e5 random (A_i>0, phi) of |grad V|/V = 1.6036  >= hull 1.6036
+  closed forms: IIB min = sqrt(18/7) = 1.603567 (eps = 9/7), IIA min = sqrt(50/19) = 1.622214 (eps = 25/19)
+  sympy: dist(0, line[R6,D9]) = 3*sqrt(14)/7 ; dist(0, line[R6,F0]) = 5*sqrt(38)/19
+
+==========================================================================================
 4. Comparison with bounds and with DESI DR2 exponential quintessence (2504.04226)
 ==========================================================================================
   TCC 2/sqrt((d-1)(d-2)) [1909.11063]                            gamma = 0.8165:  (gamma - 0.698)/0.173 = +0.68 sigma   [Omega_K free: (gamma-0.722)/0.182 = +0.52]

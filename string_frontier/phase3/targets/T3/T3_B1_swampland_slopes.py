@@ -464,6 +464,33 @@ for g in ("IIA geometric (R6,H3,F0..F6 even,D4,D6,D8,NS5)", "IIB geometric (R6,H
     d = res1[g][0]
     print(f"  {g[:45]:45s}: late-time epsilon from ODE = {np.round(finals,4)}  vs hull prediction gamma^2/2 = {d*d/2:.4f}")
 
+hdr("3b. Pointwise statement: for all-positive V, |grad V|/V >= hull distance at EVERY field point")
+# -grad V / V = sum_i p_i k_i with p_i = A_i e^{-k_i.phi}/V >= 0, sum p_i = 1, i.e. a point of conv{k_i}.
+rng3 = np.random.default_rng(5)
+for g in ("IIA geometric (R6,H3,F0..F6 even,D4,D6,D8,NS5)", "IIB geometric (R6,H3,F1,F3,F5,D3,D5,D7,D9,NS5)"):
+    names = groups[g]
+    K = np.array([cat[n]["k"] for n in names])
+    worst = np.inf
+    for trial in range(200000):
+        lnA = rng3.normal(scale=8.0, size=len(names))
+        phi = rng3.normal(scale=10.0, size=2)
+        e = lnA - K @ phi
+        e -= e.max()
+        p = np.exp(e); p /= p.sum()
+        worst = min(worst, np.linalg.norm(p @ K))
+    print(f"  {g[:45]:45s}: min over 2e5 random (A_i>0, phi) of |grad V|/V = {worst:.4f}  >= hull {res1[g][0]:.4f}")
+gam_IIB = sp.sqrt(sp.Rational(18, 7)); gam_IIA = sp.sqrt(sp.Rational(50, 19))
+print(f"  closed forms: IIB min = sqrt(18/7) = {float(gam_IIB):.6f} (eps = 9/7), IIA min = sqrt(50/19) = {float(gam_IIA):.6f} (eps = 25/19)")
+# exact check of the closed forms via sympy line distance
+def line_dist(k1, k2):
+    k1 = sp.Matrix(k1); k2 = sp.Matrix(k2)
+    d = k2 - k1
+    return sp.simplify(sp.Abs(k1[0] * d[1] - k1[1] * d[0]) / sp.sqrt(d.dot(d)))
+kR = [sp.sqrt(sp.Rational(2, 3)), sp.sqrt(2)]
+kD9 = [-sp.Rational(3, 2) * sp.sqrt(sp.Rational(2, 3)), 3 / sp.sqrt(2)]
+kF0 = [-3 * sp.sqrt(sp.Rational(2, 3)), 2 * sp.sqrt(2)]
+print(f"  sympy: dist(0, line[R6,D9]) = {line_dist(kR, kD9)} ; dist(0, line[R6,F0]) = {line_dist(kR, kF0)}")
+
 hdr("4. Comparison with bounds and with DESI DR2 exponential quintessence (2504.04226)")
 lam, up, dn = 0.698, 0.173, 0.202   # abstract of 2504.04226 (Omega_K = 0)
 lamK, upK, dnK = 0.722, 0.182, 0.208

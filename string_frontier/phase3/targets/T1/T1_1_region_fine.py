@@ -62,6 +62,6 @@ while a <= amax:
         f"{(best5[0] if best5 else float('inf')):16.6f} at {best5[1] if best5 else '-'} | {last}")
     a += fmpq(1, den)
 log(f"time {time.time()-t0:.1f}s")
-tag = f"fine_c{c}_N{NMAX}" + (f"_delta{str(delta).replace('/','over')}" if delta != 0 else "")
+tag = f"c{c}_N{NMAX}" + (f"_delta{str(delta).replace('/','over')}" if delta != 0 else "")
 with open(__file__.replace('.py', f'_{tag}_output.txt'), 'w') as f:
     f.write("\n".join(out) + "\n")

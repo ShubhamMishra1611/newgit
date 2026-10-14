@@ -1,0 +1,5 @@
+
+c=0, a=-1/3: D_max = 6.400000000 set by (level 3, spin 0);  exact check: all spins of levels <= 60 nonnegative at D=32/5 (6.400000): True
+   min_(n>=6) D_crit(n) = 7.081113 at n=7;  D_crit(n) at n=10,20,..: [(10, 7.597), (20, 8.138), (30, 8.514), (40, 8.799), (50, 9.029), (60, 9.222)]
+   daughter trajectories Delta=n_top-j (n>=6): min D_crit = D2:27.882@n10, D3:9.362@n6, D4:8.792@n6, D5:7.379@n6, D6:7.332@n6, D7:7.081@n7, D8:7.462@n8, D9:7.299@n9, D10:7.597@n10, D11:7.479@n11, D12:7.723@n12, D13:7.633@n13
+   time 2.6s
