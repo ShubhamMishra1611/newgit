@@ -32,31 +32,31 @@ The honest yield is smaller and real. These items survived independent adversari
    - The pole-sum formula for the celestial four-gluon open-superstring amplitude in Stieberger–Taylor, arXiv:1806.05688, eqs. (3.30)/(3.31), is wrong: it drops the u-channel poles.
    - Their small-angle claim (corrections O(r^{β−1})) is false for Re β < 1, which includes the physical line β ∈ iℝ. The same claim is repeated in arXiv:2405.01643 eq. (3.7).
    - A corrected closed form matches direct integration to ≤10⁻¹⁷.
-   - Three separate agents converged on this: the Front-B mapper found it, reviewer R1 diagnosed and corrected it, and a second referee RB4 re-derived everything with different methods. No published correction was found. (§5.5, `phase4/R1_verdicts.md`, `phase4/RB4_verdicts.md`)
+   - Three separate agents converged on this: the Front-B mapper found it, reviewer R1 diagnosed and corrected it, and a second referee RB4 re-derived everything with different methods. No published correction was found. (§5.4, `phase4/R1_verdicts.md`, `phase4/RB4_verdicts.md`)
 
 2. **A sign-convention error in the dual-amplitude bootstrap literature.**
    - Below the two-particle threshold, Gegenbauer positivity must be imposed on ρ_j = c_j/κ^j, not on c_j.
    - A healthy real-coupled massive vector below threshold has c₁ < 0.
    - Three published papers impose c_j ≥ 0 (2201.12331 eqs. 13–14, 2302.12263, 2403.00906). Their cut at m² ≤ 1/3 is therefore an artifact, and the unitarity region extends further.
-   - Reviewer RT1 VERIFIED this and found no published correction. (§5.2)
+   - Reviewer RT1 VERIFIED this and found no published correction. (§5.1)
 
 3. **Exact unitarity boundaries for Veneziano-type amplitudes.**
    - Open strings with intercept a and external states on the leading trajectory: the allowed region is −21/29 < a ≤ 1, 3 < D ≤ D_max(a), with an exact four-piece algebraic boundary. Its unique maximal-D point is the critical bosonic string (a, D) = (1, 26).
    - The superstring-type family has the analogous corner at (0, 10).
    - These are numerical results to level 100, not a proof for all levels. The qualitative corner was already visible in published figures. The exact boundary, the sub-threshold extension and the parity lemma are new as far as we found.
-   - Closed strings and freely varying external masses show **no** such corner. So four-point unitarity alone does **not** select the critical string. (§5.2)
+   - Closed strings and freely varying external masses show **no** such corner. So four-point unitarity alone does **not** select the critical string. (§5.1)
 
 4. **An exact form of a published numerical observation.**
    - Footnote 14 of 2102.08951 says the type-II four-dilaton residues are "experimentally" Gegenbauer-positive for D ≤ 24.148…
-   - The exact value is the real root of 22D³ + 109D² − 10602D − 117329 = 0, i.e. D = 24.14788648641709770…, set by level 4, spin 4. VERIFIED by RT1. (§5.2)
+   - The exact value is the real root of 22D³ + 109D² − 10602D − 117329 = 0, i.e. D = 24.14788648641709770…, set by level 4, spin 4. VERIFIED by RT1. (§5.1)
 
 5. **Explicit control failures of the 2024 KKLT de Sitter candidates (2406.13751), from the authors' public data.**
    - In the warped-throat EFT, the conifold modulus of all five representative vacua has no minimum once the anti-D3 is added. The BDGL bound g_sM² ≳ 46 is missed by factors 2.75–3.9.
    - This survives a full convention audit, but it is conditional on an off-shell warp-factor assumption that is itself debated.
    - The uplift strongly backreacts on the dilaton and complex-structure sector.
-   - Other T2 claims were downgraded to known (the α′² KPV loss of control at g_sM ≈ 1, the conifold mass ≈ 0.5 m_wKK) or FAILED (a "yield/efficiency" comparison). (§5.3)
+   - Other T2 claims were downgraded to known (the α′² KPV loss of control at g_sM ≈ 1, the conifold mass ≈ 0.5 m_wKK) or FAILED (a "yield/efficiency" comparison). (§5.2)
 
-6. **Λ selection (T3).** [filled in §5.4 after review]
+6. **Λ selection (T3).** [filled in §5.3 after review]
 
 **Reproductions** (sanity checks and Phase 1 checks), all re-verified by reviewers:
 - D = 26 four independent ways, including BRST: Q² ∝ Σ_m[(c−26)(m³−m)/12 − 2m(A+1)] c₋ₘcₘ.
@@ -100,7 +100,7 @@ The honest yield is smaller and real. These items survived independent adversari
 | T2.5 | Lüst–Randall extrapolation S/S0 ≈ 0.8 | OUR ATTEMPT (labelled crude) | PLAUSIBLE | same |
 | T2.6 | α′²-KPV: control lost at g_sM ≈ 1 | OUR ATTEMPT | VERIFIED-KNOWN; robust number is the tension correction 5.924/(g_sM)² = 5.4–10.7 | same |
 | T2.7 | dS window vs flux steps; "74–114 of 396 expected vs 5 found" | OUR ATTEMPT | **FAILED** (ill-posed comparison) | same |
-| T3.* | Λ selection: see §5.4 | OUR ATTEMPT | see §5.4 | `phase3/targets/T3`, `phase4/RT3_*` |
+| T3.* | Λ selection: see §5.3 | OUR ATTEMPT | see §5.3 | `phase3/targets/T3`, `phase4/RT3_*` |
 | E1 | Planar λ-family excluded by SUSY nonlinear relations except at λ=1 | OUR ATTEMPT | **FAILED** (overclaim: needs the 6-scalar parity assumption of 2601.11705v2; corollary of 2610.02124) | `phase1/E_checks`, `phase4/R2_*` |
 | E2–E5 | LP g̃₃ ≥ −10.612487; α_min^IIB = 0.138949, α_min^IIA = 0.140260; E_{3/2}(ρ) = 8.892745; VS expansion; λ-family (g̃₃, g̃₄) | ESTABLISHED reproduced / OUR ATTEMPT | VERIFIED | same |
 | A1 | D0 one-loop series 15/16, 0, 9009/4096, ∓182325/16384 | reproduction | **FAILED (minor)**: v¹⁰ sign mislabelled (Euclidean vs Minkowski) | `phase1/A_code`, `phase4/R1_*` |
@@ -120,7 +120,94 @@ The honest yield is smaller and real. These items survived independent adversari
 
 ## 2. Frontier map (Phase 1)
 
-FRONTIER_MAP_PLACEHOLDER
+Five parallel agents mapped the fronts. The full maps, with verified arXiv IDs and equation numbers where they were read, are in `phase1/`. Each agent verified 25–45 IDs by fetching the abstract page.
+
+### A. Non-perturbative formulations (BFSS, IKKT, closed SFT, M-theory): `phase1/A_nonperturbative.md`
+
+**State of the art**
+- **ESTABLISHED.**
+  - BFSS at finite N is DLCQ M-theory (Susskind; Seiberg; Sen).
+  - Eikonal two-graviton checks hold: 15/16·v⁴/r⁷ at one loop and 225/64·v⁶/r¹⁴ at two loops (hep-th/9706072 eq. 13).
+  - Lattice simulations reproduce E/N² = 7.41 T^{14/5}, but only in the IIA/'t Hooft regime.
+  - Closed SFT is perturbatively complete and unitary. Hyperbolic vertices plus a 2024 recursion fix all interactions from the cubic one.
+  - M-theory has a non-perturbative definition only in AdS or DLCQ settings, e.g. the ABJM Airy-function partition function.
+- **CONJECTURE.**
+  - The flat-space large-N BFSS limit at non-zero longitudinal momentum transfer.
+  - Lorentzian IKKT emergent (3+1)-d expansion: the 2011 result was a Pauli-matrix artifact, and the 2026 version needs mass and anisotropy deformations.
+  - Steinacker's emergent Einstein–Hilbert action.
+  - SFT background independence beyond local.
+
+**Sharpest open questions**
+1. Does the large-N BFSS 2→2 amplitude with longitudinal momentum exchanged equal the 11d supergravity amplitude?
+2. Does Lorentzian IKKT have a regulator-free phase with three non-Pauli-like growing directions?
+3. Does hyperbolic closed SFT have a finite-distance, zero-action vacuum with empty cohomology?
+
+### B. Holography beyond AdS (dS/CFT, DSSYK, celestial/Carrollian): `phase1/B_holography_beyond_AdS.md`
+
+**State of the art**
+- **ESTABLISHED.**
+  - The exact one-loop sphere partition functions (2009.12464).
+  - The Type II₁ observer algebra in dS (2206.10780).
+  - Tree-level w₁₊∞ (2105.14346).
+  - Self-dual top-down flat-space duals (2208.14233).
+- **CONJECTURE.**
+  - dS/CFT has only non-unitary or partial examples.
+  - In dS₃, a matrix-integral match to pure gravity (2501.01486).
+  - DSSYK ↔ dS has three competing dictionaries.
+  - Whether dS entropy is a positive state count is contested (2412.14014 vs 2511.01400).
+
+**Sharpest open questions**
+1. Can a microscopic model reproduce the one-loop dS₄ entropy as a real, positive count?
+2. Does doubled DSSYK match the dS₃ propagator at O(λ)?
+3. Is there a top-down flat-space dual containing non-self-dual Einstein gravity?
+
+### C. Vacuum selection (landscape counting, swampland): `phase1/C_vacuum_selection.md`
+
+**Theorems, each with its scope**
+- Harlow–Ooguri: no global symmetries, completeness and compactness. Proven within AdS/CFT only (1810.05337/05338).
+- Finiteness of F-theory flux vacua at bounded tadpole: complex structure on one fixed CY₄ (2112.06995).
+- Finding a Bousso–Polchinski vacuum with a target Λ is NP-complete (hep-th/0602072).
+- 10d string universality (1006.1352).
+
+**Conjectures**
+- The full swampland program: WGC, Distance and Emergent String, dS/refined-dS/TCC, tadpole, cobordism, festina lente, and the dark dimension.
+- The DESI DR2 exponential-quintessence fit gives λ = 0.698 (+0.17/−0.20) (2504.04226).
+
+**Sharpest open questions**
+1. Does controlled metastable dS exist, outliving the TCC bound?
+2. Does any controlled asymptotic region have slope < √2 in d = 4?
+3. Is the discretuum's Λ distribution flat near 0, the flat prior Weinberg needs?
+
+### D. dS vacua (KKLT, LVS, criticisms): `phase1/D_dS_vacua.md`
+
+**State of the art**
+- **ESTABLISHED (leading order).** Explicit KKLT dS vacua (2406.13751: 5 compactifications, 30 vacua) and LVS constructions (2010.15903, 2206.12889).
+- **Contested on four fronts.**
+  - Anti-D3/KPV control at g_sM ≈ 1.
+  - Conifold destabilization: g_sM² ≳ 46 (1809.06861), disputed by Lüst–Randall (2206.04708).
+  - Odd flux quanta in CY orientifolds.
+  - Warping corrections. 2512.17995 calls KKLT "effectively uncontrollable with current methods" and finds LVS corrections volume-suppressed.
+
+**Sharpest open questions**
+1. What are the true anti-D3 and conifold thresholds at the candidates' parameters?
+2. Are odd fluxes allowed?
+3. Is there an LVS geometry where every control inequality holds within a known tadpole?
+
+### E. S-matrix bootstrap: `phase1/E_bootstrap.md`
+
+**State of the art**
+- **ESTABLISHED.** Every "string = unique solution" theorem has one UV-shaped input not derived from IR consistency:
+  - level truncation (2406.02665, 2408.03362);
+  - ultrasoftness plus minimal zeros (2508.09246);
+  - monodromy or splitting (2605.11084);
+  - maximal SUSY plus multi-point factorization (2601.11705, 2610.02124);
+  - for gravity, finite spin at the first massive level (2607.14230).
+- **ESTABLISHED (numerical).** String theory sits inside the allowed regions, not at a kink: 0 ≤ g₀M⁶/8πG ≤ 3 vs 2ζ(3) ≈ 2.40 (2102.08951 eqs. 3.41–3.42), and α_min ≈ 0.13 ± 0.02 vs 0.1389 (2102.02847 eq. 10).
+
+**Sharpest open questions**
+1. Can the infinite-spin-tower corner in gravity be excluded without assuming finite spin?
+2. Is α_min = 0.138949 exactly?
+3. Do the surviving 4-point deformations extend to consistent 5- and 6-point amplitudes?
 
 ---
 
@@ -189,7 +276,7 @@ All code and outputs are in `phase3/sanity/`. R1 and R2 independently re-derived
 
 ## 5. Target computations (Phase 3) and their review
 
-### 5.2 T1: unitarity corners (`phase3/targets/T1/T1_report.md`; review `phase4/RT1_verdicts.md`)
+### 5.1 T1: unitarity corners (`phase3/targets/T1/T1_report.md`; review `phase4/RT1_verdicts.md`)
 
 **Setup.**
 - A = Γ(−α_s)Γ(−α_t)/Γ(−α_s−α_t − c), with α(s) = a + s.
@@ -221,7 +308,7 @@ All code and outputs are in `phase3/sanity/`. R1 and R2 independently re-derived
 
 **What T1 means for mission (1).** Four-point tree-level unitarity puts the critical open string at a corner *only* with an additional physical input (externals on the leading trajectory). It does not do so for closed strings. This is the same pattern as Front E's finding that every uniqueness proof has one UV-shaped input. **The "unitarity alone selects the string" hope FAILED** in the form we could test.
 
-### 5.3 T2: stress test of the 2406.13751 KKLT dS candidates (`phase3/targets/T2/T2_report.md`; review `phase4/RT2_verdicts.md`)
+### 5.2 T2: stress test of the 2406.13751 KKLT dS candidates (`phase3/targets/T2/T2_report.md`; review `phase4/RT2_verdicts.md`)
 
 **Data and baselines.**
 - Data: paper Table 2, plus the authors' public repository output. The repository pickle was decoded with a no-execution stub reader into `data_extracted_data_dS.json`; the raw file is not redistributed.
@@ -239,11 +326,11 @@ All code and outputs are in `phase3/sanity/`. R1 and R2 independently re-derived
 - Under the warped-throat description of the conifold, which is the one debated in the literature, they fail. The verdict therefore hinges on an unresolved modelling question (the off-shell warp factor), not on numerics.
 - This sharpens the open question. It does not close it.
 
-### 5.4 T3: Λ selection head-to-head (`phase3/targets/T3/T3_report.md`; review `phase4/RT3_verdicts.md`)
+### 5.3 T3: Λ selection head-to-head (`phase3/targets/T3/T3_report.md`; review `phase4/RT3_verdicts.md`)
 
 T3_PLACEHOLDER
 
-### 5.5 The celestial-amplitude error (Phase 1 discovery → Phase 4 confirmation)
+### 5.4 The celestial-amplitude error (Phase 1 discovery → Phase 4 confirmation)
 
 **Setup** (1806.05688).
 - F_I(s,u) = Γ(1−s)Γ(1−u)/Γ(1−s−u) (eq. 3.10).
@@ -280,7 +367,7 @@ Every reviewer wrote independent code before reading ours (`phase4/*_code/`). Th
 - **D1.** The dS-window edges were log-grid points, not exact edges.
 - **A1.** The v¹⁰/r¹⁹ coefficient is +182325/16384 in the stated (Minkowski) convention.
 - **T2.7.** A flux step in K′ alone breaks the tadpole. The window was calibrated on the survivors. The Ξ distribution of the 396 is unknown. One flux choice (Ex4) contains 22 vacua. So the "yield/efficiency" comparison carries no information.
-- **T3 failures:** see §5.4.
+- **T3 failures:** see §5.3.
 
 **Downgraded for novelty (VERIFIED-KNOWN):** A2, T1.7, T2.4, T2.6 (and T2.2's mechanism); T1.4 and T1.6 are overclaimed.
 
@@ -291,17 +378,17 @@ Every reviewer wrote independent code before reading ours (`phase4/*_code/`). Th
 **Mission (1): non-perturbative definition outside AdS.** Untouched at the level of the definition.
 - What we have:
   - (i) Four-point unitarity does not by itself single out the string (T1). Any S-matrix-based definition needs extra input: higher-point factorization, a spectrum assumption, or monodromy.
-  - (ii) One published celestial-holography formula is corrected (§5.5).
+  - (ii) One published celestial-holography formula is corrected (§5.4).
 - Concrete next computations, from the Phase 1 handles:
   - the three-loop D0 v⁸/r²¹ test, with general N₁, N₂;
   - a Lorentzian IKKT "Pauli index" diagnostic;
   - the closed-SFT tachyon–dilaton coupling against −27/32;
   - O(λ) DSSYK vs dS₃;
-  - celestial Virasoro–Shapiro, using the corrected method of §5.5.
+  - celestial Virasoro–Shapiro, using the corrected method of §5.4.
 
 **Mission (2): vacuum selection.**
 - Existence of controlled dS is still open. T2 shows the best candidates fail a debated-but-standard warped-throat criterion.
-- For Λ: see §5.4.
+- For Λ: see §5.3.
 - No selection principle has been derived. The live options and what each hinges on are mapped in Front C and T3.
 
 ---
